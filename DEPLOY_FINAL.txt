@@ -1,0 +1,67 @@
+MARKTRISIKO-KOMPASS PRO – FINAL CLEAN RELEASE
+
+DIESES PAKET IST DER BEREINIGTE, KONSISTENTE GESAMTSTAND.
+
+ENTHALTEN
+- index.html
+- documentation.html
+- invest-check.html
+- facts-figures.html
+- manifest.json
+- data/latest.json
+- data/pro_schema.json
+- data/facts_figures.json
+- data/facts_figures_schema.json
+- scripts/fetch_data.py
+- scripts/fetch_facts_figures.py
+- .github/workflows/update-market-data.yml
+
+WARUM DIESER STAND
+- gleiche Navigation auf allen 4 Seiten
+- TickerTape auf allen 4 Seiten
+- Facts & Figures überall verlinkt
+- Dashboard ohne ausgelagerte Signal-/Preset-Blöcke
+- Invest-Check mit den Info-Tooltips
+- Facts & Figures mit den Info-Tooltips und dem reparierten QQQ-Chart
+- Workflow aktualisiert latest.json und facts_figures.json im gleichen 4h-Rhythmus
+
+IN GITHUB ERSETZEN
+- /index.html
+- /documentation.html
+- /invest-check.html
+- /facts-figures.html
+- /scripts/fetch_data.py
+- /scripts/fetch_facts_figures.py
+- /.github/workflows/update-market-data.yml
+
+MIT HOCHLADEN / BEIBEHALTEN
+- /manifest.json
+- /data/latest.json
+- /data/pro_schema.json
+- /data/facts_figures.json
+- /data/facts_figures_schema.json
+
+ZIELSTRUKTUR
+
+repo-root/
+├─ index.html
+├─ documentation.html
+├─ invest-check.html
+├─ facts-figures.html
+├─ manifest.json
+├─ DEPLOY_FINAL.txt
+├─ data/
+│  ├─ latest.json
+│  ├─ pro_schema.json
+│  ├─ facts_figures.json
+│  └─ facts_figures_schema.json
+├─ scripts/
+│  ├─ fetch_data.py
+│  └─ fetch_facts_figures.py
+└─ .github/
+   └─ workflows/
+      └─ update-market-data.yml
+
+WICHTIG
+- FRED_API_KEY muss unter Settings → Secrets and variables → Actions gesetzt sein.
+- latest.json und facts_figures.json sind Seed-Dateien, bis der Workflow einmal sauber gelaufen ist.

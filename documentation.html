@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hilfe & Doku · Marktrisiko-Kompass PRO</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,400;9..144,500&display=swap" rel="stylesheet" />
+  <style>
+    :root{--bg:#0f1722;--panel:rgba(255,255,255,.04);--panel2:rgba(255,255,255,.03);--border:rgba(255,255,255,.08);--text:#edf3fb;--text2:#c5d4e4;--text3:#8fa7c0;--blue:#8fc4ff;--blue-bg:rgba(143,196,255,.14);--shadow:0 20px 60px rgba(0,0,0,.22);--radius:22px;--font:'Inter',system-ui,sans-serif;--serif:'Fraunces',Georgia,serif;--green:#53d39f;--amber:#f6ba62;--red:#ff7a7a;--green-bg:rgba(83,211,159,.14);--amber-bg:rgba(246,186,98,.14);--red-bg:rgba(255,122,122,.14)}
+    *{box-sizing:border-box}body{margin:0;font-family:var(--font);background:radial-gradient(circle at top, rgba(79,123,179,.18), transparent 36%),linear-gradient(180deg,#0d1520,#121c29 30%,#111926 100%);color:var(--text)}a{color:inherit}
+    .topbar{position:sticky;top:0;z-index:50;background:rgba(14,22,32,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--border)}.topbar-inner{max-width:1180px;margin:0 auto;padding:14px 20px;display:flex;justify-content:space-between;align-items:center;gap:16px}.brand{display:flex;align-items:center;gap:12px;text-decoration:none}.brand-mark{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:rgba(255,255,255,.06);border:1px solid var(--border);font-size:20px}.brand-over{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--text3)}.brand-name{font-size:18px;font-weight:700}.nav{display:flex;gap:10px;flex-wrap:wrap}.nav a{padding:10px 14px;border:1px solid var(--border);border-radius:999px;text-decoration:none;background:rgba(255,255,255,.04);font-size:13px;color:var(--text2)}.nav a:hover,.nav a.active{background:var(--blue-bg);color:var(--text)}
+    #ticker-wrap{position:sticky;top:71px;z-index:90;background:rgba(18,28,41,.88);backdrop-filter:blur(14px);border-bottom:1px solid var(--border);display:flex;align-items:center;min-height:40px;overflow:hidden}
+    .ticker-badge{flex-shrink:0;padding:0 16px;color:var(--text3);font-size:10px;letter-spacing:.18em;text-transform:uppercase;border-right:1px solid var(--border);min-height:40px;display:flex;align-items:center;background:rgba(255,255,255,.03)}
+    .ticker-viewport{flex:1;overflow:hidden;position:relative}.ticker-viewport:before,.ticker-viewport:after{content:'';position:absolute;top:0;bottom:0;width:34px;z-index:2;pointer-events:none}.ticker-viewport:before{left:0;background:linear-gradient(to right, rgba(18,28,41,1), transparent)}.ticker-viewport:after{right:0;background:linear-gradient(to left, rgba(18,28,41,1), transparent)}
+    .ticker-track{display:flex;align-items:center;white-space:nowrap;animation:ticker-scroll 24s linear infinite}.ticker-track:hover{animation-play-state:paused}@keyframes ticker-scroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+    .ticker-item{display:inline-flex;align-items:center;gap:8px;padding:0 18px;font-size:12px;min-height:40px}.tk-icon{font-size:15px}.tk-label{color:var(--text2)}.tk-val{font-weight:600}.tk-unit{color:var(--muted);font-size:10px}.tk-up{color:var(--green)}.tk-dn{color:var(--red)}.tk-neu{color:var(--text3)}.tk-stale{color:var(--text3);padding:0 18px;min-height:40px;display:flex;align-items:center}
+
+    .page{max-width:1180px;margin:0 auto;padding:28px 20px 50px}.card{background:linear-gradient(180deg, rgba(255,255,255,.045), rgba(255,255,255,.025));border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);padding:24px}.card + .card{margin-top:16px}.kicker{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--text3);margin-bottom:12px}.title{margin:0;font-family:var(--serif);font-size:clamp(34px,5vw,58px);line-height:1.02;letter-spacing:-.04em;max-width:none}.lead{margin:16px 0 0;color:var(--text2);font-size:16px;line-height:1.8;max-width:70ch}.section-title{margin:0 0 12px;font-family:var(--serif);font-size:32px;line-height:1.1}.card p,.card li{color:var(--text2);font-size:15px;line-height:1.85}.card ul{margin:0;padding-left:20px}.grid{display:grid;gap:16px}.grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}.grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}.mini{padding:18px;border-radius:18px;background:var(--panel2);border:1px solid rgba(255,255,255,.06)}.mini h3{margin:0 0 8px;font-size:16px}.mini p{margin:0;color:var(--text2);font-size:14px;line-height:1.75}.chip{display:inline-block;margin:4px 8px 0 0;padding:8px 11px;border-radius:999px;border:1px solid var(--border);background:rgba(255,255,255,.04);font-size:12px;color:var(--text2)}.pill{display:inline-block;margin-bottom:10px;padding:7px 10px;border-radius:999px;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--border)}.l{background:var(--green-bg);color:var(--green)}.m{background:var(--amber-bg);color:var(--amber)}.h{background:var(--red-bg);color:var(--red)}table{width:100%;border-collapse:collapse;margin-top:8px}th,td{padding:14px 0;border-top:1px solid var(--border);vertical-align:top;text-align:left;color:var(--text2);font-size:14px;line-height:1.75}th{width:28%;color:var(--text)}code{padding:2px 6px;border-radius:6px;border:1px solid var(--border);background:rgba(255,255,255,.05)}details{border-top:1px solid var(--border);padding-top:12px;margin-top:12px}summary{cursor:pointer;font-weight:700}
+    @media (max-width:860px){.grid-2,.grid-3{grid-template-columns:1fr}.page,.topbar-inner{padding-left:16px;padding-right:16px}.card{padding:18px}.title{max-width:none}th,td{display:block;width:auto;padding:10px 0}.table-row{display:block;padding:8px 0}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="./index.html"><div class="brand-mark">🧭</div><div><div class="brand-over">PRO · GitHub Pages</div><div class="brand-name">Marktrisiko-Kompass</div></div></a>
+      <nav class="nav">
+        <a href="./index.html">Dashboard</a>
+        <a href="./invest-check.html">Invest-Check</a>
+        <a href="./facts-figures.html">Facts &amp; Figures</a>
+        <a class="active" href="./documentation.html">Hilfe &amp; Doku</a>
+      </nav>
+    </div>
+  </header>
+
+  <div id="ticker-wrap"><div class="ticker-badge">Live-Marktband</div><div class="ticker-viewport"><div class="ticker-track" id="ticker-track"><span class="tk-stale">Lade Ticker…</span></div></div></div>
+
+  <main class="page">
+    <section class="card">
+      <div class="kicker">PRO Hilfe & Onboarding</div>
+      <h1 class="title">Die PRO-Version erklärt nicht nur Zahlen, sondern die Logik dahinter.</h1>
+      <p class="lead">Der Marktrisiko-Kompass PRO ist ein ruhiges Orientierungssystem für Privatanleger. Er bündelt Marktphase, Szenarien und Verhaltensrahmen im Dashboard. Alles, was mehr Einordnung braucht – Signalqualität, Presets, Handlungsmatrix und vertiefende Erklärungen – liegt bewusst hier in der Dokumentation.</p>
+      <div><span class="chip">Marktphase</span><span class="chip">Szenarien</span><span class="chip">Signalqualität</span><span class="chip">Presets</span><span class="chip">Handlungsmatrix</span><span class="chip">Invest-Check</span><span class="chip">Facts &amp; Figures</span></div>
+    </section>
+
+    <section class="card">
+      <h2 class="section-title">So liest du das Dashboard sinnvoll</h2>
+      <div class="grid grid-2">
+        <div class="mini"><h3>1. Oben mit der Gesamtphase starten</h3><p>Die Hero-Zone zeigt zuerst, wie geordnet oder angespannt das Umfeld derzeit wirkt. Sie ist der Einstieg, nicht die Detailanalyse.</p></div>
+        <div class="mini"><h3>2. Danach die Szenarien lesen</h3><p>Szenario A, B und C sind konkurrierende Marktpfade. Entscheidend ist nicht nur die Prozentzahl, sondern auch: Was stützt sie und wie verändert sich ihre Dynamik?</p></div>
+        <div class="mini"><h3>3. Makroindikatoren als Begründung lesen</h3><p>Die Indikatoren sind keine isolierten Kauf- oder Verkaufssignale. Sie erklären, warum die Marktphase so gelesen wird.</p></div>
+        <div class="mini"><h3>4. Handlungsrahmen zuletzt lesen</h3><p>Der Handlungs- und Investitionsrahmen übersetzt die Daten in praktisches Verhalten. Er ist bewusst neutral formuliert und keine individuelle Anlageberatung.</p></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 class="section-title">Bedeutung für Anleger</h2>
+      <div class="grid grid-2">
+        <div class="mini"><span class="pill l">Normalphase</span><p>Die Datenlage wirkt geordnet. Das bedeutet nicht „risikofrei“, aber Marktstress ist nicht das dominierende Thema.</p></div>
+        <div class="mini"><span class="pill m">Erhöhte Vorsicht</span><p>Mehrere Signale verschlechtern sich. Das Umfeld wird anspruchsvoller und verzeiht emotionale Entscheidungen weniger gut.</p></div>
+        <div class="mini"><span class="pill m">Defensivere Haltung sinnvoll</span><p>Mehrere Risikosignale laufen in dieselbe Richtung. Robustheit, Puffer und saubere Umsetzung nach Regelwerk werden wichtiger.</p></div>
+        <div class="mini"><span class="pill h">Hohes Stressniveau</span><p>Das Umfeld ist klar fragiler. Timing-Fehler, Überreaktionen und zu aggressive Einzelwetten werden gefährlicher.</p></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 class="section-title">Handlungsmatrix</h2>
+      <div class="grid grid-2">
+        <div class="mini"><h3>Was die Matrix leisten soll</h3><p>Sie gibt einen Verhaltensrahmen, keinen Trade-Call. Sie soll sagen, wie vorsichtig oder konstruktiv man die Lage lesen sollte – nicht welches konkrete Wertpapier du kaufen oder verkaufen sollst.</p></div>
+        <div class="mini"><h3>Warum das wichtig ist</h3><p>Viele Fehler entstehen nicht aus fehlenden Daten, sondern aus falscher Reaktion auf Daten. Die Matrix soll genau diese Reaktionsfehler reduzieren.</p></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 class="section-title">Signalqualität & Vertrauenslogik</h2>
+      <div class="grid grid-3">
+        <div class="mini"><h3>Frühwarnsignal</h3><p>Kann Spannungen früh anzeigen, ist allein aber noch kein belastbarer Beweis für eine echte Trendverschiebung.</p></div>
+        <div class="mini"><h3>Bestätigungssignal</h3><p>Zeigt, dass eine Entwicklung bereits Substanz gewonnen hat. Diese Signale verdienen mehr Vertrauen als reine Frühwarnungen.</p></div>
+        <div class="mini"><h3>Kontext- / Begleitsignal</h3><p>Hilft beim Gesamtbild, sollte aber nicht isoliert interpretiert werden.</p></div>
+      </div>
+      <p>Die Vertrauenslogik fragt vereinfacht: Zahlen mehrere Indikatoren in dieselbe Richtung? Ist die Bewegung stabil oder nur ein Ausreißer? Ist der Datenstand frisch genug? Genau daraus entsteht die Belastbarkeit der aktuellen Lesart.</p>
+    </section>
+
+    <section class="card">
+      <h2 class="section-title">Presets & Leselogiken</h2>
+      <div class="grid grid-3">
+        <div class="mini"><h3>Defensiver Anleger</h3><p>Gewichtet Stress, Rezessionssignale und Bestätigung stärker. Diese Lesebrille reagiert früher auf Verschlechterungen.</p></div>
+        <div class="mini"><h3>Ausgewogener Anleger</h3><p>Das Standardprofil. Es balanciert Makro, Markt und Stress ohne besondere Schieflage.</p></div>
+        <div class="mini"><h3>Opportunistischer Anleger</h3><p>Interpretiert kurzfristige Ausschläge zurückhaltender und sucht eher nach Überreaktionen statt nach sofortigem Rückzug.</p></div>
+        <div class="mini"><h3>Langfristiger ETF-Anleger</h3><p>Fokussiert stärker auf Phase und Disziplin als auf Tagesrauschen. Für diese Lesart ist die Kontinuität laufender Umsetzung meist wichtiger.</p></div>
+        <div class="mini"><h3>Einkommens- / Dividendenanleger</h3><p>Beobachtet Zinsen, Stress und Konjunktur sensibler, weil diese drei Felder die Qualität laufender Ausschüttungen stärker beeinflussen können.</p></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 class="section-title">Wie die Szenarien entstehen</h2>
+      <p>Die Szenarien sind keine Glaskugel. Sie sind eine regelbasierte Gewichtung der aktuellen Datenlage. Inflation, Zinsen, Rezessionsanzeichen, Marktverlauf, Stimmung, Stressindikatoren und der globale Layer schieben das Bild in Richtung eines plausibleren Pfads.</p>
+      <table>
+        <tr><th>Szenario A</th><td>Spricht für eine länger belastete Marktphase mit zäherem Druck.</td></tr>
+        <tr><th>Szenario B</th><td>Steht für eine zähe Zwischenphase: nicht geordnet, aber auch kein kompletter Strukturbruch.</td></tr>
+        <tr><th>Szenario C</th><td>Steht eher für einen begrenzten, besser beherrschbaren Stresspfad.</td></tr>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2 class="section-title">Makroindikatoren in einfacher Sprache</h2>
+      <table>
+        <tr><th>Inflation</th><td>Misst den Preisdruck. Wichtig, weil Inflation Kaufkraft, Zinsen und Bewertungen beeinflusst.</td></tr>
+        <tr><th>Fed Rate</th><td>Zeigt, wie restriktiv kurzfristiges Geld in den USA ist. Hohe Werte bedeuten tendenziell mehr Gegenwind.</td></tr>
+        <tr><th>Rezessionssignal</th><td>Kombiniert ein trägeres Rezessionsmodell mit einem schnelleren Arbeitsmarkt-Proxy. Das ist eher Frühwarnung plus Bestätigungskontrolle als ein einzelner harter Schalter.</td></tr>
+        <tr><th>S&amp;P 500 YTD</th><td>Zeigt, ob der Markt bereits spürbar Risiko verarbeitet hat oder noch erstaunlich stabil wirkt.</td></tr>
+        <tr><th>Sentiment</th><td>Stimmung ist kein perfekter Krisenindikator, aber ein nützlicher Begleiter für Nachfrage und Vorsicht.</td></tr>
+        <tr><th>Trade Stress</th><td>Verdichtet VIX, Öl, Renditen und Währungseinfluss zu einem Stress-Proxyscore. Das ist eher ein Umfeldsignal als ein isolierter Trigger.</td></tr>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2 class="section-title">Invest-Check: wofür die zweite Seite gedacht ist</h2>
+      <p>Der Invest-Check ist kein Spielzeug, sondern ein Umsetzungsmodul. Er trennt zwischen Sparplan und Einmalanlage und übersetzt die aktuelle Marktphase in einen praxisnahen Rahmen. Er ist regelbasiert, datengetrieben und bewusst keine personalisierte Anlageberatung.</p>
+      <div class="grid grid-2">
+        <div class="mini"><h3>Sparplan</h3><p>Kontinuität, Disziplin und Laufzeit stehen im Vordergrund. Timing spielt hier meist eine kleinere Rolle als bei Einmalanlagen.</p></div>
+        <div class="mini"><h3>Einmalanlage</h3><p>Hier sind Timing-Risiko, Staffelung, Umfeldstress und Puffer relevanter. Deshalb ist der Check strenger.</p></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 class="section-title">Häufige Verständnisfragen</h2>
+      <details open><summary>Gibt das Produkt konkrete Kauf- oder Verkaufsempfehlungen?</summary><p>Nein. Es gibt einen Handlungsrahmen und eine neutrale Marktphasen-Lesung. Die konkrete Depotentscheidung bleibt beim Nutzer.</p></details>
+      <details><summary>Warum können Daten älter aussehen?</summary><p>Weil nicht alle Reihen täglich erscheinen. Einige Daten kommen nur monatlich, quartalsweise oder jährlich.</p></details>
+      <details><summary>Warum sind Presets keine Handlungsempfehlung?</summary><p>Weil sie nur zeigen, wie verschiedene Nutzertypen dieselbe Lage leicht anders lesen könnten. Sie ersetzen kein persönliches Anlagekonzept.</p></details>
+    </section>
+  </main>
+<script>
+
+    function renderTicker(data){
+      const track=document.getElementById('ticker-track'); if(!track) return;
+      const items=(data?.ticker&&Array.isArray(data.ticker)&&data.ticker.length?data.ticker:[]);
+      const fallback = items.length ? items : [];
+      if(!fallback.length){ track.innerHTML='<span class="tk-stale">Keine Tickerdaten verfügbar</span>'; return; }
+      const html=fallback.map(x=>{
+        const chg = typeof x.chgPct==='number' ? x.chgPct : null;
+        const cls = chg==null ? 'tk-neu' : chg>0 ? 'tk-up' : chg<0 ? 'tk-dn' : 'tk-neu';
+        const sign = chg!=null && chg>0 ? '+' : '';
+        const val = x.val ?? x.latest ?? '—';
+        const unit = x.unit || '';
+        return `<span class="ticker-item"><span class="tk-icon">${x.icon||'•'}</span><span class="tk-label">${x.label||x.name||'—'}</span><span class="tk-val">${val}</span>${unit?`<span class="tk-unit">${unit}</span>`:''}${chg!=null?`<span class="${cls}">${sign}${chg.toFixed(2)}%</span>`:''}</span>`;
+      }).join('');
+      track.innerHTML = html + html;
+    }
+    async function loadTicker(){
+      try{
+        const data = await fetch('./data/latest.json', {cache:'no-store'}).then(r=>r.json());
+        renderTicker(data);
+      }catch(e){
+        const track=document.getElementById('ticker-track'); if(track) track.innerHTML='<span class="tk-stale">Ticker derzeit nicht verfügbar</span>';
+      }
+    }
+
+loadTicker();
+</script>
+</body>
+</html>
