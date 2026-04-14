@@ -1,0 +1,76 @@
+{
+  "generatedAt": "1970-01-01T00:00:00+00:00",
+  "meta": {
+    "schemaVersion": "1.0",
+    "sourceSummary": [
+      "latest.json",
+      "Stooq",
+      "FRED",
+      "Multpl",
+      "CurrentMarketValuation",
+      "Google News RSS"
+    ]
+  },
+  "marketStatus": {
+    "phase": {
+      "title": "Lade…",
+      "status": "Die Marktphase wird automatisch berechnet."
+    },
+    "vix": {
+      "title": "Lade…",
+      "status": "Die VIX-Lesart wird automatisch berechnet."
+    },
+    "breadth": {
+      "title": "Lade…",
+      "status": "Die Marktbreite wird automatisch berechnet."
+    }
+  },
+  "overallMode": {
+    "title": "Lade…",
+    "status": "Die Gesamtlesart wird automatisch berechnet."
+  },
+  "technicalTriggers": [],
+  "valuation": [],
+  "macro": [],
+  "sentiment": {
+    "marketMood": "Lade…",
+    "tags": [],
+    "risks": []
+  },
+  "geopolitics": [],
+  "marketBottomProbability": {
+    "title": "Market Bottom Probability",
+    "score": 0,
+    "scoreLabel": "0 %",
+    "reason": "Lade…",
+    "interpretation": "Lade…"
+  },
+  "crashProbability": {
+    "title": "Crash Probability",
+    "score": 0,
+    "scoreLabel": "0 %",
+    "reason": "Lade…",
+    "interpretation": "Lade…"
+  },
+  "timingQuality": {
+    "title": "Timing-Qualität",
+    "score": 0,
+    "scoreLabel": "Zu früh 0 % · Optimal 0 % · Zu spät 0 %",
+    "reason": "Lade…",
+    "interpretation": "Lade…"
+  },
+  "updateTriggers": {
+    "positive": [],
+    "refresh": []
+  },
+  "timeVsTiming": {
+    "timeInMarket": "Lade…",
+    "marketTiming": "Lade…",
+    "summary": "Lade…"
+  },
+  "charts": {
+    "qqq": [],
+    "vix": [],
+    "brent": []
+  }
+}
