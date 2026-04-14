@@ -1,0 +1,456 @@
+{
+  "fetchedAt": "1970-01-01T00:00:00+00:00",
+  "meta": {
+    "schemaVersion": "4.0-pro",
+    "source": "FRED + Google News RSS",
+    "notes": {
+      "reload": "Das Dashboard lädt nur data/latest.json neu. Frische Daten kommen, wenn GitHub Actions diese Datei überschreibt.",
+      "cadence": "Langsame Reihen können monatlich, quartalsweise oder jährlich kommen. Das Dashboard zeigt deshalb Datenstand und Takt getrennt.",
+      "news": "Die Nachrichten sind ein kompakter Marktkontext und keine Anlageempfehlung.",
+      "productUse": "Der Marktrisiko-Kompass dient der Einordnung von Marktphasen. Er ersetzt keine Anlageberatung."
+    },
+    "language": "de"
+  },
+  "indicators": {
+    "inflation": {
+      "value": 0,
+      "date": "",
+      "cadence": "monthly",
+      "series": "CPIAUCSL",
+      "uiLabel": "Inflation",
+      "shortText": "Preisauftrieb im Jahresvergleich.",
+      "tooltip": "Wichtig für Zinsen, Bewertungen und Kaufkraft.",
+      "longText": "Inflation misst, wie stark das allgemeine Preisniveau steigt. Für Anleger ist sie wichtig, weil sie Zinspolitik, Kaufkraft und Margen beeinflussen kann.",
+      "criticalWhen": "Kritischer bei hartnäckig hohem oder erneut steigendem Preisdruck.",
+      "interpretation": "Wichtiger Umfeldtreiber, aber allein selten das ganze Bild.",
+      "signalRole": "companion",
+      "confidence": "medium"
+    },
+    "fedRate": {
+      "value": 0,
+      "date": "",
+      "cadence": "daily",
+      "series": "EFFR",
+      "displayName": "Effective Federal Funds Rate",
+      "uiLabel": "US-Leitzinsniveau",
+      "shortText": "Grad des restriktiven Zinsumfelds.",
+      "tooltip": "Relevant für Finanzierungskosten und Bewertungen.",
+      "longText": "Das US-Zinsniveau wirkt auf Kreditkosten, Liquidität und Bewertungsniveaus. Es bestätigt eher ein Umfeld, als dass es es sehr früh ankündigt.",
+      "criticalWhen": "Kritischer, wenn hohe Zinsen länger als erwartet bestehen bleiben.",
+      "interpretation": "Eher Bestätigung eines strafferen Umfelds.",
+      "signalRole": "confirmation",
+      "confidence": "high"
+    },
+    "recProb": {
+      "value": 0,
+      "date": "",
+      "cadence": "monthly",
+      "series": "RECPROUSM156N",
+      "fastProxy": {
+        "label": "Sahm Rule",
+        "value": 0,
+        "date": "",
+        "series": "SAHMCURRENT"
+      },
+      "uiLabel": "Rezessionswahrscheinlichkeit",
+      "shortText": "Schätzung einer konjunkturellen Abschwächung.",
+      "tooltip": "Hilft, Konjunkturrisiken früher zu sehen.",
+      "longText": "Die Rezessionswahrscheinlichkeit verdichtet Konjunktursignale zu einer Schätzung. Der Sahm-Rule-Wert ist ein schneller Nebenindikator und sollte nicht isoliert gelesen werden.",
+      "criticalWhen": "Kritischer bei steigender Tendenz und Bestätigung durch weitere Makrosignale.",
+      "interpretation": "Frühwarnung mit mittlerer Belastbarkeit.",
+      "signalRole": "early_warning",
+      "confidence": "medium",
+      "tooltipExtra": {
+        "recProb": "RECPROUSM156N ist ein modellbasierter Rezessionsindikator. Er zeigt nicht, dass eine Rezession sicher kommt, sondern wie stark das Modell eine konjunkturelle Abschwächung einpreist.",
+        "sahmRule": "Die Sahm Rule ist ein schneller Arbeitsmarkt-Frühindikator. Sie reagiert früher, ist aber allein kein fertiges Krisensignal."
+      }
+    },
+    "sp500": {
+      "ytd": 0,
+      "first": 0,
+      "latest": 0,
+      "date": "",
+      "cadence": "daily",
+      "series": "SP500",
+      "uiLabel": "S&P 500 seit Jahresbeginn",
+      "shortText": "Breites Marktverhalten im laufenden Jahr.",
+      "tooltip": "Nützlich zur Bestätigung von Marktstress.",
+      "longText": "Der S&P 500 zeigt, wie Risikoappetit, Gewinnerwartungen und Bewertung am Aktienmarkt zusammenspielen. Häufig eher Folge als Ursache eines schlechteren Umfelds.",
+      "criticalWhen": "Kritischer bei deutlichen Rückgängen mit Bestätigung durch andere Indikatoren.",
+      "interpretation": "Gut für Intensität und Bestätigung, aber kein Frühsignal.",
+      "signalRole": "confirmation",
+      "confidence": "medium"
+    },
+    "sentiment": {
+      "value": 0,
+      "date": "",
+      "cadence": "monthly",
+      "series": "UMCSENT",
+      "uiLabel": "Verbraucherstimmung",
+      "shortText": "Stimmungsbild der Verbraucher.",
+      "tooltip": "Hilft bei der Einordnung des Konsumumfelds.",
+      "longText": "Die Verbraucherstimmung zeigt, wie optimistisch oder vorsichtig Konsumenten ihre Lage sehen. Sie kann schnell schwanken und ist daher vor allem ein Kontextsignal.",
+      "criticalWhen": "Kritischer, wenn schwache Stimmung mit harten Schwächesignalen zusammenfällt.",
+      "interpretation": "Hilfreich, aber leicht überinterpretierbar.",
+      "signalRole": "context",
+      "confidence": "low"
+    },
+    "tradeStress": {
+      "value": 0,
+      "label": "Entspannt",
+      "date": "",
+      "cadence": "daily",
+      "method": "proxy",
+      "components": {
+        "vix": 0,
+        "brent": 0,
+        "eurusd": 0,
+        "us10y": 0
+      },
+      "uiLabel": "Marktstress",
+      "shortText": "Verdichteter Stressmesser aus Markt- und Preisvariablen.",
+      "tooltip": "Schneller Spannungsmesser, aber nicht perfekt.",
+      "longText": "Der Marktstress-Index bündelt VIX, Brent, EUR/USD, US-10Y und Marktverhalten. Er ist nützlich, um Spannungen schnell zu sehen, reagiert aber auch auf kurzfristiges Rauschen.",
+      "criticalWhen": "Kritischer bei anhaltend erhöhten Werten und Bestätigung durch Makrosignale.",
+      "interpretation": "Frühwarnsignal mit bewusst begrenzter Scheingenauigkeit.",
+      "signalRole": "early_warning",
+      "confidence": "medium"
+    }
+  },
+  "globalComposite": {
+    "value": 0,
+    "label": "Stabil",
+    "date": ""
+  },
+  "regions": {
+    "europe": {
+      "name": "Europa",
+      "score": 0,
+      "label": "Stabil",
+      "date": "",
+      "summary": "",
+      "driverText": "",
+      "inflation": {
+        "value": 0,
+        "date": "",
+        "unit": "%",
+        "cadence": "monthly",
+        "series": "CP0000EZ19M086NEST"
+      },
+      "growthOrRate": {
+        "label": "ECB Einlagezins",
+        "value": 0,
+        "date": "",
+        "unit": "%",
+        "cadence": "daily",
+        "series": "ECBDFR"
+      },
+      "fx": {
+        "label": "EUR/USD",
+        "value": 0,
+        "date": "",
+        "unit": "",
+        "cadence": "daily",
+        "series": "DEXUSEU"
+      }
+    },
+    "japan": {
+      "name": "Japan",
+      "score": 0,
+      "label": "Stabil",
+      "date": "",
+      "summary": "",
+      "driverText": "",
+      "inflation": {
+        "value": 0,
+        "date": "",
+        "unit": "%",
+        "cadence": "annual",
+        "series": "JPNPCPIPCPPPT"
+      },
+      "growthOrRate": {
+        "label": "BIP-Wachstum YoY",
+        "value": 0,
+        "date": "",
+        "unit": "%",
+        "cadence": "quarterly",
+        "series": "JPNRGDPEXP"
+      },
+      "fx": {
+        "label": "JPY pro USD",
+        "value": 0,
+        "date": "",
+        "unit": "",
+        "cadence": "daily",
+        "series": "DEXJPUS"
+      }
+    },
+    "china": {
+      "name": "China",
+      "score": 0,
+      "label": "Stabil",
+      "date": "",
+      "summary": "",
+      "driverText": "",
+      "inflation": {
+        "value": 0,
+        "date": "",
+        "unit": "%",
+        "cadence": "annual",
+        "series": "CHNPCPIPCPPPT"
+      },
+      "growthOrRate": {
+        "label": "BIP-Wachstum",
+        "value": 0,
+        "date": "",
+        "unit": "%",
+        "cadence": "annual",
+        "series": "CHNGDPRAPSMEI"
+      },
+      "fx": {
+        "label": "CNY pro USD",
+        "value": 0,
+        "date": "",
+        "unit": "",
+        "cadence": "daily",
+        "series": "DEXCHUS"
+      }
+    }
+  },
+  "ticker": [],
+  "history": {
+    "inflation": [],
+    "fedRate": [],
+    "recProb": [],
+    "sp500": [],
+    "sentiment": [],
+    "tradeStress": []
+  },
+  "news": [],
+  "product": {
+    "name": "Marktrisiko-Kompass",
+    "version": "PRO",
+    "claim": "Verständliche Markt- und Risikosignale für Privatanleger – klar, regelbasiert und ohne Terminal-Overload."
+  },
+  "signalFramework": {
+    "roles": [
+      {
+        "key": "early_warning",
+        "label": "Frühwarnsignal",
+        "description": "Kann früh Spannungen anzeigen, ist allein aber noch keine saubere Bestätigung."
+      },
+      {
+        "key": "confirmation",
+        "label": "Bestätigungssignal",
+        "description": "Bestätigt eine Entwicklung eher, als dass es sie früh ankündigt."
+      },
+      {
+        "key": "companion",
+        "label": "Begleitindikator",
+        "description": "Hilft beim Gesamtverständnis, trägt das Urteil aber nicht allein."
+      },
+      {
+        "key": "context",
+        "label": "Kontextsignal",
+        "description": "Dient vor allem der Einordnung und sollte nicht isoliert gelesen werden."
+      }
+    ],
+    "confidenceLevels": [
+      {
+        "key": "low",
+        "label": "Niedrigere Belastbarkeit",
+        "description": "Eher fragil, stark schwankend oder nur schwach bestätigt."
+      },
+      {
+        "key": "medium",
+        "label": "Mittlere Belastbarkeit",
+        "description": "Brauchbar, aber am besten im Zusammenspiel mit weiteren Signalen."
+      },
+      {
+        "key": "high",
+        "label": "Höhere Belastbarkeit",
+        "description": "Über mehrere Datenpunkte oder mehrere Indikatoren gestützt."
+      }
+    ]
+  },
+  "scenarios": [
+    {
+      "id": "A",
+      "title": "Basisszenario: stabile Marktphase",
+      "probability": 63,
+      "summary": "Wachstum bleibt grundsätzlich intakt, während Belastungsfaktoren überschaubar bleiben.",
+      "supportedBy": [
+        "Marktstress bleibt begrenzt",
+        "Rezessionsrisiko wirkt noch nicht dominant",
+        "Aktienmarkt zeigt bisher keine klare Eskalation",
+        "Preisdruck ist erhöht, aber nicht extrem"
+      ],
+      "probabilityChange": {
+        "direction": "up",
+        "label": "steigt",
+        "reason": "Die Wahrscheinlichkeit steigt, weil das Gesamtbild trotz einzelner Belastungen noch nicht breit eskaliert."
+      },
+      "investorMeaning": "Für Anleger spricht dieses Bild eher für Disziplin und Einordnung als für hektische Reaktionen."
+    },
+    {
+      "id": "B",
+      "title": "Zwischenszenario: erhöhte Vorsicht",
+      "probability": 22,
+      "summary": "Das Umfeld wird anspruchsvoller. Stresssignale nehmen zu, ohne bereits ein klares Eskalationsbild zu erzeugen.",
+      "supportedBy": [
+        "Verbraucherstimmung stützt das Bild nicht klar"
+      ],
+      "probabilityChange": {
+        "direction": "stable",
+        "label": "stabil",
+        "reason": "Die Wahrscheinlichkeit bleibt stabil, weil Vorsichtssignale sichtbar sind, aber keine klare Richtungsbeschleunigung zeigen."
+      },
+      "investorMeaning": "Für Anleger steigen Nüchternheit, Pufferdenken und Regelorientierung an Bedeutung."
+    },
+    {
+      "id": "C",
+      "title": "Stressszenario: defensivere Marktphase",
+      "probability": 15,
+      "summary": "Mehrere belastende Signale greifen gleichzeitig ineinander und erhöhen die Wahrscheinlichkeit einer klaren Risk-off-Phase.",
+      "supportedBy": [],
+      "probabilityChange": {
+        "direction": "down",
+        "label": "fällt",
+        "reason": "Die Wahrscheinlichkeit fällt, weil die Belastung nachlässt oder keine breite Bestätigung findet."
+      },
+      "investorMeaning": "Für Anleger wäre dieses Bild ein Hinweis auf erhöhte emotionale Disziplin und vorsichtigere Interpretation von Risiken."
+    }
+  ],
+  "hero": {
+    "phase": {
+      "label": "Normalphase",
+      "score": 0.0,
+      "summary": "Die Signallage wirkt insgesamt geordnet. Einzelne Belastungen dominieren das Gesamtbild noch nicht.",
+      "interpretation": "Der Monitor liefert derzeit eher Orientierung als Alarm.",
+      "actionMatrixKey": "normal"
+    },
+    "statusLine": {
+      "dataAsOf": "1970-01-01T00:00:00+00:00",
+      "updateCadence": "Gemischt: täglich bis jährlich",
+      "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
+    }
+  },
+  "actionMatrix": {
+    "normal": {
+      "title": "Normalphase",
+      "description": "Die Datenlage wirkt geordnet.",
+      "interpretation": "Signal und Lärm sauber trennen.",
+      "neutralConsequence": "Fokus auf Regelwerk und Langfristigkeit."
+    },
+    "caution": {
+      "title": "Erhöhte Vorsicht",
+      "description": "Mehrere Signale verschlechtern sich.",
+      "interpretation": "Die Aufmerksamkeit steigt.",
+      "neutralConsequence": "Risikobewusstsein und Liquiditätsklarheit werden wichtiger."
+    },
+    "defensive": {
+      "title": "Defensivere Haltung sinnvoll",
+      "description": "Die Belastung wird breiter sichtbar.",
+      "interpretation": "Das Umfeld wirkt weniger fehlertolerant.",
+      "neutralConsequence": "Robustheit und Puffer gewinnen an Bedeutung."
+    },
+    "stress": {
+      "title": "Hohes Stressniveau",
+      "description": "Mehrere Signalarten bestätigen eine schwierige Phase.",
+      "interpretation": "Emotionale Fehler werden wahrscheinlicher.",
+      "neutralConsequence": "Priorität auf Stabilität, Disziplin und nüchterne Lesart."
+    }
+  },
+  "presets": [
+    {
+      "key": "defensiv",
+      "label": "Defensiver Anleger",
+      "description": "Gewichtet Stress und Konjunkturschwäche höher.",
+      "weights": {
+        "tradeStress": 1.2,
+        "recProb": 1.2,
+        "fedRate": 1.1,
+        "sentiment": 1.0,
+        "sp500": 0.9,
+        "inflation": 1.0
+      }
+    },
+    {
+      "key": "ausgewogen",
+      "label": "Ausgewogener Anleger",
+      "description": "Balanciertes Standardprofil.",
+      "weights": {
+        "tradeStress": 1.0,
+        "recProb": 1.0,
+        "fedRate": 1.0,
+        "sentiment": 1.0,
+        "sp500": 1.0,
+        "inflation": 1.0
+      }
+    },
+    {
+      "key": "opportunistisch",
+      "label": "Opportunistischer Anleger",
+      "description": "Weniger Übergewicht auf kurzfristige Ausschläge.",
+      "weights": {
+        "tradeStress": 0.9,
+        "recProb": 1.0,
+        "fedRate": 1.0,
+        "sentiment": 0.9,
+        "sp500": 0.8,
+        "inflation": 1.0
+      }
+    },
+    {
+      "key": "etf_langfristig",
+      "label": "Langfristiger ETF-Anleger",
+      "description": "Fokussiert stärker auf Marktphase als auf Tagesrauschen.",
+      "weights": {
+        "tradeStress": 0.9,
+        "recProb": 1.1,
+        "fedRate": 1.0,
+        "sentiment": 0.8,
+        "sp500": 0.8,
+        "inflation": 1.0
+      }
+    },
+    {
+      "key": "dividende",
+      "label": "Einkommens- und Dividendenanleger",
+      "description": "Beobachtet Zinsen und Stress etwas sensibler.",
+      "weights": {
+        "tradeStress": 1.1,
+        "recProb": 1.1,
+        "fedRate": 1.1,
+        "sentiment": 0.9,
+        "sp500": 0.9,
+        "inflation": 1.0
+      }
+    }
+  ],
+  "onboarding": {
+    "title": "So liest du den Marktrisiko-Kompass",
+    "steps": [
+      {
+        "title": "1. Gesamtphase",
+        "text": "Zuerst die Gesamtphase lesen, nicht einzelne Ausschläge."
+      },
+      {
+        "title": "2. Szenarien",
+        "text": "Danach prüfen, welches Szenario aktuell gestützt wird und warum."
+      },
+      {
+        "title": "3. Signalqualität",
+        "text": "Erst dann Rollen- und Belastbarkeitslogik der Einzelindikatoren lesen."
+      },
+      {
+        "title": "4. Kontext sauber einordnen",
+        "text": "Nachrichten und Einzelwerte liefern Kontext, nicht automatisch Handlungsdruck."
+      }
+    ]
+  },
+  "disclaimer": {
+    "short": "Der Marktrisiko-Kompass dient der Einordnung von Marktphasen und ist keine Anlageberatung.",
+    "long": "Dieses Produkt dient ausschließlich der strukturierten Einordnung von Markt-, Makro- und Stresssignalen. Es stellt weder eine individuelle Anlageberatung noch eine Kauf- oder Verkaufsempfehlung dar."
+  }
+}
