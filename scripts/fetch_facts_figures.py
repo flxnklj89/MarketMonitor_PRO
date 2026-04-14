@@ -404,7 +404,15 @@ def main():
             "summary": "In einem normalen Markt wäre die Entscheidung näher an einer Vollumsetzung. Mit der aktuellen Energie- und Geopolitik-Lage ist ein gestaffelter, disziplinierter Blick robuster."
         },
         "charts": {
-            "qqq": [{"date": p["date"], "value": round(p["close"],2)} for p in qqq[-90:]],
+            "qqq": [
+            {
+                "date": qqq[i]["date"],
+                "close": round(qqq[i]["close"], 2),
+                "ma50": round(sum(qqq_closes[i-49:i+1]) / 50, 2) if i >= 49 else None,
+                "ma200": round(sum(qqq_closes[i-199:i+1]) / 200, 2) if i >= 199 else None
+            }
+            for i in range(max(0, len(qqq) - 260), len(qqq))
+        ],
             "vix": vix_pts[-90:],
             "brent": brent_pts[-90:],
         },
