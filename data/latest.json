@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-14T18:39:55.851005+00:00",
+  "fetchedAt": "2026-04-14T18:48:16.341386+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20837,7 +20837,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-04-14T18:39:55.851005+00:00",
+      "dataAsOf": "2026-04-14T18:48:16.341386+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }

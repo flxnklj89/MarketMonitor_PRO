@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-14T18:40:02.777126+00:00",
+  "generatedAt": "2026-04-14T18:48:20.908701+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -109,15 +109,15 @@
   ],
   "marketBottomProbability": {
     "title": "Market Bottom Probability",
-    "score": 49,
-    "scoreLabel": "49 %",
+    "score": 50,
+    "scoreLabel": "50 %",
     "reason": "Positiv ist die fehlende Kapitulation des Marktes. Negativ ist, dass Energie- und Geopolitikrisiken makroökonomisch relevant bleiben.",
     "interpretation": "Das bisherige Tief ist plausibel, aber geopolitisch nicht sicher hinter uns."
   },
   "crashProbability": {
     "title": "Crash Probability",
-    "score": 35,
-    "scoreLabel": "35 %",
+    "score": 34,
+    "scoreLabel": "34 %",
     "reason": "Die Wahrscheinlichkeit steigt mit Energie-, Lieferketten- und Rezessionsstress, bleibt aber begrenzt, solange keine klare Kapitulation sichtbar ist.",
     "interpretation": "Kein dominantes Crash-Szenario, aber deutlich mehr Tail Risk als in ruhigen Phasen."
   },
