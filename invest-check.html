@@ -19,7 +19,21 @@
     .two-col{grid-template-columns:1.1fr .9fr;margin-top:18px}.box{padding:20px;border-radius:18px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06)}.box h3{margin:0 0 10px;font-size:18px}.box p{margin:0;color:var(--text2);font-size:14px;line-height:1.75}.box p + p{margin-top:10px}.list{margin:12px 0 0;padding-left:18px;color:var(--text2)}.list li{margin:0 0 8px;line-height:1.7}.rail{margin-top:18px;display:grid;gap:12px}.rail-card{padding:16px;border-radius:18px;border:1px solid var(--border);background:rgba(255,255,255,.03)}.rail-card h4{margin:0 0 8px;font-size:15px}.rail-card p{margin:0;color:var(--text2);font-size:13px;line-height:1.7}
     .footer{margin-top:18px;padding:20px 22px}.footer p{margin:0;color:var(--text3);font-size:13px;line-height:1.7}.footer p + p{margin-top:10px}
     @media (max-width:1120px){.hero-grid,.form-grid,.two-col,.kpi-grid{grid-template-columns:1fr}.input-grid{grid-template-columns:1fr}.hero-title{max-width:none}}
-    @media (max-width:760px){.shell,.topbar-inner{padding-left:16px;padding-right:16px}.hero-main,.hero-side,.section,.box{padding:18px}.kpi-value{font-size:24px}}
+    @media (max-width:760px){#ticker-wrap{top:67px}.shell,.topbar-inner{padding-left:16px;padding-right:16px}.hero-main,.hero-side,.section,.box{padding:18px}.kpi-value{font-size:24px}}
+  
+    #ticker-wrap{position:sticky;top:71px;z-index:50;background:rgba(22,31,44,.88);backdrop-filter:blur(14px);border-bottom:1px solid var(--border);display:flex;align-items:center;min-height:40px;overflow:hidden}
+    .ticker-badge{flex-shrink:0;padding:0 16px;color:var(--text3);font-size:10px;letter-spacing:.18em;text-transform:uppercase;border-right:1px solid var(--border);min-height:40px;display:flex;align-items:center;background:rgba(255,255,255,.03)}
+    .ticker-viewport{flex:1;overflow:hidden;position:relative}
+    .ticker-viewport:before,.ticker-viewport:after{content:'';position:absolute;top:0;bottom:0;width:34px;z-index:2;pointer-events:none}
+    .ticker-viewport:before{left:0;background:linear-gradient(to right, rgba(22,31,44,1), transparent)}
+    .ticker-viewport:after{right:0;background:linear-gradient(to left, rgba(22,31,44,1), transparent)}
+    .ticker-track{display:flex;align-items:center;white-space:nowrap;width:max-content;animation:ticker-scroll 36s linear infinite}
+    .ticker-track:hover{animation-play-state:paused}
+    @keyframes ticker-scroll{0%{transform:translateX(0)}100%{transform:translateX(-25%)}}
+    .ticker-item{display:inline-flex;align-items:center;gap:8px;padding:0 18px;font-size:12px;min-height:40px}
+    .tk-icon{font-size:15px}.tk-label{color:var(--text2)}.tk-val{font-weight:600}.tk-unit{color:var(--muted);font-size:10px}
+    .tk-up{color:var(--green)}.tk-dn{color:var(--red)}.tk-neu{color:var(--text3)}.tk-stale{color:var(--text3);padding:0 18px;min-height:40px;display:flex;align-items:center}
+
   </style>
 </head>
 <body>
@@ -35,13 +49,16 @@
       <nav class="nav">
         <a href="./index.html">Dashboard</a>
         <a class="active" href="./invest-check.html">Invest-Check</a>
-        <a href="./facts-figures.html">Facts &amp; Figures</a>
-        <a href="./documentation.html">Hilfe &amp; Doku</a>
+        <a href="./index.html?docs=1">Hilfe &amp; Doku</a>
       </nav>
     </div>
   </header>
 
-  <main class="shell">
+  
+
+  <div id="ticker-wrap"><div class="ticker-badge">Live-Marktband</div><div class="ticker-viewport"><div class="ticker-track" id="ticker-track"><span class="tk-stale">Lade Ticker…</span></div></div></div>
+
+<main class="shell">
     <section class="hero">
       <div class="hero-grid">
         <div class="card hero-main">
@@ -310,5 +327,39 @@
     load();
   document.addEventListener('click',e=>{const btn=e.target.closest('.info-btn'); if(btn){const wrap=btn.closest('.info-wrap'); const open=wrap.classList.contains('open'); document.querySelectorAll('.info-wrap.open').forEach(x=>x.classList.remove('open')); if(!open) wrap.classList.add('open'); e.stopPropagation(); return;} if(!e.target.closest('.info-wrap')) document.querySelectorAll('.info-wrap.open').forEach(x=>x.classList.remove('open'));});
 </script>
+
+<script>
+(function(){
+  function tickerHTML(x){
+    const chg = typeof x?.chgPct === 'number' ? x.chgPct : null;
+    const cls = chg == null ? 'tk-neu' : chg > 0 ? 'tk-up' : chg < 0 ? 'tk-dn' : 'tk-neu';
+    const sign = chg != null && chg > 0 ? '+' : '';
+    const val = x?.val ?? x?.latest ?? '—';
+    const unit = x?.unit || '';
+    return `<span class="ticker-item"><span class="tk-icon">${x?.icon || '•'}</span><span class="tk-label">${x?.label || x?.name || '—'}</span><span class="tk-val">${val}</span>${unit ? `<span class="tk-unit">${unit}</span>` : ''}${chg != null ? `<span class="${cls}">${sign}${chg.toFixed(2)}%</span>` : ''}</span>`;
+  }
+  function renderTicker(items){
+    const track = document.getElementById('ticker-track');
+    if(!track) return;
+    if(!Array.isArray(items) || !items.length){
+      track.innerHTML = '<span class="tk-stale">Ticker derzeit nicht verfügbar</span>';
+      return;
+    }
+    const row = items.map(tickerHTML).join('');
+    track.innerHTML = row + row + row + row;
+  }
+  async function loadTicker(){
+    try{
+      const data = await fetch('./data/latest.json?t=' + Date.now(), {cache:'no-store'}).then(r => r.json());
+      renderTicker(data?.ticker || []);
+    }catch(e){
+      const track = document.getElementById('ticker-track');
+      if(track) track.innerHTML = '<span class="tk-stale">Ticker derzeit nicht verfügbar</span>';
+    }
+  }
+  loadTicker();
+})();
+</script>
+
 </body>
 </html>
