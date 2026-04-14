@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "1970-01-01T00:00:00+00:00",
+  "meta": {
+    "schemaVersion": "3.0",
+    "source": "FRED + Google News RSS",
+    "notes": {
+      "reload": "Das Dashboard lädt nur data/latest.json neu. Frische Daten kommen, wenn GitHub Actions diese Datei überschreibt.",
+      "cadence": "Langsame Reihen können monatlich, quartalsweise oder jährlich kommen. Das Dashboard zeigt deshalb Datenstand und Takt getrennt.",
+      "news": "Die Nachrichten sind ein kompakter Marktkontext und keine Anlageempfehlung."
+    }
+  },
+  "indicators": {
+    "inflation": {"value": 0, "date": "", "cadence": "monthly", "series": "CPIAUCSL"},
+    "fedRate": {"value": 0, "date": "", "cadence": "daily", "series": "EFFR", "displayName": "Effective Federal Funds Rate"},
+    "recProb": {"value": 0, "date": "", "cadence": "monthly", "series": "RECPROUSM156N", "fastProxy": {"label": "Sahm Rule", "value": 0, "date": "", "series": "SAHMCURRENT"}},
+    "sp500": {"ytd": 0, "first": 0, "latest": 0, "date": "", "cadence": "daily", "series": "SP500"},
+    "sentiment": {"value": 0, "date": "", "cadence": "monthly", "series": "UMCSENT"},
+    "tradeStress": {"value": 0, "label": "Entspannt", "date": "", "cadence": "daily", "method": "proxy", "components": {"vix": 0, "brent": 0, "eurusd": 0, "us10y": 0}}
+  },
+  "globalComposite": {"value": 0, "label": "Stabil", "date": ""},
+  "regions": {
+    "europe": {"name": "Europa", "score": 0, "label": "Stabil", "date": "", "summary": "", "driverText": "", "inflation": {"value": 0, "date": "", "unit": "%", "cadence": "monthly", "series": "CP0000EZ19M086NEST"}, "growthOrRate": {"label": "ECB Einlagezins", "value": 0, "date": "", "unit": "%", "cadence": "daily", "series": "ECBDFR"}, "fx": {"label": "EUR/USD", "value": 0, "date": "", "unit": "", "cadence": "daily", "series": "DEXUSEU"}},
+    "japan": {"name": "Japan", "score": 0, "label": "Stabil", "date": "", "summary": "", "driverText": "", "inflation": {"value": 0, "date": "", "unit": "%", "cadence": "annual", "series": "JPNPCPIPCPPPT"}, "growthOrRate": {"label": "BIP-Wachstum YoY", "value": 0, "date": "", "unit": "%", "cadence": "quarterly", "series": "JPNRGDPEXP"}, "fx": {"label": "JPY pro USD", "value": 0, "date": "", "unit": "", "cadence": "daily", "series": "DEXJPUS"}},
+    "china": {"name": "China", "score": 0, "label": "Stabil", "date": "", "summary": "", "driverText": "", "inflation": {"value": 0, "date": "", "unit": "%", "cadence": "annual", "series": "CHNPCPIPCPPPT"}, "growthOrRate": {"label": "BIP-Wachstum", "value": 0, "date": "", "unit": "%", "cadence": "annual", "series": "CHNGDPRAPSMEI"}, "fx": {"label": "CNY pro USD", "value": 0, "date": "", "unit": "", "cadence": "daily", "series": "DEXCHUS"}}
+  },
+  "ticker": [],
+  "history": {"inflation": [], "fedRate": [], "recProb": [], "sp500": [], "sentiment": [], "tradeStress": []},
+  "news": []
+}
