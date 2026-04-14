@@ -13,6 +13,12 @@
     :root{--bg:#0f1722;--panel:rgba(255,255,255,.04);--panel2:rgba(255,255,255,.03);--border:rgba(255,255,255,.08);--text:#edf3fb;--text2:#c5d4e4;--text3:#8fa7c0;--blue:#8fc4ff;--blue-bg:rgba(143,196,255,.14);--shadow:0 20px 60px rgba(0,0,0,.22);--radius:22px;--font:'Inter',system-ui,sans-serif;--serif:'Fraunces',Georgia,serif;--green:#53d39f;--amber:#f6ba62;--red:#ff7a7a;--green-bg:rgba(83,211,159,.14);--amber-bg:rgba(246,186,98,.14);--red-bg:rgba(255,122,122,.14)}
     *{box-sizing:border-box}body{margin:0;font-family:var(--font);background:radial-gradient(circle at top, rgba(79,123,179,.18), transparent 36%),linear-gradient(180deg,#0d1520,#121c29 30%,#111926 100%);color:var(--text)}a{color:inherit}
     .topbar{position:sticky;top:0;z-index:50;background:rgba(14,22,32,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--border)}.topbar-inner{max-width:1180px;margin:0 auto;padding:14px 20px;display:flex;justify-content:space-between;align-items:center;gap:16px}.brand{display:flex;align-items:center;gap:12px;text-decoration:none}.brand-mark{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:rgba(255,255,255,.06);border:1px solid var(--border);font-size:20px}.brand-over{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--text3)}.brand-name{font-size:18px;font-weight:700}.nav{display:flex;gap:10px;flex-wrap:wrap}.nav a{padding:10px 14px;border:1px solid var(--border);border-radius:999px;text-decoration:none;background:rgba(255,255,255,.04);font-size:13px;color:var(--text2)}.nav a:hover,.nav a.active{background:var(--blue-bg);color:var(--text)}
+    #ticker-wrap{position:sticky;top:71px;z-index:90;background:rgba(18,28,41,.88);backdrop-filter:blur(14px);border-bottom:1px solid var(--border);display:flex;align-items:center;min-height:40px;overflow:hidden}
+    .ticker-badge{flex-shrink:0;padding:0 16px;color:var(--text3);font-size:10px;letter-spacing:.18em;text-transform:uppercase;border-right:1px solid var(--border);min-height:40px;display:flex;align-items:center;background:rgba(255,255,255,.03)}
+    .ticker-viewport{flex:1;overflow:hidden;position:relative}.ticker-viewport:before,.ticker-viewport:after{content:'';position:absolute;top:0;bottom:0;width:34px;z-index:2;pointer-events:none}.ticker-viewport:before{left:0;background:linear-gradient(to right, rgba(18,28,41,1), transparent)}.ticker-viewport:after{right:0;background:linear-gradient(to left, rgba(18,28,41,1), transparent)}
+    .ticker-track{display:flex;align-items:center;white-space:nowrap;animation:ticker-scroll 24s linear infinite}.ticker-track:hover{animation-play-state:paused}@keyframes ticker-scroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+    .ticker-item{display:inline-flex;align-items:center;gap:8px;padding:0 18px;font-size:12px;min-height:40px}.tk-icon{font-size:15px}.tk-label{color:var(--text2)}.tk-val{font-weight:600}.tk-unit{color:var(--muted);font-size:10px}.tk-up{color:var(--green)}.tk-dn{color:var(--red)}.tk-neu{color:var(--text3)}.tk-stale{color:var(--text3);padding:0 18px;min-height:40px;display:flex;align-items:center}
+
     .page{max-width:1180px;margin:0 auto;padding:28px 20px 50px}.card{background:linear-gradient(180deg, rgba(255,255,255,.045), rgba(255,255,255,.025));border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);padding:24px}.card + .card{margin-top:16px}.kicker{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--text3);margin-bottom:12px}.title{margin:0;font-family:var(--serif);font-size:clamp(34px,5vw,58px);line-height:1.02;letter-spacing:-.04em;max-width:none}.lead{margin:16px 0 0;color:var(--text2);font-size:16px;line-height:1.8;max-width:70ch}.section-title{margin:0 0 12px;font-family:var(--serif);font-size:32px;line-height:1.1}.card p,.card li{color:var(--text2);font-size:15px;line-height:1.85}.card ul{margin:0;padding-left:20px}.grid{display:grid;gap:16px}.grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}.grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}.mini{padding:18px;border-radius:18px;background:var(--panel2);border:1px solid rgba(255,255,255,.06)}.mini h3{margin:0 0 8px;font-size:16px}.mini p{margin:0;color:var(--text2);font-size:14px;line-height:1.75}.chip{display:inline-block;margin:4px 8px 0 0;padding:8px 11px;border-radius:999px;border:1px solid var(--border);background:rgba(255,255,255,.04);font-size:12px;color:var(--text2)}.pill{display:inline-block;margin-bottom:10px;padding:7px 10px;border-radius:999px;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--border)}.l{background:var(--green-bg);color:var(--green)}.m{background:var(--amber-bg);color:var(--amber)}.h{background:var(--red-bg);color:var(--red)}table{width:100%;border-collapse:collapse;margin-top:8px}th,td{padding:14px 0;border-top:1px solid var(--border);vertical-align:top;text-align:left;color:var(--text2);font-size:14px;line-height:1.75}th{width:28%;color:var(--text)}code{padding:2px 6px;border-radius:6px;border:1px solid var(--border);background:rgba(255,255,255,.05)}details{border-top:1px solid var(--border);padding-top:12px;margin-top:12px}summary{cursor:pointer;font-weight:700}
     @media (max-width:860px){.grid-2,.grid-3{grid-template-columns:1fr}.page,.topbar-inner{padding-left:16px;padding-right:16px}.card{padding:18px}.title{max-width:none}th,td{display:block;width:auto;padding:10px 0}.table-row{display:block;padding:8px 0}}
   </style>
@@ -29,6 +35,9 @@
       </nav>
     </div>
   </header>
+
+  <div id="ticker-wrap"><div class="ticker-badge">Live-Marktband</div><div class="ticker-viewport"><div class="ticker-track" id="ticker-track"><span class="tk-stale">Lade Ticker…</span></div></div></div>
+
   <main class="page">
     <section class="card">
       <div class="kicker">PRO Hilfe & Onboarding</div>
@@ -124,5 +133,33 @@
       <details><summary>Warum sind Presets keine Handlungsempfehlung?</summary><p>Weil sie nur zeigen, wie verschiedene Nutzertypen dieselbe Lage leicht anders lesen könnten. Sie ersetzen kein persönliches Anlagekonzept.</p></details>
     </section>
   </main>
+<script>
+
+    function renderTicker(data){
+      const track=document.getElementById('ticker-track'); if(!track) return;
+      const items=(data?.ticker&&Array.isArray(data.ticker)&&data.ticker.length?data.ticker:[]);
+      const fallback = items.length ? items : [];
+      if(!fallback.length){ track.innerHTML='<span class="tk-stale">Keine Tickerdaten verfügbar</span>'; return; }
+      const html=fallback.map(x=>{
+        const chg = typeof x.chgPct==='number' ? x.chgPct : null;
+        const cls = chg==null ? 'tk-neu' : chg>0 ? 'tk-up' : chg<0 ? 'tk-dn' : 'tk-neu';
+        const sign = chg!=null && chg>0 ? '+' : '';
+        const val = x.val ?? x.latest ?? '—';
+        const unit = x.unit || '';
+        return `<span class="ticker-item"><span class="tk-icon">${x.icon||'•'}</span><span class="tk-label">${x.label||x.name||'—'}</span><span class="tk-val">${val}</span>${unit?`<span class="tk-unit">${unit}</span>`:''}${chg!=null?`<span class="${cls}">${sign}${chg.toFixed(2)}%</span>`:''}</span>`;
+      }).join('');
+      track.innerHTML = html + html;
+    }
+    async function loadTicker(){
+      try{
+        const data = await fetch('./data/latest.json', {cache:'no-store'}).then(r=>r.json());
+        renderTicker(data);
+      }catch(e){
+        const track=document.getElementById('ticker-track'); if(track) track.innerHTML='<span class="tk-stale">Ticker derzeit nicht verfügbar</span>';
+      }
+    }
+
+loadTicker();
+</script>
 </body>
 </html>
