@@ -3,188 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Marktrisiko-Kompass PRO · Hilfe & Doku</title>
-  <link rel="manifest" href="manifest.json" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,400;9..144,500&display=swap" rel="stylesheet" />
+  <title>Hilfe & Doku · Marktrisiko-Kompass PRO</title>
+  <meta http-equiv="refresh" content="0; url=./index.html?docs=1" />
   <style>
-    :root{
-      --bg:#0f1722;--panel:rgba(255,255,255,.04);--panel2:rgba(255,255,255,.03);--border:rgba(255,255,255,.08);--text:#edf3fb;--text2:#c5d4e4;--text3:#8fa7c0;--blue:#8fc4ff;--blue-bg:rgba(143,196,255,.14);--shadow:0 20px 60px rgba(0,0,0,.22);--radius:22px;--font:'Inter',system-ui,sans-serif;--serif:'Fraunces',Georgia,serif;
-      --green:#53d39f;--amber:#f6ba62;--red:#ff7a7a;--green-bg:rgba(83,211,159,.14);--amber-bg:rgba(246,186,98,.14);--red-bg:rgba(255,122,122,.14);
-    }
-    *{box-sizing:border-box}body{margin:0;font-family:var(--font);background:radial-gradient(circle at top, rgba(79,123,179,.18), transparent 36%),linear-gradient(180deg,#0d1520,#121c29 30%,#111926 100%);color:var(--text)}
-    a{color:inherit}
-    .topbar{position:sticky;top:0;z-index:60;background:rgba(14,22,32,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--border)}
-    .topbar-inner{max-width:1320px;margin:0 auto;padding:14px 20px;display:flex;justify-content:space-between;align-items:center;gap:16px}
-    .brand{display:flex;align-items:center;gap:12px;text-decoration:none}.brand-mark{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:rgba(255,255,255,.06);border:1px solid var(--border);font-size:20px}.brand-over{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--text3)}.brand-name{font-size:18px;font-weight:700}
-    .nav{display:flex;gap:10px;flex-wrap:wrap}.nav a{padding:10px 14px;border:1px solid var(--border);border-radius:999px;text-decoration:none;background:rgba(255,255,255,.04);font-size:13px;color:var(--text2)}.nav a:hover,.nav a.active{background:var(--blue-bg);color:var(--text)}
-    .page{max-width:1320px;margin:0 auto;padding:28px 20px 56px}
-    .card{background:linear-gradient(180deg, rgba(255,255,255,.045), rgba(255,255,255,.025));border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);padding:24px}
-    .card + .card{margin-top:16px}
-    .kicker{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--text3);margin-bottom:12px}
-    .title{margin:0;font-family:var(--serif);font-size:clamp(38px,5vw,60px);line-height:1.02;letter-spacing:-.04em;max-width:15ch}
-    .lead{margin:16px 0 0;color:var(--text2);font-size:16px;line-height:1.85;max-width:80ch}
-    .grid{display:grid;gap:16px}.grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}.grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}.grid-5{grid-template-columns:repeat(5,minmax(0,1fr))}
-    .mini{padding:16px;border-radius:18px;background:var(--panel2);border:1px solid rgba(255,255,255,.06)}.mini h3{margin:0 0 8px;font-size:16px}.mini p{margin:0;color:var(--text2);font-size:14px;line-height:1.75}
-    .section-title{margin:0 0 12px;font-family:var(--serif);font-size:clamp(28px,4vw,42px);line-height:1.08;letter-spacing:-.03em}
-    p,li,td,th{font-size:15px;line-height:1.85;color:var(--text2)}
-    strong{color:var(--text)}
-    ul{margin:0;padding-left:20px}
-    .chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}.chip{display:inline-flex;align-items:center;gap:8px;padding:9px 12px;border-radius:999px;border:1px solid var(--border);background:rgba(255,255,255,.04);font-size:12px;color:var(--text2)}
-    .table{width:100%;border-collapse:collapse;margin-top:10px}.table th,.table td{padding:14px 0;border-top:1px solid var(--border);vertical-align:top;text-align:left}.table th{width:22%;color:var(--text)}
-    .state{padding:16px;border-radius:18px;background:var(--panel2);border:1px solid rgba(255,255,255,.06)}
-    .pill{display:inline-block;padding:7px 10px;border-radius:999px;border:1px solid var(--border);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
-    .l{background:var(--green-bg);color:var(--green)} .m{background:var(--amber-bg);color:var(--amber)} .h{background:var(--red-bg);color:var(--red)}
-    details{border-top:1px solid var(--border);padding-top:12px;margin-top:12px} summary{cursor:pointer;font-weight:700;color:var(--text)}
+    :root{--bg:#0f1722;--panel:rgba(255,255,255,.04);--border:rgba(255,255,255,.08);--text:#edf3fb;--text2:#c5d4e4;--text3:#8fa7c0;--radius:22px;--font:Inter,system-ui,sans-serif;}
+    *{box-sizing:border-box}body{margin:0;font-family:var(--font);background:radial-gradient(circle at top, rgba(79,123,179,.18), transparent 36%),linear-gradient(180deg,#0d1520,#121c29 30%,#111926 100%);color:var(--text);display:grid;place-items:center;min-height:100vh;padding:24px}
+    .card{max-width:760px;padding:28px;border-radius:var(--radius);border:1px solid var(--border);background:linear-gradient(180deg, rgba(255,255,255,.045), rgba(255,255,255,.025))}
+    h1{margin:0 0 12px;font-size:34px;line-height:1.08}p{margin:0 0 12px;color:var(--text2);line-height:1.75}.btn{display:inline-block;margin-top:8px;padding:11px 15px;border:1px solid var(--border);border-radius:999px;background:rgba(255,255,255,.04);text-decoration:none;color:var(--text)}
     .small{color:var(--text3);font-size:13px}
-    code{padding:2px 6px;border-radius:6px;border:1px solid var(--border);background:rgba(255,255,255,.05)}
-    @media (max-width:1120px){.grid-2,.grid-3,.grid-5{grid-template-columns:1fr}}
-    @media (max-width:760px){.page,.topbar-inner{padding-left:16px;padding-right:16px}.card{padding:18px}.table th,.table td{display:block;width:auto;padding:10px 0}.table tr{display:block;padding:8px 0}.title{max-width:none}}
   </style>
 </head>
 <body>
-  <header class="topbar">
-    <div class="topbar-inner">
-      <a class="brand" href="./index.html">
-        <div class="brand-mark">🧭</div>
-        <div>
-          <div class="brand-over">PRO · GitHub Pages</div>
-          <div class="brand-name">Marktrisiko-Kompass</div>
-        </div>
-      </a>
-      <nav class="nav">
-        <a href="./index.html">← Zurück zum Dashboard</a>
-        <a class="active" href="./documentation.html">Hilfe &amp; Doku</a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="page">
-    <section class="card">
-      <div class="kicker">PRO Hilfe · Onboarding · Leselogik</div>
-      <h1 class="title">Was die PRO-Version leisten soll – und wie du sie richtig liest</h1>
-      <p class="lead">Der Marktrisiko-Kompass PRO ist kein Datenfriedhof und kein Pseudo-Terminal. Er verdichtet Markt-, Makro- und Stresssignale zu einer verständlichen Gesamtphase, erklärt konkurrierende Szenarien, ordnet Signalqualität ein und übersetzt das Ganze in eine ruhige Verhaltenslogik für Privatanleger.</p>
-      <div class="chips">
-        <span class="chip">Gesamtphase zuerst</span>
-        <span class="chip">Szenarien mit Begründung</span>
-        <span class="chip">Frühwarnung vs. Bestätigung</span>
-        <span class="chip">Belastbarkeit statt Scheingenauigkeit</span>
-        <span class="chip">Handlungsmatrix ohne Anlageberatung</span>
-      </div>
-    </section>
-
-    <section class="card">
-      <h2 class="section-title">1. Was PRO gegenüber BASIC zusätzlich leisten muss</h2>
-      <div class="grid grid-3">
-        <div class="mini"><h3>Mehr Einordnung</h3><p>PRO zeigt nicht nur den Wert, sondern auch, warum ein Szenario steigt, fällt oder stabil bleibt.</p></div>
-        <div class="mini"><h3>Mehr Transparenz</h3><p>Die Szenarien werden mit stützenden Treibern, Dynamik und neutraler Anleger-Bedeutung erklärt.</p></div>
-        <div class="mini"><h3>Mehr Lehrwert</h3><p>Signalrolle, Belastbarkeit, Presets und Onboarding helfen Endnutzern, das Produkt wirklich zu verstehen.</p></div>
-      </div>
-    </section>
-
-    <section class="card">
-      <h2 class="section-title">2. So liest du den Monitor sinnvoll</h2>
-      <div class="grid grid-2">
-        <div class="state"><h3>Schritt 1 · Gesamtphase lesen</h3><p>Starte nie mit einzelnen roten Zahlen. Die Gesamtphase sagt dir, ob das Umfeld derzeit eher normal, vorsichtig, defensiver oder klar stressbelastet gelesen werden sollte.</p></div>
-        <div class="state"><h3>Schritt 2 · Szenarien lesen</h3><p>Die drei Szenarien sind konkurrierende Marktpfade. Sie zeigen nicht nur Prozentwerte, sondern auch Treiber, Dynamik und Anleger-Bedeutung.</p></div>
-        <div class="state"><h3>Schritt 3 · Signalqualität prüfen</h3><p>Ein Frühwarnsignal ist etwas anderes als ein Bestätigungssignal. Genau deshalb zeigt PRO, wie belastbar ein Signal gerade wirkt.</p></div>
-        <div class="state"><h3>Schritt 4 · Einzelindikatoren einordnen</h3><p>Erst danach sind die Makroindikatoren sinnvoll. Sonst besteht die Gefahr, einzelne Werte zu übergewichten und das Gesamtbild zu verlieren.</p></div>
-      </div>
-    </section>
-
-    <section class="card">
-      <h2 class="section-title">3. Wie die Szenarien entstehen</h2>
-      <p>Die Wahrscheinlichkeiten sind kein Orakel. Sie sind eine <strong>regelbasierte Verdichtung</strong> aus Inflation, Zinsen, Rezessionssignalen, Marktverlauf, Verbraucherstimmung, Stressindikatoren und globalem Kontext. Jeder Indikator schiebt das Bild in eine Richtung. Am Ende werden die Gewichte auf 100&nbsp;% normiert.</p>
-      <table class="table">
-        <tr><th>Szenario A</th><td><strong>Anhaltender Druck.</strong> Höhere Inflation, höherer Stress, breiterer globaler Gegenwind und schwächeres Wachstum stützen dieses Bild.</td></tr>
-        <tr><th>Szenario B</th><td><strong>Zähe Zwischenphase.</strong> Das Umfeld bleibt anspruchsvoll, aber noch ohne saubere Voll-Eskalation.</td></tr>
-        <tr><th>Szenario C</th><td><strong>Beherrschbarer Schock.</strong> Stress ist sichtbar, aber noch nicht breit genug bestätigt, um ein langes Belastungsregime plausibel zu machen.</td></tr>
-      </table>
-      <p class="small">PRO ergänzt zusätzlich die Frage: <strong>Warum steigt oder fällt diese Wahrscheinlichkeit gerade?</strong> Genau dort liegt der inhaltliche Mehrwert gegenüber einer bloßen Prozentanzeige.</p>
-    </section>
-
-    <section class="card">
-      <h2 class="section-title">4. Was „Frühwarnung“, „Bestätigung“ und „Belastbarkeit“ konkret bedeuten</h2>
-      <div class="grid grid-2">
-        <div class="state"><span class="pill m">Frühwarnsignal</span><p>Kann früh auf Spannungen hindeuten, ist aber noch kein belastbarer Beweis für einen echten Regimewechsel.</p></div>
-        <div class="state"><span class="pill h">Bestätigungssignal</span><p>Bestätigt eine Entwicklung eher, als dass es sie früh ankündigt. Es erhöht das Vertrauen in die vorsichtigere Lesart.</p></div>
-        <div class="state"><span class="pill l">Begleitindikator</span><p>Hilft beim Gesamtverständnis, trägt das Urteil aber nicht alleine.</p></div>
-        <div class="state"><span class="pill l">Kontextsignal</span><p>Wichtig für Einordnung und Tonlage, aber isoliert oft nicht tragfähig genug.</p></div>
-      </div>
-      <p><strong>Belastbarkeit</strong> bedeutet in PRO nicht künstliche mathematische Präzision. Sie fragt einfacher: Wird dieses Signal von weiteren Indikatoren gestützt? Ist es stabiler als nur ein Ausreißer? Ist der Datenpunkt frisch genug? Passt seine Signalrolle zur Schlussfolgerung?</p>
-    </section>
-
-    <section class="card">
-      <h2 class="section-title">5. Handlungsmatrix – was die Phase neutral für Anleger bedeutet</h2>
-      <div class="grid grid-2">
-        <div class="state"><span class="pill l">Normalphase</span><p><strong>Interpretation:</strong> Das Umfeld wirkt geordnet. Einzelrisiken sind normal, dominieren aber nicht das Gesamtbild.</p><p><strong>Neutrale Konsequenz:</strong> Regeln beibehalten, nicht jeden kleinen Ausschlag überbewerten.</p></div>
-        <div class="state"><span class="pill m">Erhöhte Vorsicht</span><p><strong>Interpretation:</strong> Mehrere Signale werden rauer, aber noch ohne volle Stressbestätigung.</p><p><strong>Neutrale Konsequenz:</strong> Aufmerksamkeit erhöhen, Liquiditätsklarheit prüfen, aber nicht hektisch werden.</p></div>
-        <div class="state"><span class="pill m">Defensivere Haltung sinnvoll</span><p><strong>Interpretation:</strong> Gegenwind ist spürbar und breiter sichtbar. Das Umfeld wird weniger fehlertolerant.</p><p><strong>Neutrale Konsequenz:</strong> Robustheit, Qualität und Regelklarheit gewinnen an Bedeutung.</p></div>
-        <div class="state"><span class="pill h">Hohes Stressniveau</span><p><strong>Interpretation:</strong> Mehrere Belastungsachsen bestätigen gleichzeitig eine schwierigere Marktphase.</p><p><strong>Neutrale Konsequenz:</strong> Erst Lage lesen, dann Entscheidungen nur mit kühlem Kopf und sauberem Regelwerk treffen.</p></div>
-      </div>
-    </section>
-
-    <section class="card">
-      <h2 class="section-title">6. Presets – warum sie nützlich sind</h2>
-      <div class="grid grid-5">
-        <div class="mini"><h3>Defensiv</h3><p>Stress und Konjunkturschwäche werden sensibler gelesen.</p></div>
-        <div class="mini"><h3>Ausgewogen</h3><p>Neutraler Referenzmodus ohne starke Vorprägung.</p></div>
-        <div class="mini"><h3>Opportunistisch</h3><p>Interpretiert schnelle Ausschläge etwas zurückhaltender.</p></div>
-        <div class="mini"><h3>ETF langfristig</h3><p>Gewichtet Marktphase höher als Tagesrauschen.</p></div>
-        <div class="mini"><h3>Dividende</h3><p>Achtet etwas sensibler auf Zinsen, Stress und Konjunktur.</p></div>
-      </div>
-      <p>Presets sind keine Empfehlungen. Sie zeigen nur, dass dieselbe Datenlage je nach Nutzerziel leicht unterschiedlich gelesen werden kann, ohne die Grundlogik des Produkts zu zerstören.</p>
-    </section>
-
-    <section class="card">
-      <h2 class="section-title">7. Die wichtigsten Indikatoren in Endnutzer-Sprache</h2>
-      <table class="table">
-        <tr><th>US-Inflation</th><td><strong>Was misst sie?</strong> Veränderung der Verbraucherpreise zum Vorjahr.<br><strong>Warum relevant?</strong> Beeinflusst Kaufkraft, Zinsen und Bewertungen.<br><strong>Wann kritischer?</strong> Wenn sie zäh hoch bleibt.<br><strong>Signalrolle:</strong> Eher Bestätigung.</td></tr>
-        <tr><th>Effektive Fed Rate</th><td><strong>Was misst sie?</strong> Kurzfristige Geldmarktlage in den USA.<br><strong>Warum relevant?</strong> Hohe Zinsen machen Finanzierung und Bewertungen ungemütlicher.<br><strong>Wann kritischer?</strong> Wenn hohe Zinsen auf schwächere Konjunktur treffen.<br><strong>Signalrolle:</strong> Eher Bestätigung.</td></tr>
-        <tr><th>Rezessionssignal USA</th><td><strong>Was misst es?</strong> Langsamere Monatswahrscheinlichkeit plus Sahm Rule als schnellerer Arbeitsmarkt-Check.<br><strong>Warum relevant?</strong> Zeigt, ob Konjunktur- und Arbeitsmarktstress zunehmen.<br><strong>Wann kritischer?</strong> Wenn beide Lesarten gleichzeitig hochlaufen.<br><strong>Signalrolle:</strong> Frühwarnung plus Bestätigung.</td></tr>
-        <tr><th>S&amp;P 500 seit Jahresanfang</th><td><strong>Was misst er?</strong> Marktreaktion des breiten US-Aktienmarkts.<br><strong>Warum relevant?</strong> Märkte preisen Risiken oft früher ein als Makrodaten.<br><strong>Wann kritischer?</strong> Wenn Schwäche breiter und anhaltender wird.<br><strong>Signalrolle:</strong> Kontext und Bestätigung.</td></tr>
-        <tr><th>Verbrauchervertrauen</th><td><strong>Was misst es?</strong> Stimmung der US-Haushalte.<br><strong>Warum relevant?</strong> Ergänzt harte Daten um die Nachfrageseite.<br><strong>Wann kritischer?</strong> Wenn schwache Stimmung mit Arbeitsmarkt- und Marktschwäche zusammenfällt.<br><strong>Signalrolle:</strong> Begleitindikator.</td></tr>
-        <tr><th>Marktstress-Proxy</th><td><strong>Was misst er?</strong> Verdichtung aus Volatilität, Öl, Renditen und Währungen.<br><strong>Warum relevant?</strong> Macht Spannung schnell sichtbar.<br><strong>Wann kritischer?</strong> Wenn hohe Werte anhalten und bestätigt werden.<br><strong>Signalrolle:</strong> Frühwarnung.</td></tr>
-      </table>
-    </section>
-
-    <section class="card">
-      <h2 class="section-title">8. Der globale Layer</h2>
-      <p>PRO schaut nicht nur auf die USA. Europa, Japan und China helfen zu beantworten, ob Gegenwind lokal bleibt oder breiter über wichtige Wirtschaftsblöcke läuft. Gerade für Privatanleger ist das wertvoll, weil viele Marktphasen nicht sauber verstanden werden, wenn nur US-Daten betrachtet werden.</p>
-    </section>
-
-    <section class="card">
-      <h2 class="section-title">9. Häufige Denkfehler bei der Nutzung</h2>
-      <div class="grid grid-2">
-        <div class="state"><h3>Ein einzelner roter Wert = Krise</h3><p>Falsch. Genau deshalb trennt PRO zwischen Frühwarnung, Bestätigung und Kontext.</p></div>
-        <div class="state"><h3>Alte Daten = technischer Fehler</h3><p>Falsch. Manche Originalreihen erscheinen nur monatlich, quartalsweise oder jährlich.</p></div>
-        <div class="state"><h3>Wahrscheinlichkeiten = Prognose mit Gewissheit</h3><p>Falsch. Sie sind eine strukturierte Lesung der aktuellen Datenlage.</p></div>
-        <div class="state"><h3>News = direktes Handlungssignal</h3><p>Falsch. Die News-Schicht liefert Kontext, ersetzt aber keine Gesamtlesung.</p></div>
-      </div>
-    </section>
-
-    <section class="card">
-      <h2 class="section-title">10. FAQ</h2>
-      <details open>
-        <summary>Warum zeigt PRO mehr Text als BASIC?</summary>
-        <p>Weil PRO nicht nur orientieren, sondern auch erklären soll. Der Mehrwert liegt in Transparenz, Lehrwert und Vertrauensaufbau.</p>
-      </details>
-      <details>
-        <summary>Warum gibt es keine Kauf- oder Verkaufssignale?</summary>
-        <p>Weil das Produkt bewusst keine Anlageberatung sein soll. Es liefert Marktphasen-Einordnung und Verhaltenslogik, keine individuelle Empfehlung.</p>
-      </details>
-      <details>
-        <summary>Wie nutze ich PRO am sinnvollsten?</summary>
-        <p>Erst Gesamtphase lesen, dann Szenarien, dann Signalqualität, dann Einzelindikatoren. So vermeidest du, dass einzelne Zahlen das Gesamtbild verzerren.</p>
-      </details>
-    </section>
-
-    <section class="card">
-      <h2 class="section-title">11. Rechtlicher Rahmen</h2>
-      <p>Der Marktrisiko-Kompass PRO dient ausschließlich der strukturierten Einordnung von Markt-, Makro- und Stresssignalen. Er ist <strong>keine Anlageberatung, keine Finanzanalyse und keine individuelle Kauf- oder Verkaufsempfehlung</strong>. Daten können revisionsanfällig, zeitverzögert oder unvollständig sein. Das Produkt ist ein Orientierungssystem, kein Entscheidungsautomat.</p>
-      <p class="small">Technisch lädt das Dashboard nur <code>data/latest.json</code>. Diese Datei sollte über den Workflow regelmäßig aktualisiert werden.</p>
-    </section>
-  </main>
+  <div class="card">
+    <h1>Die PRO-Doku ist direkt im Dashboard integriert.</h1>
+    <p>Du wirst automatisch zum Dashboard weitergeleitet. Dort öffnet sich der Hilfe- und Doku-Bereich direkt als Overlay, damit Nutzer im Kontext bleiben.</p>
+    <a class="btn" href="./index.html?docs=1">Hilfe & Doku im Dashboard öffnen</a>
+    <p class="small">Falls die automatische Weiterleitung nicht greift, nutze einfach den Button.</p>
+  </div>
 </body>
 </html>

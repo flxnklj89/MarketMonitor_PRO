@@ -23,13 +23,13 @@
     .topbar{position:sticky;top:0;z-index:100;background:rgba(14,22,32,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--border)}
     .topbar-inner{max-width:1280px;margin:0 auto;padding:14px 20px;display:flex;justify-content:space-between;align-items:center;gap:16px}
     .brand{display:flex;align-items:center;gap:12px;text-decoration:none}.brand-mark{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:rgba(255,255,255,.06);border:1px solid var(--border);font-size:20px}.brand-over{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--text3)}.brand-name{font-size:18px;font-weight:700}
-    .nav{display:flex;gap:10px;flex-wrap:wrap}.nav a{padding:10px 14px;border:1px solid var(--border);border-radius:999px;text-decoration:none;background:rgba(255,255,255,.04);font-size:13px;color:var(--text2)}.nav a:hover,.nav a.active{background:var(--blue-bg);border-color:rgba(143,196,255,.28);color:var(--text)}
+    .nav{display:flex;gap:10px;flex-wrap:wrap}.nav a,.nav button{padding:10px 14px;border:1px solid var(--border);border-radius:999px;text-decoration:none;background:rgba(255,255,255,.04);font-size:13px;color:var(--text2);cursor:pointer}.nav a:hover,.nav a.active,.nav button:hover,.nav button.active{background:var(--blue-bg);border-color:rgba(143,196,255,.28);color:var(--text)}
     .hero{padding:28px 0 22px}.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:18px}.card{background:linear-gradient(180deg, rgba(255,255,255,.045), rgba(255,255,255,.025));border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow)}
     .hero-main{padding:30px}.kicker{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--text3);margin-bottom:12px}.hero-title{margin:0;font-family:var(--serif);font-size:clamp(36px,5vw,60px);line-height:1.02;letter-spacing:-.04em;max-width:10ch}.hero-sub{margin:18px 0 0;color:var(--text2);font-size:16px;line-height:1.8;max-width:62ch}
     .hero-meta{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}.chip{display:inline-flex;align-items:center;gap:8px;padding:10px 12px;border-radius:999px;border:1px solid var(--border);background:rgba(255,255,255,.04);font-size:12px;color:var(--text2)}.dot{width:8px;height:8px;border-radius:50%;background:var(--green)}.dot.stale{background:var(--amber)}
     .hero-side{padding:22px;display:grid;gap:14px}.status-card{padding:18px;border-radius:18px;border:1px solid var(--border);background:rgba(255,255,255,.03)}.status-label{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--text3);margin-bottom:8px}.status-headline{font-size:26px;line-height:1.18;font-weight:800}.status-copy{margin-top:10px;color:var(--text2);line-height:1.7;font-size:14px}.status-foot{margin-top:12px;color:var(--text3);font-size:12px;line-height:1.6}
     .quickstart{padding:22px;margin-top:16px}.section-title{margin:0;font-family:var(--serif);font-size:clamp(28px,4vw,42px);line-height:1.08;letter-spacing:-.03em}.section-sub{margin:10px 0 0;color:var(--text2);font-size:15px;line-height:1.8}
-    .qs-grid,.meaning-grid,.matrix-grid,.scenario-grid,.indicators-grid,.news-grid,.regions-grid,.pro-grid,.signal-grid,.preset-grid{display:grid;gap:16px}.qs-grid{grid-template-columns:repeat(3,minmax(0,1fr));margin-top:18px}.pro-grid{grid-template-columns:repeat(4,minmax(0,1fr));margin-top:18px}.signal-grid{grid-template-columns:repeat(3,minmax(0,1fr));margin-top:18px}.preset-grid{grid-template-columns:repeat(5,minmax(0,1fr));margin-top:18px}.mini{padding:16px;border-radius:18px;background:var(--panel-2);border:1px solid rgba(255,255,255,.06)}.mini h3{margin:0 0 8px;font-size:15px}.mini p{margin:0;color:var(--text2);font-size:14px;line-height:1.7}.scenario-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.scenario-tag{padding:7px 10px;border-radius:999px;border:1px solid var(--border);background:rgba(255,255,255,.04);font-size:11px;color:var(--text2)}.scenario-trend{margin-top:12px;font-size:13px;color:var(--text2);line-height:1.7}.trend-pill{display:inline-block;margin-right:8px;padding:6px 9px;border-radius:999px;border:1px solid var(--border);font-size:10px;letter-spacing:.08em;text-transform:uppercase;font-weight:700}.trend-up{background:var(--red-bg);color:var(--red)}.trend-flat{background:var(--amber-bg);color:var(--amber)}.trend-down{background:var(--green-bg);color:var(--green)}.scenario-meaning-note{margin-top:12px;color:var(--text2);font-size:13px;line-height:1.75;padding:12px 14px;border-radius:14px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06)}.signal-summary{margin-top:14px;color:var(--text2);font-size:15px;line-height:1.8}.signal-card{padding:18px;border-radius:18px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06)}.signal-card h3{margin:0 0 8px;font-size:16px}.signal-card p{margin:0;color:var(--text2);font-size:14px;line-height:1.75}.signal-stat{font-size:26px;font-weight:800;line-height:1;margin-bottom:8px}.preset-card{padding:18px;border-radius:18px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06)}.preset-card h3{margin:0 0 8px;font-size:16px}.preset-card p{margin:0;color:var(--text2);font-size:14px;line-height:1.75}.preset-meta{margin-top:10px;color:var(--text3);font-size:12px;line-height:1.7}
+    .guide-grid,.meaning-grid,.matrix-grid,.scenario-grid,.indicators-grid,.news-grid,.regions-grid,.pro-grid,.signal-grid,.preset-grid,.invest-grid{display:grid;gap:16px}.guide-grid{grid-template-columns:1.05fr .95fr .95fr;margin-top:18px}.invest-grid{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:16px}.pro-grid{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:18px}.signal-grid{grid-template-columns:repeat(3,minmax(0,1fr));margin-top:18px}.preset-grid{grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin-top:18px}.mini{padding:16px;border-radius:18px;background:var(--panel-2);border:1px solid rgba(255,255,255,.06)}.mini h3{margin:0 0 8px;font-size:15px}.mini p{margin:0;color:var(--text2);font-size:14px;line-height:1.7}.scenario-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.scenario-tag{padding:7px 10px;border-radius:999px;border:1px solid var(--border);background:rgba(255,255,255,.04);font-size:11px;color:var(--text2)}.scenario-trend{margin-top:12px;font-size:13px;color:var(--text2);line-height:1.7}.trend-pill{display:inline-block;margin-right:8px;padding:6px 9px;border-radius:999px;border:1px solid var(--border);font-size:10px;letter-spacing:.08em;text-transform:uppercase;font-weight:700}.trend-up{background:var(--red-bg);color:var(--red)}.trend-flat{background:var(--amber-bg);color:var(--amber)}.trend-down{background:var(--green-bg);color:var(--green)}.scenario-meaning-note{margin-top:12px;color:var(--text2);font-size:13px;line-height:1.75;padding:12px 14px;border-radius:14px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06)}.signal-summary{margin-top:14px;color:var(--text2);font-size:15px;line-height:1.8}.signal-card{padding:18px;border-radius:18px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06)}.signal-card h3{margin:0 0 8px;font-size:16px}.signal-card p{margin:0;color:var(--text2);font-size:14px;line-height:1.75}.signal-stat{font-size:26px;font-weight:800;line-height:1;margin-bottom:8px}.preset-card{padding:18px;border-radius:18px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06)}.preset-card h3{margin:0 0 8px;font-size:15px;line-height:1.35;overflow-wrap:anywhere;word-break:break-word;hyphens:auto;max-width:100%}.preset-card p{margin:0;color:var(--text2);font-size:14px;line-height:1.75}.preset-meta{margin-top:10px;color:var(--text3);font-size:12px;line-height:1.7}
     .section{margin-top:16px;padding:24px}.scenario-grid{grid-template-columns:repeat(3,minmax(0,1fr));margin-top:20px}.scenario{overflow:hidden}.bar{height:5px;background:rgba(255,255,255,.06)}.fill{height:100%}.scenario-body{padding:20px}.scenario-top{display:flex;justify-content:space-between;gap:16px;align-items:flex-start}.scenario-badge{display:inline-grid;place-items:center;width:40px;height:40px;border-radius:14px;font-weight:800}.scenario-name{margin-top:10px;font-size:20px;font-weight:700;line-height:1.2}.scenario-prob{font-size:44px;font-weight:800;line-height:.92;letter-spacing:-.05em}.scenario-prob small{font-size:20px;color:var(--text2)}.scenario-desc,.scenario-why,.scenario-meta{color:var(--text2);font-size:14px;line-height:1.75}.scenario-desc{margin-top:14px}.scenario-meta{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 16px;margin-top:14px}.scenario-meta strong{display:block;color:var(--text3);font-size:10px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:4px}.scenario-why{margin-top:14px;padding-top:14px;border-top:1px solid rgba(255,255,255,.08)}
     .meaning-grid{grid-template-columns:1.05fr .95fr;margin-top:18px}.copy-card,.matrix-card{padding:22px}.copy-card p,.matrix-card p{margin:0;color:var(--text2);font-size:15px;line-height:1.8}.copy-card p + p{margin-top:12px}.matrix-grid{margin-top:16px}.matrix-item{padding:16px;border-radius:18px;border:1px solid var(--border);background:rgba(255,255,255,.03)}.matrix-item h3{margin:0 0 8px;font-size:16px}.matrix-item p{margin:0;color:var(--text2);font-size:14px;line-height:1.7}.state-pill{display:inline-block;margin-bottom:10px;padding:7px 10px;border-radius:999px;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--border)}
     .indicators-grid{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:20px}.indicator{padding:20px}.indicator-top{display:flex;justify-content:space-between;gap:16px;align-items:flex-start}.indicator-title{display:flex;align-items:center;gap:8px;font-size:17px;font-weight:700;line-height:1.4}.pill{padding:7px 10px;border-radius:999px;border:1px solid var(--border);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.08em}.l{background:var(--green-bg);color:var(--green)}.m{background:var(--amber-bg);color:var(--amber)}.h{background:var(--red-bg);color:var(--red)}.indicator-value{margin-top:14px;font-size:58px;line-height:.95;font-weight:800;letter-spacing:-.05em}.indicator-unit{font-size:18px;color:var(--text2)}.indicator-text,.indicator-date,.indicator-extra{margin-top:10px;color:var(--text2);font-size:14px;line-height:1.75}.indicator-date,.indicator-extra{color:var(--text3)}
@@ -56,7 +56,8 @@
       </a>
       <nav class="nav">
         <a class="active" href="./index.html">Dashboard</a>
-        <a href="./documentation.html">Hilfe &amp; Doku</a>
+        <a href="./invest-check.html">Invest-Check</a>
+        <button type="button" id="open-docs-btn">Hilfe &amp; Doku</button>
       </nav>
     </div>
   </header>
@@ -89,26 +90,46 @@
       </div>
     </section>
 
-    <section class="card quickstart">
-      <h2 class="section-title">Schnellstart</h2>
-      <p class="section-sub">Diese PRO-Version ist nicht nur ein Monitor. Sie soll Marktphasen lesbar machen, Wahrscheinlichkeiten begründen und dir helfen, Signal, Bestätigung und Rauschen sauberer zu trennen.</p>
-      <div class="qs-grid">
-        <div class="mini"><h3>1. Erst den Gesamtstatus lesen</h3><p>Starte oben mit der Klartext-Zusammenfassung. Sie sagt dir, ob das Umfeld eher normal, angespannt oder klar stressbelastet ist.</p></div>
-        <div class="mini"><h3>2. Danach auf die Szenarien schauen</h3><p>Die drei Szenarien zeigen konkurrierende Marktpfade mit Wahrscheinlichkeiten und kurzer Begründung. Das reduziert Bauchgefühl und Schlagzeilenlärm.</p></div>
-        <div class="mini"><h3>3. Dann die Details einordnen</h3><p>Indikatoren, Weltkontext und Handlungsmatrix helfen dir, die Lage neutral zu lesen – ohne Kauf- oder Verkaufssignale.</p></div>
-      </div>
-    </section>
+<section class="card section">
+  <h2 class="section-title">Klarer Handlungsrahmen</h2>
+  <p class="section-sub">PRO soll nicht nur einordnen, sondern dir einen klaren, datenbasierten Verhaltensrahmen geben. Das ist keine persönliche Anlageberatung, aber eine konkrete Lesart dafür, was in der aktuellen Phase eher sinnvoll ist und was eher vermieden werden sollte.</p>
+  <div class="guide-grid">
+    <article class="action-card action-box">
+      <div class="action-kpi" id="guide-headline">Lade…</div>
+      <div class="action-note" id="guide-phase-note">Die Daten werden ausgewertet.</div>
+      <p id="guide-summary" style="margin-top:12px">Die aktuelle Marktphase wird in einen klaren Handlungsrahmen übersetzt.</p>
+    </article>
+    <article class="action-card action-box">
+      <h3>Jetzt sinnvoll</h3>
+      <ul id="guide-do"><li>Lade…</li></ul>
+    </article>
+    <article class="action-card action-box">
+      <h3>Eher vermeiden</h3>
+      <ul id="guide-avoid"><li>Lade…</li></ul>
+    </article>
+  </div>
+</section>
 
-    <section class="card section">
-      <h2 class="section-title">PRO-Mehrwert auf einen Blick</h2>
-      <p class="section-sub">Im Unterschied zur BASIC-Version zeigt PRO nicht nur Werte, sondern auch, warum ein Szenario steigt oder fällt, wie belastbar Signale sind und welche neutrale Verhaltenslogik zur aktuellen Phase passt.</p>
-      <div class="pro-grid">
-        <div class="mini"><h3>Warum steigt oder fällt die Wahrscheinlichkeit?</h3><p>Jedes Szenario wird nicht nur mit Prozentwert, sondern auch mit aktueller Dynamik und stützenden Treibern erklärt.</p></div>
-        <div class="mini"><h3>Frühwarnung oder Bestätigung?</h3><p>Makroindikatoren werden als Frühwarnsignal, Bestätigungssignal, Begleitindikator oder Kontextsignal gelesen.</p></div>
-        <div class="mini"><h3>Wie belastbar ist das Bild?</h3><p>PRO übersetzt die Signalqualität in eine verständliche Vertrauenslogik statt in künstlich präzise Punktwerte.</p></div>
-        <div class="mini"><h3>Was bedeutet das für Anleger?</h3><p>Die Handlungsmatrix gibt keine Beratung, aber eine klare neutrale Verhaltenslogik für verschiedene Marktphasen.</p></div>
-      </div>
-    </section>
+<section class="card section">
+  <h2 class="section-title">Investitionsrahmen aktuell</h2>
+  <p class="section-sub">Hier wird die aktuelle Marktphase bewusst in zwei praktische Lesarten übersetzt: für laufende Sparpläne und für größere Einmalanlagen. Das ist keine persönliche Anlageberatung, aber eine klare, datenbasierte Orientierung dafür, wie offensiv oder vorsichtig die aktuelle Lage gelesen werden sollte.</p>
+  <div class="invest-grid">
+    <article class="invest-card">
+      <div class="invest-label">Sparplan</div>
+      <div class="invest-head" id="plan-headline">Lade Einordnung…</div>
+      <div class="invest-copy" id="plan-summary">Die Daten werden ausgewertet.</div>
+      <ul class="invest-list" id="plan-list"><li>Lade…</li></ul>
+      <div class="invest-note" id="plan-note">—</div>
+    </article>
+    <article class="invest-card">
+      <div class="invest-label">Einmalanlage</div>
+      <div class="invest-head" id="lump-headline">Lade Einordnung…</div>
+      <div class="invest-copy" id="lump-summary">Die Daten werden ausgewertet.</div>
+      <ul class="invest-list" id="lump-list"><li>Lade…</li></ul>
+      <div class="invest-note" id="lump-note">—</div>
+    </article>
+  </div>
+</section>
 
     <section class="card section">
       <h2 class="section-title">Szenarien &amp; Wahrscheinlichkeiten</h2>
@@ -225,7 +246,131 @@
     </footer>
   </main>
 
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  
+<div class="drawer" id="docs-drawer" aria-hidden="true">
+  <div class="drawer-backdrop" data-close-drawer></div>
+  <aside class="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="docs-title">
+    <div class="drawer-head">
+      <div>
+        <div class="kicker">PRO Hilfe · Onboarding · Leselogik</div>
+        <h2 class="drawer-title" id="docs-title">Hilfe &amp; Doku direkt im Dashboard</h2>
+        <p class="drawer-sub">Die PRO-Hilfe ist bewusst im Produkt integriert. So kann der Nutzer vom Signal direkt in die Erklärung springen, ohne den Kontext zu verlassen.</p>
+      </div>
+      <button type="button" class="drawer-close" id="close-docs-btn" aria-label="Hilfe schließen">×</button>
+    </div>
+    <div class="drawer-body">
+      <section class="doc-section drawer-anchor" id="doc-start">
+        <div class="doc-card">
+          <h2>Was PRO leisten soll</h2>
+          <p>Die PRO-Version ist kein reiner Monitor. Sie ist ein ruhiges Orientierungssystem für Privatanleger. Sie verdichtet Makro-, Markt- und Stresssignale zu einer klaren Marktphasen-Lesung und übersetzt diese in einen konkreten Handlungsrahmen.</p>
+          <div>
+            <span class="doc-chip">Gesamtphase zuerst</span>
+            <span class="doc-chip">Szenarien mit Dynamik</span>
+            <span class="doc-chip">Signalqualität</span>
+            <span class="doc-chip">Presets &amp; Leselogik</span>
+            <span class="doc-chip">Invest-Check</span>
+            <span class="doc-chip">Konkreter Handlungsrahmen</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="doc-section">
+        <div class="doc-card">
+          <h2>So liest du den Kompass sinnvoll</h2>
+          <div class="doc-grid">
+            <div class="doc-row"><strong>1. Gesamtphase lesen</strong><span>Starte immer oben. Der Gesamtstatus sagt dir, ob das Umfeld geordnet, aufmerksamkeitsbedürftig, defensiver oder klar stressbelastet wirkt.</span></div>
+            <div class="doc-row"><strong>2. Handlungsrahmen lesen</strong><span>Danach kommt der wichtigste PRO-Mehrwert: Was ist auf Basis der aktuellen Daten eher sinnvoll und was solltest du eher vermeiden.</span></div>
+            <div class="doc-row"><strong>3. Szenarien lesen</strong><span>Die Szenarien zeigen konkurrierende Marktpfade. Nicht nur mit Prozentwerten, sondern mit stützenden Treibern, Dynamik und Anleger-Bedeutung.</span></div>
+            <div class="doc-row"><strong>4. Signalqualität lesen</strong><span>Hier trennt PRO zwischen Frühwarnung, Bestätigung und Kontext. So wird sichtbar, wie belastbar die aktuelle Lesart wirklich ist.</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="doc-section">
+        <div class="doc-card">
+          <h2>Was die Handlungsempfehlung hier bedeutet</h2>
+          <p>Die Handlungsempfehlung im PRO-Dashboard ist bewusst als <strong>Handlungsrahmen</strong> formuliert. Sie sagt nicht, welches konkrete Wertpapier du kaufen oder verkaufen sollst. Sie sagt dir, wie du die aktuelle Marktphase am sinnvollsten lesen und welches Verhalten aktuell eher angemessen ist.</p>
+          <div class="doc-grid">
+            <div class="doc-row"><strong>Was sie leisten soll</strong><span>Verhaltenslogik, Prioritäten und Entscheidungsdisziplin auf Basis der aktuellen Datenlage.</span></div>
+            <div class="doc-row"><strong>Was sie nicht leisten soll</strong><span>Persönliche Anlageberatung, Produktempfehlungen oder pauschale Buy/Sell-Signale.</span></div>
+          </div>
+          <p class="doc-small">Dadurch bleibt das Produkt vertrauenswürdig, aber gleichzeitig klarer als eine reine Informationsanzeige.</p>
+        </div>
+      </section>
+
+      <section class="doc-section">
+        <div class="doc-card">
+          <h2>Wie die Szenarien entstehen</h2>
+          <p>Die Wahrscheinlichkeiten entstehen aus regelbasierten Gewichten. Inflation, Zinsniveau, Rezessionssignale, Aktienmarktverlauf, Verbraucherstimmung, Stressindikator und globaler Layer schieben das Gesamtbild in Richtung der drei Szenarien.</p>
+          <div class="doc-table">
+            <div class="doc-row"><strong>Szenario A · Anhaltender Druck</strong><span>Längere Belastungsphase, mehr Gegenwind, geringere Fehlertoleranz, stärkere Bedeutung von Qualität und Puffer.</span></div>
+            <div class="doc-row"><strong>Szenario B · Zähe Zwischenphase</strong><span>Gemischtes, fragiles Umfeld. Rückschläge bleiben plausibel, aber nicht jedes Stresssignal ist bereits ein Strukturbruch.</span></div>
+            <div class="doc-row"><strong>Szenario C · Beherrschbarer Schock</strong><span>Stress ist sichtbar, aber begrenzter. Beobachtung, Regelklarheit und saubere Priorisierung sind wichtiger als Hektik.</span></div>
+          </div>
+          <p>PRO ergänzt dazu drei Dinge, die BASIC noch nicht in dieser Tiefe liefert: <strong>Dynamik</strong>, <strong>stützende Treiber</strong> und <strong>Anleger-Bedeutung</strong>.</p>
+        </div>
+      </section>
+
+      <section class="doc-section">
+        <div class="doc-card">
+          <h2>Signalrollen &amp; Vertrauenslogik</h2>
+          <div class="doc-grid">
+            <div class="doc-row"><strong>Frühwarnsignal</strong><span>Reagiert schnell, ist nützlich, aber anfälliger für kurzfristiges Rauschen. Beispiel: Stressindikatoren oder schnelle Arbeitsmarkt-Checks.</span></div>
+            <div class="doc-row"><strong>Bestätigungssignal</strong><span>Bestätigt eher eine Entwicklung, als dass es sie ganz früh ankündigt. Beispiel: Inflation, Zinsniveau, breitere Makroschwäche.</span></div>
+            <div class="doc-row"><strong>Begleitindikator</strong><span>Hilft beim Gesamtbild, sollte aber nicht isoliert gelesen werden. Beispiel: Verbrauchervertrauen.</span></div>
+            <div class="doc-row"><strong>Kontextsignal</strong><span>Zeigt, wie Märkte oder Regionen reagieren. Wertvoll für Einordnung, aber nicht allein tragend.</span></div>
+          </div>
+          <div class="doc-kpi-grid">
+            <div class="doc-kpi"><div class="n">Breite</div><div class="l">Zahlen mehrere Signale in dieselbe Richtung ein?</div></div>
+            <div class="doc-kpi"><div class="n">Stabilität</div><div class="l">Ist die Bewegung mehr als nur ein Ausreißer?</div></div>
+            <div class="doc-kpi"><div class="n">Aktualität</div><div class="l">Wie frisch und wie träge ist der jeweilige Datenpunkt?</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="doc-section">
+        <div class="doc-card">
+          <h2>Presets &amp; Leselogik</h2>
+          <p>Die Presets sind keine separaten Modelle, sondern verschiedene Lesebrillen auf dieselbe Marktlage.</p>
+          <div class="doc-grid">
+            <div class="doc-row"><strong>Defensiv</strong><span>Stärkerer Fokus auf Schutz, Robustheit und Bestätigungssignale.</span></div>
+            <div class="doc-row"><strong>Ausgewogen</strong><span>Die neutrale Referenzlesart dieses Produkts.</span></div>
+            <div class="doc-row"><strong>Opportunistisch</strong><span>Schnelle Ausschläge werden zurückhaltender interpretiert; Überreaktionen stehen stärker im Fokus.</span></div>
+            <div class="doc-row"><strong>Langfristiger ETF-Anleger</strong><span>Gewichtet Strukturbruch höher als Tagesrauschen und bleibt stärker in Phasenlogik statt Tick-Logik.</span></div>
+            <div class="doc-row"><strong>Einkommens-/Dividendenanleger</strong><span>Achtet sensibler auf Zinsen, Finanzierungsbedingungen, Cashflow-Qualität und konjunkturelle Verschlechterung.</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="doc-section">
+        <div class="doc-card">
+          <h2>Indikatoren in einfacher Sprache</h2>
+          <div class="doc-table">
+            <div class="doc-row"><strong>US-Inflation</strong><span>Misst, wie stark Verbraucherpreise gegenüber dem Vorjahr gestiegen sind. Relevant, weil Inflation Kaufkraft, Zinsen und Bewertungen beeinflusst.</span></div>
+            <div class="doc-row"><strong>Effektive Fed Rate</strong><span>Der tatsächliche Tageszins am US-Geldmarkt. Vereinfacht: Wie teuer ist sehr kurzfristiges Geld gerade?</span></div>
+            <div class="doc-row"><strong>Rezessionssignal USA</strong><span>Kombiniert ein langsameres Modell mit einem schnelleren Arbeitsmarkt-Check. So wird der Blick weniger blind für frühe Risse.</span></div>
+            <div class="doc-row"><strong>S&amp;P 500 YTD</strong><span>Zeigt, ob der Markt Risiken schon einpreist oder bislang relativ stabil bleibt.</span></div>
+            <div class="doc-row"><strong>Verbrauchervertrauen</strong><span>Hilft, die Stimmung der Haushalte und damit indirekt die Nachfrageseite besser einzuordnen.</span></div>
+            <div class="doc-row"><strong>Stressindikator</strong><span>Bündelt Volatilität, Energiepreise, Renditen und Währungen in einer lesbaren Frühwarnzahl.</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="doc-section">
+        <div class="doc-card">
+          <h2>Häufige Denkfehler</h2>
+          <ul>
+            <li>Ein hohes Szenario bedeutet nicht automatisch, dass morgen ein Crash kommt.</li>
+            <li>Ein ruhiger Gesamtstatus bedeutet nicht, dass Risiken verschwunden sind.</li>
+            <li>Ein einzelner roter Indikator ist noch kein belastbares Gesamturteil.</li>
+            <li>Ein Frühwarnsignal sollte nie wie eine endgültige Bestätigung behandelt werden.</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </aside>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
   <script>
     const DATA_URL='./data/latest.json';
     const RANGES={ '1M':31,'3M':93,'6M':186,'12M':372,'MAX':Infinity };
@@ -492,10 +637,125 @@
       $('market-summary').textContent=st.summary;
       $('market-foot').textContent=`Letzte Aktualisierung: ${fmtDateTime(appData.fetchedAt)}`;
       const meanings=investorMeaning(st); $('investor-meaning').textContent=meanings[0]; $('meaning-copy-1').textContent=meanings[0]; $('meaning-copy-2').textContent=meanings[1];
+      renderActionGuide(st);
+      renderInvestmentGuide(st);
       renderMatrix(st.key);
       renderSignalQuality(appData, sc, st);
       renderPresets();
     }
+
+
+function actionGuide(state){
+  if(state.key==='stress') return {
+    headline:'Defensiver Handlungsrahmen',
+    note:'Mehrere Belastungsachsen bestätigen sich aktuell gegenseitig.',
+    summary:'Die Daten sprechen aktuell weniger für aggressives Handeln und stärker für Priorisierung, Puffer und Entscheidungsdisziplin.',
+    do:['Große Entscheidungen bewusst verlangsamen und an das eigene Regelwerk rückbinden.','Liquidität, Qualität und Fehlertoleranz im bestehenden Plan prüfen.','Neue Risiken nur eingehen, wenn sie zur angespannten Phase wirklich passen.'],
+    avoid:['Aus Unsicherheit hektisch alles umwerfen.','Einzelne starke Tage schon als Entwarnung lesen.','Große Einmalentscheidungen nur aus FOMO oder Schmerz treffen.']
+  };
+  if(state.key==='defensive') return {
+    headline:'Vorsichtiger Handlungsrahmen',
+    note:'Die Lage ist ernst zu nehmen, aber noch nicht voll eskaliert.',
+    summary:'Die Daten sprechen für sauberere Priorisierung, kleinere Entscheidungsschritte und höhere Aufmerksamkeit für Robustheit.',
+    do:['Schrittweise statt impulsiv entscheiden.','Bestehende Positionierung auf Robustheit und klare Rollen prüfen.','Zwischen Rückschlag und echtem Strukturbruch bewusst trennen.'],
+    avoid:['Jede negative Nachricht sofort maximalisieren.','Große Einmalmoves ohne klare Begründung.','Kurzfristige Marktbewegungen mit langfristigen Zielen verwechseln.']
+  };
+  if(state.key==='watch') return {
+    headline:'Aufmerksamer Handlungsrahmen',
+    note:'Erste Warnlichter sind sichtbar, aber noch ohne breite Stressbestätigung.',
+    summary:'Die Daten sprechen für Beobachtung, Regelklarheit und dafür, Risiken nüchtern zu lesen statt vorschnell zu reagieren.',
+    do:['Den Gesamtstatus regelmäßig mit den Szenarien abgleichen.','Neue Entscheidungen bewusst mit dem eigenen Anlagehorizont abgleichen.','Kleine Signale sammeln, statt sie einzeln zu übergewichten.'],
+    avoid:['Normales Marktrauschen als Ausnahmezustand lesen.','Aus jedem schwächeren Tag sofort eine Großthese bauen.','Ohne Not vom eigenen Plan abweichen.']
+  };
+  return {
+    headline:'Konstruktiver Handlungsrahmen',
+    note:'Das Umfeld wirkt aktuell überwiegend geordnet.',
+    summary:'Die Daten sprechen eher für Regeltreue, Kontinuität und ruhige Umsetzung als für hektische Sondermaßnahmen.',
+    do:['Den bestehenden Plan sauber weiter umsetzen.','Marktphasen weiter beobachten, ohne künstlich Aktivität zu erzeugen.','Ruhephasen nutzen, um Regeln und Prioritäten zu schärfen.'],
+    avoid:['Sicherheit mit Sorglosigkeit verwechseln.','Aus Langeweile unnötige Entscheidungen erzeugen.','Kurze Ruhephasen als Dauerzustand interpretieren.']
+  };
+}
+
+
+function investmentGuide(state){
+  if(state.key==='stress') return {
+    plan:{
+      headline:'Weiterlaufen, aber bewusst nüchtern',
+      summary:'Bei hohem Stress spricht das Modell eher dafür, laufende Sparpläne nicht emotional zu sabotieren, aber das Gesamtrisiko bewusst zu prüfen.',
+      bullets:['Sparpläne eher als Regelwerk lesen, nicht als kurzfristigen Timing-Hebel.','Zusätzliche Erhöhungen nur dann, wenn sie zu Liquidität und Nerven wirklich passen.','Stärkere Schwankungen gedanklich vorwegnehmen.'],
+      note:'Klare Lesart: Regelmäßigkeit ist meist sinnvoller als hektisches Stop-and-go.'
+    },
+    lump:{
+      headline:'Eher staffeln statt groß auf einmal',
+      summary:'Bei angespanntem Stressbild spricht das Modell gegen große, impulsive Einmalentscheidungen.',
+      bullets:['Größere Einmalanlagen eher in Tranchen denken.','Zuerst Fehlertoleranz und Liquidität prüfen.','Nur dann offensiver werden, wenn das bewusst Teil des eigenen Regelwerks ist.'],
+      note:'Klare Lesart: In dieser Phase wirkt Geduld meist stärker als heroisches Timing.'
+    }
+  };
+  if(state.key==='defensive') return {
+    plan:{
+      headline:'Weiterlaufen mit ruhiger Disziplin',
+      summary:'Die aktuelle Lage spricht dafür, laufende Sparpläne eher regelbasiert fortzuführen und nicht an jedem Signal zu drehen.',
+      bullets:['Sparpläne nicht aus kurzfristiger Nervosität stoppen.','Erhöhungen nur bewusst und mit Blick auf Puffer entscheiden.','Marktphasen beobachten, aber nicht übersteuern.'],
+      note:'Klare Lesart: Regelmäßigkeit bleibt sinnvoll, Übermut eher nicht.'
+    },
+    lump:{
+      headline:'Selektiv und eher gestaffelt',
+      summary:'Das Umfeld ist investierbar, aber nicht klar genug für blinden Optimismus bei größeren Einmalanlagen.',
+      bullets:['Einmalanlagen eher in mehrere Schritte aufteilen.','Qualität und Robustheit stärker gewichten als Tempo.','Nicht jeden Rücksetzer automatisch als Schnäppchen interpretieren.'],
+      note:'Klare Lesart: Eher kontrolliert aufbauen als alles in einem Schritt festlegen.'
+    }
+  };
+  if(state.key==='watch') return {
+    plan:{
+      headline:'Normal weiter, aber aufmerksam',
+      summary:'Die Datenlage spricht noch nicht gegen laufende Sparpläne, verlangt aber etwas mehr Aufmerksamkeit für neue Stresssignale.',
+      bullets:['Sparpläne grundsätzlich sauber weiterlaufen lassen.','Neue Signale regelmäßig prüfen, ohne ständig umzubauen.','Den eigenen Horizont über Tagesrauschen stellen.'],
+      note:'Klare Lesart: Regelmäßige Umsetzung bleibt plausibel.'
+    },
+    lump:{
+      headline:'Machbar, aber nicht gedankenlos',
+      summary:'Einmalanlagen sind möglich, sollten aber mit realistischer Erwartung an Rückschläge erfolgen.',
+      bullets:['Nicht alles von einem perfekten Einstiegszeitpunkt abhängig machen.','Bei Unsicherheit kann Staffelung sinnvoll bleiben.','Die aktuelle Marktphase eher als aufmerksam als als alarmierend lesen.'],
+      note:'Klare Lesart: Möglich, aber mit sauberem Erwartungsmanagement.'
+    }
+  };
+  return {
+    plan:{
+      headline:'Konstruktiv weiterlaufen',
+      summary:'In geordneter Phase spricht das Modell klar für Kontinuität statt künstlicher Zurückhaltung.',
+      bullets:['Sparpläne normal weiter umsetzen.','Keine unnötigen Pausen aus Marktsorgen erzeugen.','Ruhephasen für Disziplin statt Aktionismus nutzen.'],
+      note:'Klare Lesart: Der laufende Plan hat aktuell Vorrang vor Timing-Spielereien.'
+    },
+    lump:{
+      headline:'Einmalanlage grundsätzlich gut vertretbar',
+      summary:'Die aktuelle Datenlage wirkt eher konstruktiv als abschreckend, sofern der Betrag zum eigenen Plan passt.',
+      bullets:['Nicht auf perfekte Bedingungen warten.','Bei sehr großen Beträgen bleibt Staffelung aus Komfortgründen trotzdem legitim.','Entscheidungen am eigenen Zielbild ausrichten, nicht an Schlagzeilen.'],
+      note:'Klare Lesart: Eher umsetzen als endlos zögern.'
+    }
+  };
+}
+
+function renderInvestmentGuide(state){
+  const g = investmentGuide(state);
+  $('plan-headline').textContent=g.plan.headline;
+  $('plan-summary').textContent=g.plan.summary;
+  $('plan-list').innerHTML=g.plan.bullets.map(x=>`<li>${x}</li>`).join('');
+  $('plan-note').textContent=g.plan.note;
+  $('lump-headline').textContent=g.lump.headline;
+  $('lump-summary').textContent=g.lump.summary;
+  $('lump-list').innerHTML=g.lump.bullets.map(x=>`<li>${x}</li>`).join('');
+  $('lump-note').textContent=g.lump.note;
+}
+
+function renderActionGuide(state){
+  const g=actionGuide(state);
+  $('guide-headline').textContent=g.headline;
+  $('guide-phase-note').textContent=g.note;
+  $('guide-summary').textContent=g.summary;
+  $('guide-do').innerHTML=g.do.map(x=>`<li>${x}</li>`).join('');
+  $('guide-avoid').innerHTML=g.avoid.map(x=>`<li>${x}</li>`).join('');
+}
 
     function setHeader(){
       $('fresh-text').textContent=`Datenstand: ${fmtDateTime(appData.fetchedAt)}`;
@@ -503,8 +763,14 @@
       $('source-text').textContent=appData.meta?.source || 'FRED + Google News RSS';
     }
 
+    function openDocs(){ $('docs-drawer').classList.add('open'); document.body.style.overflow='hidden'; }
+    function closeDocs(){ $('docs-drawer').classList.remove('open'); document.body.style.overflow=''; }
     function closeInfo(){ document.querySelectorAll('.info-wrap.open').forEach(x=>x.classList.remove('open')); }
-    document.addEventListener('click',e=>{ const btn=e.target.closest('.info-btn'); if(btn){ const wrap=btn.closest('.info-wrap'); const open=wrap.classList.contains('open'); closeInfo(); if(!open) wrap.classList.add('open'); e.stopPropagation(); return; } if(!e.target.closest('.info-wrap')) closeInfo(); });
+    document.addEventListener('click',e=>{ const btn=e.target.closest('.info-btn'); if(btn){ const wrap=btn.closest('.info-wrap'); const open=wrap.classList.contains('open'); closeInfo(); if(!open) wrap.classList.add('open'); e.stopPropagation(); return; } if(e.target.closest('[data-close-drawer]')){ closeDocs(); return; } if(!e.target.closest('.info-wrap')) closeInfo(); });
+    $('open-docs-btn').addEventListener('click', openDocs);
+    $('close-docs-btn').addEventListener('click', closeDocs);
+    document.addEventListener('keydown', e=>{ if(e.key==='Escape') closeDocs(); });
+    const params=new URLSearchParams(location.search); if(params.get('docs')==='1'){ setTimeout(openDocs, 120); }
 
     async function load(){
       try{
@@ -517,6 +783,7 @@
     }
 
     setInterval(()=>{ $('berlin-clock').textContent=berlinNow(); },1000); $('berlin-clock').textContent=berlinNow();
+    if(new URLSearchParams(location.search).get('docs')==='open') openDocs();
     load(); setInterval(load, 5*60*1000);
   </script>
 </body>
