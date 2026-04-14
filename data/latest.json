@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-14T18:25:36.616757+00:00",
+  "fetchedAt": "2026-04-14T18:39:55.851005+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20628,23 +20628,6 @@
   },
   "news": [
     {
-      "title": "5 Things to Know Before the Stock Market Opens",
-      "source": "Investopedia",
-      "publishedAt": "2026-04-14T12:14:25+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQb0lsVmlGWUlVOWtCZHVwTndzSnJyZGVnWGN3VzR6MkxFNXF5VWxMTVl4WnRMRWRCYnBpeDdVN24tc19sbWRzQUF0MUQ5dU5Yb3RQOVRHSENfWEMwMG15OUFQRmp2WEhOdTREV1FyXzE0Vl9EU2JNRUl2LXJmLXZienA2UDhyczhTYkh6YkpHWW1uOUR6MWVBV0V6cFRKSms?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
       "title": "Stocks rise and oil prices ease as hopes climb for another round of US-Iran talks",
       "source": "WTOP",
       "publishedAt": "2026-04-14T16:13:31+00:00",
@@ -20660,6 +20643,23 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "5 Things to Know Before the Stock Market Opens",
+      "source": "Investopedia",
+      "publishedAt": "2026-04-14T12:14:25+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQb0lsVmlGWUlVOWtCZHVwTndzSnJyZGVnWGN3VzR6MkxFNXF5VWxMTVl4WnRMRWRCYnBpeDdVN24tc19sbWRzQUF0MUQ5dU5Yb3RQOVRHSENfWEMwMG15OUFQRmp2WEhOdTREV1FyXzE0Vl9EU2JNRUl2LXJmLXZienA2UDhyczhTYkh6YkpHWW1uOUR6MWVBV0V6cFRKSms?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
@@ -20837,7 +20837,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-04-14T18:25:36.616757+00:00",
+      "dataAsOf": "2026-04-14T18:39:55.851005+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
