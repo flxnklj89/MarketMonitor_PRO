@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-14T19:21:47.650878+00:00",
+  "generatedAt": "2026-04-14T22:33:21.746614+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -75,6 +75,7 @@
     "marketMood": "Zwiespältig. Der Markt verarbeitet Entspannungs- und Eskalationssignale gleichzeitig.",
     "tags": [
       "Hormus",
+      "Öl",
       "Aktienmarkt"
     ],
     "risks": [
@@ -875,34 +876,16 @@
   },
   "news": [
     {
-      "title": "How Wall Street is reacting to Trump’s Strait of Hormuz blockade - NewsNation",
+      "title": "Live updates: US military calls blockade of Iranian ports a success - NewsNation",
       "source": "NewsNation",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZ2pneVFtX3g0c01MSGdpTTFoOURuTUxyUjlpWEhENGNCMFJ3ckZDNjZnWUNuRzN6dTV1WkFvcVRHY3NyZTBMOGR5VlZDa2RibFdZMlZEd1R3OGtQN0Z5V2RsYi04RE1ZYmdzVjhJS2pRVTZ2d3VLVTFnb2lnU2tMN1RfUGxzdWJ3T3c4SWx0RkwwNVdPcTczbHRac1hFa2JycWJrWHBKa0ZBU2VpSmVwaWVyZ9IBuAFBVV95cUxOSFcwNEl0ZVdsZlF6YXBrd2hfd2NqanVPZi04XzF3VERpTHYxa01MVXA3UlZwMXRWMFgxVmZCZWxmSnI1UUZjTzdOVDJEWkRMU1RlQmd1Sk5JRkszcTFsYmdEc0dKVFFjMVpYbEdWMW9SOEV5cm5wY2lfUmJZUENWZWpPczlJZFdhWGk3TjN3SGU4WWtwd1dzdE94TWpqLXpjRmRtRlFNalJDakxTbzRNaHROZzV1SERZ?oc=5",
-      "publishedAt": "2026-04-14T12:50:08+00:00"
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeTJFUnBnRmdIOExkNk40QngwbDQ0U3dEdUhZM2p1X0lPaEtzUUN2XzdpRkVCVEpwcjQ4bmtlMU5nMlhyUnl0Y1VwaFhDQTcweC1VMWV5Q2VuN2xBOHk2WFlUcVBNR1ZZUHpZeFlYbFpyQ2VNV0hPYmk3eG1MUjVNOEhiMmxpZ0YyWW9Ga2FHc0JFV1g4cUN2eFBncEhHNEp5OTZEN2tDRHJxS2020gGyAUFVX3lxTE91SHBYUXU5d0xUUUlzMXU2bUJuLVVWOWNGV1l1V3htNTlkZ2hSMkdYOThWQUVVa3dCMlF0UTl1eWJfa1FXUnZtSV9tR2pURDVPbkxEakY1cVY1bHpHcmhMMVBEUFVoaEc3STdiVmlWcERSei1SSEd4NjhZODdLcUh2eTZhQnBMUG01SzlZVXdrVnJnODdMQlROZ3JSeV9uYVdUdDF5VmVvSTFkZjZ4Mk9NbUE?oc=5",
+      "publishedAt": "2026-04-14T18:24:18+00:00"
     },
     {
-      "title": "World faces food ‘catastrophe’ if Strait of Hormuz disruption persists: FAO - Al Jazeera",
-      "source": "Al Jazeera",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcGcxRGh2Y3h5Q3FXQ0lXTVBjanNGb2dNZF9hZThDcEFlajJiUS1FTlBmbzdoVWFiNWZEU1hXSzlpTEZxTUtvWVJEVUVFbmFBajU4b1VjMjJ3RmFMelQtbDFnNHVpYlpNNnM1eG1NOU0xOERzdHZCUS1kSlpLVEFyNzlLOFRZak03c2U1eklGNXpvc0NZbUNhWlo5dUhjTVgtRGVxbm54VUtvMGtocTBTcXFlOHQ1cW_SAbwBQVVfeXFMTU5lWHBXakxYbUtnd0hQcTdnU3hIZHM5bDE2M1BSdkNmV2p0MlhZSWZWM0M4QXJxMVZmX1dLZVNhWVh3cDNUWThQQXFSbElTQXNhZ3NCcnJQRXpOWjcyc19ORXZRcjVOVWVLVW9RZzBIZXdvQTVYb1IyYUR5aEFJdGNfS0EzVm1VZVozcFFmekNkUTJZZmI0UktwUXU4SEhDVk1NU3Fkb1F4RXJrMDVlWkVMWXVUTndWWmRPTDQ?oc=5",
-      "publishedAt": "2026-04-14T09:41:52+00:00"
-    },
-    {
-      "title": "Chinese tanker crosses Strait of Hormuz, testing Trump’s blockade - The Hill",
-      "source": "The Hill",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZDFhRDBWNFhNbzJRbjFxdW9PQlpxM2lNMDFhYmFtRTdHbzlqQ1Z0ZUlkZE9pbm9JYk1JejFQQm1STDdJcE1EZVJ4Y3Z6emgycjhlNHVNSXNtUFRvZHRybV9ER05mcWlEVHFkbXc3a0VzY1dSdnNqS0Rwa09taWFCa01TcGdPbk1GbERVczNTcULSAZYBQVVfeXFMT0YtUGlqT25qcmN5Zl9CNEh4OW5BeWpuMlc2LWF0RVBaZ0RBaXcwZlJzQUtEaVlQbXd1bUJRbFc0OVNhX0tBTWRvcHBLUGk4eld4eE50LTBIdlpFd2hkd3ZTbmRiM0JMUEpKNWJzQkVLVEtpMFhJd3BXUzRER3Y1eWNtUXZhbTU1NDZVR2ZOLTZHZVhBMW1R?oc=5",
-      "publishedAt": "2026-04-14T13:17:00+00:00"
-    },
-    {
-      "title": "How the U.S. Navy Is Blockading the Strait of Hormuz to Choke Off Iran’s Ports - WSJ",
-      "source": "WSJ",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQnlxOVR4ajdnRnBmZnk0MnE5YVdnZmtCZElUejAzcndnbzd6VUJHdE1FOGxNcGluOVBPREU0aHVlR0VpYUJQdVo2SFJJclV1Q0QtbDVqa2FHUWdEWHNHMUl1V25BVFN2SzhHSlllWVVRMkJaMXJ1bk52MnEzWWQtRHM4dUxQWXpMem1ncjNwN2R0SU0teXdiRzhtTTF0RmV5emJDR1ZoWEN5M0E2dW5oYTJaYVA5QmV1dWk5X01JYng?oc=5",
-      "publishedAt": "2026-04-14T10:13:00+00:00"
-    },
-    {
-      "title": "Iran-linked ships transit through Strait of Hormuz — nearly 24 hours into US blockade - New York Post",
-      "source": "New York Post",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRnF2M1M1WDl3Y2x4QTdhTVhyX01JN1dWNUJpT3kxVS00ZW9KblFrUmFrUWVESEdJUUo3enpBdXliSFllc2w2RVVTQWZ3LWFSUWpyOUVTNVZ6N2VvdjVPcklXaWF6ZVZrQkx6SDdjem5fbVd0b1FDRUUwd3ozWGdDM2lQMkVoUVJCSlIwelVpcGl1bHdiY2R5Q3F2a1hFQ2lKN21rTk5fX1ROQlZ2d21HTjZzbjh0REZ0WFlBcF9mRktCbXBXNXVmQjB5V2pWQQ?oc=5",
-      "publishedAt": "2026-04-14T14:21:00+00:00"
+      "title": "WSJ: Over 20 commercial ships pass through Strait of Hormuz in past 24 hours - The Times of Israel",
+      "source": "The Times of Israel",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQM2RJZkV0NVNKU1FzNlF5Z0VuMGNLRENXbERCdmhLUzdfc25TSHhXUmRQQjJwWnNfSHdvOWxEVkNoU3EycGRSdVZUU2FHbkw3MzJJbWN5cEFoSXhSSjhoYU5GNVY0NUNNLW03WGdaUkJpT000Q3hFakQ4dnphM1dmQ2hNaEZ1Z1l6dWl3eTAxSjU1VEJsR0VFcXE5dnNwRXVNRVdMOGJtdVE3S1E5TTNWLWRJOHVLcW1oRnZVVDJn?oc=5",
+      "publishedAt": "2026-04-14T20:31:21+00:00"
     },
     {
       "title": "Saudi Arabia pushes US to remove its blockade in Strait of Hormuz: Report - Anadolu Ajansı",
@@ -917,10 +900,28 @@
       "publishedAt": "2026-04-14T14:24:44+00:00"
     },
     {
-      "title": "Saudi Arabia asks US to end Strait of Hormuz blockade - The Jerusalem Post",
-      "source": "The Jerusalem Post",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9TMFlkdmFQQUJRdk81b3gyREhUejJ2Ui1aaUV4cnZ3MjFRQjFuVjNTbE45YkM2d1lLRmdLNVRMUWtjaDIyUVBmM20zSzk4VmF6R0NOTVFQS19saEts?oc=5",
-      "publishedAt": "2026-04-14T15:53:53+00:00"
+      "title": "France is willing to help keep Strait of Hormuz open post-conflict, finance minister says - Semafor",
+      "source": "Semafor",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQajh1aVBZUGd1ZVlRSEJMTjNRODdYcTJlZUItQWd1cnRfWnhWeHIxU05qZm9VTkJLVkl3aUZSSFpETjQyZmx4QWVxcFd4X0NVUHZ6akFHTlFUUGZ0LXZscEN1NTJjQVBFR0ZYQUZRU0JrM0I1NTJRTFhhVjZnZFRJdjUySENycXJQeGR3d0pkeDE0WHZ2M3NfQ3QyMlhRZDhhQlVQT1V5aXRpYW9yMk83c1lfbw?oc=5",
+      "publishedAt": "2026-04-14T19:57:00+00:00"
+    },
+    {
+      "title": "Iran-linked ships transit through Strait of Hormuz — nearly 24 hours into US blockade - New York Post",
+      "source": "New York Post",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRnF2M1M1WDl3Y2x4QTdhTVhyX01JN1dWNUJpT3kxVS00ZW9KblFrUmFrUWVESEdJUUo3enpBdXliSFllc2w2RVVTQWZ3LWFSUWpyOUVTNVZ6N2VvdjVPcklXaWF6ZVZrQkx6SDdjem5fbVd0b1FDRUUwd3ozWGdDM2lQMkVoUVJCSlIwelVpcGl1bHdiY2R5Q3F2a1hFQ2lKN21rTk5fX1ROQlZ2d21HTjZzbjh0REZ0WFlBcF9mRktCbXBXNXVmQjB5V2pWQQ?oc=5",
+      "publishedAt": "2026-04-14T14:21:00+00:00"
+    },
+    {
+      "title": "How the Strait of Hormuz Oil Crisis Is Impacting Markets and Investors - MarketWise",
+      "source": "MarketWise",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAtbGdfemdMSGRGZDVvQkJibkRnemRZejJ4dTFOM0lCZG1CU2R5MFdUc1RqZHlhY3J3SWYtdkFjajF2Yms5WmRTWDdFcnlhejlhTkExdjJiTWpVeWxHaTVOU2I5ZXhUUmVFU3Zxemk5YnNZbzVndUpNeQ?oc=5",
+      "publishedAt": "2026-04-14T21:06:38+00:00"
+    },
+    {
+      "title": "How Wall Street is reacting to Trump’s Strait of Hormuz blockade - NewsNation",
+      "source": "NewsNation",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZ2pneVFtX3g0c01MSGdpTTFoOURuTUxyUjlpWEhENGNCMFJ3ckZDNjZnWUNuRzN6dTV1WkFvcVRHY3NyZTBMOGR5VlZDa2RibFdZMlZEd1R3OGtQN0Z5V2RsYi04RE1ZYmdzVjhJS2pRVTZ2d3VLVTFnb2lnU2tMN1RfUGxzdWJ3T3c4SWx0RkwwNVdPcTczbHRac1hFa2JycWJrWHBKa0ZBU2VpSmVwaWVyZ9IBuAFBVV95cUxOSFcwNEl0ZVdsZlF6YXBrd2hfd2NqanVPZi04XzF3VERpTHYxa01MVXA3UlZwMXRWMFgxVmZCZWxmSnI1UUZjTzdOVDJEWkRMU1RlQmd1Sk5JRkszcTFsYmdEc0dKVFFjMVpYbEdWMW9SOEV5cm5wY2lfUmJZUENWZWpPczlJZFdhWGk3TjN3SGU4WWtwd1dzdE94TWpqLXpjRmRtRlFNalJDakxTbzRNaHROZzV1SERZ?oc=5",
+      "publishedAt": "2026-04-14T12:50:08+00:00"
     }
   ]
 }

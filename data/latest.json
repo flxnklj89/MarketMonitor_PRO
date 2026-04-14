@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-14T19:21:38.209935+00:00",
+  "fetchedAt": "2026-04-14T22:33:17.935432+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -105,7 +105,7 @@
         "vix": 19.12,
         "brent": 127.61,
         "eurusd": 1.1723,
-        "us10y": 4.31
+        "us10y": 4.3
       },
       "uiLabel": "Marktstress",
       "shortText": "Verdichteter Stressmesser aus Markt- und Preisvariablen.",
@@ -248,9 +248,9 @@
     {
       "label": "US 10Y",
       "icon": "📉",
-      "val": 4.31,
-      "chg": 0.02,
-      "chgPct": 0.47,
+      "val": 4.3,
+      "chg": -0.01,
+      "chgPct": -0.23,
       "unit": "%",
       "dec": 2
     },
@@ -20628,10 +20628,27 @@
   },
   "news": [
     {
-      "title": "War is over for Wall Street, while oil drags down bonds and gold",
+      "title": "Stock Market Today (LIVE): S&P 500 Wipes Out Iran War Losses; UPS Wants RFID on Every Package; Citi Puts Alphabet on 90-Day Watch",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-04-14T20:19:23+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYl9tRWJBS01hTlZCVzZxeFQwUVVDNjR5TGxmTGUxcnlnWDVPcUtqd3pBVGVWSVhwejRWYTZ5M2o3VklCQWVsUmFUT1hqM3RXNDVXejE3OUtSTGxZcGtlRTJUSnZyaGQ0REJycEpvNXgtalg0VHZqUDBrNjZfSno3Ug?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Higher oil prices, higher yields, no more rate cuts? No problem for US stocks",
       "source": "Reuters",
-      "publishedAt": "2026-04-14T15:14:47+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZl9kMnlqZzJWSEh1Yjc4SjdLNjI3ZVRxa0xvdmJPSUNFbDJHS0lWOGtWTEFSa1ZwWDA2VS0wNWZqaFN6eEFwUVlzYmE0QS10WklULWZpSFhxRUU0dmV5Vk9SRklkNlJvU09UT05MUmNCUWM2UV8xamZlTXhVSGQydjg4a2ZQTy1nTkJwRUpObDFLM1V1NTJDNEU2eDFwbWZlTFg0TkYxTmQxZw?oc=5",
+      "publishedAt": "2026-04-14T20:39:39+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTmxNZkdMZ1JMUGZ1dlFfdG5lS3pJdmpsZ0RrN1dTUGNDaWtWdi1lQXlNSmNEMXJ4d2p3ZEJ5QkJpQ2xSeV9HZVJnSWNpR2ZaYy1TcTVEQ3BQUUR5VzRBTHNJRUlibGx4TGRvMmdkU0R6elBHd3dZWTF2RUxlOWp5UE1iUHpBNk5ZdmRULWVHWnRuSkc5eVZfRkx4bGE3akxkYlFmVmtBaTZTdUNab2FmQ3pRaUpaUQ?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20681,38 +20698,20 @@
       ]
     },
     {
-      "title": "Stock Market Today (LIVE): Amazon Buys Globalstar in Bid to Catch Starlink; Lucid Taps Outsider for CEO Turnaround",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-04-14T17:10:35+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYl9tRWJBS01hTlZCVzZxeFQwUVVDNjR5TGxmTGUxcnlnWDVPcUtqd3pBVGVWSVhwejRWYTZ5M2o3VklCQWVsUmFUT1hqM3RXNDVXejE3OUtSTGxZcGtlRTJUSnZyaGQ0REJycEpvNXgtalg0VHZqUDBrNjZfSno3Ug?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "CarMax Stock Sinks Below Key Level Despite Earnings Beat",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-04-14T20:22:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTWwzTWFkcGQ1OGFXNi03cVZPVEpsVF8yNUM2eTlQSUxsdjZsNlQxVWp2bGp2Qm9vdndOU2p0ZW1neDBhclIxbVBEamxibW90dVdJXzk0QXZwQWFRQ09rM1c0d1U5aVZWSlY4ZFFnR0hCYjRNX2piOVJmdkQ0NFgwYw?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
         "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Stocks Just Erased the Iran-War Selloff. Now Watch Oil—It’s Flashing an Inflation Warning",
-      "source": "inc.com",
-      "publishedAt": "2026-04-14T09:06:02+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMlFNcll4bXFieF9HNEdLczBySTFfY2libTRESVl6YXE3SWEyNXphTHlWbWtjVTFFbHdSS3FGRWZiY2ZRck5scWIwV3kzTnJweGdiV3JqcEhJZGJEUzcxTWRKOGdrdlgxYmVmWWEyeDI3UWxNNE1DNWVZVVltNTRaTFplWEtXU1pFQmRxc2FScDI3R0l6ZUl2cURSdHhMWGRCUXc?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     },
     {
@@ -20837,7 +20836,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-04-14T19:21:38.209935+00:00",
+      "dataAsOf": "2026-04-14T22:33:17.935432+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
