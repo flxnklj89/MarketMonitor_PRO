@@ -57,7 +57,7 @@
       <nav class="nav">
         <a class="active" href="./index.html">Dashboard</a>
         <a href="./invest-check.html">Invest-Check</a>
-        <button type="button" id="open-docs-btn">Hilfe &amp; Doku</button>
+        <a href="./documentation.html">Hilfe &amp; Doku</a>
       </nav>
     </div>
   </header>
@@ -68,7 +68,7 @@
         <div class="card hero-main">
           <div class="kicker">PRO · Marktphasen · Signalqualität · Szenarien</div>
           <h1 class="hero-title">Marktrisiko-Kompass PRO</h1>
-          <p class="hero-sub">Verständliche Markt- und Risikosignale für Privatanleger – klar, regelbasiert und ohne Terminal-Overload. Die PRO-Version verdichtet Marktphase, Szenarien, Signalqualität, Presets und neutrale Verhaltenslogik zu einem ruhigen Orientierungssystem.</p>
+          <p class="hero-sub">Verständliche Markt- und Risikosignale für Privatanleger – klar, regelbasiert und ohne Terminal-Overload. Die PRO-Version verdichtet Marktphase, Szenarien und neutrale Verhaltenslogik zu einem ruhigen Orientierungssystem. Vertiefung, Presets und Signalqualität liegen bewusst in der Dokumentation, damit das Dashboard klarer lesbar bleibt.</p>
           <div class="hero-meta">
             <div class="chip"><span class="dot" id="fresh-dot"></span><span id="fresh-text">Lade Datenstand…</span></div>
             <div class="chip">Berlin-Zeit: <span id="berlin-clock">—</span></div>
@@ -194,20 +194,6 @@
       </div>
     </section>
 
-    <section class="meaning-grid moved-doc">
-      <article class="card copy-card">
-        <h2 class="section-title">Bedeutung für Anleger</h2>
-        <p id="meaning-copy-1">Lade Einordnung…</p>
-        <p id="meaning-copy-2">Lade Einordnung…</p>
-        <p class="muted">Dieses Dashboard liefert Orientierung zur Marktphase. Es ersetzt keine individuelle Anlageberatung und gibt keine Kauf- oder Verkaufsempfehlungen.</p>
-      </article>
-      <article class="card matrix-card">
-        <h2 class="section-title">Handlungsmatrix</h2>
-        <p class="section-sub">Die Matrix beschreibt Verhaltenslogik, keine Anlageberatung. Sie hilft, Marktphasen sauberer zu lesen.</p>
-        <div class="matrix-grid" id="matrix-grid"></div>
-      </article>
-    </section>
-
     <section class="card section">
       <h2 class="section-title">Signalqualität & Vertrauenslogik</h2>
       <p class="section-sub">PRO trennt bewusst zwischen Signal, Bestätigung und Rauschen. Dadurch wird klarer, wie viel Vertrauen die aktuelle Lesart verdient und welche Teile eher Frühwarnung als Bestätigung sind.</p>
@@ -228,72 +214,72 @@
       <div class="helper">Hinweis: Auf Mobilgeräten öffnen sich die kleinen Infofelder per Tap. Die PRO-Variante erklärt dort zusätzlich: Was misst der Indikator, warum ist er relevant, wann wird er kritischer und ob er eher Frühwarnung, Bestätigung oder Kontext ist.</div>
     </section>
 
-
-    <section class="card section">
-      <h2 class="section-title">Handlungs- &amp; Investitionsrahmen aktuell</h2>
-      <p class="section-sub">Dieser Block bündelt die aktuelle Marktlesart zu einem praktischen Rahmen: Was ist auf Basis der Daten eher sinnvoll, was eher nicht – und wie unterschiedlich sollte man laufende Sparpläne und größere Einmalanlagen aktuell lesen.</p>
-      <div class="frame-facts">
-        <div class="fact-card">
-          <div class="fact-label">Marktphase</div>
-          <div class="fact-value" id="frame-phase">—</div>
-          <div class="fact-note">Verdichtete Lesart des aktuellen Umfelds.</div>
-        </div>
-        <div class="fact-card">
-          <div class="fact-label">Stressniveau</div>
-          <div class="fact-value" id="frame-stress">—</div>
-          <div class="fact-note">Proxy aus Marktstress- und Umfeldsignalen.</div>
-        </div>
-        <div class="fact-card">
-          <div class="fact-label">Rezessionslesung</div>
-          <div class="fact-value" id="frame-rec">—</div>
-          <div class="fact-note">Kombination aus langsamerem Modell und schnellerem Arbeitsmarkt-Proxy.</div>
-        </div>
-        <div class="fact-card">
-          <div class="fact-label">S&amp;P 500 YTD</div>
-          <div class="fact-value" id="frame-spx">—</div>
-          <div class="fact-note">Zeigt, wie viel Risiko der Markt bereits eingepreist hat.</div>
-        </div>
-      </div>
-      <div class="frame-grid">
-        <article class="action-box">
-          <div class="action-kpi" id="guide-headline-visible">Lade…</div>
-          <div class="action-note" id="guide-phase-note-visible">Die Daten werden ausgewertet.</div>
-          <p id="guide-summary-visible" style="margin-top:12px">Die aktuelle Marktphase wird in einen klaren Handlungsrahmen übersetzt.</p>
-          <div class="action-note" style="margin-top:14px">Kein Produktsignal, sondern ein datenbasierter Verhaltensrahmen für Privatanleger.</div>
-        </article>
-        <article class="action-box">
-          <h3>Jetzt eher sinnvoll</h3>
-          <ul id="guide-do-visible"><li>Lade…</li></ul>
-        </article>
-        <article class="action-box">
-          <h3>Eher vermeiden</h3>
-          <ul id="guide-avoid-visible"><li>Lade…</li></ul>
-        </article>
-      </div>
-      <div class="invest-grid">
-        <article class="invest-card">
-          <div class="invest-label">Sparplan</div>
-          <div class="invest-head" id="plan-headline-visible">Lade Einordnung…</div>
-          <div class="invest-copy" id="plan-summary-visible">Die Daten werden ausgewertet.</div>
-          <ul class="invest-list" id="plan-list-visible"><li>Lade…</li></ul>
-          <div class="invest-note" id="plan-note-visible">—</div>
-        </article>
-        <article class="invest-card">
-          <div class="invest-label">Einmalanlage</div>
-          <div class="invest-head" id="lump-headline-visible">Lade Einordnung…</div>
-          <div class="invest-copy" id="lump-summary-visible">Die Daten werden ausgewertet.</div>
-          <ul class="invest-list" id="lump-list-visible"><li>Lade…</li></ul>
-          <div class="invest-note" id="lump-note-visible">—</div>
-        </article>
-      </div>
-    </section>
-
     <section class="card section">
       <h2 class="section-title">Weltkontext</h2>
       <p class="section-sub">Der Kompass schaut nicht nur auf die USA. Europa, Japan und China helfen einzuordnen, ob Stress lokal oder breiter verteilt ist.</p>
       <div class="regions-grid" id="regions-grid"></div>
     </section>
 
+
+
+<section class="card section">
+  <h2 class="section-title">Handlungs- &amp; Investitionsrahmen aktuell</h2>
+  <p class="section-sub">Der Block bündelt die aktuelle Marktlesart in einen praktischen Rahmen: Was spricht die Datenlage aktuell eher für laufende Umsetzung, wo ist mehr Disziplin sinnvoll und wie unterschiedlich sollte man Sparplan und Einmalanlage lesen.</p>
+  <div class="frame-facts">
+    <div class="fact-card">
+      <div class="fact-label">Marktphase</div>
+      <div class="fact-value" id="frame-phase">—</div>
+      <div class="fact-note">Verdichtete Lesart des aktuellen Umfelds.</div>
+    </div>
+    <div class="fact-card">
+      <div class="fact-label">Stressniveau</div>
+      <div class="fact-value" id="frame-stress">—</div>
+      <div class="fact-note">Proxy aus Marktstress- und Umfeldsignalen.</div>
+    </div>
+    <div class="fact-card">
+      <div class="fact-label">Rezessionslesung</div>
+      <div class="fact-value" id="frame-rec">—</div>
+      <div class="fact-note">Langsameres Modell plus schneller Arbeitsmarkt-Proxy.</div>
+    </div>
+    <div class="fact-card">
+      <div class="fact-label">S&amp;P 500 YTD</div>
+      <div class="fact-value" id="frame-spx">—</div>
+      <div class="fact-note">Zeigt, wie viel Risiko der Markt bereits eingepreist hat.</div>
+    </div>
+  </div>
+  <div class="frame-grid">
+    <article class="action-box">
+      <div class="action-kpi" id="guide-headline-visible">Lade…</div>
+      <div class="action-note" id="guide-phase-note-visible">Die Daten werden ausgewertet.</div>
+      <p id="guide-summary-visible" style="margin-top:12px">Die aktuelle Marktphase wird in einen klaren Handlungsrahmen übersetzt.</p>
+      <div class="action-note" style="margin-top:14px">Kein Produktsignal, sondern ein datenbasierter Verhaltensrahmen für Privatanleger.</div>
+    </article>
+    <article class="action-box">
+      <h3>Jetzt eher sinnvoll</h3>
+      <ul id="guide-do-visible"><li>Lade…</li></ul>
+    </article>
+    <article class="action-box">
+      <h3>Eher vermeiden</h3>
+      <ul id="guide-avoid-visible"><li>Lade…</li></ul>
+    </article>
+  </div>
+  <div class="invest-grid">
+    <article class="invest-card">
+      <div class="invest-label">Sparplan</div>
+      <div class="invest-head" id="plan-headline-visible">Lade Einordnung…</div>
+      <div class="invest-copy" id="plan-summary-visible">Die Daten werden ausgewertet.</div>
+      <ul class="invest-list" id="plan-list-visible"><li>Lade…</li></ul>
+      <div class="invest-note" id="plan-note-visible">—</div>
+    </article>
+    <article class="invest-card">
+      <div class="invest-label">Einmalanlage</div>
+      <div class="invest-head" id="lump-headline-visible">Lade Einordnung…</div>
+      <div class="invest-copy" id="lump-summary-visible">Die Daten werden ausgewertet.</div>
+      <ul class="invest-list" id="lump-list-visible"><li>Lade…</li></ul>
+      <div class="invest-note" id="lump-note-visible">—</div>
+    </article>
+  </div>
+</section>
     <section class="card section">
       <h2 class="section-title">Marktkontext aus Nachrichten</h2>
       <p class="section-sub">Die News sind kein Feed zum endlosen Scrollen, sondern eine kleine Kontextschicht. Sie zeigen, welche Themen Märkte kurzfristig zusätzlich bewegen könnten.</p>
@@ -307,168 +293,6 @@
   </main>
 
   
-<div class="drawer" id="docs-drawer" aria-hidden="true">
-  <div class="drawer-backdrop" data-close-drawer></div>
-  <aside class="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="docs-title">
-    <div class="drawer-head">
-      <div>
-        <div class="kicker">PRO Hilfe · Onboarding · Leselogik</div>
-        <h2 class="drawer-title" id="docs-title">Hilfe &amp; Doku direkt im Dashboard</h2>
-        <p class="drawer-sub">Die PRO-Hilfe ist bewusst im Produkt integriert. So kann der Nutzer vom Signal direkt in die Erklärung springen, ohne den Kontext zu verlassen.</p>
-      </div>
-      <button type="button" class="drawer-close" id="close-docs-btn" aria-label="Hilfe schließen">×</button>
-    </div>
-    <div class="drawer-body">
-      <section class="doc-section drawer-anchor" id="doc-start">
-        <div class="doc-card">
-          <h2>Was PRO leisten soll</h2>
-          <p>Die PRO-Version ist kein reiner Monitor. Sie ist ein ruhiges Orientierungssystem für Privatanleger. Sie verdichtet Makro-, Markt- und Stresssignale zu einer klaren Marktphasen-Lesung und übersetzt diese in einen konkreten Handlungsrahmen.</p>
-          <div>
-            <span class="doc-chip">Gesamtphase zuerst</span>
-            <span class="doc-chip">Szenarien mit Dynamik</span>
-            <span class="doc-chip">Signalqualität</span>
-            <span class="doc-chip">Presets &amp; Leselogik</span>
-            <span class="doc-chip">Invest-Check</span>
-            <span class="doc-chip">Konkreter Handlungsrahmen</span>
-          </div>
-        </div>
-      </section>
-
-      <section class="doc-section">
-        <div class="doc-card">
-          <h2>So liest du den Kompass sinnvoll</h2>
-          <div class="doc-grid">
-            <div class="doc-row"><strong>1. Gesamtphase lesen</strong><span>Starte immer oben. Der Gesamtstatus sagt dir, ob das Umfeld geordnet, aufmerksamkeitsbedürftig, defensiver oder klar stressbelastet wirkt.</span></div>
-            <div class="doc-row"><strong>2. Handlungsrahmen lesen</strong><span>Danach kommt der wichtigste PRO-Mehrwert: Was ist auf Basis der aktuellen Daten eher sinnvoll und was solltest du eher vermeiden.</span></div>
-            <div class="doc-row"><strong>3. Szenarien lesen</strong><span>Die Szenarien zeigen konkurrierende Marktpfade. Nicht nur mit Prozentwerten, sondern mit stützenden Treibern, Dynamik und Anleger-Bedeutung.</span></div>
-            <div class="doc-row"><strong>4. Signalqualität lesen</strong><span>Hier trennt PRO zwischen Frühwarnung, Bestätigung und Kontext. So wird sichtbar, wie belastbar die aktuelle Lesart wirklich ist.</span></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="doc-section">
-        <div class="doc-card">
-          <h2>Was die Handlungsempfehlung hier bedeutet</h2>
-          <p>Die Handlungsempfehlung im PRO-Dashboard ist bewusst als <strong>Handlungsrahmen</strong> formuliert. Sie sagt nicht, welches konkrete Wertpapier du kaufen oder verkaufen sollst. Sie sagt dir, wie du die aktuelle Marktphase am sinnvollsten lesen und welches Verhalten aktuell eher angemessen ist.</p>
-          <div class="doc-grid">
-            <div class="doc-row"><strong>Was sie leisten soll</strong><span>Verhaltenslogik, Prioritäten und Entscheidungsdisziplin auf Basis der aktuellen Datenlage.</span></div>
-            <div class="doc-row"><strong>Was sie nicht leisten soll</strong><span>Persönliche Anlageberatung, Produktempfehlungen oder pauschale Buy/Sell-Signale.</span></div>
-          </div>
-          <p class="doc-small">Dadurch bleibt das Produkt vertrauenswürdig, aber gleichzeitig klarer als eine reine Informationsanzeige.</p>
-        </div>
-      </section>
-
-
-      <section class="doc-section">
-        <div class="doc-card">
-          <h2>Bedeutung für Anleger &amp; Handlungsmatrix</h2>
-          <p>Diese Inhalte sind bewusst aus dem sichtbaren Dashboard in die Hilfe gewandert, damit die Oberfläche ruhiger bleibt. Inhaltlich gehören sie aber weiterhin zum Kern der PRO-Version.</p>
-          <div class="doc-anchor-grid">
-            <div class="doc-anchor-card">
-              <h3>Bedeutung für Anleger</h3>
-              <p>Die Einordnung übersetzt die Marktphase in Alltagssprache: Ist eher Disziplin gefragt, eher Vorsicht, eher Staffelung oder eher nur nüchterne Beobachtung? Sie ersetzt keine Beratung, schafft aber einen klaren Leserahmen.</p>
-            </div>
-            <div class="doc-anchor-card">
-              <h3>Handlungsmatrix</h3>
-              <p>Die Matrix ordnet die Lage in vier Zustände: Normalphase, erhöhte Vorsicht, defensivere Haltung sinnvoll und hohes Stressniveau. Dadurch wird aus Daten ein konsistenter Verhaltensrahmen.</p>
-            </div>
-            <div class="doc-anchor-card">
-              <h3>Signalqualität &amp; Vertrauenslogik</h3>
-              <p>PRO trennt bewusst zwischen Frühwarnung, Bestätigung, Begleitindikator und Kontextsignal. So wird sichtbar, wie belastbar die aktuelle Lesart ist und welche Teile eher als Warnhinweis denn als harte Bestätigung gelten.</p>
-            </div>
-            <div class="doc-anchor-card">
-              <h3>Presets &amp; Leselogik</h3>
-              <p>Unterschiedliche Nutzertypen lesen dieselbe Marktlage unterschiedlich. Darum erklärt PRO nicht nur das Signal, sondern auch, wie ein defensiver Anleger, ETF-Langfristanleger oder Einkommens-/Dividendenanleger es typischerweise einordnen würde.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="doc-section">
-        <div class="doc-card">
-          <h2>Konkreter Handlungsrahmen im PRO-Dashboard</h2>
-          <p>Der zusammengeführte Block <strong>Handlungs- &amp; Investitionsrahmen aktuell</strong> bündelt jetzt drei Dinge an einer Stelle: die aktuelle Marktphase, den praktischen Verhaltensrahmen und die getrennte Lesart für Sparplan und Einmalanlage.</p>
-          <ul class="doc-list">
-            <li><strong>Marktphase:</strong> Wo steht das System aktuell insgesamt?</li>
-            <li><strong>Jetzt eher sinnvoll / eher vermeiden:</strong> Welche Verhaltensweisen passen aktuell eher zur Datenlage?</li>
-            <li><strong>Sparplan vs. Einmalanlage:</strong> Muss eher ruhig weitergelaufen, eher gestaffelt oder eher vorsichtiger umgesetzt werden?</li>
-          </ul>
-          <p>So bleibt das Dashboard schlanker, ohne den praktischen Mehrwert der PRO-Version zu verlieren.</p>
-        </div>
-      </section>
-
-      <section class="doc-section">
-        <div class="doc-card">
-          <h2>Wie die Szenarien entstehen</h2>
-          <p>Die Wahrscheinlichkeiten entstehen aus regelbasierten Gewichten. Inflation, Zinsniveau, Rezessionssignale, Aktienmarktverlauf, Verbraucherstimmung, Stressindikator und globaler Layer schieben das Gesamtbild in Richtung der drei Szenarien.</p>
-          <div class="doc-table">
-            <div class="doc-row"><strong>Szenario A · Anhaltender Druck</strong><span>Längere Belastungsphase, mehr Gegenwind, geringere Fehlertoleranz, stärkere Bedeutung von Qualität und Puffer.</span></div>
-            <div class="doc-row"><strong>Szenario B · Zähe Zwischenphase</strong><span>Gemischtes, fragiles Umfeld. Rückschläge bleiben plausibel, aber nicht jedes Stresssignal ist bereits ein Strukturbruch.</span></div>
-            <div class="doc-row"><strong>Szenario C · Beherrschbarer Schock</strong><span>Stress ist sichtbar, aber begrenzter. Beobachtung, Regelklarheit und saubere Priorisierung sind wichtiger als Hektik.</span></div>
-          </div>
-          <p>PRO ergänzt dazu drei Dinge, die BASIC noch nicht in dieser Tiefe liefert: <strong>Dynamik</strong>, <strong>stützende Treiber</strong> und <strong>Anleger-Bedeutung</strong>.</p>
-        </div>
-      </section>
-
-      <section class="doc-section">
-        <div class="doc-card">
-          <h2>Signalrollen &amp; Vertrauenslogik</h2>
-          <div class="doc-grid">
-            <div class="doc-row"><strong>Frühwarnsignal</strong><span>Reagiert schnell, ist nützlich, aber anfälliger für kurzfristiges Rauschen. Beispiel: Stressindikatoren oder schnelle Arbeitsmarkt-Checks.</span></div>
-            <div class="doc-row"><strong>Bestätigungssignal</strong><span>Bestätigt eher eine Entwicklung, als dass es sie ganz früh ankündigt. Beispiel: Inflation, Zinsniveau, breitere Makroschwäche.</span></div>
-            <div class="doc-row"><strong>Begleitindikator</strong><span>Hilft beim Gesamtbild, sollte aber nicht isoliert gelesen werden. Beispiel: Verbrauchervertrauen.</span></div>
-            <div class="doc-row"><strong>Kontextsignal</strong><span>Zeigt, wie Märkte oder Regionen reagieren. Wertvoll für Einordnung, aber nicht allein tragend.</span></div>
-          </div>
-          <div class="doc-kpi-grid">
-            <div class="doc-kpi"><div class="n">Breite</div><div class="l">Zahlen mehrere Signale in dieselbe Richtung ein?</div></div>
-            <div class="doc-kpi"><div class="n">Stabilität</div><div class="l">Ist die Bewegung mehr als nur ein Ausreißer?</div></div>
-            <div class="doc-kpi"><div class="n">Aktualität</div><div class="l">Wie frisch und wie träge ist der jeweilige Datenpunkt?</div></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="doc-section">
-        <div class="doc-card">
-          <h2>Presets &amp; Leselogik</h2>
-          <p>Die Presets sind keine separaten Modelle, sondern verschiedene Lesebrillen auf dieselbe Marktlage.</p>
-          <div class="doc-grid">
-            <div class="doc-row"><strong>Defensiv</strong><span>Stärkerer Fokus auf Schutz, Robustheit und Bestätigungssignale.</span></div>
-            <div class="doc-row"><strong>Ausgewogen</strong><span>Die neutrale Referenzlesart dieses Produkts.</span></div>
-            <div class="doc-row"><strong>Opportunistisch</strong><span>Schnelle Ausschläge werden zurückhaltender interpretiert; Überreaktionen stehen stärker im Fokus.</span></div>
-            <div class="doc-row"><strong>Langfristiger ETF-Anleger</strong><span>Gewichtet Strukturbruch höher als Tagesrauschen und bleibt stärker in Phasenlogik statt Tick-Logik.</span></div>
-            <div class="doc-row"><strong>Einkommens-/Dividendenanleger</strong><span>Achtet sensibler auf Zinsen, Finanzierungsbedingungen, Cashflow-Qualität und konjunkturelle Verschlechterung.</span></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="doc-section">
-        <div class="doc-card">
-          <h2>Indikatoren in einfacher Sprache</h2>
-          <div class="doc-table">
-            <div class="doc-row"><strong>US-Inflation</strong><span>Misst, wie stark Verbraucherpreise gegenüber dem Vorjahr gestiegen sind. Relevant, weil Inflation Kaufkraft, Zinsen und Bewertungen beeinflusst.</span></div>
-            <div class="doc-row"><strong>Effektive Fed Rate</strong><span>Der tatsächliche Tageszins am US-Geldmarkt. Vereinfacht: Wie teuer ist sehr kurzfristiges Geld gerade?</span></div>
-            <div class="doc-row"><strong>Rezessionssignal USA</strong><span>Kombiniert ein langsameres Modell mit einem schnelleren Arbeitsmarkt-Check. So wird der Blick weniger blind für frühe Risse.</span></div>
-            <div class="doc-row"><strong>S&amp;P 500 YTD</strong><span>Zeigt, ob der Markt Risiken schon einpreist oder bislang relativ stabil bleibt.</span></div>
-            <div class="doc-row"><strong>Verbrauchervertrauen</strong><span>Hilft, die Stimmung der Haushalte und damit indirekt die Nachfrageseite besser einzuordnen.</span></div>
-            <div class="doc-row"><strong>Stressindikator</strong><span>Bündelt Volatilität, Energiepreise, Renditen und Währungen in einer lesbaren Frühwarnzahl.</span></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="doc-section">
-        <div class="doc-card">
-          <h2>Häufige Denkfehler</h2>
-          <ul>
-            <li>Ein hohes Szenario bedeutet nicht automatisch, dass morgen ein Crash kommt.</li>
-            <li>Ein ruhiger Gesamtstatus bedeutet nicht, dass Risiken verschwunden sind.</li>
-            <li>Ein einzelner roter Indikator ist noch kein belastbares Gesamturteil.</li>
-            <li>Ein Frühwarnsignal sollte nie wie eine endgültige Bestätigung behandelt werden.</li>
-          </ul>
-        </div>
-      </section>
-    </div>
-  </aside>
-</div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
   <script>
     const DATA_URL='./data/latest.json';
@@ -837,14 +661,11 @@ function investmentGuide(state){
 
 function renderInvestmentGuide(state){
   const g = investmentGuide(state);
-  $('plan-headline').textContent=g.plan.headline;
-  $('plan-summary').textContent=g.plan.summary;
-  $('plan-list').innerHTML=g.plan.bullets.map(x=>`<li>${x}</li>`).join('');
-  $('plan-note').textContent=g.plan.note;
-  $('lump-headline').textContent=g.lump.headline;
-  $('lump-summary').textContent=g.lump.summary;
-  $('lump-list').innerHTML=g.lump.bullets.map(x=>`<li>${x}</li>`).join('');
-  $('lump-note').textContent=g.lump.note;
+  [['plan-headline',g.plan.headline],['plan-summary',g.plan.summary],['plan-note',g.plan.note],['lump-headline',g.lump.headline],['lump-summary',g.lump.summary],['lump-note',g.lump.note],['plan-headline-visible',g.plan.headline],['plan-summary-visible',g.plan.summary],['plan-note-visible',g.plan.note],['lump-headline-visible',g.lump.headline],['lump-summary-visible',g.lump.summary],['lump-note-visible',g.lump.note]].forEach(([id,val])=>{ const el=$(id); if(el) el.textContent=val; });
+  const pl=$('plan-list'); if(pl) pl.innerHTML=g.plan.bullets.map(x=>`<li>${x}</li>`).join('');
+  const ll=$('lump-list'); if(ll) ll.innerHTML=g.lump.bullets.map(x=>`<li>${x}</li>`).join('');
+  const plv=$('plan-list-visible'); if(plv) plv.innerHTML=g.plan.bullets.map(x=>`<li>${x}</li>`).join('');
+  const llv=$('lump-list-visible'); if(llv) llv.innerHTML=g.lump.bullets.map(x=>`<li>${x}</li>`).join('');
 }
 
 function renderActionGuide(state){
@@ -881,14 +702,13 @@ function renderFrameFacts(state){
       $('source-text').textContent=appData.meta?.source || 'FRED + Google News RSS';
     }
 
-    function openDocs(){ $('docs-drawer').classList.add('open'); document.body.style.overflow='hidden'; }
-    function closeDocs(){ $('docs-drawer').classList.remove('open'); document.body.style.overflow=''; }
+    function openDocs(){ const d=$('docs-drawer'); if(!d) return; d.classList.add('open'); document.body.style.overflow='hidden'; }
+    function closeDocs(){ const d=$('docs-drawer'); if(!d) return; d.classList.remove('open'); document.body.style.overflow=''; }
     function closeInfo(){ document.querySelectorAll('.info-wrap.open').forEach(x=>x.classList.remove('open')); }
     document.addEventListener('click',e=>{ const btn=e.target.closest('.info-btn'); if(btn){ const wrap=btn.closest('.info-wrap'); const open=wrap.classList.contains('open'); closeInfo(); if(!open) wrap.classList.add('open'); e.stopPropagation(); return; } if(e.target.closest('[data-close-drawer]')){ closeDocs(); return; } if(!e.target.closest('.info-wrap')) closeInfo(); });
-    $('open-docs-btn').addEventListener('click', openDocs);
-    $('close-docs-btn').addEventListener('click', closeDocs);
+    const openDocsBtn=$('open-docs-btn'); if(openDocsBtn) openDocsBtn.addEventListener('click', openDocs);
+    const closeDocsBtn=$('close-docs-btn'); if(closeDocsBtn) closeDocsBtn.addEventListener('click', closeDocs);
     document.addEventListener('keydown', e=>{ if(e.key==='Escape') closeDocs(); });
-    const params=new URLSearchParams(location.search); if(params.get('docs')==='1'){ setTimeout(openDocs, 120); }
 
     async function load(){
       try{
@@ -901,8 +721,7 @@ function renderFrameFacts(state){
     }
 
     setInterval(()=>{ $('berlin-clock').textContent=berlinNow(); },1000); $('berlin-clock').textContent=berlinNow();
-    if(new URLSearchParams(location.search).get('docs')==='open') openDocs();
-    load(); setInterval(load, 5*60*1000);
+        load(); setInterval(load, 5*60*1000);
   </script>
 </body>
 </html>
