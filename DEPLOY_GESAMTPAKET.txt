@@ -1,0 +1,45 @@
+MARKTRISIKO-KOMPASS PRO – BEREINIGTES GESAMTPAKET
+
+Dieses Paket vereinheitlicht die aktuell funktionierende PRO-Basis auf einen konsistenten Stand.
+
+ERSETZEN
+- /index.html
+- /documentation.html
+- /invest-check.html
+- /facts-figures.html
+- /.github/workflows/update-market-data.yml
+- /scripts/fetch_data.py
+- /scripts/fetch_facts_figures.py
+
+BEIBEHALTEN / AKTUALISIEREN
+- /manifest.json
+- /data/latest.json
+- /data/pro_schema.json
+- /data/facts_figures.json
+- /data/facts_figures_schema.json
+
+ZIELSTRUKTUR
+
+repo-root/
+├─ index.html
+├─ documentation.html
+├─ invest-check.html
+├─ facts-figures.html
+├─ manifest.json
+├─ data/
+│  ├─ latest.json
+│  ├─ pro_schema.json
+│  ├─ facts_figures.json
+│  └─ facts_figures_schema.json
+├─ scripts/
+│  ├─ fetch_data.py
+│  └─ fetch_facts_figures.py
+└─ .github/
+   └─ workflows/
+      └─ update-market-data.yml
+
+WICHTIG
+- Alle vier Seiten nutzen jetzt denselben PRO-Navigationsstand.
+- Facts & Figures ist überall sauber verlinkt.
+- Der Workflow aktualisiert latest.json und facts_figures.json im gleichen 4h-Rhythmus.
+- FRED_API_KEY muss weiterhin unter Settings → Secrets and variables → Actions gesetzt sein.
