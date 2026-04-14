@@ -1,11 +1,11 @@
 {
-  "generatedAt": "1970-01-01T00:00:00+00:00",
+  "generatedAt": "2026-04-14T18:25:52.252992+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
       "latest.json",
-      "Stooq",
       "FRED",
+      "Stooq",
       "Multpl",
       "CurrentMarketValuation",
       "Google News RSS"
@@ -13,64 +13,914 @@
   },
   "marketStatus": {
     "phase": {
-      "title": "Lade…",
-      "status": "Die Marktphase wird automatisch berechnet."
+      "title": "Neutral",
+      "status": "Die Marktphase ist mangels Daten nicht belastbar einordenbar."
     },
     "vix": {
-      "title": "Lade…",
-      "status": "Die VIX-Lesart wird automatisch berechnet."
+      "title": "Keine Panikphase",
+      "status": "Keine klare Panikphase ableitbar, aber das Umfeld bleibt nervös."
     },
     "breadth": {
-      "title": "Lade…",
-      "status": "Die Marktbreite wird automatisch berechnet."
+      "title": "Nicht kollabiert",
+      "status": "Nicht kollabiert. Das spricht eher gegen akuten Crash-Modus."
     }
   },
   "overallMode": {
-    "title": "Lade…",
-    "status": "Die Gesamtlesart wird automatisch berechnet."
+    "title": "Stabil",
+    "status": "Die Daten zeigen eher ein angespanntes, aber noch nicht gebrochenes Umfeld."
   },
-  "technicalTriggers": [],
-  "valuation": [],
-  "macro": [],
+  "technicalTriggers": [
+    {
+      "label": "50T vs. 200T",
+      "status": "Trendbruch aktiv oder nahe dran. Das erhöht die Vorsicht gegenüber Growth."
+    },
+    {
+      "label": "RSI (14)",
+      "status": "Überverkauft-Signal aktiv. Das spricht eher für eine überdehnte Bewegung als für saubere Ruhe."
+    },
+    {
+      "label": "Drawdown vom Hoch",
+      "status": "Der Drawdown ist tief genug, um das Bild klar fragiler zu machen."
+    }
+  ],
+  "valuation": [
+    {
+      "label": "Shiller CAPE",
+      "status": "Nicht überhitzt."
+    },
+    {
+      "label": "Buffett-Indikator",
+      "status": "Keine frische Live-Einordnung verfügbar. Das erhöht die Empfindlichkeit gegenüber externen Schocks."
+    },
+    {
+      "label": "Gewinnwachstum",
+      "status": "Kurzfristig klar zweitrangig gegenüber Öl, Geopolitik, Lieferketten und Inflation."
+    }
+  ],
+  "macro": [
+    {
+      "label": "Zinsumfeld",
+      "status": "Komplizierter geworden. Höhere Energiepreise erschweren eine lockere Zinsfantasie."
+    },
+    {
+      "label": "Wachstum",
+      "status": "Das Wachstumsrisiko hat zugenommen. Ein Energieschock würde die globale Konjunktur klar belasten."
+    },
+    {
+      "label": "Rezessionsindikatoren",
+      "status": "Noch kein bestätigter Crash-Makro-Modus, aber klar fragiler als in ruhigeren Marktphasen."
+    }
+  ],
   "sentiment": {
-    "marketMood": "Lade…",
-    "tags": [],
-    "risks": []
+    "marketMood": "Zwiespältig. Der Markt verarbeitet Entspannungs- und Eskalationssignale gleichzeitig.",
+    "tags": [
+      "Hormus",
+      "Aktienmarkt"
+    ],
+    "risks": [
+      "Iran / Straße von Hormus",
+      "Öl- und Energieschock",
+      "Gas- / LNG-Risiko",
+      "Inflationsrunde 2",
+      "hohes Bewertungsniveau"
+    ]
   },
-  "geopolitics": [],
+  "geopolitics": [
+    {
+      "field": "Straße von Hormus",
+      "status": "Erhöhtes Störungsrisiko; Einschränkungen würden Energie- und Logistikketten sofort belasten.",
+      "impact": "Belastet Öl, Transport, Inflationserwartungen und globale Risikoassets."
+    },
+    {
+      "field": "Ölkrise",
+      "status": "Real, wenn Brent und Nachrichtenlage gleichzeitig anziehen.",
+      "impact": "Höhere Ölpreise belasten Inflation, Margen und Zinssenkungsfantasie."
+    },
+    {
+      "field": "Physischer Markt",
+      "status": "Keine harte Live-Bestätigung, aber der physische Markt bleibt ein Schlüsselrisiko.",
+      "impact": "Physische Knappheit kann Futures-Signale untertreiben und Preissprünge verschärfen."
+    },
+    {
+      "field": "Gas / LNG",
+      "status": "Derzeit eher ein latentes Zusatzrisiko als der Haupttreiber.",
+      "impact": "Kann Industrie, Europa-Sentiment und Zweitrundeneffekte bei Energie verstärken."
+    }
+  ],
   "marketBottomProbability": {
     "title": "Market Bottom Probability",
-    "score": 0,
-    "scoreLabel": "0 %",
-    "reason": "Lade…",
-    "interpretation": "Lade…"
+    "score": 49,
+    "scoreLabel": "49 %",
+    "reason": "Positiv ist die fehlende Kapitulation des Marktes. Negativ ist, dass Energie- und Geopolitikrisiken makroökonomisch relevant bleiben.",
+    "interpretation": "Das bisherige Tief ist plausibel, aber geopolitisch nicht sicher hinter uns."
   },
   "crashProbability": {
     "title": "Crash Probability",
-    "score": 0,
-    "scoreLabel": "0 %",
-    "reason": "Lade…",
-    "interpretation": "Lade…"
+    "score": 35,
+    "scoreLabel": "35 %",
+    "reason": "Die Wahrscheinlichkeit steigt mit Energie-, Lieferketten- und Rezessionsstress, bleibt aber begrenzt, solange keine klare Kapitulation sichtbar ist.",
+    "interpretation": "Kein dominantes Crash-Szenario, aber deutlich mehr Tail Risk als in ruhigen Phasen."
   },
   "timingQuality": {
     "title": "Timing-Qualität",
-    "score": 0,
-    "scoreLabel": "Zu früh 0 % · Optimal 0 % · Zu spät 0 %",
-    "reason": "Lade…",
-    "interpretation": "Lade…"
+    "score": 37,
+    "scoreLabel": "Zu früh 26 % · Optimal 37 % · Zu spät 37 %",
+    "reason": "Die aktuelle Lage ist offener als in klaren Schnäppchen- oder Überhitzungsphasen. Timing verdient mehr Gewicht als in Normalphasen.",
+    "interpretation": "Nicht klar zu spät, aber auch keine eindeutige Schnäppchenphase."
   },
   "updateTriggers": {
-    "positive": [],
-    "refresh": []
+    "positive": [
+      "Kein weiterer Eskalationssprung in 5–10 Handelstagen.",
+      "Breiter Marktrücksetzer von etwa -4 % bis -7 % ohne neue Makroverschlechterung.",
+      "VIX beruhigt sich wieder trotz angespannter Nachrichtenlage."
+    ],
+    "refresh": [
+      "Brent steigt wieder klar und nachhaltig über kritische Stresszonen.",
+      "Neue militärische Eskalation rund um Hormus oder Energie-Infrastruktur.",
+      "Deutlicher VIX-Sprung / klarer Risk-off-Tag.",
+      "Sichtbarer Marktbruch statt bloßer Nervosität."
+    ]
   },
   "timeVsTiming": {
-    "timeInMarket": "Lade…",
-    "marketTiming": "Lade…",
-    "summary": "Lade…"
+    "timeInMarket": "Bleibt langfristig richtig.",
+    "marketTiming": "Ist aktuell wichtiger als sonst, aber nicht stark genug für vollständiges Warten.",
+    "summary": "In einem normalen Markt wäre die Entscheidung näher an einer Vollumsetzung. Mit der aktuellen Energie- und Geopolitik-Lage ist ein gestaffelter, disziplinierter Blick robuster."
   },
   "charts": {
     "qqq": [],
-    "vix": [],
-    "brent": []
-  }
+    "vix": [
+      {
+        "date": "2025-12-04",
+        "value": 15.78
+      },
+      {
+        "date": "2025-12-05",
+        "value": 15.41
+      },
+      {
+        "date": "2025-12-08",
+        "value": 16.66
+      },
+      {
+        "date": "2025-12-09",
+        "value": 16.93
+      },
+      {
+        "date": "2025-12-10",
+        "value": 15.77
+      },
+      {
+        "date": "2025-12-11",
+        "value": 14.85
+      },
+      {
+        "date": "2025-12-12",
+        "value": 15.74
+      },
+      {
+        "date": "2025-12-15",
+        "value": 16.5
+      },
+      {
+        "date": "2025-12-16",
+        "value": 16.48
+      },
+      {
+        "date": "2025-12-17",
+        "value": 17.62
+      },
+      {
+        "date": "2025-12-18",
+        "value": 16.87
+      },
+      {
+        "date": "2025-12-19",
+        "value": 14.91
+      },
+      {
+        "date": "2025-12-22",
+        "value": 14.08
+      },
+      {
+        "date": "2025-12-23",
+        "value": 14.0
+      },
+      {
+        "date": "2025-12-24",
+        "value": 13.47
+      },
+      {
+        "date": "2025-12-26",
+        "value": 13.6
+      },
+      {
+        "date": "2025-12-29",
+        "value": 14.2
+      },
+      {
+        "date": "2025-12-30",
+        "value": 14.33
+      },
+      {
+        "date": "2025-12-31",
+        "value": 14.95
+      },
+      {
+        "date": "2026-01-02",
+        "value": 14.51
+      },
+      {
+        "date": "2026-01-05",
+        "value": 14.9
+      },
+      {
+        "date": "2026-01-06",
+        "value": 14.75
+      },
+      {
+        "date": "2026-01-07",
+        "value": 15.38
+      },
+      {
+        "date": "2026-01-08",
+        "value": 15.45
+      },
+      {
+        "date": "2026-01-09",
+        "value": 14.49
+      },
+      {
+        "date": "2026-01-12",
+        "value": 15.12
+      },
+      {
+        "date": "2026-01-13",
+        "value": 15.98
+      },
+      {
+        "date": "2026-01-14",
+        "value": 16.75
+      },
+      {
+        "date": "2026-01-15",
+        "value": 15.84
+      },
+      {
+        "date": "2026-01-16",
+        "value": 15.86
+      },
+      {
+        "date": "2026-01-19",
+        "value": 18.84
+      },
+      {
+        "date": "2026-01-20",
+        "value": 20.09
+      },
+      {
+        "date": "2026-01-21",
+        "value": 16.9
+      },
+      {
+        "date": "2026-01-22",
+        "value": 15.64
+      },
+      {
+        "date": "2026-01-23",
+        "value": 16.09
+      },
+      {
+        "date": "2026-01-26",
+        "value": 16.15
+      },
+      {
+        "date": "2026-01-27",
+        "value": 16.35
+      },
+      {
+        "date": "2026-01-28",
+        "value": 16.35
+      },
+      {
+        "date": "2026-01-29",
+        "value": 16.88
+      },
+      {
+        "date": "2026-01-30",
+        "value": 17.44
+      },
+      {
+        "date": "2026-02-02",
+        "value": 16.34
+      },
+      {
+        "date": "2026-02-03",
+        "value": 18.0
+      },
+      {
+        "date": "2026-02-04",
+        "value": 18.64
+      },
+      {
+        "date": "2026-02-05",
+        "value": 21.77
+      },
+      {
+        "date": "2026-02-06",
+        "value": 17.76
+      },
+      {
+        "date": "2026-02-09",
+        "value": 17.36
+      },
+      {
+        "date": "2026-02-10",
+        "value": 17.79
+      },
+      {
+        "date": "2026-02-11",
+        "value": 17.65
+      },
+      {
+        "date": "2026-02-12",
+        "value": 20.82
+      },
+      {
+        "date": "2026-02-13",
+        "value": 20.6
+      },
+      {
+        "date": "2026-02-16",
+        "value": 21.2
+      },
+      {
+        "date": "2026-02-17",
+        "value": 20.29
+      },
+      {
+        "date": "2026-02-18",
+        "value": 19.62
+      },
+      {
+        "date": "2026-02-19",
+        "value": 20.23
+      },
+      {
+        "date": "2026-02-20",
+        "value": 19.09
+      },
+      {
+        "date": "2026-02-23",
+        "value": 21.01
+      },
+      {
+        "date": "2026-02-24",
+        "value": 19.55
+      },
+      {
+        "date": "2026-02-25",
+        "value": 17.93
+      },
+      {
+        "date": "2026-02-26",
+        "value": 18.63
+      },
+      {
+        "date": "2026-02-27",
+        "value": 19.86
+      },
+      {
+        "date": "2026-03-02",
+        "value": 21.44
+      },
+      {
+        "date": "2026-03-03",
+        "value": 23.57
+      },
+      {
+        "date": "2026-03-04",
+        "value": 21.15
+      },
+      {
+        "date": "2026-03-05",
+        "value": 23.75
+      },
+      {
+        "date": "2026-03-06",
+        "value": 29.49
+      },
+      {
+        "date": "2026-03-09",
+        "value": 25.5
+      },
+      {
+        "date": "2026-03-10",
+        "value": 24.93
+      },
+      {
+        "date": "2026-03-11",
+        "value": 24.23
+      },
+      {
+        "date": "2026-03-12",
+        "value": 27.29
+      },
+      {
+        "date": "2026-03-13",
+        "value": 27.19
+      },
+      {
+        "date": "2026-03-16",
+        "value": 23.51
+      },
+      {
+        "date": "2026-03-17",
+        "value": 22.37
+      },
+      {
+        "date": "2026-03-18",
+        "value": 25.09
+      },
+      {
+        "date": "2026-03-19",
+        "value": 24.06
+      },
+      {
+        "date": "2026-03-20",
+        "value": 26.78
+      },
+      {
+        "date": "2026-03-23",
+        "value": 26.15
+      },
+      {
+        "date": "2026-03-24",
+        "value": 26.95
+      },
+      {
+        "date": "2026-03-25",
+        "value": 25.33
+      },
+      {
+        "date": "2026-03-26",
+        "value": 27.44
+      },
+      {
+        "date": "2026-03-27",
+        "value": 31.05
+      },
+      {
+        "date": "2026-03-30",
+        "value": 30.61
+      },
+      {
+        "date": "2026-03-31",
+        "value": 25.25
+      },
+      {
+        "date": "2026-04-01",
+        "value": 24.54
+      },
+      {
+        "date": "2026-04-02",
+        "value": 23.87
+      },
+      {
+        "date": "2026-04-06",
+        "value": 24.17
+      },
+      {
+        "date": "2026-04-07",
+        "value": 25.78
+      },
+      {
+        "date": "2026-04-08",
+        "value": 21.04
+      },
+      {
+        "date": "2026-04-09",
+        "value": 19.49
+      },
+      {
+        "date": "2026-04-10",
+        "value": 19.23
+      },
+      {
+        "date": "2026-04-13",
+        "value": 19.12
+      }
+    ],
+    "brent": [
+      {
+        "date": "2025-11-25",
+        "value": 63.99
+      },
+      {
+        "date": "2025-11-26",
+        "value": 64.81
+      },
+      {
+        "date": "2025-11-27",
+        "value": 64.18
+      },
+      {
+        "date": "2025-11-28",
+        "value": 64.07
+      },
+      {
+        "date": "2025-12-01",
+        "value": 64.22
+      },
+      {
+        "date": "2025-12-02",
+        "value": 63.37
+      },
+      {
+        "date": "2025-12-03",
+        "value": 63.75
+      },
+      {
+        "date": "2025-12-04",
+        "value": 64.15
+      },
+      {
+        "date": "2025-12-05",
+        "value": 64.42
+      },
+      {
+        "date": "2025-12-08",
+        "value": 63.3
+      },
+      {
+        "date": "2025-12-09",
+        "value": 62.62
+      },
+      {
+        "date": "2025-12-10",
+        "value": 63.12
+      },
+      {
+        "date": "2025-12-11",
+        "value": 61.87
+      },
+      {
+        "date": "2025-12-12",
+        "value": 62.11
+      },
+      {
+        "date": "2025-12-15",
+        "value": 61.55
+      },
+      {
+        "date": "2025-12-16",
+        "value": 59.93
+      },
+      {
+        "date": "2025-12-17",
+        "value": 60.61
+      },
+      {
+        "date": "2025-12-18",
+        "value": 60.69
+      },
+      {
+        "date": "2025-12-19",
+        "value": 61.35
+      },
+      {
+        "date": "2025-12-22",
+        "value": 62.22
+      },
+      {
+        "date": "2025-12-23",
+        "value": 63.7
+      },
+      {
+        "date": "2025-12-24",
+        "value": 63.7
+      },
+      {
+        "date": "2025-12-29",
+        "value": 63.1
+      },
+      {
+        "date": "2025-12-30",
+        "value": 62.3
+      },
+      {
+        "date": "2025-12-31",
+        "value": 61.35
+      },
+      {
+        "date": "2026-01-02",
+        "value": 61.98
+      },
+      {
+        "date": "2026-01-05",
+        "value": 63.0
+      },
+      {
+        "date": "2026-01-06",
+        "value": 62.1
+      },
+      {
+        "date": "2026-01-07",
+        "value": 61.08
+      },
+      {
+        "date": "2026-01-08",
+        "value": 63.34
+      },
+      {
+        "date": "2026-01-09",
+        "value": 65.11
+      },
+      {
+        "date": "2026-01-12",
+        "value": 65.4
+      },
+      {
+        "date": "2026-01-13",
+        "value": 67.58
+      },
+      {
+        "date": "2026-01-14",
+        "value": 68.87
+      },
+      {
+        "date": "2026-01-15",
+        "value": 66.16
+      },
+      {
+        "date": "2026-01-16",
+        "value": 66.97
+      },
+      {
+        "date": "2026-01-19",
+        "value": 66.91
+      },
+      {
+        "date": "2026-01-20",
+        "value": 67.68
+      },
+      {
+        "date": "2026-01-21",
+        "value": 66.72
+      },
+      {
+        "date": "2026-01-22",
+        "value": 65.46
+      },
+      {
+        "date": "2026-01-23",
+        "value": 68.16
+      },
+      {
+        "date": "2026-01-26",
+        "value": 67.7
+      },
+      {
+        "date": "2026-01-27",
+        "value": 70.28
+      },
+      {
+        "date": "2026-01-28",
+        "value": 70.9
+      },
+      {
+        "date": "2026-01-29",
+        "value": 71.0
+      },
+      {
+        "date": "2026-01-30",
+        "value": 72.25
+      },
+      {
+        "date": "2026-02-02",
+        "value": 67.72
+      },
+      {
+        "date": "2026-02-03",
+        "value": 70.01
+      },
+      {
+        "date": "2026-02-04",
+        "value": 71.15
+      },
+      {
+        "date": "2026-02-05",
+        "value": 69.87
+      },
+      {
+        "date": "2026-02-06",
+        "value": 70.45
+      },
+      {
+        "date": "2026-02-09",
+        "value": 71.19
+      },
+      {
+        "date": "2026-02-10",
+        "value": 71.01
+      },
+      {
+        "date": "2026-02-11",
+        "value": 71.52
+      },
+      {
+        "date": "2026-02-12",
+        "value": 69.8
+      },
+      {
+        "date": "2026-02-13",
+        "value": 69.96
+      },
+      {
+        "date": "2026-02-16",
+        "value": 70.81
+      },
+      {
+        "date": "2026-02-17",
+        "value": 69.77
+      },
+      {
+        "date": "2026-02-18",
+        "value": 71.78
+      },
+      {
+        "date": "2026-02-19",
+        "value": 73.17
+      },
+      {
+        "date": "2026-02-20",
+        "value": 72.75
+      },
+      {
+        "date": "2026-02-23",
+        "value": 71.9
+      },
+      {
+        "date": "2026-02-24",
+        "value": 71.21
+      },
+      {
+        "date": "2026-02-25",
+        "value": 70.69
+      },
+      {
+        "date": "2026-02-26",
+        "value": 71.66
+      },
+      {
+        "date": "2026-02-27",
+        "value": 71.32
+      },
+      {
+        "date": "2026-03-02",
+        "value": 77.24
+      },
+      {
+        "date": "2026-03-03",
+        "value": 83.28
+      },
+      {
+        "date": "2026-03-04",
+        "value": 81.56
+      },
+      {
+        "date": "2026-03-05",
+        "value": 88.59
+      },
+      {
+        "date": "2026-03-06",
+        "value": 95.74
+      },
+      {
+        "date": "2026-03-09",
+        "value": 94.35
+      },
+      {
+        "date": "2026-03-10",
+        "value": 89.84
+      },
+      {
+        "date": "2026-03-11",
+        "value": 90.98
+      },
+      {
+        "date": "2026-03-12",
+        "value": 102.38
+      },
+      {
+        "date": "2026-03-13",
+        "value": 103.23
+      },
+      {
+        "date": "2026-03-16",
+        "value": 101.04
+      },
+      {
+        "date": "2026-03-17",
+        "value": 108.39
+      },
+      {
+        "date": "2026-03-18",
+        "value": 118.09
+      },
+      {
+        "date": "2026-03-19",
+        "value": 111.05
+      },
+      {
+        "date": "2026-03-20",
+        "value": 118.42
+      },
+      {
+        "date": "2026-03-23",
+        "value": 103.79
+      },
+      {
+        "date": "2026-03-24",
+        "value": 108.42
+      },
+      {
+        "date": "2026-03-25",
+        "value": 109.14
+      },
+      {
+        "date": "2026-03-26",
+        "value": 113.39
+      },
+      {
+        "date": "2026-03-27",
+        "value": 121.47
+      },
+      {
+        "date": "2026-03-30",
+        "value": 121.88
+      },
+      {
+        "date": "2026-03-31",
+        "value": 126.69
+      },
+      {
+        "date": "2026-04-01",
+        "value": 119.56
+      },
+      {
+        "date": "2026-04-02",
+        "value": 127.61
+      }
+    ]
+  },
+  "news": [
+    {
+      "title": "How the U.S. Navy Is Blockading the Strait of Hormuz to Choke Off Iran’s Ports - WSJ",
+      "source": "WSJ",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQnlxOVR4ajdnRnBmZnk0MnE5YVdnZmtCZElUejAzcndnbzd6VUJHdE1FOGxNcGluOVBPREU0aHVlR0VpYUJQdVo2SFJJclV1Q0QtbDVqa2FHUWdEWHNHMUl1V25BVFN2SzhHSlllWVVRMkJaMXJ1bk52MnEzWWQtRHM4dUxQWXpMem1ncjNwN2R0SU0teXdiRzhtTTF0RmV5emJDR1ZoWEN5M0E2dW5oYTJaYVA5QmV1dWk5X01JYng?oc=5",
+      "publishedAt": "2026-04-14T10:13:00+00:00"
+    },
+    {
+      "title": "How Wall Street is reacting to Trump’s Strait of Hormuz blockade - NewsNation",
+      "source": "NewsNation",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZ2pneVFtX3g0c01MSGdpTTFoOURuTUxyUjlpWEhENGNCMFJ3ckZDNjZnWUNuRzN6dTV1WkFvcVRHY3NyZTBMOGR5VlZDa2RibFdZMlZEd1R3OGtQN0Z5V2RsYi04RE1ZYmdzVjhJS2pRVTZ2d3VLVTFnb2lnU2tMN1RfUGxzdWJ3T3c4SWx0RkwwNVdPcTczbHRac1hFa2JycWJrWHBKa0ZBU2VpSmVwaWVyZ9IBuAFBVV95cUxOSFcwNEl0ZVdsZlF6YXBrd2hfd2NqanVPZi04XzF3VERpTHYxa01MVXA3UlZwMXRWMFgxVmZCZWxmSnI1UUZjTzdOVDJEWkRMU1RlQmd1Sk5JRkszcTFsYmdEc0dKVFFjMVpYbEdWMW9SOEV5cm5wY2lfUmJZUENWZWpPczlJZFdhWGk3TjN3SGU4WWtwd1dzdE94TWpqLXpjRmRtRlFNalJDakxTbzRNaHROZzV1SERZ?oc=5",
+      "publishedAt": "2026-04-14T12:50:08+00:00"
+    },
+    {
+      "title": "Chinese tanker crosses Strait of Hormuz, testing Trump’s blockade - The Hill",
+      "source": "The Hill",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZDFhRDBWNFhNbzJRbjFxdW9PQlpxM2lNMDFhYmFtRTdHbzlqQ1Z0ZUlkZE9pbm9JYk1JejFQQm1STDdJcE1EZVJ4Y3Z6emgycjhlNHVNSXNtUFRvZHRybV9ER05mcWlEVHFkbXc3a0VzY1dSdnNqS0Rwa09taWFCa01TcGdPbk1GbERVczNTcULSAZYBQVVfeXFMT0YtUGlqT25qcmN5Zl9CNEh4OW5BeWpuMlc2LWF0RVBaZ0RBaXcwZlJzQUtEaVlQbXd1bUJRbFc0OVNhX0tBTWRvcHBLUGk4eld4eE50LTBIdlpFd2hkd3ZTbmRiM0JMUEpKNWJzQkVLVEtpMFhJd3BXUzRER3Y1eWNtUXZhbTU1NDZVR2ZOLTZHZVhBMW1R?oc=5",
+      "publishedAt": "2026-04-14T13:17:00+00:00"
+    },
+    {
+      "title": "World faces food ‘catastrophe’ if Strait of Hormuz disruption persists: FAO - Al Jazeera",
+      "source": "Al Jazeera",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcGcxRGh2Y3h5Q3FXQ0lXTVBjanNGb2dNZF9hZThDcEFlajJiUS1FTlBmbzdoVWFiNWZEU1hXSzlpTEZxTUtvWVJEVUVFbmFBajU4b1VjMjJ3RmFMelQtbDFnNHVpYlpNNnM1eG1NOU0xOERzdHZCUS1kSlpLVEFyNzlLOFRZak03c2U1eklGNXpvc0NZbUNhWlo5dUhjTVgtRGVxbm54VUtvMGtocTBTcXFlOHQ1cW_SAbwBQVVfeXFMTU5lWHBXakxYbUtnd0hQcTdnU3hIZHM5bDE2M1BSdkNmV2p0MlhZSWZWM0M4QXJxMVZmX1dLZVNhWVh3cDNUWThQQXFSbElTQXNhZ3NCcnJQRXpOWjcyc19ORXZRcjVOVWVLVW9RZzBIZXdvQTVYb1IyYUR5aEFJdGNfS0EzVm1VZVozcFFmekNkUTJZZmI0UktwUXU4SEhDVk1NU3Fkb1F4RXJrMDVlWkVMWXVUTndWWmRPTDQ?oc=5",
+      "publishedAt": "2026-04-14T09:41:52+00:00"
+    },
+    {
+      "title": "Saudi Arabia Is Pressing U.S. to Drop Its Naval Blockade - WSJ",
+      "source": "WSJ",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOV1BVbnBrVlVWRjFlNEx4UUdSY085cFlGUWdLSGVHc25Tc1hmX29uSEtod2c2WkRxUU1ZQUlwN2dMbktRTktPY25RQVdwNWhLUG9yelVkQjVJQzdnS1lMYV9oakloT29LbEdRMWZTUFdDdC1XbXpNc0FwWDVENVlQQ2JkS1kyRVRIWUZGMmR6a1h6QQ?oc=5",
+      "publishedAt": "2026-04-14T01:00:00+00:00"
+    },
+    {
+      "title": "Saudi Arabia pushes US to remove its blockade in Strait of Hormuz: Report - Anadolu Ajansı",
+      "source": "Anadolu Ajansı",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOVlLa3g1YkhUMjNWZ1FwTkRFMGExQlgxLVpOU3lWUk1nNDlGVjJJbFFKTG4tODhfTWx5UkRvU0k3eEladnh4dk1URVM4QzJKbFVMSzE5S1F4VVJwemx0bkZpRGE5SURlbG52eEtjRlFOd2x3dkNlcVRHamlQaUprcHdJN2RSQVpZYlhRRnVYUjdTVGFUcnljT1U2UC1UbXJlT0cyc3cxSWV0Y21Mbzl4QWYyRVBMU3NN?oc=5",
+      "publishedAt": "2026-04-14T09:13:54+00:00"
+    },
+    {
+      "title": "“The Strait of Hormuz Is Open to Us”: China Warns U.S. Against Blockading Iranian Ports - Democracy Now!",
+      "source": "Democracy Now!",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNQVpTNWRyU3N2OE5tN1g0X25pODc1Qkg4b2hmczlTZVA2UjU1MXJCdWt2ODgxb09hWTFDVFUxSzdXQk1PZlJZOVRiMW1ldGhqYjkzcHNmck44OHFIQVFXRVAxcDB4MThseUxCMGhSQktrYnNTc1lnZXNuUUdKcGJ0cmhUTjF2NHphR201cXNKaE9TMDJGa2I5em1rSmpKT0NZUFVmc1Z6U2M0S1R4NW9TLXJTN3ptc0J0bzh3M3VzQzE5MUpOOW04UGRsZw?oc=5",
+      "publishedAt": "2026-04-14T14:24:44+00:00"
+    },
+    {
+      "title": "Big risks hover over Strait of Hormuz blockade - thestreet.com",
+      "source": "thestreet.com",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNl81dXJKdzB5SjQtbXBsVzMwSXlKcHZpcWxmMkNZOHA0S0xpRFdzMndpSFU3TzVQUGh2SG14dTFWeEdac2Vab01HUXhzdVR0SDg1c19HdWVXZFZuQzdXMzVLUUd0d2hLTmY4dUh6TEt0WjdERExxQ1U3aUYzWGVlQWppWkZyMjU3Umc?oc=5",
+      "publishedAt": "2026-04-14T14:17:00+00:00"
+    }
+  ]
 }
