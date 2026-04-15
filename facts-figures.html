@@ -100,12 +100,15 @@
       track.innerHTML = html + html + html + html;
     }
     async function loadTicker(){
-      try{
-        const data = await fetch('./data/latest.json?t=' + Date.now(), {cache:'no-store'}).then(r=>r.json());
-        renderTicker(data);
-      }catch(e){
-        const track=document.getElementById('ticker-track'); if(track) track.innerHTML='<span class="tk-stale">Ticker derzeit nicht verfügbar</span>';
+      // Bevorzuge ticker.json (alle 15 min), Fallback auf latest.json (alle 4h)
+      for(const url of ['./data/ticker.json','./data/latest.json']){
+        try{
+          const data=await fetch(url+'?t='+Date.now(),{cache:'no-store'}).then(r=>r.json());
+          if(data?.ticker?.length){ renderTicker(data); return; }
+        }catch(e){}
       }
+      const track=document.getElementById('ticker-track');
+      if(track) track.innerHTML='<span class="tk-stale">Ticker derzeit nicht verfügbar</span>';
     }
 
     const charts = {};
