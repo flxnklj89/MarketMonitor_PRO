@@ -33,6 +33,7 @@ NOW             = datetime.now(timezone.utc)
 FRED_BASE       = "https://api.stlouisfed.org/fred/series/observations"
 LATEST_IN       = Path("data/latest.json")
 OUT             = Path("data/facts_figures.json")
+PREV_OUT        = OUT
 OUT.parent.mkdir(parents=True, exist_ok=True)
 
 DAILY_START     = (NOW - timedelta(days=365 * 3)).strftime("%Y-%m-%d")
@@ -105,6 +106,27 @@ def hp(obs: list[dict], dec: int = 2) -> list[dict]:
 
 def last_val(pts: list[dict], default: float = 0.0) -> float:
     return pts[-1]["value"] if pts else default
+
+
+def prev_section_card(prev: dict, section: str, label: str) -> dict | None:
+    for item in prev.get(section, []) or []:
+        if item.get("label") == label:
+            return item
+    return None
+
+
+def keep_previous_card(prev: dict, section: str, label: str, current: dict, *, when: bool) -> dict:
+    if not when:
+        return current
+    old = prev_section_card(prev, section, label)
+    return old if old else current
+
+
+def keep_previous_chart(prev: dict, key: str, current: list[dict], *, when: bool) -> list[dict]:
+    if not when:
+        return current
+    old = ((prev.get("charts") or {}).get(key))
+    return old if isinstance(old, list) and old else current
 
 
 def yoy(pts: list[dict], lag: int = 4) -> list[dict]:
@@ -516,6 +538,12 @@ def main() -> int:
         print(f"  ✗ Cannot read {LATEST_IN}: {e}", file=sys.stderr)
         latest = {}
 
+    try:
+        prev_output = json.loads(PREV_OUT.read_text(encoding="utf-8"))
+        print(f"  ✓ Loaded previous {PREV_OUT} as fallback cache")
+    except Exception:
+        prev_output = {}
+
     inds     = latest.get("indicators", {})
     fed_rate = float(inds.get("fedRate",      {}).get("value", 0))
     rec_prob = float(inds.get("recProb",      {}).get("value", 0))
@@ -618,7 +646,7 @@ def main() -> int:
         "generatedAt": NOW.isoformat(),
         "meta": {
             "schemaVersion": "1.0",
-            "sourceSummary": ["latest.json", "FRED", "Multpl"],
+            "sourceSummary": ["latest.json", "FRED", "Multpl", "cached fallback"],
         },
         "marketStatus": {
             "phase": {
@@ -778,6 +806,24 @@ def main() -> int:
         },
         "news": latest.get("news", []),
     }
+
+
+    # Keep previous successful values if a single upstream source fails on this run.
+    output["technicalTriggers"][0] = keep_previous_card(prev_output, "technicalTriggers", "50T vs. 200T", output["technicalTriggers"][0], when=not bool(nasdaq_raw))
+    output["technicalTriggers"][1] = keep_previous_card(prev_output, "technicalTriggers", "RSI (14)", output["technicalTriggers"][1], when=rsi_val is None)
+    output["technicalTriggers"][2] = keep_previous_card(prev_output, "technicalTriggers", "Drawdown vom Hoch", output["technicalTriggers"][2], when=dd_val is None)
+
+    output["valuation"][0] = keep_previous_card(prev_output, "valuation", "Shiller CAPE", output["valuation"][0], when=cape_val is None)
+    output["valuation"][1] = keep_previous_card(prev_output, "valuation", "Buffett-Indikator", output["valuation"][1], when=buffett_val is None)
+    output["valuation"][2] = keep_previous_card(prev_output, "valuation", "Gewinnwachstum", output["valuation"][2], when=earn_g is None)
+
+    output["macro"][0] = keep_previous_card(prev_output, "macro", "Zinsumfeld", output["macro"][0], when=not bool(effr_obs))
+    output["macro"][1] = keep_previous_card(prev_output, "macro", "Wachstum", output["macro"][1], when=not bool(gdp_g_obs))
+    output["macro"][2] = keep_previous_card(prev_output, "macro", "Rezessionsindikatoren", output["macro"][2], when=not rec_prob and not sahm and not latest)
+
+    output.setdefault("charts", {})["qqq"] = keep_previous_chart(prev_output, "qqq", output.get("charts", {}).get("qqq", []), when=not bool(nasdaq_chart))
+    output.setdefault("charts", {})["vix"] = keep_previous_chart(prev_output, "vix", output.get("charts", {}).get("vix", []), when=not bool(vix_obs))
+    output.setdefault("charts", {})["brent"] = keep_previous_chart(prev_output, "brent", output.get("charts", {}).get("brent", []), when=not bool(brent_obs))
 
     OUT.write_text(json.dumps(output, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"\n✓ Wrote {OUT}")
