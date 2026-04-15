@@ -1,13 +1,21 @@
 #!/usr/bin/env python3
 """fetch_facts_figures.py – Generates data/facts_figures.json for the Facts & Figures dashboard.
 
-Sources:
-  - data/latest.json   Already-computed indicators from fetch_data.py (stress, VIX, Fed, recProb, …)
-  - FRED API           Wilshire 5000 + Nominal GDP (Buffett), real GDP growth, corp profits, EFFR, VIX, Brent
-  - Stooq              QQQ daily OHLCV for technical triggers and charts
-  - multpl.com         Shiller CAPE (scraping with FRED-based fallback)
+Data sources:
+  data/latest.json   Already-computed by fetch_data.py (stress, VIX components, Fed, recProb …)
+  FRED API           All market/macro data. No Stooq, no external scrapers for primary paths.
+  multpl.com         Shiller CAPE (scrape, optional – graceful fallback if blocked)
 
 Run order: always AFTER fetch_data.py so latest.json is fresh.
+
+QQQ proxy note:
+  Stooq is unreliable from GitHub Actions IP ranges.
+  We use FRED NASDAQCOM (NASDAQ Composite, daily) as a proxy for QQQ/Growth trend.
+  The chart label is updated accordingly. MA50/MA200 logic is identical.
+
+Wilshire / Buffett note:
+  FRED series candidates tried in order: WILL5000PRFC, WILL5000IND, WILL5000INDFC.
+  Divided by nominal GDP (FRED GDP series, quarterly, fill-forward) to get Buffett %.
 """
 
 from __future__ import annotations
@@ -21,37 +29,53 @@ if not FRED_KEY:
     print("ERROR: FRED_API_KEY not found.", file=sys.stderr)
     sys.exit(1)
 
-NOW            = datetime.now(timezone.utc)
-FRED_BASE      = "https://api.stlouisfed.org/fred/series/observations"
-LATEST_IN      = Path("data/latest.json")
-OUT            = Path("data/facts_figures.json")
+NOW             = datetime.now(timezone.utc)
+FRED_BASE       = "https://api.stlouisfed.org/fred/series/observations"
+LATEST_IN       = Path("data/latest.json")
+OUT             = Path("data/facts_figures.json")
 OUT.parent.mkdir(parents=True, exist_ok=True)
 
-DAILY_START    = (NOW - timedelta(days=365 * 3)).strftime("%Y-%m-%d")
+DAILY_START     = (NOW - timedelta(days=365 * 3)).strftime("%Y-%m-%d")
 QUARTERLY_START = (NOW - timedelta(days=365 * 20)).strftime("%Y-%m-%d")
 
+BROWSER_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept":          "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Connection":      "keep-alive",
+    "Cache-Control":   "no-cache",
+}
 
-# ─── Low-level helpers ────────────────────────────────────────────────────────
+
+# ─── HTTP helpers ─────────────────────────────────────────────────────────────
 def http_get(url: str, timeout: int = 20) -> bytes:
-    req = urllib.request.Request(
-        url,
-        headers={"User-Agent": "Mozilla/5.0 (compatible; MarketRiskMonitor/3.0; +https://github.com)"}
-    )
+    req = urllib.request.Request(url, headers=BROWSER_HEADERS)
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read()
 
 
 def fred(series_id: str, observation_start: str | None = None) -> list[dict]:
-    """Fetch observations from FRED API. Returns [] on any error."""
-    params: dict = {"series_id": series_id, "api_key": FRED_KEY,
-                    "file_type": "json", "sort_order": "asc"}
+    """Fetch FRED observations. Returns [] on any error."""
+    params: dict = {
+        "series_id":  series_id,
+        "api_key":    FRED_KEY,
+        "file_type":  "json",
+        "sort_order": "asc",
+    }
     if observation_start:
         params["observation_start"] = observation_start
     url = FRED_BASE + "?" + urllib.parse.urlencode(params)
     try:
         payload = json.loads(http_get(url).decode("utf-8"))
-        obs = [o for o in payload.get("observations", [])
-               if o.get("value") not in (None, "", ".")]
+        obs = [
+            o for o in payload.get("observations", [])
+            if o.get("value") not in (None, "", ".")
+        ]
         print(f"  ✓ FRED {series_id}: {len(obs)} obs")
         return obs
     except Exception as e:
@@ -59,8 +83,17 @@ def fred(series_id: str, observation_start: str | None = None) -> list[dict]:
         return []
 
 
+def fred_first(candidates: list[str], observation_start: str | None = None) -> list[dict]:
+    """Try each series ID in order; return first non-empty result."""
+    for sid in candidates:
+        obs = fred(sid, observation_start)
+        if obs:
+            return obs
+    return []
+
+
 def hp(obs: list[dict], dec: int = 2) -> list[dict]:
-    """Convert raw FRED observations to {date, value} list."""
+    """Convert raw FRED obs to [{date, value}]."""
     out = []
     for o in obs:
         try:
@@ -75,14 +108,16 @@ def last_val(pts: list[dict], default: float = 0.0) -> float:
 
 
 def yoy(pts: list[dict], lag: int = 4) -> list[dict]:
-    """YoY growth for quarterly (lag=4) or monthly (lag=12) series."""
+    """YoY % change; lag=4 for quarterly, lag=12 for monthly."""
     out = []
     for i in range(lag, len(pts)):
         prev = pts[i - lag]["value"]
         if prev == 0:
             continue
-        out.append({"date": pts[i]["date"],
-                    "value": round(((pts[i]["value"] / prev) - 1) * 100, 2)})
+        out.append({
+            "date":  pts[i]["date"],
+            "value": round(((pts[i]["value"] / prev) - 1) * 100, 2),
+        })
     return out
 
 
@@ -101,184 +136,160 @@ def rsi14(closes: list[float]) -> float | None:
         return None
     deltas = [closes[i] - closes[i - 1] for i in range(1, len(closes))]
     recent = deltas[-14:]
-    gains  = [max(d, 0) for d in recent]
-    losses = [abs(min(d, 0)) for d in recent]
-    avg_g  = sum(gains)  / 14
-    avg_l  = sum(losses) / 14
+    avg_g  = sum(max(d, 0) for d in recent)      / 14
+    avg_l  = sum(abs(min(d, 0)) for d in recent) / 14
     if avg_l == 0:
         return 100.0
     return round(100 - 100 / (1 + avg_g / avg_l), 1)
 
 
-# ─── Stooq price fetch ────────────────────────────────────────────────────────
-def stooq(symbol: str, days: int = 600) -> list[dict]:
-    url = f"https://stooq.com/q/d/l/?s={symbol}&i=d"
-    try:
-        raw   = http_get(url, timeout=25).decode("utf-8", errors="replace")
-        lines = raw.strip().splitlines()
-        out   = []
-        for line in lines[1:]:
-            parts = line.split(",")
-            if len(parts) < 5:
-                continue
-            try:
-                out.append({"date": parts[0], "value": round(float(parts[4]), 2)})
-            except Exception:
-                pass
-        out.sort(key=lambda x: x["date"])
-        print(f"  ✓ Stooq {symbol}: {len(out)} rows")
-        return out[-days:]
-    except Exception as e:
-        print(f"  ✗ Stooq {symbol}: {e}", file=sys.stderr)
-        return []
-
-
-# ─── Shiller CAPE from multpl.com ────────────────────────────────────────────
+# ─── Shiller CAPE scraper ─────────────────────────────────────────────────────
 def scrape_cape() -> float | None:
     """
-    Scrapes current Shiller CAPE ratio from multpl.com.
-    Tries the main page first, then the monthly table as fallback.
-    Returns None on any failure – callers should handle this gracefully.
+    Try to get current Shiller CAPE from multpl.com.
+    Attempts the monthly table page first (simpler DOM), then the main page.
+    Returns None if blocked or parse fails.
     """
-    # Attempt 1: main page, look for <div id="current">
-    for url in (
-        "https://www.multpl.com/shiller-pe",
-        "https://www.multpl.com/shiller-pe/table/by-month",
-    ):
+    targets = [
+        (
+            "https://www.multpl.com/shiller-pe/table/by-month",
+            [
+                r'<td>[A-Z][a-z]+\s+\d{4}</td>\s*<td>\s*([\d]{1,3}\.[\d]{1,2})\s*</td>',
+                r'<td>\s*([\d]{1,3}\.[\d]{1,2})\s*</td>',
+            ],
+        ),
+        (
+            "https://www.multpl.com/shiller-pe",
+            [
+                r'id=["\']current["\'][^>]*>\s*<[^>]+>\s*([\d]{1,3}\.[\d]{1,2})',
+                r'id=["\']current["\'][^>]*>([\d]{1,3}\.[\d]{1,2})',
+                r'"shillerPE"\s*:\s*([\d]{1,3}\.[\d]{1,2})',
+            ],
+        ),
+    ]
+
+    for url, patterns in targets:
         try:
-            html = http_get(url, timeout=15).decode("utf-8", errors="replace")
-            # Pattern: id="current" … >28.5<
-            m = re.search(r'id=["\']current["\'][^>]*>\s*([\d]{1,3}\.[\d]{1,2})', html)
-            if m:
-                val = float(m.group(1))
-                if 5 < val < 100:
-                    print(f"  ✓ Multpl CAPE: {val}")
-                    return val
-            # Fallback pattern from table: <td>Apr 2025</td><td>28.50</td>
-            m = re.search(
-                r'<td>\w{3}\s+\d{4}</td>\s*<td>\s*([\d]{1,3}\.[\d]{1,2})\s*</td>', html
-            )
-            if m:
-                val = float(m.group(1))
-                if 5 < val < 100:
-                    print(f"  ✓ Multpl CAPE (table): {val}")
-                    return val
+            raw = http_get(url, timeout=18)
+            if raw[:2] == b'\x1f\x8b':         # handle gzip
+                import gzip
+                raw = gzip.decompress(raw)
+            html = raw.decode("utf-8", errors="replace")
+            for pat in patterns:
+                m = re.search(pat, html)
+                if m:
+                    val = float(m.group(1))
+                    if 5 < val < 100:
+                        print(f"  ✓ CAPE scrape: {val}")
+                        return val
         except Exception as e:
-            print(f"  ✗ Multpl ({url}): {e}", file=sys.stderr)
+            print(f"  ✗ CAPE scrape ({url[-35:]}): {e}", file=sys.stderr)
 
     print("  ✗ CAPE: all scrape attempts failed", file=sys.stderr)
     return None
 
 
-# ─── Buffett Indicator via FRED ───────────────────────────────────────────────
+# ─── Buffett Indicator ────────────────────────────────────────────────────────
 def buffett_indicator(
-    wilshire_pts: list[dict], gdp_pts: list[dict]
+    wilshire_pts: list[dict],
+    gdp_pts:      list[dict],
 ) -> tuple[float | None, list[dict]]:
     """
-    Buffett Indicator = Wilshire 5000 Full-Cap Index / Nominal GDP × 100.
+    Buffett % = Wilshire 5000 Full-Cap Index / Nominal GDP (billions) x 100.
 
-    The Wilshire 5000 Full-Cap Price Index (WILL5000PRFC) was originally
-    constructed so that 1 index point ≈ $1 billion in total US equity market cap.
-    Dividing by nominal GDP in billions therefore gives the classic ratio.
-
-    Example check:
-        Wilshire ≈ 48 000 pts  →  ~$48 tn market cap
-        GDP      ≈ 28 800 bn   →  ~$28.8 tn
-        48 000 / 28 800 × 100  ≈  167 %   ← matches published sources
+    The Wilshire 5000 Full-Cap index was originally scaled so 1 point ≈ $1 billion
+    in total US market cap. GDP is in billions (FRED series GDP, quarterly).
+    Cross-check: Wilshire ~48 000 / GDP ~28 800 × 100 ≈ 167 % – matches published sources.
     """
     if not wilshire_pts or not gdp_pts:
         return None, []
 
-    # Build fill-forward GDP map (quarterly data applied to daily Wilshire)
-    gdp_dates = sorted({p["date"]: p["value"] for p in gdp_pts}.items())
+    sorted_gdp = sorted(gdp_pts, key=lambda x: x["date"])
 
-    def gdp_for(date: str) -> float | None:
+    def gdp_at(date: str) -> float | None:
         last = None
-        for d, v in gdp_dates:
-            if d <= date:
-                last = v
+        for g in sorted_gdp:
+            if g["date"] <= date:
+                last = g["value"]
             else:
                 break
         return last
 
     history: list[dict] = []
     for p in wilshire_pts:
-        g = gdp_for(p["date"])
+        g = gdp_at(p["date"])
         if g and g > 0:
-            history.append({
-                "date":  p["date"],
-                "value": round(p["value"] / g * 100, 1),
-            })
+            history.append({"date": p["date"], "value": round(p["value"] / g * 100, 1)})
 
     latest = history[-1]["value"] if history else None
-    # Return last ~120 points for sparkline (≈ 6 months of daily data)
     return latest, history[-120:]
 
 
-# ─── Classification helpers ───────────────────────────────────────────────────
+# ─── Classification functions ─────────────────────────────────────────────────
 def cape_classify(v: float | None) -> tuple[str, str, str]:
-    """Returns (tone, short_label, full_status_text)."""
     if v is None:
-        return ("m",
-                "—",
-                "CAPE konnte nicht abgerufen werden. Multpl.com nicht erreichbar.")
+        return ("m", "—",
+                "Shiller CAPE temporär nicht verfügbar. Quelle (multpl.com) "
+                "nicht erreichbar – wird beim nächsten Update erneut versucht.")
     if v < 15:
         return ("l", "Historisch günstig",
-                f"Shiller CAPE bei {v:.1f}. Seltene Bewertungsgelegenheit – historisch sehr niedrig.")
+                f"Shiller CAPE bei {v:.1f}. Seltene Bewertungsgelegenheit.")
     if v < 22:
         return ("l", "Moderat",
-                f"Shiller CAPE bei {v:.1f}. Im fairen historischen Bereich. Fehlertoleranz noch vorhanden.")
+                f"Shiller CAPE bei {v:.1f}. Im fairen historischen Bereich.")
     if v < 27:
         return ("m", "Leicht erhöht",
-                f"Shiller CAPE bei {v:.1f}. Leicht über dem langfristigen Mittel – Puffer nimmt ab.")
+                f"Shiller CAPE bei {v:.1f}. Leicht über dem langfristigen Mittel. Puffer nimmt ab.")
     if v < 32:
         return ("m", "Erhöht",
-                f"Shiller CAPE bei {v:.1f}. Erhöht. Markt hat geringere Pufferkapazität bei negativen Schocks.")
+                f"Shiller CAPE bei {v:.1f}. Erhöht. Geringere Pufferkapazität bei negativen Schocks.")
     return ("h", "Stark erhöht",
-            f"Shiller CAPE bei {v:.1f}. Historisch ambitionierte Bewertung. Erhöhte Empfindlichkeit gegenüber Enttäuschungen.")
+            f"Shiller CAPE bei {v:.1f}. Historisch ambitionierte Bewertung. "
+            "Erhöhte Empfindlichkeit gegenüber Enttäuschungen.")
 
 
 def buffett_classify(v: float | None) -> tuple[str, str]:
-    """Returns (tone, full_status_text)."""
     if v is None:
         return ("m",
-                "Keine frische Live-Einordnung verfügbar. "
+                "Buffett-Indikator temporär nicht verfügbar. "
                 "Wilshire 5000 oder GDP-Daten konnten nicht abgerufen werden.")
     if v < 75:
-        return ("l", f"Buffett-Indikator bei {v:.0f} %. Historisch günstig – Marktkapitalisierung deutlich unter BIP.")
+        return ("l", f"Buffett-Indikator bei {v:.0f} %. Historisch günstig – "
+                     "Marktkapitalisierung klar unter Wirtschaftsleistung.")
     if v < 100:
         return ("l", f"Buffett-Indikator bei {v:.0f} %. Im fairen Bewertungsbereich.")
     if v < 130:
-        return ("m", f"Buffett-Indikator bei {v:.0f} %. Leicht über dem historischen Mittelwert (~85–100 %).")
+        return ("m", f"Buffett-Indikator bei {v:.0f} %. "
+                     "Leicht über dem historischen Mittelwert (~85–100 %).")
     if v < 160:
         return ("m", f"Buffett-Indikator bei {v:.0f} %. Klar erhöht. "
-                      "Das erhöht die Empfindlichkeit gegenüber externen Schocks.")
-    return ("h", f"Buffett-Indikator bei {v:.0f} %. Historisch stark überhitzt. "
-                  "Das erhöht die Empfindlichkeit gegenüber externen Schocks.")
+                     "Das erhöht die Empfindlichkeit gegenüber externen Schocks.")
+    return ("h", f"Buffett-Indikator bei {v:.0f} %. "
+                 "Historisch stark überhitzt. Marktkapitalisierung weit über BIP.")
 
 
 def earnings_classify(v: float | None) -> tuple[str, str]:
     if v is None:
         return ("m", "Keine Gewinnwachstumsdaten verfügbar.")
     if v >= 10:
-        return ("l", f"Unternehmensgewinne YoY: +{v:.1f} %. "
-                      "Starkes Wachstum stützt aktuelle Bewertungen.")
+        return ("l", f"S&P-500-Gewinnwachstum YoY: +{v:.1f} %. "
+                     "Starkes Wachstum stützt aktuelle Bewertungen.")
     if v >= 4:
-        return ("l", f"Unternehmensgewinne YoY: +{v:.1f} %. Solides Gewinnwachstum.")
+        return ("l", f"S&P-500-Gewinnwachstum YoY: +{v:.1f} %. Solides Gewinnwachstum.")
     if v >= 0:
-        return ("m", f"Unternehmensgewinne YoY: +{v:.1f} %. "
-                      "Moderates Wachstum – Bewertungen weniger gut abgesichert.")
-    return ("h", f"Unternehmensgewinne YoY: {v:.1f} %. "
-                  "Gewinnrückgang erhöht Druck auf Bewertungsniveaus.")
+        return ("m", f"S&P-500-Gewinnwachstum YoY: +{v:.1f} %. "
+                     "Moderates Wachstum – Bewertungen weniger gut abgesichert.")
+    return ("h", f"S&P-500-Gewinnwachstum YoY: {v:.1f} %. "
+                 "Gewinnrückgang erhöht Druck auf Bewertungsniveaus.")
 
 
 def fed_classify(v: float) -> tuple[str, str]:
     if v >= 5.0:
         return ("h", f"US-Leitzins bei {v:.2f} %. "
-                      "Klar restriktives Umfeld. Kreditkosten und Bewertungsdruck erhöht.")
+                     "Klar restriktives Umfeld. Kreditkosten und Bewertungsdruck erhöht.")
     if v >= 4.0:
-        return ("m", f"US-Leitzins bei {v:.2f} %. "
-                      "Restriktiver Bereich. Höhere Energiepreise erschweren eine lockere Zinsfantasie.")
+        return ("m", f"US-Leitzins bei {v:.2f} %. Komplizierter geworden. "
+                     "Höhere Energiepreise erschweren eine lockere Zinsfantasie.")
     if v >= 2.5:
         return ("m", f"US-Leitzins bei {v:.2f} %. Neutral bis leicht restriktiv.")
     return ("l", f"US-Leitzins bei {v:.2f} %. Lockeres Zinsumfeld.")
@@ -287,75 +298,66 @@ def fed_classify(v: float) -> tuple[str, str]:
 def gdp_classify(v: float) -> tuple[str, str]:
     if v >= 3.0:
         return ("l", f"BIP-Wachstum (real, ann.) zuletzt +{v:.1f} %. "
-                      "Starkes konjunkturelles Fundament.")
+                     "Starkes konjunkturelles Fundament.")
     if v >= 1.5:
         return ("l", f"BIP-Wachstum (real, ann.) zuletzt +{v:.1f} %. "
-                      "Moderates Wachstum. Das Wachstumsrisiko hat zugenommen.")
+                     "Das Wachstumsrisiko hat zugenommen.")
     if v >= 0:
         return ("m", f"BIP-Wachstum (real, ann.) zuletzt +{v:.1f} %. "
-                      "Träges Wachstum. Das Wachstumsrisiko hat zugenommen.")
+                     "Das Wachstumsrisiko hat zugenommen.")
     return ("h", f"BIP-Wachstum (real, ann.) zuletzt {v:.1f} %. "
-                  "Negatives Wachstum – Rezessionsrisiko erhöht.")
+                 "Negatives Wachstum – Rezessionsrisiko erhöht.")
 
 
 def rec_classify(prob: float, sahm: float) -> tuple[str, str]:
     if prob >= 50 or sahm >= 0.5:
         return ("h", f"Rezessionswahrscheinlichkeit {prob:.1f} % (FRED), "
-                      f"Sahm Rule {sahm:.2f}. Klare Warnsignale aktiv.")
+                     f"Sahm Rule {sahm:.2f}. Klare Warnsignale aktiv.")
     if prob >= 25 or sahm >= 0.3:
-        return ("m", f"Noch kein bestätigter Crash-Makro-Modus, aber klar fragiler als "
-                      f"in ruhigeren Marktphasen. Rezessionsmodell bei {prob:.1f} %.")
-    return ("l", f"Noch kein bestätigter Crash-Makro-Modus, aber klar fragiler als "
-                  f"in ruhigeren Marktphasen. Rezessionsmodell bei {prob:.1f} %.")
+        return ("m", f"Noch kein bestätigter Crash-Makro-Modus, aber klar fragiler "
+                     f"als in ruhigeren Marktphasen. Modell bei {prob:.1f} %.")
+    return ("l", f"Noch kein bestätigter Crash-Makro-Modus, aber klar fragiler "
+                 f"als in ruhigeren Marktphasen. Modell bei {prob:.1f} %.")
 
 
 def vix_classify(v: float) -> tuple[str, str, str]:
     if v <= 0:
         return ("m", "—", "Keine VIX-Daten.")
     if v >= 40:
-        return ("h", "Extremes Stressniveau",
-                f"VIX bei {v:.1f}. Historisch seltene Panikphase.")
+        return ("h", "Extremes Stressniveau", f"VIX bei {v:.1f}. Historisch seltene Panikphase.")
     if v >= 30:
-        return ("h", "Klarer Stress",
-                f"VIX bei {v:.1f}. Deutlich erhöhtes Absicherungsbedürfnis am Markt.")
+        return ("h", "Klarer Stress",         f"VIX bei {v:.1f}. Deutlich erhöhtes Absicherungsbedürfnis.")
     if v >= 20:
-        return ("m", "Erhöhte Nervosität",
-                f"VIX bei {v:.1f}. Merklich über dem langjährigen Durchschnitt (~17).")
-    return ("l", "Relativ ruhig",
-            f"VIX bei {v:.1f}. Unter dem langfristigen Durchschnitt von ca. 17–20.")
+        return ("m", "Erhöhte Nervosität",    f"VIX bei {v:.1f}. Merklich über dem langjährigen Durchschnitt.")
+    return     ("l", "Relativ ruhig",         f"VIX bei {v:.1f}. Unter dem langfristigen Durchschnitt von ~17–20.")
 
 
-def phase_classify(stress: float) -> tuple[str, str, str, str]:
+def phase_classify(stress: float) -> tuple[str, str, str]:
     if stress >= 60:
         return ("h", "Hohes Stressniveau",
-                "Mehrere Signale bestätigen gleichzeitig eine anspruchsvolle Marktphase.",
-                "stress")
+                "Mehrere Signale bestätigen gleichzeitig eine anspruchsvolle Marktphase.")
     if stress >= 45:
-        return ("m", "Defensivere Haltung sinnvoll",
-                "Belastungssignale sind breiter sichtbar.", "defensive")
+        return ("m", "Defensivere Haltung sinnvoll", "Belastungssignale sind breiter sichtbar.")
     if stress >= 30:
-        return ("m", "Erhöhte Vorsicht",
-                "Mehr Spannungen als in ruhigeren Phasen.", "caution")
-    return ("l", "Normalphase",
-            "Signallage wirkt geordnet.", "normal")
+        return ("m", "Erhöhte Vorsicht", "Mehr Spannungen als in ruhigeren Phasen.")
+    return     ("l", "Normalphase",      "Signallage wirkt geordnet.")
 
 
-# ─── Technical indicator helpers ─────────────────────────────────────────────
-def trend_classify(close: float | None, m50: float | None, m200: float | None
-                   ) -> tuple[str, str, str]:
+def trend_classify(
+    close: float | None, m50: float | None, m200: float | None, label: str = "Index"
+) -> tuple[str, str, str]:
     if None in (close, m50, m200):
         return ("m", "Keine Daten", "Kursdaten nicht verfügbar.")
     if close > m50 > m200:
         return ("l", "Aufwärtstrend intakt",
-                f"QQQ über 50T ({m50:.0f}) und 200T ({m200:.0f}). Trendstruktur intakt.")
+                f"{label} über 50T ({m50:.0f}) und 200T ({m200:.0f}). Trendstruktur intakt.")
     if close < m200:
         return ("h", "Unter 200T-Durchschnitt",
-                f"QQQ unter dem 200T-Durchschnitt ({m200:.0f}). Längerfristiger Trendbruch.")
+                f"{label} unter 200T-Durchschnitt ({m200:.0f}). Längerfristiger Trendbruch.")
     if close < m50:
         return ("m", "Unter 50T-Durchschnitt",
-                f"QQQ unter dem 50T-Durchschnitt ({m50:.0f}), aber noch über 200T ({m200:.0f}).")
-    return ("m", "Gemischtes Bild",
-            f"QQQ nahe 50T ({m50:.0f}). Kein klares Trendurteil.")
+                f"{label} unter 50T ({m50:.0f}), aber noch über 200T ({m200:.0f}).")
+    return ("m", "Gemischtes Bild", f"{label} nahe 50T ({m50:.0f}). Kein klares Trendurteil.")
 
 
 def rsi_classify(v: float | None) -> tuple[str, str, str]:
@@ -366,61 +368,49 @@ def rsi_classify(v: float | None) -> tuple[str, str, str]:
                 f"RSI (14) bei {v:.1f}. Historisch oft im Bereich panischer Überreaktionen.")
     if v < 35:
         return ("l", "Überverkauft",
-                f"RSI (14) bei {v:.1f}. Überverkauftes Niveau – kurzfristige Gegenbewegung möglich.")
+                f"RSI (14) bei {v:.1f}. Überverkauftes Niveau – Gegenbewegung möglich.")
     if v > 75:
-        return ("h", "Überkauft",
-                f"RSI (14) bei {v:.1f}. Kurzfristige Erschöpfung möglich.")
-    return ("m", "Neutral",
-            f"RSI (14) bei {v:.1f}. Kein Extremniveau in beide Richtungen.")
+        return ("h", "Überkauft", f"RSI (14) bei {v:.1f}. Kurzfristige Erschöpfung möglich.")
+    return     ("m", "Neutral",   f"RSI (14) bei {v:.1f}. Kein Extremniveau in beide Richtungen.")
 
 
 def drawdown_classify(dd: float | None) -> tuple[str, str, str]:
     if dd is None:
         return ("m", "—", "Drawdown nicht berechenbar.")
     if dd >= -5:
-        return ("l", "Nahe Allzeithoch",
-                f"{dd:.1f} % vom Hoch. Kaum struktureller Druck.")
+        return ("l", "Nahe Allzeithoch",    f"{dd:.1f} % vom Hoch. Kaum struktureller Druck.")
     if dd >= -10:
-        return ("m", "Leichter Rückgang",
-                f"{dd:.1f} % vom Hoch. Normales Korrekturterritory.")
+        return ("m", "Leichter Rückgang",   f"{dd:.1f} % vom Hoch. Normales Korrekturterritory.")
     if dd >= -20:
-        return ("h", "Erhöhter Drawdown",
-                f"{dd:.1f} % vom Hoch. Spürbare Korrektur – erhöhte Aufmerksamkeit sinnvoll.")
-    return ("h", "Bärenmarkt-Niveau",
-            f"{dd:.1f} % vom Hoch. Bärenmarkt-Schwelle überschritten.")
+        return ("h", "Erhöhter Drawdown",   f"{dd:.1f} % vom Hoch. Spürbare Korrektur.")
+    return     ("h", "Bärenmarkt-Niveau",   f"{dd:.1f} % vom Hoch. Bärenmarkt-Schwelle überschritten.")
 
 
 # ─── Probability models ───────────────────────────────────────────────────────
-def bottom_probability(vix: float, dd: float | None, rsi: float | None,
-                       rec: float, sahm: float) -> tuple[int, str, str]:
-    score = 0
-    notes: list[str] = []
-    if vix >= 30:
-        score += 25; notes.append(f"VIX {vix:.1f} – erhöhter Markt-Stress")
-    elif vix >= 22:
-        score += 12
-    if dd is not None and dd <= -20:
-        score += 25; notes.append(f"Drawdown {dd:.1f} % – deutlicher Kursrückgang")
-    elif dd is not None and dd <= -12:
-        score += 15
-    if rsi is not None and rsi <= 30:
-        score += 20; notes.append(f"RSI {rsi:.1f} – überverkauft")
-    elif rsi is not None and rsi <= 40:
-        score += 10
-    if rec < 25:
-        score += 15; notes.append("Rezessionswahrscheinlichkeit noch begrenzt")
-    if sahm < 0.3:
-        score += 15; notes.append("Sahm Rule noch unter Warnschwelle")
+def bottom_prob(
+    vix: float, dd: float | None, rsi: float | None, rec: float, sahm: float
+) -> tuple[int, str, str]:
+    score, notes = 0, []
+    if vix >= 30:   score += 25; notes.append(f"VIX {vix:.1f}")
+    elif vix >= 22: score += 12
+    if dd is not None:
+        if dd <= -20: score += 25; notes.append(f"Drawdown {dd:.1f} %")
+        elif dd <= -12: score += 15
+    if rsi is not None:
+        if rsi <= 30: score += 20; notes.append(f"RSI {rsi:.1f}")
+        elif rsi <= 40: score += 10
+    if rec < 25:  score += 15; notes.append("Rezessionsrisiko begrenzt")
+    if sahm < 0.3: score += 15; notes.append("Sahm Rule unter Warnschwelle")
     score = min(score, 85)
     reason = "; ".join(notes[:3]) if notes else "Keine starken Bodenbildungssignale aktiv."
-    interp = ("Signalkonstellation weist auf mögliche Erholungsphase hin – aber keine Gewissheit."
-              if score >= 40
-              else "Noch keine klare Bodenbildungskonstellation erkennbar.")
+    interp = ("Signalkonstellation weist auf mögliche Erholungsphase hin."
+              if score >= 40 else "Noch keine klare Bodenbildungskonstellation erkennbar.")
     return score, reason, interp
 
 
-def crash_probability(stress: float, rec: float, vix: float,
-                      dd: float | None, gdp_g: float) -> tuple[int, str, str]:
+def crash_prob(
+    stress: float, rec: float, vix: float, dd: float | None, gdp_g: float
+) -> tuple[int, str, str]:
     score = 0
     if stress >= 60: score += 28
     elif stress >= 45: score += 18
@@ -433,98 +423,79 @@ def crash_probability(stress: float, rec: float, vix: float,
     if gdp_g < 0: score += 20
     elif gdp_g < 1.0: score += 8
     score = min(score, 90)
-    reason = (f"Stress-Score {stress:.0f}/100, Rezessionsrisiko {rec:.1f} %, VIX {vix:.1f}.")
-    interp = ("Crash-Risiko erhöht – mehrere Stressachsen gleichzeitig aktiv."
-              if score >= 50
-              else ("Crash-Risiko begrenzt – Signale noch nicht breit eskaliert."
-                    if score < 30
-                    else "Moderates Crash-Risiko – Situation beobachtungswürdig."))
+    reason = f"Stress {stress:.0f}/100, Rezessionsrisiko {rec:.1f} %, VIX {vix:.1f}."
+    interp = ("Crash-Risiko erhöht – mehrere Stressachsen aktiv." if score >= 50
+              else "Moderates Crash-Risiko – Situation beobachtungswürdig." if score >= 30
+              else "Crash-Risiko derzeit begrenzt.")
     return score, reason, interp
 
 
-def timing_quality(bp: int, cp: int) -> tuple[str, str, str]:
+def timing_qual(bp: int, cp: int) -> tuple[str, str, str]:
     too_early = min(round(bp * 0.55), 55)
     optimal   = min(round(bp * 0.28), 28)
     too_late  = 100 - too_early - optimal
     label  = f"Zu früh {too_early} % · Optimal {optimal} % · Zu spät {too_late} %"
     reason = f"Bottom-Signal {bp} %, Crash-Risiko {cp} %."
-    interp = ("Kein klares Timing-Fenster erkennbar."
-              if bp < 35
-              else "Leichtes Timing-Signal – aber noch nicht breit bestätigt.")
+    interp = ("Kein klares Timing-Fenster erkennbar." if bp < 35
+              else "Leichtes Timing-Signal – noch nicht breit bestätigt.")
     return label, reason, interp
 
 
 # ─── Sentiment builder ────────────────────────────────────────────────────────
-def build_sentiment(vix: float, fed: float, rec: float, gdp_g: float,
-                    sp_ytd: float, dd: float | None) -> dict:
-    tags:  list[str] = []
+def build_sentiment(
+    vix: float, fed: float, rec: float, gdp_g: float,
+    sp_ytd: float, dd: float | None,
+) -> dict:
+    tags: list[str]  = []
     risks: list[str] = []
 
-    if vix >= 28:
-        tags.append("Risk-off")
-        risks.append(f"VIX {vix:.1f} – Märkte preisen erhöhte Unsicherheit ein.")
-    elif vix >= 21:
-        tags.append("Erhöhte Nervosität")
-    else:
-        tags.append("Relativ ruhig")
+    if vix >= 28:   tags.append("Risk-off");         risks.append(f"VIX {vix:.1f} – Märkte preisen erhöhte Unsicherheit ein.")
+    elif vix >= 21: tags.append("Erhöhte Nervosität")
+    else:           tags.append("Relativ ruhig")
 
     if fed >= 4.5:
         tags.append("Zinsdruck")
         risks.append(f"US-Leitzins {fed:.2f} % – restriktives Umfeld wirkt weiter.")
-
     if rec >= 25:
         tags.append("Rezessionsrisiko")
-        risks.append(f"Rezessionswahrscheinlichkeit {rec:.1f} % überschreitet Vorsichtsschwelle.")
-
+        risks.append(f"Rezessionswahrscheinlichkeit {rec:.1f} % über Vorsichtsschwelle.")
     if gdp_g < 1.0:
         risks.append(f"BIP-Wachstum {gdp_g:.1f} % – konjunkturelle Unterstützung begrenzt.")
-
     if sp_ytd <= -10:
         tags.append("Marktkorrektur")
         risks.append(f"S&P 500 YTD {sp_ytd:.1f} % – Korrekturdynamik sichtbar.")
-
     if dd is not None and dd <= -15:
-        risks.append(f"QQQ Drawdown {dd:.1f} % vom Hoch – struktureller Druck auf Growth.")
+        risks.append(f"NASDAQ Drawdown {dd:.1f} % vom Hoch – Druck auf Growth-Titel.")
 
     if not risks:
         risks.append("Kein übergreifendes Hochrisikosignal aktiv.")
 
-    if "Risk-off" in tags:
-        mood = "Risk-off: Marktteilnehmer präferieren Sicherheit."
-    elif "Erhöhte Nervosität" in tags:
-        mood = ("Nervöses Bild: Einzelne Stresssignale sichtbar, "
-                "aber keine vollständige Eskalation.")
-    else:
-        mood = ("Verhalten konstruktiv, aber mit erhöhter Sensitivität "
-                "gegenüber negativen Datenpunkten.")
+    mood = ("Risk-off: Marktteilnehmer präferieren Sicherheit." if "Risk-off" in tags
+            else "Nervöses Bild: Einzelne Stresssignale sichtbar, aber keine vollständige Eskalation."
+            if "Erhöhte Nervosität" in tags
+            else "Verhalten konstruktiv, aber mit erhöhter Sensitivität gegenüber negativen Datenpunkten.")
 
     return {"marketMood": mood, "tags": tags, "risks": risks[:5]}
 
 
-# ─── Static geo/trigger/text blocks ──────────────────────────────────────────
+# ─── Static blocks ────────────────────────────────────────────────────────────
 GEO = [
-    {"field": "Russland / Ukraine",
-     "status": "Fortlaufender Konflikt",
+    {"field": "Russland / Ukraine",    "status": "Fortlaufender Konflikt",
      "impact": "Energiepreise, Getreide, Transportkorridore Schwarzes Meer."},
-    {"field": "Naher Osten / Gaza",
-     "status": "Aktives Konfliktfeld",
+    {"field": "Naher Osten / Gaza",    "status": "Aktives Konfliktfeld",
      "impact": "Ölpreisrisiko, Hormuz-Passage, LNG-Routen, Gold als Safe Haven."},
-    {"field": "Taiwan-Straße / China",
-     "status": "Erhöhte Spannungen",
+    {"field": "Taiwan-Straße / China", "status": "Erhöhte Spannungen",
      "impact": "Halbleiterversorgung, Lieferketten, US-Dollar-Dynamik."},
-    {"field": "Rotes Meer / Houthi",
-     "status": "Andauernde Störung",
+    {"field": "Rotes Meer / Houthi",   "status": "Andauernde Störung",
      "impact": "Suez-Alternative, Frachtkosten, Lieferzeiten weltweit erhöht."},
 ]
-
 POS_TRIGGERS = [
     "VIX fällt nachhaltig unter 20 (Beruhigungssignal).",
     "Fed signalisiert klare Zinspause oder Lockerungserwartungen.",
     "Rezessionsmodell stabilisiert sich unter 20 %.",
     "Marktbreite verbessert sich – mehr Titel über 200T-Durchschnitt.",
-    "Unternehmensgewinn-Revisionen drehen ins Positive.",
+    "Gewinnrevisionen für S&P-500-Unternehmen drehen ins Positive.",
 ]
-
 REFRESH_TRIGGERS = [
     "Fed-Entscheidung oder FOMC-Protokoll.",
     "Nächste Arbeitsmarktdaten (NFP, Sahm Rule).",
@@ -536,7 +507,8 @@ REFRESH_TRIGGERS = [
 
 # ─── Main ─────────────────────────────────────────────────────────────────────
 def main() -> int:
-    # ── 1. Load already-computed base data from latest.json ──────────────────
+
+    # ── 1. Base indicators from latest.json ───────────────────────────────────
     try:
         latest = json.loads(LATEST_IN.read_text(encoding="utf-8"))
         print(f"  ✓ Loaded {LATEST_IN}")
@@ -544,104 +516,97 @@ def main() -> int:
         print(f"  ✗ Cannot read {LATEST_IN}: {e}", file=sys.stderr)
         latest = {}
 
-    inds      = latest.get("indicators", {})
-    fed_rate  = float(inds.get("fedRate", {}).get("value", 0))
-    rec_prob  = float(inds.get("recProb", {}).get("value", 0))
-    sahm      = float(inds.get("recProb", {}).get("fastProxy", {}).get("value", 0))
-    vix_now   = float(inds.get("tradeStress", {}).get("components", {}).get("vix", 0))
-    sp_ytd    = float(inds.get("sp500", {}).get("ytd", 0))
-    stress    = float(inds.get("tradeStress", {}).get("value", 0))
+    inds     = latest.get("indicators", {})
+    fed_rate = float(inds.get("fedRate",      {}).get("value", 0))
+    rec_prob = float(inds.get("recProb",      {}).get("value", 0))
+    sahm     = float(inds.get("recProb",      {}).get("fastProxy", {}).get("value", 0))
+    vix_now  = float(inds.get("tradeStress",  {}).get("components", {}).get("vix", 0))
+    sp_ytd   = float(inds.get("sp500",        {}).get("ytd", 0))
+    stress   = float(inds.get("tradeStress",  {}).get("value", 0))
 
-    # ── 2. Fetch FRED series ─────────────────────────────────────────────────
-    print("\n[FRED]")
-    # Real GDP growth, annualized, quarterly
-    gdp_g_obs  = hp(fred("A191RL1Q225SBEA", QUARTERLY_START), 1)
-    gdp_g_val  = last_val(gdp_g_obs)
+    # ── 2. FRED fetches ───────────────────────────────────────────────────────
+    print("\n[FRED – macro]")
+    gdp_g_obs = hp(fred("A191RL1Q225SBEA", QUARTERLY_START), 1)   # real GDP growth
+    gdp_g_val = last_val(gdp_g_obs)
+    gdp_nom   = hp(fred("GDP", QUARTERLY_START), 0)               # nominal GDP (billions)
+    cp_obs    = hp(fred("CP",  QUARTERLY_START), 1)               # corp profits after tax
+    cp_yoy    = yoy(cp_obs, lag=4)
+    earn_g    = cp_yoy[-1]["value"] if cp_yoy else None
+    effr_obs  = hp(fred("EFFR",        DAILY_START), 2)
+    vix_obs   = hp(fred("VIXCLS",      DAILY_START), 2)
+    brent_obs = hp(fred("DCOILBRENTEU", DAILY_START), 2)
 
-    # Nominal GDP (billions, quarterly) – Buffett denominator
-    gdp_nom_obs = hp(fred("GDP", QUARTERLY_START), 0)
+    # NASDAQ Composite – reliable FRED proxy for Growth / QQQ trend
+    print("\n[FRED – NASDAQ Composite as Growth proxy]")
+    nasdaq_raw  = hp(fred("NASDAQCOM", DAILY_START), 0)
+    nasdaq_vals = [p["value"] for p in nasdaq_raw]
 
-    # Wilshire 5000 Full-Cap Price Index – Buffett numerator
-    will_obs   = hp(fred("WILL5000PRFC", DAILY_START), 0)
+    # Wilshire 5000 – try multiple FRED series IDs
+    print("\n[FRED – Wilshire 5000 for Buffett indicator]")
+    will_raw = hp(
+        fred_first(["WILL5000PRFC", "WILL5000IND", "WILL5000INDFC", "WILL5000PR"], DAILY_START),
+        0,
+    )
 
-    # Corporate Profits after tax – earnings growth proxy
-    cp_obs     = hp(fred("CP", QUARTERLY_START), 1)
-    cp_yoy     = yoy(cp_obs, lag=4)
-    earn_g     = cp_yoy[-1]["value"] if cp_yoy else None
-
-    # EFFR history for macro sparkline
-    effr_obs   = hp(fred("EFFR", DAILY_START), 2)
-
-    # VIX daily history for chart
-    vix_obs    = hp(fred("VIXCLS", DAILY_START), 2)
-
-    # Brent crude for chart
-    brent_obs  = hp(fred("DCOILBRENTEU", DAILY_START), 2)
-
-    # ── 3. Stooq: QQQ ────────────────────────────────────────────────────────
-    print("\n[Stooq]")
-    qqq_raw    = stooq("qqq.us", days=600)
-    qqq_vals   = [p["value"] for p in qqq_raw]
-
-    ma50_vals  = ma(qqq_vals, 50)
-    ma200_vals = ma(qqq_vals, 200)
-
-    qqq_chart  = [
-        {"date": qqq_raw[i]["date"],
-         "close": qqq_raw[i]["value"],
-         "ma50":  ma50_vals[i],
-         "ma200": ma200_vals[i]}
-        for i in range(len(qqq_raw))
-    ]
-
-    qqq_close  = qqq_vals[-1]   if qqq_vals   else None
-    ma50_cur   = ma50_vals[-1]  if ma50_vals  else None
-    ma200_cur  = ma200_vals[-1] if ma200_vals else None
-    qqq_ath    = max(qqq_vals)  if qqq_vals   else None
-    dd_val     = (round((qqq_close / qqq_ath - 1) * 100, 1)
-                  if (qqq_close and qqq_ath) else None)
-    rsi_val    = rsi14(qqq_vals)
-
-    # ── 4. Shiller CAPE ───────────────────────────────────────────────────────
-    print("\n[CAPE]")
+    # ── 3. Shiller CAPE (scrape) ──────────────────────────────────────────────
+    print("\n[CAPE scrape]")
     cape_val = scrape_cape()
 
-    # ── 5. Buffett Indicator ──────────────────────────────────────────────────
+    # ── 4. Buffett Indicator ──────────────────────────────────────────────────
     print("\n[Buffett]")
-    buffett_val, buffett_hist = buffett_indicator(will_obs, gdp_nom_obs)
+    buffett_val, buffett_hist = buffett_indicator(will_raw, gdp_nom)
 
-    # ── 6. Classify everything ────────────────────────────────────────────────
-    print("\n[Classify]")
-    cape_tone,  cape_label,  cape_status  = cape_classify(cape_val)
-    buff_tone,  buff_status              = buffett_classify(buffett_val)
-    earn_tone,  earn_status              = earnings_classify(earn_g)
-    fed_tone,   fed_status               = fed_classify(fed_rate)
-    gdp_tone,   gdp_status               = gdp_classify(gdp_g_val)
-    rec_tone,   rec_status               = rec_classify(rec_prob, sahm)
-    vix_tone,   vix_title,  vix_note     = vix_classify(vix_now)
-    phase_tone, phase_title, phase_status, _ = phase_classify(stress)
-    tr_tone,    tr_title,   tr_note      = trend_classify(qqq_close, ma50_cur, ma200_cur)
-    rsi_tone,   rsi_title,  rsi_note     = rsi_classify(rsi_val)
-    dd_tone,    dd_title,   dd_note      = drawdown_classify(dd_val)
+    # ── 5. Technical indicators from NASDAQ Composite ─────────────────────────
+    ma50_vals  = ma(nasdaq_vals, 50)
+    ma200_vals = ma(nasdaq_vals, 200)
 
-    bp_score, bp_reason, bp_interp = bottom_probability(vix_now, dd_val, rsi_val, rec_prob, sahm)
-    cp_score, cp_reason, cp_interp = crash_probability(stress, rec_prob, vix_now, dd_val, gdp_g_val)
-    tq_label, tq_reason, tq_interp = timing_quality(bp_score, cp_score)
+    idx_close = nasdaq_vals[-1]  if nasdaq_vals  else None
+    ma50_cur  = ma50_vals[-1]    if ma50_vals    else None
+    ma200_cur = ma200_vals[-1]   if ma200_vals   else None
+    idx_ath   = max(nasdaq_vals) if nasdaq_vals  else None
+    dd_val    = (round((idx_close / idx_ath - 1) * 100, 1)
+                 if idx_close and idx_ath else None)
+    rsi_val   = rsi14(nasdaq_vals)
 
-    # Breadth proxy from VIX (no FRED series for % above 200d MA)
+    nasdaq_chart = [
+        {
+            "date":  nasdaq_raw[i]["date"],
+            "close": nasdaq_raw[i]["value"],
+            "ma50":  ma50_vals[i],
+            "ma200": ma200_vals[i],
+        }
+        for i in range(len(nasdaq_raw))
+    ]
+
+    # ── 6. Classify ───────────────────────────────────────────────────────────
+    chart_label = "NASDAQ Composite"
+
+    cape_tone,  _,         cape_status  = cape_classify(cape_val)
+    buff_tone,  buff_status             = buffett_classify(buffett_val)
+    earn_tone,  earn_status             = earnings_classify(earn_g)
+    fed_tone,   fed_status              = fed_classify(fed_rate)
+    gdp_tone,   gdp_status              = gdp_classify(gdp_g_val)
+    rec_tone,   rec_status              = rec_classify(rec_prob, sahm)
+    vix_tone,   vix_title,  vix_note    = vix_classify(vix_now)
+    ph_tone,    ph_title,   ph_status   = phase_classify(stress)
+    tr_tone,    tr_title,   tr_note     = trend_classify(idx_close, ma50_cur, ma200_cur, chart_label)
+    rsi_tone,   rsi_title,  rsi_note    = rsi_classify(rsi_val)
+    dd_tone,    dd_title,   dd_note     = drawdown_classify(dd_val)
+
+    bp_score, bp_reason, bp_interp  = bottom_prob(vix_now, dd_val, rsi_val, rec_prob, sahm)
+    cp_score, cp_reason, cp_interp  = crash_prob(stress, rec_prob, vix_now, dd_val, gdp_g_val)
+    tq_label, tq_reason, tq_interp  = timing_qual(bp_score, cp_score)
+
     breadth_proxy = int(max(0, min(100, 100 - vix_now * 2.2)))
-
-    om_tone = ("h" if stress >= 60 or rec_prob >= 40
-               else "m" if stress >= 40 or rec_prob >= 25
-               else "l")
-    om_title  = ("Defensiv"               if om_tone == "h"
-                 else "Erhöhte Aufmerksamkeit" if om_tone == "m"
-                 else "Geordnet")
-    om_status = ("Mehrere Signalachsen unter Druck gleichzeitig."
-                 if om_tone == "h"
-                 else "Signale verschlechtern sich, aber noch keine breite Eskalation."
-                 if om_tone == "m"
-                 else "Kein übergreifendes Stresssignal aktiv.")
+    om_tone   = ("h" if stress >= 60 or rec_prob >= 40
+                 else "m" if stress >= 40 or rec_prob >= 25
+                 else "l")
+    om_title  = {"h": "Defensiv", "m": "Erhöhte Aufmerksamkeit", "l": "Geordnet"}[om_tone]
+    om_status = {
+        "h": "Mehrere Signalachsen unter Druck gleichzeitig.",
+        "m": "Signale verschlechtern sich, aber noch keine breite Eskalation.",
+        "l": "Kein übergreifendes Stresssignal aktiv.",
+    }[om_tone]
 
     sentiment = build_sentiment(vix_now, fed_rate, rec_prob, gdp_g_val, sp_ytd, dd_val)
 
@@ -653,15 +618,15 @@ def main() -> int:
         "generatedAt": NOW.isoformat(),
         "meta": {
             "schemaVersion": "1.0",
-            "sourceSummary": ["latest.json", "FRED", "Stooq", "Multpl"],
+            "sourceSummary": ["latest.json", "FRED", "Multpl"],
         },
         "marketStatus": {
             "phase": {
-                "title":  phase_title,
+                "title":  ph_title,
                 "value":  round(stress, 1),
                 "unit":   "",
-                "tone":   phase_tone,
-                "status": phase_status,
+                "tone":   ph_tone,
+                "status": ph_status,
             },
             "vix": {
                 "title":  vix_title,
@@ -671,11 +636,11 @@ def main() -> int:
                 "status": vix_note,
             },
             "breadth": {
-                "title":  f"{breadth_proxy} % über 200T-Ø (VIX-Proxy)",
+                "title":  f"{breadth_proxy} % über 200T-Ø (Proxy)",
                 "value":  breadth_proxy,
                 "unit":   "%",
-                "tone":   ("l" if breadth_proxy >= 60 else "m" if breadth_proxy >= 40 else "h"),
-                "status": "Näherungswert aus VIX-Niveau. Direktdaten nicht via FRED verfügbar.",
+                "tone":   "l" if breadth_proxy >= 60 else "m" if breadth_proxy >= 40 else "h",
+                "status": "Näherungswert abgeleitet aus VIX-Niveau. Direktdaten nicht via FRED verfügbar.",
             },
         },
         "overallMode": {
@@ -688,11 +653,11 @@ def main() -> int:
         "technicalTriggers": [
             {
                 "label":   "50T vs. 200T",
-                "value":   round(qqq_close, 0) if qqq_close else None,
-                "unit":    "USD",
+                "value":   round(idx_close, 0) if idx_close else None,
+                "unit":    "",
                 "tone":    tr_tone,
                 "status":  tr_note,
-                "history": [{"value": p["value"]} for p in qqq_raw[-90:]],
+                "history": [{"value": p["value"]} for p in nasdaq_raw[-90:]],
             },
             {
                 "label":   "RSI (14)",
@@ -722,7 +687,7 @@ def main() -> int:
             },
             {
                 "label":   "Buffett-Indikator",
-                "value":   round(buffett_val, 0) if buffett_val is not None else None,
+                "value":   int(round(buffett_val, 0)) if buffett_val is not None else None,
                 "unit":    "%",
                 "tone":    buff_tone,
                 "status":  buff_status,
@@ -766,24 +731,24 @@ def main() -> int:
         "sentiment": sentiment,
         "geopolitics": GEO,
         "marketBottomProbability": {
-            "title":         "Market Bottom Probability",
-            "score":         bp_score,
-            "scoreLabel":    f"{bp_score} %",
-            "reason":        bp_reason,
+            "title":          "Market Bottom Probability",
+            "score":          bp_score,
+            "scoreLabel":     f"{bp_score} %",
+            "reason":         bp_reason,
             "interpretation": bp_interp,
         },
         "crashProbability": {
-            "title":         "Crash Probability",
-            "score":         cp_score,
-            "scoreLabel":    f"{cp_score} %",
-            "reason":        cp_reason,
+            "title":          "Crash Probability",
+            "score":          cp_score,
+            "scoreLabel":     f"{cp_score} %",
+            "reason":         cp_reason,
             "interpretation": cp_interp,
         },
         "timingQuality": {
-            "title":         "Timing-Qualität",
-            "score":         0,
-            "scoreLabel":    tq_label,
-            "reason":        tq_reason,
+            "title":          "Timing-Qualität",
+            "score":          0,
+            "scoreLabel":     tq_label,
+            "reason":         tq_reason,
             "interpretation": tq_interp,
         },
         "updateTriggers": {
@@ -792,9 +757,9 @@ def main() -> int:
         },
         "timeVsTiming": {
             "timeInMarket": (
-                "Langfristige Anlagepläne profitieren historisch von Korrekturen, wenn sie "
-                "diszipliniert durchgehalten werden. Wer raus ist, verpasst die meisten "
-                "Erholungstage."
+                "Langfristige Anlagepläne profitieren historisch von Korrekturen, "
+                "wenn sie diszipliniert durchgehalten werden. Wer raus ist, "
+                "verpasst die meisten Erholungstage."
             ),
             "marketTiming": (
                 f"Das aktuelle Umfeld zeigt erhöhte Spannungen. Stress-Score {stress:.0f}/100. "
@@ -806,8 +771,8 @@ def main() -> int:
             ),
         },
         "charts": {
-            "chartLabel": "QQQ",
-            "qqq":   qqq_chart[-300:],
+            "chartLabel": chart_label,
+            "qqq":   nasdaq_chart[-300:],
             "vix":   [{"date": p["date"], "value": p["value"]} for p in vix_obs[-300:]],
             "brent": [{"date": p["date"], "value": p["value"]} for p in brent_obs[-300:]],
         },
