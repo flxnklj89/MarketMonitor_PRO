@@ -24,6 +24,7 @@
     .table-wrap{margin-top:18px;overflow:auto;border-radius:18px;border:1px solid rgba(255,255,255,.06);background:var(--panel2)}table{width:100%;border-collapse:collapse;min-width:860px}th,td{padding:15px 16px;border-bottom:1px solid rgba(255,255,255,.06);text-align:left}th{font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--text3);font-weight:700}td{font-size:14px;color:var(--text2);line-height:1.65}
     .tag{display:inline-block;padding:7px 10px;border-radius:999px;border:1px solid var(--border);background:rgba(255,255,255,.04);font-size:11px;color:var(--text2);margin:4px 8px 0 0}.tone-l{color:var(--green)}.tone-m{color:var(--amber)}.tone-h{color:var(--red)}
     .mini-value{font-size:32px;font-weight:800;line-height:1.05;margin:6px 0 8px}.mini-unit{font-size:14px;font-weight:400;color:var(--text3)}.mini-sparkline{display:block;width:100%;height:44px;margin-top:10px;opacity:.8}
+    .kpi-num{font-size:36px;font-weight:800;line-height:1;margin:8px 0 4px}.kpi-unit{font-size:14px;font-weight:400;color:var(--text3)}.kpi-value-sub{font-size:14px;font-weight:600;margin:0 0 6px;line-height:1.3}
     .chart-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:18px}.chart-card{padding:18px;border-radius:18px;background:var(--panel2);border:1px solid rgba(255,255,255,.06)}.chart-card h3{margin:0 0 8px;font-size:17px}.chart-note{color:var(--text3);font-size:12px;line-height:1.6}.chart-wrap{height:220px;margin-top:12px}.info-wrap{position:relative;display:inline-flex;align-items:center}.info-btn{width:18px;height:18px;border-radius:999px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.05);color:var(--text2);display:grid;place-items:center;cursor:pointer;padding:0;font-size:10px}.info-pop{display:none;position:absolute;left:0;top:24px;width:min(320px,calc(100vw - 40px));padding:12px 14px;border-radius:14px;border:1px solid var(--border);background:rgba(13,20,30,.98);box-shadow:0 18px 60px rgba(0,0,0,.3);font-size:12px;color:var(--text2);line-height:1.7;z-index:30}.info-wrap.open .info-pop,.info-wrap:hover .info-pop{display:block}
     .footer{margin-top:18px;padding:20px 22px}.footer p{margin:0;color:var(--text3);font-size:13px;line-height:1.7}.footer p + p{margin-top:10px}
     #ticker-wrap{position:sticky;top:71px;z-index:90;background:rgba(18,28,41,.88);backdrop-filter:blur(14px);border-bottom:1px solid var(--border);display:flex;align-items:center;min-height:40px;overflow:hidden}
@@ -147,12 +148,19 @@
       document.getElementById('hero-phase').textContent = fallback.marketStatus?.phase?.title || '—';
       document.getElementById('hero-summary').textContent = fallback.marketStatus?.phase?.status || '—';
       document.getElementById('ff-source').textContent = (fallback.meta?.sourceSummary || []).join(' · ');
+      function renderOverviewKpi(x){
+        const toneClass = x.tone==='h'?'tone-h':x.tone==='m'?'tone-m':x.tone==='l'?'tone-l':'';
+        const numHtml = x.numValue != null
+          ? `<div class="kpi-num ${toneClass}">${typeof x.numValue==='number'?x.numValue.toLocaleString('de-DE',{minimumFractionDigits:1,maximumFractionDigits:1}):x.numValue}${x.unit?`<span class="kpi-unit"> ${x.unit}</span>`:''}</div>`
+          : '';
+        return `<div class="kpi-card"><div class="box-head"><div class="kpi-label">${x.label}</div>${infoBtn(x.label)}</div>${numHtml}<div class="${x.numValue!=null?'kpi-value-sub':'kpi-value'}">${x.value||'—'}</div><div class="kpi-note">${x.note||'—'}</div></div>`;
+      }
       document.getElementById('market-overview-grid').innerHTML = [
-        {label:'Marktphase', value:fallback.marketStatus?.phase?.title, note:fallback.marketStatus?.phase?.status},
-        {label:'VIX', value:fallback.marketStatus?.vix?.title, note:fallback.marketStatus?.vix?.status},
-        {label:'Marktbreite', value:fallback.marketStatus?.breadth?.title, note:fallback.marketStatus?.breadth?.status},
-        {label:'Gesamtmodus', value:fallback.overallMode?.title, note:fallback.overallMode?.status}
-      ].map(x=>`<div class="kpi-card"><div class="box-head"><div class="kpi-label">${x.label}</div>${infoBtn(x.label)}</div><div class="kpi-value">${x.value||'—'}</div><div class="kpi-note">${x.note||'—'}</div></div>`).join('');
+        {label:'Marktphase', value:fallback.marketStatus?.phase?.title, numValue:fallback.marketStatus?.phase?.value, unit:fallback.marketStatus?.phase?.unit||'', tone:fallback.marketStatus?.phase?.tone, note:fallback.marketStatus?.phase?.status},
+        {label:'VIX', value:fallback.marketStatus?.vix?.title, numValue:fallback.marketStatus?.vix?.value, unit:'', tone:fallback.marketStatus?.vix?.tone, note:fallback.marketStatus?.vix?.status},
+        {label:'Marktbreite', value:fallback.marketStatus?.breadth?.title, numValue:fallback.marketStatus?.breadth?.value, unit:fallback.marketStatus?.breadth?.unit||'%', tone:fallback.marketStatus?.breadth?.tone, note:fallback.marketStatus?.breadth?.status},
+        {label:'Gesamtmodus', value:fallback.overallMode?.title, numValue:fallback.overallMode?.value, unit:fallback.overallMode?.unit||'', tone:fallback.overallMode?.tone, note:fallback.overallMode?.status}
+      ].map(renderOverviewKpi).join('');
       function renderMiniCard(x){
         const hasVal = x.value != null && x.value !== '';
         const toneClass = x.tone === 'h' ? 'tone-h' : x.tone === 'm' ? 'tone-m' : x.tone === 'l' ? 'tone-l' : '';
@@ -193,7 +201,15 @@
       document.getElementById('tim-timing').textContent = fallback.timeVsTiming?.marketTiming || '—';
       document.getElementById('tim-summary').textContent = fallback.timeVsTiming?.summary || '—';
       const qqq = fallback.charts?.qqq || []; const vix = fallback.charts?.vix || []; const brent = fallback.charts?.brent || [];
-      drawLine('chart-qqq', qqq.map(p=>p.date), [{label:'QQQ Schlusskurs',data:qqq.map(p=>p.close ?? p.value),borderColor:'#8fc4ff',backgroundColor:'#8fc4ff',tension:.25,borderWidth:2,pointRadius:0},{label:'50T',data:qqq.map(p=>p.ma50 ?? null),borderColor:'#53d39f',backgroundColor:'#53d39f',tension:.2,borderWidth:2,pointRadius:0},{label:'200T',data:qqq.map(p=>p.ma200 ?? null),borderColor:'#f6ba62',backgroundColor:'#f6ba62',tension:.2,borderWidth:2,pointRadius:0}]);
+      const chartLabel = fallback.charts?.chartLabel || 'QQQ Schlusskurs';
+      const validQqq = qqq.filter(p=>p.close && p.close > 2);  // drop zero/normalized values
+      if(validQqq.length>1){
+        const qqHead = document.querySelector('#technical-grid').closest('.section')?.querySelector('.chart-card h3');
+        if(qqHead) qqHead.textContent = chartLabel + ': 50T vs. 200T';
+        drawLine('chart-qqq', validQqq.map(p=>p.date), [{label:chartLabel,data:validQqq.map(p=>p.close),borderColor:'#8fc4ff',backgroundColor:'#8fc4ff',tension:.25,borderWidth:2,pointRadius:0},{label:'50T',data:validQqq.map(p=>p.ma50??null),borderColor:'#53d39f',backgroundColor:'#53d39f',tension:.2,borderWidth:2,pointRadius:0},{label:'200T',data:validQqq.map(p=>p.ma200??null),borderColor:'#f6ba62',backgroundColor:'#f6ba62',tension:.2,borderWidth:2,pointRadius:0}]);
+      } else {
+        const wrap=document.querySelector('.chart-wrap'); if(wrap&&wrap.id!=='chart-stress') { wrap.innerHTML='<p style="color:var(--text3);font-size:13px;padding:60px 0;text-align:center">Kursdaten werden beim nächsten Update geladen.</p>'; }
+      }
       drawLine('chart-stress', vix.map(p=>p.date), [{label:'VIX',data:vix.map(p=>p.value),borderColor:'#ff7a7a',backgroundColor:'#ff7a7a',tension:.25,borderWidth:2,pointRadius:0,yAxisID:'y'},{label:'Brent',data:brent.map(p=>p.value),borderColor:'#f6ba62',backgroundColor:'#f6ba62',tension:.25,borderWidth:2,pointRadius:0,yAxisID:'y1'}]);
       if(charts['chart-stress']) charts['chart-stress'].options.scales.y1={position:'right',ticks:{color:'#8fa7c0'},grid:{display:false}}; if(charts['chart-stress']) charts['chart-stress'].update();
     }
