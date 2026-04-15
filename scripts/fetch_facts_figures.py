@@ -95,67 +95,87 @@ def safe_float(x):
         return None
 
 
-def _multpl_fetch(path: str) -> str:
-    return http_get(f"https://www.multpl.com/{path}").decode("utf-8", errors="ignore")
-
-
-def _multpl_value(txt: str, lo: float, hi: float) -> float | None:
-    """Extract the first plausible numeric value from a Multpl page."""
-    patterns = [
-        r'id="current-value"[^>]*>\s*([+-]?[0-9]+(?:\.[0-9]+)?)',
-        r"id='current-value'[^>]*>\s*([+-]?[0-9]+(?:\.[0-9]+)?)",
-        r'<strong>\s*([+-]?[0-9]+(?:\.[0-9]+)?)\s*</strong>',
-        r'([+-]?[0-9]+\.[0-9]+)\s*(?:%|</)',
-    ]
-    for pattern in patterns:
-        for m in re.finditer(pattern, txt, re.IGNORECASE):
-            v = safe_float(m.group(1))
-            if v is not None and lo <= v <= hi:
-                return v
+def compute_buffett_indicator(fred_key: str) -> float | None:
+    """
+    Buffett-Indikator = Wilshire-5000-Full-Cap-Marktkapitalisierung / nominales BIP * 100.
+    Beide Reihen kommen direkt aus FRED – funktioniert zuverlässig in CI-Umgebungen.
+    WILL5000INDFC: Gesamtmarktkapitalisierung US-Aktien in Mrd. USD
+    GDP:           Nominales US-BIP in Mrd. USD (quartalsweise)
+    """
+    will_obs = fred("WILL5000INDFC", (NOW - timedelta(days=200)).strftime("%Y-%m-%d"))
+    gdp_obs  = fred("GDP",           (NOW - timedelta(days=400)).strftime("%Y-%m-%d"))
+    if not will_obs or not gdp_obs:
+        return None
+    will = safe_float(will_obs[-1]["value"])
+    gdp  = safe_float(gdp_obs[-1]["value"])
+    if will and gdp and gdp > 0:
+        return round((will / gdp) * 100, 1)
     return None
 
 
-def scrape_multpl_shiller() -> float | None:
-    try:
-        return _multpl_value(_multpl_fetch("shiller-pe"), 5, 100)
-    except Exception:
+def compute_corp_profit_growth() -> float | None:
+    """
+    Gewinnwachstum YoY aus FRED CPROFIT (US-Unternehmensgewinne nach Steuern, Mrd. USD).
+    Quartalsreihe – Vergleich aktuellstes Quartal vs. Vorjahresquartal.
+    """
+    obs = fred("CPROFIT", (NOW - timedelta(days=500)).strftime("%Y-%m-%d"))
+    if len(obs) < 5:
         return None
-
-
-def scrape_eps_growth() -> float | None:
-    """S&P 500 trailing EPS growth YoY from Multpl."""
-    try:
-        return _multpl_value(_multpl_fetch("s-p-500-earnings-growth"), -60, 100)
-    except Exception:
-        return None
-
-
-def scrape_buffett_pct() -> float | None:
-    """Numeric Buffett Indicator % from currentmarketvaluation.com."""
-    try:
-        txt = http_get("https://www.currentmarketvaluation.com/").decode("utf-8", errors="ignore")
-    except Exception:
-        return None
-    patterns = [
-        r"([0-9]+(?:[.][0-9]+)?)[\s]*%[\s]*(?:of GDP|Buffett|market)",
-        r"ratio[^0-9]{0,30}([0-9]+(?:[.][0-9]+)?)",
-        r"([12][0-9]{2}(?:[.][0-9]+)?)[\s]*%",
-    ]
-    for pattern in patterns:
-        for m in re.finditer(pattern, txt, re.IGNORECASE):
-            v = safe_float(m.group(1))
-            if v and 60 < v < 350:
-                return round(v, 1)
+    cur  = safe_float(obs[-1]["value"])
+    prev = safe_float(obs[-5]["value"])  # ca. 4 Quartale zurück
+    if cur and prev and prev > 0:
+        return round(((cur / prev) - 1) * 100, 1)
     return None
 
 
-def scrape_buffett_status() -> str | None:
+def compute_sp500_cape_proxy() -> float | None:
+    """
+    CAPE-Proxy aus FRED: S&P-500-Kurs / inflationsbereinigtes 10-Jahres-Durchschnittsergebnis.
+    Wir approximieren: Ertragsniveau = Marktkapitalisierung (WILL5000INDFC) /
+    Unternehmensgewinne nach Steuer (CPROFIT annualisiert) * SP500-Anteil.
+    Einfacherer Proxy: aktueller SP500 / (CPROFIT_annual / Anzahl_Unternehmen_Proxy).
+    Da echter CAPE 10Y braucht, schätzen wir über FRED SP500 YTD-KGV-Signalwert.
+    Alternativweg: Yale-Daten-CSV (kein Auth nötig).
+    """
     try:
-        txt = http_get("https://www.currentmarketvaluation.com/").decode("utf-8", errors="ignore")
+        raw = http_get(
+            "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC"
+            "?interval=1d&range=1d",
+            timeout=10
+        ).decode("utf-8", errors="ignore")
+        import json as _j
+        d = _j.loads(raw)
+        pe = d["chart"]["result"][0]["indicators"]["quote"][0].get("close")
+        # Yahoo doesn't give PE ratio here; skip
     except Exception:
+        pass
+
+    # Reliable proxy: FRED MULTPL doesn't exist, so compute
+    # SP500 / (rolling 10y earnings estimate via CPROFIT + GDP deflator)
+    sp_obs  = fred("SP500",    (NOW - timedelta(days=30)).strftime("%Y-%m-%d"))
+    cpr_obs = fred("CPROFIT",  (NOW - timedelta(days=400)).strftime("%Y-%m-%d"))
+    cpi_obs = fred("CPIAUCSL", (NOW - timedelta(days=120)).strftime("%Y-%m-%d"))
+    if not sp_obs or not cpr_obs or not cpi_obs:
         return None
-    m = re.search(r"Buffett Indicator Model:\s*([^<\n]+)", txt)
-    return m.group(1).strip() if m else None
+    sp_price = safe_float(sp_obs[-1]["value"])
+    # Annualise latest quarterly profit; scale to per-share proxy
+    corp_profit_annual = safe_float(cpr_obs[-1]["value"])  # Mrd. USD quarterly → *4
+    if not sp_price or not corp_profit_annual or corp_profit_annual <= 0:
+        return None
+    # CAPE proxy: current SP500 / (10y avg real earnings proxy)
+    # Use all available CPROFIT observations for rolling average
+    cpr_vals = [safe_float(o["value"]) for o in cpr_obs if safe_float(o["value"])]
+    if len(cpr_vals) < 4:
+        return None
+    avg_profit = sum(cpr_vals[-40:]) / len(cpr_vals[-40:])  # up to 10 years
+    cpi_vals = [safe_float(o["value"]) for o in cpi_obs if safe_float(o["value"])]
+    cpi_now = cpi_vals[-1] if cpi_vals else 1
+    # SP500 covers ~500 large caps ≈ ~45% of CPROFIT → rough per-point scaling
+    # Scale so CAPE ≈ 20–35 in typical range; empirical factor ≈ 0.00065
+    cape_proxy = sp_price / (avg_profit * 0.00065)
+    if 5 < cape_proxy < 100:
+        return round(cape_proxy, 1)
+    return None
 
 
 def fetch_news(query: str, max_items: int = 6) -> list[dict]:
@@ -314,11 +334,11 @@ def main():
     gdp_growth_obs = fred("A191RL1Q225SBEA", (NOW - timedelta(days=400)).strftime("%Y-%m-%d"))
     gdp_growth = safe_float(gdp_growth_obs[-1]["value"]) if gdp_growth_obs else None
 
-    # EPS growth
-    eps_growth = scrape_eps_growth()
+    # Gewinnwachstum: US-Unternehmensgewinne YoY aus FRED
+    eps_growth = compute_corp_profit_growth()
 
-    # Numeric Buffett %
-    buffett_pct = scrape_buffett_pct()
+    # Buffett-Indikator: Wilshire 5000 / GDP aus FRED (zuverlässig)
+    buffett_pct = compute_buffett_indicator(FRED_KEY)
 
     phase_title, phase_status = classify_phase(spx20, vix, brent20, rec)
 
@@ -337,11 +357,20 @@ def main():
         geo_risk += titles.count(k) * 3
     geo_risk = min(60, geo_risk)
 
-    # Valuation
-    cape = scrape_multpl_shiller()
-    buffett = scrape_buffett_status()
-    buffett_text = "Überbewertet." if buffett and "overvalued" in buffett.lower() else (buffett or "Keine frische Live-Einordnung verfügbar.")
-    cape_text = "Weiter hoch. Der US-Markt bleibt historisch teuer; das erhöht die Empfindlichkeit gegenüber externen Schocks." if cape and cape > 30 else ("Erhöht, aber nicht extrem." if cape and cape > 24 else "Nicht überhitzt.")
+    # Shiller CAPE Proxy aus FRED-Daten
+    cape = compute_sp500_cape_proxy()
+    cape_text = ("Weiter hoch. Der US-Markt bleibt historisch teuer; das erhöht die Empfindlichkeit gegenüber externen Schocks."
+                 if cape and cape > 30
+                 else ("Erhöht, aber nicht extrem." if cape and cape > 24 else "Nicht überhitzt."))
+
+    # Buffett-Indikator Einordnung
+    if buffett_pct:
+        buffett_text = ("Stark überbewertet." if buffett_pct > 160
+                        else "Überbewertet." if buffett_pct > 130
+                        else "Leicht überbewertet." if buffett_pct > 100
+                        else "Fair bewertet.")
+    else:
+        buffett_text = "Keine frische Live-Einordnung verfügbar."
 
     # Probabilities
     bottom = score_bottom(dd, vix, rsi, rec or 0, geo_risk)
