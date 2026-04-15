@@ -40,6 +40,11 @@
     .footer{margin-top:18px;padding:20px 22px}.footer p{margin:0;color:var(--text3);font-size:13px;line-height:1.7}.footer p + p{margin-top:10px}
     .info-wrap{position:relative;display:inline-flex;align-items:center}.info-btn{width:20px;height:20px;border-radius:999px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.05);color:var(--text2);display:grid;place-items:center;cursor:pointer;padding:0;font-size:11px}.info-pop{display:none;position:absolute;left:0;top:26px;width:min(460px,calc(100vw - 40px));padding:12px 14px;border-radius:14px;border:1px solid var(--border);background:rgba(13,20,30,.98);box-shadow:0 18px 60px rgba(0,0,0,.3);font-size:12px;color:var(--text2);line-height:1.7;z-index:30}.info-wrap.open .info-pop,.info-wrap:hover .info-pop{display:block}
     .muted{color:var(--text3)} .helper{color:var(--text3);font-size:12px;line-height:1.7} code{padding:2px 6px;border-radius:6px;border:1px solid var(--border);background:rgba(255,255,255,.05)}
+    #ticker-wrap{position:sticky;top:71px;z-index:90;background:rgba(18,28,41,.88);backdrop-filter:blur(14px);border-bottom:1px solid var(--border);display:flex;align-items:center;min-height:40px;overflow:hidden}
+    .ticker-badge{flex-shrink:0;padding:0 16px;color:var(--text3);font-size:10px;letter-spacing:.18em;text-transform:uppercase;border-right:1px solid var(--border);min-height:40px;display:flex;align-items:center;background:rgba(255,255,255,.03)}
+    .ticker-viewport{flex:1;overflow:hidden;position:relative}.ticker-viewport:before,.ticker-viewport:after{content:'';position:absolute;top:0;bottom:0;width:34px;z-index:2;pointer-events:none}.ticker-viewport:before{left:0;background:linear-gradient(to right, rgba(18,28,41,1), transparent)}.ticker-viewport:after{right:0;background:linear-gradient(to left, rgba(18,28,41,1), transparent)}
+    .ticker-track{display:flex;align-items:center;white-space:nowrap;width:max-content;animation:ticker-scroll 36s linear infinite}.ticker-track:hover{animation-play-state:paused}@keyframes ticker-scroll{0%{transform:translateX(0)}100%{transform:translateX(-25%)}}
+    .ticker-item{display:inline-flex;align-items:center;gap:8px;padding:0 18px;font-size:12px;min-height:40px}.tk-icon{font-size:15px}.tk-label{color:var(--text2)}.tk-val{font-weight:600}.tk-unit{color:var(--muted,#7391ac);font-size:10px}.tk-up{color:var(--green)}.tk-dn{color:var(--red)}.tk-neu{color:var(--text3)}.tk-stale{color:var(--text3);padding:0 18px;min-height:40px;display:flex;align-items:center}
     @media (max-width:1120px){.hero-grid,.meaning-grid,.scenario-grid,.indicators-grid,.news-grid,.regions-grid,.qs-grid,.pro-grid,.signal-grid,.preset-grid{grid-template-columns:1fr}.region-kpis{grid-template-columns:1fr 1fr 1fr}}
     @media (max-width:760px){.shell,.topbar-inner{padding-left:16px;padding-right:16px}.hero-main,.hero-side,.quickstart,.section,.copy-card,.matrix-card,.indicator,.region,.news{padding:18px}.hero-title{max-width:none}.scenario-top,.indicator-top,.news-head,.region-top{flex-direction:column}.scenario-meta,.impact-grid,.region-kpis{grid-template-columns:1fr}.indicator-value{font-size:50px}.chart-wrap{height:220px}}
   </style>
@@ -56,8 +61,8 @@
       </a>
       <nav class="nav">
         <a class="active" href="./index.html">Dashboard</a>
-        <a href="./invest-check.html">Invest-Check</a>
         <a href="./facts-figures.html">Facts &amp; Figures</a>
+        <a href="./invest-check.html">Invest-Check</a>
         <a href="./documentation.html">Hilfe &amp; Doku</a>
       </nav>
     </div>
@@ -739,6 +744,7 @@ function renderFrameFacts(state){
 
     setInterval(()=>{ $('berlin-clock').textContent=berlinNow(); },1000); $('berlin-clock').textContent=berlinNow();
         load(); setInterval(load, 5*60*1000);
+        loadTicker(); setInterval(loadTicker, 5*60*1000);
   </script>
 </body>
 </html>

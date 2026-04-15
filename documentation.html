@@ -29,8 +29,8 @@
       <a class="brand" href="./index.html"><div class="brand-mark">🧭</div><div><div class="brand-over">PRO · GitHub Pages</div><div class="brand-name">Marktrisiko-Kompass</div></div></a>
       <nav class="nav">
         <a href="./index.html">Dashboard</a>
-        <a href="./invest-check.html">Invest-Check</a>
         <a href="./facts-figures.html">Facts &amp; Figures</a>
+        <a href="./invest-check.html">Invest-Check</a>
         <a class="active" href="./documentation.html">Hilfe &amp; Doku</a>
       </nav>
     </div>
@@ -126,11 +126,84 @@
       </div>
     </section>
 
+
+    <section class="card">
+      <h2 class="section-title">Live-Marktband (Ticker)</h2>
+      <p>Der Ticker läuft auf allen Seiten unterhalb der Navigation. Er zeigt automatisch aktualisierte Marktdaten aus <code>data/latest.json</code> – typischerweise Aktienindizes, Währungspaare, Öl und andere relevante Größen, die das Fetch-Skript befüllt.</p>
+      <div class="grid grid-2">
+        <div class="mini"><h3>Was wird gezeigt?</h3><p>Symbol, aktueller Wert, Einheit und – wenn vorhanden – die prozentuale Veränderung gegenüber dem Vortag (grün = positiv, rot = negativ). Das Icon identifiziert die Kategorie auf den ersten Blick.</p></div>
+        <div class="mini"><h3>Wie frisch sind die Daten?</h3><p>Die Ticker-Daten kommen aus <code>data/latest.json</code>, das von GitHub Actions alle 4 Stunden aktualisiert wird. Außerhalb der Börsenzeiten oder bei leerem Datensatz erscheint ein neutraler Hinweis statt einer Zahl.</p></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 class="section-title">Invest-Check: Eingabefelder im Detail</h2>
+      <p>Der Invest-Check kombiniert die aktuelle Marktphase mit sechs persönlichen Eingaben. Jede davon beeinflusst das Ergebnis auf eine definierte Art.</p>
+      <table>
+        <tr><th>Investitionsart</th><td>Unterscheidet zwischen laufendem Sparplan und einmaliger größerer Summe. Sparpläne werden deutlich großzügiger bewertet, weil der Cost-Averaging-Effekt Timing-Fehler abpuffert. Bei Einmalanlagen zählt das aktuelle Marktumfeld viel stärker.</td></tr>
+        <tr><th>Betrag</th><td>Bei Sparplänen die monatliche Rate, bei Einmalanlagen der geplante Gesamtbetrag. Sehr große Einmalbeträge (ab ca. 25.000 €) erhöhen das Timing-Risiko spürbar – nicht weil das Geld falsch angelegt wäre, sondern weil psychologischer und finanzieller Fehlerspielraum kleiner werden.</td></tr>
+        <tr><th>Anlagehorizont</th><td>Je länger der Horizont, desto besser können zwischenzeitliche Schwankungen ausgehalten werden. Horizonte unter 3 Jahren werden deutlich kritischer bewertet. Ab 7+ Jahren puffert der Check zeitliche Streuung entspannter.</td></tr>
+        <tr><th>Risikoprofil</th><td>Beeinflusst, wie streng das Modell Timing- und Stressrisiken bewertet. „Defensiv" reagiert früher auf Warnsignale. „Opportunistisch" toleriert mehr Rauschen. Es geht nicht um Renditeerwartung, sondern um die emotionale und finanzielle Belastbarkeit.</td></tr>
+        <tr><th>Anlagestil</th><td>Breite ETFs werden robuster gelesen als konzentrierte Wetten. Wachstums- oder Thementitel leiden stärker, wenn Zinsen und Stress gleichzeitig drücken. Einzeltitel oder thematische Wetten erhöhen das Fehlerrisiko nochmals deutlich.</td></tr>
+        <tr><th>Liquiditätspuffer</th><td>Angabe in Monatsausgaben. Unter 3 Monaten gilt als risikoerhöhend – wer bei schlechter Marktentwicklung unter Druck geraten könnte, trifft schlechtere Entscheidungen. Ab 6 Monaten wird der Puffer als robust bewertet.</td></tr>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2 class="section-title">Invest-Check: Die vier KPIs verstehen</h2>
+      <p>Das Ergebnis verdichtet sich in vier Kennzahlen, die zusammen ein Bild ergeben – nicht isoliert gelesen werden sollten.</p>
+      <div class="grid grid-2">
+        <div class="mini"><h3>Marktphasen-Fit (0–100)</h3><p>Wie gut das geplante Investment zur aktuellen Marktphase passt. Ein hoher Wert bedeutet nicht, dass der Einstieg perfekt getimed ist, sondern dass das Umfeld das Vorhaben grundsätzlich trägt. Werte unter 45 signalisieren, dass die Kombination aus Phase und Profil eher fehleranfällig wirkt.</p></div>
+        <div class="mini"><h3>Timing-Risiko (niedrig / mittel / hoch)</h3><p>Wie groß die Gefahr ist, zum falschen Zeitpunkt zu investieren. Für Sparpläne ist es fast immer niedrig, weil Timing weniger relevant ist. Bei Einmalanlagen in Stressphasen steigt es deutlich. Hohes Timing-Risiko heißt nicht „nicht investieren", sondern „lieber staffeln".</p></div>
+        <div class="mini"><h3>Puffer-Fit (0–100)</h3><p>Wie gut der angegebene Liquiditätspuffer zum geplanten Investment passt. Ein kleiner Puffer bei großem Betrag in einer Stressphase ist eine Kombination, die den emotionalen und finanziellen Fehlerspielraum deutlich verkleinert.</p></div>
+        <div class="mini"><h3>Umsetzungsmodus</h3><p>Das Gesamturteil: Sofort umsetzbar, Kontrolliert umsetzen, Eher staffeln oder Eher warten. Dieser Wert kombiniert alle anderen Ergebnisse zu einem Handlungsrahmen. Er ist keine Empfehlung, welches Produkt zu kaufen ist, sondern wie der Einstieg strukturiert sein sollte.</p></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 class="section-title">Facts &amp; Figures: die 11 Sektionen erklärt</h2>
+      <p>Die Facts-&amp;-Figures-Seite ist ein allgemeines Marktboard, das automatisch aus <code>data/facts_figures.json</code> befüllt wird. Hier ist, was die einzelnen Sektionen leisten sollen.</p>
+      <table>
+        <tr><th>1. Marktstatus</th><td>Die vier Kern-KPIs: Marktphase, VIX-Lesart, Marktbreite und Gesamtmodus. Sie sind der komprimierte Einstieg in die Gesamtlage.</td></tr>
+        <tr><th>2. Technische Trigger</th><td>50T/200T-Trend, RSI und Drawdown geben ein Bild der technischen Marktstruktur. Sie zeigen, ob der Trend intakt, angeschlagen oder bereits gebrochen wirkt.</td></tr>
+        <tr><th>3. Bewertung</th><td>Shiller CAPE, Buffett-Indikator und Gewinnwachstum beantworten: Sind Aktien teuer oder günstig, und stützt fundamentales Wachstum die Bewertungen?</td></tr>
+        <tr><th>4. Makro-Umfeld</th><td>Zinsumfeld, Wachstum und Rezessionsindikatoren zeigen das konjunkturelle Fundament. Sie sind meist träger als Marktsignale, dafür stabiler.</td></tr>
+        <tr><th>5. Sentiment &amp; Risiken</th><td>Aktuelle Marktstimmung und die wichtigsten bekannten Risikofelder als Kontext-Layer.</td></tr>
+        <tr><th>6. Geopolitik</th><td>Konfliktfelder mit potenzieller Marktwirkung: Transportkorridore, Energie, physische Versorgung. Kein politischer Kommentar, sondern eine Einschätzung der Marktrelevanz.</td></tr>
+        <tr><th>7–9. Bottom / Crash / Timing</th><td>Drei modellbasierte Wahrscheinlichkeitswerte: Wie nah ist ein mögliches Marktboden-Fenster? Wie hoch ist das Crash-Risiko? Und wie gut oder schlecht ist das aktuelle Timing-Umfeld?</td></tr>
+        <tr><th>10. Update-Trigger</th><td>Zwei Listen: Was würde das Bild konstruktiver machen? Und wann lohnt sich ein besonders genauer Blick auf die Neudaten?</td></tr>
+        <tr><th>11. Time vs. Timing</th><td>Eine kurze strukturierte Einordnung: Was spricht für langfristiges Drin-Bleiben (Time in Market), und wie liest das Modell die aktuelle Timing-Qualität?</td></tr>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2 class="section-title">Facts &amp; Figures: Werte und Sparklines</h2>
+      <p>Wo Daten vorhanden sind, zeigen die Karten auf Facts &amp; Figures einen aktuellen Zahlenwert (z. B. VIX: 24,3) plus – wenn Verlaufsdaten vorliegen – eine minimale Sparkline. Diese Visualisierung ist bewusst sparsam: Sie soll Richtung und Niveau auf einen Blick zeigen, nicht als Ersatz für vollständige Chartanalyse dienen.</p>
+      <div class="grid grid-2">
+        <div class="mini"><h3>Farbcodierung</h3><p>Grün steht für ein eher entspanntes Niveau, Amber für erhöht und Rot für kritisch. Die Schwellenwerte sind indikatorspezifisch (z. B. VIX über 30 = rot, CAPE über 35 = rot) und im Fetch-Skript konfiguriert.</p></div>
+        <div class="mini"><h3>Warum nicht mehr Daten?</h3><p>Facts &amp; Figures ist bewusst kein Terminal. Es soll einen schnellen Überblick geben, nicht erschöpfend dokumentieren. Wer tiefer einsteigen will, sollte die verlinkten Originalquellen direkt nutzen.</p></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 class="section-title">Technische Grundlage &amp; Datenfluss</h2>
+      <p>Das Produkt läuft vollständig auf GitHub Pages ohne eigenes Backend.</p>
+      <div class="grid grid-2">
+        <div class="mini"><h3>Datenquellen</h3><p><strong>FRED</strong> (Federal Reserve Economic Data) liefert Makrodaten wie Inflation, Fed Rate, Rezessionswahrscheinlichkeit, Sentiment und regionale Kennzahlen. <strong>Google News RSS</strong> liefert den Nachrichtenkontext. Preisdaten für Ticker und technische Indikatoren kommen aus <strong>Stooq</strong> und weiteren Quellen.</p></div>
+        <div class="mini"><h3>GitHub Actions Workflow</h3><p>Ein Python-Skript (<code>scripts/fetch_data.py</code> und <code>scripts/fetch_facts_figures.py</code>) läuft alle 4 Stunden und schreibt die Ergebnisse in <code>data/latest.json</code> und <code>data/facts_figures.json</code>. Nur wenn dieser Workflow erfolgreich läuft, sind die Daten frisch. Im Dashboard zeigt der Datenstand-Chip, wann zuletzt aktualisiert wurde.</p></div>
+        <div class="mini"><h3>Warum FRED API Key?</h3><p>FRED verlangt für seinen API-Zugang eine kostenlose Registrierung. Der Key muss als GitHub Actions Secret (<code>FRED_API_KEY</code>) hinterlegt sein. Fehlt er, schlägt der Workflow fehl und die Daten bleiben auf dem Stand der letzten erfolgreichen Ausführung.</p></div>
+        <div class="mini"><h3>Offline / Fehlerfall</h3><p>Wenn die JSON-Dateien nicht erreichbar sind oder leer bleiben, zeigen alle Felder Platzhaltertexte wie „Lade…". Das ist kein Bug, sondern das gewollte Fallback-Verhalten. Ein Seiten-Reload behebt meistens transiente Ladefehler.</p></div>
+      </div>
+    </section>
+
     <section class="card">
       <h2 class="section-title">Häufige Verständnisfragen</h2>
       <details open><summary>Gibt das Produkt konkrete Kauf- oder Verkaufsempfehlungen?</summary><p>Nein. Es gibt einen Handlungsrahmen und eine neutrale Marktphasen-Lesung. Die konkrete Depotentscheidung bleibt beim Nutzer.</p></details>
-      <details><summary>Warum können Daten älter aussehen?</summary><p>Weil nicht alle Reihen täglich erscheinen. Einige Daten kommen nur monatlich, quartalsweise oder jährlich.</p></details>
+      <details><summary>Warum können Daten älter aussehen?</summary><p>Weil nicht alle Reihen täglich erscheinen. Einige Daten kommen nur monatlich, quartalsweise oder jährlich. Ein älterer Datenpunkt ist deshalb nicht automatisch ein Fehler.</p></details>
       <details><summary>Warum sind Presets keine Handlungsempfehlung?</summary><p>Weil sie nur zeigen, wie verschiedene Nutzertypen dieselbe Lage leicht anders lesen könnten. Sie ersetzen kein persönliches Anlagekonzept.</p></details>
+      <details><summary>Was bedeutet „Signalbreite" bei der Belastbarkeit?</summary><p>Wenn mehrere unabhängige Indikatoren gleichzeitig in dieselbe Richtung zeigen, ist das belastbarer als ein einzelner Ausschlag. Das Modell unterscheidet deshalb zwischen Frühwarnung (erste Anzeichen) und Bestätigung (mehrfach bestätigt).</p></details>
+      <details><summary>Wie unterscheidet sich der Invest-Check vom Dashboard?</summary><p>Das Dashboard gibt eine allgemeine Marktphasen-Einordnung für alle Anleger. Der Invest-Check personalisiert das Bild anhand deiner konkreten Eingaben: Betrag, Horizont, Profil, Stil und Puffer. Beide nutzen dieselbe Datenbasis, aber der Check zieht daraus eine spezifische Handlungsempfehlung für ein konkretes Vorhaben.</p></details>
+      <details><summary>Warum erscheint der Ticker manchmal als „Ticker derzeit nicht verfügbar"?</summary><p>Der Ticker lädt aus <code>data/latest.json</code>. Wenn das Feld <code>ticker</code> in dieser Datei leer ist (z. B. weil der Markt geschlossen ist oder das Fetch-Skript keine Preisdaten bekommen hat), zeigt er diesen Hinweis. Das ist kein Fehler, sondern korrektes Fallback-Verhalten.</p></details>
     </section>
   </main>
 <script>
