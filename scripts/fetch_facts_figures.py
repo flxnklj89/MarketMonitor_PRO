@@ -2,6 +2,7 @@
 from __future__ import annotations
 import gzip, json, os, re, sys, urllib.parse, urllib.request
 from datetime import datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 from pathlib import Path
 
 FRED_KEY = os.environ.get('FRED_API_KEY', '').strip()
@@ -155,6 +156,29 @@ def coerce_market_value_to_billions(points: list[dict], assume_millions: bool = 
     return points
 
 
+
+
+def next_regular_update_label(now: datetime) -> str:
+    berlin = ZoneInfo("Europe/Berlin")
+    local_now = now.astimezone(berlin)
+    next_hour = ((local_now.hour // 4) + 1) * 4
+    if next_hour >= 24:
+        next_run = (local_now.replace(hour=0, minute=0, second=0, microsecond=0) + timedelta(days=1))
+    else:
+        next_run = local_now.replace(hour=next_hour, minute=0, second=0, microsecond=0)
+    return next_run.strftime("%d.%m.%Y, %H:%M Uhr")
+
+
+def fallback_explainer(source_label: str, why: str, next_update: str, impact: str) -> str:
+    return (
+        f"<strong>Fallback aktiv – was bedeutet das?</strong><br>"
+        f"Der Standardwert konnte in diesem Lauf nicht sauber geladen werden. Deshalb nutzt das Dashboard vorübergehend <strong>{source_label}</strong> als Ersatzquelle oder Ersatz-Proxy.<br><br>"
+        f"<strong>Warum greift der Fallback?</strong><br>{why}<br><br>"
+        f"<strong>Was bedeutet das für dich?</strong><br>{impact}<br><br>"
+        f"<strong>Wann kommt der echte Wert wieder?</strong><br>Beim nächsten regulären Facts-&-Figures-Update. Das läuft alle 4 Stunden. Das nächste planmäßige Update ist voraussichtlich <strong>{next_update}</strong>. Sobald die Primärquelle wieder sauber liefert, verschwindet der Fallback automatisch."
+    )
+
+
 def scrape_cape() -> tuple[float | None, dict | None]:
     primary_targets = [
         ('https://www.multpl.com/shiller-pe/table/by-month', [
@@ -197,16 +221,28 @@ def scrape_cape() -> tuple[float | None, dict | None]:
                     val = float(m.group(1))
                     if 5 < val < 100:
                         return val, {
-                            'label': 'Fallback: CMV',
+                            'label': 'Fallback aktiv',
                             'source': 'currentmarketvaluation.com',
-                            'meaning': 'Öffentliche Ersatzquelle statt multpl.com. Der Wert ist zur Einordnung nutzbar, kann aber zeitlich leicht anders aktualisiert sein als die Primärquelle.',
+                            'meaning': fallback_explainer(
+                                'Current Market Valuation',
+                                'Die Primärquelle multpl.com war in diesem Lauf nicht erreichbar oder nicht sauber parsbar.',
+                                next_regular_update_label(NOW),
+                                'Der Wert ist für die Einordnung in der Regel gut genug, kann aber zeitlich leicht anders aktualisiert sein als die normale Primärquelle.'
+                            ),
+                            'short': 'Fallback aktiv: Statt multpl.com wird vorübergehend Current Market Valuation genutzt.'
                         }
         except Exception as e:
             print(f'  ✗ CAPE fallback ({url[-35:]}): {e}', file=sys.stderr)
     return None, {
-        'label': 'Fallback fehlt',
+        'label': 'Fallback aktiv',
         'source': 'none',
-        'meaning': 'Primär- und Ersatzquelle waren in diesem Lauf nicht erreichbar. Die Karte bleibt bis zum nächsten erfolgreichen Update leer.',
+        'meaning': fallback_explainer(
+            'keine Ersatzquelle',
+            'Sowohl die Primärquelle als auch die vorgesehene Ersatzquelle waren in diesem Lauf nicht sauber erreichbar.',
+            next_regular_update_label(NOW),
+            'Die Karte bleibt vorübergehend leer. Das ist unschön, aber transparent: lieber kein Wert als ein unzuverlässiger Fantasiewert.'
+        ),
+        'short': 'Fallback nicht möglich: Primär- und Ersatzquelle waren in diesem Lauf nicht erreichbar.'
     }
 
 
@@ -476,6 +512,8 @@ def main() -> int:
     vix_obs = hp(fred('VIXCLS', DAILY_START), 2)
     brent_obs = hp(fred('DCOILBRENTEU', DAILY_START), 2)
 
+    next_update = next_regular_update_label(NOW)
+
     tech_fallback = None
     chart_label = 'NASDAQ Composite'
     nasdaq_raw = hp(fred('NASDAQCOM', DAILY_START), 0)
@@ -485,8 +523,14 @@ def main() -> int:
             nasdaq_raw = sp500_proxy
             chart_label = 'S&P 500 (Fallback)'
             tech_fallback = {
-                'label': 'Fallback: S&P 500',
-                'meaning': 'Der eigentliche US-Growth-Proxy (NASDAQ Composite) war in diesem Lauf nicht verfügbar. Deshalb wird ersatzweise der breite US-Aktienmarkt genutzt. Die Signale bleiben lesbar, sind aber weniger growth-lastig.',
+                'label': 'Fallback aktiv',
+                'meaning': fallback_explainer(
+                    'S&P 500',
+                    'Der eigentliche US-Growth-Proxy NASDAQ Composite war in diesem Lauf nicht erreichbar oder lieferte keine brauchbaren Daten.',
+                    next_update,
+                    'Die Karten bleiben weiter nutzbar, bilden dann aber eher den breiten US-Markt als speziell US-Growth ab. Die Richtung ist meist noch hilfreich, die Lesart ist nur etwas weniger growth-lastig.'
+                ),
+                'short': 'Fallback aktiv: Statt NASDAQ Composite wird vorübergehend der S&P 500 als Ersatz-Proxy genutzt.'
             }
     nasdaq_vals = [p['value'] for p in nasdaq_raw]
 
@@ -498,8 +542,14 @@ def main() -> int:
         will_raw = coerce_market_value_to_billions(hp(fred('BOGZ1LM883164115Q', QUARTERLY_START), 0), assume_millions=True)
         if will_raw:
             buffett_fallback = {
-                'label': 'Fallback: Z.1 Marktwert',
-                'meaning': 'Wilshire 5000 war in diesem Lauf nicht verfügbar. Deshalb wird eine breitere Z.1-Marktwertreihe der Fed verwendet. Für Einordnung brauchbar, aber nicht identisch zur Standard-Buffett-Logik.',
+                'label': 'Fallback aktiv',
+                'meaning': fallback_explainer(
+                    'Fed Z.1 Marktwertreihe',
+                    'Die übliche Wilshire-5000-Reihe war in diesem Lauf nicht verfügbar oder lieferte keine verwertbaren Daten.',
+                    next_update,
+                    'Der Buffett-Indikator bleibt für die Grobeinordnung nutzbar. Der Ersatz ist fachlich nah dran, aber nicht exakt dieselbe Standardreihe wie im Normalfall.'
+                ),
+                'short': 'Fallback aktiv: Statt Wilshire 5000 wird vorübergehend eine breitere Fed-Z.1-Marktwertreihe genutzt.'
             }
 
     cape_val, cape_fallback = scrape_cape()
@@ -590,7 +640,7 @@ def main() -> int:
                 'value': round(cape_val, 1) if cape_val is not None else None,
                 'unit': '',
                 'tone': cape_tone,
-                'status': cape_status + ((' ' + cape_fallback['meaning']) if cape_fallback else ''),
+                'status': (cape_fallback.get('short') + ' ' if cape_fallback and cape_fallback.get('short') else '') + cape_status,
                 'history': [],
                 **({'fallbackLabel': cape_fallback['label'], 'fallbackMeaning': cape_fallback['meaning']} if cape_fallback else {}),
             },
@@ -599,7 +649,7 @@ def main() -> int:
                 'value': int(round(buffett_val, 0)) if buffett_val is not None else None,
                 'unit': '%',
                 'tone': buff_tone,
-                'status': buff_status + ((' ' + buffett_fallback['meaning']) if buffett_fallback else ''),
+                'status': (buffett_fallback.get('short') + ' ' if buffett_fallback and buffett_fallback.get('short') else '') + buff_status,
                 'history': spark(buffett_hist, 60),
                 **({'fallbackLabel': buffett_fallback['label'], 'fallbackMeaning': buffett_fallback['meaning']} if buffett_fallback else {}),
             },
