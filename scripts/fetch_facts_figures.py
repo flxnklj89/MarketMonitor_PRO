@@ -325,6 +325,34 @@ def main():
         },
     ]
 
+
+    # Chart data: try QQQ from Stooq, fall back to SP500 from FRED
+    if qqq and len(qqq) >= 10:
+        qqq_chart = [
+            {
+                "date": qqq[i]["date"],
+                "close": round(qqq[i]["close"], 2),
+                "ma50": round(sum(qqq_closes[i-49:i+1]) / 50, 2) if i >= 49 else None,
+                "ma200": round(sum(qqq_closes[i-199:i+1]) / 200, 2) if i >= 199 else None
+            }
+            for i in range(max(0, len(qqq) - 260), len(qqq))
+        ]
+        qqq_chart_label = "QQQ"
+    else:
+        sp500_obs = fred("SP500", (NOW - timedelta(days=400)).strftime("%Y-%m-%d"))
+        sp500_obs = [o for o in sp500_obs if safe_float(o.get("value")) and o.get("value") not in (".", None, "")]
+        sp500_closes = [float(o["value"]) for o in sp500_obs]
+        qqq_chart = []
+        for i in range(max(0, len(sp500_obs) - 260), len(sp500_obs)):
+            cs = sp500_closes[:i+1]
+            qqq_chart.append({
+                "date": sp500_obs[i]["date"],
+                "close": round(sp500_closes[i], 2),
+                "ma50": round(sum(cs[-50:]) / len(cs[-50:]), 2) if len(cs) >= 50 else None,
+                "ma200": round(sum(cs[-200:]) / len(cs[-200:]), 2) if len(cs) >= 200 else None,
+            })
+        qqq_chart_label = "S&P 500 (Fallback)"
+
     facts = {
         "generatedAt": NOW.isoformat(),
         "meta": {
@@ -332,31 +360,62 @@ def main():
             "sourceSummary": ["latest.json", "FRED", "Stooq", "Multpl", "CurrentMarketValuation", "Google News RSS"]
         },
         "marketStatus": {
-            "phase": title_status(phase_title, phase_status),
-            "vix": title_status(
+            "phase": {**title_status(phase_title, phase_status),
+                "value": round(spx20, 1) if spx20 is not None else None,
+                "unit": "%", "valueLabel": "SPX 20T",
+                "tone": "h" if (spx20 or 0) < -8 else "m" if (spx20 or 0) < -3 else "l"},
+            "vix": {**title_status(
                 "Keine Panikphase" if (vix or 0) < 30 else "Stressphase",
-                "Keine klare Panikphase ableitbar, aber das Umfeld bleibt nervös." if (vix or 0) < 30 else "Der Markt preist klar höhere Nervosität ein."
-            ),
-            "breadth": title_status("Nicht kollabiert" if not breadth_break else "Breite bricht weg", breadth_text),
+                "Keine klare Panikphase ableitbar, aber das Umfeld bleibt nervös." if (vix or 0) < 30 else "Der Markt preist klar höhere Nervosität ein."),
+                "value": round(vix, 1) if vix else None,
+                "tone": "h" if (vix or 0) >= 30 else "m" if (vix or 0) >= 20 else "l"},
+            "breadth": {**title_status("Nicht kollabiert" if not breadth_break else "Breite bricht weg", breadth_text),
+                "value": (round(pct_change(rsp_spy_ratio[-21], rsp_spy_ratio[-1]), 1)
+                           if len(rsp_spy_ratio) > 21 else None),
+                "unit": "%", "valueLabel": "RSP/SPY 20T",
+                "tone": "h" if breadth_break else "l"},
         },
-        "overallMode": title_status(
+        "overallMode": {**title_status(
             global_label or phase_title,
-            "Die Daten zeigen eher ein angespanntes, aber noch nicht gebrochenes Umfeld." if crash < 40 else "Das Umfeld ist deutlich fragiler geworden."
-        ),
+            "Die Daten zeigen eher ein angespanntes, aber noch nicht gebrochenes Umfeld." if crash < 40 else "Das Umfeld ist deutlich fragiler geworden."),
+            "value": crash, "unit": "% Crash-Risk",
+            "tone": "h" if crash >= 40 else "m" if crash >= 25 else "l"},
         "technicalTriggers": [
-            {"label": "50T vs. 200T", "status": "Kein belastbares neues Trendbruch-Signal. Der Markt wirkt kurzfristig eher stabil als kapitulativ." if qqq50 and qqq200 and qqq50 > qqq200 else "Trendbruch aktiv oder nahe dran. Das erhöht die Vorsicht gegenüber Growth."},
-            {"label": "RSI (14)", "status": "Kein Überverkauft-Signal. Die Bewegung wirkt eher nervös als panisch." if rsi is not None and rsi > 30 else "Überverkauft-Signal aktiv. Das spricht eher für eine überdehnte Bewegung als für saubere Ruhe."},
-            {"label": "Drawdown vom Hoch", "status": "Kein Hinweis auf frischen massiven Abverkauf. Das Bild ist angespannt, aber nicht gebrochen." if dd is not None and dd > -10 else "Der Drawdown ist tief genug, um das Bild klar fragiler zu machen."},
+            {"label": "50T vs. 200T",
+             "status": "Kein belastbares Trendbruch-Signal. Der Markt wirkt kurzfristig eher stabil als kapitulativ." if qqq50 and qqq200 and qqq50 > qqq200 else "Trendbruch aktiv oder nahe dran. Das erhöht die Vorsicht gegenüber Growth.",
+             "value": round(qqq_closes[-1], 1) if qqq_closes else None, "unit": "$",
+             "tone": "l" if (qqq50 and qqq200 and qqq50 > qqq200) else "h",
+             "history": [{"date": qqq[i]["date"], "value": qqq[i]["close"]} for i in range(max(0, len(qqq)-60), len(qqq))]},
+            {"label": "RSI (14)",
+             "status": "Kein Überverkauft-Signal. Die Bewegung wirkt eher nervös als panisch." if rsi is not None and rsi > 30 else "Überverkauft-Signal aktiv. Das spricht eher für eine überdehnte Bewegung als für saubere Ruhe.",
+             "value": round(rsi, 1) if rsi is not None else None,
+             "tone": "h" if rsi is not None and rsi < 30 else "m" if rsi is not None and rsi < 40 else "l"},
+            {"label": "Drawdown vom Hoch",
+             "status": "Kein Hinweis auf frischen massiven Abverkauf. Das Bild ist angespannt, aber nicht gebrochen." if dd is not None and dd > -10 else "Der Drawdown ist tief genug, um das Bild klar fragiler zu machen.",
+             "value": round(dd, 1) if dd is not None else None, "unit": "%",
+             "tone": "h" if (dd or 0) <= -10 else "m" if (dd or 0) <= -5 else "l"},
         ],
         "valuation": [
-            {"label": "Shiller CAPE", "status": cape_text + (f" Aktuell ca. {cape:.2f}." if cape else "")},
-            {"label": "Buffett-Indikator", "status": f"{buffett_text} Das erhöht die Empfindlichkeit gegenüber externen Schocks."},
-            {"label": "Gewinnwachstum", "status": "Kurzfristig klar zweitrangig gegenüber Öl, Geopolitik, Lieferketten und Inflation."},
+            {"label": "Shiller CAPE",
+             "status": cape_text + (f" Aktuell ca. {cape:.1f}." if cape else ""),
+             "value": round(cape, 1) if cape else None,
+             "tone": "h" if (cape or 0) > 30 else "m" if (cape or 0) > 24 else "l"},
+            {"label": "Buffett-Indikator",
+             "status": f"{buffett_text} Das erhöht die Empfindlichkeit gegenüber externen Schocks."},
+            {"label": "Gewinnwachstum",
+             "status": "Kurzfristig klar zweitrangig gegenüber Öl, Geopolitik, Lieferketten und Inflation."},
         ],
         "macro": [
-            {"label": "Zinsumfeld", "status": "Komplizierter geworden. Höhere Energiepreise erschweren eine lockere Zinsfantasie." if (fed or 0) >= 3 else "Weniger restriktiv als in Hochzinsphasen, aber immer noch ein relevanter Faktor."},
-            {"label": "Wachstum", "status": "Das Wachstumsrisiko hat zugenommen. Ein Energieschock würde die globale Konjunktur klar belasten." if geo_risk >= 15 else "Noch kein harter Wachstumsschock sichtbar, aber das Umfeld ist fragiler geworden."},
-            {"label": "Rezessionsindikatoren", "status": "Noch kein bestätigter Crash-Makro-Modus, aber klar fragiler als in ruhigeren Marktphasen." if (rec or 0) < 50 else "Rezessionsrisiko erhöht. Der Makro-Hintergrund verdient deutlich mehr Respekt."},
+            {"label": "Zinsumfeld",
+             "status": "Komplizierter geworden. Höhere Energiepreise erschweren eine lockere Zinsfantasie." if (fed or 0) >= 3 else "Weniger restriktiv als in Hochzinsphasen, aber immer noch ein relevanter Faktor.",
+             "value": round(fed, 2) if fed else None, "unit": "%",
+             "tone": "h" if (fed or 0) >= 4.5 else "m" if (fed or 0) >= 2.5 else "l"},
+            {"label": "Wachstum",
+             "status": "Das Wachstumsrisiko hat zugenommen. Ein Energieschock würde die globale Konjunktur klar belasten." if geo_risk >= 15 else "Noch kein harter Wachstumsschock sichtbar, aber das Umfeld ist fragiler geworden."},
+            {"label": "Rezessionsindikatoren",
+             "status": "Noch kein bestätigter Crash-Makro-Modus, aber klar fragiler als in ruhigeren Marktphasen." if (rec or 0) < 50 else "Rezessionsrisiko erhöht. Der Makro-Hintergrund verdient deutlich mehr Respekt.",
+             "value": round(rec, 1) if rec else None, "unit": "%",
+             "tone": "h" if (rec or 0) >= 50 else "m" if (rec or 0) >= 20 else "l"},
         ],
         "sentiment": {
             "marketMood": mood,
@@ -404,15 +463,8 @@ def main():
             "summary": "In einem normalen Markt wäre die Entscheidung näher an einer Vollumsetzung. Mit der aktuellen Energie- und Geopolitik-Lage ist ein gestaffelter, disziplinierter Blick robuster."
         },
         "charts": {
-            "qqq": [
-            {
-                "date": qqq[i]["date"],
-                "close": round(qqq[i]["close"], 2),
-                "ma50": round(sum(qqq_closes[i-49:i+1]) / 50, 2) if i >= 49 else None,
-                "ma200": round(sum(qqq_closes[i-199:i+1]) / 200, 2) if i >= 199 else None
-            }
-            for i in range(max(0, len(qqq) - 260), len(qqq))
-        ],
+            "qqq": qqq_chart,
+            "chartLabel": qqq_chart_label,
             "vix": vix_pts[-90:],
             "brent": brent_pts[-90:],
         },
