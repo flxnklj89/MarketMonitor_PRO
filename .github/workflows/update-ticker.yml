@@ -1,0 +1,46 @@
+name: Update Ticker (15 min)
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'   # jede Viertelstunde, 24/7
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ticker-update
+  cancel-in-progress: true   # laufender Job wird abgebrochen, neuer startet
+
+jobs:
+  ticker:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 1        # nur HEAD, kein vollständiger Clone
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Fetch ticker data
+        run: python scripts/fetch_ticker.py
+
+      - name: Commit & push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ticker.json
+          if git diff --staged --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git commit -m "ticker: $(date -u +%H:%MZ)"
+          BRANCH="${GITHUB_REF_NAME:-main}"
+          git pull --rebase origin "$BRANCH"
+          git push origin HEAD:"$BRANCH"
