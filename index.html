@@ -301,11 +301,11 @@
         const unit = x.unit || '';
         return `<span class="ticker-item"><span class="tk-icon">${x.icon||'•'}</span><span class="tk-label">${x.label||x.name||'—'}</span><span class="tk-val">${val}</span>${unit?`<span class="tk-unit">${unit}</span>`:''}${chg!=null?`<span class="${cls}">${sign}${chg.toFixed(2)}%</span>`:''}</span>`;
       }).join('');
-      track.innerHTML = html + html;
+      track.innerHTML = html + html + html + html;
     }
     async function loadTicker(){
       try{
-        const data = await fetch('./data/latest.json', {cache:'no-store'}).then(r=>r.json());
+        const data = await fetch('./data/latest.json?t=' + Date.now(), {cache:'no-store'}).then(r=>r.json());
         renderTicker(data);
       }catch(e){
         const track=document.getElementById('ticker-track'); if(track) track.innerHTML='<span class="tk-stale">Ticker derzeit nicht verfügbar</span>';
