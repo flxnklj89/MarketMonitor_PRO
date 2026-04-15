@@ -64,9 +64,9 @@
 
     <section class="card section"><h2 class="section-title">1. Marktstatus auf einen Blick</h2><p class="section-sub">Die erste Ebene komprimiert die Lage in vier Kernelemente: Marktphase, VIX-Lesart, Marktbreite und aktueller Gesamtmodus.</p><div class="grid kpi-grid" id="market-overview-grid"></div></section>
 
-    <section class="card section"><h2 class="section-title">2. Technische Trigger (Growth)</h2><p class="section-sub">Diese Bausteine schauen auf Trendbruch, Überverkauft-Situation und Drawdown. Sie sollen zeigen, ob die Marktbewegung eher nervös, gebrochen oder stabilisierbar wirkt.</p><div class="grid mini-grid" id="technical-grid"></div><div class="chart-grid"><div class="chart-card"><h3>QQQ: 50T vs. 200T</h3><div class="chart-note">Schlusskurs plus gleitende Durchschnitte für die Trendstruktur von Growth.</div><div class="chart-wrap"><canvas id="chart-qqq"></canvas></div></div><div class="chart-card"><h3>VIX & Brent</h3><div class="chart-note">Stress- und Energieschock-Ebene der letzten Monate.</div><div class="chart-wrap"><canvas id="chart-stress"></canvas></div></div></div></section>
+    <section class="card section"><h2 class="section-title">2. Technische Trigger <span style="font-size:0.36em;font-family:var(--font);font-weight:700;color:var(--text3);letter-spacing:.15em;text-transform:uppercase;vertical-align:middle;margin-left:10px;padding:4px 10px;border:1px solid var(--border);border-radius:999px;background:rgba(255,255,255,.04)">USA Growth</span></h2><p class="section-sub">Diese Bausteine schauen auf Trendbruch, Überverkauft-Situation und Drawdown. Sie beziehen sich auf einen <strong>US-Growth-Proxy</strong> (NASDAQ Composite) und zeigen, ob die Marktbewegung eher nervös, gebrochen oder stabilisierbar wirkt.</p><div class="grid mini-grid" id="technical-grid"></div><div class="chart-grid"><div class="chart-card"><h3>NASDAQ Composite: 50T vs. 200T</h3><div class="chart-note">Schlusskurs plus gleitende Durchschnitte für die Trendstruktur von US-Growth.</div><div class="chart-wrap"><canvas id="chart-qqq"></canvas></div></div><div class="chart-card"><h3>VIX & Brent</h3><div class="chart-note">Stress- und Energieschock-Ebene der letzten Monate.</div><div class="chart-wrap"><canvas id="chart-stress"></canvas></div></div></div></section>
 
-    <section class="card section"><h2 class="section-title">3. Bewertung & Langfrist-Signal</h2><p class="section-sub">Bewertung beantwortet nicht das kurzfristige Timing allein, aber sie verändert die Fehlertoleranz des Marktes gegenüber externen Schocks.</p><div class="grid three-col" id="valuation-grid"></div></section>
+    <section class="card section"><h2 class="section-title">3. Bewertung & Langfrist-Signal <span style="font-size:0.36em;font-family:var(--font);font-weight:700;color:var(--text3);letter-spacing:.15em;text-transform:uppercase;vertical-align:middle;margin-left:10px;padding:4px 10px;border:1px solid var(--border);border-radius:999px;background:rgba(255,255,255,.04)">USA</span></h2><p class="section-sub">Bewertung beantwortet nicht das kurzfristige Timing allein, aber sie verändert die Fehlertoleranz des Marktes gegenüber externen Schocks. Alle drei Bausteine beziehen sich hier auf den <strong>US-Aktienmarkt</strong>.</p><div class="grid three-col" id="valuation-grid"></div></section>
 
     <section class="card section"><h2 class="section-title">4. Makro-Umfeld <span style="font-size:0.36em;font-family:var(--font);font-weight:700;color:var(--text3);letter-spacing:.15em;text-transform:uppercase;vertical-align:middle;margin-left:10px;padding:4px 10px;border:1px solid var(--border);border-radius:999px;background:rgba(255,255,255,.04)">USA</span></h2><p class="section-sub">Zinsumfeld, Wachstum und Rezessionsindikatoren sind die Brücke zwischen Marktbewegung und Makrorealität. Alle drei Indikatoren beziehen sich auf die <strong>USA</strong> – kein globaler Schnitt.</p><div class="grid three-col" id="macro-grid"></div></section>
 
@@ -101,7 +101,7 @@
     }
     async function loadTicker(){
       // Bevorzuge ticker.json (alle 15 min), Fallback auf latest.json (alle 4h)
-      for(const url of ['./data/ticker.json','./data/latest.json']){
+      for(const url of ['./data/ticker.json','./data/latest.json','./ticker.json','./latest.json']){
         try{
           const data=await fetch(url+'?t='+Date.now(),{cache:'no-store'}).then(r=>r.json());
           if(data?.ticker?.length){ renderTicker(data); return; }
@@ -144,7 +144,13 @@
       charts[canvasId]=new Chart(ctx,{type:'line',data:{labels,datasets},options:{responsive:true,maintainAspectRatio:false,animation:false,interaction:{mode:'nearest',intersect:false},plugins:{legend:{labels:{color:'#c5d4e4'}}},scales:{x:{ticks:{color:'#8fa7c0',maxTicksLimit:6},grid:{display:false}},y:{ticks:{color:'#8fa7c0'},grid:{color:'rgba(255,255,255,.08)'}}}}});
     }
     async function loadFacts(){
-      const fallback = await fetch('./data/facts_figures.json', {cache:'no-store'}).then(r=>r.json()).catch(()=>null);
+      let fallback = null;
+      for (const url of ['./data/facts_figures.json','./facts_figures.json']) {
+        try {
+          const res = await fetch(url, {cache:'no-store'});
+          if (res.ok) { fallback = await res.json(); break; }
+        } catch(e) {}
+      }
       if(!fallback) return;
       document.getElementById('ff-fresh').textContent = fmtDateTime(fallback.generatedAt);
       document.getElementById('hero-foot').textContent = 'Stand: ' + fmtDateTime(fallback.generatedAt);
@@ -167,7 +173,8 @@
       function renderMiniCard(x){
         const hasVal = x.value != null && x.value !== '';
         const toneClass = x.tone === 'h' ? 'tone-h' : x.tone === 'm' ? 'tone-m' : x.tone === 'l' ? 'tone-l' : '';
-        const valHtml = hasVal ? `<div class="mini-value ${toneClass}">${x.value}${x.unit ? '<span class="mini-unit"> '+x.unit+'</span>' : ''}</div>` : '';
+        const shownValue = hasVal ? x.value : '—';
+        const valHtml = `<div class="mini-value ${toneClass}">${shownValue}${hasVal && x.unit ? '<span class="mini-unit"> '+x.unit+'</span>' : ''}</div>`;
         const histHtml = (x.history && x.history.length > 1) ? `<canvas class="mini-sparkline" data-spark='${JSON.stringify(x.history)}'></canvas>` : '';
         return `<div class="mini"><div class="mini-head"><h3>${x.label}</h3>${infoBtn(x.label)}</div>${valHtml}<p>${x.status}</p>${histHtml}</div>`;
       }
@@ -204,7 +211,7 @@
       document.getElementById('tim-timing').textContent = fallback.timeVsTiming?.marketTiming || '—';
       document.getElementById('tim-summary').textContent = fallback.timeVsTiming?.summary || '—';
       const qqq = fallback.charts?.qqq || []; const vix = fallback.charts?.vix || []; const brent = fallback.charts?.brent || [];
-      const chartLabel = fallback.charts?.chartLabel || 'QQQ Schlusskurs';
+      const chartLabel = fallback.charts?.chartLabel || 'NASDAQ Composite';
       const validQqq = qqq.filter(p=>p.close && p.close > 2);  // drop zero/normalized values
       if(validQqq.length>1){
         const qqHead = document.querySelector('#technical-grid').closest('.section')?.querySelector('.chart-card h3');
