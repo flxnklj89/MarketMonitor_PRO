@@ -19,9 +19,8 @@ Wilshire / Buffett note:
 """
 
 from __future__ import annotations
-import json, os, re, sys, urllib.error, urllib.parse, urllib.request
+import gzip, json, os, re, sys, time, urllib.error, urllib.parse, urllib.request
 from datetime import datetime, timedelta, timezone
-import time
 from pathlib import Path
 
 # ─── Config ──────────────────────────────────────────────────────────────────
@@ -34,7 +33,6 @@ NOW             = datetime.now(timezone.utc)
 FRED_BASE       = "https://api.stlouisfed.org/fred/series/observations"
 LATEST_IN       = Path("data/latest.json")
 OUT             = Path("data/facts_figures.json")
-PREV_OUT        = OUT
 OUT.parent.mkdir(parents=True, exist_ok=True)
 
 DAILY_START     = (NOW - timedelta(days=365 * 3)).strftime("%Y-%m-%d")
@@ -61,7 +59,14 @@ def http_get(url: str, timeout: int = 20, retries: int = 3) -> bytes:
         try:
             req = urllib.request.Request(url, headers=BROWSER_HEADERS)
             with urllib.request.urlopen(req, timeout=timeout) as r:
-                return r.read()
+                raw = r.read()
+                enc = (r.headers.get("Content-Encoding") or "").lower()
+                if enc == "gzip" or raw[:2] == b'\x1f\x8b':
+                    try:
+                        raw = gzip.decompress(raw)
+                    except Exception:
+                        pass
+                return raw
         except Exception as e:
             last_err = e
             if attempt < retries - 1:
@@ -117,25 +122,18 @@ def last_val(pts: list[dict], default: float = 0.0) -> float:
     return pts[-1]["value"] if pts else default
 
 
-def prev_section_card(prev: dict, section: str, label: str) -> dict | None:
-    for item in prev.get(section, []) or []:
-        if item.get("label") == label:
-            return item
-    return None
-
-
-def keep_previous_card(prev: dict, section: str, label: str, current: dict, *, when: bool) -> dict:
-    if not when:
-        return current
-    old = prev_section_card(prev, section, label)
-    return old if old else current
-
-
-def keep_previous_chart(prev: dict, key: str, current: list[dict], *, when: bool) -> list[dict]:
-    if not when:
-        return current
-    old = ((prev.get("charts") or {}).get(key))
-    return old if isinstance(old, list) and old else current
+def coerce_market_value_to_billions(pts: list[dict], assume_millions: bool = True) -> list[dict]:
+    """Convert market-cap-like series into billions if they appear to be reported in millions."""
+    out: list[dict] = []
+    for p in pts:
+        try:
+            val = float(p["value"])
+            if assume_millions:
+                val = val / 1000.0
+            out.append({"date": p["date"], "value": round(val, 0)})
+        except Exception:
+            pass
+    return out
 
 
 def yoy(pts: list[dict], lag: int = 4) -> list[dict]:
@@ -547,12 +545,6 @@ def main() -> int:
         print(f"  ✗ Cannot read {LATEST_IN}: {e}", file=sys.stderr)
         latest = {}
 
-    try:
-        prev_output = json.loads(PREV_OUT.read_text(encoding="utf-8"))
-        print(f"  ✓ Loaded previous {PREV_OUT} as fallback cache")
-    except Exception:
-        prev_output = {}
-
     inds     = latest.get("indicators", {})
     fed_rate = float(inds.get("fedRate",      {}).get("value", 0))
     rec_prob = float(inds.get("recProb",      {}).get("value", 0))
@@ -572,19 +564,18 @@ def main() -> int:
     effr_obs  = hp(fred("EFFR",        DAILY_START), 2)
     vix_obs   = hp(fred("VIXCLS",      DAILY_START), 2)
     brent_obs = hp(fred("DCOILBRENTEU", DAILY_START), 2)
-    sp500_obs = hp(fred("SP500", DAILY_START), 2)
 
     # NASDAQ Composite – reliable FRED proxy for Growth / QQQ trend
     print("\n[FRED – NASDAQ Composite as Growth proxy]")
     nasdaq_raw  = hp(fred("NASDAQCOM", DAILY_START), 0)
-    chart_label = "NASDAQ Composite"
+    using_sp500_proxy = False
     if not nasdaq_raw:
         print("  ! NASDAQCOM unavailable, falling back to SP500", file=sys.stderr)
-        nasdaq_raw = [{"date": p["date"], "value": round(p["value"], 0)} for p in sp500_obs]
-        chart_label = "S&P 500 (Fallback)"
+        nasdaq_raw = hp(fred("SP500", DAILY_START), 2)
+        using_sp500_proxy = True
     nasdaq_vals = [p["value"] for p in nasdaq_raw]
 
-    # Wilshire 5000 – try multiple FRED series IDs, then Fed Flow of Funds market cap series
+    # Wilshire 5000 – try multiple FRED series IDs
     print("\n[FRED – Wilshire 5000 for Buffett indicator]")
     will_raw = hp(
         fred_first(["WILL5000PRFC", "WILL5000IND", "WILL5000INDFC", "WILL5000PR"], DAILY_START),
@@ -592,18 +583,14 @@ def main() -> int:
     )
     if not will_raw:
         print("  ! Wilshire series unavailable, falling back to BOGZ1LM883164115Q market cap", file=sys.stderr)
-        will_raw = coerce_market_value_to_billions(hp(fred("BOGZ1LM883164115Q", QUARTERLY_START), 0), assume_millions=True)
+        will_raw = coerce_market_value_to_billions(
+            hp(fred("BOGZ1LM883164115Q", QUARTERLY_START), 0),
+            assume_millions=True,
+        )
 
     # ── 3. Shiller CAPE (scrape) ──────────────────────────────────────────────
     print("\n[CAPE scrape]")
     cape_val = scrape_cape()
-    cape_hist: list[dict] = []
-    cape_is_proxy = False
-    if cape_val is None:
-        cape_val = scrape_cape_alternative()
-    if cape_val is None:
-        cape_val, cape_hist = fallback_proxy_valuation(sp500_obs, cp_obs)
-        cape_is_proxy = cape_val is not None
 
     # ── 4. Buffett Indicator ──────────────────────────────────────────────────
     print("\n[Buffett]")
@@ -632,9 +619,9 @@ def main() -> int:
     ]
 
     # ── 6. Classify ───────────────────────────────────────────────────────────
+    chart_label = "S&P 500" if using_sp500_proxy else "NASDAQ Composite"
+
     cape_tone,  _,         cape_status  = cape_classify(cape_val)
-    if cape_is_proxy and cape_val is not None:
-        cape_status = f"Shiller-CAPE-Proxy bei {cape_val:.1f}. FRED-basierte Ersatzberechnung, weil Direktquelle temporär nicht erreichbar war."
     buff_tone,  buff_status             = buffett_classify(buffett_val)
     earn_tone,  earn_status             = earnings_classify(earn_g)
     fed_tone,   fed_status              = fed_classify(fed_rate)
@@ -671,7 +658,7 @@ def main() -> int:
         "generatedAt": NOW.isoformat(),
         "meta": {
             "schemaVersion": "1.0",
-            "sourceSummary": ["latest.json", "FRED", "Multpl", "cached fallback"],
+            "sourceSummary": ["latest.json", "FRED", "Multpl"],
         },
         "marketStatus": {
             "phase": {
@@ -736,7 +723,7 @@ def main() -> int:
                 "unit":    "",
                 "tone":    cape_tone,
                 "status":  cape_status,
-                "history": spark(cape_hist, 40) if cape_hist else [],
+                "history": [],
             },
             {
                 "label":   "Buffett-Indikator",
@@ -831,24 +818,6 @@ def main() -> int:
         },
         "news": latest.get("news", []),
     }
-
-
-    # Keep previous successful values if a single upstream source fails on this run.
-    output["technicalTriggers"][0] = keep_previous_card(prev_output, "technicalTriggers", "50T vs. 200T", output["technicalTriggers"][0], when=not bool(nasdaq_raw))
-    output["technicalTriggers"][1] = keep_previous_card(prev_output, "technicalTriggers", "RSI (14)", output["technicalTriggers"][1], when=rsi_val is None)
-    output["technicalTriggers"][2] = keep_previous_card(prev_output, "technicalTriggers", "Drawdown vom Hoch", output["technicalTriggers"][2], when=dd_val is None)
-
-    output["valuation"][0] = keep_previous_card(prev_output, "valuation", "Shiller CAPE", output["valuation"][0], when=cape_val is None)
-    output["valuation"][1] = keep_previous_card(prev_output, "valuation", "Buffett-Indikator", output["valuation"][1], when=buffett_val is None)
-    output["valuation"][2] = keep_previous_card(prev_output, "valuation", "Gewinnwachstum", output["valuation"][2], when=earn_g is None)
-
-    output["macro"][0] = keep_previous_card(prev_output, "macro", "Zinsumfeld", output["macro"][0], when=not bool(effr_obs))
-    output["macro"][1] = keep_previous_card(prev_output, "macro", "Wachstum", output["macro"][1], when=not bool(gdp_g_obs))
-    output["macro"][2] = keep_previous_card(prev_output, "macro", "Rezessionsindikatoren", output["macro"][2], when=not rec_prob and not sahm and not latest)
-
-    output.setdefault("charts", {})["qqq"] = keep_previous_chart(prev_output, "qqq", output.get("charts", {}).get("qqq", []), when=not bool(nasdaq_chart))
-    output.setdefault("charts", {})["vix"] = keep_previous_chart(prev_output, "vix", output.get("charts", {}).get("vix", []), when=not bool(vix_obs))
-    output.setdefault("charts", {})["brent"] = keep_previous_chart(prev_output, "brent", output.get("charts", {}).get("brent", []), when=not bool(brent_obs))
 
     OUT.write_text(json.dumps(output, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"\n✓ Wrote {OUT}")
