@@ -95,13 +95,58 @@ def safe_float(x):
         return None
 
 
+def _multpl_fetch(path: str) -> str:
+    return http_get(f"https://www.multpl.com/{path}").decode("utf-8", errors="ignore")
+
+
+def _multpl_value(txt: str, lo: float, hi: float) -> float | None:
+    """Extract the first plausible numeric value from a Multpl page."""
+    patterns = [
+        r'id="current-value"[^>]*>\s*([+-]?[0-9]+(?:\.[0-9]+)?)',
+        r"id='current-value'[^>]*>\s*([+-]?[0-9]+(?:\.[0-9]+)?)",
+        r'<strong>\s*([+-]?[0-9]+(?:\.[0-9]+)?)\s*</strong>',
+        r'([+-]?[0-9]+\.[0-9]+)\s*(?:%|</)',
+    ]
+    for pattern in patterns:
+        for m in re.finditer(pattern, txt, re.IGNORECASE):
+            v = safe_float(m.group(1))
+            if v is not None and lo <= v <= hi:
+                return v
+    return None
+
+
 def scrape_multpl_shiller() -> float | None:
     try:
-        txt = http_get("https://www.multpl.com/shiller-pe").decode("utf-8", errors="ignore")
+        return _multpl_value(_multpl_fetch("shiller-pe"), 5, 100)
     except Exception:
         return None
-    m = re.search(r"Current Shiller PE Ratio:\s*([0-9]+\.[0-9]+)", txt)
-    return safe_float(m.group(1)) if m else None
+
+
+def scrape_eps_growth() -> float | None:
+    """S&P 500 trailing EPS growth YoY from Multpl."""
+    try:
+        return _multpl_value(_multpl_fetch("s-p-500-earnings-growth"), -60, 100)
+    except Exception:
+        return None
+
+
+def scrape_buffett_pct() -> float | None:
+    """Numeric Buffett Indicator % from currentmarketvaluation.com."""
+    try:
+        txt = http_get("https://www.currentmarketvaluation.com/").decode("utf-8", errors="ignore")
+    except Exception:
+        return None
+    patterns = [
+        r"([0-9]+(?:[.][0-9]+)?)[\s]*%[\s]*(?:of GDP|Buffett|market)",
+        r"ratio[^0-9]{0,30}([0-9]+(?:[.][0-9]+)?)",
+        r"([12][0-9]{2}(?:[.][0-9]+)?)[\s]*%",
+    ]
+    for pattern in patterns:
+        for m in re.finditer(pattern, txt, re.IGNORECASE):
+            v = safe_float(m.group(1))
+            if v and 60 < v < 350:
+                return round(v, 1)
+    return None
 
 
 def scrape_buffett_status() -> str | None:
@@ -265,6 +310,16 @@ def main():
     fed = safe_float(indicators.get("fedRate", {}).get("value"))
     sent = safe_float(indicators.get("sentiment", {}).get("value"))
 
+    # GDP real growth (quarterly, annualised %)
+    gdp_growth_obs = fred("A191RL1Q225SBEA", (NOW - timedelta(days=400)).strftime("%Y-%m-%d"))
+    gdp_growth = safe_float(gdp_growth_obs[-1]["value"]) if gdp_growth_obs else None
+
+    # EPS growth
+    eps_growth = scrape_eps_growth()
+
+    # Numeric Buffett %
+    buffett_pct = scrape_buffett_pct()
+
     phase_title, phase_status = classify_phase(spx20, vix, brent20, rec)
 
     # News + geopolitical risk
@@ -397,13 +452,21 @@ def main():
         ],
         "valuation": [
             {"label": "Shiller CAPE",
-             "status": cape_text + (f" Aktuell ca. {cape:.1f}." if cape else ""),
+             "status": cape_text,
              "value": round(cape, 1) if cape else None,
              "tone": "h" if (cape or 0) > 30 else "m" if (cape or 0) > 24 else "l"},
             {"label": "Buffett-Indikator",
-             "status": f"{buffett_text} Das erhöht die Empfindlichkeit gegenüber externen Schocks."},
+             "status": f"{buffett_text} Das erhöht die Empfindlichkeit gegenüber externen Schocks.",
+             "value": buffett_pct,
+             "unit": "%",
+             "tone": "h" if (buffett_pct or 0) > 160 else "m" if (buffett_pct or 0) > 110 else "l"},
             {"label": "Gewinnwachstum",
-             "status": "Kurzfristig klar zweitrangig gegenüber Öl, Geopolitik, Lieferketten und Inflation."},
+             "status": (f"S&P-500-Gewinnwachstum YoY: {eps_growth:+.1f} %. Kurzfristig überlagert von Öl, Geopolitik und Inflation."
+                        if eps_growth is not None
+                        else "Kurzfristig klar zweitrangig gegenüber Öl, Geopolitik, Lieferketten und Inflation."),
+             "value": round(eps_growth, 1) if eps_growth is not None else None,
+             "unit": "%",
+             "tone": "l" if (eps_growth or 0) > 5 else "m" if (eps_growth or 0) > 0 else "h"},
         ],
         "macro": [
             {"label": "Zinsumfeld",
@@ -411,7 +474,12 @@ def main():
              "value": round(fed, 2) if fed else None, "unit": "%",
              "tone": "h" if (fed or 0) >= 4.5 else "m" if (fed or 0) >= 2.5 else "l"},
             {"label": "Wachstum",
-             "status": "Das Wachstumsrisiko hat zugenommen. Ein Energieschock würde die globale Konjunktur klar belasten." if geo_risk >= 15 else "Noch kein harter Wachstumsschock sichtbar, aber das Umfeld ist fragiler geworden."},
+             "status": (f"BIP-Wachstum (real, ann.) zuletzt {gdp_growth:+.1f} %. Das Wachstumsrisiko hat zugenommen." if gdp_growth is not None and geo_risk >= 15
+                        else f"BIP-Wachstum (real, ann.) zuletzt {gdp_growth:+.1f} %." if gdp_growth is not None
+                        else "Noch kein harter Wachstumsschock sichtbar, aber das Umfeld ist fragiler geworden."),
+             "value": round(gdp_growth, 1) if gdp_growth is not None else None,
+             "unit": "%",
+             "tone": "h" if (gdp_growth or 0) < 0 else "m" if (gdp_growth or 0) < 1.5 else "l"},
             {"label": "Rezessionsindikatoren",
              "status": "Noch kein bestätigter Crash-Makro-Modus, aber klar fragiler als in ruhigeren Marktphasen." if (rec or 0) < 50 else "Rezessionsrisiko erhöht. Der Makro-Hintergrund verdient deutlich mehr Respekt.",
              "value": round(rec, 1) if rec else None, "unit": "%",
