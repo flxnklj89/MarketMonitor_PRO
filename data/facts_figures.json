@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-15T15:55:24.934734+00:00",
+  "generatedAt": "2026-04-15T19:55:56.230584+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -346,7 +346,7 @@
       "status": "Fallback aktiv: Statt multpl.com wird vorübergehend Current Market Valuation genutzt. Shiller CAPE bei 39.3. Historisch ambitionierte Bewertung. Erhöhte Empfindlichkeit gegenüber Enttäuschungen.",
       "history": [],
       "fallbackLabel": "Fallback aktiv",
-      "fallbackMeaning": "<strong>Fallback aktiv – was bedeutet das?</strong><br>Der Standardwert konnte in diesem Lauf nicht sauber geladen werden. Deshalb nutzt das Dashboard vorübergehend <strong>Current Market Valuation</strong> als Ersatzquelle oder Ersatz-Proxy.<br><br><strong>Warum greift der Fallback?</strong><br>Die Primärquelle multpl.com war in diesem Lauf nicht erreichbar oder nicht sauber parsbar.<br><br><strong>Was bedeutet das für dich?</strong><br>Der Wert ist für die Einordnung in der Regel gut genug, kann aber zeitlich leicht anders aktualisiert sein als die normale Primärquelle.<br><br><strong>Wann kommt der echte Wert wieder?</strong><br>Beim nächsten regulären Facts-&-Figures-Update. Das läuft alle 4 Stunden. Das nächste planmäßige Update ist voraussichtlich <strong>15.04.2026, 20:00 Uhr</strong>. Sobald die Primärquelle wieder sauber liefert, verschwindet der Fallback automatisch."
+      "fallbackMeaning": "<strong>Fallback aktiv – was bedeutet das?</strong><br>Der Standardwert konnte in diesem Lauf nicht sauber geladen werden. Deshalb nutzt das Dashboard vorübergehend <strong>Current Market Valuation</strong> als Ersatzquelle oder Ersatz-Proxy.<br><br><strong>Warum greift der Fallback?</strong><br>Die Primärquelle multpl.com war in diesem Lauf nicht erreichbar oder nicht sauber parsbar.<br><br><strong>Was bedeutet das für dich?</strong><br>Der Wert ist für die Einordnung in der Regel gut genug, kann aber zeitlich leicht anders aktualisiert sein als die normale Primärquelle.<br><br><strong>Wann kommt der echte Wert wieder?</strong><br>Beim nächsten regulären Facts-&-Figures-Update. Das läuft alle 4 Stunden. Das nächste planmäßige Update ist voraussichtlich <strong>16.04.2026, 00:00 Uhr</strong>. Sobald die Primärquelle wieder sauber liefert, verschwindet der Fallback automatisch."
     },
     {
       "label": "Buffett-Indikator",
@@ -537,7 +537,7 @@
         }
       ],
       "fallbackLabel": "Fallback aktiv",
-      "fallbackMeaning": "<strong>Fallback aktiv – was bedeutet das?</strong><br>Der Standardwert konnte in diesem Lauf nicht sauber geladen werden. Deshalb nutzt das Dashboard vorübergehend <strong>Fed Z.1 Marktwertreihe</strong> als Ersatzquelle oder Ersatz-Proxy.<br><br><strong>Warum greift der Fallback?</strong><br>Die übliche Wilshire-5000-Reihe war in diesem Lauf nicht verfügbar oder lieferte keine verwertbaren Daten.<br><br><strong>Was bedeutet das für dich?</strong><br>Der Buffett-Indikator bleibt für die Grobeinordnung nutzbar. Der Ersatz ist fachlich nah dran, aber nicht exakt dieselbe Standardreihe wie im Normalfall.<br><br><strong>Wann kommt der echte Wert wieder?</strong><br>Beim nächsten regulären Facts-&-Figures-Update. Das läuft alle 4 Stunden. Das nächste planmäßige Update ist voraussichtlich <strong>15.04.2026, 20:00 Uhr</strong>. Sobald die Primärquelle wieder sauber liefert, verschwindet der Fallback automatisch."
+      "fallbackMeaning": "<strong>Fallback aktiv – was bedeutet das?</strong><br>Der Standardwert konnte in diesem Lauf nicht sauber geladen werden. Deshalb nutzt das Dashboard vorübergehend <strong>Fed Z.1 Marktwertreihe</strong> als Ersatzquelle oder Ersatz-Proxy.<br><br><strong>Warum greift der Fallback?</strong><br>Die übliche Wilshire-5000-Reihe war in diesem Lauf nicht verfügbar oder lieferte keine verwertbaren Daten.<br><br><strong>Was bedeutet das für dich?</strong><br>Der Buffett-Indikator bleibt für die Grobeinordnung nutzbar. Der Ersatz ist fachlich nah dran, aber nicht exakt dieselbe Standardreihe wie im Normalfall.<br><br><strong>Wann kommt der echte Wert wieder?</strong><br>Beim nächsten regulären Facts-&-Figures-Update. Das läuft alle 4 Stunden. Das nächste planmäßige Update ist voraussichtlich <strong>16.04.2026, 00:00 Uhr</strong>. Sobald die Primärquelle wieder sauber liefert, verschwindet der Fallback automatisch."
     },
     {
       "label": "Gewinnwachstum",
@@ -3958,26 +3958,6 @@
     ],
     "brent": [
       {
-        "date": "2025-01-28",
-        "value": 78.01
-      },
-      {
-        "date": "2025-01-29",
-        "value": 77.02
-      },
-      {
-        "date": "2025-01-30",
-        "value": 77.42
-      },
-      {
-        "date": "2025-01-31",
-        "value": 77.11
-      },
-      {
-        "date": "2025-02-03",
-        "value": 76.49
-      },
-      {
         "date": "2025-02-04",
         "value": 76.58
       },
@@ -5156,25 +5136,80 @@
       {
         "date": "2026-04-02",
         "value": 127.61
+      },
+      {
+        "date": "2026-04-07",
+        "value": 138.21
+      },
+      {
+        "date": "2026-04-08",
+        "value": 122.11
+      },
+      {
+        "date": "2026-04-09",
+        "value": 119.03
+      },
+      {
+        "date": "2026-04-10",
+        "value": 119.07
+      },
+      {
+        "date": "2026-04-13",
+        "value": 123.28
       }
     ]
   },
   "news": [
     {
-      "title": "Earnings are taking over from Iran. That's good for the stock market",
-      "source": "CNBC",
-      "publishedAt": "2026-04-15T13:27:36+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMkNiMFhtX0syYzRzS2xkLUNxbHoxY0xPVE9rSVhsTFBRNk8yYnE0U0U1eGNlQ24yZ2NhanZ0amlwVEFHWHFkc1o4OXB1WnZpN3AzaWFmLUxZVFZOdWhrRjlsVTdhcjJSODdDVDF3b0ZwOUNJWjByTlprUW84a1VXVG5zQ0Q0ZzRMQ3czMDdTWGo5VmFFYWNXQ2E5Q0ZneFdxanZsd3lB?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "S&P 500 hits new all-time high as investors shrug off Iran war oil price spike",
+      "source": "NBC News",
+      "publishedAt": "2026-04-15T17:37:41+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOalBvNW9PR240LVFHOGJqRkVGZnFUeEV1SEtxb19FN1ZaYU5kOTJNZTV0V1J5WHIzSU9nSkpfVFVBRE5uZktDWk95SGpFcFk1U1dFMVFReG5GdjktZVhSMGoySUVmbEFPenB5bnZ6VzRDUXFaVmYyOUpKUGtOZW1uUUR2c3FKR0dE?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "What War? US Stocks Push Back Toward Record Highs",
+      "source": "Morningstar",
+      "publishedAt": "2026-04-15T18:11:07+00:00",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMWl4RmpOZmlZSWhCZkNaVTVoUDkxTm9Ldm9sOVpOT2Myd1dYbDh3X3JVd3B3M1FjZkdIUGRPQVFiaW90ejFiOHNLSU1yNi0yMk9yU2lXZ1lBamZEOV9PWGp0LWozODZ1RXd0ZVJGQ3YtbkdiT285QUhqdF93d3FzUldLcXpZajJ3NVhfSQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "This Is the Biggest Reason Investors Lose Money During a Stock Market Crash -- and How to Avoid It",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-04-15T17:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNX0lrUmZyYnJYZE9Ib1F3QU5lTGFxMnJrNU1XZl9UMjNmcUFBWnJmcTBKUm9vR0M1a3dLZ1hjOW9md0FWVXFtaXVFVW13LWFpdjVtR1RVbVpNLXBVMGloNFAyT2F4RFNIZHgyLUh6d0Z5UzBLcUw1Umt6X05mSnY1ZTRBY3JDZjNwMUxIWU1ZLVVqR2FaTy1zNQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
@@ -5195,71 +5230,38 @@
       ]
     },
     {
-      "title": "Has the Stock Market Really Been More Volatile Than Usual This Year?",
-      "source": "Morningstar",
-      "publishedAt": "2026-04-15T09:12:10+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTllDMnFERzRraW1EY1VjTFZ0QVBZSGhGT3J1Rkx3QTU5LVE4d1k5aGM1bVcyajlFOHdxeXVYTUt6S1V4QUpaTC1TdjJRSFdlRTM4NXVFM2ZOREpfNEp2VmhqRkZYN3dNczlMcnZEcHRzcEdmUkdBQkp2ZlEzOVNDUS1OQmU0LTlBa1JYOUg4ODUwd3ZGalJobFQ0ZkhUTkk?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Earnings are taking over from Iran. That's good for the stock market",
+      "source": "CNBC",
+      "publishedAt": "2026-04-15T13:27:36+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMkNiMFhtX0syYzRzS2xkLUNxbHoxY0xPVE9rSVhsTFBRNk8yYnE0U0U1eGNlQ24yZ2NhanZ0amlwVEFHWHFkc1o4OXB1WnZpN3AzaWFmLUxZVFZOdWhrRjlsVTdhcjJSODdDVDF3b0ZwOUNJWjByTlprUW84a1VXVG5zQ0Q0ZzRMQ3czMDdTWGo5VmFFYWNXQ2E5Q0ZneFdxanZsd3lB?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
         "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     },
     {
-      "title": "Stocks Complete Speedy Iran War Round Trip. The Next Leg of the Journey Awaits.",
-      "source": "Barron's",
-      "publishedAt": "2026-04-15T13:58:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUkY3VUZEQlJsX1hKLU9SZmhBOXNDQjFUR1piTkNCVmhDRUp1SnBzbDRLOUNvTFZkQVNXLXE3OG1KRGdiNEZNYk94c25yS2FZekpVVXBwOUtiemxlQjl0RHlKWTlSeHZzeG5LdkdvSlpudDk1SVJMbHpyNjVES29JQTkyVEg?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Worried About a Stock Market Crash? These 3 Stocks Beat the S&P 500 by Wide Margins When It Nosedived in 2022, and They Could Do It Again",
+      "title": "Wall Street Has Proven Resilient Through a Geopolitical Shock, a Rate Freeze, and $110 Oil. Here Is What That Tells Long-Term Investors.",
       "source": "The Motley Fool",
-      "publishedAt": "2026-04-15T15:54:29+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeU1NT2pkcWx1Qkc2Q3Z1b29zMkhRdlBOa3dyT3k0R3RpX2k5SC1jV3RTaFhYY3hSc2J1Qno3NFY4Qm1HYi0xT3FnanVsdHJlTVVwQ0NveFlidm54LXhfMzcwQkpscU1TX1NXbXRuSlFaUFljLWFyZDlkMHdPQ2p3aVJrQkllRXhZdmhVSmJoMUFsNFh6RHRJ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "publishedAt": "2026-04-15T18:13:21+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaFFkaEJnc2djMFpLcGlIcDg2c1dsNXZEVWFIS0p2V2FPbDZCdEtTWnQ1R3NsVURIbHlrczVweEUwbW9UMGNDUWZwS3lickhqOG51MXQyR1pSSUoxbVh5cGFfVmtySl9WMWc5SHczQkpDQVkySjctSk42SlNTNEFSNjZDVEUzVllsSWtFUUlsSDBoSjdTSk5pWA?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "5 Things to Know Before the Stock Market Opens",
-      "source": "Investopedia",
-      "publishedAt": "2026-04-15T11:48:50+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUS1nMmg4VXNadjVzQW81NVRvTEZCRzZ3eDcxUHVaaDdWTl9PaGVlSFZLMGYzcnFQbEVBamNCdWVsTEVEeFNyUUtsZmo0LVFjNFB1aEo0N0NlWVBQSEplR2Jhc0JRSzNQc1hiYVdCczN2aTZfaHZ2TlYxOGw0anJFSDVPUU5abFA4X1J4VHNJcXdDVlFxUDcyNjgzMl9McXc?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     }
   ]
