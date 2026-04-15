@@ -1,306 +1,76 @@
 {
-  "generatedAt": "2026-04-15T10:10:02.352632+00:00",
+  "generatedAt": "1970-01-01T00:00:00+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
       "latest.json",
+      "Stooq",
       "FRED",
-      "Multpl"
+      "Multpl",
+      "CurrentMarketValuation",
+      "Google News RSS"
     ]
   },
   "marketStatus": {
     "phase": {
-      "title": "Erhöhte Vorsicht",
-      "value": 40.0,
-      "unit": "",
-      "tone": "m",
-      "status": "Mehr Spannungen als in ruhigeren Phasen."
+      "title": "Lade…",
+      "status": "Die Marktphase wird automatisch berechnet."
     },
     "vix": {
-      "title": "Relativ ruhig",
-      "value": 19.1,
-      "unit": "",
-      "tone": "l",
-      "status": "VIX bei 19.1. Unter dem langfristigen Durchschnitt von ~17–20."
+      "title": "Lade…",
+      "status": "Die VIX-Lesart wird automatisch berechnet."
     },
     "breadth": {
-      "title": "57 % über 200T-Ø (Proxy)",
-      "value": 57,
-      "unit": "%",
-      "tone": "m",
-      "status": "Näherungswert abgeleitet aus VIX-Niveau. Direktdaten nicht via FRED verfügbar."
+      "title": "Lade…",
+      "status": "Die Marktbreite wird automatisch berechnet."
     }
   },
   "overallMode": {
-    "title": "Erhöhte Aufmerksamkeit",
-    "value": null,
-    "unit": "",
-    "tone": "m",
-    "status": "Signale verschlechtern sich, aber noch keine breite Eskalation."
+    "title": "Lade…",
+    "status": "Die Gesamtlesart wird automatisch berechnet."
   },
-  "technicalTriggers": [
-    {
-      "label": "50T vs. 200T",
-      "value": null,
-      "unit": "",
-      "tone": "m",
-      "status": "Kursdaten nicht verfügbar.",
-      "history": []
-    },
-    {
-      "label": "RSI (14)",
-      "value": null,
-      "unit": "",
-      "tone": "m",
-      "status": "RSI nicht berechenbar.",
-      "history": []
-    },
-    {
-      "label": "Drawdown vom Hoch",
-      "value": null,
-      "unit": "%",
-      "tone": "m",
-      "status": "Drawdown nicht berechenbar.",
-      "history": []
-    }
-  ],
-  "valuation": [
-    {
-      "label": "Shiller CAPE",
-      "value": null,
-      "unit": "",
-      "tone": "m",
-      "status": "Shiller CAPE temporär nicht verfügbar. Quelle (multpl.com) nicht erreichbar – wird beim nächsten Update erneut versucht.",
-      "history": []
-    },
-    {
-      "label": "Buffett-Indikator",
-      "value": null,
-      "unit": "%",
-      "tone": "m",
-      "status": "Buffett-Indikator temporär nicht verfügbar. Wilshire 5000 oder GDP-Daten konnten nicht abgerufen werden.",
-      "history": []
-    },
-    {
-      "label": "Gewinnwachstum",
-      "value": null,
-      "unit": "%",
-      "tone": "m",
-      "status": "Keine Gewinnwachstumsdaten verfügbar.",
-      "history": []
-    }
-  ],
-  "macro": [
-    {
-      "label": "Zinsumfeld",
-      "value": 3.64,
-      "unit": "%",
-      "tone": "m",
-      "status": "US-Leitzins bei 3.64 %. Neutral bis leicht restriktiv.",
-      "history": []
-    },
-    {
-      "label": "Wachstum",
-      "value": 0.0,
-      "unit": "%",
-      "tone": "m",
-      "status": "BIP-Wachstum (real, ann.) zuletzt +0.0 %. Das Wachstumsrisiko hat zugenommen.",
-      "history": []
-    },
-    {
-      "label": "Rezessionsindikatoren",
-      "value": 0.5,
-      "unit": "%",
-      "tone": "l",
-      "status": "Noch kein bestätigter Crash-Makro-Modus, aber klar fragiler als in ruhigeren Marktphasen. Modell bei 0.5 %.",
-      "history": []
-    }
-  ],
+  "technicalTriggers": [],
+  "valuation": [],
+  "macro": [],
   "sentiment": {
-    "marketMood": "Verhalten konstruktiv, aber mit erhöhter Sensitivität gegenüber negativen Datenpunkten.",
-    "tags": [
-      "Relativ ruhig"
-    ],
-    "risks": [
-      "BIP-Wachstum 0.0 % – konjunkturelle Unterstützung begrenzt."
-    ]
+    "marketMood": "Lade…",
+    "tags": [],
+    "risks": []
   },
-  "geopolitics": [
-    {
-      "field": "Russland / Ukraine",
-      "status": "Fortlaufender Konflikt",
-      "impact": "Energiepreise, Getreide, Transportkorridore Schwarzes Meer."
-    },
-    {
-      "field": "Naher Osten / Gaza",
-      "status": "Aktives Konfliktfeld",
-      "impact": "Ölpreisrisiko, Hormuz-Passage, LNG-Routen, Gold als Safe Haven."
-    },
-    {
-      "field": "Taiwan-Straße / China",
-      "status": "Erhöhte Spannungen",
-      "impact": "Halbleiterversorgung, Lieferketten, US-Dollar-Dynamik."
-    },
-    {
-      "field": "Rotes Meer / Houthi",
-      "status": "Andauernde Störung",
-      "impact": "Suez-Alternative, Frachtkosten, Lieferzeiten weltweit erhöht."
-    }
-  ],
+  "geopolitics": [],
   "marketBottomProbability": {
     "title": "Market Bottom Probability",
-    "score": 30,
-    "scoreLabel": "30 %",
-    "reason": "Rezessionsrisiko begrenzt; Sahm Rule unter Warnschwelle",
-    "interpretation": "Noch keine klare Bodenbildungskonstellation erkennbar."
+    "score": 0,
+    "scoreLabel": "0 %",
+    "reason": "Lade…",
+    "interpretation": "Lade…"
   },
   "crashProbability": {
     "title": "Crash Probability",
-    "score": 16,
-    "scoreLabel": "16 %",
-    "reason": "Stress 40/100, Rezessionsrisiko 0.5 %, VIX 19.1.",
-    "interpretation": "Crash-Risiko derzeit begrenzt."
+    "score": 0,
+    "scoreLabel": "0 %",
+    "reason": "Lade…",
+    "interpretation": "Lade…"
   },
   "timingQuality": {
     "title": "Timing-Qualität",
     "score": 0,
-    "scoreLabel": "Zu früh 16 % · Optimal 8 % · Zu spät 76 %",
-    "reason": "Bottom-Signal 30 %, Crash-Risiko 16 %.",
-    "interpretation": "Kein klares Timing-Fenster erkennbar."
+    "scoreLabel": "Zu früh 0 % · Optimal 0 % · Zu spät 0 %",
+    "reason": "Lade…",
+    "interpretation": "Lade…"
   },
   "updateTriggers": {
-    "positive": [
-      "VIX fällt nachhaltig unter 20 (Beruhigungssignal).",
-      "Fed signalisiert klare Zinspause oder Lockerungserwartungen.",
-      "Rezessionsmodell stabilisiert sich unter 20 %.",
-      "Marktbreite verbessert sich – mehr Titel über 200T-Durchschnitt.",
-      "Gewinnrevisionen für S&P-500-Unternehmen drehen ins Positive."
-    ],
-    "refresh": [
-      "Fed-Entscheidung oder FOMC-Protokoll.",
-      "Nächste Arbeitsmarktdaten (NFP, Sahm Rule).",
-      "Quartals-BIP-Revision (FRED A191RL1Q225SBEA).",
-      "Earnings-Season-Auftakt.",
-      "Geopolitische Eskalation in bekannten Risikofeldern."
-    ]
+    "positive": [],
+    "refresh": []
   },
   "timeVsTiming": {
-    "timeInMarket": "Langfristige Anlagepläne profitieren historisch von Korrekturen, wenn sie diszipliniert durchgehalten werden. Wer raus ist, verpasst die meisten Erholungstage.",
-    "marketTiming": "Das aktuelle Umfeld zeigt erhöhte Spannungen. Stress-Score 40/100. Wer neue Positionen aufbaut, profitiert von gestaffeltem Einstieg.",
-    "summary": "Die Trennung zwischen langfristiger Logik und kurzfristiger Marktlesart bleibt der wichtigste Hebel gegen emotionale Fehlentscheidungen."
+    "timeInMarket": "Lade…",
+    "marketTiming": "Lade…",
+    "summary": "Lade…"
   },
   "charts": {
-    "chartLabel": "NASDAQ Composite",
     "qqq": [],
     "vix": [],
     "brent": []
-  },
-  "news": [
-    {
-      "title": "Has the Stock Market Really Been More Volatile Than Usual This Year?",
-      "source": "Morningstar",
-      "publishedAt": "2026-04-15T09:11:15+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTllDMnFERzRraW1EY1VjTFZ0QVBZSGhGT3J1Rkx3QTU5LVE4d1k5aGM1bVcyajlFOHdxeXVYTUt6S1V4QUpaTC1TdjJRSFdlRTM4NXVFM2ZOREpfNEp2VmhqRkZYN3dNczlMcnZEcHRzcEdmUkdBQkp2ZlEzOVNDUS1OQmU0LTlBa1JYOUg4ODUwd3ZGalJobFQ0ZkhUTkk?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Oil prices fall and markets rally on renewed hopes for peace talks",
-      "source": "Euronews.com",
-      "publishedAt": "2026-04-15T07:47:03+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeHM5cDJ6M2EzRko1M2IzQU9FM3RLekFUTVd5QU1JMDNrbVhFeGZGZ0VyMVZSQ0szSWJiRUpsWkl5RzBDSUdRR2NER0VQOGN2MHRNQ0pTdlRPS244VTBReEZsemVEZWU4RW8wNkRZc285VGtVUmNqMS1lMFdtSHNyTU1NUjMzMVhoSGo1VC1ucV9HMThiMmV6SlN0WnI2eFRkUFVnRGNVQnZlLWVsVkRsTTFRWTQ3OF90MmFV?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Oil Shocks and Tariff Fears? These 3 Ultra-High-Yield Stocks Will Keep Paying You.",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-04-15T09:12:32+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTDAwMy1ieUswT1BvWS10TnZLemEwcXp1dGl0dXlVb1R3WkdJTFRfSHJRZmdITTR0SUQ1WXVrNVBGMjdMbDRTX3dJNnM1Mmhtd0FUU0FhcllRYl9hNmhsQnJHTUJfak1FMk1TUC14VVB6WlFGZVR1MVQyd041MC12Tng5TW5RSVlGeWpOOFRjS1hwdTl1NE5Beg?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Ag Markets Impacted by Money Flow, Crude Oil and Weather on Tuesday",
-      "source": "AgWeb",
-      "publishedAt": "2026-04-14T21:50:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbHBaWERObVBlUy1HY2lZTDRtMzRTWjd2ckhhT2pxOUxiUm9kbV91R0JtTXZyOWZ0eTI0TnRCaHIybnlaYUNubXBhTkVHczFwdTNOU2g4b1VMeF82M0xCcTBGTURqUTgwLXlxWjRkSE80a0t5NTQ2a3Yyc0NSUFJBaHhjTkNZRUNjQ2ZVODFRUUl6WUhEaEJVa1o5ZlJsRXoyYV9YQWo0UUdsdw?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stocks rise and oil prices ease as hopes climb for another round of US-Iran talks",
-      "source": "Dayton Daily News",
-      "publishedAt": "2026-04-14T13:48:50+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNODhDZ0pzcnJfTkJWcXdRS01rRDhlb3VxSFg4elZGRXBNdFc3Vnhza1lMQUd1V09qY2pMZWFXeWIxY2dfQkJzWldndUpzTUZnUkQ5a1RlRVEyM3JMQkZ4Y2FURHZnZnUtWlNQTjR3OVl6SUUxY1F0VmNWZDdZODRFOWRfdDZXUG9fVm00YjJlRnhnYVVCNHhYZlRiWGJDS0xyN3FFT1ZVdUR3aFduLVVScXpJQnFHenJua2lwOXlINThlMm1QRlJVeU5GQ3JoSnItaWZZMkJ4M083a2o5UGZjSFFsdG9CMzRJT21nd1NvdFBxYm9HdERwcFNUdmxhdm8?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "5 Things to Know Before the Stock Market Opens",
-      "source": "Investopedia",
-      "publishedAt": "2026-04-14T12:14:25+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQb0lsVmlGWUlVOWtCZHVwTndzSnJyZGVnWGN3VzR6MkxFNXF5VWxMTVl4WnRMRWRCYnBpeDdVN24tc19sbWRzQUF0MUQ5dU5Yb3RQOVRHSENfWEMwMG15OUFQRmp2WEhOdTREV1FyXzE0Vl9EU2JNRUl2LXJmLXZienA2UDhyczhTYkh6YkpHWW1uOUR6MWVBV0V6cFRKSms?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    }
-  ]
+  }
 }
