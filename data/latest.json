@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-15T12:16:09.731331+00:00",
+  "fetchedAt": "2026-04-15T13:13:27.387642+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -28,7 +28,7 @@
     },
     "fedRate": {
       "value": 3.64,
-      "date": "2026-04-13",
+      "date": "2026-04-14",
       "cadence": "daily",
       "series": "EFFR",
       "displayName": "Effective Federal Funds Rate",
@@ -118,7 +118,7 @@
     }
   },
   "globalComposite": {
-    "value": 30.0,
+    "value": 34.7,
     "label": "Stabil",
     "date": "2026-04-15"
   },
@@ -158,12 +158,12 @@
       "name": "Japan",
       "score": 52.0,
       "label": "Beobachten",
-      "date": "2030-01-01",
+      "date": "2026-04-10",
       "summary": "Japan wird über Wachstum, Preisbild und Yen-Stärke gelesen. Ein schwacher Yen kann globalen Stress und importierten Preisauftrieb verstärken.",
       "driverText": "Japan wird über Wachstum, Preisbild und Yen-Stärke gelesen. Ein schwacher Yen kann globalen Stress und importierten Preisauftrieb verstärken.",
       "inflation": {
-        "value": 2.0,
-        "date": "2030-01-01",
+        "value": 2.83,
+        "date": "2025-01-01",
         "unit": "%",
         "cadence": "annual",
         "series": "JPNPCPIPCPPPT"
@@ -187,14 +187,14 @@
     },
     "china": {
       "name": "China",
-      "score": 23.0,
+      "score": 37.0,
       "label": "Stabil",
-      "date": "2030-01-01",
+      "date": "2026-04-10",
       "summary": "China wird hier über Wachstum, Preisbild und Yuan-Stärke gelesen. Schwächeres Wachstum oder sehr niedriger Preisauftrieb können globalen Industrie- und Rohstoffdruck verstärken.",
       "driverText": "China wird hier über Wachstum, Preisbild und Yuan-Stärke gelesen. Schwächeres Wachstum oder sehr niedriger Preisauftrieb können globalen Industrie- und Rohstoffdruck verstärken.",
       "inflation": {
-        "value": 2.02,
-        "date": "2030-01-01",
+        "value": 0.54,
+        "date": "2025-01-01",
         "unit": "%",
         "cadence": "annual",
         "series": "CHNPCPIPCPPPT"
@@ -6946,6 +6946,10 @@
       },
       {
         "date": "2026-04-13",
+        "value": 3.64
+      },
+      {
+        "date": "2026-04-14",
         "value": 3.64
       }
     ],
@@ -20624,10 +20628,10 @@
   },
   "news": [
     {
-      "title": "Has the Stock Market Really Been More Volatile Than Usual This Year?",
-      "source": "Morningstar",
-      "publishedAt": "2026-04-15T09:12:10+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTllDMnFERzRraW1EY1VjTFZ0QVBZSGhGT3J1Rkx3QTU5LVE4d1k5aGM1bVcyajlFOHdxeXVYTUt6S1V4QUpaTC1TdjJRSFdlRTM4NXVFM2ZOREpfNEp2VmhqRkZYN3dNczlMcnZEcHRzcEdmUkdBQkp2ZlEzOVNDUS1OQmU0LTlBa1JYOUg4ODUwd3ZGalJobFQ0ZkhUTkk?oc=5",
+      "title": "Iran war 'very close to over,' Trump says — and the stock market 'is going to boom'",
+      "source": "CNBC",
+      "publishedAt": "2026-04-15T10:35:12+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZXpUNktCNVQyMFNEa3dvWTdncVV6bEZ1cGRONjRLR1VMN29yeU5DSF9hMGt0ZkxaREZSN053UGMwRng0THV0bDRSM0NWNjlQUk9oRGo4T2ltMDhWNUx4UXRBOEdPMDVEbURyUFVCODlqRnJJMFJBNmZ4TUZCMm5pR2t0am0xMmFFeDFJY3g5c3IwSkhGbWVRX3FLYTPSAaIBQVVfeXFMTnFJVjdVdjExaHNHTkFzR2x0X19pSkkwdlRaekxJR0I0MzA0cVVWNUxPaHgwNGRXTGNzUkQtY3VzOUh6TGt6Skl0a1V4MUc5VFNJMV9HQktrY0k3MmhTY052dl9tdHQ2Q0FwOWRVWUVXNmtFNjAyWlg0Z3o0XzJ0eFZ4NzhHRnhiaGdyZ0pxYW5vZHFUcG02eFh0MzhrMXBHNVpB?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20641,10 +20645,10 @@
       ]
     },
     {
-      "title": "Iran war 'very close to over,' Trump says — and the stock market 'is going to boom'",
-      "source": "CNBC",
-      "publishedAt": "2026-04-15T10:35:12+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZXpUNktCNVQyMFNEa3dvWTdncVV6bEZ1cGRONjRLR1VMN29yeU5DSF9hMGt0ZkxaREZSN053UGMwRng0THV0bDRSM0NWNjlQUk9oRGo4T2ltMDhWNUx4UXRBOEdPMDVEbURyUFVCODlqRnJJMFJBNmZ4TUZCMm5pR2t0am0xMmFFeDFJY3g5c3IwSkhGbWVRX3FLYTPSAaIBQVVfeXFMTnFJVjdVdjExaHNHTkFzR2x0X19pSkkwdlRaekxJR0I0MzA0cVVWNUxPaHgwNGRXTGNzUkQtY3VzOUh6TGt6Skl0a1V4MUc5VFNJMV9HQktrY0k3MmhTY052dl9tdHQ2Q0FwOWRVWUVXNmtFNjAyWlg0Z3o0XzJ0eFZ4NzhHRnhiaGdyZ0pxYW5vZHFUcG02eFh0MzhrMXBHNVpB?oc=5",
+      "title": "Has the Stock Market Really Been More Volatile Than Usual This Year?",
+      "source": "Morningstar",
+      "publishedAt": "2026-04-15T09:12:10+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTllDMnFERzRraW1EY1VjTFZ0QVBZSGhGT3J1Rkx3QTU5LVE4d1k5aGM1bVcyajlFOHdxeXVYTUt6S1V4QUpaTC1TdjJRSFdlRTM4NXVFM2ZOREpfNEp2VmhqRkZYN3dNczlMcnZEcHRzcEdmUkdBQkp2ZlEzOVNDUS1OQmU0LTlBa1JYOUg4ODUwd3ZGalJobFQ0ZkhUTkk?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20676,6 +20680,23 @@
       ]
     },
     {
+      "title": "5 Things to Know Before the Stock Market Opens",
+      "source": "Investopedia",
+      "publishedAt": "2026-04-15T11:48:50+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUS1nMmg4VXNadjVzQW81NVRvTEZCRzZ3eDcxUHVaaDdWTl9PaGVlSFZLMGYzcnFQbEVBamNCdWVsTEVEeFNyUUtsZmo0LVFjNFB1aEo0N0NlWVBQSEplR2Jhc0JRSzNQc1hiYVdCczN2aTZfaHZ2TlYxOGw0anJFSDVPUU5abFA4X1J4VHNJcXdDVlFxUDcyNjgzMl9McXc?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "Oil Shocks and Tariff Fears? These 3 Ultra-High-Yield Stocks Will Keep Paying You.",
       "source": "The Motley Fool",
       "publishedAt": "2026-04-15T09:12:32+00:00",
@@ -20694,38 +20715,20 @@
       ]
     },
     {
-      "title": "Ag Markets Impacted by Money Flow, Crude Oil and Weather on Tuesday",
-      "source": "AgWeb",
-      "publishedAt": "2026-04-14T21:50:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbHBaWERObVBlUy1HY2lZTDRtMzRTWjd2ckhhT2pxOUxiUm9kbV91R0JtTXZyOWZ0eTI0TnRCaHIybnlaYUNubXBhTkVHczFwdTNOU2g4b1VMeF82M0xCcTBGTURqUTgwLXlxWjRkSE80a0t5NTQ2a3Yyc0NSUFJBaHhjTkNZRUNjQ2ZVODFRUUl6WUhEaEJVa1o5ZlJsRXoyYV9YQWo0UUdsdw?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "JPMorgan Tops Estimates. CEO Jamie Dimon Sees Economic Tailwinds, Risks.",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-04-14T20:18:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYkZzZU9NWFpkMTZVb2hHSWVNNEZSUkxvNFJGRThlWVRYbnhodTV0czVFd2wtLXpRUHJQQlBYLUlpZzVfNFRoWWtrOFdEWWdLX1VzMTJ6SHVycW9yaVBVSU1nZjNCdTEtNU84eVZ0V3RRdEg1SUlTNmRMT3dvOW5KNTZydEZtc0xYSlhEaklEWHhfN2ExZENZVG4zeXVLNjlyeGZ5UWhzQzk4OXNZ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Stock market today: Dow wavers after Trump's latest Iran comments; ASML falls on earnings (live coverage)",
+      "source": "MSN",
+      "publishedAt": "2026-04-15T12:24:34+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNRVhlQlpJQzVPVy16b3V3dlNxUGtkODZtZjhXd2ttUU0yTDlldlZxdGxCdTl3eWh3ZkRpTkdvWXpnc2NRUmY0NlNnVGFnMTF5UzdLdndtcWVobFhoVGtIUG9DZkhyenZiYmU0UDE3c28tWWFoWlU3ekc1V25NZmZheXkwVVlPdnp1NG9nVWJFNGhKOUF5RVhNNUhwZElIU2tiajlLX2QwVTVXNEpSWVdidDVmOGFyMklXQnRfQzhqM3JSeEFfSnNvTms5RWF6WE9MQWZDWllYWGgwc3Z0QmpZaDFKZEpEdnFRaGFXQkNqWFBqZWg0LVZ0bE1RdENEZ2pKQUVoLVNrTHhEV28?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
         "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     }
   ],
@@ -20832,7 +20835,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-04-15T12:16:09.731331+00:00",
+      "dataAsOf": "2026-04-15T13:13:27.387642+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
