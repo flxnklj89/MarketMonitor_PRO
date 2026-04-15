@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-15T06:21:57.375873+00:00",
+  "fetchedAt": "2026-04-15T06:40:21.019874+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20659,10 +20659,10 @@
       ]
     },
     {
-      "title": "Ag Markets Impacted by Money Flow, Crude Oil and Weather on Tuesday",
-      "source": "AgWeb",
-      "publishedAt": "2026-04-14T21:50:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbHBaWERObVBlUy1HY2lZTDRtMzRTWjd2ckhhT2pxOUxiUm9kbV91R0JtTXZyOWZ0eTI0TnRCaHIybnlaYUNubXBhTkVHczFwdTNOU2g4b1VMeF82M0xCcTBGTURqUTgwLXlxWjRkSE80a0t5NTQ2a3Yyc0NSUFJBaHhjTkNZRUNjQ2ZVODFRUUl6WUhEaEJVa1o5ZlJsRXoyYV9YQWo0UUdsdw?oc=5",
+      "title": "Wall Street rallies to the edge of its all-time high as oil prices ease",
+      "source": "Dayton Daily News",
+      "publishedAt": "2026-04-14T17:54:11+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQb1FUNlQxQlJxTVUtZzRianhyUTctbkFNMmkwUUhxc3V4b0VkcUNhTEk5TDVFWEJWcDI5eDJZSkoxVUZyODh2bm10QWZyZ21BS3FZMmZkc3MzejlOaTVGcmI5T3lFNXh5eThRU3JNa1JmR1E0QUdWYnc4N2NwTmFxNHVFdl9RX1dnV1B0Y3RGQXpNSjNsLXlRMkZnM0FFQjdxclNNVmRPUmxTRVNMVm5oUy1VSmlFTU5HRnVhZWd3dVRxSlZ4Q3ppNVBxZlFKMTFIeDJncUdhdkFwTlBFdXU0dHJvRDd5YTF5U0NSTExzYUp3SV9TbTFLbHJn?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20677,10 +20677,10 @@
       ]
     },
     {
-      "title": "Wall Street rallies to the edge of its all-time high as oil prices ease",
-      "source": "Journal-News.com",
-      "publishedAt": "2026-04-14T17:54:11+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNM1k4dEJtMjIzRlUxZE5IRzQ1OGtnd0lRdW1hTmFRc196STRCTEthWmoyaDliQVFKTFBTbXNEQl9LaXVpSS1FaUowZVJQZ25EaHp0WWpNQmkwbl9MVGtzaG9KR2s5UEdyaE16R2tadm1rOGc1NnpnaE1TaW9raDRNTFViYl9JUDVNQXpiUXpoWFZPSjdaVGVOcDBlVjBnbGk3UlY3Yi1td0Q4Q0lKZmZybUNvbmpFVmJZYmxGVzhvcV9CQmRJcEh1RzFhUWNvS0pGbzNmbWJDSUNHeHE1NHpVR3ZsdXFzcVhKd0dfd3MxNEtaTGs3eUE?oc=5",
+      "title": "Ag Markets Impacted by Money Flow, Crude Oil and Weather on Tuesday",
+      "source": "AgWeb",
+      "publishedAt": "2026-04-14T21:50:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbHBaWERObVBlUy1HY2lZTDRtMzRTWjd2ckhhT2pxOUxiUm9kbV91R0JtTXZyOWZ0eTI0TnRCaHIybnlaYUNubXBhTkVHczFwdTNOU2g4b1VMeF82M0xCcTBGTURqUTgwLXlxWjRkSE80a0t5NTQ2a3Yyc0NSUFJBaHhjTkNZRUNjQ2ZVODFRUUl6WUhEaEJVa1o5ZlJsRXoyYV9YQWo0UUdsdw?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20833,7 +20833,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-04-15T06:21:57.375873+00:00",
+      "dataAsOf": "2026-04-15T06:40:21.019874+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
