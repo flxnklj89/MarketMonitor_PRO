@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-15T09:25:49.149714+00:00",
+  "fetchedAt": "2026-04-15T10:09:57.864263+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20624,6 +20624,23 @@
   },
   "news": [
     {
+      "title": "Has the Stock Market Really Been More Volatile Than Usual This Year?",
+      "source": "Morningstar",
+      "publishedAt": "2026-04-15T09:11:15+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTllDMnFERzRraW1EY1VjTFZ0QVBZSGhGT3J1Rkx3QTU5LVE4d1k5aGM1bVcyajlFOHdxeXVYTUt6S1V4QUpaTC1TdjJRSFdlRTM4NXVFM2ZOREpfNEp2VmhqRkZYN3dNczlMcnZEcHRzcEdmUkdBQkp2ZlEzOVNDUS1OQmU0LTlBa1JYOUg4ODUwd3ZGalJobFQ0ZkhUTkk?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "Oil prices fall and markets rally on renewed hopes for peace talks",
       "source": "Euronews.com",
       "publishedAt": "2026-04-15T07:47:03+00:00",
@@ -20639,23 +20656,6 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Has the Stock Market Really Been More Volatile Than Usual This Year?",
-      "source": "Morningstar",
-      "publishedAt": "2026-04-15T09:11:15+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTllDMnFERzRraW1EY1VjTFZ0QVBZSGhGT3J1Rkx3QTU5LVE4d1k5aGM1bVcyajlFOHdxeXVYTUt6S1V4QUpaTC1TdjJRSFdlRTM4NXVFM2ZOREpfNEp2VmhqRkZYN3dNczlMcnZEcHRzcEdmUkdBQkp2ZlEzOVNDUS1OQmU0LTlBa1JYOUg4ODUwd3ZGalJobFQ0ZkhUTkk?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     },
     {
@@ -20695,27 +20695,28 @@
       ]
     },
     {
+      "title": "Stocks rise and oil prices ease as hopes climb for another round of US-Iran talks",
+      "source": "Dayton Daily News",
+      "publishedAt": "2026-04-14T13:48:50+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNODhDZ0pzcnJfTkJWcXdRS01rRDhlb3VxSFg4elZGRXBNdFc3Vnhza1lMQUd1V09qY2pMZWFXeWIxY2dfQkJzWldndUpzTUZnUkQ5a1RlRVEyM3JMQkZ4Y2FURHZnZnUtWlNQTjR3OVl6SUUxY1F0VmNWZDdZODRFOWRfdDZXUG9fVm00YjJlRnhnYVVCNHhYZlRiWGJDS0xyN3FFT1ZVdUR3aFduLVVScXpJQnFHenJua2lwOXlINThlMm1QRlJVeU5GQ3JoSnItaWZZMkJ4M083a2o5UGZjSFFsdG9CMzRJT21nd1NvdFBxYm9HdERwcFNUdmxhdm8?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
       "title": "5 Things to Know Before the Stock Market Opens",
       "source": "Investopedia",
       "publishedAt": "2026-04-14T12:14:25+00:00",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQb0lsVmlGWUlVOWtCZHVwTndzSnJyZGVnWGN3VzR6MkxFNXF5VWxMTVl4WnRMRWRCYnBpeDdVN24tc19sbWRzQUF0MUQ5dU5Yb3RQOVRHSENfWEMwMG15OUFQRmp2WEhOdTREV1FyXzE0Vl9EU2JNRUl2LXJmLXZienA2UDhyczhTYkh6YkpHWW1uOUR6MWVBV0V6cFRKSms?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "JPMorgan Tops Estimates. CEO Jamie Dimon Sees Economic Tailwinds, Risks.",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-04-14T20:18:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYkZzZU9NWFpkMTZVb2hHSWVNNEZSUkxvNFJGRThlWVRYbnhodTV0czVFd2wtLXpRUHJQQlBYLUlpZzVfNFRoWWtrOFdEWWdLX1VzMTJ6SHVycW9yaVBVSU1nZjNCdTEtNU84eVZ0V3RRdEg1SUlTNmRMT3dvOW5KNTZydEZtc0xYSlhEaklEWHhfN2ExZENZVG4zeXVLNjlyeGZ5UWhzQzk4OXNZ?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20832,7 +20833,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-04-15T09:25:49.149714+00:00",
+      "dataAsOf": "2026-04-15T10:09:57.864263+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
