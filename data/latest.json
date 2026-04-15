@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-15T13:53:18.086255+00:00",
+  "fetchedAt": "2026-04-15T15:55:18.228615+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20645,6 +20645,23 @@
       ]
     },
     {
+      "title": "Stock market cautious after rally with more earnings on tap (SPX:)",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-04-15T08:11:47+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNd29OaHhoUU82TWgyOGFlS1hPYUwwSUtOSzRWek5OTmJQb0tvd2tDRGVyRlVyb1k5VldlcDh6aWh4ek5ob0hCSXNjMlBGR3JKWW1UVko1LXZTbEwwd194TEV4YWE4Ui10TTBacHE3Tks2RUJ3TTJYcWw3dThCUzJCN2xYREVWbDA1eE9ua3dfMllUR21CTzZVTUdkVmxfMTQ?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
       "title": "Has the Stock Market Really Been More Volatile Than Usual This Year?",
       "source": "Morningstar",
       "publishedAt": "2026-04-15T09:12:10+00:00",
@@ -20662,63 +20679,44 @@
       ]
     },
     {
-      "title": "Oil Shocks and Tariff Fears? These 3 Ultra-High-Yield Stocks Will Keep Paying You.",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-04-15T09:40:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTDAwMy1ieUswT1BvWS10TnZLemEwcXp1dGl0dXlVb1R3WkdJTFRfSHJRZmdITTR0SUQ1WXVrNVBGMjdMbDRTX3dJNnM1Mmhtd0FUU0FhcllRYl9hNmhsQnJHTUJfak1FMk1TUC14VVB6WlFGZVR1MVQyd041MC12Tng5TW5RSVlGeWpOOFRjS1hwdTl1NE5Beg?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stock market today: Dow wavers after Trump's latest Iran comments; ASML falls on earnings (live coverage)",
-      "source": "MSN",
-      "publishedAt": "2026-04-15T12:24:34+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNRVhlQlpJQzVPVy16b3V3dlNxUGtkODZtZjhXd2ttUU0yTDlldlZxdGxCdTl3eWh3ZkRpTkdvWXpnc2NRUmY0NlNnVGFnMTF5UzdLdndtcWVobFhoVGtIUG9DZkhyenZiYmU0UDE3c28tWWFoWlU3ekc1V25NZmZheXkwVVlPdnp1NG9nVWJFNGhKOUF5RVhNNUhwZElIU2tiajlLX2QwVTVXNEpSWVdidDVmOGFyMklXQnRfQzhqM3JSeEFfSnNvTms5RWF6WE9MQWZDWllYWGgwc3Z0QmpZaDFKZEpEdnFRaGFXQkNqWFBqZWg0LVZ0bE1RdENEZ2pKQUVoLVNrTHhEV28?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "Stocks Complete Speedy Iran War Round Trip. The Next Leg of the Journey Awaits.",
+      "source": "Barron's",
+      "publishedAt": "2026-04-15T13:58:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUkY3VUZEQlJsX1hKLU9SZmhBOXNDQjFUR1piTkNCVmhDRUp1SnBzbDRLOUNvTFZkQVNXLXE3OG1KRGdiNEZNYk94c25yS2FZekpVVXBwOUtiemxlQjl0RHlKWTlSeHZzeG5LdkdvSlpudDk1SVJMbHpyNjVES29JQTkyVEg?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
-      "title": "Ag Markets Impacted by Money Flow, Crude Oil and Weather on Tuesday",
-      "source": "AgWeb",
-      "publishedAt": "2026-04-14T21:50:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbHBaWERObVBlUy1HY2lZTDRtMzRTWjd2ckhhT2pxOUxiUm9kbV91R0JtTXZyOWZ0eTI0TnRCaHIybnlaYUNubXBhTkVHczFwdTNOU2g4b1VMeF82M0xCcTBGTURqUTgwLXlxWjRkSE80a0t5NTQ2a3Yyc0NSUFJBaHhjTkNZRUNjQ2ZVODFRUUl6WUhEaEJVa1o5ZlJsRXoyYV9YQWo0UUdsdw?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "Worried About a Stock Market Crash? These 3 Stocks Beat the S&P 500 by Wide Margins When It Nosedived in 2022, and They Could Do It Again",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-04-15T15:54:29+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeU1NT2pkcWx1Qkc2Q3Z1b29zMkhRdlBOa3dyT3k0R3RpX2k5SC1jV3RTaFhYY3hSc2J1Qno3NFY4Qm1HYi0xT3FnanVsdHJlTVVwQ0NveFlidm54LXhfMzcwQkpscU1TX1NXbXRuSlFaUFljLWFyZDlkMHdPQ2p3aVJrQkllRXhZdmhVSmJoMUFsNFh6RHRJ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
-      "title": "Iran war 'very close to over,' Trump says — and the stock market 'is going to boom'",
-      "source": "CNBC",
-      "publishedAt": "2026-04-15T10:35:12+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZXpUNktCNVQyMFNEa3dvWTdncVV6bEZ1cGRONjRLR1VMN29yeU5DSF9hMGt0ZkxaREZSN053UGMwRng0THV0bDRSM0NWNjlQUk9oRGo4T2ltMDhWNUx4UXRBOEdPMDVEbURyUFVCODlqRnJJMFJBNmZ4TUZCMm5pR2t0am0xMmFFeDFJY3g5c3IwSkhGbWVRX3FLYTPSAaIBQVVfeXFMTnFJVjdVdjExaHNHTkFzR2x0X19pSkkwdlRaekxJR0I0MzA0cVVWNUxPaHgwNGRXTGNzUkQtY3VzOUh6TGt6Skl0a1V4MUc5VFNJMV9HQktrY0k3MmhTY052dl9tdHQ2Q0FwOWRVWUVXNmtFNjAyWlg0Z3o0XzJ0eFZ4NzhHRnhiaGdyZ0pxYW5vZHFUcG02eFh0MzhrMXBHNVpB?oc=5",
+      "title": "5 Things to Know Before the Stock Market Opens",
+      "source": "Investopedia",
+      "publishedAt": "2026-04-15T11:48:50+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUS1nMmg4VXNadjVzQW81NVRvTEZCRzZ3eDcxUHVaaDdWTl9PaGVlSFZLMGYzcnFQbEVBamNCdWVsTEVEeFNyUUtsZmo0LVFjNFB1aEo0N0NlWVBQSEplR2Jhc0JRSzNQc1hiYVdCczN2aTZfaHZ2TlYxOGw0anJFSDVPUU5abFA4X1J4VHNJcXdDVlFxUDcyNjgzMl9McXc?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20835,7 +20833,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-04-15T13:53:18.086255+00:00",
+      "dataAsOf": "2026-04-15T15:55:18.228615+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
