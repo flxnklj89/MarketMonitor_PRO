@@ -21,6 +21,7 @@ Wilshire / Buffett note:
 from __future__ import annotations
 import json, os, re, sys, urllib.error, urllib.parse, urllib.request
 from datetime import datetime, timedelta, timezone
+import time
 from pathlib import Path
 
 # ─── Config ──────────────────────────────────────────────────────────────────
@@ -54,10 +55,18 @@ BROWSER_HEADERS = {
 
 
 # ─── HTTP helpers ─────────────────────────────────────────────────────────────
-def http_get(url: str, timeout: int = 20) -> bytes:
-    req = urllib.request.Request(url, headers=BROWSER_HEADERS)
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read()
+def http_get(url: str, timeout: int = 20, retries: int = 3) -> bytes:
+    last_err = None
+    for attempt in range(retries):
+        try:
+            req = urllib.request.Request(url, headers=BROWSER_HEADERS)
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return r.read()
+        except Exception as e:
+            last_err = e
+            if attempt < retries - 1:
+                time.sleep(1.2 * (attempt + 1))
+    raise last_err
 
 
 def fred(series_id: str, observation_start: str | None = None) -> list[dict]:
@@ -563,22 +572,38 @@ def main() -> int:
     effr_obs  = hp(fred("EFFR",        DAILY_START), 2)
     vix_obs   = hp(fred("VIXCLS",      DAILY_START), 2)
     brent_obs = hp(fred("DCOILBRENTEU", DAILY_START), 2)
+    sp500_obs = hp(fred("SP500", DAILY_START), 2)
 
     # NASDAQ Composite – reliable FRED proxy for Growth / QQQ trend
     print("\n[FRED – NASDAQ Composite as Growth proxy]")
     nasdaq_raw  = hp(fred("NASDAQCOM", DAILY_START), 0)
+    chart_label = "NASDAQ Composite"
+    if not nasdaq_raw:
+        print("  ! NASDAQCOM unavailable, falling back to SP500", file=sys.stderr)
+        nasdaq_raw = [{"date": p["date"], "value": round(p["value"], 0)} for p in sp500_obs]
+        chart_label = "S&P 500 (Fallback)"
     nasdaq_vals = [p["value"] for p in nasdaq_raw]
 
-    # Wilshire 5000 – try multiple FRED series IDs
+    # Wilshire 5000 – try multiple FRED series IDs, then Fed Flow of Funds market cap series
     print("\n[FRED – Wilshire 5000 for Buffett indicator]")
     will_raw = hp(
         fred_first(["WILL5000PRFC", "WILL5000IND", "WILL5000INDFC", "WILL5000PR"], DAILY_START),
         0,
     )
+    if not will_raw:
+        print("  ! Wilshire series unavailable, falling back to BOGZ1LM883164115Q market cap", file=sys.stderr)
+        will_raw = coerce_market_value_to_billions(hp(fred("BOGZ1LM883164115Q", QUARTERLY_START), 0), assume_millions=True)
 
     # ── 3. Shiller CAPE (scrape) ──────────────────────────────────────────────
     print("\n[CAPE scrape]")
     cape_val = scrape_cape()
+    cape_hist: list[dict] = []
+    cape_is_proxy = False
+    if cape_val is None:
+        cape_val = scrape_cape_alternative()
+    if cape_val is None:
+        cape_val, cape_hist = fallback_proxy_valuation(sp500_obs, cp_obs)
+        cape_is_proxy = cape_val is not None
 
     # ── 4. Buffett Indicator ──────────────────────────────────────────────────
     print("\n[Buffett]")
@@ -607,9 +632,9 @@ def main() -> int:
     ]
 
     # ── 6. Classify ───────────────────────────────────────────────────────────
-    chart_label = "NASDAQ Composite"
-
     cape_tone,  _,         cape_status  = cape_classify(cape_val)
+    if cape_is_proxy and cape_val is not None:
+        cape_status = f"Shiller-CAPE-Proxy bei {cape_val:.1f}. FRED-basierte Ersatzberechnung, weil Direktquelle temporär nicht erreichbar war."
     buff_tone,  buff_status             = buffett_classify(buffett_val)
     earn_tone,  earn_status             = earnings_classify(earn_g)
     fed_tone,   fed_status              = fed_classify(fed_rate)
@@ -711,7 +736,7 @@ def main() -> int:
                 "unit":    "",
                 "tone":    cape_tone,
                 "status":  cape_status,
-                "history": [],
+                "history": spark(cape_hist, 40) if cape_hist else [],
             },
             {
                 "label":   "Buffett-Indikator",
