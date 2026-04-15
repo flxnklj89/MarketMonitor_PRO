@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-15T11:38:00.577897+00:00",
+  "fetchedAt": "2026-04-15T12:03:20.403112+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -127,7 +127,7 @@
       "name": "Europa",
       "score": 15.0,
       "label": "Stabil",
-      "date": "2026-04-14",
+      "date": "2026-04-15",
       "summary": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "driverText": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "inflation": {
@@ -140,7 +140,7 @@
       "growthOrRate": {
         "label": "ECB Einlagezins",
         "value": 2.0,
-        "date": "2026-04-14",
+        "date": "2026-04-15",
         "unit": "%",
         "cadence": "daily",
         "series": "ECBDFR"
@@ -234,15 +234,6 @@
       "chg": -0.11,
       "chgPct": -0.57,
       "unit": "",
-      "dec": 2
-    },
-    {
-      "label": "BRENT",
-      "icon": "🛢️",
-      "val": 127.61,
-      "chg": 8.05,
-      "chgPct": 6.73,
-      "unit": "USD",
       "dec": 2
     },
     {
@@ -20712,20 +20703,21 @@
       ]
     },
     {
-      "title": "JPMorgan Tops Estimates. CEO Jamie Dimon Sees Economic Tailwinds, Risks.",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-04-14T20:18:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYkZzZU9NWFpkMTZVb2hHSWVNNEZSUkxvNFJGRThlWVRYbnhodTV0czVFd2wtLXpRUHJQQlBYLUlpZzVfNFRoWWtrOFdEWWdLX1VzMTJ6SHVycW9yaVBVSU1nZjNCdTEtNU84eVZ0V3RRdEg1SUlTNmRMT3dvOW5KNTZydEZtc0xYSlhEaklEWHhfN2ExZENZVG4zeXVLNjlyeGZ5UWhzQzk4OXNZ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Why Northern Oil and Gas (NOG) Shares Are Sliding Today",
+      "source": "StockStory",
+      "publishedAt": "2026-04-14T20:35:49+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQemVQQ19YYTd3cmZwMm05Y1NtSjZweHR2UU94YXBTZWkxRy05UFBfNFlGekdaNDhYNkFsREg4WEhfQ3JITkd3STZqWk5kOFpETFNmSHJBTlB5TEYtV2lvVFNJaXNGYzhUck41NWltTk50Z25ibURuUTcwVm5GZmtOc2ViTXNOUURrVlVHRk1nZWViTmdjX3dqX2ZLd0pJWlVoWEtFVHJmRnlhYkI0ZmxuSGdn?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     }
   ],
@@ -20832,7 +20824,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-04-15T11:38:00.577897+00:00",
+      "dataAsOf": "2026-04-15T12:03:20.403112+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
