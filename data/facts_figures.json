@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-15T06:40:27.819224+00:00",
+  "generatedAt": "2026-04-15T08:24:18.944253+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -14,39 +14,63 @@
   "marketStatus": {
     "phase": {
       "title": "Neutral",
-      "status": "Die Marktphase ist mangels Daten nicht belastbar einordenbar."
+      "status": "Die Marktphase ist mangels Daten nicht belastbar einordenbar.",
+      "value": null,
+      "unit": "%",
+      "valueLabel": "SPX 20T",
+      "tone": "l"
     },
     "vix": {
       "title": "Keine Panikphase",
-      "status": "Keine klare Panikphase ableitbar, aber das Umfeld bleibt nervös."
+      "status": "Keine klare Panikphase ableitbar, aber das Umfeld bleibt nervös.",
+      "value": 19.1,
+      "tone": "l"
     },
     "breadth": {
       "title": "Nicht kollabiert",
-      "status": "Nicht kollabiert. Das spricht eher gegen akuten Crash-Modus."
+      "status": "Nicht kollabiert. Das spricht eher gegen akuten Crash-Modus.",
+      "value": null,
+      "unit": "%",
+      "valueLabel": "RSP/SPY 20T",
+      "tone": "l"
     }
   },
   "overallMode": {
     "title": "Stabil",
-    "status": "Die Daten zeigen eher ein angespanntes, aber noch nicht gebrochenes Umfeld."
+    "status": "Die Daten zeigen eher ein angespanntes, aber noch nicht gebrochenes Umfeld.",
+    "value": 34,
+    "unit": "% Crash-Risk",
+    "tone": "m"
   },
   "technicalTriggers": [
     {
       "label": "50T vs. 200T",
-      "status": "Trendbruch aktiv oder nahe dran. Das erhöht die Vorsicht gegenüber Growth."
+      "status": "Trendbruch aktiv oder nahe dran. Das erhöht die Vorsicht gegenüber Growth.",
+      "value": null,
+      "unit": "$",
+      "tone": "h",
+      "history": []
     },
     {
       "label": "RSI (14)",
-      "status": "Überverkauft-Signal aktiv. Das spricht eher für eine überdehnte Bewegung als für saubere Ruhe."
+      "status": "Überverkauft-Signal aktiv. Das spricht eher für eine überdehnte Bewegung als für saubere Ruhe.",
+      "value": null,
+      "tone": "l"
     },
     {
       "label": "Drawdown vom Hoch",
-      "status": "Der Drawdown ist tief genug, um das Bild klar fragiler zu machen."
+      "status": "Der Drawdown ist tief genug, um das Bild klar fragiler zu machen.",
+      "value": null,
+      "unit": "%",
+      "tone": "l"
     }
   ],
   "valuation": [
     {
       "label": "Shiller CAPE",
-      "status": "Nicht überhitzt."
+      "status": "Nicht überhitzt.",
+      "value": null,
+      "tone": "l"
     },
     {
       "label": "Buffett-Indikator",
@@ -60,7 +84,10 @@
   "macro": [
     {
       "label": "Zinsumfeld",
-      "status": "Komplizierter geworden. Höhere Energiepreise erschweren eine lockere Zinsfantasie."
+      "status": "Komplizierter geworden. Höhere Energiepreise erschweren eine lockere Zinsfantasie.",
+      "value": 3.64,
+      "unit": "%",
+      "tone": "m"
     },
     {
       "label": "Wachstum",
@@ -68,7 +95,10 @@
     },
     {
       "label": "Rezessionsindikatoren",
-      "status": "Noch kein bestätigter Crash-Makro-Modus, aber klar fragiler als in ruhigeren Marktphasen."
+      "status": "Noch kein bestätigter Crash-Makro-Modus, aber klar fragiler als in ruhigeren Marktphasen.",
+      "value": 0.5,
+      "unit": "%",
+      "tone": "l"
     }
   ],
   "sentiment": {
@@ -109,15 +139,15 @@
   ],
   "marketBottomProbability": {
     "title": "Market Bottom Probability",
-    "score": 49,
-    "scoreLabel": "49 %",
+    "score": 50,
+    "scoreLabel": "50 %",
     "reason": "Positiv ist die fehlende Kapitulation des Marktes. Negativ ist, dass Energie- und Geopolitikrisiken makroökonomisch relevant bleiben.",
     "interpretation": "Das bisherige Tief ist plausibel, aber geopolitisch nicht sicher hinter uns."
   },
   "crashProbability": {
     "title": "Crash Probability",
-    "score": 35,
-    "scoreLabel": "35 %",
+    "score": 34,
+    "scoreLabel": "34 %",
     "reason": "Die Wahrscheinlichkeit steigt mit Energie-, Lieferketten- und Rezessionsstress, bleibt aber begrenzt, solange keine klare Kapitulation sichtbar ist.",
     "interpretation": "Kein dominantes Crash-Szenario, aber deutlich mehr Tail Risk als in ruhigen Phasen."
   },
@@ -147,7 +177,1569 @@
     "summary": "In einem normalen Markt wäre die Entscheidung näher an einer Vollumsetzung. Mit der aktuellen Energie- und Geopolitik-Lage ist ein gestaffelter, disziplinierter Blick robuster."
   },
   "charts": {
-    "qqq": [],
+    "qqq": [
+      {
+        "date": "2025-04-01",
+        "close": 5633.07,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-04-02",
+        "close": 5670.97,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-04-03",
+        "close": 5396.52,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-04-04",
+        "close": 5074.08,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-04-07",
+        "close": 5062.25,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-04-08",
+        "close": 4982.77,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-04-09",
+        "close": 5456.9,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-04-10",
+        "close": 5268.05,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-04-11",
+        "close": 5363.36,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-04-14",
+        "close": 5405.97,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-04-15",
+        "close": 5396.63,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-04-16",
+        "close": 5275.7,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-04-17",
+        "close": 5282.7,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-04-21",
+        "close": 5158.2,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-04-22",
+        "close": 5287.76,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-04-23",
+        "close": 5375.86,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-04-24",
+        "close": 5484.77,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-04-25",
+        "close": 5525.21,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-04-28",
+        "close": 5528.75,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-04-29",
+        "close": 5560.83,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-04-30",
+        "close": 5569.06,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-05-01",
+        "close": 5604.14,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-05-02",
+        "close": 5686.67,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-05-05",
+        "close": 5650.38,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-05-06",
+        "close": 5606.91,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-05-07",
+        "close": 5631.28,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-05-08",
+        "close": 5663.94,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-05-09",
+        "close": 5659.91,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-05-12",
+        "close": 5844.19,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-05-13",
+        "close": 5886.55,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-05-14",
+        "close": 5892.58,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-05-15",
+        "close": 5916.93,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-05-16",
+        "close": 5958.38,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-05-19",
+        "close": 5963.6,
+        "ma50": null,
+        "ma200": null
+      },
+      {
+        "date": "2025-05-20",
+        "close": 5940.46,
+        "ma50": 5568.7,
+        "ma200": null
+      },
+      {
+        "date": "2025-05-21",
+        "close": 5844.61,
+        "ma50": 5574.15,
+        "ma200": null
+      },
+      {
+        "date": "2025-05-22",
+        "close": 5842.01,
+        "ma50": 5579.01,
+        "ma200": null
+      },
+      {
+        "date": "2025-05-23",
+        "close": 5802.82,
+        "ma50": 5584.64,
+        "ma200": null
+      },
+      {
+        "date": "2025-05-27",
+        "close": 5921.54,
+        "ma50": 5590.29,
+        "ma200": null
+      },
+      {
+        "date": "2025-05-28",
+        "close": 5888.55,
+        "ma50": 5594.56,
+        "ma200": null
+      },
+      {
+        "date": "2025-05-29",
+        "close": 5912.17,
+        "ma50": 5600.51,
+        "ma200": null
+      },
+      {
+        "date": "2025-05-30",
+        "close": 5911.69,
+        "ma50": 5605.23,
+        "ma200": null
+      },
+      {
+        "date": "2025-06-02",
+        "close": 5935.94,
+        "ma50": 5610.69,
+        "ma200": null
+      },
+      {
+        "date": "2025-06-03",
+        "close": 5970.37,
+        "ma50": 5616.75,
+        "ma200": null
+      },
+      {
+        "date": "2025-06-04",
+        "close": 5970.81,
+        "ma50": 5620.82,
+        "ma200": null
+      },
+      {
+        "date": "2025-06-05",
+        "close": 5939.3,
+        "ma50": 5624.07,
+        "ma200": null
+      },
+      {
+        "date": "2025-06-06",
+        "close": 6000.36,
+        "ma50": 5629.83,
+        "ma200": null
+      },
+      {
+        "date": "2025-06-09",
+        "close": 6005.88,
+        "ma50": 5636.08,
+        "ma200": null
+      },
+      {
+        "date": "2025-06-10",
+        "close": 6038.81,
+        "ma50": 5645.24,
+        "ma200": null
+      },
+      {
+        "date": "2025-06-11",
+        "close": 6022.24,
+        "ma50": 5653.45,
+        "ma200": null
+      },
+      {
+        "date": "2025-06-12",
+        "close": 6045.26,
+        "ma50": 5661.69,
+        "ma200": null
+      },
+      {
+        "date": "2025-06-13",
+        "close": 5976.97,
+        "ma50": 5667.81,
+        "ma200": null
+      },
+      {
+        "date": "2025-06-16",
+        "close": 6033.11,
+        "ma50": 5680.54,
+        "ma200": null
+      },
+      {
+        "date": "2025-06-17",
+        "close": 5982.72,
+        "ma50": 5698.72,
+        "ma200": null
+      },
+      {
+        "date": "2025-06-18",
+        "close": 5980.87,
+        "ma50": 5717.09,
+        "ma200": null
+      },
+      {
+        "date": "2025-06-20",
+        "close": 5967.84,
+        "ma50": 5736.79,
+        "ma200": null
+      },
+      {
+        "date": "2025-06-23",
+        "close": 6025.17,
+        "ma50": 5748.16,
+        "ma200": null
+      },
+      {
+        "date": "2025-06-24",
+        "close": 6092.18,
+        "ma50": 5764.64,
+        "ma200": null
+      },
+      {
+        "date": "2025-06-25",
+        "close": 6092.16,
+        "ma50": 5779.21,
+        "ma200": null
+      },
+      {
+        "date": "2025-06-26",
+        "close": 6141.02,
+        "ma50": 5793.92,
+        "ma200": null
+      },
+      {
+        "date": "2025-06-27",
+        "close": 6173.07,
+        "ma50": 5809.44,
+        "ma200": null
+      },
+      {
+        "date": "2025-06-30",
+        "close": 6204.95,
+        "ma50": 5828.03,
+        "ma200": null
+      },
+      {
+        "date": "2025-07-01",
+        "close": 6198.01,
+        "ma50": 5846.34,
+        "ma200": null
+      },
+      {
+        "date": "2025-07-02",
+        "close": 6227.42,
+        "ma50": 5867.72,
+        "ma200": null
+      },
+      {
+        "date": "2025-07-03",
+        "close": 6279.35,
+        "ma50": 5887.55,
+        "ma200": null
+      },
+      {
+        "date": "2025-07-07",
+        "close": 6229.98,
+        "ma50": 5904.63,
+        "ma200": null
+      },
+      {
+        "date": "2025-07-08",
+        "close": 6225.52,
+        "ma50": 5919.45,
+        "ma200": null
+      },
+      {
+        "date": "2025-07-09",
+        "close": 6263.26,
+        "ma50": 5934.21,
+        "ma200": null
+      },
+      {
+        "date": "2025-07-10",
+        "close": 6280.46,
+        "ma50": 5949.24,
+        "ma200": null
+      },
+      {
+        "date": "2025-07-11",
+        "close": 6259.75,
+        "ma50": 5963.22,
+        "ma200": null
+      },
+      {
+        "date": "2025-07-14",
+        "close": 6268.56,
+        "ma50": 5977.21,
+        "ma200": null
+      },
+      {
+        "date": "2025-07-15",
+        "close": 6243.76,
+        "ma50": 5990.01,
+        "ma200": null
+      },
+      {
+        "date": "2025-07-16",
+        "close": 6263.7,
+        "ma50": 6001.55,
+        "ma200": null
+      },
+      {
+        "date": "2025-07-17",
+        "close": 6297.36,
+        "ma50": 6014.49,
+        "ma200": null
+      },
+      {
+        "date": "2025-07-18",
+        "close": 6296.79,
+        "ma50": 6028.28,
+        "ma200": null
+      },
+      {
+        "date": "2025-07-21",
+        "close": 6305.6,
+        "ma50": 6041.77,
+        "ma200": null
+      },
+      {
+        "date": "2025-07-22",
+        "close": 6309.62,
+        "ma50": 6054.68,
+        "ma200": null
+      },
+      {
+        "date": "2025-07-23",
+        "close": 6358.91,
+        "ma50": 6068.66,
+        "ma200": null
+      },
+      {
+        "date": "2025-07-24",
+        "close": 6363.35,
+        "ma50": 6079.05,
+        "ma200": null
+      },
+      {
+        "date": "2025-07-25",
+        "close": 6388.64,
+        "ma50": 6089.09,
+        "ma200": null
+      },
+      {
+        "date": "2025-07-28",
+        "close": 6389.77,
+        "ma50": 6099.03,
+        "ma200": null
+      },
+      {
+        "date": "2025-07-29",
+        "close": 6370.86,
+        "ma50": 6108.11,
+        "ma200": null
+      },
+      {
+        "date": "2025-07-30",
+        "close": 6362.9,
+        "ma50": 6116.2,
+        "ma200": null
+      },
+      {
+        "date": "2025-07-31",
+        "close": 6339.39,
+        "ma50": 6123.72,
+        "ma200": null
+      },
+      {
+        "date": "2025-08-01",
+        "close": 6238.01,
+        "ma50": 6129.67,
+        "ma200": null
+      },
+      {
+        "date": "2025-08-04",
+        "close": 6329.94,
+        "ma50": 6139.37,
+        "ma200": null
+      },
+      {
+        "date": "2025-08-05",
+        "close": 6299.19,
+        "ma50": 6148.52,
+        "ma200": null
+      },
+      {
+        "date": "2025-08-06",
+        "close": 6345.06,
+        "ma50": 6159.36,
+        "ma200": null
+      },
+      {
+        "date": "2025-08-07",
+        "close": 6340.0,
+        "ma50": 6167.73,
+        "ma200": null
+      },
+      {
+        "date": "2025-08-08",
+        "close": 6389.45,
+        "ma50": 6177.75,
+        "ma200": null
+      },
+      {
+        "date": "2025-08-11",
+        "close": 6373.45,
+        "ma50": 6186.98,
+        "ma200": null
+      },
+      {
+        "date": "2025-08-12",
+        "close": 6445.76,
+        "ma50": 6197.66,
+        "ma200": null
+      },
+      {
+        "date": "2025-08-13",
+        "close": 6466.58,
+        "ma50": 6208.27,
+        "ma200": null
+      },
+      {
+        "date": "2025-08-14",
+        "close": 6468.54,
+        "ma50": 6218.23,
+        "ma200": null
+      },
+      {
+        "date": "2025-08-15",
+        "close": 6449.8,
+        "ma50": 6227.81,
+        "ma200": null
+      },
+      {
+        "date": "2025-08-18",
+        "close": 6449.15,
+        "ma50": 6238.01,
+        "ma200": null
+      },
+      {
+        "date": "2025-08-19",
+        "close": 6411.37,
+        "ma50": 6246.23,
+        "ma200": null
+      },
+      {
+        "date": "2025-08-20",
+        "close": 6395.78,
+        "ma50": 6254.03,
+        "ma200": null
+      },
+      {
+        "date": "2025-08-21",
+        "close": 6370.17,
+        "ma50": 6260.66,
+        "ma200": null
+      },
+      {
+        "date": "2025-08-22",
+        "close": 6466.91,
+        "ma50": 6269.55,
+        "ma200": null
+      },
+      {
+        "date": "2025-08-25",
+        "close": 6439.32,
+        "ma50": 6277.43,
+        "ma200": null
+      },
+      {
+        "date": "2025-08-26",
+        "close": 6465.94,
+        "ma50": 6287.21,
+        "ma200": null
+      },
+      {
+        "date": "2025-08-27",
+        "close": 6481.4,
+        "ma50": 6296.18,
+        "ma200": null
+      },
+      {
+        "date": "2025-08-28",
+        "close": 6501.86,
+        "ma50": 6306.56,
+        "ma200": null
+      },
+      {
+        "date": "2025-08-29",
+        "close": 6460.26,
+        "ma50": 6316.15,
+        "ma200": null
+      },
+      {
+        "date": "2025-09-02",
+        "close": 6415.54,
+        "ma50": 6325.1,
+        "ma200": null
+      },
+      {
+        "date": "2025-09-03",
+        "close": 6448.26,
+        "ma50": 6333.56,
+        "ma200": null
+      },
+      {
+        "date": "2025-09-04",
+        "close": 6502.08,
+        "ma50": 6341.76,
+        "ma200": null
+      },
+      {
+        "date": "2025-09-05",
+        "close": 6481.5,
+        "ma50": 6349.55,
+        "ma200": null
+      },
+      {
+        "date": "2025-09-08",
+        "close": 6495.15,
+        "ma50": 6356.63,
+        "ma200": null
+      },
+      {
+        "date": "2025-09-09",
+        "close": 6512.61,
+        "ma50": 6363.42,
+        "ma200": null
+      },
+      {
+        "date": "2025-09-10",
+        "close": 6532.04,
+        "ma50": 6369.96,
+        "ma200": null
+      },
+      {
+        "date": "2025-09-11",
+        "close": 6587.47,
+        "ma50": 6377.75,
+        "ma200": null
+      },
+      {
+        "date": "2025-09-12",
+        "close": 6584.29,
+        "ma50": 6384.89,
+        "ma200": null
+      },
+      {
+        "date": "2025-09-15",
+        "close": 6615.28,
+        "ma50": 6391.61,
+        "ma200": null
+      },
+      {
+        "date": "2025-09-16",
+        "close": 6606.76,
+        "ma50": 6399.14,
+        "ma200": null
+      },
+      {
+        "date": "2025-09-17",
+        "close": 6600.35,
+        "ma50": 6406.64,
+        "ma200": null
+      },
+      {
+        "date": "2025-09-18",
+        "close": 6631.96,
+        "ma50": 6414.01,
+        "ma200": null
+      },
+      {
+        "date": "2025-09-19",
+        "close": 6664.36,
+        "ma50": 6421.69,
+        "ma200": null
+      },
+      {
+        "date": "2025-09-22",
+        "close": 6693.75,
+        "ma50": 6430.37,
+        "ma200": null
+      },
+      {
+        "date": "2025-09-23",
+        "close": 6656.92,
+        "ma50": 6438.14,
+        "ma200": null
+      },
+      {
+        "date": "2025-09-24",
+        "close": 6637.97,
+        "ma50": 6446.02,
+        "ma200": null
+      },
+      {
+        "date": "2025-09-25",
+        "close": 6604.72,
+        "ma50": 6452.84,
+        "ma200": null
+      },
+      {
+        "date": "2025-09-26",
+        "close": 6643.7,
+        "ma50": 6459.77,
+        "ma200": null
+      },
+      {
+        "date": "2025-09-29",
+        "close": 6661.21,
+        "ma50": 6467.06,
+        "ma200": null
+      },
+      {
+        "date": "2025-09-30",
+        "close": 6688.46,
+        "ma50": 6474.72,
+        "ma200": null
+      },
+      {
+        "date": "2025-10-01",
+        "close": 6711.2,
+        "ma50": 6482.75,
+        "ma200": null
+      },
+      {
+        "date": "2025-10-02",
+        "close": 6715.35,
+        "ma50": 6489.88,
+        "ma200": null
+      },
+      {
+        "date": "2025-10-03",
+        "close": 6715.79,
+        "ma50": 6496.92,
+        "ma200": null
+      },
+      {
+        "date": "2025-10-06",
+        "close": 6740.28,
+        "ma50": 6503.96,
+        "ma200": null
+      },
+      {
+        "date": "2025-10-07",
+        "close": 6714.59,
+        "ma50": 6510.45,
+        "ma200": null
+      },
+      {
+        "date": "2025-10-08",
+        "close": 6753.72,
+        "ma50": 6518.11,
+        "ma200": null
+      },
+      {
+        "date": "2025-10-09",
+        "close": 6735.11,
+        "ma50": 6525.56,
+        "ma200": null
+      },
+      {
+        "date": "2025-10-10",
+        "close": 6552.51,
+        "ma50": 6529.82,
+        "ma200": null
+      },
+      {
+        "date": "2025-10-13",
+        "close": 6654.72,
+        "ma50": 6538.15,
+        "ma200": null
+      },
+      {
+        "date": "2025-10-14",
+        "close": 6644.31,
+        "ma50": 6544.44,
+        "ma200": null
+      },
+      {
+        "date": "2025-10-15",
+        "close": 6671.06,
+        "ma50": 6551.88,
+        "ma200": null
+      },
+      {
+        "date": "2025-10-16",
+        "close": 6629.07,
+        "ma50": 6557.56,
+        "ma200": null
+      },
+      {
+        "date": "2025-10-17",
+        "close": 6664.01,
+        "ma50": 6564.04,
+        "ma200": null
+      },
+      {
+        "date": "2025-10-20",
+        "close": 6735.13,
+        "ma50": 6570.95,
+        "ma200": null
+      },
+      {
+        "date": "2025-10-21",
+        "close": 6735.35,
+        "ma50": 6578.19,
+        "ma200": null
+      },
+      {
+        "date": "2025-10-22",
+        "close": 6699.4,
+        "ma50": 6583.26,
+        "ma200": null
+      },
+      {
+        "date": "2025-10-23",
+        "close": 6738.44,
+        "ma50": 6588.7,
+        "ma200": null
+      },
+      {
+        "date": "2025-10-24",
+        "close": 6791.69,
+        "ma50": 6595.16,
+        "ma200": null
+      },
+      {
+        "date": "2025-10-27",
+        "close": 6875.16,
+        "ma50": 6603.67,
+        "ma200": null
+      },
+      {
+        "date": "2025-10-28",
+        "close": 6890.89,
+        "ma50": 6612.5,
+        "ma200": null
+      },
+      {
+        "date": "2025-10-29",
+        "close": 6890.59,
+        "ma50": 6622.09,
+        "ma200": null
+      },
+      {
+        "date": "2025-10-30",
+        "close": 6822.34,
+        "ma50": 6630.62,
+        "ma200": null
+      },
+      {
+        "date": "2025-10-31",
+        "close": 6840.2,
+        "ma50": 6640.02,
+        "ma200": null
+      },
+      {
+        "date": "2025-11-03",
+        "close": 6851.97,
+        "ma50": 6647.72,
+        "ma200": null
+      },
+      {
+        "date": "2025-11-04",
+        "close": 6771.55,
+        "ma50": 6654.37,
+        "ma200": null
+      },
+      {
+        "date": "2025-11-05",
+        "close": 6796.29,
+        "ma50": 6660.97,
+        "ma200": null
+      },
+      {
+        "date": "2025-11-06",
+        "close": 6720.32,
+        "ma50": 6665.75,
+        "ma200": null
+      },
+      {
+        "date": "2025-11-07",
+        "close": 6728.8,
+        "ma50": 6670.29,
+        "ma200": null
+      },
+      {
+        "date": "2025-11-10",
+        "close": 6832.43,
+        "ma50": 6677.73,
+        "ma200": null
+      },
+      {
+        "date": "2025-11-11",
+        "close": 6846.61,
+        "ma50": 6686.35,
+        "ma200": null
+      },
+      {
+        "date": "2025-11-12",
+        "close": 6850.92,
+        "ma50": 6694.41,
+        "ma200": null
+      },
+      {
+        "date": "2025-11-13",
+        "close": 6737.49,
+        "ma50": 6699.12,
+        "ma200": null
+      },
+      {
+        "date": "2025-11-14",
+        "close": 6734.11,
+        "ma50": 6704.17,
+        "ma200": null
+      },
+      {
+        "date": "2025-11-17",
+        "close": 6672.41,
+        "ma50": 6707.71,
+        "ma200": null
+      },
+      {
+        "date": "2025-11-18",
+        "close": 6617.32,
+        "ma50": 6709.81,
+        "ma200": null
+      },
+      {
+        "date": "2025-11-19",
+        "close": 6642.16,
+        "ma50": 6712.01,
+        "ma200": null
+      },
+      {
+        "date": "2025-11-20",
+        "close": 6538.76,
+        "ma50": 6711.04,
+        "ma200": null
+      },
+      {
+        "date": "2025-11-21",
+        "close": 6602.99,
+        "ma50": 6711.41,
+        "ma200": null
+      },
+      {
+        "date": "2025-11-24",
+        "close": 6705.12,
+        "ma50": 6713.21,
+        "ma200": null
+      },
+      {
+        "date": "2025-11-25",
+        "close": 6765.88,
+        "ma50": 6716.39,
+        "ma200": null
+      },
+      {
+        "date": "2025-11-26",
+        "close": 6812.61,
+        "ma50": 6720.63,
+        "ma200": null
+      },
+      {
+        "date": "2025-11-28",
+        "close": 6849.09,
+        "ma50": 6724.98,
+        "ma200": null
+      },
+      {
+        "date": "2025-12-01",
+        "close": 6812.63,
+        "ma50": 6727.94,
+        "ma200": null
+      },
+      {
+        "date": "2025-12-02",
+        "close": 6829.37,
+        "ma50": 6730.65,
+        "ma200": null
+      },
+      {
+        "date": "2025-12-03",
+        "close": 6849.72,
+        "ma50": 6734.51,
+        "ma200": null
+      },
+      {
+        "date": "2025-12-04",
+        "close": 6857.12,
+        "ma50": 6738.89,
+        "ma200": null
+      },
+      {
+        "date": "2025-12-05",
+        "close": 6870.4,
+        "ma50": 6744.21,
+        "ma200": null
+      },
+      {
+        "date": "2025-12-08",
+        "close": 6846.51,
+        "ma50": 6748.26,
+        "ma200": null
+      },
+      {
+        "date": "2025-12-09",
+        "close": 6840.51,
+        "ma50": 6751.85,
+        "ma200": null
+      },
+      {
+        "date": "2025-12-10",
+        "close": 6886.68,
+        "ma50": 6755.81,
+        "ma200": null
+      },
+      {
+        "date": "2025-12-11",
+        "close": 6901.0,
+        "ma50": 6759.61,
+        "ma200": null
+      },
+      {
+        "date": "2025-12-12",
+        "close": 6827.41,
+        "ma50": 6761.85,
+        "ma200": null
+      },
+      {
+        "date": "2025-12-15",
+        "close": 6816.51,
+        "ma50": 6763.87,
+        "ma200": null
+      },
+      {
+        "date": "2025-12-16",
+        "close": 6800.26,
+        "ma50": 6765.06,
+        "ma200": null
+      },
+      {
+        "date": "2025-12-17",
+        "close": 6721.43,
+        "ma50": 6765.2,
+        "ma200": null
+      },
+      {
+        "date": "2025-12-18",
+        "close": 6774.76,
+        "ma50": 6765.62,
+        "ma200": null
+      },
+      {
+        "date": "2025-12-19",
+        "close": 6834.5,
+        "ma50": 6767.61,
+        "ma200": null
+      },
+      {
+        "date": "2025-12-22",
+        "close": 6878.49,
+        "ma50": 6774.13,
+        "ma200": null
+      },
+      {
+        "date": "2025-12-23",
+        "close": 6909.79,
+        "ma50": 6779.23,
+        "ma200": 6253.94
+      },
+      {
+        "date": "2025-12-24",
+        "close": 6932.05,
+        "ma50": 6784.99,
+        "ma200": 6260.74
+      },
+      {
+        "date": "2025-12-26",
+        "close": 6929.94,
+        "ma50": 6790.16,
+        "ma200": 6267.39
+      },
+      {
+        "date": "2025-12-29",
+        "close": 6905.74,
+        "ma50": 6795.7,
+        "ma200": 6274.31
+      },
+      {
+        "date": "2025-12-30",
+        "close": 6896.24,
+        "ma50": 6800.34,
+        "ma200": 6280.6
+      },
+      {
+        "date": "2025-12-31",
+        "close": 6845.5,
+        "ma50": 6802.55,
+        "ma200": 6286.45
+      },
+      {
+        "date": "2026-01-02",
+        "close": 6858.47,
+        "ma50": 6805.01,
+        "ma200": 6292.67
+      },
+      {
+        "date": "2026-01-05",
+        "close": 6902.05,
+        "ma50": 6809.06,
+        "ma200": 6298.8
+      },
+      {
+        "date": "2026-01-06",
+        "close": 6944.82,
+        "ma50": 6813.19,
+        "ma200": 6305.21
+      },
+      {
+        "date": "2026-01-07",
+        "close": 6920.93,
+        "ma50": 6815.78,
+        "ma200": 6311.48
+      },
+      {
+        "date": "2026-01-08",
+        "close": 6921.46,
+        "ma50": 6816.7,
+        "ma200": 6317.25
+      },
+      {
+        "date": "2026-01-09",
+        "close": 6966.28,
+        "ma50": 6818.21,
+        "ma200": 6323.2
+      },
+      {
+        "date": "2026-01-12",
+        "close": 6977.27,
+        "ma50": 6819.94,
+        "ma200": 6329.52
+      },
+      {
+        "date": "2026-01-13",
+        "close": 6963.74,
+        "ma50": 6822.77,
+        "ma200": 6335.88
+      },
+      {
+        "date": "2026-01-14",
+        "close": 6926.6,
+        "ma50": 6824.5,
+        "ma200": 6342.6
+      },
+      {
+        "date": "2026-01-15",
+        "close": 6944.47,
+        "ma50": 6826.35,
+        "ma200": 6349.27
+      },
+      {
+        "date": "2026-01-16",
+        "close": 6940.01,
+        "ma50": 6829.72,
+        "ma200": 6355.8
+      },
+      {
+        "date": "2026-01-20",
+        "close": 6796.86,
+        "ma50": 6829.73,
+        "ma200": 6361.43
+      },
+      {
+        "date": "2026-01-21",
+        "close": 6875.62,
+        "ma50": 6832.84,
+        "ma200": 6368.83
+      },
+      {
+        "date": "2026-01-22",
+        "close": 6913.35,
+        "ma50": 6836.53,
+        "ma200": 6378.02
+      },
+      {
+        "date": "2026-01-23",
+        "close": 6915.61,
+        "ma50": 6838.19,
+        "ma200": 6387.29
+      },
+      {
+        "date": "2026-01-26",
+        "close": 6950.23,
+        "ma50": 6840.26,
+        "ma200": 6397.13
+      },
+      {
+        "date": "2026-01-27",
+        "close": 6978.6,
+        "ma50": 6842.82,
+        "ma200": 6404.74
+      },
+      {
+        "date": "2026-01-28",
+        "close": 6978.03,
+        "ma50": 6847.63,
+        "ma200": 6413.29
+      },
+      {
+        "date": "2026-01-29",
+        "close": 6969.01,
+        "ma50": 6852.33,
+        "ma200": 6421.31
+      },
+      {
+        "date": "2026-01-30",
+        "close": 6939.03,
+        "ma50": 6857.66,
+        "ma200": 6428.98
+      },
+      {
+        "date": "2026-02-02",
+        "close": 6976.44,
+        "ma50": 6864.84,
+        "ma200": 6436.88
+      },
+      {
+        "date": "2026-02-03",
+        "close": 6917.81,
+        "ma50": 6870.35,
+        "ma200": 6445.09
+      },
+      {
+        "date": "2026-02-04",
+        "close": 6882.72,
+        "ma50": 6877.23,
+        "ma200": 6453.09
+      },
+      {
+        "date": "2026-02-05",
+        "close": 6798.4,
+        "ma50": 6881.14,
+        "ma200": 6461.29
+      },
+      {
+        "date": "2026-02-06",
+        "close": 6932.3,
+        "ma50": 6885.69,
+        "ma200": 6469.51
+      },
+      {
+        "date": "2026-02-09",
+        "close": 6964.82,
+        "ma50": 6889.66,
+        "ma200": 6477.46
+      },
+      {
+        "date": "2026-02-10",
+        "close": 6941.81,
+        "ma50": 6892.25,
+        "ma200": 6484.74
+      },
+      {
+        "date": "2026-02-11",
+        "close": 6941.47,
+        "ma50": 6894.1,
+        "ma200": 6491.82
+      },
+      {
+        "date": "2026-02-12",
+        "close": 6832.76,
+        "ma50": 6894.5,
+        "ma200": 6498.34
+      },
+      {
+        "date": "2026-02-13",
+        "close": 6836.17,
+        "ma50": 6894.63,
+        "ma200": 6504.72
+      },
+      {
+        "date": "2026-02-17",
+        "close": 6843.22,
+        "ma50": 6894.5,
+        "ma200": 6511.09
+      },
+      {
+        "date": "2026-02-18",
+        "close": 6881.31,
+        "ma50": 6894.99,
+        "ma200": 6517.48
+      },
+      {
+        "date": "2026-02-19",
+        "close": 6861.89,
+        "ma50": 6894.82,
+        "ma200": 6523.35
+      },
+      {
+        "date": "2026-02-20",
+        "close": 6909.51,
+        "ma50": 6896.08,
+        "ma200": 6529.65
+      },
+      {
+        "date": "2026-02-23",
+        "close": 6837.75,
+        "ma50": 6896.02,
+        "ma200": 6535.8
+      },
+      {
+        "date": "2026-02-24",
+        "close": 6890.07,
+        "ma50": 6896.09,
+        "ma200": 6542.1
+      },
+      {
+        "date": "2026-02-25",
+        "close": 6946.13,
+        "ma50": 6896.99,
+        "ma200": 6548.51
+      },
+      {
+        "date": "2026-02-26",
+        "close": 6908.86,
+        "ma50": 6898.62,
+        "ma200": 6554.75
+      },
+      {
+        "date": "2026-02-27",
+        "close": 6878.88,
+        "ma50": 6899.87,
+        "ma200": 6559.93
+      },
+      {
+        "date": "2026-03-02",
+        "close": 6881.62,
+        "ma50": 6901.5,
+        "ma200": 6564.9
+      },
+      {
+        "date": "2026-03-03",
+        "close": 6816.63,
+        "ma50": 6903.4,
+        "ma200": 6569.52
+      },
+      {
+        "date": "2026-03-04",
+        "close": 6869.5,
+        "ma50": 6905.3,
+        "ma200": 6574.28
+      },
+      {
+        "date": "2026-03-05",
+        "close": 6830.71,
+        "ma50": 6905.22,
+        "ma200": 6578.65
+      },
+      {
+        "date": "2026-03-06",
+        "close": 6740.02,
+        "ma50": 6902.45,
+        "ma200": 6582.53
+      },
+      {
+        "date": "2026-03-09",
+        "close": 6795.99,
+        "ma50": 6900.17,
+        "ma200": 6586.81
+      },
+      {
+        "date": "2026-03-10",
+        "close": 6781.48,
+        "ma50": 6897.16,
+        "ma200": 6591.49
+      },
+      {
+        "date": "2026-03-11",
+        "close": 6775.8,
+        "ma50": 6894.08,
+        "ma200": 6596.16
+      },
+      {
+        "date": "2026-03-12",
+        "close": 6672.62,
+        "ma50": 6889.42,
+        "ma200": 6600.51
+      },
+      {
+        "date": "2026-03-13",
+        "close": 6632.19,
+        "ma50": 6884.14,
+        "ma200": 6604.06
+      },
+      {
+        "date": "2026-03-16",
+        "close": 6699.38,
+        "ma50": 6881.21,
+        "ma200": 6608.12
+      },
+      {
+        "date": "2026-03-17",
+        "close": 6716.09,
+        "ma50": 6878.37,
+        "ma200": 6612.14
+      },
+      {
+        "date": "2026-03-18",
+        "close": 6624.7,
+        "ma50": 6872.82,
+        "ma200": 6615.7
+      },
+      {
+        "date": "2026-03-19",
+        "close": 6606.49,
+        "ma50": 6866.05,
+        "ma200": 6619.05
+      },
+      {
+        "date": "2026-03-20",
+        "close": 6506.48,
+        "ma50": 6857.76,
+        "ma200": 6621.73
+      },
+      {
+        "date": "2026-03-23",
+        "close": 6581.0,
+        "ma50": 6850.95,
+        "ma200": 6624.78
+      },
+      {
+        "date": "2026-03-24",
+        "close": 6556.37,
+        "ma50": 6842.76,
+        "ma200": 6627.87
+      },
+      {
+        "date": "2026-03-25",
+        "close": 6591.9,
+        "ma50": 6835.05,
+        "ma200": 6630.83
+      },
+      {
+        "date": "2026-03-26",
+        "close": 6477.16,
+        "ma50": 6825.32,
+        "ma200": 6633.18
+      },
+      {
+        "date": "2026-03-27",
+        "close": 6368.85,
+        "ma50": 6814.16,
+        "ma200": 6634.83
+      },
+      {
+        "date": "2026-03-30",
+        "close": 6343.72,
+        "ma50": 6802.15,
+        "ma200": 6636.44
+      },
+      {
+        "date": "2026-03-31",
+        "close": 6528.52,
+        "ma50": 6793.92,
+        "ma200": 6638.86
+      },
+      {
+        "date": "2026-04-01",
+        "close": 6575.32,
+        "ma50": 6789.49,
+        "ma200": 6641.85
+      },
+      {
+        "date": "2026-04-02",
+        "close": 6582.69,
+        "ma50": 6783.63,
+        "ma200": 6644.6
+      },
+      {
+        "date": "2026-04-06",
+        "close": 6611.83,
+        "ma50": 6777.6,
+        "ma200": 6647.74
+      },
+      {
+        "date": "2026-04-07",
+        "close": 6616.85,
+        "ma50": 6771.62,
+        "ma200": 6650.92
+      },
+      {
+        "date": "2026-04-08",
+        "close": 6782.81,
+        "ma50": 6768.27,
+        "ma200": 6655.0
+      },
+      {
+        "date": "2026-04-09",
+        "close": 6824.66,
+        "ma50": 6765.2,
+        "ma200": 6659.0
+      },
+      {
+        "date": "2026-04-10",
+        "close": 6816.89,
+        "ma50": 6761.97,
+        "ma200": 6662.62
+      },
+      {
+        "date": "2026-04-13",
+        "close": 6886.24,
+        "ma50": 6760.32,
+        "ma200": 6666.59
+      },
+      {
+        "date": "2026-04-14",
+        "close": 6967.38,
+        "ma50": 6760.88,
+        "ma200": 6670.72
+      }
+    ],
+    "chartLabel": "S&P 500 (Fallback)",
     "vix": [
       {
         "date": "2025-12-04",
@@ -887,28 +2479,28 @@
       "publishedAt": "2026-04-14T20:27:00+00:00"
     },
     {
-      "title": "Trump says U.S. will blockade Strait of Hormuz after Iran peace talks fail - CNBC",
-      "source": "CNBC",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9PbTY2UnlVRmhDNk1JLXJBYTlzUFBPVXZ0VDR5b3htTnpwTGM2bklzdjJZTkNBTGNHUHQ5RE5YNjl6NF9mWl83WVlOU0VqU1Y1SlJBMksxTU12ZFhkR2M2MTRJcVd2cDVVSGxBU196NU82YnVMLUpr0gF8QVVfeXFMT3lmemY2VlRadjc0WlRlemNuQ3pHNWlPMzFyMWZDMEtqUE5odEtNYWxTaWNRNUZQNXZKVXdMVU13Yk53WDZySUZOb1laVkhiVUlmeGtrTDJGeWd3c0o4ZWtJOE1oZFlzbGRMVDFmYjdab0xpMENXaVpWT29zZw?oc=5",
-      "publishedAt": "2026-04-12T13:01:21+00:00"
-    },
-    {
       "title": "“The Strait of Hormuz Is Open to Us”: China Warns U.S. Against Blockading Iranian Ports - Democracy Now!",
       "source": "Democracy Now!",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNQVpTNWRyU3N2OE5tN1g0X25pODc1Qkg4b2hmczlTZVA2UjU1MXJCdWt2ODgxb09hWTFDVFUxSzdXQk1PZlJZOVRiMW1ldGhqYjkzcHNmck44OHFIQVFXRVAxcDB4MThseUxCMGhSQktrYnNTc1lnZXNuUUdKcGJ0cmhUTjF2NHphR201cXNKaE9TMDJGa2I5em1rSmpKT0NZUFVmc1Z6U2M0S1R4NW9TLXJTN3ptc0J0bzh3M3VzQzE5MUpOOW04UGRsZw?oc=5",
       "publishedAt": "2026-04-14T14:24:44+00:00"
     },
     {
-      "title": "How a US blockade near the Strait of Hormuz could work and the impact ahead for the global economy - AP News",
-      "source": "AP News",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYjlGODE2R3N6NjBhbElNYllfZEpqV2pmbFhRZmpqaWNhbDYtYXA3cTNnZzRYUTAtWlA1allIaWFmY0IyRmZXSXZfczdpUWFzbWZTS1c0ekNQZHdaUFFBM2xKaXNCd25MRzN6U3N2RGwyT2dWS3BuaVZVWVRZQnNoeHBFVEM2ZkZqalRkV1FIQnFUWmZpdWNlVWsyN29QT05QMlE?oc=5",
-      "publishedAt": "2026-04-13T21:36:00+00:00"
-    },
-    {
       "title": "Report: Over 20 Commercial Ships Transit Hormuz - Marine News Magazine",
       "source": "Marine News Magazine",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNUwxallSendFUzRsU3dDd0JIT25jWkhkVDJlU0VWcnUwLXM5d2tCVE5EMjl2QXRtY1d5YlNhYUJ5M3EtckhMLTV6YThxMU1Qam82aDZ5Tlc0WTRtM2tCVkhESHJTYnhnd3FlMU9nSnJVREIwYWVtNlhmSHhDSVBMT1pTcw?oc=5",
       "publishedAt": "2026-04-14T22:25:27+00:00"
+    },
+    {
+      "title": "Saudi Arabia asks US to end Strait of Hormuz blockade - The Jerusalem Post",
+      "source": "The Jerusalem Post",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9TMFlkdmFQQUJRdk81b3gyREhUejJ2Ui1aaUV4cnZ3MjFRQjFuVjNTbE45YkM2d1lLRmdLNVRMUWtjaDIyUVBmM20zSzk4VmF6R0NOTVFQS19saEts?oc=5",
+      "publishedAt": "2026-04-14T15:53:53+00:00"
+    },
+    {
+      "title": "US boasts no ships moved through Strait of Hormuz in first 24 hours of blockade - New York Post",
+      "source": "New York Post",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRnF2M1M1WDl3Y2x4QTdhTVhyX01JN1dWNUJpT3kxVS00ZW9KblFrUmFrUWVESEdJUUo3enpBdXliSFllc2w2RVVTQWZ3LWFSUWpyOUVTNVZ6N2VvdjVPcklXaWF6ZVZrQkx6SDdjem5fbVd0b1FDRUUwd3ozWGdDM2lQMkVoUVJCSlIwelVpcGl1bHdiY2R5Q3F2a1hFQ2lKN21rTk5fX1ROQlZ2d21HTjZzbjh0REZ0WFlBcF9mRktCbXBXNXVmQjB5V2pWQQ?oc=5",
+      "publishedAt": "2026-04-14T14:21:00+00:00"
     },
     {
       "title": "How Wall Street is reacting to Trump’s Strait of Hormuz blockade - NewsNation",

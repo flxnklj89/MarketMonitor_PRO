@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-15T06:40:21.019874+00:00",
+  "fetchedAt": "2026-04-15T08:24:13.380699+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20624,10 +20624,10 @@
   },
   "news": [
     {
-      "title": "Higher oil prices, higher yields, no more rate cuts? No problem for US stocks",
-      "source": "Reuters",
-      "publishedAt": "2026-04-14T20:39:39+00:00",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTmxNZkdMZ1JMUGZ1dlFfdG5lS3pJdmpsZ0RrN1dTUGNDaWtWdi1lQXlNSmNEMXJ4d2p3ZEJ5QkJpQ2xSeV9HZVJnSWNpR2ZaYy1TcTVEQ3BQUUR5VzRBTHNJRUlibGx4TGRvMmdkU0R6elBHd3dZWTF2RUxlOWp5UE1iUHpBNk5ZdmRULWVHWnRuSkc5eVZfRkx4bGE3akxkYlFmVmtBaTZTdUNab2FmQ3pRaUpaUQ?oc=5",
+      "title": "Oil prices fall and markets rally on renewed hopes for peace talks",
+      "source": "Euronews.com",
+      "publishedAt": "2026-04-15T07:47:03+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeHM5cDJ6M2EzRko1M2IzQU9FM3RLekFUTVd5QU1JMDNrbVhFeGZGZ0VyMVZSQ0szSWJiRUpsWkl5RzBDSUdRR2NER0VQOGN2MHRNQ0pTdlRPS244VTBReEZsemVEZWU4RW8wNkRZc285VGtVUmNqMS1lMFdtSHNyTU1NUjMzMVhoSGo1VC1ucV9HMThiMmV6SlN0WnI2eFRkUFVnRGNVQnZlLWVsVkRsTTFRWTQ3OF90MmFV?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20646,6 +20646,23 @@
       "source": "The Motley Fool",
       "publishedAt": "2026-04-14T21:12:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYl9tRWJBS01hTlZCVzZxeFQwUVVDNjR5TGxmTGUxcnlnWDVPcUtqd3pBVGVWSVhwejRWYTZ5M2o3VklCQWVsUmFUT1hqM3RXNDVXejE3OUtSTGxZcGtlRTJUSnZyaGQ0REJycEpvNXgtalg0VHZqUDBrNjZfSno3Ug?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Asian shares scale six-week peak on hopes for US-Iran peace talks",
+      "source": "Reuters",
+      "publishedAt": "2026-04-15T01:57:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOV1RxNXNoOGFfZEh5M2VrZGJ1Q3djVG9mNGhfZDByeU9oUGhVYzVONmd1amxqaS1kZGVoa1V4Qmw3bnFRMW1ITG95T21BTlhGRllpU2tmSWdVRmVXTVRzbkNSZ3dHcjNwcDRVR0VsZ0ZmOC13MXFqUW9oMDFGajhzSkN1RQ?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20681,24 +20698,6 @@
       "source": "AgWeb",
       "publishedAt": "2026-04-14T21:50:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbHBaWERObVBlUy1HY2lZTDRtMzRTWjd2ckhhT2pxOUxiUm9kbV91R0JtTXZyOWZ0eTI0TnRCaHIybnlaYUNubXBhTkVHczFwdTNOU2g4b1VMeF82M0xCcTBGTURqUTgwLXlxWjRkSE80a0t5NTQ2a3Yyc0NSUFJBaHhjTkNZRUNjQ2ZVODFRUUl6WUhEaEJVa1o5ZlJsRXoyYV9YQWo0UUdsdw?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stock Market Update: Futures Rise, Oil Prices Surge, And Iran War Impact Cape Verde (0oXRTzCKeA)",
-      "source": "Mshale",
-      "publishedAt": "2026-04-14T22:46:19+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5vcklNeG1Vb2dCeTJKZi1QbmNkWkUxS2NIbmZPWF9JVFBRYU1RbF9RblQ3LWp0dVJKSDVJSFhTSzhGQlFBVDZuaTNJaklKdVpSeEk4S1VDR0taMzFyUTlDTURzOA?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20833,7 +20832,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-04-15T06:40:21.019874+00:00",
+      "dataAsOf": "2026-04-15T08:24:13.380699+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
