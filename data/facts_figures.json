@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-15T12:03:27.391749+00:00",
+  "generatedAt": "2026-04-15T12:16:15.997914+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -343,17 +343,17 @@
       "value": 39.3,
       "unit": "",
       "tone": "h",
-      "status": "Shiller CAPE bei 39.3. Historisch ambitionierte Bewertung. Erhöhte Empfindlichkeit gegenüber Enttäuschungen. Öffentliche Ersatzquelle statt multpl.com. Der Wert ist zur Einordnung nutzbar, kann aber zeitlich leicht anders aktualisiert sein als die Primärquelle.",
+      "status": "Fallback aktiv: Statt multpl.com wird vorübergehend Current Market Valuation genutzt. Shiller CAPE bei 39.3. Historisch ambitionierte Bewertung. Erhöhte Empfindlichkeit gegenüber Enttäuschungen.",
       "history": [],
-      "fallbackLabel": "Fallback: CMV",
-      "fallbackMeaning": "Öffentliche Ersatzquelle statt multpl.com. Der Wert ist zur Einordnung nutzbar, kann aber zeitlich leicht anders aktualisiert sein als die Primärquelle."
+      "fallbackLabel": "Fallback aktiv",
+      "fallbackMeaning": "<strong>Fallback aktiv – was bedeutet das?</strong><br>Der Standardwert konnte in diesem Lauf nicht sauber geladen werden. Deshalb nutzt das Dashboard vorübergehend <strong>Current Market Valuation</strong> als Ersatzquelle oder Ersatz-Proxy.<br><br><strong>Warum greift der Fallback?</strong><br>Die Primärquelle multpl.com war in diesem Lauf nicht erreichbar oder nicht sauber parsbar.<br><br><strong>Was bedeutet das für dich?</strong><br>Der Wert ist für die Einordnung in der Regel gut genug, kann aber zeitlich leicht anders aktualisiert sein als die normale Primärquelle.<br><br><strong>Wann kommt der echte Wert wieder?</strong><br>Beim nächsten regulären Facts-&-Figures-Update. Das läuft alle 4 Stunden. Das nächste planmäßige Update ist voraussichtlich <strong>15.04.2026, 16:00 Uhr</strong>. Sobald die Primärquelle wieder sauber liefert, verschwindet der Fallback automatisch."
     },
     {
       "label": "Buffett-Indikator",
       "value": 264,
       "unit": "%",
       "tone": "h",
-      "status": "Buffett-Indikator bei 264 %. Historisch stark überhitzt. Marktkapitalisierung weit über BIP. Wilshire 5000 war in diesem Lauf nicht verfügbar. Deshalb wird eine breitere Z.1-Marktwertreihe der Fed verwendet. Für Einordnung brauchbar, aber nicht identisch zur Standard-Buffett-Logik.",
+      "status": "Fallback aktiv: Statt Wilshire 5000 wird vorübergehend eine breitere Fed-Z.1-Marktwertreihe genutzt. Buffett-Indikator bei 264 %. Historisch stark überhitzt. Marktkapitalisierung weit über BIP.",
       "history": [
         {
           "value": 116.3
@@ -536,8 +536,8 @@
           "value": 264.4
         }
       ],
-      "fallbackLabel": "Fallback: Z.1 Marktwert",
-      "fallbackMeaning": "Wilshire 5000 war in diesem Lauf nicht verfügbar. Deshalb wird eine breitere Z.1-Marktwertreihe der Fed verwendet. Für Einordnung brauchbar, aber nicht identisch zur Standard-Buffett-Logik."
+      "fallbackLabel": "Fallback aktiv",
+      "fallbackMeaning": "<strong>Fallback aktiv – was bedeutet das?</strong><br>Der Standardwert konnte in diesem Lauf nicht sauber geladen werden. Deshalb nutzt das Dashboard vorübergehend <strong>Fed Z.1 Marktwertreihe</strong> als Ersatzquelle oder Ersatz-Proxy.<br><br><strong>Warum greift der Fallback?</strong><br>Die übliche Wilshire-5000-Reihe war in diesem Lauf nicht verfügbar oder lieferte keine verwertbaren Daten.<br><br><strong>Was bedeutet das für dich?</strong><br>Der Buffett-Indikator bleibt für die Grobeinordnung nutzbar. Der Ersatz ist fachlich nah dran, aber nicht exakt dieselbe Standardreihe wie im Normalfall.<br><br><strong>Wann kommt der echte Wert wieder?</strong><br>Beim nächsten regulären Facts-&-Figures-Update. Das läuft alle 4 Stunden. Das nächste planmäßige Update ist voraussichtlich <strong>15.04.2026, 16:00 Uhr</strong>. Sobald die Primärquelle wieder sauber liefert, verschwindet der Fallback automatisch."
     },
     {
       "label": "Gewinnwachstum",
@@ -5249,21 +5249,20 @@
       ]
     },
     {
-      "title": "Why Northern Oil and Gas (NOG) Shares Are Sliding Today",
-      "source": "StockStory",
-      "publishedAt": "2026-04-14T20:35:49+00:00",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQemVQQ19YYTd3cmZwMm05Y1NtSjZweHR2UU94YXBTZWkxRy05UFBfNFlGekdaNDhYNkFsREg4WEhfQ3JITkd3STZqWk5kOFpETFNmSHJBTlB5TEYtV2lvVFNJaXNGYzhUck41NWltTk50Z25ibURuUTcwVm5GZmtOc2ViTXNOUURrVlVHRk1nZWViTmdjX3dqX2ZLd0pJWlVoWEtFVHJmRnlhYkI0ZmxuSGdn?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "JPMorgan Tops Estimates. CEO Jamie Dimon Sees Economic Tailwinds, Risks.",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-04-14T20:18:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYkZzZU9NWFpkMTZVb2hHSWVNNEZSUkxvNFJGRThlWVRYbnhodTV0czVFd2wtLXpRUHJQQlBYLUlpZzVfNFRoWWtrOFdEWWdLX1VzMTJ6SHVycW9yaVBVSU1nZjNCdTEtNU84eVZ0V3RRdEg1SUlTNmRMT3dvOW5KNTZydEZtc0xYSlhEaklEWHhfN2ExZENZVG4zeXVLNjlyeGZ5UWhzQzk4OXNZ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     }
   ]
