@@ -53,17 +53,25 @@ BROWSER_HEADERS = {
 
 
 # ─── HTTP helpers ─────────────────────────────────────────────────────────────
-def http_get(url: str, timeout: int = 20) -> bytes:
-    req = urllib.request.Request(url, headers=BROWSER_HEADERS)
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        raw = r.read()
-        enc = (r.headers.get("Content-Encoding") or "").lower()
-        if enc == "gzip" or raw[:2] == b"\x1f\x8b":
-            try:
-                raw = gzip.decompress(raw)
-            except Exception:
-                pass
-        return raw
+def http_get(url: str, timeout: int = 20, retries: int = 2) -> bytes:
+    last_err = None
+    for attempt in range(retries + 1):
+        try:
+            req = urllib.request.Request(url, headers=BROWSER_HEADERS)
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                raw = r.read()
+                enc = (r.headers.get("Content-Encoding") or "").lower()
+                if enc == "gzip" or raw[:2] == b"\x1f\x8b":
+                    try:
+                        raw = gzip.decompress(raw)
+                    except Exception:
+                        pass
+                return raw
+        except Exception as e:
+            last_err = e
+            if attempt >= retries:
+                raise
+    raise last_err
 
 
 def fred(series_id: str, observation_start: str | None = None) -> list[dict]:
@@ -138,12 +146,6 @@ def ma(values: list[float], window: int) -> list[float | None]:
     return out
 
 
-def rsi14(closes: list[float]) -> float | None:
-    series = rsi14_series(closes, 14)
-    vals = [v for v in series if v is not None]
-    return vals[-1] if vals else None
-
-
 def rsi14_series(closes: list[float], period: int = 14) -> list[float | None]:
     if len(closes) < period + 1:
         return [None] * len(closes)
@@ -174,6 +176,12 @@ def rsi14_series(closes: list[float], period: int = 14) -> list[float | None]:
     return out
 
 
+def rsi14(closes: list[float]) -> float | None:
+    series = rsi14_series(closes, 14)
+    vals = [v for v in series if v is not None]
+    return vals[-1] if vals else None
+
+
 def stooq_history(symbol: str, years: int = 3) -> list[dict]:
     url = f"https://stooq.com/q/d/l/?s={symbol}&i=d"
     try:
@@ -183,57 +191,70 @@ def stooq_history(symbol: str, years: int = 3) -> list[dict]:
         out = []
         for row in rows:
             ds = (row.get("Date") or row.get("date") or "").strip()
-            close_s = (row.get("Close") or row.get("close") or "").strip()
-            if not ds or not close_s:
+            close_raw = row.get("Close") or row.get("close")
+            if not ds or not close_raw:
                 continue
             try:
                 d = datetime.strptime(ds, "%Y-%m-%d").date()
-                v = float(close_s)
+                if d < cutoff:
+                    continue
+                close = float(close_raw)
+                if close <= 0:
+                    continue
+                out.append({"date": ds, "value": round(close, 2)})
             except Exception:
                 continue
-            if d < cutoff or v <= 0:
-                continue
-            out.append({"date": ds, "value": round(v, 2)})
-        print(f"  ✓ STOOQ {symbol}: {len(out)} obs")
         return out
     except Exception as e:
-        print(f"  ✗ STOOQ {symbol}: {e}", file=sys.stderr)
+        print(f"  ✗ Stooq {symbol}: {e}", file=sys.stderr)
         return []
 
 
-def scrape_cape_alt() -> float | None:
-    targets = [
-        ("https://www.currentmarketvaluation.com/models/s&p500-mean-reversion.php", [
-            r'Shiller P/E Ratio[^\d]{0,80}([\d]{1,3}\.[\d]{1,2})',
-            r'10-Year P/E Ratio[^\d]{0,80}([\d]{1,3}\.[\d]{1,2})',
-        ]),
-        ("https://www.currentmarketvaluation.com/models/price-earnings.php", [
-            r'Shiller P/E Ratio[^\d]{0,80}([\d]{1,3}\.[\d]{1,2})',
-            r'Current[^\d]{0,40}([\d]{1,3}\.[\d]{1,2})',
-        ]),
+def scrape_cape_history_multpl(limit: int = 120) -> list[dict]:
+    url = "https://www.multpl.com/shiller-pe/table/by-month"
+    try:
+        html = http_get(url, timeout=18).decode("utf-8", errors="replace")
+        rows = re.findall(r'<tr>\s*<td>([A-Za-z]+)\s+(\d{4})</td>\s*<td>\s*([\d]{1,3}\.[\d]{1,2})\s*</td>', html)
+        month_map = {"January":1,"February":2,"March":3,"April":4,"May":5,"June":6,"July":7,"August":8,"September":9,"October":10,"November":11,"December":12}
+        out = []
+        for month_name, year, val in rows:
+            m = month_map.get(month_name)
+            if not m:
+                continue
+            ds = f"{int(year):04d}-{m:02d}-01"
+            out.append({"date": ds, "value": round(float(val), 2)})
+        out.sort(key=lambda x: x["date"])
+        return out[-limit:]
+    except Exception as e:
+        print(f"  ✗ CAPE history multpl: {e}", file=sys.stderr)
+        return []
+
+
+def scrape_cape_current_cmv() -> float | None:
+    url = "https://www.currentmarketvaluation.com/models/price-earnings.php"
+    patterns = [
+        r'S&P 500[^<]{0,80}?10[- ]year[^<]{0,80}?P/E[^<]{0,40}?([\d]{1,3}\.[\d]{1,2})',
+        r'Current[^<]{0,80}?([\d]{1,3}\.[\d]{1,2})',
+        r'([\d]{1,3}\.[\d]{1,2})\s*</span>\s*<[^>]*>\s*Current',
     ]
-    for url, patterns in targets:
-        try:
-            html = http_get(url, timeout=18).decode("utf-8", errors="replace")
-            for pat in patterns:
-                m = re.search(pat, html, flags=re.I | re.S)
-                if m:
-                    val = float(m.group(1))
-                    if 5 < val < 100:
-                        print(f"  ✓ CAPE alt scrape: {val}")
-                        return val
-        except Exception as e:
-            print(f"  ✗ CAPE alt scrape ({url[-35:]}): {e}", file=sys.stderr)
+    try:
+        html = http_get(url, timeout=18).decode("utf-8", errors="replace")
+        for pat in patterns:
+            m = re.search(pat, html, flags=re.IGNORECASE)
+            if m:
+                val = float(m.group(1))
+                if 5 < val < 100:
+                    print(f"  ✓ CAPE fallback CMV: {val}")
+                    return val
+    except Exception as e:
+        print(f"  ✗ CAPE fallback CMV: {e}", file=sys.stderr)
     return None
 
 
-def fallback_meta(label: str, reason: str, next_update_hours: int = 4) -> dict:
-    return {
-        "label": label,
-        "reason": reason,
-        "nextUpdate": f"Nächster regulärer Versuch voraussichtlich in rund {next_update_hours} Stunden.",
-        "tooltip": f"Fallback aktiv: {label}. {reason} Für dich bedeutet das: Die Kennzahl bleibt sichtbar, basiert aber in diesem Lauf auf einer Ersatzquelle oder einem Ersatz-Proxy. Nächster regulärer Versuch voraussichtlich in rund {next_update_hours} Stunden.",
-    }
+def coerce_market_value_to_billions(points: list[dict], assume_millions: bool = False) -> list[dict]:
+    if assume_millions:
+        return [{"date": p["date"], "value": round(p["value"] / 1000.0, 2)} for p in points]
+    return points
 
 
 # ─── Shiller CAPE scraper ─────────────────────────────────────────────────────
@@ -322,7 +343,8 @@ def buffett_indicator(
 def cape_classify(v: float | None) -> tuple[str, str, str]:
     if v is None:
         return ("m", "—",
-                "Shiller CAPE temporär nicht verfügbar. Primärquelle nicht erreichbar – wird beim nächsten Update erneut versucht.")
+                "Shiller CAPE temporär nicht verfügbar. Quelle (multpl.com) "
+                "nicht erreichbar – wird beim nächsten Update erneut versucht.")
     if v < 15:
         return ("l", "Historisch günstig",
                 f"Shiller CAPE bei {v:.1f}. Seltene Bewertungsgelegenheit.")
@@ -343,7 +365,8 @@ def cape_classify(v: float | None) -> tuple[str, str, str]:
 def buffett_classify(v: float | None) -> tuple[str, str]:
     if v is None:
         return ("m",
-                "Buffett-Indikator temporär nicht verfügbar. Marktwert- oder GDP-Daten konnten nicht abgerufen werden.")
+                "Buffett-Indikator temporär nicht verfügbar. "
+                "Wilshire 5000 oder GDP-Daten konnten nicht abgerufen werden.")
     if v < 75:
         return ("l", f"Buffett-Indikator bei {v:.0f} %. Historisch günstig – "
                      "Marktkapitalisierung klar unter Wirtschaftsleistung.")
@@ -599,7 +622,6 @@ REFRESH_TRIGGERS = [
 # ─── Main ─────────────────────────────────────────────────────────────────────
 def main() -> int:
 
-    # ── 1. Base indicators from latest.json ───────────────────────────────────
     try:
         latest = json.loads(LATEST_IN.read_text(encoding="utf-8"))
         print(f"  ✓ Loaded {LATEST_IN}")
@@ -615,78 +637,86 @@ def main() -> int:
     sp_ytd   = float(inds.get("sp500",        {}).get("ytd", 0))
     stress   = float(inds.get("tradeStress",  {}).get("value", 0))
 
-    # ── 2. FRED fetches ───────────────────────────────────────────────────────
     print("\n[FRED – macro]")
-    gdp_g_obs = hp(fred("A191RL1Q225SBEA", QUARTERLY_START), 1)   # real GDP growth
+    gdp_g_obs = hp(fred("A191RL1Q225SBEA", QUARTERLY_START), 1)
     gdp_g_val = last_val(gdp_g_obs)
-    gdp_nom   = hp(fred("GDP", QUARTERLY_START), 0)               # nominal GDP (billions)
-    cp_obs    = hp(fred("CP",  QUARTERLY_START), 1)               # corp profits after tax
+    gdp_nom   = hp(fred("GDP", QUARTERLY_START), 0)
+    cp_obs    = hp(fred("CP",  QUARTERLY_START), 1)
     cp_yoy    = yoy(cp_obs, lag=4)
     earn_g    = cp_yoy[-1]["value"] if cp_yoy else None
     effr_obs  = hp(fred("EFFR",        DAILY_START), 2)
     vix_obs   = hp(fred("VIXCLS",      DAILY_START), 2)
     brent_obs = hp(fred("DCOILBRENTEU", DAILY_START), 2)
 
-    # Growth proxy – prefer Stooq QQQ, fall back to FRED NASDAQ Composite
-    print("\n[Growth proxy]")
+    print("\n[Growth – QQQ primary, NASDAQ fallback]")
+    growth_raw = stooq_history("qqq.us", years=3)
+    growth_label = "QQQ"
     growth_fallback = None
-    chart_label = "QQQ"
-    chart_sub_label = "QQQ"
-    nasdaq_raw = stooq_history("qqq.us", years=3)
-    if not nasdaq_raw:
-        print("\n[FRED – NASDAQ Composite as Growth fallback]")
-        nasdaq_raw = hp(fred("NASDAQCOM", DAILY_START), 0)
-        chart_label = "NASDAQ Composite"
-        chart_sub_label = "NASDAQ Composite (Fallback)"
-        if nasdaq_raw:
-            growth_fallback = fallback_meta("Fallback: NASDAQ Composite", "QQQ-Kursdaten waren in diesem Lauf nicht zuverlässig erreichbar. Deshalb wird als Ersatz der NASDAQ Composite aus FRED verwendet.")
-    nasdaq_vals = [p["value"] for p in nasdaq_raw]
+    if len(growth_raw) < 220:
+        print("\n[FRED – NASDAQ Composite fallback]")
+        growth_raw = hp(fred("NASDAQCOM", DAILY_START), 2)
+        growth_label = "NASDAQ Composite"
+        growth_fallback = {
+            "label": "Fallback: NASDAQ Composite",
+            "reason": "QQQ-Kursdaten konnten in diesem Lauf nicht stabil geladen werden. Deshalb nutzt der Monitor ersatzweise den NASDAQ Composite als sehr nahen Growth-Proxy.",
+            "nextUpdate": "Beim nächsten regulären Facts-&-Figures-Update wird erneut zuerst QQQ versucht."
+        }
 
-    # Wilshire 5000 / market cap – try classic Wilshire IDs, then Fed market cap fallback
-    print("\n[FRED – Wilshire 5000 for Buffett indicator]")
+    growth_vals = [p["value"] for p in growth_raw]
+    ma50_vals   = ma(growth_vals, 50)
+    ma200_vals  = ma(growth_vals, 200)
+    rsi_vals    = rsi14_series(growth_vals, 14)
+
+    idx_close = growth_vals[-1]  if growth_vals else None
+    ma50_cur  = ma50_vals[-1]    if ma50_vals else None
+    ma200_cur = ma200_vals[-1]   if ma200_vals else None
+    idx_ath   = max(growth_vals) if growth_vals else None
+    dd_val    = round((idx_close / idx_ath - 1) * 100, 1) if idx_close and idx_ath else None
+    rsi_val   = rsi14(growth_vals)
+    spread50_200 = round((ma50_cur / ma200_cur - 1) * 100, 1) if ma50_cur and ma200_cur else None
+
+    growth_chart = [
+        {"date": growth_raw[i]["date"], "close": growth_raw[i]["value"], "ma50": ma50_vals[i], "ma200": ma200_vals[i]}
+        for i in range(len(growth_raw))
+    ]
+    rsi_chart = [
+        {"date": growth_raw[i]["date"], "value": rsi_vals[i]}
+        for i in range(len(growth_raw)) if rsi_vals[i] is not None
+    ]
+
+    print("\n[Buffett – Wilshire primary]")
+    will_candidates = ["WILL5000PRFC", "WILL5000IND", "WILL5000INDFC", "WILL5000PR"]
+    will_raw = hp(fred_first(will_candidates, DAILY_START), 0)
     buffett_fallback = None
-    will_raw = hp(fred_first(["WILL5000PRFC", "WILL5000IND", "WILL5000INDFC", "WILL5000PR"], DAILY_START), 0)
     if not will_raw:
-        will_raw = hp(fred("BOGZ1LM883164115Q", QUARTERLY_START), 0)
+        bog_pts = hp(fred("BOGZ1LM883164115Q", QUARTERLY_START), 2)
+        will_raw = coerce_market_value_to_billions(bog_pts, assume_millions=True)
         if will_raw:
-            buffett_fallback = fallback_meta("Fallback: Fed-Marktwertreihe", "Die üblichen Wilshire-5000-Reihen waren in diesem Lauf nicht verfügbar. Deshalb wird eine offizielle Fed-/FRED-Marktwertreihe für US-Aktien als Ersatz verwendet.")
+            buffett_fallback = {
+                "label": "Fallback: Fed-Marktwertreihe",
+                "reason": "Die Wilshire-5000-Reihen waren in diesem Lauf nicht verfügbar. Deshalb nutzt der Monitor ersatzweise die offizielle Fed-/FRED-Reihe zum Marktwert börsennotierter US-Aktien.",
+                "nextUpdate": "Beim nächsten regulären Facts-&-Figures-Update wird erneut zuerst die Wilshire-Reihe versucht."
+            }
 
-    # ── 3. Shiller CAPE (scrape) ──────────────────────────────────────────────
-    print("\n[CAPE scrape]")
-    cape_val = scrape_cape()
+    print("\n[CAPE – multpl primary, CMV fallback]")
+    cape_hist = scrape_cape_history_multpl(120)
+    cape_val = cape_hist[-1]["value"] if cape_hist else scrape_cape()
     cape_fallback = None
     if cape_val is None:
-        cape_val = scrape_cape_alt()
+        cape_val = scrape_cape_current_cmv()
         if cape_val is not None:
-            cape_fallback = fallback_meta("Fallback: Current Market Valuation", "Die Primärquelle multpl.com war in diesem Lauf nicht erreichbar. Deshalb wird eine öffentlich zugängliche Ersatzquelle genutzt.")
+            cape_fallback = {
+                "label": "Fallback: Current Market Valuation",
+                "reason": "multpl.com war in diesem Lauf nicht stabil erreichbar. Deshalb nutzt der Monitor ersatzweise eine öffentliche Bewertungsquelle für den aktuellen CAPE-Wert.",
+                "nextUpdate": "Beim nächsten regulären Facts-&-Figures-Update wird erneut zuerst multpl.com versucht."
+            }
+    if not cape_hist and cape_val is not None:
+        cape_hist = [{"date": NOW.strftime("%Y-%m-%d"), "value": round(cape_val, 2)}]
 
-    # ── 4. Buffett Indicator ──────────────────────────────────────────────────
-    print("\n[Buffett]")
+    print("\n[Buffett build]")
     buffett_val, buffett_hist = buffett_indicator(will_raw, gdp_nom)
 
-    # ── 5. Technical indicators from Growth proxy ─────────────────────────────
-    ma50_vals  = ma(nasdaq_vals, 50)
-    ma200_vals = ma(nasdaq_vals, 200)
-    rsi_vals   = rsi14_series(nasdaq_vals, 14)
-
-    idx_close = nasdaq_vals[-1] if nasdaq_vals else None
-    ma50_cur  = ma50_vals[-1] if ma50_vals else None
-    ma200_cur = ma200_vals[-1] if ma200_vals else None
-    idx_ath   = max(nasdaq_vals) if nasdaq_vals else None
-    dd_val    = (round((idx_close / idx_ath - 1) * 100, 1) if idx_close and idx_ath else None)
-    rsi_val   = rsi14(nasdaq_vals)
-    spread_cur = round(((ma50_cur / ma200_cur) - 1) * 100, 1) if (ma50_cur not in (None, 0) and ma200_cur not in (None, 0)) else None
-
-    nasdaq_chart = [{
-            "date": nasdaq_raw[i]["date"],
-            "close": nasdaq_raw[i]["value"],
-            "ma50": ma50_vals[i],
-            "ma200": ma200_vals[i],
-            "spreadPct": round(((ma50_vals[i] / ma200_vals[i]) - 1) * 100, 2) if (ma50_vals[i] not in (None, 0) and ma200_vals[i] not in (None, 0)) else None,
-        } for i in range(len(nasdaq_raw))]
-    rsi_chart = [{"date": nasdaq_raw[i]["date"], "value": rsi_vals[i]} for i in range(len(nasdaq_raw)) if rsi_vals[i] is not None]
-
-    # ── 6. Classify ───────────────────────────────────────────────────────────
+    chart_label = growth_label
 
     cape_tone,  _,         cape_status  = cape_classify(cape_val)
     buff_tone,  buff_status             = buffett_classify(buffett_val)
@@ -696,28 +726,27 @@ def main() -> int:
     rec_tone,   rec_status              = rec_classify(rec_prob, sahm)
     vix_tone,   vix_title,  vix_note    = vix_classify(vix_now)
     ph_tone,    ph_title,   ph_status   = phase_classify(stress)
-    tr_tone,    tr_title,   tr_note     = trend_classify(idx_close, ma50_cur, ma200_cur, chart_sub_label)
+    tr_tone,    tr_title,   tr_note     = trend_classify(idx_close, ma50_cur, ma200_cur, chart_label)
     rsi_tone,   rsi_title,  rsi_note    = rsi_classify(rsi_val)
     dd_tone,    dd_title,   dd_note     = drawdown_classify(dd_val)
+
+    if spread50_200 is not None:
+        tr_note = (f"50T liegt bei {spread50_200:+.1f} % gegenüber dem 200T. Schlusskurs {idx_close:.0f}, 50T {ma50_cur:.0f}, 200T {ma200_cur:.0f}. " + tr_note)
+    if growth_fallback:
+        tr_note = tr_note.replace(chart_label, f"{chart_label} (Fallback)")
+        rsi_note = rsi_note.replace("RSI (14)", "RSI (14)")
 
     bp_score, bp_reason, bp_interp  = bottom_prob(vix_now, dd_val, rsi_val, rec_prob, sahm)
     cp_score, cp_reason, cp_interp  = crash_prob(stress, rec_prob, vix_now, dd_val, gdp_g_val)
     tq_label, tq_reason, tq_interp  = timing_qual(bp_score, cp_score)
 
     breadth_proxy = int(max(0, min(100, 100 - vix_now * 2.2)))
-    om_tone   = ("h" if stress >= 60 or rec_prob >= 40
-                 else "m" if stress >= 40 or rec_prob >= 25
-                 else "l")
+    om_tone   = ("h" if stress >= 60 or rec_prob >= 40 else "m" if stress >= 40 or rec_prob >= 25 else "l")
     om_title  = {"h": "Defensiv", "m": "Erhöhte Aufmerksamkeit", "l": "Geordnet"}[om_tone]
-    om_status = {
-        "h": "Mehrere Signalachsen unter Druck gleichzeitig.",
-        "m": "Signale verschlechtern sich, aber noch keine breite Eskalation.",
-        "l": "Kein übergreifendes Stresssignal aktiv.",
-    }[om_tone]
+    om_status = {"h": "Mehrere Signalachsen unter Druck gleichzeitig.", "m": "Signale verschlechtern sich, aber noch keine breite Eskalation.", "l": "Kein übergreifendes Stresssignal aktiv."}[om_tone]
 
     sentiment = build_sentiment(vix_now, fed_rate, rec_prob, gdp_g_val, sp_ytd, dd_val)
 
-    # ── 7. Assemble output ────────────────────────────────────────────────────
     def spark(pts: list[dict], n: int = 60) -> list[dict]:
         return [{"value": p["value"]} for p in pts[-n:]]
 
@@ -725,169 +754,45 @@ def main() -> int:
         "generatedAt": NOW.isoformat(),
         "meta": {
             "schemaVersion": "1.0",
-            "sourceSummary": ["latest.json", "FRED", "Stooq", "Multpl", "Current Market Valuation"],
+            "sourceSummary": ["latest.json", "Stooq", "FRED", "Multpl", "CurrentMarketValuation"],
         },
         "marketStatus": {
-            "phase": {
-                "title":  ph_title,
-                "value":  round(stress, 1),
-                "unit":   "",
-                "tone":   ph_tone,
-                "status": ph_status,
-            },
-            "vix": {
-                "title":  vix_title,
-                "value":  round(vix_now, 1) if vix_now else None,
-                "unit":   "",
-                "tone":   vix_tone,
-                "status": vix_note,
-            },
-            "breadth": {
-                "title":  f"{breadth_proxy} % über 200T-Ø (Proxy)",
-                "value":  breadth_proxy,
-                "unit":   "%",
-                "tone":   "l" if breadth_proxy >= 60 else "m" if breadth_proxy >= 40 else "h",
-                "status": "Näherungswert abgeleitet aus VIX-Niveau. Direktdaten nicht via FRED verfügbar.",
-            },
+            "phase": {"title": ph_title, "value": round(stress, 1), "unit": "", "tone": ph_tone, "status": ph_status},
+            "vix": {"title": vix_title, "value": round(vix_now, 1) if vix_now else None, "unit": "", "tone": vix_tone, "status": vix_note},
+            "breadth": {"title": f"{breadth_proxy} % über 200T-Ø (Proxy)", "value": breadth_proxy, "unit": "%", "tone": "l" if breadth_proxy >= 60 else "m" if breadth_proxy >= 40 else "h", "status": "Näherungswert abgeleitet aus VIX-Niveau. Direktdaten nicht via FRED verfügbar."},
         },
-        "overallMode": {
-            "title":  om_title,
-            "value":  None,
-            "unit":   "",
-            "tone":   om_tone,
-            "status": om_status,
-        },
+        "overallMode": {"title": om_title, "value": None, "unit": "", "tone": om_tone, "status": om_status},
         "technicalTriggers": [
-            {
-                "label":   "50T vs. 200T",
-                "value":   spread_cur,
-                "unit":    "%",
-                "tone":    tr_tone,
-                "status":  (f"50T liegt bei {spread_cur:+.1f} % gegenüber dem 200T. Schlusskurs {idx_close:.0f}, 50T {ma50_cur:.0f}, 200T {ma200_cur:.0f}. " + tr_note) if None not in (spread_cur, idx_close, ma50_cur, ma200_cur) else tr_note,
-                "history": [{"value": p.get("spreadPct")} for p in nasdaq_chart[-90:] if p.get("spreadPct") is not None],
-                "fallback": growth_fallback,
-            },
-            {
-                "label":   "RSI (14)",
-                "value":   rsi_val,
-                "unit":    "",
-                "tone":    ("h" if rsi_val is not None and rsi_val >= 70 else "l" if rsi_val is not None and rsi_val <= 30 else rsi_tone),
-                "status":  rsi_note,
-                "history": [{"value": p["value"]} for p in rsi_chart[-90:]],
-                "fallback": growth_fallback,
-            },
-            {
-                "label":   "Drawdown vom Hoch",
-                "value":   dd_val,
-                "unit":    "%",
-                "tone":    ("h" if dd_val is not None and dd_val < 0 else "l"),
-                "status":  dd_note,
-                "history": [],
-                "fallback": growth_fallback,
-            },
+            {"label": "50T vs. 200T", "value": spread50_200, "unit": "%", "tone": tr_tone, "status": tr_note, "history": [], "fallback": growth_fallback},
+            {"label": "RSI (14)", "value": rsi_val, "unit": "", "tone": rsi_tone, "status": rsi_note, "history": [], "fallback": growth_fallback},
+            {"label": "Drawdown vom Hoch", "value": dd_val, "unit": "%", "tone": dd_tone, "status": dd_note, "history": []},
         ],
         "valuation": [
-            {
-                "label":   "Shiller CAPE",
-                "value":   round(cape_val, 1) if cape_val is not None else None,
-                "unit":    "",
-                "tone":    cape_tone,
-                "status":  cape_status,
-                "history": [],
-                "fallback": cape_fallback,
-            },
-            {
-                "label":   "Buffett-Indikator",
-                "value":   int(round(buffett_val, 0)) if buffett_val is not None else None,
-                "unit":    "%",
-                "tone":    buff_tone,
-                "status":  buff_status,
-                "history": spark(buffett_hist, 60),
-                "fallback": buffett_fallback,
-            },
-            {
-                "label":   "Gewinnwachstum",
-                "value":   round(earn_g, 1) if earn_g is not None else None,
-                "unit":    "%",
-                "tone":    earn_tone,
-                "status":  earn_status,
-                "history": spark(cp_yoy, 20),
-            },
+            {"label": "Shiller CAPE", "value": round(cape_val, 1) if cape_val is not None else None, "unit": "", "tone": cape_tone, "status": cape_status, "history": spark(cape_hist, 60), "fallback": cape_fallback},
+            {"label": "Buffett-Indikator", "value": round(buffett_val, 1) if buffett_val is not None else None, "unit": "%", "tone": buff_tone, "status": buff_status, "history": spark(buffett_hist, 60), "fallback": buffett_fallback},
+            {"label": "Gewinnwachstum", "value": round(earn_g, 1) if earn_g is not None else None, "unit": "%", "tone": earn_tone, "status": earn_status, "history": spark(cp_yoy, 20)},
         ],
         "macro": [
-            {
-                "label":   "Zinsumfeld",
-                "value":   round(fed_rate, 2),
-                "unit":    "%",
-                "tone":    fed_tone,
-                "status":  fed_status,
-                "history": spark(effr_obs, 60),
-            },
-            {
-                "label":   "Wachstum",
-                "value":   round(gdp_g_val, 1),
-                "unit":    "%",
-                "tone":    gdp_tone,
-                "status":  gdp_status,
-                "history": spark(gdp_g_obs, 20),
-            },
-            {
-                "label":   "Rezessionsindikatoren",
-                "value":   round(rec_prob, 1),
-                "unit":    "%",
-                "tone":    rec_tone,
-                "status":  rec_status,
-                "history": [],
-            },
+            {"label": "Zinsumfeld", "value": round(fed_rate, 2), "unit": "%", "tone": fed_tone, "status": fed_status, "history": spark(effr_obs, 60)},
+            {"label": "Wachstum", "value": round(gdp_g_val, 1), "unit": "%", "tone": gdp_tone, "status": gdp_status, "history": spark(gdp_g_obs, 20)},
+            {"label": "Rezessionsindikatoren", "value": round(rec_prob, 1), "unit": "%", "tone": rec_tone, "status": rec_status, "history": []},
         ],
         "sentiment": sentiment,
         "geopolitics": GEO,
-        "marketBottomProbability": {
-            "title":          "Market Bottom Probability",
-            "score":          bp_score,
-            "scoreLabel":     f"{bp_score} %",
-            "reason":         bp_reason,
-            "interpretation": bp_interp,
-        },
-        "crashProbability": {
-            "title":          "Crash Probability",
-            "score":          cp_score,
-            "scoreLabel":     f"{cp_score} %",
-            "reason":         cp_reason,
-            "interpretation": cp_interp,
-        },
-        "timingQuality": {
-            "title":          "Timing-Qualität",
-            "score":          0,
-            "scoreLabel":     tq_label,
-            "reason":         tq_reason,
-            "interpretation": tq_interp,
-        },
-        "updateTriggers": {
-            "positive": POS_TRIGGERS,
-            "refresh":  REFRESH_TRIGGERS,
-        },
+        "marketBottomProbability": {"title": "Market Bottom Probability", "score": bp_score, "scoreLabel": f"{bp_score} %", "reason": bp_reason, "interpretation": bp_interp},
+        "crashProbability": {"title": "Crash Probability", "score": cp_score, "scoreLabel": f"{cp_score} %", "reason": cp_reason, "interpretation": cp_interp},
+        "timingQuality": {"title": "Timing-Qualität", "score": 0, "scoreLabel": tq_label, "reason": tq_reason, "interpretation": tq_interp},
+        "updateTriggers": {"positive": POS_TRIGGERS, "refresh": REFRESH_TRIGGERS},
         "timeVsTiming": {
-            "timeInMarket": (
-                "Langfristige Anlagepläne profitieren historisch von Korrekturen, "
-                "wenn sie diszipliniert durchgehalten werden. Wer raus ist, "
-                "verpasst die meisten Erholungstage."
-            ),
-            "marketTiming": (
-                f"Das aktuelle Umfeld zeigt erhöhte Spannungen. Stress-Score {stress:.0f}/100. "
-                "Wer neue Positionen aufbaut, profitiert von gestaffeltem Einstieg."
-            ),
-            "summary": (
-                "Die Trennung zwischen langfristiger Logik und kurzfristiger Marktlesart "
-                "bleibt der wichtigste Hebel gegen emotionale Fehlentscheidungen."
-            ),
+            "timeInMarket": "Langfristige Anlagepläne profitieren historisch von Korrekturen, wenn sie diszipliniert durchgehalten werden. Wer raus ist, verpasst die meisten Erholungstage.",
+            "marketTiming": f"Das aktuelle Umfeld zeigt erhöhte Spannungen. Stress-Score {stress:.0f}/100. Wer neue Positionen aufbaut, profitiert von gestaffeltem Einstieg.",
+            "summary": "Die Trennung zwischen langfristiger Logik und kurzfristiger Marktlesart bleibt der wichtigste Hebel gegen emotionale Fehlentscheidungen."
         },
         "charts": {
             "chartLabel": chart_label,
-            "growthFallback": growth_fallback,
-            "qqq":   nasdaq_chart[-300:],
-            "rsi":   rsi_chart[-300:],
-            "vix":   [{"date": p["date"], "value": p["value"]} for p in vix_obs[-300:]],
+            "qqq": growth_chart[-300:],
+            "rsi": rsi_chart[-300:],
+            "vix": [{"date": p["date"], "value": p["value"]} for p in vix_obs[-300:]],
             "brent": [{"date": p["date"], "value": p["value"]} for p in brent_obs[-300:]],
         },
         "news": latest.get("news", []),

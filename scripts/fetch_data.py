@@ -10,7 +10,7 @@ FINAL_OUT = ROOT.parent / "data" / "latest.json"
 
 BASE_SCRIPT = r"""#!/usr/bin/env python3
 from __future__ import annotations
-import html, json, os, sys, urllib.error, urllib.parse, urllib.request, xml.etree.ElementTree as ET
+import gzip, html, json, os, sys, urllib.error, urllib.parse, urllib.request, xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
@@ -32,9 +32,16 @@ YEAR_START = f"{NOW.year}-01-01"
 TICKER_ICONS = {"SPX":"📊","VIX":"⚡","BRENT":"🛢️","US 10Y":"📉","GOLD":"🟡","SILBER":"⚪","EUR/USD":"💱"}
 
 def http_get(url:str, timeout:int=25)->bytes:
-    req = urllib.request.Request(url, headers={"User-Agent":"Mozilla/5.0 (compatible; MarketRiskMonitor/3.0)"})
+    req = urllib.request.Request(url, headers={"User-Agent":"Mozilla/5.0 (compatible; MarketRiskMonitor/3.0)","Accept-Encoding":"gzip, deflate"})
     with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read()
+        raw = r.read()
+        enc = (r.headers.get("Content-Encoding") or "").lower()
+        if enc == "gzip" or raw[:2] == b"\x1f\x8b":
+            try:
+                raw = gzip.decompress(raw)
+            except Exception:
+                pass
+        return raw
 
 def fred(series_id:str, observation_start:str|None=None, limit:int|None=None)->list[dict]:
     params={"series_id":series_id,"api_key":FRED_KEY,"file_type":"json","sort_order":"asc"}
@@ -70,6 +77,36 @@ def history_points(obs:list[dict], dec:int=2)->list[dict]:
         except Exception:
             pass
     return out
+
+def filter_to_actual_points(points:list[dict], cadence:str="daily")->list[dict]:
+    if not points:
+        return []
+    today = NOW.date()
+    current_year = today.year
+    out=[]
+    for p in points:
+        ds = str(p.get("date", "")).strip()
+        if not ds:
+            continue
+        try:
+            d = datetime.strptime(ds, "%Y-%m-%d").date()
+        except Exception:
+            continue
+        if cadence == "annual":
+            if d.year >= current_year:
+                continue
+        elif d > today:
+            continue
+        out.append(p)
+    return out
+
+def latest_actual_value(points:list[dict], cadence:str="daily", default=None):
+    pts = filter_to_actual_points(points, cadence)
+    return pts[-1]["value"] if pts else default
+
+def latest_actual_date(points:list[dict], cadence:str="daily")->str:
+    pts = filter_to_actual_points(points, cadence)
+    return pts[-1]["date"] if pts else ""
 
 def build_yoy_history(obs:list[dict], dec:int=2, lag:int=12)->list[dict]:
     out=[]
@@ -363,7 +400,7 @@ europe = build_region(
 japan_gdp_hist = history_points(japan_gdp_raw,2)
 japan_gdp_yoy = yoy_from_level(japan_gdp_hist, 4)
 japan_growth = japan_gdp_yoy[-1]["value"] if japan_gdp_yoy else None
-japan_infl = safe_last(history_points(japan_cpi_annual_raw,2), None)
+japan_infl = latest_actual_value(history_points(japan_cpi_annual_raw,2), "annual", None)
 japan_fx_hist = history_points(japan_fx_raw,4)
 japan_fx = safe_last(japan_fx_hist, None)
 japan_score = 0.0
@@ -376,15 +413,15 @@ if japan_fx is not None:
 
 japan = build_region(
     "Japan",
-    {"value":japan_infl,"date":latest_by_date(history_points(japan_cpi_annual_raw,2)),"unit":"%","cadence":"annual","series":"JPNPCPIPCPPPT"},
+    {"value":japan_infl,"date":latest_actual_date(history_points(japan_cpi_annual_raw,2), "annual"),"unit":"%","cadence":"annual","series":"JPNPCPIPCPPPT"},
     {"label":"BIP-Wachstum YoY","value":japan_growth,"date":latest_by_date(japan_gdp_yoy),"unit":"%","cadence":"quarterly","series":"JPNRGDPEXP"},
     {"label":"JPY pro USD","value":japan_fx,"date":latest_by_date(japan_fx_hist),"unit":"","cadence":"daily" if japan_fx_series.startswith("DEX") else "monthly","series":japan_fx_series},
     "Japan wird über Wachstum, Preisbild und Yen-Stärke gelesen. Ein schwacher Yen kann globalen Stress und importierten Preisauftrieb verstärken.",
     min(100, japan_score),
 )
 
-china_growth = safe_last(history_points(china_gdp_raw,2), None)
-china_infl = safe_last(history_points(china_cpi_annual_raw,2), None)
+china_growth = latest_actual_value(history_points(china_gdp_raw,2), "annual", None)
+china_infl = latest_actual_value(history_points(china_cpi_annual_raw,2), "annual", None)
 china_fx_hist = history_points(china_fx_raw,4)
 china_fx = safe_last(china_fx_hist, None)
 china_score = 0.0
@@ -397,8 +434,8 @@ if china_fx is not None:
 
 china = build_region(
     "China",
-    {"value":china_infl,"date":latest_by_date(history_points(china_cpi_annual_raw,2)),"unit":"%","cadence":"annual","series":"CHNPCPIPCPPPT"},
-    {"label":"BIP-Wachstum","value":china_growth,"date":latest_by_date(history_points(china_gdp_raw,2)),"unit":"%","cadence":"annual","series":"CHNGDPRAPSMEI"},
+    {"value":china_infl,"date":latest_actual_date(history_points(china_cpi_annual_raw,2), "annual"),"unit":"%","cadence":"annual","series":"CHNPCPIPCPPPT"},
+    {"label":"BIP-Wachstum","value":china_growth,"date":latest_actual_date(history_points(china_gdp_raw,2), "annual"),"unit":"%","cadence":"annual","series":"CHNGDPRAPSMEI"},
     {"label":"CNY pro USD","value":china_fx,"date":latest_by_date(china_fx_hist),"unit":"","cadence":"daily" if china_fx_series.startswith("DEX") else "monthly","series":china_fx_series},
     "China wird hier über Wachstum, Preisbild und Yuan-Stärke gelesen. Schwächeres Wachstum oder sehr niedriger Preisauftrieb können globalen Industrie- und Rohstoffdruck verstärken.",
     min(100, china_score),
