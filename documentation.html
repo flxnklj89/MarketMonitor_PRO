@@ -141,7 +141,7 @@
       <table>
         <tr><th>1. Marktstatus</th><td>Vier Kern-KPIs mit numerischem Wert und Farbcodierung: Marktphase (SPX 20T-Performance), VIX (aktueller Indexwert), Marktbreite (RSP/SPY 20T-Veränderung) und Gesamtmodus (Crash-Score). Sie sind der komprimierte Einstieg in die Gesamtlage.</td></tr>
         <tr><th>2. Technische Trigger</th><td>50T-vs-200T-Trend (QQQ-Preis mit gleitenden Durchschnitten), RSI 14 (Überverkauft/Überkauft-Signal) und Drawdown vom Hoch zeigen die technische Marktstruktur. Karten zeigen Zahlenwert + Farbton + optional eine Sparkline des letzten 60-Tage-Verlaufs.</td></tr>
-        <tr><th>3. Bewertung &amp; Langfrist</th><td>Shiller CAPE, Buffett-Indikator (Wilshire-5000-Marktkapitalisierung / nominales BIP) und Gewinnwachstum. Dieser Block bezieht sich vollständig auf die <strong>USA</strong>. CAPE wird primär via multpl.com gelesen; Buffett-Indikator und Gewinnwachstum kommen aus FRED.</td></tr>
+        <tr><th>3. Bewertung &amp; Langfrist</th><td>Shiller CAPE (10-Jahres-KGV-Proxy aus FRED-Daten), Buffett-Indikator (Wilshire-5000-Marktkapitalisierung / nominales BIP aus FRED) und Gewinnwachstum (US-Unternehmensgewinne YoY aus FRED CPROFIT). Alle drei kommen aus FRED.</td></tr>
         <tr><th>4. Makro-Umfeld</th><td>Zinsumfeld (Fed Rate aus FRED), Wachstum (reales BIP-Wachstum annualisiert aus FRED A191RL1Q225SBEA) und Rezessionsindikatoren (RECPROUSM156N aus FRED). Alle drei zeigen Zahlenwert in %.</td></tr>
         <tr><th>5. Sentiment &amp; Risiken</th><td>Marktstimmung aus News-Analyse und eine Liste der aktuell relevantesten Risikofelder. Kontext-Layer, kein Handlungssignal.</td></tr>
         <tr><th>6. Geopolitik</th><td>Konfliktfelder mit potenzieller Marktwirkung: Transportkorridore, Energie, physische Versorgung. Automatisch aus Google News RSS befüllt und auf Marktsensitivität bewertet.</td></tr>
@@ -155,7 +155,7 @@
     <section class="card">
       <h2 class="section-title">Bewertungsindikatoren: Methodik im Detail</h2>
       <div class="grid grid-3" style="margin-top:14px">
-        <div class="mini"><h3>Shiller CAPE</h3><p>Das Shiller CAPE bezieht sich auf den <strong>US-Aktienmarkt</strong> und wird primär über multpl.com gelesen. Falls die Quelle beim Update geblockt ist, versucht der Kompass beim nächsten Lauf erneut zu laden; der zuletzt erfolgreiche Wert kann als Fallback erhalten bleiben. Werte über 30 = historisch teuer, unter 20 = günstiger.</p></div>
+        <div class="mini"><h3>Shiller CAPE (Proxy)</h3><p>Das echte Shiller CAPE erfordert 10 Jahre inflationsbereinigte Gewinndaten, die über keine kostenlose öffentliche API stabil abrufbar sind. Der Kompass berechnet einen FRED-basierten Proxy: aktueller S&amp;P-500-Kurs geteilt durch den rollierenden Durchschnitt der US-Unternehmensgewinne (CPROFIT). Werte über 30 = historisch teuer, unter 20 = günstiger.</p></div>
         <div class="mini"><h3>Buffett-Indikator</h3><p>Berechnet als <code>WILL5000INDFC / GDP × 100</code> direkt aus FRED: Wilshire-5000-Gesamtmarktkapitalisierung (in Mrd. USD) geteilt durch das nominale US-BIP (in Mrd. USD). Werte über 130 % gelten als überbewertet, über 160 % als stark überbewertet. Historischer Mittelwert liegt bei ca. 85–100 %.</p></div>
         <div class="mini"><h3>Gewinnwachstum</h3><p>US-Unternehmensgewinne nach Steuer (FRED: CPROFIT), Vergleich aktuellstes Quartal vs. Vorjahresquartal (YoY). Positives Gewinnwachstum stützt Bewertungen, negatives erhöht Korrekturdruck. Quartalsreihe, daher weniger aktuell als täglich erscheinende Daten.</p></div>
       </div>
@@ -230,7 +230,7 @@
       <details><summary>Wie unterscheidet sich der Invest-Check vom Dashboard?</summary><p>Das Dashboard gibt eine allgemeine Marktphasen-Einordnung. Der Invest-Check personalisiert das Bild anhand deiner konkreten Eingaben (Betrag, Horizont, Profil, Stil, Puffer). Beide nutzen dieselbe Datenbasis, aber der Check leitet eine spezifische Handlungslogik für ein konkretes Vorhaben ab.</p></details>
       <details><summary>Warum Presets keine Handlungsempfehlung sind</summary><p>Weil sie nur zeigen, wie verschiedene Nutzertypen dieselbe Datenlage mit leicht unterschiedlichen Gewichten lesen würden. Sie ersetzen weder ein persönliches Anlagekonzept noch eine Eignungsprüfung.</p></details>
       <details><summary>Warum erscheint der Ticker manchmal leer?</summary><p>Der Ticker lädt primär aus <code>data/ticker.json</code> (alle 15 min). Falls diese Datei leer ist, fällt er auf <code>data/latest.json</code> zurück. Zeigt er dennoch „Ticker nicht verfügbar", ist entweder kein Workflow-Run abgeschlossen, die Börsen sind geschlossen und Stooq liefert keine Kurse, oder beide Dateien haben kein befülltes <code>ticker</code>-Array. Lösung: Workflow manuell triggern.</p></details>
-      <details><summary>Warum kann der Shiller CAPE manchmal fehlen oder veraltet wirken?</summary><p>Der CAPE-Wert wird aus einer externen Quelle gelesen, die in CI-Umgebungen gelegentlich blockieren kann. Deshalb ist dieser Baustein störanfälliger als reine FRED-Reihen. Im überarbeiteten Stand bleibt der zuletzt erfolgreiche Wert als Fallback erhalten, damit die Karte nicht leer wird, wenn ein einzelner Lauf scheitert.</p></details>
+      <details><summary>Warum zeigt der Shiller CAPE einen "Proxy"-Wert statt den echten?</summary><p>Der echte Shiller CAPE benötigt 10 Jahre inflationsbereinigte Unternehmensgewinndaten, die über keine kostenlose, stabile API abrufbar sind ohne Website-Scraping. Da Scraping in CI-Umgebungen (GitHub Actions) oft durch IP-Blocking fehlschlägt, berechnet der Kompass einen FRED-basierten Näherungswert aus S&amp;P-500-Preis und rollendem Unternehmensgewinn-Durchschnitt. Die Aussage (teuer / mittel / günstig) bleibt vergleichbar, der Absolutwert weicht etwas ab.</p></details>
     </section>
 
   </main>
@@ -254,7 +254,7 @@
     }
     async function loadTicker(){
       // Bevorzuge ticker.json (alle 15 min), Fallback auf latest.json (alle 4h)
-      for(const url of ['./data/ticker.json','./data/latest.json','./ticker.json','./latest.json']){
+      for(const url of ['./data/ticker.json','./data/latest.json']){
         try{
           const data=await fetch(url+'?t='+Date.now(),{cache:'no-store'}).then(r=>r.json());
           if(data?.ticker?.length){ renderTicker(data); return; }

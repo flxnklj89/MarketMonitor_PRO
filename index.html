@@ -310,7 +310,7 @@
     }
     async function loadTicker(){
       // Bevorzuge ticker.json (alle 15 min), Fallback auf latest.json (alle 4h)
-      for(const url of ['./data/ticker.json','./data/latest.json','./ticker.json','./latest.json']){
+      for(const url of ['./data/ticker.json','./data/latest.json']){
         try{
           const data=await fetch(url+'?t='+Date.now(),{cache:'no-store'}).then(r=>r.json());
           if(data?.ticker?.length){ renderTicker(data); return; }
@@ -320,7 +320,7 @@
       if(track) track.innerHTML='<span class="tk-stale">Ticker derzeit nicht verfügbar</span>';
     }
 
-    const DATA_URL=(location.protocol==='file:'?'./latest.json':'./data/latest.json');
+    const DATA_URL='./data/latest.json';
     const RANGES={ '1M':31,'3M':93,'6M':186,'12M':372,'MAX':Infinity };
     const indicatorMeta={
       inflation:{label:'US-Inflation',unit:'%',role:'Bestätigungssignal',confidence:'Mittlere Belastbarkeit',critical:'Kritischer, wenn der Wert hartnäckig erhöht bleibt und gleichzeitig Wachstum oder Marktbreite schwächer werden.',info:'<strong>Was wird gemessen?</strong><br>Die jährliche Veränderung der US-Verbraucherpreise.<br><br><strong>Warum ist das relevant?</strong><br>Inflation beeinflusst Kaufkraft, Margen, Zinsen und Bewertungsniveaus.<br><br><strong>Wann wird es kritisch?</strong><br>Nicht nur bei einem einzelnen hohen Wert, sondern wenn Preisdruck zäh bleibt und andere Belastungssignale dazukommen.<br><br><strong>Signalrolle:</strong><br>Eher Bestätigung als Frühwarnung. Inflation ist wichtig, kommt aber meist nicht als erstes Warnlicht.',relevance:'Sie prägt, wie locker oder restriktiv das Gesamtumfeld ist.'},

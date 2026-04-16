@@ -159,7 +159,7 @@
     }
     async function loadTicker(){
       // Bevorzuge ticker.json (alle 15 min), Fallback auf latest.json (alle 4h)
-      for(const url of ['./data/ticker.json','./data/latest.json','./ticker.json','./latest.json']){
+      for(const url of ['./data/ticker.json','./data/latest.json']){
         try{
           const data=await fetch(url+'?t='+Date.now(),{cache:'no-store'}).then(r=>r.json());
           if(data?.ticker?.length){ renderTicker(data); return; }
@@ -169,7 +169,7 @@
       if(track) track.innerHTML='<span class="tk-stale">Ticker derzeit nicht verfügbar</span>';
     }
 
-    const DATA_URL=(location.protocol==='file:'?'./latest.json':'./data/latest.json');
+    const DATA_URL='./data/latest.json';
     const $=id=>document.getElementById(id);
     let appData=null;
 
