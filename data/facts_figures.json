@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-16T11:41:34.883552+00:00",
+  "generatedAt": "2026-04-16T16:57:28.667916+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -20,16 +20,16 @@
     },
     "vix": {
       "title": "Relativ ruhig",
-      "value": 18.4,
+      "value": 18.2,
       "unit": "",
       "tone": "l",
-      "status": "VIX bei 18.4. Unter dem langfristigen Durchschnitt von ~17–20."
+      "status": "VIX bei 18.2. Unter dem langfristigen Durchschnitt von ~17–20."
     },
     "breadth": {
-      "title": "59 % über 200T-Ø (Proxy)",
-      "value": 59,
+      "title": "60 % über 200T-Ø (Proxy)",
+      "value": 60,
       "unit": "%",
-      "tone": "m",
+      "tone": "l",
       "status": "Näherungswert abgeleitet aus VIX-Niveau. Direktdaten nicht via FRED verfügbar."
     }
   },
@@ -668,7 +668,7 @@
     "title": "Crash Probability",
     "score": 16,
     "scoreLabel": "16 %",
-    "reason": "Stress 40/100, Rezessionsrisiko 0.5 %, VIX 18.4.",
+    "reason": "Stress 40/100, Rezessionsrisiko 0.5 %, VIX 18.2.",
     "interpretation": "Crash-Risiko derzeit begrenzt."
   },
   "timingQuality": {
@@ -3707,10 +3707,6 @@
     ],
     "vix": [
       {
-        "date": "2025-02-13",
-        "value": 15.1
-      },
-      {
         "date": "2025-02-14",
         "value": 14.77
       },
@@ -4905,6 +4901,10 @@
       {
         "date": "2026-04-14",
         "value": 18.36
+      },
+      {
+        "date": "2026-04-15",
+        "value": 18.17
       }
     ],
     "brent": [
@@ -6112,9 +6112,27 @@
   },
   "news": [
     {
+      "title": "Oil Prices Are Mixed Today. The Stock Market Is Mostly Ignoring Them.",
+      "source": "Barron's",
+      "publishedAt": "2026-04-16T15:04:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxON0ltWTE5YTJPNGQyMUR1S2NaaHMtVEdJVHplU19wODVHX2VRdndLR1ljS015N25DbGtOLUJkNGRKWkhQX1R4UHJqTm1FeU50Q1cwTm5XTFlhUmNMVUdHUkh1aFRLQm0wQ1ppSk9LVEd5cmVXMnhWY1ZfVk1UeXNpSl9BR25NQTA4?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
       "title": "Billionaire Investor Ken Griffin Warns of Recession. Will the Stock Market Crash If He's Right?",
       "source": "The Motley Fool",
-      "publishedAt": "2026-04-16T08:23:30+00:00",
+      "publishedAt": "2026-04-16T09:12:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaXJ1Sm5oV0htZk9ETmtMczQtN3JDSFFGd1B1MllEQ2RMa0dpdnVIRUxMWF82MWptTEd4V0pIelRFMi1WR001RWo1aXFlaU9nMTBnc1hsRkpDTG5JXzRkOHBVMER6TDVPQjdzajlUR0hiQlVHRWFYY3N1ek14a1BqdGNDQUg5ZkxWZ0xvemYtMDItQnRLa3dLRg?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
@@ -6129,10 +6147,28 @@
       ]
     },
     {
-      "title": "Stocks are back at records, but some investing pros think the oil shock is still a big problem for markets",
-      "source": "Business Insider",
-      "publishedAt": "2026-04-16T09:20:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZjdBNlg2OUVqeUJTSHJHYTU4UTlMdUItcmltX0pTRVJpSHg5SFNWaWlIYzRPZXNfOHFRQXNrY0ttVXhYMWxrVXNlTERzelNDaUUzODRSazJpcE9LeW11UlBNSktDRVk1dFZsamoyRGh3dFlCX29KM0FTWUhWWG1uZkpfcm1UMnRJSU16OVYwQWsyN0dIYk9WSllZbDlhNjJm?oc=5",
+      "title": "The Federal Reserve’s April Inflation Forecast Is In, and It’s Bad News for Stock Market Bulls",
+      "source": "24/7 Wall St.",
+      "publishedAt": "2026-04-16T15:07:48+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRXktLUpEd2c2QjJia1FiY3lwLXNnTXRJWl85ZG1JcWU1NkxVZjdZUU9BWTlMcC1ydW1hRXZnVFNzLXVvRC1qX3U4Vko1Q3p5LXowcXlUeHdTc0VhaENDNGNaaWZyeHdCUFhvM3ZhMjRIaF9CNnBBZHUxVV9YWDhuX1RrLVFHaHpPbDNOTEdFb1psbHVfc0hvRjFBc01HYkdqcVBPR2d2X053X1pjNlRGTkRWT1loQ3JDTUFNOFRGalR1VmFib1BMTFFkdm5YMmdyM3Qw?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Wall Street holds near its record high even as oil prices climb",
+      "source": "AP News",
+      "publishedAt": "2026-04-16T15:42:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPX296UDBvTWgzLUJsUUcwQVU3V1NHd1R6d0p2Ukx6cEpIeHhpYjVDVHQ4LXVVa2MzYk1XWHVtaFUtQy1ad3U0RnJqVkRVLWJ3OUI1Sm5ya25kaWJsRENZNU5oU1U1TVlYd3MxLUdxdHVHd2V2TVNrd201RzdiVTVPM0xydWIwZU1oNk1fRXlLa2UwRTJXcFA0?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -6147,27 +6183,10 @@
       ]
     },
     {
-      "title": "What War? US Stocks Hit Record Highs",
-      "source": "Morningstar",
-      "publishedAt": "2026-04-16T09:00:52+00:00",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORGhCdGpmSW44Z1loeUxpbnppUTRhTW9jOWhWblcxc0U3ZGtnbmZsbkdZdFpBSEJsZHJXOFNYbjc1WDluWXNfVmcxSWVYNmxvYXQ4bkFBeUtuWkxwUTVUV1hxNjNDaXpYZTRnNmNEVzZpb3NYeWk5YjVFR2NfQURfLTItNDBSTkE?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "S&P 500 hits all-time high as investors shrug off Iran war oil price spike",
-      "source": "NBC News",
-      "publishedAt": "2026-04-15T20:36:31+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOalBvNW9PR240LVFHOGJqRkVGZnFUeEV1SEtxb19FN1ZaYU5kOTJNZTV0V1J5WHIzSU9nSkpfVFVBRE5uZktDWk95SGpFcFk1U1dFMVFReG5GdjktZVhSMGoySUVmbEFPenB5bnZ6VzRDUXFaVmYyOUpKUGtOZW1uUUR2c3FKR0dE?oc=5",
+      "title": "Oil prices are no longer a problem for the stock market. That may quickly change.",
+      "source": "MSN",
+      "publishedAt": "2026-04-16T13:07:30+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaWVBZlVKeEdYc0pRNzBUdTNmOE91UGpCMWpaajU1eGtkWFhFaDVrZk93M0VhQ0NleUV3STV1VW5WVk9veGxNNUpEelh0TGRKLWVYTmU5M1FNTElURGx5X1ktYUZDQmxlTnFYT1JlVHVYMy1iMFV1OWJGVXg5RVRzU04tOFRyN0dOOWg5Y0tlVVF4WUYtWkcxSVNKZm81ZXlEWjZPR0h4MGxyT3BSN2QwQw?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -6182,27 +6201,10 @@
       ]
     },
     {
-      "title": "S&P 500 Hits Record High as Stock Market Looks Beyond Iran War",
-      "source": "The New York Times",
-      "publishedAt": "2026-04-15T16:52:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE51VjVQYkE3N21Pc210S21jQmhGZ0R5SnB2NnpyUlc5dHhQQVRweFA2bEs3SXNyNllYZzRXWXZzc0VCSlNUVEpLcE4zWVp5VE5jcHV6b3l6b1lVTXRmQlBHNU1ZVEpsUDhRb051YnhDT05kT3dhelVsdHpWVQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Fixing the oil crisis might not fix the Persian Gulf : The Indicator from Planet Money",
-      "source": "NPR",
-      "publishedAt": "2026-04-16T07:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOeUJyY29zd3FlekFxOUJmUlJUdFNqLTVSQVMtejFxUG12aERHQngzWTN2WEFBV1B0bDY3U1RUbjhPTk5fY0FSb0RlMXpzSzNwbElLaDN2am1DU1hqeHhaLTNXR3F2STR3UmlRSnFzLVlPUzhMR3d0ckFWWWNnbURidnJrQThwSXA5SWlVVEQ2dG10VkF5bW9vWE1qSGdwQQ?oc=5",
+      "title": "Stocks hit records and oil steadies as U.S. and Iran weigh ceasefire extension",
+      "source": "qz.com",
+      "publishedAt": "2026-04-16T13:56:27+00:00",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBIUEFITmdaS1R3bFg3Nk5MTlZRSHRiZF9KMXhoQVVEM20xYlREaU91Z2w5ekdmNTZkVzVpbERoSnAyYzhpWTk0VGV1b0RVQTQ2OXcxbnNCZXVXOE93amtsNVZIa1o2anN6ejBJQjgwNlc2M0xXTmo5SllEMA?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
