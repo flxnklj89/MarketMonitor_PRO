@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hilfe & Doku · Marktrisiko-Kompass PRO</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,400;9..144,500&display=swap" rel="stylesheet" />
+  <style>
+    :root{--bg:#0f1722;--panel:rgba(255,255,255,.04);--panel2:rgba(255,255,255,.03);--border:rgba(255,255,255,.08);--text:#edf3fb;--text2:#c5d4e4;--text3:#8fa7c0;--blue:#8fc4ff;--blue-bg:rgba(143,196,255,.14);--shadow:0 20px 60px rgba(0,0,0,.22);--radius:22px;--font:'Inter',system-ui,sans-serif;--serif:'Fraunces',Georgia,serif;--green:#53d39f;--amber:#f6ba62;--red:#ff7a7a;--green-bg:rgba(83,211,159,.14);--amber-bg:rgba(246,186,98,.14);--red-bg:rgba(255,122,122,.14)}
+    *{box-sizing:border-box}body{margin:0;font-family:var(--font);background:radial-gradient(circle at top, rgba(79,123,179,.18), transparent 36%),linear-gradient(180deg,#0d1520,#121c29 30%,#111926 100%);color:var(--text)}a{color:inherit}
+    .topbar{position:sticky;top:0;z-index:50;background:rgba(14,22,32,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--border)}.topbar-inner{max-width:1180px;margin:0 auto;padding:14px 20px;display:flex;justify-content:space-between;align-items:center;gap:16px}.brand{display:flex;align-items:center;gap:12px;text-decoration:none}.brand-mark{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:rgba(255,255,255,.06);border:1px solid var(--border);font-size:20px}.brand-over{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--text3)}.brand-name{font-size:18px;font-weight:700}.nav{display:flex;gap:10px;flex-wrap:wrap}.nav a{padding:10px 14px;border:1px solid var(--border);border-radius:999px;text-decoration:none;background:rgba(255,255,255,.04);font-size:13px;color:var(--text2)}.nav a:hover,.nav a.active{background:var(--blue-bg);color:var(--text)}
+    #ticker-wrap{position:sticky;top:71px;z-index:90;background:rgba(18,28,41,.88);backdrop-filter:blur(14px);border-bottom:1px solid var(--border);display:flex;align-items:center;min-height:40px;overflow:hidden}
+    .ticker-badge{flex-shrink:0;padding:0 16px;color:var(--text3);font-size:10px;letter-spacing:.18em;text-transform:uppercase;border-right:1px solid var(--border);min-height:40px;display:flex;align-items:center;background:rgba(255,255,255,.03)}
+    .ticker-viewport{flex:1;overflow:hidden;position:relative}.ticker-viewport:before,.ticker-viewport:after{content:'';position:absolute;top:0;bottom:0;width:34px;z-index:2;pointer-events:none}.ticker-viewport:before{left:0;background:linear-gradient(to right, rgba(18,28,41,1), transparent)}.ticker-viewport:after{right:0;background:linear-gradient(to left, rgba(18,28,41,1), transparent)}
+    .ticker-track{display:flex;align-items:center;white-space:nowrap;width:max-content;animation:ticker-scroll 36s linear infinite}.ticker-track:hover{animation-play-state:paused}@keyframes ticker-scroll{0%{transform:translateX(0)}100%{transform:translateX(-25%)}}
+    .ticker-item{display:inline-flex;align-items:center;gap:8px;padding:0 18px;font-size:12px;min-height:40px}.tk-icon{font-size:15px}.tk-label{color:var(--text2)}.tk-val{font-weight:600}.tk-unit{color:var(--muted);font-size:10px}.tk-up{color:var(--green)}.tk-dn{color:var(--red)}.tk-neu{color:var(--text3)}.tk-stale{color:var(--text3);padding:0 18px;min-height:40px;display:flex;align-items:center}
+
+    .page{max-width:1180px;margin:0 auto;padding:28px 20px 50px}.card{background:linear-gradient(180deg, rgba(255,255,255,.045), rgba(255,255,255,.025));border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);padding:24px}.card + .card{margin-top:16px}.kicker{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--text3);margin-bottom:12px}.title{margin:0;font-family:var(--serif);font-size:clamp(34px,5vw,58px);line-height:1.02;letter-spacing:-.04em;max-width:none}.lead{margin:16px 0 0;color:var(--text2);font-size:16px;line-height:1.8;max-width:70ch}.section-title{margin:0 0 12px;font-family:var(--serif);font-size:32px;line-height:1.1}.card p,.card li{color:var(--text2);font-size:15px;line-height:1.85}.card ul{margin:0;padding-left:20px}.grid{display:grid;gap:16px}.grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}.grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}.mini{padding:18px;border-radius:18px;background:var(--panel2);border:1px solid rgba(255,255,255,.06)}.mini h3{margin:0 0 8px;font-size:16px}.mini p{margin:0;color:var(--text2);font-size:14px;line-height:1.75}.chip{display:inline-block;margin:4px 8px 0 0;padding:8px 11px;border-radius:999px;border:1px solid var(--border);background:rgba(255,255,255,.04);font-size:12px;color:var(--text2)}.pill{display:inline-block;margin-bottom:10px;padding:7px 10px;border-radius:999px;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--border)}.l{background:var(--green-bg);color:var(--green)}.m{background:var(--amber-bg);color:var(--amber)}.h{background:var(--red-bg);color:var(--red)}table{width:100%;border-collapse:collapse;margin-top:8px}th,td{padding:14px 0;border-top:1px solid var(--border);vertical-align:top;text-align:left;color:var(--text2);font-size:14px;line-height:1.75}th{width:28%;color:var(--text)}code{padding:2px 6px;border-radius:6px;border:1px solid var(--border);background:rgba(255,255,255,.05)}details{border-top:1px solid var(--border);padding-top:12px;margin-top:12px}summary{cursor:pointer;font-weight:700}
+    @media (max-width:860px){.grid-2,.grid-3{grid-template-columns:1fr}.page,.topbar-inner{padding-left:16px;padding-right:16px}.card{padding:18px}.title{max-width:none}th,td{display:block;width:auto;padding:10px 0}.table-row{display:block;padding:8px 0}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="./index.html"><div class="brand-mark">🧭</div><div><div class="brand-over">PRO · GitHub Pages</div><div class="brand-name">Marktrisiko-Kompass</div></div></a>
+      <nav class="nav">
+        <a href="./index.html">Dashboard</a>
+        <a href="./facts-figures.html">Facts &amp; Figures</a>
+        <a href="./invest-check.html">Invest-Check</a>
+        <a class="active" href="./documentation.html">Hilfe &amp; Doku</a>
+      </nav>
+    </div>
+  </header>
+
+  <div id="ticker-wrap"><div class="ticker-badge">Live-Marktband</div><div class="ticker-viewport"><div class="ticker-track" id="ticker-track"><span class="tk-stale">Lade Ticker…</span></div></div></div>
+
+  <main class="page">
+
+    <!-- ===== HERO ===== -->
+    <section class="card">
+      <div class="kicker">PRO · Hilfe &amp; Onboarding</div>
+      <h1 class="title">Der Marktrisiko-Kompass PRO — vollständige Dokumentation</h1>
+      <p class="lead">Alles, was du für ein sicheres Lesen der vier Seiten brauchst: Bedeutung der Signale, Logik der Berechnungen, Datenquellen, Update-Zyklen und häufige Verständnisfragen.</p>
+      <div><span class="chip">Dashboard</span><span class="chip">Facts &amp; Figures</span><span class="chip">Invest-Check</span><span class="chip">Live-Ticker</span><span class="chip">Szenarien</span><span class="chip">Signalqualität</span><span class="chip">Presets</span><span class="chip">Datenquellen</span></div>
+    </section>
+
+    <!-- ===== DASHBOARD ===== -->
+    <section class="card">
+      <h2 class="section-title">Dashboard: Gesamtbild und Einstieg</h2>
+      <p>Das Dashboard ist die Hauptseite. Es verdichtet die aktuelle Lage in vier Schichten: Gesamtphase, Szenarien, Makroindikatoren und regionaler Kontext. Lies es in dieser Reihenfolge – nicht umgekehrt.</p>
+      <div class="grid grid-2" style="margin-top:14px">
+        <div class="mini"><h3>1. Aktuelle Gesamtphase</h3><p>Die Hero-Zone zeigt sofort, ob das Umfeld eher geordnet, angespannt oder klar gestresst wirkt. Das ist der Einstieg, nicht die Detailanalyse. Sie verdichtet alle nachfolgenden Signale zu einer einzigen Lesart.</p></div>
+        <div class="mini"><h3>2. Szenarien A / B / C</h3><p>Drei konkurrierende Marktpfade mit Wahrscheinlichkeiten. Entscheidend ist nicht nur die Prozentzahl, sondern auch: Was stützt das Szenario? Wie verändert sich die Dynamik? Wann sollte man das Bild neu lesen?</p></div>
+        <div class="mini"><h3>3. Makroindikatoren</h3><p>Inflation, Fed Rate, Rezessionssignal, S&amp;P 500, Verbraucherstimmung und Trade-Stress erklären, <em>warum</em> die Phase so gelesen wird. Sie sind keine isolierten Kauf- oder Verkaufssignale.</p></div>
+        <div class="mini"><h3>4. Regionen &amp; News</h3><p>Europa, Japan und China zeigen den globalen Kontext. Die News sind ein kompakter Kontext-Layer — kein endloser Feed und keine Handlungsempfehlung.</p></div>
+      </div>
+    </section>
+
+    <!-- ===== PHASEN ===== -->
+    <section class="card">
+      <h2 class="section-title">Marktphasen: was sie bedeuten</h2>
+      <div class="grid grid-2" style="margin-top:14px">
+        <div class="mini"><span class="pill l">Normalphase</span><p>Das Umfeld ist überwiegend geordnet. Nicht risikofrei, aber Marktstress dominiert nicht. Fokus auf Regelwerk und Langfristigkeit ist die richtige Reaktion.</p></div>
+        <div class="mini"><span class="pill m">Erhöhte Vorsicht</span><p>Mehrere Signale verschlechtern sich gleichzeitig. Das Umfeld verzeiht emotionale Entscheidungen weniger gut. Nüchternheit gewinnt an Bedeutung.</p></div>
+        <div class="mini"><span class="pill m">Defensivere Haltung</span><p>Belastung ist klarer und breiter sichtbar. Risiko bewusster einordnen, Puffer prüfen, Qualität bevorzugen. Kein Alarm, aber weniger Fehlertoleranz.</p></div>
+        <div class="mini"><span class="pill h">Hohes Stressniveau</span><p>Mehrere Signalarten bestätigen gleichzeitig eine anspruchsvolle Phase. Timing-Fehler, Überreaktionen und zu aggressive Wetten werden gefährlicher. Erst Lage lesen, dann handeln.</p></div>
+      </div>
+    </section>
+
+    <!-- ===== SZENARIEN ===== -->
+    <section class="card">
+      <h2 class="section-title">Wie die Szenarien entstehen</h2>
+      <p>Die Szenarien sind keine Glaskugel. Sie sind eine regelbasierte Gewichtung der aktuellen Datenlage. Inflation, Zinsen, Rezessionsanzeichen, Marktverlauf, Stimmung, Stressindikatoren und der globale Layer schieben das Bild in Richtung eines der drei Pfade.</p>
+      <table>
+        <tr><th>Szenario A</th><td>Spricht für eine länger belastete Phase. Hoher anhaltender Druck aus mehreren Richtungen gleichzeitig. Erhöhtes Rezessions- oder Crash-Risiko.</td></tr>
+        <tr><th>Szenario B</th><td>Zähe Zwischenphase: nicht geordnet, aber auch kein klarer Strukturbruch. Typisch für Übergangsphasen mit gemischten Signalen.</td></tr>
+        <tr><th>Szenario C</th><td>Begrenzter oder besser beherrschbarer Stress. Belastungen sind real, aber eher Korrektur als Kapitulation.</td></tr>
+      </table>
+      <p style="margin-top:14px">Zu jedem Szenario zeigt das Dashboard: welche Treiber es gerade stützen, in welche Richtung sich die Wahrscheinlichkeit verschiebt, und was das für Anleger in dieser Konstellation bedeutet.</p>
+    </section>
+
+    <!-- ===== HANDLUNGSMATRIX ===== -->
+    <section class="card">
+      <h2 class="section-title">Handlungsmatrix</h2>
+      <div class="grid grid-2" style="margin-top:14px">
+        <div class="mini"><h3>Was die Matrix leisten soll</h3><p>Sie gibt einen Verhaltensrahmen, keinen Trade-Call. Sie soll zeigen, wie vorsichtig oder konstruktiv man die aktuelle Lage lesen sollte — nicht welches konkrete Produkt zu kaufen oder zu verkaufen ist.</p></div>
+        <div class="mini"><h3>Warum das wichtig ist</h3><p>Viele Fehler entstehen nicht aus fehlenden Daten, sondern aus falschen Reaktionen auf Daten. Zu hektisch in Panik oder zu sorglos in ruhigen Phasen — die Matrix soll genau diese Reaktionsfehler dämpfen.</p></div>
+        <div class="mini"><h3>Normalphase</h3><p>Regelwerk einhalten. Nicht jeder kleine Ausschlag ist ein neues Marktsignal. Langfristigkeit und Disziplin haben hier mehr Wert als aktives Reagieren.</p></div>
+        <div class="mini"><h3>Erhöhte Vorsicht</h3><p>Risikobewusstsein schärfen. Puffer prüfen. Nüchterne Beobachtung vor hektischen Entscheidungen. Noch kein Alarmmodus, aber erhöhte Aufmerksamkeit ist angebracht.</p></div>
+        <div class="mini"><h3>Defensivere Haltung</h3><p>Robustheit und Qualität werden wichtiger. Puffer halten. Konsequent nach eigenem Regelwerk handeln, nicht nach Schlagzeilen.</p></div>
+        <div class="mini"><h3>Hohes Stressniveau</h3><p>Stabilität hat Vorrang. Emotionale Disziplin ist die wichtigste Ressource. Panik und Timing-Fehler sind in dieser Phase teurer als sonst.</p></div>
+      </div>
+    </section>
+
+    <!-- ===== MAKROINDIKATOREN ===== -->
+    <section class="card">
+      <h2 class="section-title">Makroindikatoren im Dashboard: vollständige Erklärung</h2>
+      <p>Alle Indikatoren kommen aus FRED (Federal Reserve Economic Data) und werden alle 4 Stunden aktualisiert. Jeder Indikator hat eine definierte Signalrolle und Belastbarkeit.</p>
+      <table>
+        <tr><th>Inflation (CPIAUCSL)</th><td>Jährliche Veränderung der US-Verbraucherpreise. Beeinflusst Kaufkraft, Zinspolitik und Unternehmensmargen. Allein noch kein Stresssignal, aber ein zentraler Treiber für das Gesamtumfeld. <em>Rolle: Begleitindikator, mittlere Belastbarkeit.</em></td></tr>
+        <tr><th>US-Leitzins (EFFR)</th><td>Effektiver Tagesgeldzins am US-Geldmarkt. Zeigt, wie teuer kurzfristiges Geld tatsächlich ist. Hohe Zinsen verstärken Gegenwind, sind aber selten das erste Warnlicht. <em>Rolle: Bestätigungssignal, höhere Belastbarkeit.</em></td></tr>
+        <tr><th>Rezessionssignal (RECPROUSM156N + SAHMCURRENT)</th><td>Kombiniert ein monatliches Rezessionsmodell mit der Sahm Rule als schnellerem Arbeitsmarkt-Check. Die Monatswahrscheinlichkeit bestätigt, die Sahm Rule warnt früher. Kritisch, wenn beide gleichzeitig anziehen. <em>Rolle: Frühwarnung + Bestätigung, mittlere Belastbarkeit.</em></td></tr>
+        <tr><th>S&amp;P 500 YTD (SP500)</th><td>Marktperformance seit Jahresbeginn. Märkte preisen Risiken oft früher ein als Makrodaten. Nicht bei jeder roten Woche kritisch — erst wenn Schwäche anhält und von anderen Signalen bestätigt wird. <em>Rolle: Kontext- und Bestätigungssignal, mittlere Belastbarkeit.</em></td></tr>
+        <tr><th>Verbraucherstimmung (UMCSENT)</th><td>University of Michigan Consumer Sentiment. Hilfreich für Einordnung von Nachfrage und Erwartungslage. Anfällig für kurzfristige Stimmungswechsel — immer mit harten Daten zusammen lesen. <em>Rolle: Begleitsignal, niedrigere Belastbarkeit.</em></td></tr>
+        <tr><th>Trade-Stress / Marktstress</th><td>Proxy aus VIX, Brent-Öl, EUR/USD und US-10Y-Rendite. Macht plötzliche Spannungen schnell sichtbar, ist aber anfällig für kurzfristiges Rauschen. Kritisch bei anhaltend hohen Werten mit Makro-Bestätigung. <em>Rolle: Frühwarnsignal, mittlere Belastbarkeit.</em></td></tr>
+      </table>
+    </section>
+
+    <!-- ===== SIGNALQUALITÄT ===== -->
+    <section class="card">
+      <h2 class="section-title">Signalqualität &amp; Vertrauenslogik</h2>
+      <div class="grid grid-3" style="margin-top:14px">
+        <div class="mini"><h3>🔔 Frühwarnsignal</h3><p>Kann Spannungen früh anzeigen, ist allein aber noch kein belastbarer Beweis für eine Trendwende. Braucht Bestätigung durch andere Signale, bevor es wirklich schwer wiegt.</p></div>
+        <div class="mini"><h3>✅ Bestätigungssignal</h3><p>Zeigt, dass eine Entwicklung bereits Substanz gewonnen hat. Diese Signale verdienen mehr Vertrauen als reine Frühwarnungen, weil sie träger und stabiler reagieren.</p></div>
+        <div class="mini"><h3>📎 Kontext-/Begleitsignal</h3><p>Hilft beim Gesamtbild, sollte aber nicht isoliert interpretiert werden. Am wertvollsten als Ergänzung, wenn andere Signale bereits eine Richtung anzeigen.</p></div>
+      </div>
+      <p style="margin-top:14px"><strong>Wie die Belastbarkeit eingeschätzt wird:</strong> Breite (zahlen mehrere Indikatoren auf dieselbe Richtung ein?), Stabilität (ist die Bewegung mehr als ein Ausreißer?), Aktualität (wie frisch ist der Datenpunkt?) und Signalrolle (Frühwarnsignale erhalten bewusst weniger Gewicht als Bestätigungssignale).</p>
+    </section>
+
+    <!-- ===== PRESETS ===== -->
+    <section class="card">
+      <h2 class="section-title">Presets &amp; Leselogiken</h2>
+      <p>Presets sind keine Handlungsempfehlungen. Sie zeigen, wie verschiedene Anlegertypen dieselbe Datenlage mit leicht unterschiedlicher Gewichtung lesen könnten. Sie ersetzen kein persönliches Anlagekonzept.</p>
+      <div class="grid grid-3" style="margin-top:14px">
+        <div class="mini"><h3>Defensiver Anleger</h3><p>Gewichtet Stress, Rezessionssignale und Bestätigung stärker. Reagiert früher auf Verschlechterungen und bevorzugt Stabilität über Chance.</p></div>
+        <div class="mini"><h3>Ausgewogener Anleger</h3><p>Das Standardprofil. Balanciert Makro, Markt und Stress ohne besondere Schieflage. Gut für den Großteil langfristiger Privatanleger.</p></div>
+        <div class="mini"><h3>Opportunistischer Anleger</h3><p>Interpretiert kurzfristige Ausschläge zurückhaltender. Sucht eher nach Überreaktionen statt sofortigem Rückzug. Höhere Toleranz für kurzfristigen Stress.</p></div>
+        <div class="mini"><h3>Langfristiger ETF-Anleger</h3><p>Fokussiert auf Phaseneinordnung statt Tagesrauschen. Kontinuität laufender Sparpläne hat für diese Lesart meist mehr Wert als kurzfristiges Timing.</p></div>
+        <div class="mini"><h3>Einkommens-/Dividendenanleger</h3><p>Zinsen, Stress und Konjunktursensitivität erhalten leicht mehr Gewicht, weil diese drei Felder Ausschüttungsqualität und -stabilität direkt beeinflussen können.</p></div>
+      </div>
+    </section>
+
+    <!-- ===== FACTS & FIGURES ===== -->
+    <section class="card">
+      <h2 class="section-title">Facts &amp; Figures: alle Sektionen</h2>
+      <p>Facts &amp; Figures ist ein automatisch aktualisiertes Marktboard aus <code>data/facts_figures.json</code>. Update-Takt: alle 4 Stunden, gemeinsam mit dem Hauptworkflow. Die Seite zeigt keine persönlichen Portfoliodaten.</p>
+      <table>
+        <tr><th>1. Marktstatus</th><td>Vier Kern-KPIs mit numerischem Wert und Farbcodierung: Marktphase (SPX 20T-Performance), VIX (aktueller Indexwert), Marktbreite (RSP/SPY 20T-Veränderung) und Gesamtmodus (Crash-Score). Sie sind der komprimierte Einstieg in die Gesamtlage.</td></tr>
+        <tr><th>2. Technische Trigger</th><td>50T-vs-200T-Trend (QQQ-Preis mit gleitenden Durchschnitten), RSI 14 (Überverkauft/Überkauft-Signal) und Drawdown vom Hoch zeigen die technische Marktstruktur. Karten zeigen Zahlenwert + Farbton + optional eine Sparkline des letzten 60-Tage-Verlaufs.</td></tr>
+        <tr><th>3. Bewertung &amp; Langfrist</th><td>Shiller CAPE (10-Jahres-KGV-Proxy aus FRED-Daten), Buffett-Indikator (Wilshire-5000-Marktkapitalisierung / nominales BIP aus FRED) und Gewinnwachstum (US-Unternehmensgewinne YoY aus FRED CPROFIT). Alle drei kommen aus FRED.</td></tr>
+        <tr><th>4. Makro-Umfeld</th><td>Zinsumfeld (Fed Rate aus FRED), Wachstum (reales BIP-Wachstum annualisiert aus FRED A191RL1Q225SBEA) und Rezessionsindikatoren (RECPROUSM156N aus FRED). Alle drei zeigen Zahlenwert in %.</td></tr>
+        <tr><th>5. Sentiment &amp; Risiken</th><td>Marktstimmung aus News-Analyse und eine Liste der aktuell relevantesten Risikofelder. Kontext-Layer, kein Handlungssignal.</td></tr>
+        <tr><th>6. Geopolitik</th><td>Konfliktfelder mit potenzieller Marktwirkung: Transportkorridore, Energie, physische Versorgung. Automatisch aus Google News RSS befüllt und auf Marktsensitivität bewertet.</td></tr>
+        <tr><th>7–9. Bottom / Crash / Timing</th><td>Drei modellbasierte Wahrscheinlichkeitswerte aus regelbasierter Berechnung: Wie nah ist ein mögliches Bodenbildungs-Fenster? Wie hoch das Crash-Risiko? Wie gut oder schlecht das aktuelle Timing-Umfeld? Keine Gewissheiten, sondern strukturierte Einordnung.</td></tr>
+        <tr><th>10. Update-Trigger</th><td>Zwei Listen: Was würde das Bild konstruktiver machen? Und wann lohnt ein besonders genauer Blick auf neue Daten?</td></tr>
+        <tr><th>11. Time vs. Timing</th><td>Strukturierte Einordnung: Was spricht langfristig für Drin-Bleiben (Time in Market), und wie liest das Modell die aktuelle Timing-Qualität?</td></tr>
+      </table>
+    </section>
+
+    <!-- ===== BEWERTUNGSINDIKATOREN DETAIL ===== -->
+    <section class="card">
+      <h2 class="section-title">Bewertungsindikatoren: Methodik im Detail</h2>
+      <div class="grid grid-3" style="margin-top:14px">
+        <div class="mini"><h3>Shiller CAPE (Proxy)</h3><p>Das echte Shiller CAPE erfordert 10 Jahre inflationsbereinigte Gewinndaten, die über keine kostenlose öffentliche API stabil abrufbar sind. Der Kompass berechnet einen FRED-basierten Proxy: aktueller S&amp;P-500-Kurs geteilt durch den rollierenden Durchschnitt der US-Unternehmensgewinne (CPROFIT). Werte über 30 = historisch teuer, unter 20 = günstiger.</p></div>
+        <div class="mini"><h3>Buffett-Indikator</h3><p>Berechnet als <code>WILL5000INDFC / GDP × 100</code> direkt aus FRED: Wilshire-5000-Gesamtmarktkapitalisierung (in Mrd. USD) geteilt durch das nominale US-BIP (in Mrd. USD). Werte über 130 % gelten als überbewertet, über 160 % als stark überbewertet. Historischer Mittelwert liegt bei ca. 85–100 %.</p></div>
+        <div class="mini"><h3>Gewinnwachstum</h3><p>US-Unternehmensgewinne nach Steuer (FRED: CPROFIT), Vergleich aktuellstes Quartal vs. Vorjahresquartal (YoY). Positives Gewinnwachstum stützt Bewertungen, negatives erhöht Korrekturdruck. Quartalsreihe, daher weniger aktuell als täglich erscheinende Daten.</p></div>
+      </div>
+    </section>
+
+    <!-- ===== INVEST-CHECK ===== -->
+    <section class="card">
+      <h2 class="section-title">Invest-Check: vollständige Erklärung</h2>
+      <p>Der Invest-Check ist kein Spielzeug, sondern ein Umsetzungsmodul. Er personalisiert die aktuelle Marktphasen-Einordnung anhand deiner sechs Eingaben und gibt einen konkreten Handlungsrahmen — keine individuelle Anlageberatung.</p>
+      <div class="grid grid-2" style="margin-top:14px">
+        <div class="mini"><h3>Sparplan</h3><p>Timing spielt hier eine kleinere Rolle, weil der Cost-Averaging-Effekt Einstiegszeitpunkte über viele Monate verteilt. Sparpläne werden vom Check deutlich großzügiger bewertet als Einmalanlagen. Hauptfrage: Passt die Rate zum Puffer und zur emotionalen Belastbarkeit?</p></div>
+        <div class="mini"><h3>Einmalanlage</h3><p>Hier sind Timing-Risiko, Staffelung, Umfeldstress und Puffer deutlich relevanter. Der Check ist bei Einmalanlagen strenger, weil ein einzelner großer Betrag keine zeitliche Streuung hat.</p></div>
+      </div>
+      <table style="margin-top:14px">
+        <tr><th>Betrag</th><td>Bei Sparplänen die Monatsrate, bei Einmalanlagen der Gesamtbetrag. Beträge ab ca. 25.000 € bei Einmalanlagen erhöhen das Timing-Risiko spürbar — nicht weil das Geld falsch wäre, sondern weil Fehlerspielraum und psychologische Last steigen.</td></tr>
+        <tr><th>Anlagehorizont</th><td>Unter 3 Jahren wird kritisch bewertet. Ab 7+ Jahren puffert der Check zeitliche Streuung entspannter. Je länger der Horizont, desto weniger zählt das aktuelle Marktumfeld im Gesamturteil.</td></tr>
+        <tr><th>Risikoprofil</th><td>Defensiv reagiert früher auf Warnsignale. Opportunistisch toleriert mehr Rauschen. Das Profil beeinflusst die Gewichtung von Timing- und Stressrisiken — nicht die Renditeerwartung.</td></tr>
+        <tr><th>Anlagestil</th><td>Breite ETFs werden am robustesten gelesen. Wachstums- oder Thementitel leiden stärker wenn Zinsen und Stress gleichzeitig drücken. Einzeltitel erhöhen das Fehlerrisiko nochmals deutlich.</td></tr>
+        <tr><th>Liquiditätspuffer</th><td>Angabe in Monatsausgaben. Unter 3 Monaten gilt als risikoerhöhend — wer unter Druck geraten könnte, trifft schlechtere Entscheidungen. Ab 6 Monaten wird der Puffer als robust bewertet.</td></tr>
+      </table>
+      <div class="grid grid-2" style="margin-top:14px">
+        <div class="mini"><h3>Marktphasen-Fit (0–100)</h3><p>Wie gut das Vorhaben zur aktuellen Phase passt. Nicht perfektes Timing — sondern ob das Umfeld das Vorhaben grundsätzlich trägt. Unter 45: Kombination aus Phase und Profil wirkt eher fehleranfällig.</p></div>
+        <div class="mini"><h3>Timing-Risiko (niedrig/mittel/hoch)</h3><p>Bei Sparplänen fast immer niedrig. Bei Einmalanlagen in Stressphasen deutlich erhöht. Hohes Risiko heißt nicht „nicht investieren", sondern eher „lieber staffeln statt alles auf einmal".</p></div>
+        <div class="mini"><h3>Puffer-Fit (0–100)</h3><p>Wie gut der Liquiditätspuffer zum geplanten Investment passt. Kleiner Puffer + großer Betrag + Stressphase = gefährliche Kombination für emotionale Fehlentscheidungen.</p></div>
+        <div class="mini"><h3>Umsetzungsmodus</h3><p>Das Gesamturteil in vier Stufen: Sofort umsetzbar → Kontrolliert → Eher staffeln → Eher warten. Kombiniert alle anderen KPIs zu einem Handlungsrahmen — kein Produkthinweis.</p></div>
+      </div>
+    </section>
+
+    <!-- ===== TICKER ===== -->
+    <section class="card">
+      <h2 class="section-title">Live-Marktband (Ticker)</h2>
+      <p>Der Ticker läuft auf allen vier Seiten unterhalb der Navigation. Er zeigt Kursdaten für Aktienindizes (S&amp;P 500, Nasdaq, DAX, EuroStoxx, Nikkei), Währungspaare (EUR/USD, USD/JPY), Rohstoffe (Öl, Gold) und Kryptowährungen (Bitcoin).</p>
+      <div class="grid grid-2" style="margin-top:14px">
+        <div class="mini"><h3>Was wird angezeigt?</h3><p>Icon, Label, aktueller Wert, Einheit und — wenn vorhanden — die prozentuale Veränderung gegenüber dem Vortag. Grün = positiv, rot = negativ, grau = unverändert oder nicht verfügbar.</p></div>
+        <div class="mini"><h3>Update-Takt: alle 15 Minuten</h3><p>Der Ticker hat seit dem letzten Update einen eigenen Datenfluss: <code>data/ticker.json</code> wird alle 15 Minuten von einem separaten GitHub-Actions-Workflow (<code>update-ticker.yml</code>) aktualisiert — komplett unabhängig vom 4-Stunden-Hauptworkflow.</p></div>
+        <div class="mini"><h3>Fallback-Logik</h3><p>Das Ticker-JS versucht zuerst <code>data/ticker.json</code> zu laden. Falls diese Datei nicht vorhanden oder leer ist (z. B. nach erstem Deployment), fällt es automatisch auf <code>data/latest.json</code> zurück. Der Ticker ist damit immer befüllt, sobald mindestens einer der beiden Workflows gelaufen ist.</p></div>
+        <div class="mini"><h3>Wenn der Ticker leer bleibt</h3><p>Zeigt er „Ticker derzeit nicht verfügbar" — kein Fehler, sondern korrektes Fallback-Verhalten. Häufigste Ursache: Stooq-Preisdaten außerhalb der Börsenzeiten oder beim allerersten Deployment, bevor ein Workflow-Run abgeschlossen wurde.</p></div>
+      </div>
+    </section>
+
+    <!-- ===== DATENFLUSS ===== -->
+    <section class="card">
+      <h2 class="section-title">Technischer Datenfluss &amp; Update-Zyklen</h2>
+      <p>Drei GitHub-Actions-Workflows laufen parallel und vollständig unabhängig voneinander.</p>
+      <table>
+        <tr><th><code>update-ticker.yml</code><br>alle 15 min</th><td>Holt nur Kursdaten via Stooq (SPY, QQQ, DAX, EuroStoxx, Nikkei, EUR/USD, JPY, Öl, Gold, Bitcoin). Schreibt ausschließlich <code>data/ticker.json</code>. Laufzeit ca. 3–8 Sekunden. Kein FRED-Key nötig.</td></tr>
+        <tr><th><code>update-market-data.yml</code><br>alle 4 Stunden</th><td>Führt <code>scripts/fetch_data.py</code> und <code>scripts/fetch_facts_figures.py</code> aus. Braucht <code>FRED_API_KEY</code> als GitHub-Secret. Schreibt <code>data/latest.json</code> und <code>data/facts_figures.json</code>. Laufzeit ca. 1–2 Minuten.</td></tr>
+        <tr><th>Manuelle Ausführung</th><td>Beide Workflows haben <code>workflow_dispatch</code> — sie können jederzeit manuell über Actions → Workflow auswählen → „Run workflow" angestoßen werden. Sinnvoll nach Codeänderungen oder wenn Daten veraltet aussehen.</td></tr>
+        <tr><th>Warum können Daten veraltet aussehen?</th><td>Makroserien wie BIP-Wachstum, Inflation oder Rezessionswahrscheinlichkeit erscheinen monatlich, quartalsweise oder jährlich. Ein älterer Datenpunkt ist kein Fehler — der Dashboard-Chip zeigt den genauen Zeitstempel der letzten Aktualisierung.</td></tr>
+        <tr><th>FRED API Key fehlt</th><td>Der Workflow schlägt in Schritt „Validate secret" fehl und stoppt. Lösung: GitHub → Settings → Secrets and variables → Actions → neues Secret <code>FRED_API_KEY</code> mit dem kostenlosen Schlüssel von fred.stlouisfed.org anlegen.</td></tr>
+      </table>
+    </section>
+
+    <!-- ===== DATENQUELLEN ===== -->
+    <section class="card">
+      <h2 class="section-title">Datenquellen im Überblick</h2>
+      <table>
+        <tr><th>FRED (Federal Reserve)</th><td>Makroindikatoren (Inflation CPIAUCSL, Fed Rate EFFR, Rezession RECPROUSM156N / SAHMCURRENT, Sentiment UMCSENT, VIX VIXCLS, Brent DCOILBRENTEU, BIP A191RL1Q225SBEA, Unternehmensgewinne CPROFIT, Buffett-Basis WILL5000INDFC + GDP, Regionen). Kostenloser API-Key erforderlich.</td></tr>
+        <tr><th>Stooq</th><td>Tages-Kursdaten für SPY, QQQ, RSP, DAX, EuroStoxx, Nikkei, EUR/USD, USD/JPY, Öl-Futures, Gold-Futures, Bitcoin. Kein API-Key, CSV-Abfrage. Für Ticker und technische Trigger (50T/200T, RSI, Drawdown).</td></tr>
+        <tr><th>Google News RSS</th><td>Nachrichtenkontext aus einer thematischen Suchanfrage (Öl, Geopolitik, Inflation, Märkte). Kein API-Key. Befüllt Sentiment, Tags und Geopolitik-Sektion.</td></tr>
+        <tr><th>Keine weiteren externen Dienste</th><td>Kein bezahltes Terminal, kein Echtzeit-WebSocket, kein Backend. Alles läuft als statische GitHub-Pages-Site mit GitHub-Actions-CI als Datenpipeline.</td></tr>
+      </table>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section class="card">
+      <h2 class="section-title">Häufige Verständnisfragen</h2>
+      <details open><summary>Gibt das Produkt konkrete Kauf- oder Verkaufsempfehlungen?</summary><p>Nein. Es gibt einen Handlungsrahmen und eine neutrale Marktphasen-Lesung. Die konkrete Depotentscheidung bleibt beim Nutzer. Das Produkt ist ausdrücklich keine Anlageberatung und ersetzt keine individuelle Finanzberatung.</p></details>
+      <details><summary>Warum gibt es eine Normalphase, obwohl der Markt gerade schwierig wirkt?</summary><p>Die Phase spiegelt die Signallage nach einem regelbasierten Modell wider — nicht das persönliche Bauchgefühl oder die Medienberichterstattung. Schlechte News und schlechtes Modell-Signal sind zwei verschiedene Dinge. Das ist kein Bug, sondern Zweck des Tools: Rauschen von Signal trennen.</p></details>
+      <details><summary>Warum können Daten älter aussehen?</summary><p>Weil nicht alle Reihen täglich erscheinen. BIP-Daten kommen quartalsweise, manche Rezessionsmodelle monatlich. Ein Datenpunkt von vor 3 Monaten ist kein Fehler, sondern der Veröffentlichungsrhythmus der Originalquelle. Der Dashboard-Chip zeigt Zeitstempel und Takt getrennt.</p></details>
+      <details><summary>Was bedeutet "Signalbreite" bei der Belastbarkeit?</summary><p>Wenn mehrere unabhängige Indikatoren gleichzeitig in dieselbe Richtung zeigen, ist das belastbarer als ein einzelner Ausschlag. Ein erhöhter VIX allein ist Rauschen. VIX + steigende Rezessionswahrscheinlichkeit + fallende Marktbreite zusammen sind ein echtes Signal.</p></details>
+      <details><summary>Wie unterscheidet sich der Invest-Check vom Dashboard?</summary><p>Das Dashboard gibt eine allgemeine Marktphasen-Einordnung. Der Invest-Check personalisiert das Bild anhand deiner konkreten Eingaben (Betrag, Horizont, Profil, Stil, Puffer). Beide nutzen dieselbe Datenbasis, aber der Check leitet eine spezifische Handlungslogik für ein konkretes Vorhaben ab.</p></details>
+      <details><summary>Warum Presets keine Handlungsempfehlung sind</summary><p>Weil sie nur zeigen, wie verschiedene Nutzertypen dieselbe Datenlage mit leicht unterschiedlichen Gewichten lesen würden. Sie ersetzen weder ein persönliches Anlagekonzept noch eine Eignungsprüfung.</p></details>
+      <details><summary>Warum erscheint der Ticker manchmal leer?</summary><p>Der Ticker lädt primär aus <code>data/ticker.json</code> (alle 15 min). Falls diese Datei leer ist, fällt er auf <code>data/latest.json</code> zurück. Zeigt er dennoch „Ticker nicht verfügbar", ist entweder kein Workflow-Run abgeschlossen, die Börsen sind geschlossen und Stooq liefert keine Kurse, oder beide Dateien haben kein befülltes <code>ticker</code>-Array. Lösung: Workflow manuell triggern.</p></details>
+      <details><summary>Warum zeigt der Shiller CAPE einen "Proxy"-Wert statt den echten?</summary><p>Der echte Shiller CAPE benötigt 10 Jahre inflationsbereinigte Unternehmensgewinndaten, die über keine kostenlose, stabile API abrufbar sind ohne Website-Scraping. Da Scraping in CI-Umgebungen (GitHub Actions) oft durch IP-Blocking fehlschlägt, berechnet der Kompass einen FRED-basierten Näherungswert aus S&amp;P-500-Preis und rollendem Unternehmensgewinn-Durchschnitt. Die Aussage (teuer / mittel / günstig) bleibt vergleichbar, der Absolutwert weicht etwas ab.</p></details>
+    </section>
+
+  </main>
+
+<script>
+
+    function renderTicker(data){
+      const track=document.getElementById('ticker-track'); if(!track) return;
+      const items=(data?.ticker&&Array.isArray(data.ticker)&&data.ticker.length?data.ticker:[]);
+      const fallback = items.length ? items : [];
+      if(!fallback.length){ track.innerHTML='<span class="tk-stale">Keine Tickerdaten verfügbar</span>'; return; }
+      const html=fallback.map(x=>{
+        const chg = typeof x.chgPct==='number' ? x.chgPct : null;
+        const cls = chg==null ? 'tk-neu' : chg>0 ? 'tk-up' : chg<0 ? 'tk-dn' : 'tk-neu';
+        const sign = chg!=null && chg>0 ? '+' : '';
+        const val = x.val ?? x.latest ?? '—';
+        const unit = x.unit || '';
+        return `<span class="ticker-item"><span class="tk-icon">${x.icon||'•'}</span><span class="tk-label">${x.label||x.name||'—'}</span><span class="tk-val">${val}</span>${unit?`<span class="tk-unit">${unit}</span>`:''}${chg!=null?`<span class="${cls}">${sign}${chg.toFixed(2)}%</span>`:''}</span>`;
+      }).join('');
+      track.innerHTML = html + html + html + html;
+    }
+    async function loadTicker(){
+      // Bevorzuge ticker.json (alle 15 min), Fallback auf latest.json (alle 4h)
+      for(const url of ['./data/ticker.json','./data/latest.json']){
+        try{
+          const data=await fetch(url+'?t='+Date.now(),{cache:'no-store'}).then(r=>r.json());
+          if(data?.ticker?.length){ renderTicker(data); return; }
+        }catch(e){}
+      }
+      const track=document.getElementById('ticker-track');
+      if(track) track.innerHTML='<span class="tk-stale">Ticker derzeit nicht verfügbar</span>';
+    }
+
+loadTicker();
+</script>
+</body>
+</html>
