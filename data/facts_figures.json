@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-16T08:19:51.389377+00:00",
+  "generatedAt": "2026-04-16T11:41:34.883552+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6114,7 +6114,7 @@
     {
       "title": "Billionaire Investor Ken Griffin Warns of Recession. Will the Stock Market Crash If He's Right?",
       "source": "The Motley Fool",
-      "publishedAt": "2026-04-16T08:14:05+00:00",
+      "publishedAt": "2026-04-16T08:23:30+00:00",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaXJ1Sm5oV0htZk9ETmtMczQtN3JDSFFGd1B1MllEQ2RMa0dpdnVIRUxMWF82MWptTEd4V0pIelRFMi1WR001RWo1aXFlaU9nMTBnc1hsRkpDTG5JXzRkOHBVMER6TDVPQjdzajlUR0hiQlVHRWFYY3N1ek14a1BqdGNDQUg5ZkxWZ0xvemYtMDItQnRLa3dLRg?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
@@ -6129,10 +6129,28 @@
       ]
     },
     {
-      "title": "Stocks Hit Record High as Wall St. Looks Beyond War",
-      "source": "The New York Times",
-      "publishedAt": "2026-04-15T20:13:13+00:00",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE51VjVQYkE3N21Pc210S21jQmhGZ0R5SnB2NnpyUlc5dHhQQVRweFA2bEs3SXNyNllYZzRXWXZzc0VCSlNUVEpLcE4zWVp5VE5jcHV6b3l6b1lVTXRmQlBHNU1ZVEpsUDhRb051YnhDT05kT3dhelVsdHpWVQ?oc=5",
+      "title": "Stocks are back at records, but some investing pros think the oil shock is still a big problem for markets",
+      "source": "Business Insider",
+      "publishedAt": "2026-04-16T09:20:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZjdBNlg2OUVqeUJTSHJHYTU4UTlMdUItcmltX0pTRVJpSHg5SFNWaWlIYzRPZXNfOHFRQXNrY0ttVXhYMWxrVXNlTERzelNDaUUzODRSazJpcE9LeW11UlBNSktDRVk1dFZsamoyRGh3dFlCX29KM0FTWUhWWG1uZkpfcm1UMnRJSU16OVYwQWsyN0dIYk9WSllZbDlhNjJm?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "What War? US Stocks Hit Record Highs",
+      "source": "Morningstar",
+      "publishedAt": "2026-04-16T09:00:52+00:00",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORGhCdGpmSW44Z1loeUxpbnppUTRhTW9jOWhWblcxc0U3ZGtnbmZsbkdZdFpBSEJsZHJXOFNYbjc1WDluWXNfVmcxSWVYNmxvYXQ4bkFBeUtuWkxwUTVUV1hxNjNDaXpYZTRnNmNEVzZpb3NYeWk5YjVFR2NfQURfLTItNDBSTkE?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -6164,20 +6182,20 @@
       ]
     },
     {
-      "title": "Higher Open Predicted For China Stock Market",
-      "source": "RTTNews",
-      "publishedAt": "2026-04-16T01:03:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRThhR0hid3VkNGtkb0lwLXBlWGJWTF8xYnJHQklseU5ETVVybnlXTk9ydjJQOWZiV3lzYTRHUVNGcGpndXMxejlWdHNjQ29YcXZFdXl3c1BSLUpfd19SbE5BUDB6NDFvOXhRRkRMazY0bnlBdU9zTUhiSVQ1YXEyZUgzeTk4X0ZZ?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "title": "S&P 500 Hits Record High as Stock Market Looks Beyond Iran War",
+      "source": "The New York Times",
+      "publishedAt": "2026-04-15T16:52:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE51VjVQYkE3N21Pc210S21jQmhGZ0R5SnB2NnpyUlc5dHhQQVRweFA2bEs3SXNyNllYZzRXWXZzc0VCSlNUVEpLcE4zWVp5VE5jcHV6b3l6b1lVTXRmQlBHNU1ZVEpsUDhRb051YnhDT05kT3dhelVsdHpWVQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
@@ -6196,24 +6214,6 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stock market today: Japan's Nikkei hits record high, Kospi surges as Wall Street rises on corporate earnings, U.S.-Iran deal hopes",
-      "source": "Economy Middle East",
-      "publishedAt": "2026-04-16T05:36:02+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNTUxmdnVSTWgwVTl0MmNfZEk2WWNLRk1kcEtYNHh5aWlCQVBPZTJfWTg0MndlS1U3MmV3M2lWOGxnbGF0NjU5dTIzOV9NblFZWUgzYUJzT0o2cG9FSzJ4NW1LZ20wTm5RV2JuUWlrSzJrQkhPT0Z6Z05GRjhES0FfQldORzdFOGE5U0t4ME9KRHNyTXp1WGh0REpRSFF1ZjBVNlVFanFRbFBuSWVRMEhJUVZocVAzZHZHYXlxNVlHRnhQeEJRZjZTTGNxeWYwNHZTYnlEVkVoNjhjU2ttaVExdmtBTEhSRkw2MEhndXJ5S09rV0k?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
       ]
     }
   ]
