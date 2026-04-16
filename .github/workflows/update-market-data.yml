@@ -1,0 +1,81 @@
+name: Update Market Data PRO
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: market-data-update-pro
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Validate secret
+        run: |
+          if [ -z "${{ secrets.FRED_API_KEY }}" ]; then
+            echo "FRED_API_KEY is missing. Add it in Settings > Secrets and variables > Actions."
+            exit 1
+          fi
+
+      - name: Show repo structure
+        run: |
+          pwd
+          ls -la
+          echo "---- scripts ----"
+          ls -la scripts || true
+          echo "---- data ----"
+          ls -la data || true
+
+      - name: Update main dashboard data
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: |
+          if [ -f scripts/fetch_data.py ]; then
+            python scripts/fetch_data.py
+          else
+            echo "scripts/fetch_data.py not found"
+            exit 1
+          fi
+
+      - name: Update facts & figures data
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: |
+          if [ -f scripts/fetch_facts_figures.py ]; then
+            python scripts/fetch_facts_figures.py
+          else
+            echo "scripts/fetch_facts_figures.py not found"
+            exit 1
+          fi
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/latest.json data/facts_figures.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "data: update pro + facts $(date -u +%Y-%m-%dT%H:%MZ)"
+          BRANCH="${GITHUB_REF_NAME:-main}"
+          git pull --rebase origin "$BRANCH"
+          git push origin HEAD:"$BRANCH"
