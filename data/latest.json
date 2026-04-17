@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-17T15:41:49.300514+00:00",
+  "fetchedAt": "2026-04-17T18:38:06.700398+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20641,10 +20641,27 @@
       ]
     },
     {
-      "title": "Stock Market Today (LIVE): Dow Jumps 500 Points as Hormuz Opens; iPhone China Shipments Surge 20%",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-04-17T14:11:47+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNV2diUHRJT1UwdkNuLW1zWU1aWnpqT21CQzgwYjYybGIzTG1XM2hyNHF0X3VwQmZRNUhzNmZjVUJSSVV1Ykt6Z1Rxb3lfMHRyNS1BSUV0NHhIWC1FWVM3MF9RV2Y1azk0bUdWeW9JY1VDREs0NW1udDA0YmVWbFBTaw?oc=5",
+      "title": "The Stock Market is Not Your Friend",
+      "source": "cepr.net",
+      "publishedAt": "2026-04-17T15:58:33+00:00",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB4Rk1GbkprYjNsLS0wNVFGay1jcXV6UVowYlJ3c1pkb3NqU0R3d2NuNVY5cUozWGhCcV9jbzI4eFVqMnpzeXZGMmlYaXBQd0NzWi1ZU0M5SXZQU3ZYaWhkZVFBU0Z0eGQ0QjhDLWlQOV80OFVG?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Dow Jones Futures Rise, Oil Prices Fall On Trump's Iran Comments; Netflix Dives",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-04-17T11:55:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVlNON2lkT1g1cDFOQVhnWUxjRjltVk0tVTFsZTVfNkVzYzhTNzI2ZkQ4cnhSbkN6UW9fZ2R6aGQzUl9ZLTFSTDFGdEpZZ3k5eGhkc29ZQTByMHhfY3lzYjh5cjFwOWdLeWxKaTFGX0VCWFdvVGJOcUN4VG1XSVhubk1iaTRPRUZTMTIwQ3ZvbzhKWFEwY1pDMDQxdWhIbHEwdzN4Tk1PeTVLVFFDYVBmNnlJbkhKdG52?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20659,10 +20676,10 @@
       ]
     },
     {
-      "title": "Iran Just Delivered Incredible News for Stock Market Investors",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-04-17T14:34:51+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRzNhT1NvTk9mQUxTaDR0cVJQY3BFNURDSUxlbW4yZkRuSzByUGhiaUlVdV9BdEwzNDliZG5nR2N2OXJjRXBvY0FQcHI2cGtIeXJ5d1U5aGNMUEczNmJ0aWEwTVpaenpLSGJsM2p4TC1RMmRVVlpvRnFiZ1lWR25VNkYwVFo3UEI5VDRWOW1xb0RRTUtuelVFYjZIa3pKOFltZlE?oc=5",
+      "title": "Stock Market Today (LIVE): Uber Eats Adds Return Pickups; Nano Banana Eyes Your Photo Feed",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-04-17T16:46:08+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNV2diUHRJT1UwdkNuLW1zWU1aWnpqT21CQzgwYjYybGIzTG1XM2hyNHF0X3VwQmZRNUhzNmZjVUJSSVV1Ykt6Z1Rxb3lfMHRyNS1BSUV0NHhIWC1FWVM3MF9RV2Y1azk0bUdWeW9JY1VDREs0NW1udDA0YmVWbFBTaw?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20676,54 +20693,39 @@
       ]
     },
     {
-      "title": "Stock Market Today: Dow Jones Futures Rise As Trump Suggests Lower China Tariffs; Cloudflare, Lyft Surge On Earnings",
-      "source": "MSN",
-      "publishedAt": "2026-04-17T11:54:23+00:00",
-      "link": "https://news.google.com/rss/articles/CBMitANBVV95cUxNdVhMSE5ZSXBLTFh2Rk40SGNCU1VXOVducUVzOGJqU2ZWZjlzSWxKNjJCZ0syTlhSN3RqNnpmQUJEUTZCMFhfOTAxN3pVdldQbTVDZ09ybmE1OXhaZHFLX3gwd3RGYmNwdHc2anotek8xR1EzRHNoTzhhNTVGNDFlV2NweGJXb3Bja3hnVXNhOXdnbzhZS3ZIM2tnSlZLQzM4TW80VWc3NVVoZzNOcTRrekppX3VqTVl0UEpRUVpKbXJjTDREaHFQdTdEYmxYMnZCbFd3WWFSY0JJcFFnNzJzV2JaQ1BCcTU1THBhWXBZOTBYcDFTVXUyY2JFb2VYVEdyZkwyZDh3VVp0N0kzWEhjSTA4d25PS0I5UmZwUE11WDdSeTZMREJlTlRXTVMzZ2laNDBXWXZCVV9MbGNmTDRRREQyVnl2cFh6N0hCRFlPR19WODNzUHZaS2F1TEhTdlRxUzB5SXFseHBGUHR5ZWJzR1pZNmEwdU5kU2lzT1RGdHM3c0dHV0Rfa05nTFNSS3FkMGNjQ2tXdWx4S3Z0UVNrV1FsX1BvTE1NSG9raW1vSmFmYm1C?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "US Stock Market Today: S&P 500, Nasdaq Hit Records as Oil Slides on Hormuz Reopening",
+      "source": "TechStock²",
+      "publishedAt": "2026-04-17T17:40:38+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTFVUOGxNQUFXUDlzcVFRdTlIUHFwWFpLNUQxT1d3OFpFTF9pSGpmb2lXN3hBdlBEWWF5b2hWbV9sd2NQRlZTQWhtZThKaW44Y1pIU1JEQ2dCX1ZsaEp5anVRZ3VBWHY2aExsZi1IaEdDWDc0anRCUDhTNjZBbUFxVk5td1p0OW92QmxHaUNxNUhPSUk5WlI1UlU2azlNZDhfSTBzYQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
-      "title": "Wall Street sets another record after US stocks tick higher",
-      "source": "AP News",
-      "publishedAt": "2026-04-16T20:52:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPX296UDBvTWgzLUJsUUcwQVU3V1NHd1R6d0p2Ukx6cEpIeHhpYjVDVHQ4LXVVa2MzYk1XWHVtaFUtQy1ad3U0RnJqVkRVLWJ3OUI1Sm5ya25kaWJsRENZNU5oU1U1TVlYd3MxLUdxdHVHd2V2TVNrd201RzdiVTVPM0xydWIwZU1oNk1fRXlLa2UwRTJXcFA0?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Oil prices tank and stocks climb after Iran reopens the Strait of Hormuz",
+      "source": "Fast Company",
+      "publishedAt": "2026-04-17T18:30:28+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPX3V0LTAtdS0tUlpBck4wVmxCZUdROFdBQ1lYc2ozQWhoS1p3ME1FZ2NGWTdtNmZBdHMyYWNRZUhRblFRN19MS1JJcndUUktva1dEOTFtVFExai1RT3RBLUQzV2t1dVptWVRwMEdXTzA1eXl0NEZGNXFkSkNMSTNRWkVmTnJyT0RleWd2dWZsY0daRWZPSlNPWE1IT2tubmFYdzM5Q25VT1lUYmg4emc?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Earnings Calendar and Analysis for This Week (April 13-17)",
-      "source": "Kiplinger",
-      "publishedAt": "2026-04-16T22:16:13+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNT2JlZjF1QU9yZTBqNVJ4aXJUUjVFMDA4SWxPdEVienI3d2dFcFF4Z3BVNE40LWxmOHV1REljUVFaSFY3X2FrQm1xV2NMYWY3SHRoOFdhMXc2ZWFyZGtYTGV3Ul9lY1htRExZOFpMLXJGRWVRSWU1dTBUcjVSc0lEckdXTEhkck45Ujh3?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     }
   ],
@@ -20830,7 +20832,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-04-17T15:41:49.300514+00:00",
+      "dataAsOf": "2026-04-17T18:38:06.700398+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
