@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-17T11:16:00.333741+00:00",
+  "generatedAt": "2026-04-17T15:41:58.984033+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -12,18 +12,18 @@
   },
   "marketStatus": {
     "phase": {
-      "title": "Normalphase",
-      "value": 0.0,
+      "title": "Erhöhte Vorsicht",
+      "value": 40.0,
       "unit": "",
-      "tone": "l",
-      "status": "Signallage wirkt geordnet."
+      "tone": "m",
+      "status": "Mehr Spannungen als in ruhigeren Phasen."
     },
     "vix": {
       "title": "Relativ ruhig",
-      "value": 18.2,
+      "value": 17.9,
       "unit": "",
       "tone": "l",
-      "status": "VIX bei 18.2. Unter dem langfristigen Durchschnitt von ~17–20."
+      "status": "VIX bei 17.9. Unter dem langfristigen Durchschnitt von ~17–20."
     },
     "breadth": {
       "title": "60 % über 200T-Ø (Proxy)",
@@ -34,11 +34,11 @@
     }
   },
   "overallMode": {
-    "title": "Geordnet",
+    "title": "Erhöhte Aufmerksamkeit",
     "value": null,
     "unit": "",
-    "tone": "l",
-    "status": "Kein übergreifendes Stresssignal aktiv."
+    "tone": "m",
+    "status": "Signale verschlechtern sich, aber noch keine breite Eskalation."
   },
   "technicalTriggers": [
     {
@@ -666,16 +666,16 @@
   },
   "crashProbability": {
     "title": "Crash Probability",
-    "score": 8,
-    "scoreLabel": "8 %",
-    "reason": "Stress 0/100, Rezessionsrisiko 0.5 %, VIX 18.2.",
+    "score": 16,
+    "scoreLabel": "16 %",
+    "reason": "Stress 40/100, Rezessionsrisiko 0.5 %, VIX 17.9.",
     "interpretation": "Crash-Risiko derzeit begrenzt."
   },
   "timingQuality": {
     "title": "Timing-Qualität",
     "score": 0,
     "scoreLabel": "Zu früh 16 % · Optimal 8 % · Zu spät 76 %",
-    "reason": "Bottom-Signal 30 %, Crash-Risiko 8 %.",
+    "reason": "Bottom-Signal 30 %, Crash-Risiko 16 %.",
     "interpretation": "Kein klares Timing-Fenster erkennbar."
   },
   "updateTriggers": {
@@ -696,7 +696,7 @@
   },
   "timeVsTiming": {
     "timeInMarket": "Langfristige Anlagepläne profitieren historisch von Korrekturen, wenn sie diszipliniert durchgehalten werden. Wer raus ist, verpasst die meisten Erholungstage.",
-    "marketTiming": "Das aktuelle Umfeld zeigt erhöhte Spannungen. Stress-Score 0/100. Wer neue Positionen aufbaut, profitiert von gestaffeltem Einstieg.",
+    "marketTiming": "Das aktuelle Umfeld zeigt erhöhte Spannungen. Stress-Score 40/100. Wer neue Positionen aufbaut, profitiert von gestaffeltem Einstieg.",
     "summary": "Die Trennung zwischen langfristiger Logik und kurzfristiger Marktlesart bleibt der wichtigste Hebel gegen emotionale Fehlentscheidungen."
   },
   "charts": {
@@ -3707,10 +3707,6 @@
     ],
     "vix": [
       {
-        "date": "2025-02-14",
-        "value": 14.77
-      },
-      {
         "date": "2025-02-17",
         "value": 15.37
       },
@@ -4905,6 +4901,10 @@
       {
         "date": "2026-04-15",
         "value": 18.17
+      },
+      {
+        "date": "2026-04-16",
+        "value": 17.94
       }
     ],
     "brent": [
@@ -6112,23 +6112,6 @@
   },
   "news": [
     {
-      "title": "Why the stock market is hitting records despite Iran war",
-      "source": "CNBC",
-      "publishedAt": "2026-04-16T19:32:49+00:00",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5Za21tWDVYQk5wUjUyTmhZbWk4RlFVTm9DcWplOHNzeXRNWEZHaHM0X085bTBXMFVRMk14d1YxbVVIUEtRaWpob2V0VW1BNko5cWVHRGJVLUh0SUtyNnp2dHdSdUpsUUU2Mjk0QUlNZW9RSDjSAXhBVV95cUxNcVVoNmxMT2xfQTVHV2hlRlZvb081NXAwdnFNblV6X2V1X3NmT3RSWFl0dVpDUXJBRnctVEt4d2ZoVlJaN1lZTmlkMWNIRFpGNFVURWNqM0loOEFtd2ZsWGE3ZFg2RW9jX1lEbktoQUlIcUFRdjZUYkc?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
       "title": "Wall St Week Ahead Surging record-high US stocks to wade deeper into earnings season",
       "source": "Reuters",
       "publishedAt": "2026-04-17T10:04:17+00:00",
@@ -6146,10 +6129,10 @@
       ]
     },
     {
-      "title": "Brent Crude Rises for Second Day in A Row. U.S. Oil Prices Fall.",
-      "source": "Barron's",
-      "publishedAt": "2026-04-16T19:59:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxON0ltWTE5YTJPNGQyMUR1S2NaaHMtVEdJVHplU19wODVHX2VRdndLR1ljS015N25DbGtOLUJkNGRKWkhQX1R4UHJqTm1FeU50Q1cwTm5XTFlhUmNMVUdHUkh1aFRLQm0wQ1ppSk9LVEd5cmVXMnhWY1ZfVk1UeXNpSl9BR25NQTA4?oc=5",
+      "title": "Stock Market Today (LIVE): Dow Jumps 500 Points as Hormuz Opens; iPhone China Shipments Surge 20%",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-04-17T14:11:47+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNV2diUHRJT1UwdkNuLW1zWU1aWnpqT21CQzgwYjYybGIzTG1XM2hyNHF0X3VwQmZRNUhzNmZjVUJSSVV1Ykt6Z1Rxb3lfMHRyNS1BSUV0NHhIWC1FWVM3MF9RV2Y1azk0bUdWeW9JY1VDREs0NW1udDA0YmVWbFBTaw?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -6164,39 +6147,37 @@
       ]
     },
     {
-      "title": "The Federal Reserve’s April Inflation Forecast Is In, and It’s Bad News for Stock Market Bulls",
-      "source": "24/7 Wall St.",
-      "publishedAt": "2026-04-16T15:07:48+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRXktLUpEd2c2QjJia1FiY3lwLXNnTXRJWl85ZG1JcWU1NkxVZjdZUU9BWTlMcC1ydW1hRXZnVFNzLXVvRC1qX3U4Vko1Q3p5LXowcXlUeHdTc0VhaENDNGNaaWZyeHdCUFhvM3ZhMjRIaF9CNnBBZHUxVV9YWDhuX1RrLVFHaHpPbDNOTEdFb1psbHVfc0hvRjFBc01HYkdqcVBPR2d2X053X1pjNlRGTkRWT1loQ3JDTUFNOFRGalR1VmFib1BMTFFkdm5YMmdyM3Qw?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "title": "Iran Just Delivered Incredible News for Stock Market Investors",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-04-17T14:34:51+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRzNhT1NvTk9mQUxTaDR0cVJQY3BFNURDSUxlbW4yZkRuSzByUGhiaUlVdV9BdEwzNDliZG5nR2N2OXJjRXBvY0FQcHI2cGtIeXJ5d1U5aGNMUEczNmJ0aWEwTVpaenpLSGJsM2p4TC1RMmRVVlpvRnFiZ1lWR25VNkYwVFo3UEI5VDRWOW1xb0RRTUtuelVFYjZIa3pKOFltZlE?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Staatsanleihen",
         "Aktien",
-        "US-Dollar",
-        "Gold"
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
-      "title": "US Stock Market Before Open Today: S&P 500 Futures Hold Near Records as Oil Falls and Netflix Slumps",
-      "source": "TechStock²",
-      "publishedAt": "2026-04-17T09:04:34+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQkpWTXpTRFVOMXVIY1NBR1pySkZyam9GTTJtclZLNmY5MUliLTY0R0Z4YnIxQ3RpeEV3MjZGSHlDTHZ6NEk4cjRjQ2I3a1VySFZkMTk3eHd1a0MwNTBNVmlLX3IzS2lUSmFIekRJTmFER2JqTlZXNUJYMFZETkUxZUpLcjRhNEtxWHhNU2pMeUp6Vk13Snh1VUxkR1ZkNlFWOWpHMEU2Z1I5eWZ6dndpaG0wdktsVkZTQXlJ?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "Stock Market Today: Dow Jones Futures Rise As Trump Suggests Lower China Tariffs; Cloudflare, Lyft Surge On Earnings",
+      "source": "MSN",
+      "publishedAt": "2026-04-17T11:54:23+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitANBVV95cUxNdVhMSE5ZSXBLTFh2Rk40SGNCU1VXOVducUVzOGJqU2ZWZjlzSWxKNjJCZ0syTlhSN3RqNnpmQUJEUTZCMFhfOTAxN3pVdldQbTVDZ09ybmE1OXhaZHFLX3gwd3RGYmNwdHc2anotek8xR1EzRHNoTzhhNTVGNDFlV2NweGJXb3Bja3hnVXNhOXdnbzhZS3ZIM2tnSlZLQzM4TW80VWc3NVVoZzNOcTRrekppX3VqTVl0UEpRUVpKbXJjTDREaHFQdTdEYmxYMnZCbFd3WWFSY0JJcFFnNzJzV2JaQ1BCcTU1THBhWXBZOTBYcDFTVXUyY2JFb2VYVEdyZkwyZDh3VVp0N0kzWEhjSTA4d25PS0I5UmZwUE11WDdSeTZMREJlTlRXTVMzZ2laNDBXWXZCVV9MbGNmTDRRREQyVnl2cFh6N0hCRFlPR19WODNzUHZaS2F1TEhTdlRxUzB5SXFseHBGUHR5ZWJzR1pZNmEwdU5kU2lzT1RGdHM3c0dHV0Rfa05nTFNSS3FkMGNjQ2tXdWx4S3Z0UVNrV1FsX1BvTE1NSG9raW1vSmFmYm1C?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     },
     {
@@ -6214,6 +6195,23 @@
         "Aktien",
         "Anleihen",
         "Währungen"
+      ]
+    },
+    {
+      "title": "Earnings Calendar and Analysis for This Week (April 13-17)",
+      "source": "Kiplinger",
+      "publishedAt": "2026-04-16T22:16:13+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNT2JlZjF1QU9yZTBqNVJ4aXJUUjVFMDA4SWxPdEVienI3d2dFcFF4Z3BVNE40LWxmOHV1REljUVFaSFY3X2FrQm1xV2NMYWY3SHRoOFdhMXc2ZWFyZGtYTGV3Ul9lY1htRExZOFpMLXJGRWVRSWU1dTBUcjVSc0lEckdXTEhkck45Ujh3?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     }
   ]
