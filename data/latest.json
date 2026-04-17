@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-17T18:38:06.700398+00:00",
+  "fetchedAt": "2026-04-17T22:06:13.568296+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -105,7 +105,7 @@
         "vix": 17.94,
         "brent": 123.28,
         "eurusd": 1.1723,
-        "us10y": 4.29
+        "us10y": 4.32
       },
       "uiLabel": "Marktstress",
       "shortText": "Verdichteter Stressmesser aus Markt- und Preisvariablen.",
@@ -248,7 +248,7 @@
     {
       "label": "US 10Y",
       "icon": "📉",
-      "val": 4.29,
+      "val": 4.32,
       "chg": 0.03,
       "chgPct": 0.7,
       "unit": "%",
@@ -20626,7 +20626,7 @@
     {
       "title": "Wall St Week Ahead Surging record-high US stocks to wade deeper into earnings season",
       "source": "Reuters",
-      "publishedAt": "2026-04-17T10:04:17+00:00",
+      "publishedAt": "2026-04-17T20:22:23+00:00",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaWJmWUFPa2lnWnJCby1JSlA3dU1XVE9YeVpJMTJOSzlzXzI2ZnJqZkREdFlHMENwcldMZFRZaFRkSVlJMm1YdnY4a1ZHN21XRk9kZzFiQW5oYzRxMlJWTHlUNHcxVDR5Ml9UODlxdzNlSDlHVEE3eWR0eFNFOW1YcnI0NzVDZUhjSTdEOHNvWnpLTmJQNTZJZXgwc3RvOWJ4OE94V1N0NnlTV2xpZXFpTHpyUExlX195S19R?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
@@ -20638,6 +20638,41 @@
         "Aktien",
         "Sektoren",
         "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Oil prices plummet as Wall Street rallies to new record following Strait of Hormuz reopening",
+      "source": "PBS",
+      "publishedAt": "2026-04-17T14:14:15+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNThabUE2dTVKcDJHR0ttbHhKdmxUM3Q4STJFMUNyOWRnMlBicFNMU09SUUpwbGZVOFpsSkRsY3hmNExnZUxFcG93X2hPSERsbHpWa3JISXlNd2lFWFdCbXhtSUF3UjNkcW1SNnR6dkdkMmVMUkVqdzJfcVlLN0QwdDduWl9RZUZWYXgxeXlad3NoajdXV2dBa19rV3ZoQUNrS1B6TEg0OVg4Z29KNENiakN5X3lCLXVfLV9iaXoySzYyR3pIcU5DYQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Stock Market Today (LIVE): Netflix Walked—Now for the Hard Part; Fear Is Fading. Buy Now?",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-04-17T19:45:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNV2diUHRJT1UwdkNuLW1zWU1aWnpqT21CQzgwYjYybGIzTG1XM2hyNHF0X3VwQmZRNUhzNmZjVUJSSVV1Ykt6Z1Rxb3lfMHRyNS1BSUV0NHhIWC1FWVM3MF9RV2Y1azk0bUdWeW9JY1VDREs0NW1udDA0YmVWbFBTaw?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
@@ -20658,10 +20693,10 @@
       ]
     },
     {
-      "title": "Dow Jones Futures Rise, Oil Prices Fall On Trump's Iran Comments; Netflix Dives",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-04-17T11:55:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVlNON2lkT1g1cDFOQVhnWUxjRjltVk0tVTFsZTVfNkVzYzhTNzI2ZkQ4cnhSbkN6UW9fZ2R6aGQzUl9ZLTFSTDFGdEpZZ3k5eGhkc29ZQTByMHhfY3lzYjh5cjFwOWdLeWxKaTFGX0VCWFdvVGJOcUN4VG1XSVhubk1iaTRPRUZTMTIwQ3ZvbzhKWFEwY1pDMDQxdWhIbHEwdzN4Tk1PeTVLVFFDYVBmNnlJbkhKdG52?oc=5",
+      "title": "Oil prices drop more than 10% and US stocks soar after Iran reopens Strait of Hormuz",
+      "source": "The Times of Israel",
+      "publishedAt": "2026-04-17T19:30:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZXoxd3ZkRXIwRWs5TlZRWktJX2NFZlNmeGUxWFJKaVBjcktmc2trUXZ4eS1BLWtxZmJXeFgzTDRGWm9HbjhmbndzaS0tanhxQUE0ZFlGdGpNYkZ3Mm96WFRKbTNVbFE4MTFxWGFqQXdvNUh6NjcyV1dBcEhKM0lZb1J3b25PeFNiVlhCTlVueGZtQXhoeUUzUzNtUEpWSzF5UDctNFkzQTdHNDZ5UEo0NFhuUU_SAboBQVVfeXFMTy10cnpES3VsUjV2TERUUVdoandoc2J2Y2F1Z21kWmhUUE5MREM0bUZtUFlVQ19zbkh0OW1XT2twNlg3emF6b2xjT19qNk9VbmRJVFo5WlRkTWpTSEJtUFRZcmxQdURXUVFNc0d2eWFHOTBIbTFzY3VocFdvN2lSbUNYSE9EZXd0Z1h2bkNNamNld1M3VUpqbV9YWFk4UDlNLUIwQ1RNTThDM19Zb1ZEa05xdlIwb3BpZFV3?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20676,45 +20711,10 @@
       ]
     },
     {
-      "title": "Stock Market Today (LIVE): Uber Eats Adds Return Pickups; Nano Banana Eyes Your Photo Feed",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-04-17T16:46:08+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNV2diUHRJT1UwdkNuLW1zWU1aWnpqT21CQzgwYjYybGIzTG1XM2hyNHF0X3VwQmZRNUhzNmZjVUJSSVV1Ykt6Z1Rxb3lfMHRyNS1BSUV0NHhIWC1FWVM3MF9RV2Y1azk0bUdWeW9JY1VDREs0NW1udDA0YmVWbFBTaw?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "US Stock Market Today: S&P 500, Nasdaq Hit Records as Oil Slides on Hormuz Reopening",
-      "source": "TechStock²",
-      "publishedAt": "2026-04-17T17:40:38+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTFVUOGxNQUFXUDlzcVFRdTlIUHFwWFpLNUQxT1d3OFpFTF9pSGpmb2lXN3hBdlBEWWF5b2hWbV9sd2NQRlZTQWhtZThKaW44Y1pIU1JEQ2dCX1ZsaEp5anVRZ3VBWHY2aExsZi1IaEdDWDc0anRCUDhTNjZBbUFxVk5td1p0OW92QmxHaUNxNUhPSUk5WlI1UlU2azlNZDhfSTBzYQ?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Oil prices tank and stocks climb after Iran reopens the Strait of Hormuz",
-      "source": "Fast Company",
-      "publishedAt": "2026-04-17T18:30:28+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPX3V0LTAtdS0tUlpBck4wVmxCZUdROFdBQ1lYc2ozQWhoS1p3ME1FZ2NGWTdtNmZBdHMyYWNRZUhRblFRN19MS1JJcndUUktva1dEOTFtVFExai1RT3RBLUQzV2t1dVptWVRwMEdXTzA1eXl0NEZGNXFkSkNMSTNRWkVmTnJyT0RleWd2dWZsY0daRWZPSlNPWE1IT2tubmFYdzM5Q25VT1lUYmg4emc?oc=5",
+      "title": "Oil drops, stocks soar to wrap up a wild week. What just happened in markets?",
+      "source": "CNN",
+      "publishedAt": "2026-04-17T13:11:03+00:00",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBLV0dBcGt6VHdhXzN0a0xUWGFJb3ZBVFFnNFJzRTVHaG5NNmE0bDZucWRjMHJ3a0FVNTFYNURHYlNITFpRSU9DYTdVcnRDV2FQeHJCeEdwV0hSdVZNTFpMeWxQdGsyZ3FPc3JMazRzTzk?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20832,7 +20832,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-04-17T18:38:06.700398+00:00",
+      "dataAsOf": "2026-04-17T22:06:13.568296+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
