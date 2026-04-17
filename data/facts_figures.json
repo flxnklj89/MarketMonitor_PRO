@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-16T22:09:56.559750+00:00",
+  "generatedAt": "2026-04-17T06:24:37.129607+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -46,7 +46,7 @@
       "value": 0.2,
       "unit": "%",
       "tone": "l",
-      "status": "50T liegt bei +0.2 % gegenüber dem 200T. Schlusskurs 24016, 50T 22503, 200T 22463. NASDAQ Composite (Fallback) über 50T (22503) und 200T (22463). Trendstruktur intakt.",
+      "status": "50T liegt bei +0.2 % gegenüber dem 200T. Schlusskurs 24103, 50T 22520, 200T 22482. NASDAQ Composite (Fallback) über 50T (22520) und 200T (22482). Trendstruktur intakt.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -56,10 +56,10 @@
     },
     {
       "label": "RSI (14)",
-      "value": 71.5,
+      "value": 72.2,
       "unit": "",
       "tone": "m",
-      "status": "RSI (14) bei 71.5. Kein Extremniveau in beide Richtungen.",
+      "status": "RSI (14) bei 72.2. Kein Extremniveau in beide Richtungen.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -702,12 +702,6 @@
   "charts": {
     "chartLabel": "NASDAQ Composite",
     "qqq": [
-      {
-        "date": "2025-02-04",
-        "close": 19654.02,
-        "ma50": 19564.48,
-        "ma200": 18047.48
-      },
       {
         "date": "2025-02-05",
         "close": 19692.33,
@@ -2501,13 +2495,15 @@
         "close": 24016.02,
         "ma50": 22503.35,
         "ma200": 22463.25
+      },
+      {
+        "date": "2026-04-16",
+        "close": 24102.7,
+        "ma50": 22520.31,
+        "ma200": 22481.91
       }
     ],
     "rsi": [
-      {
-        "date": "2025-02-04",
-        "value": 51.3
-      },
       {
         "date": "2025-02-05",
         "value": 52.0
@@ -3703,6 +3699,10 @@
       {
         "date": "2026-04-15",
         "value": 71.5
+      },
+      {
+        "date": "2026-04-16",
+        "value": 72.2
       }
     ],
     "vix": [
@@ -6112,6 +6112,23 @@
   },
   "news": [
     {
+      "title": "Why the stock market is hitting records despite Iran war",
+      "source": "CNBC",
+      "publishedAt": "2026-04-16T19:32:49+00:00",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5Za21tWDVYQk5wUjUyTmhZbWk4RlFVTm9DcWplOHNzeXRNWEZHaHM0X085bTBXMFVRMk14d1YxbVVIUEtRaWpob2V0VW1BNko5cWVHRGJVLUh0SUtyNnp2dHdSdUpsUUU2Mjk0QUlNZW9RSDjSAXhBVV95cUxNcVVoNmxMT2xfQTVHV2hlRlZvb081NXAwdnFNblV6X2V1X3NmT3RSWFl0dVpDUXJBRnctVEt4d2ZoVlJaN1lZTmlkMWNIRFpGNFVURWNqM0loOEFtd2ZsWGE3ZFg2RW9jX1lEbktoQUlIcUFRdjZUYkc?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "Brent Crude Rises for Second Day in A Row. U.S. Oil Prices Fall.",
       "source": "Barron's",
       "publishedAt": "2026-04-16T19:59:00+00:00",
@@ -6127,23 +6144,6 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stock Market Today, April 16: Markets Nudge Upwards, Setting New Records",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-04-16T21:50:06+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVUswUU1UaWFkZGdyZVFIYzZfYTg1MGpTYTBINWJDb2JUZGU5bXpBX2JiSzI1cndEOWV6ME5CVk5meHNxNzlLeVdSUkpidTRnZWFkLThzb1E0QlZSenc2d2JxMnNpQXJpc2pvaEMtYlhOd05NXzJuU0tSUmh2R1AySTc1N2lrMHlxTjU3dW5pc19saWtTalpXbXk0b0NwMC1neXpFaXZ1Sk1TcjBIVEY1LVByM1FoSVBGcllYX0pQRG1Vb3ZmOGQzUmNR?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     },
     {
@@ -6165,10 +6165,27 @@
       ]
     },
     {
+      "title": "Wall Street sets another record after US stocks tick higher",
+      "source": "AP News",
+      "publishedAt": "2026-04-16T20:52:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPX296UDBvTWgzLUJsUUcwQVU3V1NHd1R6d0p2Ukx6cEpIeHhpYjVDVHQ4LXVVa2MzYk1XWHVtaFUtQy1ad3U0RnJqVkRVLWJ3OUI1Sm5ya25kaWJsRENZNU5oU1U1TVlYd3MxLUdxdHVHd2V2TVNrd201RzdiVTVPM0xydWIwZU1oNk1fRXlLa2UwRTJXcFA0?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "Oil prices are no longer a problem for the stock market. That may quickly change.",
       "source": "MSN",
-      "publishedAt": "2026-04-16T15:08:35+00:00",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaWVBZlVKeEdYc0pRNzBUdTNmOE91UGpCMWpaajU1eGtkWFhFaDVrZk93M0VhQ0NleUV3STV1VW5WVk9veGxNNUpEelh0TGRKLWVYTmU5M1FNTElURGx5X1ktYUZDQmxlTnFYT1JlVHVYMy1iMFV1OWJGVXg5RVRzU04tOFRyN0dOOWg5Y0tlVVF4WUYtWkcxSVNKZm81ZXlEWjZPR0h4MGxyT3BSN2QwQw?oc=5",
+      "publishedAt": "2026-04-16T20:12:52+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWk5PS2VqbFIwREVZZkk1MkJiSVFuQVByZHJ1alFXa3Y2OXJ5eFhuNW9uVGVXVm5XR1NoWVlZekVhZWlNdk0tSTFjY1FRVVJNUm5YaFVJY19Rd1k2NVV0dVFzaHZtbGlCd3lJLVE2WlduZFI2QUV0a2xPcXAyTWFURnNOSVpBUm0xSDFjWWVsUldleVUxVlFYVUE3YWRWWnNpN2tvaHV5SGZiSldiMDF2TXZndVIzUmd2VklEak5sVGxzTEs2bExDU1dBZw?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -6183,38 +6200,20 @@
       ]
     },
     {
-      "title": "What War? US Stocks Hit Record Highs",
-      "source": "Morningstar",
-      "publishedAt": "2026-04-16T20:10:06+00:00",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQkZYRUljLW1XNkprQlhyVHJNdGQzT1kza2ZwX1M5cFI4Z3g5Rk1XZ3RHemp2cW5OT21wdmpEbWlKbFRtUzhSQ0dhUjQ5RlhwM2k4b0x1Vy1BVE9lbUsxNTFja1AwQzFPUEJ2b2FnangzMnd0ZEswY25hSENtRlVPaG44YXduUFE?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Tesla, IBM and Intel report earnings next week — here’s the best way to play a volatile market",
+      "source": "MarketWatch",
+      "publishedAt": "2026-04-16T20:57:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdUlDWkZpME9oLUV0UTN5RTlpSTNaQWJicFFPZDI0MUZLdWR3RjNVTGJLOERRclBLaUZSUkc1OFFPZ1NDd2V1d3N2bTFVV0VFRl95NWFoMTlkX0FVbVdZVXFZaVd4NktRMWx6aFRicjNFUm9EM1pKYUhQbzZkWWl6SzE4VDlIRzltcHFiUjU4VXdqMHBxbXFhQ3lVaUpDREwxUjJiX3psQ2dPYzVSRlF6bG1jYXo?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
         "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Could Trump Ignite a Stock Market Rally by Suspending Tariffs?",
-      "source": "AOL.com",
-      "publishedAt": "2026-04-16T20:24:45+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdTdJY3poX050TlFkdDhDbGdVcGdfWTR4WEFIX2lnTU92WWRkWkNhdUQ0d1ZMcFA0aURaMEVIVWtXcG9HMkwwZWxXbVpENk1OMzk0eGtDV0tjbUZ1MmhMeFJZS1ppS2k1dDlvSWo2UmsxSVpoLVFuVUNHb2pKOFFHcA?oc=5",
-      "bucket": "Handel / Lieferketten",
-      "summary": "Die Meldung betrifft Zölle, Sanktionen oder Logistik. Das ist wichtig, weil solche Themen Preise, Margen und Verfügbarkeit von Vorprodukten beeinflussen.",
-      "impact": "Mittel bis hoch, wenn die Störung mehrere Branchen oder Länder betrifft.",
-      "probability": "Mittel, weil politische Schlagzeilen oft erst bestätigt werden müssen.",
-      "horizon": "Sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders empfindlich reagieren Industrie, Transport, Rohstoffe, Inflationspreise und konjunktursensitive Aktien.",
-      "assets": [
-        "Industrieaktien",
-        "Rohstoffe",
-        "Inflation",
-        "Transport"
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     }
   ]
