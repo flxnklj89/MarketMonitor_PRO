@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-18T14:25:53.305419+00:00",
+  "fetchedAt": "2026-04-18T17:55:24.030224+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20626,7 +20626,7 @@
     {
       "title": "Here’s what the stock market might have gotten wrong about the Iran war",
       "source": "The Washington Post",
-      "publishedAt": "2026-04-18T13:31:53+00:00",
+      "publishedAt": "2026-04-18T16:31:53+00:00",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdUhqLUcxRUMzckFORGoybXk2LU5qdGRsRHpyY0Q4Zm5kWndiNHBENzZqc3dTN0xrX0t3R0dMbmxwSGNZTkI3dlE5SERqYm1YRmNJMncyc2NUN1lUNUp0S1U2T2h2X3U2N0FVVlI0R3FYZnBZOXBkTlJ2OXJBelk4YU1TUy04dXNr?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
@@ -20643,7 +20643,7 @@
     {
       "title": "Opinion | Why the Stock Market Makes No Sense Right Now",
       "source": "The New York Times",
-      "publishedAt": "2026-04-18T11:00:19+00:00",
+      "publishedAt": "2026-04-18T11:00:20+00:00",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPc2hQSUk4Zkh2N1lfRkR1bWdwTjl6UE1WWXlzRlBpYkhaY2dVUVY2SXl1OXI4aWdYVTI2MkY4Rmt0RXZBaktuTjdBM2ZtZGk3b0Y5T3ZuUlF6ZzV5bDFjMnI0VVBGOVhFcDVvV3dxR21aTVNMY2NHYzNZNjhPUE5kNA?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
@@ -20655,6 +20655,24 @@
         "Aktien",
         "Anleihen",
         "Währungen"
+      ]
+    },
+    {
+      "title": "Market At Highs; Iran Says Hormuz 'Under Strict Control'",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-04-18T13:37:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQ3lrbjRsUGN0cmJSM1lEZ2Z5RDNsUkVnZkg3MXpIYUdhTnk3aXZtWlREblFNMXU0OTYxQThRMDI4WmFlYnJJLW05aGtnZlVqSHFHSmtNSllfUTNQckVVc1lWbkVISkJoMm5NOS1vd2JWdFRSNDBUc0hjczJSRlI5cjYwODJFSlZXOVhDMFA0bTR4Ny1lcUVYaXd4a0lob2g3LVc0VVMzOU9icGRPQ3ByRkNQb1d0Nl90cnd3?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
@@ -20694,26 +20712,8 @@
     {
       "title": "Weekly Insights: What’s Next for Oil and Gold Stocks?",
       "source": "Morningstar Canada",
-      "publishedAt": "2026-04-18T10:05:44+00:00",
+      "publishedAt": "2026-04-18T13:06:34+00:00",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZXhUWEJKbE44QTNWc1pOU2YwaDhiNmlwcXN3SFF5UVI0aE1POEMxY1FFX3RhZzVjR0xMVms5UXZDMi13a1p2TXdsN2ZON3JwcGg5ZGtZQkx0WUZvSFF5cllkWlY3d2I5VFZYN3RYZ3dlUHk4U2ZjWVFFNFJ4eElYdzJYQzY1UHZmLThSbHhQRms1djJVZUs3S2twa1lMWVU?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Dow Jones Futures: Market At Highs, But Is Hormuz Open? Tesla Earnings Due",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-04-18T03:06:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQ3lrbjRsUGN0cmJSM1lEZ2Z5RDNsUkVnZkg3MXpIYUdhTnk3aXZtWlREblFNMXU0OTYxQThRMDI4WmFlYnJJLW05aGtnZlVqSHFHSmtNSllfUTNQckVVc1lWbkVISkJoMm5NOS1vd2JWdFRSNDBUc0hjczJSRlI5cjYwODJFSlZXOVhDMFA0bTR4Ny1lcUVYaXd4a0lob2g3LVc0VVMzOU9icGRPQ3ByRkNQb1d0Nl90cnd3?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20831,7 +20831,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-04-18T14:25:53.305419+00:00",
+      "dataAsOf": "2026-04-18T17:55:24.030224+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
