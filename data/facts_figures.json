@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-19T17:55:56.257770+00:00",
+  "generatedAt": "2026-04-19T21:54:05.014079+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,26 +6112,9 @@
   },
   "news": [
     {
-      "title": "Stock market records, Iran updates, and Tesla earnings: What to watch this week",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-04-19T11:53:12+00:00",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQeHZ3TDNxVmIydmVHemMzZXFGVGtqZENxRzI3RHVCQnJYbmh3aWpOVy1uZWFTZkszSFlLd0FvclRHMk1VemY3TXNmc1FES0l1aGRBMG9XUVl0QV9vdGFtd1lRV1FKY3lhMVBPRE9Fa2thaWFEck9nY2YxTC1xeWVhZEZoNmRUUUFIeTNuQnNLVHdtZHZ6V1ZtclBxdXVDOWxrQ1dFZmJodTRVQWhscmpCeW1FdzBVNmRVaXhFZFNzYw?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Dow Jones Futures, Oil Prices In Focus As Iran, Hormuz News Turns",
+      "title": "Dow Jones Futures, Oil Prices Loom; Trump Announces New Iran Talks With Hormuz Shut",
       "source": "Investor's Business Daily",
-      "publishedAt": "2026-04-19T11:59:00+00:00",
+      "publishedAt": "2026-04-19T16:22:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQ3lrbjRsUGN0cmJSM1lEZ2Z5RDNsUkVnZkg3MXpIYUdhTnk3aXZtWlREblFNMXU0OTYxQThRMDI4WmFlYnJJLW05aGtnZlVqSHFHSmtNSllfUTNQckVVc1lWbkVISkJoMm5NOS1vd2JWdFRSNDBUc0hjczJSRlI5cjYwODJFSlZXOVhDMFA0bTR4Ny1lcUVYaXd4a0lob2g3LVc0VVMzOU9icGRPQ3ByRkNQb1d0Nl90cnd3?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
@@ -6147,10 +6130,10 @@
       ]
     },
     {
-      "title": "The stock market’s new approach to valuation",
-      "source": "Financial Times",
-      "publishedAt": "2026-04-19T11:00:08+00:00",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVEM1NTBnT2poWTN0dUNTWnloS1JreUZFdV9TVUo5UGFsSmZqdHFHTDNzc0VNTWhFSjJieUZkX0EtZnp1YXktU0VvR05PbVdtSklEWVBMU2JnTEQxZ2d1NzNzNXhhX3psYUljLVJfclZFc3E3bVpBZnEzUHN1MDg4ell2Q2E?oc=5",
+      "title": "Messy War, Happy Stock Markets",
+      "source": "The New York Times",
+      "publishedAt": "2026-04-19T21:29:35+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTWZiY0Nvc2paRHJsaG1QSlRmRmljdFpscEphcENmdE10WFcxZFRRWU9NdVFuQ3JJYlB3V25YbXBsZnhsUXd5MUJwMjE1RmVmZ1Vvb2UyN2NDTWdzNkd0ZHlDWjVhekcwNFpIdmkwV0t3elYtdkxFUi1NS3lmb1A0WWVIRnUxb05B?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -6181,7 +6164,24 @@
       ]
     },
     {
-      "title": "The New York Stock Exchange",
+      "title": "Stock market records, Iran updates, and Tesla earnings: What to watch this week",
+      "source": "AOL.com",
+      "publishedAt": "2026-04-19T11:53:12+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOa2JiODFPc3REbDVxS3k4M1c2SnlWczdqb3BlNGFqRGxuQWtoWVlKMWdHOEpBYlozdnFZNG5SX1FYVS1kYzhmZzN4LVBRdkVaTzhZclRtOVNTNUNoWlp2S3EzSEROMlhVSXVEWEQtU2R5YkRTOEFVRGVxV2dmb2JwY3BrYw?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "The New York Stock Exchange | NYSE",
       "source": "NYSE",
       "publishedAt": "2026-04-17T22:00:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE93UWVlU3g1TVNpdTNEcjI2Yk9kSHU2Tnh5Y0stVFBGRWVkLW9wbU1EbHhQaHdIOE56d2V5NXVhSQ?oc=5",
