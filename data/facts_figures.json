@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-21T16:19:54.270177+00:00",
+  "generatedAt": "2026-04-21T22:26:02.004632+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,20 +6112,56 @@
   },
   "news": [
     {
-      "title": "Weekly market commentary",
-      "source": "blackrock.com",
-      "publishedAt": "2026-04-21T10:16:21+00:00",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "US Stock Market Today: S&P 500, Dow, Nasdaq Slip as Oil Jumps and Fed Uncertainty Caps Rally",
+      "source": "TechStock²",
+      "publishedAt": "2026-04-21T18:13:07+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOOWVzR2gwVkU0dzhhRkstOVp6VFpHdzRTM3NXaUYwZmVkUWNyS2RXZzkzTEdwR2dHMDRqMVh4WnUxRlVsSG54a1M4cllxd1ZUUkZhRGhZMEtZd3MxYzBheXhjYWFyeW8taWx1bm1XdEUxRHRmaGNPaUExRUNPc3ZuNGd1WUpXVWtFWlFLbW84RnRTQjBUVmtXdTVueGJmR01wbHpHY3dyQnhfNHo2dFE?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "S&P 500 Earnings, Tech Stocks Give Bull Market Room to Run",
+      "source": "Barron's",
+      "publishedAt": "2026-04-21T18:19:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVVZLVTRrUmtvVmFzdTNVZFBfNHZfa0Z2ZjRKUzE5T2RpRDdlQXV1dU51ekh1d0dyRXVfcUJwcW9Da3Q2WlMyU1Rjc1phSnh1ODFRWWRkalV4cnZxcjJRdW9FQzVKcUlrZXk2Nmh4VGUxbXAwSEstN0ltUlJkeFFIcmNB?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
         "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Stocks tick higher, led by UnitedHealth Group, as oil prices remain relatively stable",
+      "source": "WDEF",
+      "publishedAt": "2026-04-21T13:58:33+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUkF4TEJVM25Ka0Z4UEtQb2Z5VkQ5T1lhT0o1Qkl1WHI4TjFGd2Q2aXRLRkNyRVpvakhVQkQzTkR0S3pSY2JsRHg2aE5YSEdTdnJkOWtGeGFmSG5KZTBEZFNjOXlLazdKRVdPYm1yWTAwa3dUdXVqV283bHpQX09NYkNVc2NhQVNuc2hoNGMxZ3dwMUw5RGJsbGF4QXNhbE9YUjJ2bFhOY1A?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
@@ -6146,10 +6182,10 @@
       ]
     },
     {
-      "title": "Stocks tick higher, led by UnitedHealth Group, as oil prices remain relatively stable",
-      "source": "WDEF",
-      "publishedAt": "2026-04-21T14:02:01+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUkF4TEJVM25Ka0Z4UEtQb2Z5VkQ5T1lhT0o1Qkl1WHI4TjFGd2Q2aXRLRkNyRVpvakhVQkQzTkR0S3pSY2JsRHg2aE5YSEdTdnJkOWtGeGFmSG5KZTBEZFNjOXlLazdKRVdPYm1yWTAwa3dUdXVqV283bHpQX09NYkNVc2NhQVNuc2hoNGMxZ3dwMUw5RGJsbGF4QXNhbE9YUjJ2bFhOY1A?oc=5",
+      "title": "Tourmaline Oil Corp. stock falls Tuesday, still outperforms market",
+      "source": "MarketWatch",
+      "publishedAt": "2026-04-21T20:36:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYmZYMTFCS1B1Mm95RlNwS1V2S0tXeWE2VmJoeGZTRHVxdmljLVpZVmZrQ3EycFUxNDQtZHJHS2llLXlsWUdWanl3V0RQSXluMnRwVmxGcXg3T2xDYUNVa1I5eWVaSVV2R1kwZ0UyR2pSVXlvbDZOTmRfMmVsRmx2WUdhQlBBSzVZSGx0NWhvQTRsVFIwWU01NWJYY3dFcU16eTNlT3Nuc05HUm9tX25YbUdFZzF2d0dFejdDWEZvV25FbXNWb0tEZjZaVExlNTdYYkVNNENXcV91UQ?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -6164,27 +6200,10 @@
       ]
     },
     {
-      "title": "Outlook for China stocks brightens on capital flows, rebounding home prices",
-      "source": "South China Morning Post",
-      "publishedAt": "2026-04-21T05:15:28+00:00",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWHJZWEpvN0J0VFlWaEozOVhzbFFJY2VvQnQycVIzY3dsWkpJekh1MGU1THg1ZUlzbS1BbW9oc3BfeWxPSHFBOXRoTmR5ckRoSlctaFY1RS1PRWJLMjhtQWQ3aEozLU81eWZWenFWSThJaTIwRUZuQ0w0cWdIUkQ2ZUhDX0RUTkdyMmppbFBnS2IzX0o3ak42X25WRHZaRDlNdV8xV3AxSUVrVVA5STE0bDEtdy1FbHVOd1p5WmN3N3VuOXkwdXlB0gHHAUFVX3lxTE5fYTBtUHYzNVctdmJfd2tyX2haRmNRdEo3RWhCT2V0SGRxMGlSVldpbWRTd0MtaFc5SHJ1ZHNRakNPMk44S3Boc2cwNWxaWFFpNmwwdjFEOE9PdnFIcE55UzB5eXhkQzVpNVh4RV9IOVBDUGtQMm5jendteXNsN0JuWVlZODQ1UWVtSXNYa3kxREVhWjlWOWRqQXNGaUI0dzAwMkVtYUQyMl9zM1NuN3UtQS1qWDY1ZllYZzVmVFRscWE5OHZmdW8?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
-      ]
-    },
-    {
-      "title": "Experts available: Iran war, oil prices and stock markets, Virginia redistricting, cycling in cities, and more",
-      "source": "Virginia Tech News",
-      "publishedAt": "2026-04-20T17:15:46+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOV1lMWl9oS2c3ZkFmdzZSeVhHNVZhclVFR1dQN0dTNWZGNGQ4Q1VZUEJIYTQ4Ti1oRFNCejZjUWxNZm9BcUc2MW9jRUZKX2lkX3BPR2FxeHpqdXhaQk1DNGpoOFJzS1JoOUtrczBOVlFYa0RaODh3T1NydWxHc3NWbUFJclZMTS1SbzdROThES0tGZnZYUHRTWjE2UV9GaFNBNUFpOFBoOUlHZW1vRGd1NHlKckk2OEIzNlJqZktxZUJfTlU4Qmt4SE9fZUZmZ1MwVHc?oc=5",
+      "title": "Oil Prices Creep Higher Ahead of Ceasefire Decision",
+      "source": "Energy Intelligence",
+      "publishedAt": "2026-04-21T21:12:20+00:00",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5hcHVkZ2JVUDZMTHl2UzRGWGlmVThRLW1xYUZqYnRaNlZuS19BNENHM1lJTDgwTnZPNmlWbmYxNDdYRGdvdzZ2S09rZVdWNnBGMXV3Wmx5S095RjhBZzJXNU1JVzczNjJUNUlZVlloazlSZw?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -6196,23 +6215,6 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "5 Things to Know Before the Stock Market Opens",
-      "source": "Investopedia",
-      "publishedAt": "2026-04-21T11:50:52+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZVk1My1OSTY4M1FvQWxTbmROMWtIYWRCNm9mWnZCSnc1LXhxOU9iUS1KaWZ2QVRwLU9IWldDVnIxOGt3NHdOb2lkby0tZy1yQThhS3lHTW5TQUJZQjRXLWVDUTVKNUlXdmwxa1J3Z0VtNHhLUE5saFVDLUNXY0VndlZFU184YTdFUGlxVEhPRTlIRmVKOWM2c1Vycm5aV0k?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     }
   ]
