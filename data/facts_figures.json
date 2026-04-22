@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-21T22:26:02.004632+00:00",
+  "generatedAt": "2026-04-22T06:24:54.415616+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -46,7 +46,7 @@
       "value": 0.3,
       "unit": "%",
       "tone": "l",
-      "status": "50T liegt bei +0.3 % gegenüber dem 200T. Schlusskurs 24404, 50T 22589, 200T 22523. NASDAQ Composite (Fallback) über 50T (22589) und 200T (22523). Trendstruktur intakt.",
+      "status": "50T liegt bei +0.3 % gegenüber dem 200T. Schlusskurs 24260, 50T 22613, 200T 22542. NASDAQ Composite (Fallback) über 50T (22613) und 200T (22542). Trendstruktur intakt.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -56,10 +56,10 @@
     },
     {
       "label": "RSI (14)",
-      "value": 73.6,
+      "value": 70.4,
       "unit": "",
       "tone": "m",
-      "status": "RSI (14) bei 73.6. Kein Extremniveau in beide Richtungen.",
+      "status": "RSI (14) bei 70.4. Kein Extremniveau in beide Richtungen.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -69,10 +69,10 @@
     },
     {
       "label": "Drawdown vom Hoch",
-      "value": -0.3,
+      "value": -0.9,
       "unit": "%",
       "tone": "l",
-      "status": "-0.3 % vom Hoch. Kaum struktureller Druck.",
+      "status": "-0.9 % vom Hoch. Kaum struktureller Druck.",
       "history": []
     }
   ],
@@ -702,12 +702,6 @@
   "charts": {
     "chartLabel": "NASDAQ Composite",
     "qqq": [
-      {
-        "date": "2025-02-07",
-        "close": 19523.4,
-        "ma50": 19605.79,
-        "ma200": 18110.84
-      },
       {
         "date": "2025-02-10",
         "close": 19714.27,
@@ -2501,13 +2495,15 @@
         "close": 24404.39,
         "ma50": 22588.86,
         "ma200": 22523.3
+      },
+      {
+        "date": "2026-04-21",
+        "close": 24259.96,
+        "ma50": 22613.43,
+        "ma200": 22541.59
       }
     ],
     "rsi": [
-      {
-        "date": "2025-02-07",
-        "value": 48.4
-      },
       {
         "date": "2025-02-10",
         "value": 52.1
@@ -3703,6 +3699,10 @@
       {
         "date": "2026-04-20",
         "value": 73.6
+      },
+      {
+        "date": "2026-04-21",
+        "value": 70.4
       }
     ],
     "vix": [
@@ -6112,10 +6112,62 @@
   },
   "news": [
     {
-      "title": "US Stock Market Today: S&P 500, Dow, Nasdaq Slip as Oil Jumps and Fed Uncertainty Caps Rally",
-      "source": "TechStock²",
-      "publishedAt": "2026-04-21T18:13:07+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOOWVzR2gwVkU0dzhhRkstOVp6VFpHdzRTM3NXaUYwZmVkUWNyS2RXZzkzTEdwR2dHMDRqMVh4WnUxRlVsSG54a1M4cllxd1ZUUkZhRGhZMEtZd3MxYzBheXhjYWFyeW8taWx1bm1XdEUxRHRmaGNPaUExRUNPc3ZuNGd1WUpXVWtFWlFLbW84RnRTQjBUVmtXdTVueGJmR01wbHpHY3dyQnhfNHo2dFE?oc=5",
+      "title": "Stock market falls despite strong UnitedHealth earnings as Iran deadline looms",
+      "source": "MSN",
+      "publishedAt": "2026-04-22T02:48:45+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOMWM2VVZ2M3RoZ0dxN0V0enc3YlVSWVpHN1l5eTluZG1wOHdCbDRVTzRmU1lUNE1BOGJFYmkxdXdMMW5OUVJCWGFTLWp6SGVXYUhhUFdyZldyWFNhRW11cVh0N0ZlLVlvdmh6VW5BTEptS2xRWDFkWnJwOWdLSXlvUUZWOXM4UEViQmt2d0RDT0dVZndkZHZFM3VzQ0VEQmlLZWZfU2tBNlJnNEVDb1h3VjBCVHl2ZXBoR3VsVUtqb2wxMzdwc3BEY2VJaGUycUxoSHY1ajlfdy1MU0o1UmRjdkdQMkZzRTBSVjNJdw?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Stocks rise, oil near $100 as Trump extends Iran ceasefire",
+      "source": "Reuters",
+      "publishedAt": "2026-04-22T00:47:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWU5pSnFPTHpSYi1aNnVNMnVRMWdKRURqVHdjT2JJZlJ6T1Y1Wi0tbEh5c3ZjMktqbWJDeXptcHNhcGl3VVdjWWs5d0w4eFh0Q3BEQ09xZ0lUcUJqRXg2UHdHNGEyb1pydjVMR25ZNDB5aGF2YVBrZWtLaWpLVWx3blNhYw?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "US Stock Futures Rise as Trump Extends Iran Truce: Markets Wrap",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-04-21T22:13:53+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQczczZ25ncGNCQS1qN3JEamVBZlpxZ1dYbVgyeTBXdU95UDlEUnVSR2RzaDZJUFFDdzdfNGhldHpaWTAxcXpXczd4cmY3OTRNRkJMQ3lCVGRHZDQyOG13ZUYtQ2tZOVQ2TU9ZMWtsUEdMb2w3YzVaMFpWclUyeGlMdWdYa2FMakVjMlVHd3hhdzM5b283?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Stocks slip and oil prices rise on uncertainty about US-Iran ceasefire talks",
+      "source": "Chattanooga Times Free Press",
+      "publishedAt": "2026-04-21T22:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOUhXc2M0MlYwbklSdzdudzg1T3RQVURDanF5cWRyeUpReG5JT2djX3RKUFp6d2tRQ2tSWTc3bE1tdUpYMFVXTzVLRVNCVjNrbVVDZUhTams4cWZOZnZnNG1wdGFpaGxlTFVvOVhqb1J0TGNTWmpFbldrZUlZd1UzUW5zd3ZYR2dOWUZFM2N5WkxHT28xaWgyUmQ3TQ?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -6147,28 +6199,10 @@
       ]
     },
     {
-      "title": "Stocks tick higher, led by UnitedHealth Group, as oil prices remain relatively stable",
-      "source": "WDEF",
-      "publishedAt": "2026-04-21T13:58:33+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUkF4TEJVM25Ka0Z4UEtQb2Z5VkQ5T1lhT0o1Qkl1WHI4TjFGd2Q2aXRLRkNyRVpvakhVQkQzTkR0S3pSY2JsRHg2aE5YSEdTdnJkOWtGeGFmSG5KZTBEZFNjOXlLazdKRVdPYm1yWTAwa3dUdXVqV283bHpQX09NYkNVc2NhQVNuc2hoNGMxZ3dwMUw5RGJsbGF4QXNhbE9YUjJ2bFhOY1A?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "The Stock Market Flashes a Warning as Investors Get Bad News About President Trump's Economy. History Says This Will Happen Next.",
+      "title": "Stock Market Today, April 21: Markets in Wait-and-See Mode as Hopes for New U.S.-Iran Peace Talks Fade",
       "source": "The Motley Fool",
-      "publishedAt": "2026-04-21T08:55:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTVFUcEhYSW5sZndyS1RXTFo2aUpnYi1FX3RDUHVUZWhSWTRNZUxYRGJWTDd2Z0JoYWZKbEpMakpuQVpON1NKblhUY1hBVUNHTHd1bDJEUFlUQTIzRm9RSFFxOEJDazlSWk9iNUkwZ2ozaEpwbzZUbnEwZVQ1emFJMFdXanlCR1VQRjZiY1VCeGdqcGFWSVVlSg?oc=5",
+      "publishedAt": "2026-04-21T23:01:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPOGwxRVVrREtUVGM1SE1lSW1rVk1iTGdKVjhmdW9hZmpaVmNVbEs4ZmhDRHVCZHVXY0luSFF4bzBfbGtZdHlmZjRlVmFvSjN6aDd0ZE9TVURiUy1fU1BDbVNlN29rNURyWHJuNUM1UXlJV0dMT1BmdlE1NnllQmR6Q3AxTXdBbHdIZEVIdkYxSEhWUVQ2aFJCTklYSkpPbDkwUlJUVmFpYUlZTndxSEk4WFBJcDlfb1diVUNURVZfbUliNGZucnEtXzlyNFZQZmxNMUZNNWtIZTI5MW90ckQ0Mm1Zc2ZFRlRBQXRXMFN4OUFtZw?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -6179,42 +6213,6 @@
         "Aktien",
         "Anleihen",
         "Währungen"
-      ]
-    },
-    {
-      "title": "Tourmaline Oil Corp. stock falls Tuesday, still outperforms market",
-      "source": "MarketWatch",
-      "publishedAt": "2026-04-21T20:36:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYmZYMTFCS1B1Mm95RlNwS1V2S0tXeWE2VmJoeGZTRHVxdmljLVpZVmZrQ3EycFUxNDQtZHJHS2llLXlsWUdWanl3V0RQSXluMnRwVmxGcXg3T2xDYUNVa1I5eWVaSVV2R1kwZ0UyR2pSVXlvbDZOTmRfMmVsRmx2WUdhQlBBSzVZSGx0NWhvQTRsVFIwWU01NWJYY3dFcU16eTNlT3Nuc05HUm9tX25YbUdFZzF2d0dFejdDWEZvV25FbXNWb0tEZjZaVExlNTdYYkVNNENXcV91UQ?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Oil Prices Creep Higher Ahead of Ceasefire Decision",
-      "source": "Energy Intelligence",
-      "publishedAt": "2026-04-21T21:12:20+00:00",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5hcHVkZ2JVUDZMTHl2UzRGWGlmVThRLW1xYUZqYnRaNlZuS19BNENHM1lJTDgwTnZPNmlWbmYxNDdYRGdvdzZ2S09rZVdWNnBGMXV3Wmx5S095RjhBZzJXNU1JVzczNjJUNUlZVlloazlSZw?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
       ]
     }
   ]
