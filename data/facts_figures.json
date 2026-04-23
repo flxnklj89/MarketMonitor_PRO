@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T22:34:59.657764+00:00",
+  "generatedAt": "2026-04-23T06:28:51.978212+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -43,10 +43,10 @@
   "technicalTriggers": [
     {
       "label": "50T vs. 200T",
-      "value": 0.3,
+      "value": 0.4,
       "unit": "%",
       "tone": "l",
-      "status": "50T liegt bei +0.3 % gegenüber dem 200T. Schlusskurs 24260, 50T 22613, 200T 22542. NASDAQ Composite (Fallback) über 50T (22613) und 200T (22542). Trendstruktur intakt.",
+      "status": "50T liegt bei +0.4 % gegenüber dem 200T. Schlusskurs 24658, 50T 22642, 200T 22563. NASDAQ Composite (Fallback) über 50T (22642) und 200T (22563). Trendstruktur intakt.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -56,10 +56,10 @@
     },
     {
       "label": "RSI (14)",
-      "value": 70.4,
+      "value": 73.7,
       "unit": "",
       "tone": "m",
-      "status": "RSI (14) bei 70.4. Kein Extremniveau in beide Richtungen.",
+      "status": "RSI (14) bei 73.7. Kein Extremniveau in beide Richtungen.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -69,10 +69,10 @@
     },
     {
       "label": "Drawdown vom Hoch",
-      "value": -0.9,
+      "value": 0.0,
       "unit": "%",
       "tone": "l",
-      "status": "-0.9 % vom Hoch. Kaum struktureller Druck.",
+      "status": "0.0 % vom Hoch. Kaum struktureller Druck.",
       "history": []
     }
   ],
@@ -702,12 +702,6 @@
   "charts": {
     "chartLabel": "NASDAQ Composite",
     "qqq": [
-      {
-        "date": "2025-02-10",
-        "close": 19714.27,
-        "ma50": 19618.98,
-        "ma200": 18130.93
-      },
       {
         "date": "2025-02-11",
         "close": 19643.86,
@@ -2501,13 +2495,15 @@
         "close": 24259.96,
         "ma50": 22613.43,
         "ma200": 22541.59
+      },
+      {
+        "date": "2026-04-22",
+        "close": 24657.57,
+        "ma50": 22641.81,
+        "ma200": 22562.82
       }
     ],
     "rsi": [
-      {
-        "date": "2025-02-10",
-        "value": 52.1
-      },
       {
         "date": "2025-02-11",
         "value": 50.7
@@ -3703,6 +3699,10 @@
       {
         "date": "2026-04-21",
         "value": 70.4
+      },
+      {
+        "date": "2026-04-22",
+        "value": 73.7
       }
     ],
     "vix": [
@@ -6114,8 +6114,43 @@
     {
       "title": "Stock Market Today, April 22: AT&T Edges Upwards on Mixed Earnings",
       "source": "The Motley Fool",
-      "publishedAt": "2026-04-22T21:30:22+00:00",
+      "publishedAt": "2026-04-22T22:27:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNa3ZPby1ENTIxbDhtamJOWl9pSjdTYkJtTUJYS2JLWHo2dmpINXoxVDE5am5jRmxsMDJhcVg5U0ViZHFwZ0lxaVpKbEU0WHkyVEFuOVdYcjRmNHNuekkxbm9hWjIxRS10eE03ZnFEdXp3RFU5Q3hSZlhHSWpZam5Cb0lPRF92OFZNaXFQWXFHNDR0bG15aExRdXFTNGx4MDh5bjNGNE5EZkg1TFpUQnZJTUxLcG1sNXhwSmFXSEVIMHkzbk1Yam1sYw?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "US Stock Futures Decline, Brent Stays Above $100: Markets Wrap",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-04-22T22:18:21+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZ2NHY0xrR0JNTDNUVTdlck1adnExOEdDVzlfSWFJNTROTVlsZ0ZMa3l4SFRTU3BwemE2ZjVUNC1RdXA3Ym40dHg3SldxTHhyUVhqdkk0RmN6aGFHaUhLdFdVZFYwUDVxZ2g0VWdDNVRGODIwZWVXU25UQmppOGNkX2hBb0dfOXl3S0VwMW5kSENMQjNw?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Masco Stock Among the S&P 500’s Winners. What Solid Earnings Say About Housing.",
+      "source": "Barron's",
+      "publishedAt": "2026-04-22T20:24:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPT1pzSlpMSWtOMWdQeUVOWUN1QndaNTE4VGtDV0JjbnB6RFFhRWgwSnJpX2t0cy1CVmhXeWpfbXVCU29vZVVBRWlmWFF6WWpQeFR2b21fVTd3UndndjU5ZHFpWG9qaW9HVzVjRkstVk42UjFfLXZzTzMzZU5xMjV5NnFDLWE0NjRUMHI3SFFQUQ?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -6163,43 +6198,9 @@
       ]
     },
     {
-      "title": "Masco Stock Tops the S&P 500 Today. What Solid Earnings Say About the Housing Market.",
-      "source": "Barron's",
-      "publishedAt": "2026-04-22T16:42:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPT1pzSlpMSWtOMWdQeUVOWUN1QndaNTE4VGtDV0JjbnB6RFFhRWgwSnJpX2t0cy1CVmhXeWpfbXVCU29vZVVBRWlmWFF6WWpQeFR2b21fVTd3UndndjU5ZHFpWG9qaW9HVzVjRkstVk42UjFfLXZzTzMzZU5xMjV5NnFDLWE0NjRUMHI3SFFQUQ?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "5 Things to Know Before the Stock Market Opens",
-      "source": "Investopedia",
-      "publishedAt": "2026-04-22T11:55:43+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUURxa01STUZQQ00xMS02bHVSSkJWVTMtd012dlBleDRVM0NCZF9yVmp4X2Jwem9IamNoY0RKeDRrd1ROVFZNZlExdGVRd2xRSDlOalJsQTdKMlJmWVBWRmtlUUpzLVk1bDNSV2VPQ1pLanpJc09VaVFnVnRrVzl2MVJUbzJDZXlzY0Y2MTlnaDRLbmhWTUFFekNicm5aOGM?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
       "title": "Stock Market Today, April 22: Boston Scientific Jumps After Q1 Earnings Beat Resets Growth Expectations",
       "source": "The Motley Fool",
-      "publishedAt": "2026-04-22T22:07:30+00:00",
+      "publishedAt": "2026-04-22T22:15:43+00:00",
       "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNSW1aTjJYWjF0dWlIVUowSTBQNzdLbEVqczVPQlhyY1RYWDV3YVdpY19GWGhaODhaMU9xWmt0M3lNa1ZlaHQ2M3pyQWVpcjU1djRfc1M3NzN5MUE0RlNiMnJuQVlYajFiWXQ5dFk1MHN3SGFIaVFIQVc1ZTRzaEFPUTBNNzFub3pnTTFDNzVUODNSMm1sd1lfQnFGWDVPYTVKVlZCeVE5WnlQNnN4U09tbnM3dXdWcjd1V3Z0U2tTM2lhMEpLX0JJV2U4dU9HbW5HcWJFb3FiZ0UxSmhSOWhpMVFhVHkxTGlkMlVqY1lTRHpuU2lE?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
