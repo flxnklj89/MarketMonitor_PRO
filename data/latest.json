@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-23T06:28:47.776231+00:00",
+  "fetchedAt": "2026-04-23T11:44:34.054997+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20624,6 +20624,24 @@
   },
   "news": [
     {
+      "title": "Shares stumble as war worries drive oil back above $100",
+      "source": "Reuters",
+      "publishedAt": "2026-04-23T01:56:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWHF3YmR2ZlVMV3V3ME5FZi1tbmxGWExtanZvdzgzdU5CbUNYWWNVYXg4bTRkVml2YWc5UF9WODB4cGYtTDFXNUhUOGhwcXZvMGtRQlpta2xHRHlELUw3VVRFSDRvQi04U3VfYllENUc4YmNSZEtKTjhibmIzSW1GV2VGTQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
       "title": "Stock Market Today, April 22: AT&T Edges Upwards on Mixed Earnings",
       "source": "The Motley Fool",
       "publishedAt": "2026-04-22T22:27:00+00:00",
@@ -20641,10 +20659,27 @@
       ]
     },
     {
-      "title": "US Stock Futures Decline, Brent Stays Above $100: Markets Wrap",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-04-22T22:18:21+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZ2NHY0xrR0JNTDNUVTdlck1adnExOEdDVzlfSWFJNTROTVlsZ0ZMa3l4SFRTU3BwemE2ZjVUNC1RdXA3Ym40dHg3SldxTHhyUVhqdkk0RmN6aGFHaUhLdFdVZFYwUDVxZ2g0VWdDNVRGODIwZWVXU25UQmppOGNkX2hBb0dfOXl3S0VwMW5kSENMQjNw?oc=5",
+      "title": "Boeing vs GE Aerospace After Earnings: Why the Market Is Picking One Over the Other",
+      "source": "24/7 Wall St.",
+      "publishedAt": "2026-04-23T11:20:31+00:00",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSERHb1V2MjJQQ1hCaS1KZ1VFOEZnRE1OMnJQMG80V1R4NXlTV2stRV9VTGVFaWNiTU9KSTBlUXl5OFZna2hFdFJBRW94cG5adi1kWlhuZUNGSlh6VXR3dUpYd2JENmxOVU9PTmlmY0NmeUdpdWE3TXdRY1oweVl0a2g1RW8wcDMwSW5jQ3ZhWE5BVWt2R0FJcnFER2lUWlJnNnVLRC1FcUJXZEFiZFlsUFo2TC1WYTFyWk9pcjJsOTdjazEt?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "US Stock Market Today Premarket: Futures Slip From Record Highs as Oil Tops $103, Tesla and IBM in Focus",
+      "source": "TechStock²",
+      "publishedAt": "2026-04-23T08:58:32+00:00",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSDNDbXZnOFVFb1kzYXAtVWs1ZG1oM0VJeFRWeTZzZjFsSHJWQ3YzZlZ4bnhOV1MyZi1vNHdWNVczZWJZMHlqcWR6NGZhQng5bm5yWlVBOVNoWXJEZG1nV1JETkc4Y0UwNllwaDQtR1FiZGdIb2t0Tk41WW9TcHNMekd5b1NCUzMtRkZfeDVJMXdSaEU0UzF3NmRFOFkxS1AxWmpLcERtbzNNWXBrRXpFWElLdG1ZMDFyQ09mMGZiTQ?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20659,61 +20694,27 @@
       ]
     },
     {
+      "title": "ServiceNow Earnings Selloff: 3 Reasons The Market Got It Wrong (NYSE:NOW)",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-04-22T23:06:41+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZkRYOTNTS25Sb2FmQnhjbGFLSHEyWkpOejJ4TEpwRHc4a3JFc3R0UTAzQ1R0RURCdVBVdEotdFRLMU5DZlNJOXlHUEdOczRtUk1EYWdaZVdwOVNwaDdvUXNaWW5ia3FIV0Zid243MThTeTl5c1RiWHZCTkhTSEVRd0J5WmdlMG1iT1RiMUJBS18wR1pfdnptT21MNGxCazNRbnpRTQ?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
       "title": "Masco Stock Among the S&P 500’s Winners. What Solid Earnings Say About Housing.",
       "source": "Barron's",
       "publishedAt": "2026-04-22T20:24:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPT1pzSlpMSWtOMWdQeUVOWUN1QndaNTE4VGtDV0JjbnB6RFFhRWgwSnJpX2t0cy1CVmhXeWpfbXVCU29vZVVBRWlmWFF6WWpQeFR2b21fVTd3UndndjU5ZHFpWG9qaW9HVzVjRkstVk42UjFfLXZzTzMzZU5xMjV5NnFDLWE0NjRUMHI3SFFQUQ?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Stock market today: Dow rises on Trump ceasefire; Tesla earnings due (live coverage)",
-      "source": "MSN",
-      "publishedAt": "2026-04-22T18:26:14+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNZ2ZwaXBPMUxHU0N4QnNOTTVOenJGRTZNZ1RUY2g1TDR4c0NjRnVTVzROd1F5WEVKTmtlMVdTdmdPSlRiT1pDWFN1b3NHaGxNaWh3aTlxLU5MYWRsVEZ1dkhQTkNFMGtpVjgxbnBSZEc0OEw5Ti1YU1VCcVBxZmotQUlGZG92aHM4eXphelZlUE1lc05fVEIxb2Q3QjFtYUNuX1gyczN2YVBtZVpnX1lIM29PT0VRUU5VUzk0NzdrWmtSUXNwbHdYWUxuczhBQVhvUWlsTzEzYjUycFpzVHB0Rm1CbzlvRzQ1Xy1Z?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "The Significance And Influence Of China’s ChiNext Reform – Analysis",
-      "source": "Eurasia Review",
-      "publishedAt": "2026-04-22T18:24:11+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdFFKQklaWUhJbGZyd3NYZ1Zlb2N1NUZ3ZlUzbXhHYnBnUnpXbWZsd2x3Q3ptZVJFdGlkLXFxdTNXZVRFd3ZVYm82bVoyb2Vfa3EwNTU5QzItRnFTLXZQZkhaUjJKRG9NZ1lITkFDQjJBTmdKOXBWUW1wSURpTnFuY05hTnMzYlRMYjZ4X0J4X0dBQWJ0WVRSQnBFeGtDZS04OGFIaGtkTQ?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
-      ]
-    },
-    {
-      "title": "Stock Market Today, April 22: Boston Scientific Jumps After Q1 Earnings Beat Resets Growth Expectations",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-04-22T22:15:43+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNSW1aTjJYWjF0dWlIVUowSTBQNzdLbEVqczVPQlhyY1RYWDV3YVdpY19GWGhaODhaMU9xWmt0M3lNa1ZlaHQ2M3pyQWVpcjU1djRfc1M3NzN5MUE0RlNiMnJuQVlYajFiWXQ5dFk1MHN3SGFIaVFIQVc1ZTRzaEFPUTBNNzFub3pnTTFDNzVUODNSMm1sd1lfQnFGWDVPYTVKVlZCeVE5WnlQNnN4U09tbnM3dXdWcjd1V3Z0U2tTM2lhMEpLX0JJV2U4dU9HbW5HcWJFb3FiZ0UxSmhSOWhpMVFhVHkxTGlkMlVqY1lTRHpuU2lE?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -20831,7 +20832,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-04-23T06:28:47.776231+00:00",
+      "dataAsOf": "2026-04-23T11:44:34.054997+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
