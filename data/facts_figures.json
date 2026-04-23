@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T17:04:39.087881+00:00",
+  "generatedAt": "2026-04-23T22:11:06.966299+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6114,7 +6114,7 @@
     {
       "title": "U.S. stocks hang around their record highs as oil prices swing",
       "source": "Pittsburgh Post-Gazette",
-      "publishedAt": "2026-04-23T16:29:58+00:00",
+      "publishedAt": "2026-04-23T18:56:45+00:00",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbjhaLWxpemlDZ0xPMy1SU3RpbVNnTlpTY0N6ZmJ0TlRDYTR0VF9DeWszb3BQcHZrY3BWRzRwWTFaNy12ejFfQ1cwTzhDTTYxazRqa3VRMGdzMXU5RVZ0aGZlcTVpZzZFSmNqdlRubEUxeEtibXFZZTBiZmxLVTVLdGJRdktOMk4tS3h1NXhZbUZCLVEzdmZXbldzSVFJVTZ1MXdKdGZqOE5fblpv?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
@@ -6147,26 +6147,9 @@
       ]
     },
     {
-      "title": "How Wall Street is setting records even with the Iran war still going on",
-      "source": "NBC News",
-      "publishedAt": "2026-04-23T12:19:45+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMUdOUlFNenJlRy1lc3RteUROZmlmMUtZOGtxMG5xdXlWS252SnRSSUhGcjVUeEZaajFrcTZfQnRERUNud1NRVlVDQ2VlUHZuWUZPbGZvOVh6UkdsMEdETnJHWDZGSDN3VjNmektqSkdEeXh3MkZUTHpKdnJhakJOenEyZ0dfTUFweDJiczByQ3RkLUNsMUJzY3lUd1Y0UU1pV1I2MkNpQlY?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
       "title": "Oil prices and stocks are going their own way",
       "source": "Axios",
-      "publishedAt": "2026-04-23T11:01:16+00:00",
+      "publishedAt": "2026-04-23T11:00:38+00:00",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1vdVZPYnR2dTVvUDQ4dHFUOENTZDJiYkZsVUVSeU5JZ2NEdHdHODdPenlwM2dKeUtuZ21ZWElLc21DV2FDekh5UUNWMmpSaVFOdkNHSTZKVGxRbV9HaVZGVXU3WU8?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
@@ -6213,6 +6196,24 @@
         "Aktien",
         "Sektoren",
         "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "US Stock Market Today: S&P 500, Nasdaq Stall Near Records as Oil Above $100 Clouds Wall Street",
+      "source": "TechStock²",
+      "publishedAt": "2026-04-23T17:44:25+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOLUN1NDIxNjBwd0t4VlU1MUlkU0lVeWxkQlRSM2d3cm9hLVhxai1YbXdCbkdwV2NnMmhmdjVtenhiVzUxRHpfN1ZmdmxUazNMSG83T25XcHJYZmJvTlk2d25EdDNQR01keEk2OGJSam42Ri1EYVV2WXNSQ3JrWXhHaVl0UHlDR0dIWTBPcnI4dUItQnNGQWVSWVBBYlAyQWczY1BKei1SWU9sVk9aVEw2bg?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     }
   ]
