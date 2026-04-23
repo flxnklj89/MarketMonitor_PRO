@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T11:44:37.951876+00:00",
+  "generatedAt": "2026-04-23T17:04:39.087881+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -20,14 +20,14 @@
     },
     "vix": {
       "title": "Relativ ruhig",
-      "value": 19.5,
+      "value": 18.9,
       "unit": "",
       "tone": "l",
-      "status": "VIX bei 19.5. Unter dem langfristigen Durchschnitt von ~17–20."
+      "status": "VIX bei 18.9. Unter dem langfristigen Durchschnitt von ~17–20."
     },
     "breadth": {
-      "title": "57 % über 200T-Ø (Proxy)",
-      "value": 57,
+      "title": "58 % über 200T-Ø (Proxy)",
+      "value": 58,
       "unit": "%",
       "tone": "m",
       "status": "Näherungswert abgeleitet aus VIX-Niveau. Direktdaten nicht via FRED verfügbar."
@@ -668,7 +668,7 @@
     "title": "Crash Probability",
     "score": 16,
     "scoreLabel": "16 %",
-    "reason": "Stress 34/100, Rezessionsrisiko 0.5 %, VIX 19.5.",
+    "reason": "Stress 34/100, Rezessionsrisiko 0.5 %, VIX 18.9.",
     "interpretation": "Crash-Risiko derzeit begrenzt."
   },
   "timingQuality": {
@@ -3707,10 +3707,6 @@
     ],
     "vix": [
       {
-        "date": "2025-02-20",
-        "value": 15.66
-      },
-      {
         "date": "2025-02-21",
         "value": 18.21
       },
@@ -4905,6 +4901,10 @@
       {
         "date": "2026-04-21",
         "value": 19.5
+      },
+      {
+        "date": "2026-04-22",
+        "value": 18.92
       }
     ],
     "brent": [
@@ -6112,10 +6112,10 @@
   },
   "news": [
     {
-      "title": "Shares stumble as war worries drive oil back above $100",
-      "source": "Reuters",
-      "publishedAt": "2026-04-23T01:56:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWHF3YmR2ZlVMV3V3ME5FZi1tbmxGWExtanZvdzgzdU5CbUNYWWNVYXg4bTRkVml2YWc5UF9WODB4cGYtTDFXNUhUOGhwcXZvMGtRQlpta2xHRHlELUw3VVRFSDRvQi04U3VfYllENUc4YmNSZEtKTjhibmIzSW1GV2VGTQ?oc=5",
+      "title": "U.S. stocks hang around their record highs as oil prices swing",
+      "source": "Pittsburgh Post-Gazette",
+      "publishedAt": "2026-04-23T16:29:58+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbjhaLWxpemlDZ0xPMy1SU3RpbVNnTlpTY0N6ZmJ0TlRDYTR0VF9DeWszb3BQcHZrY3BWRzRwWTFaNy12ejFfQ1cwTzhDTTYxazRqa3VRMGdzMXU5RVZ0aGZlcTVpZzZFSmNqdlRubEUxeEtibXFZZTBiZmxLVTVLdGJRdktOMk4tS3h1NXhZbUZCLVEzdmZXbldzSVFJVTZ1MXdKdGZqOE5fblpv?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -6130,44 +6130,44 @@
       ]
     },
     {
-      "title": "Stock Market Today, April 22: AT&T Edges Upwards on Mixed Earnings",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-04-22T22:27:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNa3ZPby1ENTIxbDhtamJOWl9pSjdTYkJtTUJYS2JLWHo2dmpINXoxVDE5am5jRmxsMDJhcVg5U0ViZHFwZ0lxaVpKbEU0WHkyVEFuOVdYcjRmNHNuekkxbm9hWjIxRS10eE03ZnFEdXp3RFU5Q3hSZlhHSWpZam5Cb0lPRF92OFZNaXFQWXFHNDR0bG15aExRdXFTNGx4MDh5bjNGNE5EZkg1TFpUQnZJTUxLcG1sNXhwSmFXSEVIMHkzbk1Yam1sYw?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "The stock market in Trump’s second term remains jittery but still positive",
+      "source": "MS NOW",
+      "publishedAt": "2026-04-23T16:46:16+00:00",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMzlvcGgtM194NjdwcHJzSmFBcTVXVEFzMTZ2Mmh6TzI0MEFxV0wzOGxJYllRUFZMNTBYVU1YelFyenlEandUQ3ZqVEx3ZkI4Vklwb3p1cDFWRFptemUtWFIzMGttUzdwTnc5RVdNMU9GTHVsVGlfbWx0ZjQzWHpIVkF2bUlMeDdZc3pBcmRFSQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
-      "title": "Boeing vs GE Aerospace After Earnings: Why the Market Is Picking One Over the Other",
-      "source": "24/7 Wall St.",
-      "publishedAt": "2026-04-23T11:20:31+00:00",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSERHb1V2MjJQQ1hCaS1KZ1VFOEZnRE1OMnJQMG80V1R4NXlTV2stRV9VTGVFaWNiTU9KSTBlUXl5OFZna2hFdFJBRW94cG5adi1kWlhuZUNGSlh6VXR3dUpYd2JENmxOVU9PTmlmY0NmeUdpdWE3TXdRY1oweVl0a2g1RW8wcDMwSW5jQ3ZhWE5BVWt2R0FJcnFER2lUWlJnNnVLRC1FcUJXZEFiZFlsUFo2TC1WYTFyWk9pcjJsOTdjazEt?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "How Wall Street is setting records even with the Iran war still going on",
+      "source": "NBC News",
+      "publishedAt": "2026-04-23T12:19:45+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMUdOUlFNenJlRy1lc3RteUROZmlmMUtZOGtxMG5xdXlWS252SnRSSUhGcjVUeEZaajFrcTZfQnRERUNud1NRVlVDQ2VlUHZuWUZPbGZvOVh6UkdsMEdETnJHWDZGSDN3VjNmektqSkdEeXh3MkZUTHpKdnJhakJOenEyZ0dfTUFweDJiczByQ3RkLUNsMUJzY3lUd1Y0UU1pV1I2MkNpQlY?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
-      "title": "US Stock Market Today Premarket: Futures Slip From Record Highs as Oil Tops $103, Tesla and IBM in Focus",
-      "source": "TechStock²",
-      "publishedAt": "2026-04-23T08:58:32+00:00",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSDNDbXZnOFVFb1kzYXAtVWs1ZG1oM0VJeFRWeTZzZjFsSHJWQ3YzZlZ4bnhOV1MyZi1vNHdWNVczZWJZMHlqcWR6NGZhQng5bm5yWlVBOVNoWXJEZG1nV1JETkc4Y0UwNllwaDQtR1FiZGdIb2t0Tk41WW9TcHNMekd5b1NCUzMtRkZfeDVJMXdSaEU0UzF3NmRFOFkxS1AxWmpLcERtbzNNWXBrRXpFWElLdG1ZMDFyQ09mMGZiTQ?oc=5",
+      "title": "Oil prices and stocks are going their own way",
+      "source": "Axios",
+      "publishedAt": "2026-04-23T11:01:16+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1vdVZPYnR2dTVvUDQ4dHFUOENTZDJiYkZsVUVSeU5JZ2NEdHdHODdPenlwM2dKeUtuZ21ZWElLc21DV2FDekh5UUNWMmpSaVFOdkNHSTZKVGxRbV9HaVZGVXU3WU8?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -6182,27 +6182,27 @@
       ]
     },
     {
-      "title": "ServiceNow Earnings Selloff: 3 Reasons The Market Got It Wrong (NYSE:NOW)",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-04-22T23:06:41+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZkRYOTNTS25Sb2FmQnhjbGFLSHEyWkpOejJ4TEpwRHc4a3JFc3R0UTAzQ1R0RURCdVBVdEotdFRLMU5DZlNJOXlHUEdOczRtUk1EYWdaZVdwOVNwaDdvUXNaWW5ia3FIV0Zid243MThTeTl5c1RiWHZCTkhTSEVRd0J5WmdlMG1iT1RiMUJBS18wR1pfdnptT21MNGxCazNRbnpRTQ?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "5 Things to Know Before the Stock Market Opens",
+      "source": "Investopedia",
+      "publishedAt": "2026-04-23T11:56:34+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZWdlT0lBSFpkZk1MTlY0UGFNeDF1NmNObG9SU3MyQ2RyQzh2Z3RoeS1oQ2YyOEhIcU9TMVNyR2dVVU1kYm5XWDNtM2V6VnBYMW1WZ1ZoSlEwVEpXbzlLeEt6THBteS05bWNKWFJkbXM5TFJEbHl5bGNmZ1lwa0FmMUV3UTBpbEhUcU02ek56TFRfcnl0Nzl6MDA2VVF2UkU?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
-      "title": "Masco Stock Among the S&P 500’s Winners. What Solid Earnings Say About Housing.",
-      "source": "Barron's",
-      "publishedAt": "2026-04-22T20:24:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPT1pzSlpMSWtOMWdQeUVOWUN1QndaNTE4VGtDV0JjbnB6RFFhRWgwSnJpX2t0cy1CVmhXeWpfbXVCU29vZVVBRWlmWFF6WWpQeFR2b21fVTd3UndndjU5ZHFpWG9qaW9HVzVjRkstVk42UjFfLXZzTzMzZU5xMjV5NnFDLWE0NjRUMHI3SFFQUQ?oc=5",
+      "title": "Going Into Earnings, Is Microsoft Stock a Buy, a Sell, or Fairly Valued?",
+      "source": "Morningstar",
+      "publishedAt": "2026-04-23T14:53:02+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQM3hnckZWWTJkSkJfMTJMWDItTC1XRDktZmlJUzAyRDNjZkM3QlZDRlNMQXBubEVXb2JjbERFWk95LTF3dXFlZHM5TXNvX0dSNHZObFdSUDFTc1dpbWRkOE5ZTjlkckZ6YzRIRnFvdmh0cDFQbGdaT1V6M1l3RE1xdHVYQ195clNsWUtuejVrbWRMaDdSS1R3ZUhfbUptMmkzYzNBU2RNZWhOR0d1VmJv?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
