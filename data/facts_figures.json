@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T15:54:05.682796+00:00",
+  "generatedAt": "2026-04-24T18:05:35.584292+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,6 +6112,23 @@
   },
   "news": [
     {
+      "title": "Stock market today: Dow slips, Nasdaq gains as Intel soars on earnings (live coverage)",
+      "source": "MSN",
+      "publishedAt": "2026-04-24T14:03:45+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMkRUSFhuc0twUWpPREhCT2hnaW9yU0ZveUlvNXVLYjBjQ0w3Z0dIdVJuMWVGUl9vX3lEU3UzdktxR3AzUWtoc3lGY2tpUU5ETEdYa2hYV1BjbmtDVVg0OHhHUW01bjhEQWVfazZDd09HcXhoN0hkZlJwRUE5emN4ckY4LTBVQ0NnV3Z3QnN4RXAyZkxROUJRUWFael85U0JQaGc2SC1xVDE2Y3g0SWRBRlRSR3ZNa3B6SzJwdUpoTGh4cVBjYzVKT2NQT0MxTF9LS3c?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
       "title": "Investors May Be Ignoring Big Market Disruptions. Is There Risk to the Rebuff?",
       "source": "Morningstar",
       "publishedAt": "2026-04-24T15:11:15+00:00",
@@ -6129,28 +6146,10 @@
       ]
     },
     {
-      "title": "Stock Market Today (LIVE): Intel Posts Sixth Straight Beat and Texas Instruments Hits a 25-Year High as the AI Trade Reaches Old Guard Semiconductors",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-04-24T13:49:10+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYnBIZFNRajU5b2NGb1VFV3dGa1pMTk5fcjIzcGYxMVV4MDNjUDJJR1M0WEZzZmNrR1NxNFdxYllabzJWQlA0QXphbExzQmxOakdBR2VDT0p4Y3Z3d29CakEzTTJIOXg2SDBLcnR2WXM5WkdhakxjSllkbkRFSG5NbQ?oc=5",
-      "bucket": "Handel / Lieferketten",
-      "summary": "Die Meldung betrifft Zölle, Sanktionen oder Logistik. Das ist wichtig, weil solche Themen Preise, Margen und Verfügbarkeit von Vorprodukten beeinflussen.",
-      "impact": "Mittel bis hoch, wenn die Störung mehrere Branchen oder Länder betrifft.",
-      "probability": "Mittel, weil politische Schlagzeilen oft erst bestätigt werden müssen.",
-      "horizon": "Sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders empfindlich reagieren Industrie, Transport, Rohstoffe, Inflationspreise und konjunktursensitive Aktien.",
-      "assets": [
-        "Industrieaktien",
-        "Rohstoffe",
-        "Inflation",
-        "Transport"
-      ]
-    },
-    {
-      "title": "Stocks Dip, Oil Up on Fears of Stalling Iran Talks: Markets Wrap",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-04-23T22:15:09+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZTE4Zlp3czc3WXdSYVY1NEJOZjIxWldKMTByMldraFMydGh6VGNpZ3hxWDFqWU9HczZJMHFxV2NWazVqUjdiZ01rVTdpUUpxZ0R3UHRfQ1BFMEVMNVNpMVdKelUzUnFTNmlmdWNMVm5HNmhJajgxMWI5YnY1S0xfTGVleGFiVGowMFRQa1E3bkd0NW9x?oc=5",
+      "title": "US Stock Market Today: Nasdaq Futures Ride Intel Rally as Oil Shock Keeps Dow Under Pressure",
+      "source": "TechStock²",
+      "publishedAt": "2026-04-24T09:20:46+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMDFBOUdzRmJYaFU1NDNIUmE0bVF1MVBqX0pZSTYxWmg2b0Z3LWZLaGVROXpiSDVhUTVqeHlhQ3dKZERoUDdQa2dMelhfNXFXOENjTUhmYTNzclJlWXNvSDZPVHRzdmhwR2c5WDUyUFBQd1VPZnZpMGRzc3BWZ0VYcmpOeUtSdlpEV01jY0lXT3pCLW5xVVcxMTBnaDZxRHhpRnVkM2p5YlY2ZW1RaEhiRFNn?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -6165,10 +6164,10 @@
       ]
     },
     {
-      "title": "US Stock Market Today: Nasdaq Futures Ride Intel Rally as Oil Shock Keeps Dow Under Pressure",
-      "source": "TechStock²",
-      "publishedAt": "2026-04-24T09:20:46+00:00",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMDFBOUdzRmJYaFU1NDNIUmE0bVF1MVBqX0pZSTYxWmg2b0Z3LWZLaGVROXpiSDVhUTVqeHlhQ3dKZERoUDdQa2dMelhfNXFXOENjTUhmYTNzclJlWXNvSDZPVHRzdmhwR2c5WDUyUFBQd1VPZnZpMGRzc3BWZ0VYcmpOeUtSdlpEV01jY0lXT3pCLW5xVVcxMTBnaDZxRHhpRnVkM2p5YlY2ZW1RaEhiRFNn?oc=5",
+      "title": "Stocks Dip, Oil Up on Fears of Stalling Iran Talks: Markets Wrap",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-04-23T22:15:09+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZTE4Zlp3czc3WXdSYVY1NEJOZjIxWldKMTByMldraFMydGh6VGNpZ3hxWDFqWU9HczZJMHFxV2NWazVqUjdiZ01rVTdpUUpxZ0R3UHRfQ1BFMEVMNVNpMVdKelUzUnFTNmlmdWNMVm5HNmhJajgxMWI5YnY1S0xfTGVleGFiVGowMFRQa1E3bkd0NW9x?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -6201,20 +6200,20 @@
       ]
     },
     {
-      "title": "5 Things to Know Before the Stock Market Opens",
-      "source": "Investopedia",
-      "publishedAt": "2026-04-24T12:06:54+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaGVwdjhYZDNWMHBZaHBDQVV6NXRfbDZEUXhwOV9KTnZENTBidWF3ZmRoZTRLNFc4c05sc0Y0V2d0M2EtRndyQlVfMm1oYUxVYndMV2Z0Y1Z0Z1lZcUE1WE9CdllLZEhpV3hWaVRMdDFaOHJBMXlPd3p1SVp3RW96ZkZwdzRPcEo0ai1UR2xUOVNXOFQ1bjFWTHhEWTBhTmc?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "China’s hottest stock market hits a record high, outpacing rivals after reforms",
+      "source": "South China Morning Post",
+      "publishedAt": "2026-04-24T05:59:02+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSlV1aVZsLVF4U2tuU2RvT1hKNF9RZWhsN0tFMlhoNlYtcmc2S0ZhVldGY2hFNGF0UWI2ZHNtejJFZm05VWFaMDRvbVROSFlTU3JRTGxCand4aGtCNkIzQ21rdzhGYUhLcTJ6NHNfWkJNU0dDX2NuYTQxZjFra1RQaTNPNFFyMTJwNVdqM2cxZlFTdGJLenBlczFYVXhPQ29fcTRBU3Q0bUVpRW1OWXhRRnkxVnR3ZkVyWGxzZ1RYNC1hSk9tY0pCeThGMHdqUnNYU0trUdIB1AFBVV95cUxPMkhOT09RLVFfVTh2bkpDYnZJSXZVQVZObkdYWUJqTFpEN3pLZHZacU1BLWRSckdtUUlGQjBENmpudV84bFM2TVJncEV1Z21Sa2Fvdk9BVHZUMy1kS3FGbzZZN2VIZGJXX29Rblg4bGZKVGpZNDFRSjZSRnBvdDdMMFZRbUJSSC1vVlhyVmJyYncwWDVNSEluX1BJb2lCdnNkcEZNYVN5dmpMSGZKTndTTWZPeEJ6THJZN0RCMmdLTkF3UkVyMk5LZFRqRlRpVjRxeldVcg?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
       "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
       ]
     }
   ]
