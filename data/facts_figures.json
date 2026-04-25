@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T06:07:38.260172+00:00",
+  "generatedAt": "2026-04-25T10:30:39.369066+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -12,11 +12,11 @@
   },
   "marketStatus": {
     "phase": {
-      "title": "Erhöhte Vorsicht",
-      "value": 34.0,
+      "title": "Normalphase",
+      "value": 0.0,
       "unit": "",
-      "tone": "m",
-      "status": "Mehr Spannungen als in ruhigeren Phasen."
+      "tone": "l",
+      "status": "Signallage wirkt geordnet."
     },
     "vix": {
       "title": "Relativ ruhig",
@@ -666,16 +666,16 @@
   },
   "crashProbability": {
     "title": "Crash Probability",
-    "score": 16,
-    "scoreLabel": "16 %",
-    "reason": "Stress 34/100, Rezessionsrisiko 0.5 %, VIX 19.3.",
+    "score": 8,
+    "scoreLabel": "8 %",
+    "reason": "Stress 0/100, Rezessionsrisiko 0.5 %, VIX 19.3.",
     "interpretation": "Crash-Risiko derzeit begrenzt."
   },
   "timingQuality": {
     "title": "Timing-Qualität",
     "score": 0,
     "scoreLabel": "Zu früh 16 % · Optimal 8 % · Zu spät 76 %",
-    "reason": "Bottom-Signal 30 %, Crash-Risiko 16 %.",
+    "reason": "Bottom-Signal 30 %, Crash-Risiko 8 %.",
     "interpretation": "Kein klares Timing-Fenster erkennbar."
   },
   "updateTriggers": {
@@ -696,7 +696,7 @@
   },
   "timeVsTiming": {
     "timeInMarket": "Langfristige Anlagepläne profitieren historisch von Korrekturen, wenn sie diszipliniert durchgehalten werden. Wer raus ist, verpasst die meisten Erholungstage.",
-    "marketTiming": "Das aktuelle Umfeld zeigt erhöhte Spannungen. Stress-Score 34/100. Wer neue Positionen aufbaut, profitiert von gestaffeltem Einstieg.",
+    "marketTiming": "Das aktuelle Umfeld zeigt erhöhte Spannungen. Stress-Score 0/100. Wer neue Positionen aufbaut, profitiert von gestaffeltem Einstieg.",
     "summary": "Die Trennung zwischen langfristiger Logik und kurzfristiger Marktlesart bleibt der wichtigste Hebel gegen emotionale Fehlentscheidungen."
   },
   "charts": {
@@ -6147,6 +6147,24 @@
       ]
     },
     {
+      "title": "Weekly Insights: Earnings Updates, Energy-Driven Inflation, and Undervalued Stocks",
+      "source": "Morningstar",
+      "publishedAt": "2026-04-25T10:12:24+00:00",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORVZCSFBIVEVIRnNZRlUzbmhocUx4QldSUkV2RlhiY3NNUjFXaExSTDF3UjFhWGQ4eXdMY3lmOFBSYm0wRWE0Z3czZ2xPUFJtWnQwTGs0dHF5ODBaU2ZlNzVxX2ZfN0dyTzQwdzZwanp5cHhRekJmNlkzUHJndHJaMjdPU1B6dmllNUIwdGxTTHBTTlFLM3RiZ2xwSnlmZkRCTDVFMEZuZEg5dzhKTzVBRzA5N3JjR0NCSzRJXw?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
       "title": "The Stock Market Is in La La Land",
       "source": "American Enterprise Institute - AEI",
       "publishedAt": "2026-04-24T17:06:18+00:00",
@@ -6178,23 +6196,6 @@
         "Aktien",
         "Anleihen",
         "Währungen"
-      ]
-    },
-    {
-      "title": "Stock Market Today, April 24: Intel Surges After Q1 Earnings Beat Expectations",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-04-24T22:42:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOU2paaHo2MEVvNnJMNGhFRUdOaEV0TVFJWEZFaF9qTlpJSW5xVkFyZVJnWjdsaktXc3JUcmM0UTg2OVlaTjQ1R0lraTE2Z1BuM0M1NFUtLVBoQWg3M2dKcHNWQkMtM2hsaFdxSEVLTWdlMlRtV1hSWXZvVnF0dDByVTlXQVQ3ZGdqMDM4aTNVSnJqWTNmcFRtTWUtNFo5LTF5bW1KTTJIMzBWdlA3YlNUSEhOOXdXQm9qTDhhRXlEWG5mdGtWSzZfODhuaDBvY0hKakJN?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
       ]
     },
     {
