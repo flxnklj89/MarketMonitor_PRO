@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-28T16:18:57.436744+00:00",
+  "fetchedAt": "2026-04-28T23:13:10.915034+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -105,7 +105,7 @@
         "vix": 18.02,
         "brent": 103.4,
         "eurusd": 1.1718,
-        "us10y": 4.31
+        "us10y": 4.35
       },
       "uiLabel": "Marktstress",
       "shortText": "Verdichteter Stressmesser aus Markt- und Preisvariablen.",
@@ -248,9 +248,9 @@
     {
       "label": "US 10Y",
       "icon": "📉",
-      "val": 4.31,
-      "chg": -0.03,
-      "chgPct": -0.69,
+      "val": 4.35,
+      "chg": 0.04,
+      "chgPct": 0.93,
       "unit": "%",
       "dec": 2
     },
@@ -20620,10 +20620,45 @@
   },
   "news": [
     {
-      "title": "Stock Market Today: Stock Market News And Analysis",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-04-28T14:35:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8zdGl1MmxTM2JJa2pLNlFSWVhuZUd1ekRIeVpDcGVqckVJcloxaWlnRHJ3b0hqb291NXk4dlo0SmRQNlhDaGpubDh6ZWNTUHZiYVhjOVJINUxSYXE0NHRiNVE2OW51R2h4N1daaXRIdzVBR1UxT0g4?oc=5",
+      "title": "Sinking AI stocks and rising oil prices weigh on Wall Street",
+      "source": "Pittsburgh Post-Gazette",
+      "publishedAt": "2026-04-28T22:56:27+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSnFtX2Zmem85bXF4N1ctMjZlNjV6RzJCX3p1UUFsNUIyUWpQMEhwbC1pUkhHSEpEeVJYSVllRldDblY4cU1vR3FibUtKNndCUXNHUHVrM2xHR0dMZ2JLc1ZmcXdkMUFRZ0pLZnJLUDhYQV81VnEtMjBZTTRnaHR0OEFJTTk2NnVFc1c2ME9QMUpWODRDeVdENkQ3V2c4T2lqcHhjU1VQbDJUaDVT?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Stock Market Today, April 28: BigBear.ai Rises on Heavy Volume Ahead of Earnings as AI Defense Stocks See Increased Trading Activity",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-04-28T21:34:03+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOZEFSU1pVVmNPLUg3eEV1MkxVYkNsa3BSRVYtcFFpVlVTcGRlc1ZhV1ZVOXloRjRfZ3VCNVppcllOb3lna09oVENYNmNydGRFdWw1TV9PNkFLN2d1N0l4bV9Jd1dSZmR6Z0lWMzB5YXpNM0tNSW84cWtNakp1Q3dxRDM3RmFIM1p5d05GNFdiZHl4R3dxREZkN3Exa2RJcEF5WXlNNURqVVU3dFNmRnR4ejM5WkMzLWlxMy1GM1diSk00YjNXUTVuV01kYWtBMkxCVmZNenQ0dTRfS0UyUzZ4ZVFoeXZZdVRRZVM0UlBVNGdNS3hUZFlPb29TbXhIV3RqUzNfWVQzYVJwUDNnN3FfOEE5b1JEa3doZThN?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Dow Jones And U.S. Stock Market Intraday Outlook",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-04-28T17:20:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcTluaGsxOTJET18yMXhBRWxFNnhiaVBGcl9DZThxclB2cnI2S0JsTGxyWFlPRlJxU1hVQkRMSDVEUHZIYXJXWW5tbVBGQkJTaEMyd0pHYVhCZFRlMXdCRndvQkRfenI3TzE5WC1VZkcwUkNrWjJWZnRraUxXbmFqejd0Njc2eW43cDZSZE5YcmVuLUNRaHZqeUl6QnNET04tNDdUaXVURloxT0c2dTVtRDFvSGwza1RVYWVv?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20634,6 +20669,24 @@
         "Aktien",
         "Anleihen",
         "Währungen"
+      ]
+    },
+    {
+      "title": "Stock Market Today: S&P 500 Drops On Tech Slump, Oil Hits $100",
+      "source": "Benzinga",
+      "publishedAt": "2026-04-28T19:43:50+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMmtaeVpkdUFmc0NuSUF4OGNOdGJ5R2JXSFZmamhGNDhFVjZyMWZjMkFCdWtieVIxYzVGZjRBRW5Ob3Q1ZnRYTWU2VnpNSk03VUVTX3dJM0ZNVk9SRkt5UnV6bHlndmJIVHZSTWFqNzQtZWhDMWpTdFJSaDNzNUFjRlUtQmNGY2pVSWd2N3ZfbDUtbmp2NE10OEktcktwODNjOUpSZks2ZWlWOEJyR0E?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
@@ -20651,59 +20704,6 @@
         "Aktien",
         "Sektoren",
         "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Stock Market Today (LIVE): Futures Flat After Record Closes as Nvidia Tops $5 Trillion and Fed Meeting, Big Tech Earnings Take Center Stage",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-04-28T13:32:37+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQ285VU1lV1pBa1hRT3g4UVBRWXhoeXA3QjFRczYxejQwTnNWcnhYWWFFdWlRTWFQZEdHb3JpVGw2QjNCUDI0RXhBeWxyRDdnNW05RDA3bFhHTDF3S3ZNX2J6ZmlESzBtWE9rM3hJQjVkYXFLX25HeEFURHIyMDRJYg?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "Stock market mixed as OpenAI missing targets sparks tech selloff (SP500:)",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-04-28T13:32:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPS0VMQzB2V2dfUlg5MXdFYjRfNjE0TVR2bUNyWkt5QkZJZ19NOUNleDVUZVd2Nk9IZFhhT0lRSnhNVEhwaGxsQ0RvQ1RvSkNjYlkwME4zNmZaRGxXNlRGYnEwUXZoajRWTjFMTUlCNkJUN1R1OUVEU3BRRlNzVUNFOTJVTTUwN3ZH?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Sinking AI stocks and rising oil prices weigh on Wall Street",
-      "source": "Pittsburgh Post-Gazette",
-      "publishedAt": "2026-04-28T11:05:36+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSnFtX2Zmem85bXF4N1ctMjZlNjV6RzJCX3p1UUFsNUIyUWpQMEhwbC1pUkhHSEpEeVJYSVllRldDblY4cU1vR3FibUtKNndCUXNHUHVrM2xHR0dMZ2JLc1ZmcXdkMUFRZ0pLZnJLUDhYQV81VnEtMjBZTTRnaHR0OEFJTTk2NnVFc1c2ME9QMUpWODRDeVdENkQ3V2c4T2lqcHhjU1VQbDJUaDVT?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
       ]
     },
     {
@@ -20829,7 +20829,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-04-28T16:18:57.436744+00:00",
+      "dataAsOf": "2026-04-28T23:13:10.915034+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
