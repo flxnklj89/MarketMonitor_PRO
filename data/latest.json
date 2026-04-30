@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-30T07:54:20.033856+00:00",
+  "fetchedAt": "2026-04-30T13:09:51.825031+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -28,7 +28,7 @@
     },
     "fedRate": {
       "value": 3.64,
-      "date": "2026-04-28",
+      "date": "2026-04-29",
       "cadence": "daily",
       "series": "EFFR",
       "displayName": "Effective Federal Funds Rate",
@@ -127,7 +127,7 @@
       "name": "Europa",
       "score": 22.0,
       "label": "Stabil",
-      "date": "2026-04-29",
+      "date": "2026-04-30",
       "summary": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "driverText": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "inflation": {
@@ -140,7 +140,7 @@
       "growthOrRate": {
         "label": "ECB Einlagezins",
         "value": 2.0,
-        "date": "2026-04-29",
+        "date": "2026-04-30",
         "unit": "%",
         "cadence": "daily",
         "series": "ECBDFR"
@@ -6942,6 +6942,10 @@
       },
       {
         "date": "2026-04-28",
+        "value": 3.64
+      },
+      {
+        "date": "2026-04-29",
         "value": 3.64
       }
     ],
@@ -20616,23 +20620,6 @@
   },
   "news": [
     {
-      "title": "Tech Futures Rise On Titans' Results And CapEx Plans",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-04-30T03:08:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTEJ0bGw0b3FLNWJoMUFCaUhTYWdCd19FQjdGS1JTVTh0Zy15YlRPdlBaRnFCRzB3cTFHX2R6bGF6OVhzeU9JcEhpZ2h6ZmpRa1A3ZVhtcXFYWlVOaHdwcTBWYm9LdTVSYWFGU0M4Zk9NdjNMUXltU2tEWVQ4NHVxbmdneGFZanBMSXR2STNFQTVtaEthTm5XbTJIeEt0RTlCWXF1RE9VMEJLZGNpU3VLOVR6NFNTQ2dVcHBYcjZfMlFINTRza0VrRGEwWmMzWXFPQXc?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
       "title": "Big Tech earnings test record stock market rally as AI spending takes center stage",
       "source": "NBC News",
       "publishedAt": "2026-04-29T21:23:28+00:00",
@@ -20650,10 +20637,27 @@
       ]
     },
     {
-      "title": "US Stocks Are Forecast to Rise 6% in 2026",
-      "source": "Goldman Sachs",
-      "publishedAt": "2026-04-29T19:16:19+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZFBsSHBVbkVBaGV4R01qR2lyS3kwQVhLbTM2SUExLTlicHBYeGhfZnAtVTRtRllJTVQ3SXpSU2FGZ2lkdEpTQmZVMk90TGlyOVFORkhqTzNjZ3ROUWFnS0g3bjU3ZUJCLTJLUFZaQWppM2V6V0E4dXU0eGlHMHlON3hIQzZQazU0?oc=5",
+      "title": "Stock Market Today (Apr. 30, 2026): Dow, Russell 2000 slated for stronger open after Microsoft, Alphabet earnings",
+      "source": "thestreet.com",
+      "publishedAt": "2026-04-30T12:19:18+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUFUwdjJfaWVVeTlXLW5tcV9ObzVSSnNEQU1YeU54Rl9IY0dIOUp5aDFNQjhHVF91aUlRUEdzZlN3eTNWTHAxbXZGUi11QlJXZW1RQ3RueXRmYm5jMWlnNnJmVGt6dTc5QmE2LWR2UTBPbzQzZlU1eGNTSFR2ZlZpQl9R?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "US Stock Market Today: Futures Rise Before GDP as Big Tech Earnings Split Wall Street",
+      "source": "TechStock²",
+      "publishedAt": "2026-04-30T11:26:37+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMDZfS1B3NmpWNU1XZVlxY1U3SXhjMGhvT25CQlZlS0NQQURnZUUxQkFtODhHamUyWHB5RWRpNjI4UnRVTG1abEFZYzJLT09qdlBiOXR3eG56VWxOZE9kSlpGWG5rVWtjQklObWFTc1Y0VWowTTBSR3FvcUdUcjFSdkVmWWgxdEZ2OVBlc0ZLZ25nQUlQa0lnb3FRdWNsUk1sczBOQUVLWms?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -20684,27 +20688,10 @@
       ]
     },
     {
-      "title": "80 Seconds of Big Tech Earnings Will Decide Stock Market’s Fate",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-04-29T17:16:21+00:00",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUWE1OGF1RjlMX2FWWkdzUVZMd2lxWmVZQ3cyYmxzV0NHWHBobHRfdlJ5ZGcxMExDdnhCbVQ1UlVjdVdzUnlFM3hhdXdWTEZjV0doa3RvQXEwdGlLU0hQVXVUM3VKMXVXay02YV9yWW01NXpIT044Q04wSng0TGdyU3JBYXQwR3ptZWdDZGNhQ3NobUxXbVByVW0yWU5LWXM1Sk5FZDI1SktJZERaRmJEMXMyMkk?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Stock market today: Japan's Nikkei dips as oil prices surge, Wall Street futures fall ahead of Apple earnings",
-      "source": "Economy Middle East",
-      "publishedAt": "2026-04-30T06:36:23+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWDR2S0pGYTRxNG9MZWFFUV80dGZVY0VXdEVjOHpsZG5DVmlteTRpa1dPaEd4c3B1UDVIcHhyYjZQSjVsNGR2akF0TUpKd0NBR2xpU3lxNTdPeHQtLXQtdGc1ZTJHdjc0d29LeVJmUUZNYm9YQ1NlcWlCRU9yRGVQcUJieGRZWlcyMjBVNmdMdEt3MkVGOGZ3R2NsNEp1M2FWN0R0MGk2N3hrVkktQVVZdjRHcFdDemxEa3hzNUJkY0VJOUpiY1JGWm9sN2pkNURNN1lNQmcwbDQ4UQ?oc=5",
+      "title": "Futures Rise On Huge Earnings; Oil Prices Turn Lower",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-04-30T12:03:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTEJ0bGw0b3FLNWJoMUFCaUhTYWdCd19FQjdGS1JTVTh0Zy15YlRPdlBaRnFCRzB3cTFHX2R6bGF6OVhzeU9JcEhpZ2h6ZmpRa1A3ZVhtcXFYWlVOaHdwcTBWYm9LdTVSYWFGU0M4Zk9NdjNMUXltU2tEWVQ4NHVxbmdneGFZanBMSXR2STNFQTVtaEthTm5XbTJIeEt0RTlCWXF1RE9VMEJLZGNpU3VLOVR6NFNTQ2dVcHBYcjZfMlFINTRza0VrRGEwWmMzWXFPQXc?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20716,6 +20703,23 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "5 Things to Know Before the Stock Market Opens",
+      "source": "Investopedia",
+      "publishedAt": "2026-04-30T12:23:12+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMHNyZElEc3AtaUh3UE1Wb1JoVHRPazNMMkNKYnI3eXFJU2pORWdLckpjZS1PcVhPNG1GWUZTdHZiaXJSakdXVEc1QVVNUnhQYXZaVlFZOFZ5b2c5QVFJMUQ3X3ZlTEVPbElRXzhDLUpEaHZ1T1Uzcmw0bWpoY2NWckU5S01vXzhPOVd0LTc4aHhhclBjWWdic3NwV25YNWM?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     }
   ],
@@ -20822,7 +20826,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-04-30T07:54:20.033856+00:00",
+      "dataAsOf": "2026-04-30T13:09:51.825031+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
