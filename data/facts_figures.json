@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-01T19:56:42.019670+00:00",
+  "generatedAt": "2026-05-01T22:37:25.397643+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6114,7 +6114,7 @@
     {
       "title": "Stock Market Today, May 1: Tech Stocks Soar on Apple Earnings",
       "source": "The Motley Fool",
-      "publishedAt": "2026-05-01T16:59:03+00:00",
+      "publishedAt": "2026-05-01T17:52:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcEEybHFVMXBmaU9ZcE5oN25yN2lmdjZWaE9Tc2JNNHIxM0ZyRkUtM2xYVGF2VV9FMXprb19xelljZGNfTXJDWjV5bjNMNFZCaXNmbVpnX3hoZjlXQ1AyM2tpRG0zS1AxZ2pmcE56S00wcVg1ZjFGcnNNTklwQWVMWl9oZFNyRWRsNmxDbjFLZkRCZXJaWnpVRnBJY19mME5ETHJPblcyUFk1MXR5TWRZNzBpU09UR0NENEZWMA?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
@@ -6129,20 +6129,39 @@
       ]
     },
     {
-      "title": "Stock market today: Dow rises as Apple jumps on earnings; Roblox, SanDisk, Western Digital dive (live coverage)",
-      "source": "MSN",
-      "publishedAt": "2026-05-01T13:30:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQcFN1dmQ1OXhMOWdOTjlfNVJlc2R0aG13QlNMbEs4OHpCS1AtN2hEMDIzVlFkbEFJeTdNSVJBTGlqdE1Ubkt2YThpUlFubXNTaGM2elBqWk1paEtSZTkyVERxUnZWb0Uybi1OLURXd2xwS3FLQWFIU1FRMWNqMjZ1cEN4TENhb3B4RXRsamptNDhVRzNNMDVrOExzS0F5cFIwbEV4dlRQeXo0aVBfV0JlRkhOcUxUUHJzRGxpWU1QVUxPNnpDc09JNTZONmRQVnpkZTZDOFZzY2FiS094TGxEM2p5c0s0TDRiMGJ5dUpLc0F3QlpFMHRyemkxTG1aYTFueGc?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "US stocks rally could find fuel in earnings, jobs data amid surging oil prices By Reuters",
+      "source": "Investing.com",
+      "publishedAt": "2026-05-01T19:15:01+00:00",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOckd6VnRjOUZINXRLVllodDVJTlExZE9WNi0xN1BOU3hIOUFuX0tteXR5dHlUeUF3SmRDWEZhN0FXVlhmcUx2Mzd0ODNleE0yRld3TC1rTnpxcV9aUWNCcEZyeTVHMlNjQzE5M1JTNmJDWTBEMUNGVzRmMVl6NGZndkMxN3JWdHc4VVM4eUVSZmtlTFF3V3NXNVpmVWNkdW5xTkE0UktBMEMwdUU3VHlBbGN6WlVaS0xlUTc3S2dIVV9LZEV1S3p5b2s0U0pQQjQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Stock market closes higher as May trading starts with oil falling (SP500:)",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-05-01T20:11:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNlA5dVVtZzQ5UnZScDNCVlBoeE1ad0pKb29qY1YxM1NSYXBPU2Q1dldhRXNzSGdpblh6OEVlbXlVU0xNUWwxWjAtZW95Q0c5Z3pKc2VKTHJ0aDJjRWFnTlRLYllYV3FWbWd4TzdWT3AwZ0NtV2VzaXJCZW00NWhPZXVoUEZCR2NjZXZtcFNTQzRxNHhlTXRKT1V5TFZGeC11NlRr?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
@@ -6163,28 +6182,10 @@
       ]
     },
     {
-      "title": "US stocks rally could find fuel in earnings, jobs data amid surging oil prices By Reuters",
-      "source": "Investing.com",
-      "publishedAt": "2026-05-01T10:09:34+00:00",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOckd6VnRjOUZINXRLVllodDVJTlExZE9WNi0xN1BOU3hIOUFuX0tteXR5dHlUeUF3SmRDWEZhN0FXVlhmcUx2Mzd0ODNleE0yRld3TC1rTnpxcV9aUWNCcEZyeTVHMlNjQzE5M1JTNmJDWTBEMUNGVzRmMVl6NGZndkMxN3JWdHc4VVM4eUVSZmtlTFF3V3NXNVpmVWNkdW5xTkE0UktBMEMwdUU3VHlBbGN6WlVaS0xlUTc3S2dIVV9LZEV1S3p5b2s0U0pQQjQ?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Futures Mixed; Apple Climbs On Earnings, Two AI Stocks Sell Off",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-05-01T12:05:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcnptQ1J6dGVNZ183ZU1ZWXdNUVFDX1RGNFlrcEtGbXN6M2NJUTNxMTNsaDF0N2FFb2JHSXdvWVdWOFcxQ2FsSzVLTFdYWXR6cVNPSFQwRUlUaXlZc3pEM0NfeEpUdzYwNHBnQnZjVFYyay1UOHk5QVNPQmQxRVVHbkdGVzZEV2o2a3drM0xQS2RkOWxral9RS2FvSWY3Q3NJNEd1RWJnRQ?oc=5",
+      "title": "Stock market today: Dow rises as Apple jumps on earnings; Roblox, SanDisk, Western Digital dive (live coverage)",
+      "source": "MSN",
+      "publishedAt": "2026-05-01T13:30:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQcFN1dmQ1OXhMOWdOTjlfNVJlc2R0aG13QlNMbEs4OHpCS1AtN2hEMDIzVlFkbEFJeTdNSVJBTGlqdE1Ubkt2YThpUlFubXNTaGM2elBqWk1paEtSZTkyVERxUnZWb0Uybi1OLURXd2xwS3FLQWFIU1FRMWNqMjZ1cEN4TENhb3B4RXRsamptNDhVRzNNMDVrOExzS0F5cFIwbEV4dlRQeXo0aVBfV0JlRkhOcUxUUHJzRGxpWU1QVUxPNnpDc09JNTZONmRQVnpkZTZDOFZzY2FiS094TGxEM2p5c0s0TDRiMGJ5dUpLc0F3QlpFMHRyemkxTG1aYTFueGc?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -6198,10 +6199,10 @@
       ]
     },
     {
-      "title": "Stock Market Today (LIVE): Why OLED Jumped 14% on a Miss; Tesla Trades Profits for Robots, Semis",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-05-01T19:23:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOaTV1bjlqc0o1WkdsOExFMzhiU3pucGk2Wm5oNFh2WndrbDVhRm1xcTB0NVFYcXgzbWhfejh6VUtsbVlheFQ4Xzg5WmE2QUhZYjd4V1pKTlZxWmhEZm1SZWNXOTFXbHNxQUxBT3hGbHZKOFF2bEVtQ0phbTRLUUhyUA?oc=5",
+      "title": "Futures Mixed; Apple Climbs On Earnings, Two AI Stocks Sell Off",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-05-01T12:05:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcnptQ1J6dGVNZ183ZU1ZWXdNUVFDX1RGNFlrcEtGbXN6M2NJUTNxMTNsaDF0N2FFb2JHSXdvWVdWOFcxQ2FsSzVLTFdYWXR6cVNPSFQwRUlUaXlZc3pEM0NfeEpUdzYwNHBnQnZjVFYyay1UOHk5QVNPQmQxRVVHbkdGVzZEV2o2a3drM0xQS2RkOWxral9RS2FvSWY3Q3NJNEd1RWJnRQ?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
