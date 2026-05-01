@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-30T20:17:23.604233+00:00",
+  "fetchedAt": "2026-05-01T07:53:59.321469+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -66,10 +66,10 @@
       }
     },
     "sp500": {
-      "ytd": 4.05,
+      "ytd": 5.11,
       "first": 6858.47,
-      "latest": 7135.95,
-      "date": "2026-04-29",
+      "latest": 7209.01,
+      "date": "2026-04-30",
       "cadence": "daily",
       "series": "SP500",
       "uiLabel": "S&P 500 seit Jahresbeginn",
@@ -98,7 +98,7 @@
     "tradeStress": {
       "value": 40,
       "label": "Erhöht",
-      "date": "2026-04-29",
+      "date": "2026-04-30",
       "cadence": "daily",
       "method": "proxy",
       "components": {
@@ -120,7 +120,7 @@
   "globalComposite": {
     "value": 37.0,
     "label": "Stabil",
-    "date": "2026-04-30"
+    "date": "2026-05-01"
   },
   "regions": {
     "europe": {
@@ -221,9 +221,9 @@
     {
       "label": "SPX",
       "icon": "📊",
-      "val": 7135.95,
-      "chg": -2.85,
-      "chgPct": -0.04,
+      "val": 7209.01,
+      "chg": 73.06,
+      "chgPct": 1.02,
       "unit": "",
       "dec": 2
     },
@@ -932,10 +932,6 @@
       }
     ],
     "fedRate": [
-      {
-        "date": "2020-05-01",
-        "value": 0.05
-      },
       {
         "date": "2020-05-04",
         "value": 0.05
@@ -7665,10 +7661,6 @@
     ],
     "sp500": [
       {
-        "date": "2020-05-01",
-        "value": 2830.71
-      },
-      {
         "date": "2020-05-04",
         "value": 2842.74
       },
@@ -13687,6 +13679,10 @@
       {
         "date": "2026-04-29",
         "value": 7135.95
+      },
+      {
+        "date": "2026-04-30",
+        "value": 7209.01
       }
     ],
     "sentiment": [
@@ -14408,10 +14404,6 @@
       }
     ],
     "tradeStress": [
-      {
-        "date": "2020-05-01",
-        "value": 31
-      },
       {
         "date": "2020-05-04",
         "value": 31
@@ -20615,50 +20607,19 @@
       {
         "date": "2026-04-29",
         "value": 40
+      },
+      {
+        "date": "2026-04-30",
+        "value": 40
       }
     ]
   },
   "news": [
     {
-      "title": "Stock Market Today, April 30: Caterpillar's Jump After Earnings Helped Fuel Surge in Dow",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-04-30T17:06:25+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOdXR3WlBzZXd3cVpybmFPWlRIVmd1TjlGTzhydUhYVFFiZzBVODZmeWFXY0RGZFBTRmFDSGwyV1JsblhfRUh2RC15cEFRdWl4NEhDclk2QlJIOFZhbU9aSTBiU0hVajFUbXRxOHY3QTNBQ19PWkxsRTlSNzhEZkhjcXkwTU4zVDZZa1h2ZnRXZHk2SWZvbGZqMGUxeUtwTkgyVzZiMTA4WnF0bngxSU81MDN4VDhnSGZiTXZkWVYwa0xyV2tsa3ZfV2swV2tHV3F4dElHc2Ezak1kd1FDbkQxUg?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Stock market today: Dow rises ahead of inflation data; Meta plunges on earnings (live coverage)",
-      "source": "MSN",
-      "publishedAt": "2026-04-30T18:33:45+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPc0t1V0ZSQWFmaU9GT21FWnlWcHloUzJfejNYZXlQX0trRDk1b19hMHpkY1dwaE5zcmVXbmxGRTdMZnBVYWJDamJCMFhCVzhvVlEyNUFVM0RCTXV1Q0ZSZm5KalRwVlk1Y1gzQl85TmpaRjFDRTlNRi1HdXJzaGdjMXZpamFDWEJLRkpoMndqVXM0Zmh1X01UWlRCWjBZN2I0Z1NRTExWZVZLZ3J2QkZoWFVqamZtTGhVNmtHZDNRcjNPSnhZUThtLThTeGRhWmdsRlNSSHIyTmo3cjJCSklYVkRRcFdTYnBQeHhjNV9JbWkweFVQcHBYVHIwRURsZw?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "Stock Market Today (Apr. 30, 2026): Alphabet rises the most since Apr. 2025 after strong earnings, lifting Nasdaq and S&P 500",
-      "source": "thestreet.com",
-      "publishedAt": "2026-04-30T18:25:44+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUFUwdjJfaWVVeTlXLW5tcV9ObzVSSnNEQU1YeU54Rl9IY0dIOUp5aDFNQjhHVF91aUlRUEdzZlN3eTNWTHAxbXZGUi11QlJXZW1RQ3RueXRmYm5jMWlnNnJmVGt6dTc5QmE2LWR2UTBPbzQzZlU1eGNTSFR2ZlZpQl9R?oc=5",
+      "title": "Dow Jones Futures Rise As Apple Climbs On Earnings, Sandisk Skids; Stock Market At High",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-05-01T04:43:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcnptQ1J6dGVNZ183ZU1ZWXdNUVFDX1RGNFlrcEtGbXN6M2NJUTNxMTNsaDF0N2FFb2JHSXdvWVdWOFcxQ2FsSzVLTFdYWXR6cVNPSFQwRUlUaXlZc3pEM0NfeEpUdzYwNHBnQnZjVFYyay1UOHk5QVNPQmQxRVVHbkdGVzZEV2o2a3drM0xQS2RkOWxral9RS2FvSWY3Q3NJNEd1RWJnRQ?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -20689,10 +20650,10 @@
       ]
     },
     {
-      "title": "Google shares hit all-time high on blowout earnings, market cap doubles to $4.4 trillion in just a year",
-      "source": "Fortune",
-      "publishedAt": "2026-04-30T14:19:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SM0E1ZXQ4QzRsVGxNOXBieFZPNWMxZ1V1Vmc3OHdlNGdmckpRNGZzM0lZMEpoNmtpdU9JbnFyQUNYb3NCMkxpTkZnTU03MWZlamp0MWtac1VmQndPbE1tcFJHOHhBVVI2eEo0aWpURUF6THJNd1lF?oc=5",
+      "title": "Stock market today: Japan's Nikkei, Wall Street futures gain on upbeat tech earnings as major markets close for public holidays",
+      "source": "Economy Middle East",
+      "publishedAt": "2026-05-01T05:39:42+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxORHhWdVpEd1BBaWNjZU9aaW1pR0dXalR0WjFDZUFPVndyNE1OX1psZE5LUEVFZ2J2bVloUzZRckZSd0x6U3A2YXZtMi02TkFuOFNGd0Y4bjk2SHZwaVFyYkVLWnl6YnRlcm15UklxdURod0pSUGNyUnIzdHprcFR1U1RxQ2xmZGhlRElfaUdjV09EU0NEeUFjVnZFdmhGejIxUUEzVHNieFMzbXNVcVlKcjVnSUhuUG43bG85eGNqcjNRNE8zcmROd09tQTlsZHVwLVpVTWszWVpVZGkwQXhhUDZ5S3UtUThqU0VHVmEyMk5wZw?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -20706,10 +20667,27 @@
       ]
     },
     {
-      "title": "Dow Jumps 700 Points as US Stock Market Today Shrugs Off Oil Shock and Chases Best Month Since 2020",
-      "source": "TechStock²",
-      "publishedAt": "2026-04-30T17:22:43+00:00",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaXlYQkI4eW91ek4tbWVid0lZUVZNZkJjZzV1MUZJZTkySGw2bXBZYlMxcjVSemR2M0E4cV9nUW1tRzFMX0lPaGxjZWhTaFp0Q010Z19RdENGQjNVMngwWkVlZDRWeE5DOFJRZGNvVlIzcTNKa05nNzZYYjlsUmRPb1dTazlxYUNjX0J2X2U1RzM0b3ZSR08xOHpkYWp5c1BaM19RRVlBWVpNbWFwRkhFUjJUUTNqQ1JwLUszUw?oc=5",
+      "title": "Stock Market Today, April 30: Caterpillar's Jump After Earnings Helped Fuel Surge in Dow",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-04-30T17:08:35+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYWpZWXhYcXg0YzJOcXRQa205dlM2Y2h5Z3JZV1RIUE9rT1JpdjE2N0Zqcnd0dUxQU3FBMnE5b0JCSnBEck5TS1NQU2k1ckpZeS1fYTd2SUlxcmVoM3RDaGZvdFh1YWRCSkIyUEh1Ml95WE5tZThodVZvWlBrSGhoZlMtUEJ4YUJsSVNyM2ZvZ2p6dTNhdnFB?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Asian shares gain with most markets closed for May Day, while oil holds steady at $111 a barrel",
+      "source": "WRAL",
+      "publishedAt": "2026-05-01T02:56:07+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOU1FlYXRNYnhscWNJQTFLOThzeENRSTBaQTJXeTJRSGx4djVqc285cGxNZV9XLXJna0hJeC1POV9TYUlFR1FnN3hTMkF0cHZucnYzZ3htYVlQdXBSSzlnNGR0Vlk1Z0hiaUlqNnhMRzllYXBnb1dMUC0xcXNtVUpNQUtycXJWbVhYSHVGekQ1Yk9oUDNqenhjNXliT09hTTNjQ0hYRU1QbkJtR2s2ay1OTzdQT05DX3AyRDFwdjB1OVBhZk5adEllRw?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20721,6 +20699,23 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Stock Market Today, April 30: U.S. Markets Surge Higher Despite a Mixed Bag of Earnings From Big Tech",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-04-30T21:52:58+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPTWJjaUZYMVNEcEVMZkV5WDZqT1pWZTQyd3NTOExNaHppbW1qZ3VGUlpyaDRibXk1RzFac2VfUV9yTmRKaXVTQ1VPaWVyWk40VUptMWM0TVBnOFJWRUZJTEkxOHlHeXNGSFZDMkNnaWtWSnlIaDNWQkc2ZFB6dDBHMWFQX1ZwUWhxZHdMUWM5UUc1VEtYaDFIWkRsTzBrelBraGxFNHNlZjZYOW43Q1U3OUU4WTRmTzJvVkhnUk8tanhIa0VxNFllWTMzdXJvaDZFTk8zZUszUEU0eXYyTEF6UmVrWkVydEgxREpfM0JNbFk?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     }
   ],
@@ -20827,7 +20822,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-04-30T20:17:23.604233+00:00",
+      "dataAsOf": "2026-05-01T07:53:59.321469+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
