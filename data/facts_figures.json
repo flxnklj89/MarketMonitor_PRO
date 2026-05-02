@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-02T18:37:21.901322+00:00",
+  "generatedAt": "2026-05-02T22:06:48.997791+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6130,23 +6130,6 @@
       ]
     },
     {
-      "title": "Two harsh realities are keeping lower earners stuck while the wealthy pull ahead",
-      "source": "Business Insider",
-      "publishedAt": "2026-05-02T09:01:09+00:00",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRENGRjRuUlZwdmliZDhiWU83VWozYmNHLU1qNUI4clBtNlRzeVNkSmFOTnRvSGV1NnV6ZTA5Y2szSlRqUTBUVnJJU2dRLWVIUWhQNnpYTjdMc1d6RWwxS2tSNWx4Q0VTeUR4bktYYV9GaVV4MHdkNlRnZ21qeUZFdHdtVXp2djduMXdpSXdkWGo1bFE?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
       "title": "Fed Chair Nominee Kevin Warsh Disagrees With Jerome Powell on This Key Fed Policy Supporting the Stock Market (Hint: Not Rate Cuts)",
       "source": "The Motley Fool",
       "publishedAt": "2026-05-02T18:29:52+00:00",
@@ -6165,10 +6148,27 @@
       ]
     },
     {
-      "title": "Tariffs, Oil Shocks, and Inflation: The Best Dividend Stocks to Own Through It All",
-      "source": "AOL.com",
-      "publishedAt": "2026-05-02T10:42:40+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZ0RNeFd4azE1NWhCYVdkYi1NSW1DTG00UXk4cXUtdjgwbUs5ZzBBdk96WHpDQ1dGcEdxMndDb1hSRnhlUXR6RDhxQl9nR0loQlhHVDNhbGhRdXk2WWlYWjZmWlZyc19leGFaaTFYdFlTejFPZ2k4SDdvai0wNURmZVgxcw?oc=5",
+      "title": "Two harsh realities are keeping lower earners stuck while the wealthy pull ahead",
+      "source": "Business Insider",
+      "publishedAt": "2026-05-02T09:01:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRENGRjRuUlZwdmliZDhiWU83VWozYmNHLU1qNUI4clBtNlRzeVNkSmFOTnRvSGV1NnV6ZTA5Y2szSlRqUTBUVnJJU2dRLWVIUWhQNnpYTjdMc1d6RWwxS2tSNWx4Q0VTeUR4bktYYV9GaVV4MHdkNlRnZ21qeUZFdHdtVXp2djduMXdpSXdkWGo1bFE?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Wall St Week Ahead: US stocks rally could find fuel in earnings, jobs data amid surging oil prices",
+      "source": "Reuters",
+      "publishedAt": "2026-05-01T10:02:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONWhzaUhINzZkck1OQjhJS1NFTTJYN3B3QVlTbHpMaTAzR2NUSmVQZjlHQlZ3cjZnZERvNFVZeVhvd1I2YmdXT2h4VUV2TF9Bb3p2Tkl2dzVYcWNrcEpPUnh0SDAxbG00eHBYMHB5cTVUdUlFWERkckVmS0VqbUdicUJCX0RUd1R1akV1S3k0OWFZRE0xakthemZucEEydzZicWRVd09iUVR5eTF3dTZucTBoM3Vsc2dPNHE0?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -6200,10 +6200,10 @@
       ]
     },
     {
-      "title": "This Week's Market Wrap: Earnings Fireworks, Oil Shocks, And A Stubborn Economy",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-05-02T07:06:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUUExTkNhSGd4eHRFRC1MTllzYUNLWkMzOHFaT3EyVkl2a1NyR1ZiUkRrLTdGbnk3dVc3TWRzRWlhTmpRTlBCQmkzVk43ZEFhdW51OWhKdFNXMHlIMFJjWnBCT3o2cDE5UTVPWmtuQjZULWVPSjVEQTIyOTZ6dkQycXUtRkRzY2E3S0g0S0M5SjAwWFpBbEtHQ0xuUHlFa2F6T21mWE9Jdw?oc=5",
+      "title": "Tariffs, Oil Shocks, and Inflation: The Best Dividend Stocks to Own Through It All",
+      "source": "AOL.com",
+      "publishedAt": "2026-05-02T10:42:40+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZ0RNeFd4azE1NWhCYVdkYi1NSW1DTG00UXk4cXUtdjgwbUs5ZzBBdk96WHpDQ1dGcEdxMndDb1hSRnhlUXR6RDhxQl9nR0loQlhHVDNhbGhRdXk2WWlYWjZmWlZyc19leGFaaTFYdFlTejFPZ2k4SDdvai0wNURmZVgxcw?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
