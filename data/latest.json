@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-03T11:08:16.268090+00:00",
+  "fetchedAt": "2026-05-03T15:06:08.304646+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20632,27 +20632,9 @@
   },
   "news": [
     {
-      "title": "US stocks edge up to more records, while oil prices rise ahead of a blockbuster week for Wall Street",
-      "source": "Scripps News",
-      "publishedAt": "2026-05-03T07:26:14+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZTRnQTdqYVF2SmFoLW5yMF9sbzFTLTkwdjNybTVOYkZIazdHMDVvZS1yMUpfdTZxd0ZQVDJSQl9NUmprWDQxR1EzZW9wRnNoUnlTVm92bm55aEJTazFnRy1BbHhtbFAtdmlDYkVKT0lDRXZrczU4emZuS296V3FoR19nb1l3ZmJqRVRBSjBhQW5LQWw4bTFtMnJTeGF1REw2UTNTMm1BVXVSUFFtOExsbjRfTHdOT19GbFhLQTc3aGFNTm1nQ3dqT2lvajBPdFU5Q3VNSXpPMFFQQkFP?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
       "title": "Stock Market Investors Just Got an Urgent Warning From Fed Chair Jerome Powell",
       "source": "The Motley Fool",
-      "publishedAt": "2026-05-03T08:22:06+00:00",
+      "publishedAt": "2026-05-03T09:12:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPV1MtQzh3aEFhdkx5ZDlnM2RjalBQMVJXZl9KN2lfbnNJR1IxVzR2Z0V6cVJBZ0NaUDVaM2lPTjhwZkljZXFPSVlHQWdhMVRMbmFIVFk3Vy11cmlMcUc2amdvVzF3YU5fQUhuRGZBQ1g0RXh1UUYwejlsOHhibXM0dDdBVmg3WmdKQ241ZlZManRiZ09ma0E?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
@@ -20668,20 +20650,20 @@
       ]
     },
     {
-      "title": "What to Expect in Markets This Week: April Jobs Report, Host of Earnings From Consumer Giants Coming Up",
-      "source": "Investopedia",
-      "publishedAt": "2026-05-03T10:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbTdUa01oZVNwUV9heHpxMHYtZUhwMS1oSjBXakc4LUY4Z1VkcjVOTVZEOEFfN0hOTk1wNnFCRUczNG9vV1pDalJ2Qk81aHE1LUFDUUNXMkdXQktxN04zcDlDQXE2RE9PSUpVc0VUdWYybWkyYWFfTV9HdXBhdzhhTVBsNDhJQlN1VmdobWJ3QThBS05BNnFmMm9aZkQya2pMY0tCZkNsRVlSdHZ0ZGZPdE9TUEE2T0NZbE9SVmZCajl4eXYzb2twOG9KMld2RVZvZ1JudXFR?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "TO YOUR WEALTH: Why Does the Stock Market Keep Going Up?",
+      "source": "Lost Coast Outpost",
+      "publishedAt": "2026-05-03T14:00:48+00:00",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaWZzSEdtMVE0TmtOOFlzRGE2Q1VsVWFLUjhnZWZMUWVpQ1NqeW92Rmhkb0pOZG01SUNDYjQwYUc0Y2x5X2J5THd4QlByN2Y3NGsxOTVpMk5sWlcydVlNTmZDUTE1NXlaNXdtck93M1IxdkxWaGROZVRxTUoxME03cGhwYk1GLXpRNk9YVlpn?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
@@ -20702,10 +20684,10 @@
       ]
     },
     {
-      "title": "Stock market strength reflects earnings power",
-      "source": "MSN",
-      "publishedAt": "2026-05-02T22:10:44+00:00",
-      "link": "https://news.google.com/rss/articles/CBMitwJBVV95cUxPc0Vlc2ZwNzNTeDBkV2NmdWt4SlRFMHd4QmtXSFlKbWJYdUtjczMxZUtNbkJucXpkSkl3cGdqMThMaXpPZldSNk5nSzZjVTZwaFZaTno2QWZpSVVDdlZSN0s4NF9iNVE4cmFobWxIdTBVcmdHRVhHRnFJcmxtamZCM28wUjltVnlVdnlBXzZzWDhvby1BYTA2SElWSjNCWEQySGkxcmdLUjNET1AwcUlrN0pORlY0SnZSLVJNWTFkQWxQcmpWSk1qRFQxX1M1OHFDWjYtRDlNWkpxTl8yZTR6RkR2MDZCM2pVOGdJZnZWN09vQVpNeERraFZkQWhfWEF3MmpoQUhLODRJOWdPQVRsbjZ1MUJLd3J1RnFWTVIyVnhjSzkyc01EU3RkcW93M2QxQ0ZldzVqMA?oc=5",
+      "title": "'It's a boom': Wall Street sees more market gains as strong earnings fuel the AI trade",
+      "source": "Yahoo Finance UK",
+      "publishedAt": "2026-05-03T13:00:32+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRjhBeHFadkJ4em4zaFJja1RUcWU4QjF4M1RtTDB1MVlwVG12Yl9IaWVFaHhRSEp0YXBqbUExRHNpYzZ6RElUTF9wcWNsWXphN2M2bUtuSkd1SF9GbXBSNWt2aWZSdmJ6dkZmOVhBNi1VQ2JKN1FUUDQ4WDczdHh0MjNUZnA1OWx1eExOUHA2T0xFWEpfMHRwNC12eUQzRXU4ZkR0ZzJRLUJtdElwNEJXeklKM0JzSVJ2OEZGUTlETFNGbnFfUDE5dmNaTQ?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -20719,21 +20701,37 @@
       ]
     },
     {
-      "title": "Tariffs, Oil Shocks, and Inflation: The Best Dividend Stocks to Own Through It All",
+      "title": "Jobs day, semiconductor earnings, and stock market momentum: What to watch this week",
       "source": "AOL.com",
-      "publishedAt": "2026-05-02T22:14:41+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZ0RNeFd4azE1NWhCYVdkYi1NSW1DTG00UXk4cXUtdjgwbUs5ZzBBdk96WHpDQ1dGcEdxMndDb1hSRnhlUXR6RDhxQl9nR0loQlhHVDNhbGhRdXk2WWlYWjZmWlZyc19leGFaaTFYdFlTejFPZ2k4SDdvai0wNURmZVgxcw?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "publishedAt": "2026-05-03T11:36:11+00:00",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTV9QSklvVmZPdDJQZGtGSFlTek1HcG42OVZWbWx6SlBBX0tDVVFFWFV5MUdEOWJZT2tObUdiTW1zcjdqRW5vaHYtT3ZJdzdNOXFDY2gxUjdPQ0NoWXJjYnNJM2Y3ZW5qZkpOdHFNX01RNXBPMGJoRlpmejlEWm1nNlNkQ1pKV1k?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Wayfair stock rises on earnings. Can it overcome a ‘choppy’ furniture market?",
+      "source": "MSN",
+      "publishedAt": "2026-05-03T12:56:15+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxPNFJxa0RUdmVTb01TcUZubGxwS3o0SjluX1dXVDh2WkRsTENpUkhoQlpkZWdEM0pPNGlWaVNGRGdrTnJaN1dKRmRxQlc1N2p5TVlCS2RiaER6RWY1RmtVVFliU01HeXRsbXA0UFUwVVBjeHVCbWI2czlrR3ZPeGhDN0VSVVVMT1lobTR3RWoxZWdtYUNuTmd2QVQwTF9fYjFrMUo3c2JtUEFhOVRpblpwUmw3TDczU1JtN3lZcDlCOTBvQ3NnSEh2dDJjY1BraHlEVmtYeEN6clFhdExjYWlBcE95N1VfM1I3cm5PUjBpTDlxU3lOZFJqV1AxWFNOREZIdFlDLVdPbjFJYnVHTVNMdV9pY3JEYWM5NEtwNldTbWI4dFNVLTJYSHI4TXVmM0VDeWM2azJSOVZYbVdDZTl5aUhhUGVRMVFZNW5Sa0prM25YbUZQUEkxTHBzdjVlMXhUWmlWbjRjRmJoakZUVTI1UTh6TjNkeU5Jb2o2MXVEbw?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     }
   ],
@@ -20840,7 +20838,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-05-03T11:08:16.268090+00:00",
+      "dataAsOf": "2026-05-03T15:06:08.304646+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
