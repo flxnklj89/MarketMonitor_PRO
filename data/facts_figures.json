@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-05T07:33:01.610352+00:00",
+  "generatedAt": "2026-05-05T11:52:31.561613+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -96,197 +96,12 @@
     },
     {
       "label": "Buffett-Indikator",
-      "value": 264.4,
+      "value": null,
       "unit": "%",
-      "tone": "h",
-      "status": "Buffett-Indikator bei 264 %. Historisch stark überhitzt. Marktkapitalisierung weit über BIP.",
-      "history": [
-        {
-          "value": 116.3
-        },
-        {
-          "value": 114.0
-        },
-        {
-          "value": 95.8
-        },
-        {
-          "value": 104.2
-        },
-        {
-          "value": 115.0
-        },
-        {
-          "value": 109.8
-        },
-        {
-          "value": 114.7
-        },
-        {
-          "value": 113.6
-        },
-        {
-          "value": 123.8
-        },
-        {
-          "value": 125.6
-        },
-        {
-          "value": 130.7
-        },
-        {
-          "value": 140.4
-        },
-        {
-          "value": 142.9
-        },
-        {
-          "value": 146.9
-        },
-        {
-          "value": 143.6
-        },
-        {
-          "value": 149.0
-        },
-        {
-          "value": 148.7
-        },
-        {
-          "value": 146.0
-        },
-        {
-          "value": 133.4
-        },
-        {
-          "value": 139.5
-        },
-        {
-          "value": 137.9
-        },
-        {
-          "value": 139.3
-        },
-        {
-          "value": 142.9
-        },
-        {
-          "value": 146.2
-        },
-        {
-          "value": 152.5
-        },
-        {
-          "value": 155.4
-        },
-        {
-          "value": 159.2
-        },
-        {
-          "value": 165.5
-        },
-        {
-          "value": 161.4
-        },
-        {
-          "value": 164.7
-        },
-        {
-          "value": 172.3
-        },
-        {
-          "value": 146.0
-        },
-        {
-          "value": 162.9
-        },
-        {
-          "value": 166.8
-        },
-        {
-          "value": 164.7
-        },
-        {
-          "value": 175.7
-        },
-        {
-          "value": 140.6
-        },
-        {
-          "value": 186.7
-        },
-        {
-          "value": 187.8
-        },
-        {
-          "value": 212.9
-        },
-        {
-          "value": 221.8
-        },
-        {
-          "value": 234.1
-        },
-        {
-          "value": 228.8
-        },
-        {
-          "value": 239.6
-        },
-        {
-          "value": 222.4
-        },
-        {
-          "value": 180.5
-        },
-        {
-          "value": 168.6
-        },
-        {
-          "value": 175.5
-        },
-        {
-          "value": 183.4
-        },
-        {
-          "value": 194.8
-        },
-        {
-          "value": 184.0
-        },
-        {
-          "value": 202.1
-        },
-        {
-          "value": 218.6
-        },
-        {
-          "value": 221.8
-        },
-        {
-          "value": 233.0
-        },
-        {
-          "value": 236.9
-        },
-        {
-          "value": 224.9
-        },
-        {
-          "value": 245.1
-        },
-        {
-          "value": 260.0
-        },
-        {
-          "value": 264.4
-        }
-      ],
-      "fallback": {
-        "label": "Fallback: Fed-Marktwertreihe",
-        "reason": "Die Wilshire-5000-Reihen waren in diesem Lauf nicht verfügbar. Deshalb nutzt der Monitor ersatzweise die offizielle Fed-/FRED-Reihe zum Marktwert börsennotierter US-Aktien.",
-        "nextUpdate": "Beim nächsten regulären Facts-&-Figures-Update wird erneut zuerst die Wilshire-Reihe versucht."
-      }
+      "tone": "m",
+      "status": "Buffett-Indikator temporär nicht verfügbar. Wilshire 5000 oder GDP-Daten konnten nicht abgerufen werden.",
+      "history": [],
+      "fallback": null
     },
     {
       "label": "Gewinnwachstum",
@@ -6163,10 +5978,10 @@
       ]
     },
     {
-      "title": "Stock Market Today, May 4: Oil Spikes and Stocks Fall as Geopolitical Tensions Flare",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-05-04T22:06:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQmNIaTVoTHdkelJWYy02SlRPSUNHVVpiOTRWS0ExcU5OQ2lIZm5jQlJaRklHZ1ZTQXEwclIzU1ZvaEQ2ZGhZbU9ocHNhQXlqZFJ2dzFwQkVNTzc5UGlSQTkyNkh5X3doZGZOdWNoM2hCSFB2b2FOVmQ2MHpjdUEyOUJPcnVGSk43YjBCOEdMaWZXeGU2dHRYU2hPWnRNVUdvQjB2WWczN2I0Qm5BMk0xalgtcDJ3LXRvTXBjb0o5amtqRW1kV1hHcEc5Q1A0NkZhaXlnOVhqT2JmOEU?oc=5",
+      "title": "Wall Street drops from its records and oil prices jump after fighting flares in the Middle East",
+      "source": "ABC7 New York",
+      "publishedAt": "2026-05-04T19:48:55+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQeXJteVQ2QWRhNGw0RkotWXBUVmNqbTRrSl8tTkNUTk1wVVBKVUtRTmQ0NU14dmJJRTN1U2JfZ3Z4XzNVLVFiQUhuOVJiOVh2Tkl0WkUwaExOUVg2a0ZhMzE2QlpXNUpqd3NvUjAzRUZfLXA4OU1LWnhfR2ZKRW1MY2dJSnc0XzBXcGZDSW11TDBfalhEeUhQR1h0UFhfQW90TTE5eFFQWG0zOVXSAasBQVVfeXFMUHlybXlUNkFkYTRsNEZKLVlwVFZjam00a0pfLU5DVE5NcFVQSlVLUU5kNDVNeHZiSUUzdVNiX2d2eF8zVS1RYkFIbjlSYjlYdk5JdFpFMGhMTlFYNmtGYTMxNkJaVzVKandzb1IwM0VGXy1wODlNS1p4X0dmSkVtTGNnSUp3NF8wV3BmQ0ltdUwwX2pYRHlIUEdYdFBYX0FvdE0xOXhRUFhtMzlV?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -6178,6 +5993,24 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Yikes! The Federal Reserve's April and Quarterly Annualized Inflation Forecast Was Just Updated -- and It Isn't Pretty",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-05-05T08:35:05+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQmRrd0llOGYtclBRREVlcWx4MV9CVUZIYzRDU3N5RVhmMG1pQ2hoZjFHaDkybDNFcmZNZ2dzRzQwMEwzdEJHRjJyVDV1ZHlMTjhNWmdQTjRydjdndFo5U0lWSktkWmlSUDNvTlljcl9VQkpfd2F1TWtuX1RreFd3Si1sTW42d2h5dXYzcEhGd0R3VlRoV1ZkNQ?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
       ]
     },
     {
@@ -6195,23 +6028,6 @@
         "Aktien",
         "Sektoren",
         "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "5 Things to Know Before the Stock Market Opens",
-      "source": "Investopedia",
-      "publishedAt": "2026-05-04T12:07:01+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRHZjWklCMHcwMU9vc3BfZTFCNEx6UUN2dDhvS1ZJQ1E2aVJjSkF1elp3dVlxZ1dXNEhIVVRhTnB3c1ZqdUVXUlpvcXZNem0zQlpjYS0yVFFSY18za3B4d1ZKY3FENGhXVnEzNnhCemx4SGhyaEpsZWFpdnE2RE9TUWpaWHN4NG10WWRzUWhnM1JFWk9lallITnNKTQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     }
   ]
