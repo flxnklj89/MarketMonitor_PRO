@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T23:14:35.252155+00:00",
+  "generatedAt": "2026-05-08T06:18:40.684920+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -12,41 +12,41 @@
   },
   "marketStatus": {
     "phase": {
-      "title": "Normalphase",
-      "value": 0.0,
-      "unit": "",
-      "tone": "l",
-      "status": "Signallage wirkt geordnet."
-    },
-    "vix": {
-      "title": "—",
-      "value": null,
+      "title": "Erhöhte Vorsicht",
+      "value": 40.0,
       "unit": "",
       "tone": "m",
-      "status": "Keine VIX-Daten."
+      "status": "Mehr Spannungen als in ruhigeren Phasen."
+    },
+    "vix": {
+      "title": "Relativ ruhig",
+      "value": 17.4,
+      "unit": "",
+      "tone": "l",
+      "status": "VIX bei 17.4. Unter dem langfristigen Durchschnitt von ~17–20."
     },
     "breadth": {
-      "title": "100 % über 200T-Ø (Proxy)",
-      "value": 100,
+      "title": "61 % über 200T-Ø (Proxy)",
+      "value": 61,
       "unit": "%",
       "tone": "l",
       "status": "Näherungswert abgeleitet aus VIX-Niveau. Direktdaten nicht via FRED verfügbar."
     }
   },
   "overallMode": {
-    "title": "Geordnet",
+    "title": "Erhöhte Aufmerksamkeit",
     "value": null,
     "unit": "",
-    "tone": "l",
-    "status": "Kein übergreifendes Stresssignal aktiv."
+    "tone": "m",
+    "status": "Signale verschlechtern sich, aber noch keine breite Eskalation."
   },
   "technicalTriggers": [
     {
       "label": "50T vs. 200T",
-      "value": 1.3,
+      "value": 1.5,
       "unit": "%",
       "tone": "l",
-      "status": "50T liegt bei +1.3 % gegenüber dem 200T. Schlusskurs 25839, 50T 23082, 200T 22776. NASDAQ Composite (Fallback) über 50T (23082) und 200T (22776). Trendstruktur intakt.",
+      "status": "50T liegt bei +1.5 % gegenüber dem 200T. Schlusskurs 25806, 50T 23136, 200T 22801. NASDAQ Composite (Fallback) über 50T (23136) und 200T (22801). Trendstruktur intakt.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -56,10 +56,10 @@
     },
     {
       "label": "RSI (14)",
-      "value": 77.8,
+      "value": 77.0,
       "unit": "",
       "tone": "h",
-      "status": "RSI (14) bei 77.8. Kurzfristige Erschöpfung möglich.",
+      "status": "RSI (14) bei 77.0. Kurzfristige Erschöpfung möglich.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -69,10 +69,10 @@
     },
     {
       "label": "Drawdown vom Hoch",
-      "value": 0.0,
+      "value": -0.1,
       "unit": "%",
       "tone": "l",
-      "status": "0.0 % vom Hoch. Kaum struktureller Druck.",
+      "status": "-0.1 % vom Hoch. Kaum struktureller Druck.",
       "history": []
     }
   ],
@@ -666,16 +666,16 @@
   },
   "crashProbability": {
     "title": "Crash Probability",
-    "score": 0,
-    "scoreLabel": "0 %",
-    "reason": "Stress 0/100, Rezessionsrisiko 1.8 %, VIX 0.0.",
+    "score": 8,
+    "scoreLabel": "8 %",
+    "reason": "Stress 40/100, Rezessionsrisiko 1.8 %, VIX 17.4.",
     "interpretation": "Crash-Risiko derzeit begrenzt."
   },
   "timingQuality": {
     "title": "Timing-Qualität",
     "score": 0,
     "scoreLabel": "Zu früh 16 % · Optimal 8 % · Zu spät 76 %",
-    "reason": "Bottom-Signal 30 %, Crash-Risiko 0 %.",
+    "reason": "Bottom-Signal 30 %, Crash-Risiko 8 %.",
     "interpretation": "Kein klares Timing-Fenster erkennbar."
   },
   "updateTriggers": {
@@ -696,18 +696,12 @@
   },
   "timeVsTiming": {
     "timeInMarket": "Langfristige Anlagepläne profitieren historisch von Korrekturen, wenn sie diszipliniert durchgehalten werden. Wer raus ist, verpasst die meisten Erholungstage.",
-    "marketTiming": "Das aktuelle Umfeld zeigt erhöhte Spannungen. Stress-Score 0/100. Wer neue Positionen aufbaut, profitiert von gestaffeltem Einstieg.",
+    "marketTiming": "Das aktuelle Umfeld zeigt erhöhte Spannungen. Stress-Score 40/100. Wer neue Positionen aufbaut, profitiert von gestaffeltem Einstieg.",
     "summary": "Die Trennung zwischen langfristiger Logik und kurzfristiger Marktlesart bleibt der wichtigste Hebel gegen emotionale Fehlentscheidungen."
   },
   "charts": {
     "chartLabel": "NASDAQ Composite",
     "qqq": [
-      {
-        "date": "2025-02-26",
-        "close": 19075.26,
-        "ma50": 19641.88,
-        "ma200": 18334.72
-      },
       {
         "date": "2025-02-27",
         "close": 18544.42,
@@ -2501,13 +2495,15 @@
         "close": 25838.94,
         "ma50": 23082.5,
         "ma200": 22776.26
+      },
+      {
+        "date": "2026-05-07",
+        "close": 25806.2,
+        "ma50": 23135.58,
+        "ma200": 22800.83
       }
     ],
     "rsi": [
-      {
-        "date": "2025-02-26",
-        "value": 38.0
-      },
       {
         "date": "2025-02-27",
         "value": 30.6
@@ -3703,6 +3699,10 @@
       {
         "date": "2026-05-06",
         "value": 77.8
+      },
+      {
+        "date": "2026-05-07",
+        "value": 77.0
       }
     ],
     "vix": [
@@ -6112,26 +6112,8 @@
   },
   "news": [
     {
-      "title": "Stock Market Today, May 7: Rally Falters as Oil Prices Rise Again",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-05-07T21:36:13+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQd0dBU1VPRUJGUVQ4dHJZaHU1bmxLcUEtdlpCT2hjemhJd2k4SXhBTXA0VjE1X0VnYjJqelVELVNQZzFpTy14UXpQLURJVm42MUNxeXlPejNQT29yQVh0cE1EX2VRZExqczNGRHo4UTJpY3BScFZ6UlJ0cW5IWGtzTk8wZ1Uxc0Fid3RZSkJUdlJzNUFUaWNzNXZqTlJveV9qTnA1YTVNZnZweUtpM204Y19MZUdaZHpIMXlRSWpDMndCZw?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stocks Are Exuberant. Bonds Are Subdued. Why the Divergence?",
-      "source": "The New York Times",
+      "title": "Why Stocks and Bonds Are Responding Differently to the Iran War",
+      "source": "nytimes.com",
       "publishedAt": "2026-05-07T15:47:30+00:00",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQa0E0Y1JNTm1IQ21Db0xmTnY0VFI3SjY5OUJTODhwclpoR0REa3lNOGk0R0dmY016ekx1MWVRWG1RWDhIb3JVbE91N01CTEMxaGU1Qk1jdEpFUlNOc2NwZy05LTgwM2JlM01PYjJDTlRXUnlRVnM3cEhvYTFrNTAzOXYxWWQ?oc=5",
       "bucket": "Zinsen / Inflation",
@@ -6145,6 +6127,23 @@
         "Aktien",
         "US-Dollar",
         "Gold"
+      ]
+    },
+    {
+      "title": "There's a mismatch between market reactions and economic reality",
+      "source": "marketplace.org",
+      "publishedAt": "2026-05-07T22:45:38+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOU3BNb0JWQmtma0dNRTlZMVhXNFMxTnB1QzU1NEhFcHhUU21TVEpOSHItWGxXaFJfZGE2T1FwOEZqeEt6UnE5d1FYQTQ2V3c1eEhfc3Y0Zm1rNldrRTZMOHJCaDFpZXQ5RWo2d3lMX3JNQV9tQURQdk4xMkFQNG8tYzJselZLdzlqcUJjdDFMaXNUQUVnemZjS0pHci1CN0toSlRHT2lnQnoyTXdf?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
@@ -6166,10 +6165,10 @@
       ]
     },
     {
-      "title": "5 Things to Know Before the Stock Market Opens",
-      "source": "Investopedia",
-      "publishedAt": "2026-05-07T12:13:41+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPYnB1ZVBiMFh0bWpLeUlwa2Y5b3JyalR4LXY4VTYzVzJhcEllTVQyR18xVVFWanI0dUlXdXNabkREM0k3UE14cmhlM0xWZzNPUmFHQ1NPb3dlUVhXYjR1TDg2dDdnelJOSFVsaGJ4MFFnaUFFcGxKUWs4MnZOWGN2dzBtYjZQNzM3b0lES29RTnRFNGtCNDEyZHVPaw?oc=5",
+      "title": "The Stock Market Faces Serious Problems in President Trump's Economy. History Says This Could Happen Next.",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-05-07T09:24:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOE5mb3ZMcVpvSThRcGdmYzd5T0lvVUNCZE03TWcwUjZDcG1lM2pfR3VIQTBILWprc3VnWDd1T3dycF95TnRFWGRWMlZ5Rno3RlU4TUZBT1dfdzFrelVnREhhRFA5OUV5ZjRKYnp5OVhuRGxtRmtTZVd2WXpWVmlzMFBkS1Z5UnExZVJJb2FvdmlrT2wxUFFBbw?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -6200,20 +6199,21 @@
       ]
     },
     {
-      "title": "Stock market strength reflects earnings power",
-      "source": "MSN",
-      "publishedAt": "2026-05-07T16:44:44+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxNMl9sR3dudW9UdzB2RFc0d1Z3a1Q1RDJubmZLTFY5ZFBhbUlsQl8tazZiRVV0ZFZZeVN1c2xiOFlpbVZWdzU4MlptUUVCeFR5Z3R4QmlMa0lOUWsxLXJUd3dza2RyLXNfdXNGdURMZUxqalF6UmZUaTJoU1FFUkdHcDctMmd6MzJiOUpEYWZSYTN3eE1sNlpmM3MxaEJfZU9IWWl4SE9vRk1YVkhlR0xGZFZ6VUN4bjM2R05RWGRPT0puWlZjZ25rcUdSOTZ1c3FqY044UzhRbURDLU4zZjU2dGxCbzlZc2VyUnoyS2V0YUppSXVnMEdPVDdtLU5WbDdFSzlqRmdZVmdxYVM4dkFwbmxiTlZUMmt3clFaYm4tUFFyTkxCcHVyRWZ0VmN1ZGN5Qk5mdnF5VGtFU0lKZHVaYl9SaEU5QkZ3UGZrN1RtV0NGZXlOeV9DMzhpRzVjMnl0Uzh3Ull6d0dtZm5QelJ2bWExdzA5Mk01?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "Oil futures rise after U.S., Iran trade fire; stock futures quiet after court rejects Trump’s tariffs",
+      "source": "MarketWatch",
+      "publishedAt": "2026-05-07T23:34:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSHVCdUJnZEdaTmFEYkF1ak9qN25aemI0MGp0dlVGMXR4Tm1oWGNMVFpWWnpUOTZ2U2RTbU1JVnRSQktXV0tqcWl1VjRPRDRMRFRzZ1V1dmZYWmxXY3loYU44dVRiZDNTcEFDS1J6bmRjVjlIOTdudm9EeXQ3VmRHUE9ZajNtbDVkMmhVWkhMVHp1R2tKeUtyNXJpeDBjcGVHREs3ZTZVVWZCajYybGk3UnZoTzExUnEyeGl0ai1QRnNCcGlDSUpDWXVkaG83NlBBNkRKSzY1cw?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     }
   ]
