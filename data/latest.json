@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-09T07:23:45.320875+00:00",
+  "fetchedAt": "2026-05-09T11:14:21.913454+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20683,6 +20683,23 @@
       ]
     },
     {
+      "title": "Weekly Insights: Stock Market Outlook, Best-Performing Dividend Stocks, and Q1 Earnings Insights",
+      "source": "Morningstar Canada",
+      "publishedAt": "2026-05-09T09:08:05+00:00",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNNzVZd1FHNnBiZ0I5WS1oZi03djYtbjNpelEybUNKOFZqcEZuaVpVczdpQjl4cGYzVkhlSzlaU3B6TmM2RHJuR1BxMXJBODY4dUFXZUhfWmFIVHBscjFIRnZIYVVFenBxYlg4c3pYNHFkNmRPU1o2aVNMay1RSnRvbTZnTlZkbUZuVXV4WkUzYk83b25Pc0wxZC1LZzFYSWhpQXZZUVoyTjNWUk9mcXBGeUVMY0tBSG1UR0d2UDdZRWtSQWNaei1naWF1cXlSaFk?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
       "title": "Stock Market Today, May 8: Ambev Gained 13% This Week on Strong Earnings",
       "source": "The Motley Fool",
       "publishedAt": "2026-05-08T23:05:00+00:00",
@@ -20700,37 +20717,21 @@
       ]
     },
     {
-      "title": "Emera Earnings: Strong Market Conditions Support Unregulated Earnings",
-      "source": "Morningstar Canada",
-      "publishedAt": "2026-05-08T21:04:22+00:00",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOTF3aHFUNTVzRUExbDczc1Bwb3ByUDRjNnhYTWM4ZHJhWlIxV3RkVHFYSktYVlRINnYtTDMwXzdzYXhWNld2dXQ4enZzcDNvNGstYUt5elZIaWdQbGJFOHVrZGp3ZEljU2FEZkpYQ3dZalAtRVl4ZGZ0STIwU0FhSzd0cS1yOE82RUN4Vk9NTThtSzM0eGhkRVJsTkZKRFFWdVBwWllLRUVSRk5KdEQ2OVRR?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "We're Exactly 1 Week Away From a Historic Change at the Federal Reserve -- and It May End Up Costing the Stock Market Dearly",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-05-08T08:26:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRk5jYjB0MGk2NllGakt4bGU2TmFfODZrOFU3M25rTkVRVHJvRVpPYVBmenJiYUxkNkVyNkxxazRQSTVwVGlBeEtENDdwb3RRbmhScjEySVRnX2NTOXFDbFRhTUhyUml3YVl3c3JJd3c4eEdrTUhCdUxXbEtHR0psWHdwek9WU25EbGw2N1RtaThTT2s?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
       "assets": [
+        "Staatsanleihen",
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "CoreWeave CEO Hails ‘Transformational’ Earnings, but the Stock Market Isn’t Buying It",
-      "source": "Barron's",
-      "publishedAt": "2026-05-08T12:13:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB2VERWNWwzaFVIMGtaVHFRSC15TzhJZHlwVmFELTE5NENNNVNEc3lESUxwQWlIa05tQ2FyTlU4OGs2U0ZlR1JUN293elhvTVNMR3lGamNsUUFaSlF4ZUFwdm51QjVRSG5WTEZpZGdhTWxiSFdxNW9MNXlGRFE?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "US-Dollar",
+        "Gold"
       ]
     }
   ],
@@ -20837,7 +20838,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-05-09T07:23:45.320875+00:00",
+      "dataAsOf": "2026-05-09T11:14:21.913454+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
