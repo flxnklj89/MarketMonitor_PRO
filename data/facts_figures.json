@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T15:15:50.750255+00:00",
+  "generatedAt": "2026-05-09T17:01:28.993291+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -12,11 +12,11 @@
   },
   "marketStatus": {
     "phase": {
-      "title": "Normalphase",
-      "value": 0.0,
+      "title": "Erhöhte Vorsicht",
+      "value": 40.0,
       "unit": "",
-      "tone": "l",
-      "status": "Signallage wirkt geordnet."
+      "tone": "m",
+      "status": "Mehr Spannungen als in ruhigeren Phasen."
     },
     "vix": {
       "title": "Relativ ruhig",
@@ -34,11 +34,11 @@
     }
   },
   "overallMode": {
-    "title": "Geordnet",
+    "title": "Erhöhte Aufmerksamkeit",
     "value": null,
     "unit": "",
-    "tone": "l",
-    "status": "Kein übergreifendes Stresssignal aktiv."
+    "tone": "m",
+    "status": "Signale verschlechtern sich, aber noch keine breite Eskalation."
   },
   "technicalTriggers": [
     {
@@ -666,16 +666,16 @@
   },
   "crashProbability": {
     "title": "Crash Probability",
-    "score": 0,
-    "scoreLabel": "0 %",
-    "reason": "Stress 0/100, Rezessionsrisiko 1.8 %, VIX 17.1.",
+    "score": 8,
+    "scoreLabel": "8 %",
+    "reason": "Stress 40/100, Rezessionsrisiko 1.8 %, VIX 17.1.",
     "interpretation": "Crash-Risiko derzeit begrenzt."
   },
   "timingQuality": {
     "title": "Timing-Qualität",
     "score": 0,
     "scoreLabel": "Zu früh 16 % · Optimal 8 % · Zu spät 76 %",
-    "reason": "Bottom-Signal 30 %, Crash-Risiko 0 %.",
+    "reason": "Bottom-Signal 30 %, Crash-Risiko 8 %.",
     "interpretation": "Kein klares Timing-Fenster erkennbar."
   },
   "updateTriggers": {
@@ -696,7 +696,7 @@
   },
   "timeVsTiming": {
     "timeInMarket": "Langfristige Anlagepläne profitieren historisch von Korrekturen, wenn sie diszipliniert durchgehalten werden. Wer raus ist, verpasst die meisten Erholungstage.",
-    "marketTiming": "Das aktuelle Umfeld zeigt erhöhte Spannungen. Stress-Score 0/100. Wer neue Positionen aufbaut, profitiert von gestaffeltem Einstieg.",
+    "marketTiming": "Das aktuelle Umfeld zeigt erhöhte Spannungen. Stress-Score 40/100. Wer neue Positionen aufbaut, profitiert von gestaffeltem Einstieg.",
     "summary": "Die Trennung zwischen langfristiger Logik und kurzfristiger Marktlesart bleibt der wichtigste Hebel gegen emotionale Fehlentscheidungen."
   },
   "charts": {
@@ -6132,7 +6132,7 @@
     {
       "title": "Dow Jones Futures: Market At Highs With Iran, Trump-Xi Summit In Focus; Apple, Nvidia, Boeing In Buy Areas",
       "source": "Investor's Business Daily",
-      "publishedAt": "2026-05-09T12:44:00+00:00",
+      "publishedAt": "2026-05-09T15:09:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNT212QXFVWWtZeF9LclY0NTZGSU9xNHd6XzRLemhWdW1yRS01b0ZqUEJBVFpsUHJqWEo4ckppeW14N3RuT1RzaDZ5aGgxUkhlYVpNOGJMUVBhaUdoSkc2RUZUN0xWSmpmeTQtX1RTSC05T3JEZDBrZUZSM0N0T0psWE1xbzNqa2h3Z0hNeV9TaXU3VFNJeFkwUHg5aGVSU1V0REVjUEkwa2d3OTJoYV9kb3FNaExHaHNL?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
@@ -6181,23 +6181,6 @@
       ]
     },
     {
-      "title": "What to Look Out for in Economic Data This Week (May 11-15)",
-      "source": "Kiplinger",
-      "publishedAt": "2026-05-08T20:30:30+00:00",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MeVNwMVVnVmhvRWo4b0N4WkhCRXQxTVRtb2ZmTWhCSmd4eERsN3Nfdllwejg0eG5ueFFCRUdPTzVUaXh4dEFZaWJqN3FFZnlFWTBlZ2ZvVkFFRzVScTR3TXRhZGl6MHp2RUF1clppVDRvR1lveC1FaXNCeXQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
       "title": "Wall St Week Ahead: Data, Iran, US-China meeting in focus for scorching US stock market",
       "source": "Reuters",
       "publishedAt": "2026-05-08T10:03:00+00:00",
@@ -6212,6 +6195,23 @@
         "Weltaktien",
         "Währungen",
         "Rohstoffe"
+      ]
+    },
+    {
+      "title": "What to Look Out for in Economic Data This Week (May 11-15)",
+      "source": "Kiplinger",
+      "publishedAt": "2026-05-08T20:30:30+00:00",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MeVNwMVVnVmhvRWo4b0N4WkhCRXQxTVRtb2ZmTWhCSmd4eERsN3Nfdllwejg0eG5ueFFCRUdPTzVUaXh4dEFZaWJqN3FFZnlFWTBlZ2ZvVkFFRzVScTR3TXRhZGl6MHp2RUF1clppVDRvR1lveC1FaXNCeXQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     }
   ]
