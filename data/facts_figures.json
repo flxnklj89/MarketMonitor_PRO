@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T17:59:31.258806+00:00",
+  "generatedAt": "2026-05-11T21:22:03.962714+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,6 +6112,41 @@
   },
   "news": [
     {
+      "title": "Futures: AI, Chips Thrive Amid Rising Oil Prices; Inflation Data Due",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-05-11T20:45:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORFF1d2dFQ2s5QVR2ODk1WlVCZVNUT2Q4bWk5NmhiVlJnVDlkVWhQMEVvRDNxaDlOSk5odGdhOFBHNjZJZkl6RFdndTFweWJoRFpneDVHZEhjWURIbjhwSkRyZy1aSUE1cWFlWC1DMmFWUnpLRG5yMWFIZGEwc2pGYnFIZnFGSl9Ec3pIOVJLc2puSU4zNlVINU4tdFFxeXRmR2E2THV5OXFJUTl5Y3JXYVVscjU1dmlfYy1GZ25SY05yUWhpOERDRmpVd1Y0eXdwZXc?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Weekly market commentary",
+      "source": "blackrock.com",
+      "publishedAt": "2026-05-11T17:11:32+00:00",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "Trump goes to China, inflation comes to America: What to watch this week",
       "source": "Yahoo Finance",
       "publishedAt": "2026-05-11T10:35:25+00:00",
@@ -6166,10 +6201,10 @@
       ]
     },
     {
-      "title": "Meta Platforms’ Wild Post-Earnings Swings: Where Analyst Price Targets Stand Now",
-      "source": "MarketBeat",
-      "publishedAt": "2026-05-11T14:41:28+00:00",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRlY4X3RtN3RpUmJWYUpNSk5xZWVCNklOQTNhWG9lTTFjbEUyTmtFOFNzcUxQNC04bjNwa3EzYU5YbU1zWnFISW81dkZVS0FZRkgydm1kYmd1QlNnOVh4MUZiTy1xbUdBNVEzU2FRdVozalJhdnFZcEllajdGMnhTTGd5ekNFX1lNOTlqckZ0WGJDY3hmU3VIb3dzMWt2dkg4amxNa0YwZ1JYTVFaRTNLOWZoekNWMjg?oc=5",
+      "title": "4 Stocks to Buy After Earnings",
+      "source": "Morningstar",
+      "publishedAt": "2026-05-11T19:35:47+00:00",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBfQzZyV1piVG52YzRLWTJHaEFPVEttSGhfNkZpSFpraFA2UkliNHQ0eWIzWF96aFMzaXRiVGxPekZ1ZlVEdUZUY2IyVnBIU0d1d21kTjJCenFFWktJNkpmWjdfZnZyU1lJdEllbzhrVnF6dw?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -6180,40 +6215,6 @@
         "Aktien",
         "Sektoren",
         "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Wall Street Sees Recession Risk Fading in 2026 — but 2027 Flashing Warning Signs",
-      "source": "24/7 Wall St.",
-      "publishedAt": "2026-05-11T14:12:40+00:00",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQamRZRGpQQ3BZZndHaGtTbnVqaUtocnhUVEU5S0xtWlhmQno2T0xrSkJtSGZKRzVCNzhWdEw4UGt6YU5pQ01GVnlEVjNyRW5YYUtza25JNmpzMndadzdEa1UtZzlqaEljNzZMWnctamt5cEpKd0VvaHlGVWljcDhmRy1fZzRmMXhTNHVtZWM1TU5Va1FWa3ozcE5URVhCQnBHTDRkUGdtLVo2RXhManlWMWNONTZId09IcjJWTjdHSQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Trust the Markets, Not the Headlines",
-      "source": "The Free Press",
-      "publishedAt": "2026-05-11T01:19:27+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FZmUteEsyQWp4UE5wbTVQNjFQd010bk9FaGRjRjJkeS12OWg2b0hrdU5uLWZpbFk4eDJUQ1I5ZV9HcHhTaGQ1Q0R4S0VUSGtQaXlTY3NPenlHN0NCRktxbw?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     }
   ]
