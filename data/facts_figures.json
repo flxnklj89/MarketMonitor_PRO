@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T21:22:03.962714+00:00",
+  "generatedAt": "2026-05-12T03:47:33.109471+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -43,10 +43,10 @@
   "technicalTriggers": [
     {
       "label": "50T vs. 200T",
-      "value": 1.6,
+      "value": 1.8,
       "unit": "%",
       "tone": "l",
-      "status": "50T liegt bei +1.6 % gegenüber dem 200T. Schlusskurs 26247, 50T 23203, 200T 22827. NASDAQ Composite (Fallback) über 50T (23203) und 200T (22827). Trendstruktur intakt.",
+      "status": "50T liegt bei +1.8 % gegenüber dem 200T. Schlusskurs 26274, 50T 23275, 200T 22853. NASDAQ Composite (Fallback) über 50T (23275) und 200T (22853). Trendstruktur intakt.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -56,10 +56,10 @@
     },
     {
       "label": "RSI (14)",
-      "value": 80.0,
+      "value": 80.2,
       "unit": "",
       "tone": "h",
-      "status": "RSI (14) bei 80.0. Kurzfristige Erschöpfung möglich.",
+      "status": "RSI (14) bei 80.2. Kurzfristige Erschöpfung möglich.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -702,12 +702,6 @@
   "charts": {
     "chartLabel": "NASDAQ Composite",
     "qqq": [
-      {
-        "date": "2025-02-28",
-        "close": 18847.28,
-        "ma50": 19593.12,
-        "ma200": 18358.25
-      },
       {
         "date": "2025-03-03",
         "close": 18350.19,
@@ -2501,13 +2495,15 @@
         "close": 26247.08,
         "ma50": 23202.96,
         "ma200": 22826.96
+      },
+      {
+        "date": "2026-05-11",
+        "close": 26274.13,
+        "ma50": 23275.07,
+        "ma200": 22853.04
       }
     ],
     "rsi": [
-      {
-        "date": "2025-02-28",
-        "value": 38.0
-      },
       {
         "date": "2025-03-03",
         "value": 32.0
@@ -3703,6 +3699,10 @@
       {
         "date": "2026-05-08",
         "value": 80.0
+      },
+      {
+        "date": "2026-05-11",
+        "value": 80.2
       }
     ],
     "vix": [
@@ -6112,45 +6112,10 @@
   },
   "news": [
     {
-      "title": "Futures: AI, Chips Thrive Amid Rising Oil Prices; Inflation Data Due",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-05-11T20:45:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORFF1d2dFQ2s5QVR2ODk1WlVCZVNUT2Q4bWk5NmhiVlJnVDlkVWhQMEVvRDNxaDlOSk5odGdhOFBHNjZJZkl6RFdndTFweWJoRFpneDVHZEhjWURIbjhwSkRyZy1aSUE1cWFlWC1DMmFWUnpLRG5yMWFIZGEwc2pGYnFIZnFGSl9Ec3pIOVJLc2puSU4zNlVINU4tdFFxeXRmR2E2THV5OXFJUTl5Y3JXYVVscjU1dmlfYy1GZ25SY05yUWhpOERDRmpVd1Y0eXdwZXc?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Weekly market commentary",
-      "source": "blackrock.com",
-      "publishedAt": "2026-05-11T17:11:32+00:00",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Trump goes to China, inflation comes to America: What to watch this week",
+      "title": "Stock market today: Dow, S&P 500, Nasdaq futures edge up as Wall Street braces for CPI report",
       "source": "Yahoo Finance",
-      "publishedAt": "2026-05-11T10:35:25+00:00",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUTFIUHRqdDNHd3o3MXpsZnJiLURWcW5ic0haX1pDUG55UXlfeTVWVmVXTG90Y1lTYUhkYnA1eGU3UU1oQlpKczIyV1hQRDd3cWZMX2ZwdWk0SWdzQl81T21JMXBtakl4ZmpaS280R3ozVTkyMldncktCWllnZHo3b2N1XzBTOUUwN0NqVzhIQTJyR2MySmoybFd1VmpmTnQ4eHQ0MmxKelRpVG5oWTFLV0pXS2Rvd2lENUlWeDd2RUxrVXFxOGc?oc=5",
+      "publishedAt": "2026-05-11T22:43:50+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdWNiVEFRQXptZV9LbHFodGlRNVNNRTQzMTFCZ0pjU3k2V3VHWEZlc2pTRkRFbEs3SFpDN0pIZGdiaUZzYW1mNWpwRjRGSHJqNlFYcHpnekIzM1ZWNldlcU12QmhCVGhrZl80VHc5M3VtLTNKdElVa01WMVlqS0h3SmNidzY0YXlWYVVBWjVwVzlkYmF0aXlMdkh2M2UxZ2lxUmFmU29fX015YVhjOGQ4MnNKNl9Sb1dyR2QtbFJpckZpX19qeHFFcEVEWGMzNk5zSmdkXzM4LUJZN1E?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -6165,21 +6130,37 @@
       ]
     },
     {
-      "title": "Stock Market Today, May 11: Chipmakers Drive Midday Gains Despite Oil Concerns",
+      "title": "Stock Market Today, May 11: Archer Aviation Inches Higher After Positive Q1 Earnings",
       "source": "The Motley Fool",
-      "publishedAt": "2026-05-11T17:12:55+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQTdMSmVnN1J3ZExiWEtwRkVzQmNyZV9rY2MwX0c5UTdxV0M2dU9yODZUMWhtV1VKUTNTWm9OeE9SYmRvYU5NWk9nekRtTTZRbmM0bDg1UHBncko4d05WMFhqanNhUDllUWpiVjR0QWxPakowOGhkSzQwQWdLNmlidGdlLW5UMDVueDBha3NZSERxcEdtUHp0b0MweFNIV0JhMWd2c3k4dXViR2c3UG9FaS01UGVlY08wSHJjZi1DVlZkNk9lNXNybFFJUlhwOUhjTm9Z?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "publishedAt": "2026-05-11T22:13:39+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOM3JhOGdsVWltT1ZCODc2enFWTl9MYmtJeU5nZ0FNOHhSM1BGQ05vcmxaYjF2dWVQVllzU0ZsYTV3U2NTYkJOdlBWdlVna0Voa0M1YzVZSXhUb3JwcnlIR2ZOaDB1c0p5WmoyZFVkbF9aYzZfNnNZVnF5UnlKUGtmZGVua3dDa2I5alR1NWYzTEZJbElNaE03enMzLXFHLTZ2aWY0Yzl4QnVXWk1NSmd2TEVwYWNEcDd1SThSd0I5VERXZ1F6b1NnNjFOR2U5UjRmSlljNHdYRXhjd3M?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Weekly market commentary",
+      "source": "blackrock.com",
+      "publishedAt": "2026-05-11T22:31:33+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUVRpWnpzel9vdWlfUTRyMGZwLVhXN2dmVDBNclBHRzhhNWx4MnVDSFBZNl8wZmxuZzlpZjZPTC0zMTZMRU9Udl9zWTB1X0FFR2ZBMGFQaWgydTVSY21qTzBkUWoyaTlGUHFJeVZybVZnb3d3YWoyRkZHeDVyLWszMmFPLUNZUmh0WUh3UG9ZejBFanRudmt5VV9YNmVSa1hmeWp2TE1CUWgtdw?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
@@ -6201,10 +6182,10 @@
       ]
     },
     {
-      "title": "4 Stocks to Buy After Earnings",
-      "source": "Morningstar",
-      "publishedAt": "2026-05-11T19:35:47+00:00",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBfQzZyV1piVG52YzRLWTJHaEFPVEttSGhfNkZpSFpraFA2UkliNHQ0eWIzWF96aFMzaXRiVGxPekZ1ZlVEdUZUY2IyVnBIU0d1d21kTjJCenFFWktJNkpmWjdfZnZyU1lJdEllbzhrVnF6dw?oc=5",
+      "title": "AST SpaceMobile Earnings Miss, 2026 Revenue Guidance Affirmed. ASTS Stock Falls.",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-05-11T21:36:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlJIYy04Y3NmZWxzSlZjeWk3am96SDdWNTJmQzRWSGVCY3lDYjFwc3hnODh0cDVjUmJ0V0E1RmJITDlBM2RfY2JoTDY4RHRUbDdQMlQ5cy0zT2ZpajloNkNSZDc3UVJOZUhSZGdLbjZtMTh5SzNaTkE0VXZOVlVwWUp2MGNnVGUzTXM2VTVB?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -6215,6 +6196,23 @@
         "Aktien",
         "Sektoren",
         "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "5 Things to Know Before the Stock Market Opens",
+      "source": "Investopedia",
+      "publishedAt": "2026-05-11T12:07:54+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNjlNVHVWMGtETV9VMkJoZzR6Z2VKcFR3Mk4xUGp1ZEtHWEFEZVExU2l0RHM1M3JnQVQ5cEhxd0NhNUQ2QnR3SUlxYTRfRDgyTi1UUndkaDExQXB0SVBEQlJST1lYVVhWeGttVkpuQzNyRVIzWUd2S2txQVRSRXZsNzFTcmhjck5kRGJ1ZnJJYnFXMzZvdHFMdEtnalU?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     }
   ]
