@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T14:37:27.869903+00:00",
+  "generatedAt": "2026-05-12T18:05:17.637406+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -12,33 +12,33 @@
   },
   "marketStatus": {
     "phase": {
-      "title": "Normalphase",
-      "value": 0.0,
-      "unit": "",
-      "tone": "l",
-      "status": "Signallage wirkt geordnet."
-    },
-    "vix": {
-      "title": "—",
-      "value": null,
+      "title": "Erhöhte Vorsicht",
+      "value": 40.0,
       "unit": "",
       "tone": "m",
-      "status": "Keine VIX-Daten."
+      "status": "Mehr Spannungen als in ruhigeren Phasen."
+    },
+    "vix": {
+      "title": "Relativ ruhig",
+      "value": 18.4,
+      "unit": "",
+      "tone": "l",
+      "status": "VIX bei 18.4. Unter dem langfristigen Durchschnitt von ~17–20."
     },
     "breadth": {
-      "title": "100 % über 200T-Ø (Proxy)",
-      "value": 100,
+      "title": "59 % über 200T-Ø (Proxy)",
+      "value": 59,
       "unit": "%",
-      "tone": "l",
+      "tone": "m",
       "status": "Näherungswert abgeleitet aus VIX-Niveau. Direktdaten nicht via FRED verfügbar."
     }
   },
   "overallMode": {
-    "title": "Geordnet",
+    "title": "Erhöhte Aufmerksamkeit",
     "value": null,
     "unit": "",
-    "tone": "l",
-    "status": "Kein übergreifendes Stresssignal aktiv."
+    "tone": "m",
+    "status": "Signale verschlechtern sich, aber noch keine breite Eskalation."
   },
   "technicalTriggers": [
     {
@@ -96,192 +96,11 @@
     },
     {
       "label": "Buffett-Indikator",
-      "value": 264.4,
+      "value": null,
       "unit": "%",
-      "tone": "h",
-      "status": "Buffett-Indikator bei 264 %. Historisch stark überhitzt. Marktkapitalisierung weit über BIP.",
-      "history": [
-        {
-          "value": 116.3
-        },
-        {
-          "value": 114.0
-        },
-        {
-          "value": 95.8
-        },
-        {
-          "value": 104.2
-        },
-        {
-          "value": 115.0
-        },
-        {
-          "value": 109.8
-        },
-        {
-          "value": 114.7
-        },
-        {
-          "value": 113.6
-        },
-        {
-          "value": 123.8
-        },
-        {
-          "value": 125.6
-        },
-        {
-          "value": 130.7
-        },
-        {
-          "value": 140.4
-        },
-        {
-          "value": 142.9
-        },
-        {
-          "value": 146.9
-        },
-        {
-          "value": 143.6
-        },
-        {
-          "value": 149.0
-        },
-        {
-          "value": 148.7
-        },
-        {
-          "value": 146.0
-        },
-        {
-          "value": 133.4
-        },
-        {
-          "value": 139.5
-        },
-        {
-          "value": 137.9
-        },
-        {
-          "value": 139.3
-        },
-        {
-          "value": 142.9
-        },
-        {
-          "value": 146.2
-        },
-        {
-          "value": 152.5
-        },
-        {
-          "value": 155.4
-        },
-        {
-          "value": 159.2
-        },
-        {
-          "value": 165.5
-        },
-        {
-          "value": 161.4
-        },
-        {
-          "value": 164.7
-        },
-        {
-          "value": 172.3
-        },
-        {
-          "value": 146.0
-        },
-        {
-          "value": 162.9
-        },
-        {
-          "value": 166.8
-        },
-        {
-          "value": 164.7
-        },
-        {
-          "value": 175.7
-        },
-        {
-          "value": 140.6
-        },
-        {
-          "value": 186.7
-        },
-        {
-          "value": 187.8
-        },
-        {
-          "value": 212.9
-        },
-        {
-          "value": 221.8
-        },
-        {
-          "value": 234.1
-        },
-        {
-          "value": 228.8
-        },
-        {
-          "value": 239.6
-        },
-        {
-          "value": 222.4
-        },
-        {
-          "value": 180.5
-        },
-        {
-          "value": 168.6
-        },
-        {
-          "value": 175.5
-        },
-        {
-          "value": 183.4
-        },
-        {
-          "value": 194.8
-        },
-        {
-          "value": 184.0
-        },
-        {
-          "value": 202.1
-        },
-        {
-          "value": 218.6
-        },
-        {
-          "value": 221.8
-        },
-        {
-          "value": 233.0
-        },
-        {
-          "value": 236.9
-        },
-        {
-          "value": 224.9
-        },
-        {
-          "value": 245.1
-        },
-        {
-          "value": 260.0
-        },
-        {
-          "value": 264.4
-        }
-      ],
+      "tone": "m",
+      "status": "Buffett-Indikator temporär nicht verfügbar. Wilshire 5000 oder GDP-Daten konnten nicht abgerufen werden.",
+      "history": [],
       "fallback": {
         "label": "Fallback: Fed-Marktwertreihe",
         "reason": "Die Wilshire-5000-Reihen waren in diesem Lauf nicht verfügbar. Deshalb nutzt der Monitor ersatzweise die offizielle Fed-/FRED-Reihe zum Marktwert börsennotierter US-Aktien.",
@@ -550,72 +369,11 @@
     },
     {
       "label": "Wachstum",
-      "value": 2.0,
+      "value": 0.0,
       "unit": "%",
-      "tone": "l",
-      "status": "BIP-Wachstum (real, ann.) zuletzt +2.0 %. Das Wachstumsrisiko hat zugenommen.",
-      "history": [
-        {
-          "value": 7.0
-        },
-        {
-          "value": 3.3
-        },
-        {
-          "value": 7.0
-        },
-        {
-          "value": -1.0
-        },
-        {
-          "value": 0.6
-        },
-        {
-          "value": 2.9
-        },
-        {
-          "value": 2.8
-        },
-        {
-          "value": 2.9
-        },
-        {
-          "value": 2.5
-        },
-        {
-          "value": 4.7
-        },
-        {
-          "value": 3.4
-        },
-        {
-          "value": 0.8
-        },
-        {
-          "value": 3.6
-        },
-        {
-          "value": 3.3
-        },
-        {
-          "value": 1.9
-        },
-        {
-          "value": -0.6
-        },
-        {
-          "value": 3.8
-        },
-        {
-          "value": 4.4
-        },
-        {
-          "value": 0.5
-        },
-        {
-          "value": 2.0
-        }
-      ]
+      "tone": "m",
+      "status": "BIP-Wachstum (real, ann.) zuletzt +0.0 %. Das Wachstumsrisiko hat zugenommen.",
+      "history": []
     },
     {
       "label": "Rezessionsindikatoren",
@@ -632,7 +390,7 @@
       "Relativ ruhig"
     ],
     "risks": [
-      "Kein übergreifendes Hochrisikosignal aktiv."
+      "BIP-Wachstum 0.0 % – konjunkturelle Unterstützung begrenzt."
     ]
   },
   "geopolitics": [
@@ -666,16 +424,16 @@
   },
   "crashProbability": {
     "title": "Crash Probability",
-    "score": 0,
-    "scoreLabel": "0 %",
-    "reason": "Stress 0/100, Rezessionsrisiko 1.8 %, VIX 0.0.",
+    "score": 16,
+    "scoreLabel": "16 %",
+    "reason": "Stress 40/100, Rezessionsrisiko 1.8 %, VIX 18.4.",
     "interpretation": "Crash-Risiko derzeit begrenzt."
   },
   "timingQuality": {
     "title": "Timing-Qualität",
     "score": 0,
     "scoreLabel": "Zu früh 16 % · Optimal 8 % · Zu spät 76 %",
-    "reason": "Bottom-Signal 30 %, Crash-Risiko 0 %.",
+    "reason": "Bottom-Signal 30 %, Crash-Risiko 16 %.",
     "interpretation": "Kein klares Timing-Fenster erkennbar."
   },
   "updateTriggers": {
@@ -696,7 +454,7 @@
   },
   "timeVsTiming": {
     "timeInMarket": "Langfristige Anlagepläne profitieren historisch von Korrekturen, wenn sie diszipliniert durchgehalten werden. Wer raus ist, verpasst die meisten Erholungstage.",
-    "marketTiming": "Das aktuelle Umfeld zeigt erhöhte Spannungen. Stress-Score 0/100. Wer neue Positionen aufbaut, profitiert von gestaffeltem Einstieg.",
+    "marketTiming": "Das aktuelle Umfeld zeigt erhöhte Spannungen. Stress-Score 40/100. Wer neue Positionen aufbaut, profitiert von gestaffeltem Einstieg.",
     "summary": "Die Trennung zwischen langfristiger Logik und kurzfristiger Marktlesart bleibt der wichtigste Hebel gegen emotionale Fehlentscheidungen."
   },
   "charts": {
@@ -6112,6 +5870,23 @@
   },
   "news": [
     {
+      "title": "The stock market isn't ignoring Iran. It's rising for these three very real reasons",
+      "source": "CNBC",
+      "publishedAt": "2026-05-12T17:40:08+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPckhWbFM5YVhRY2RRQ0w2QjViY3daLVFWWURPQXBUZlVocGgxWWNabFZzbzZWcnVRT2c1SnlPQzJYVXltenR0THVvLXFFZDNEV2VGVUlhMm9CaFZPaDNMcU9NUlBaa2JkZGFiNHN1THpMM0N3OEtoV0FGckdYOVotOFNOSkFEWmRWVnBGOHQwN1JVYTBKYTE2SkgyeEZYdFFMaGZOZU4taU9nRFd5V3FudUs3OFl2VVdr0gG-AUFVX3lxTFBCeTNEUGlvblhnYTN6aFlvS055SGFRN1J3X0trdFhPZzcyeFFWeng4WXNlc3l3enRXV0hZTm1aYkFveWZTTldRcTRaUmxydk1LakR2QzFNVnFybUJubENVaXlvQ1ZUZ1BiRWRCS3hTcE9XX2pGelVqWEZqaUEwWVFYaTE0Z0RDSmtiSXNEUkhhdXpBel85enpUblAwZ0JLUUhXeVhQdlZFSm5JdVdEdHlLaDNsZzV3Y3FKWU9HTGc?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "Will the Federal Reserve Crash the Stock Market? 3 Reasons to Watch Trump's Nominee, Kevin Warsh, on May 15",
       "source": "The Motley Fool",
       "publishedAt": "2026-05-12T12:25:10+00:00",
@@ -6130,20 +5905,38 @@
       ]
     },
     {
-      "title": "Trump's China trip, Nadella's testimony, GM layoffs and more in Morning Squawk",
-      "source": "CNBC",
-      "publishedAt": "2026-05-12T12:08:38+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxON1MyeW5XaTZNWndKc0NBbEpNWDBDbHZEdnJRSDQ5XzUxTmgzSXlRZnpPZVFmcklzc1ExTWNqeFBKUFNjb2ZEQVM0R1Y5OHIxN2ZHVlZuNlpVT0pUaWsybWFIZlhDQ0dRMkpjVlFCcF8tWlVPWDdqUENNYWdhdUNLelJ1RdIBiAFBVV95cUxQQ0JJam52VzllTjkxQ0JZUEt0OWVoN0F0eFBmYUltUFlTR3hVdFB2U2U0ZG5nbmZMWFRRUUduX29vZXlobjE3Y2k1N2pVa2t3d0Z3NHZwcWs2QXc3aEpVYWFFWmV4VVRjQWlxM01vWUdyNzlZY2dyLV9HLUlzcUwtTVFxcjRDVmI5?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "title": "For many Americans, the recession is already here",
+      "source": "MS NOW",
+      "publishedAt": "2026-05-12T16:07:27+00:00",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBGZWljWlJNOWhfVTY5NjdZU0g4M2d5ZmNfa25Na0xIbHRaMTJMSk1XSFdCRWlmUFFXbmZxRzB4Y1dBWUxFSzNlQzNLOHFabXZNZDV2VHoxbFNlcTdPZ2hPcXYxT2g5a1Z1U1VNX2s1LVJ6VTFWOVRzTFhtOTJzZG8?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "The hottest inflation print in 3 years has derailed the record-setting rally in stocks",
+      "source": "Business Insider",
+      "publishedAt": "2026-05-12T17:32:11+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaUlsa05PbWNaWE9panJpZENBTjNBRnNocTl6SzY3bnlDZlR4d0tGVVh2bU1nVDFGUXgwQWR6dFJKZEo0LWFNVnRyQVpfZG4xT0tOU2NnSHE1Y3BsNjQ2V0pCVFBXR21PWll0ZHpiVS0ybTZCZ2pkazJOWUNoYUxfdVFwY3NFTVZFTGJlajhzUXVRZTlWelZaUFdFVlgzOEJCM2FEMlpn?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
       ]
     },
     {
@@ -6164,57 +5957,20 @@
       ]
     },
     {
-      "title": "U.S. stock futures fall ahead of April CPI inflation report",
-      "source": "qz.com",
-      "publishedAt": "2026-05-12T12:33:10+00:00",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE04N09wbmdxZ2k0SVAyQV9LTGNIZVp0aVhlVFlVMVNzRGItZkZZb19md3Z5WlAxRXVoX3RJaW42YWswZE50aGVDLVVGbXlpQWdrakRKdFppQmdMSUt0eGJzZkZZT2JoMkFYVXRzSA?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "title": "Forget Earnings! The Most Important Data Release of the Month Is Imminent, and It's Likely to Rattle the Stock Market.",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-05-12T09:06:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcVdwVmZGa2Q3Q0lOQlp2dE5ZdjQ5bW9YWXlQTFZ3RHBqNVZ6TkZIcnJRdmhISHVMV1JsaXppY1R3R1Y5R2NPbXpwUnc1dU04VzUtNUFlTVQ0WFNHUldLcWQtLUM2NXQ2Z21hUGtSX1hUMHpKREtoS0libEhYNGFPbmJQaXAzYVZ0Tm5LNnl2NThkM1M0ZW1UYQ?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
-        "Staatsanleihen",
         "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "Slumping AI stocks and rising oil prices halt Wall Street’s record-breaking run",
-      "source": "Pittsburgh Post-Gazette",
-      "publishedAt": "2026-05-12T14:04:38+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVTJKbmpfaHk3ZV9nLWFMRTBXTkhPQ2Y5WlZLaU1OdFdMeVBMTUFXSWJKTVBkNUhPVUJRckI4VjhPVHVsTmNtd0VLX05pcWE3My04bnlWekhyOEFSMnY3UVh6TEstOHZCc0JxN05OX2NzZUVUdWxIZWhJa3VXbHN6WDZzanZsaWsyTTI1Q3dtejZySWpoc3hXUXF4NV9JejNrNWg4MlgwZ0NGdw?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Oil Prices Rise on U.S.-Iran Standoff, as U.S. Inflation Jumps",
-      "source": "The New York Times",
-      "publishedAt": "2026-05-12T09:03:10+00:00",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1NZDA3bVB6aWJPcVRfX1UzbmtXX3dycjdVMTR1cnNkQW5vWl8yZjBuenEzRmtDZ1pldnJRY1FDSThTY1RadHRsY1hoZHpEOVhVY1IxQkZ1TlpFWjJ4cTdWMVdFNFotY3F6ZUJLcExhdEx4V0taN29naUFkLVk?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     }
   ]
