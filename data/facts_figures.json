@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T14:48:32.661642+00:00",
+  "generatedAt": "2026-05-13T18:05:48.679249+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -13,7 +13,7 @@
   "marketStatus": {
     "phase": {
       "title": "Erhöhte Vorsicht",
-      "value": 40.0,
+      "value": 34.0,
       "unit": "",
       "tone": "m",
       "status": "Mehr Spannungen als in ruhigeren Phasen."
@@ -34,11 +34,11 @@
     }
   },
   "overallMode": {
-    "title": "Erhöhte Aufmerksamkeit",
+    "title": "Geordnet",
     "value": null,
     "unit": "",
-    "tone": "m",
-    "status": "Signale verschlechtern sich, aber noch keine breite Eskalation."
+    "tone": "l",
+    "status": "Kein übergreifendes Stresssignal aktiv."
   },
   "technicalTriggers": [
     {
@@ -361,10 +361,10 @@
   "macro": [
     {
       "label": "Zinsumfeld",
-      "value": 0.0,
+      "value": 3.63,
       "unit": "%",
-      "tone": "l",
-      "status": "US-Leitzins bei 0.00 %. Lockeres Zinsumfeld.",
+      "tone": "m",
+      "status": "US-Leitzins bei 3.63 %. Neutral bis leicht restriktiv.",
       "history": [
         {
           "value": 3.64
@@ -668,7 +668,7 @@
     "title": "Crash Probability",
     "score": 8,
     "scoreLabel": "8 %",
-    "reason": "Stress 40/100, Rezessionsrisiko 0.0 %, VIX 18.0.",
+    "reason": "Stress 34/100, Rezessionsrisiko 0.0 %, VIX 18.0.",
     "interpretation": "Crash-Risiko derzeit begrenzt."
   },
   "timingQuality": {
@@ -696,7 +696,7 @@
   },
   "timeVsTiming": {
     "timeInMarket": "Langfristige Anlagepläne profitieren historisch von Korrekturen, wenn sie diszipliniert durchgehalten werden. Wer raus ist, verpasst die meisten Erholungstage.",
-    "marketTiming": "Das aktuelle Umfeld zeigt erhöhte Spannungen. Stress-Score 40/100. Wer neue Positionen aufbaut, profitiert von gestaffeltem Einstieg.",
+    "marketTiming": "Das aktuelle Umfeld zeigt erhöhte Spannungen. Stress-Score 34/100. Wer neue Positionen aufbaut, profitiert von gestaffeltem Einstieg.",
     "summary": "Die Trennung zwischen langfristiger Logik und kurzfristiger Marktlesart bleibt der wichtigste Hebel gegen emotionale Fehlentscheidungen."
   },
   "charts": {
@@ -4909,26 +4909,6 @@
     ],
     "brent": [
       {
-        "date": "2025-02-24",
-        "value": 74.89
-      },
-      {
-        "date": "2025-02-25",
-        "value": 73.11
-      },
-      {
-        "date": "2025-02-26",
-        "value": 73.49
-      },
-      {
-        "date": "2025-02-27",
-        "value": 75.01
-      },
-      {
-        "date": "2025-02-28",
-        "value": 74.76
-      },
-      {
         "date": "2025-03-03",
         "value": 72.85
       },
@@ -6107,6 +6087,26 @@
       {
         "date": "2026-05-01",
         "value": 118.26
+      },
+      {
+        "date": "2026-05-05",
+        "value": 114.51
+      },
+      {
+        "date": "2026-05-06",
+        "value": 103.7
+      },
+      {
+        "date": "2026-05-07",
+        "value": 101.82
+      },
+      {
+        "date": "2026-05-08",
+        "value": 103.48
+      },
+      {
+        "date": "2026-05-11",
+        "value": 106.11
       }
     ]
   },
@@ -6127,23 +6127,6 @@
         "Aktien",
         "US-Dollar",
         "Gold"
-      ]
-    },
-    {
-      "title": "5 Things to Know Before the Stock Market Opens",
-      "source": "Investopedia",
-      "publishedAt": "2026-05-13T12:07:35+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOXc3MU5KeU00UTVfLWdQYmNJTHZRc0RvNUNKU1VpZTYxMFg3QTRITUtFZFpyVTZlVjRyVWJGX0FEcjJlUENELUwyQmpGRUktQ1U1REJMbDRRSURTRkU4Wkl6Y05Pd2t0b2JnZzd6NE83RTEzdkdjVUVQX3kzX056cFBMZTlaRWJfLWh2VkJzbTBuM2dkOVRBX1laVHE?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     },
     {
@@ -6214,6 +6197,23 @@
         "Weltaktien",
         "Währungen",
         "Rohstoffe"
+      ]
+    },
+    {
+      "title": "5 Things to Know Before the Stock Market Opens",
+      "source": "Investopedia",
+      "publishedAt": "2026-05-13T12:07:35+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOXc3MU5KeU00UTVfLWdQYmNJTHZRc0RvNUNKU1VpZTYxMFg3QTRITUtFZFpyVTZlVjRyVWJGX0FEcjJlUENELUwyQmpGRUktQ1U1REJMbDRRSURTRkU4Wkl6Y05Pd2t0b2JnZzd6NE83RTEzdkdjVUVQX3kzX056cFBMZTlaRWJfLWh2VkJzbTBuM2dkOVRBX1laVHE?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     }
   ]
