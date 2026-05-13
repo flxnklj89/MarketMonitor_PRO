@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T21:23:47.590873+00:00",
+  "generatedAt": "2026-05-13T03:56:06.805871+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -43,10 +43,10 @@
   "technicalTriggers": [
     {
       "label": "50T vs. 200T",
-      "value": 1.8,
+      "value": 2.0,
       "unit": "%",
       "tone": "l",
-      "status": "50T liegt bei +1.8 % gegenüber dem 200T. Schlusskurs 26274, 50T 23275, 200T 22853. NASDAQ Composite (Fallback) über 50T (23275) und 200T (22853). Trendstruktur intakt.",
+      "status": "50T liegt bei +2.0 % gegenüber dem 200T. Schlusskurs 26088, 50T 23342, 200T 22878. NASDAQ Composite (Fallback) über 50T (23342) und 200T (22878). Trendstruktur intakt.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -56,10 +56,10 @@
     },
     {
       "label": "RSI (14)",
-      "value": 80.2,
+      "value": 75.4,
       "unit": "",
       "tone": "h",
-      "status": "RSI (14) bei 80.2. Kurzfristige Erschöpfung möglich.",
+      "status": "RSI (14) bei 75.4. Kurzfristige Erschöpfung möglich.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -69,10 +69,10 @@
     },
     {
       "label": "Drawdown vom Hoch",
-      "value": 0.0,
+      "value": -0.7,
       "unit": "%",
       "tone": "l",
-      "status": "0.0 % vom Hoch. Kaum struktureller Druck.",
+      "status": "-0.7 % vom Hoch. Kaum struktureller Druck.",
       "history": []
     }
   ],
@@ -702,12 +702,6 @@
   "charts": {
     "chartLabel": "NASDAQ Composite",
     "qqq": [
-      {
-        "date": "2025-03-03",
-        "close": 18350.19,
-        "ma50": 19556.65,
-        "ma200": 18368.06
-      },
       {
         "date": "2025-03-04",
         "close": 18285.16,
@@ -2501,13 +2495,15 @@
         "close": 26274.13,
         "ma50": 23275.07,
         "ma200": 22853.04
+      },
+      {
+        "date": "2026-05-12",
+        "close": 26088.2,
+        "ma50": 23341.86,
+        "ma200": 22877.94
       }
     ],
     "rsi": [
-      {
-        "date": "2025-03-03",
-        "value": 32.0
-      },
       {
         "date": "2025-03-04",
         "value": 31.3
@@ -3703,6 +3699,10 @@
       {
         "date": "2026-05-11",
         "value": 80.2
+      },
+      {
+        "date": "2026-05-12",
+        "value": 75.4
       }
     ],
     "vix": [
@@ -6115,7 +6115,7 @@
       "title": "The stock market isn't ignoring Iran. It's rising for these three very real reasons",
       "source": "CNBC",
       "publishedAt": "2026-05-12T17:40:08+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPckhWbFM5YVhRY2RRQ0w2QjViY3daLVFWWURPQXBUZlVocGgxWWNabFZzbzZWcnVRT2c1SnlPQzJYVXltenR0THVvLXFFZDNEV2VGVUlhMm9CaFZPaDNMcU9NUlBaa2JkZGFiNHN1THpMM0N3OEtoV0FGckdYOVotOFNOSkFEWmRWVnBGOHQwN1JVYTBKYTE2SkgyeEZYdFFMaGZOZU4taU9nRFd5V3FudUs3OFl2VVdr0gG-AUFVX3lxTFBCeTNEUGlvblhnYTN6aFlvS055SGFRN1J3X0trdFhPZzcyeFFWeng4WXNlc3l3enRXV0hZTm1aYkFveWZTTldRcTRaUmxydk1LakR2QzFNVnFybUJubENVaXlvQ1ZUZ1BiRWRCS3hTcE9XX2pGelVqWEZqaUEwWVFYaTE0Z0RDSmtiSXNEUkhhdXpBel85enpUblAwZ0JLUUhXeVhQdlZFSm5JdVdEdHlLaDNsZzV3Y3FKWU9HTGc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPckhWbFM5YVhRY2RRQ0w2QjViY3daLVFWWURPQXBUZlVocGgxWWNabFZzbzZWcnVRT2c1SnlPQzJYVXltenR0THVvLXFFZDNEV2VGVUlhMm9CaFZPaDNMcU9NUlBaa2JkZGFiNHN1THpMM0N3OEtoV0FGckdYOVotOFNOSkFEWmRWVnBGOHQwN1JVYTBKYTE2SkgyeEZYdFFMaGZOZU4taU9nRFd5V3FudUs3OFl2VVdr?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -6146,6 +6146,24 @@
       ]
     },
     {
+      "title": "Stock Market Today (LIVE): Beazer Tells Dream Finders to Dream On; CPI Comes in Hot, Gas Surges, Treasury Yield Hits 1-Year High",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-05-12T21:24:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSm1ac0s1RjAyS283SWEzR193YVBrYkZtRE84bDhoMzkybVl6NnpWSUYxVlQyaEJLRFM0VkFUUG5yc2hMYjNFMmhoem9RTWx5NG1QTkxoWWRMYUZNeHFTejdVSDlyalhoSWFiS3F2RVREV1pib2gyMURxNkZ5eW9UMw?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
       "title": "Stock market today: Nasdaq, S&P 500 fall as CPI inflation rises, chip stocks drop",
       "source": "Yahoo Finance",
       "publishedAt": "2026-05-12T17:33:01+00:00",
@@ -6164,37 +6182,20 @@
       ]
     },
     {
-      "title": "Forget Earnings! The Most Important Data Release of the Month Is Imminent, and It's Likely to Rattle the Stock Market.",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-05-12T09:06:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcVdwVmZGa2Q3Q0lOQlp2dE5ZdjQ5bW9YWXlQTFZ3RHBqNVZ6TkZIcnJRdmhISHVMV1JsaXppY1R3R1Y5R2NPbXpwUnc1dU04VzUtNUFlTVQ0WFNHUldLcWQtLUM2NXQ2Z21hUGtSX1hUMHpKREtoS0libEhYNGFPbmJQaXAzYVZ0Tm5LNnl2NThkM1M0ZW1UYQ?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "China’s big tech groups miss out on AI stock market frenzy",
+      "source": "Financial Times",
+      "publishedAt": "2026-05-12T21:00:04+00:00",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcXNlaFl5SklmSEdIaGp2Qko3c25WYzFWbzBJMjJ3QmhHZUFzb0xmaW5iZDJCRVpSd1pIMS10ZE51cUJjNXFaWDU5VFB5cXhtaWRYcXBNdkwwaVRKTU9kSE5IdWdfeTRCT19Gd0xjSndoMmZ3cFNBSk0tdTRhZ2FqZ1BfY3Q?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
       "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "The Advisor’s Cheat Sheet to Recession Indicators",
-      "source": "Morningstar",
-      "publishedAt": "2026-05-12T16:38:25+00:00",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSVhnVkhhaW1hMmpxU213aHlZTzBZa0tSRndUeEppMUhWSlAyRk9vUVVac3MyOE9TNm4xQUtKbjRkZGd5aDJ4WnEyLVRPWWFaTnZPRjFmLVBzaHFFV0lHU1ZEQzZvQUsxR21ONGl1cTYtaTFacDRkU1pkUmw1TkxRTzd2SURIUQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
       ]
     },
     {
