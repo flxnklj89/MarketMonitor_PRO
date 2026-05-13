@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-13T03:55:57.585552+00:00",
+  "fetchedAt": "2026-05-13T06:52:37.260696+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20627,7 +20627,7 @@
       "title": "The stock market isn't ignoring Iran. It's rising for these three very real reasons",
       "source": "CNBC",
       "publishedAt": "2026-05-12T17:40:08+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPckhWbFM5YVhRY2RRQ0w2QjViY3daLVFWWURPQXBUZlVocGgxWWNabFZzbzZWcnVRT2c1SnlPQzJYVXltenR0THVvLXFFZDNEV2VGVUlhMm9CaFZPaDNMcU9NUlBaa2JkZGFiNHN1THpMM0N3OEtoV0FGckdYOVotOFNOSkFEWmRWVnBGOHQwN1JVYTBKYTE2SkgyeEZYdFFMaGZOZU4taU9nRFd5V3FudUs3OFl2VVdr?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPckhWbFM5YVhRY2RRQ0w2QjViY3daLVFWWURPQXBUZlVocGgxWWNabFZzbzZWcnVRT2c1SnlPQzJYVXltenR0THVvLXFFZDNEV2VGVUlhMm9CaFZPaDNMcU9NUlBaa2JkZGFiNHN1THpMM0N3OEtoV0FGckdYOVotOFNOSkFEWmRWVnBGOHQwN1JVYTBKYTE2SkgyeEZYdFFMaGZOZU4taU9nRFd5V3FudUs3OFl2VVdr0gG-AUFVX3lxTFBCeTNEUGlvblhnYTN6aFlvS055SGFRN1J3X0trdFhPZzcyeFFWeng4WXNlc3l3enRXV0hZTm1aYkFveWZTTldRcTRaUmxydk1LakR2QzFNVnFybUJubENVaXlvQ1ZUZ1BiRWRCS3hTcE9XX2pGelVqWEZqaUEwWVFYaTE0Z0RDSmtiSXNEUkhhdXpBel85enpUblAwZ0JLUUhXeVhQdlZFSm5JdVdEdHlLaDNsZzV3Y3FKWU9HTGc?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20658,24 +20658,6 @@
       ]
     },
     {
-      "title": "Stock Market Today (LIVE): Beazer Tells Dream Finders to Dream On; CPI Comes in Hot, Gas Surges, Treasury Yield Hits 1-Year High",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-05-12T21:24:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSm1ac0s1RjAyS283SWEzR193YVBrYkZtRE84bDhoMzkybVl6NnpWSUYxVlQyaEJLRFM0VkFUUG5yc2hMYjNFMmhoem9RTWx5NG1QTkxoWWRMYUZNeHFTejdVSDlyalhoSWFiS3F2RVREV1pib2gyMURxNkZ5eW9UMw?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
       "title": "Stock market today: Nasdaq, S&P 500 fall as CPI inflation rises, chip stocks drop",
       "source": "Yahoo Finance",
       "publishedAt": "2026-05-12T17:33:01+00:00",
@@ -20694,10 +20676,10 @@
       ]
     },
     {
-      "title": "China’s big tech groups miss out on AI stock market frenzy",
-      "source": "Financial Times",
-      "publishedAt": "2026-05-12T21:00:04+00:00",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcXNlaFl5SklmSEdIaGp2Qko3c25WYzFWbzBJMjJ3QmhHZUFzb0xmaW5iZDJCRVpSd1pIMS10ZE51cUJjNXFaWDU5VFB5cXhtaWRYcXBNdkwwaVRKTU9kSE5IdWdfeTRCT19Gd0xjSndoMmZ3cFNBSk0tdTRhZ2FqZ1BfY3Q?oc=5",
+      "title": "Is China’s Stock Market a Bargain?",
+      "source": "Cabot Wealth Network",
+      "publishedAt": "2026-05-13T06:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQ25JX25GazRmZTFDX2VER2o4VkU3X3c3NzdFRXJPTWFXbGNsY2ZRdG9qc0RqOUp4T2tLVGM2cWdiX3o3a0liVFQxZjJud3ppYW5MR3hhaGlWY2FGbGVkRkNXZmw0ZFctdzZSTXVUb3VvV2hlbHJ2RlZYQmZrWUNXMFNOblBhQzZVUkxEZUoxcng?oc=5",
       "bucket": "Globales Wachstum",
       "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
       "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
@@ -20711,10 +20693,28 @@
       ]
     },
     {
-      "title": "US Stocks Consolidate Amid Inflation, Oil Surge",
-      "source": "조선일보",
-      "publishedAt": "2026-05-12T20:17:35+00:00",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNDk2UjJWbVhWdTlTWko3ZnU5dGVHWS0xbjdsaTlBYi1EaXo5Z0FtTVJPYlJpV3RCTWFUSi13Z3pIejI1cFRVaUlxYndiemxfSEZyU1dpVDVMMHZEQ1FlNmhxTDA3WklNelgyN18xeDBZcXd4cDJvbG43QzdWbjA2OEtxRG4?oc=5",
+      "title": "Wall Street’s record-setting run halts as AI stocks slump, oil prices rise",
+      "source": "minotdailynews.com",
+      "publishedAt": "2026-05-13T05:46:26+00:00",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPLUJsTzMtd0h3QnZ2ZFZjUWZCeE01YzRYMlRiNm1sRUdVcDcyTDBSTV9MdlZZS2E0dmJlZnZBazVSeHZ3UzZoM0YtNGJpWUJLU0dGMG96bk5vZ2dYTk9hMUdRQV9qazdNU19pTkdNdGtOQTUweExfVHY4bnlxVVFnSk91M25ZNFNRTGJCVkZvMzhIQU5kNlc4dHdldVhMOHptc1lmR0t6akk4akxNRVkzSl9rdFdQbnFjd0hqcDFhR0hLY3FF?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Stock Market Today (LIVE): Beazer Tells Dream Finders to Dream On; CPI Comes in Hot, Gas Surges, Treasury Yield Hits 1-Year High",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-05-12T21:24:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSm1ac0s1RjAyS283SWEzR193YVBrYkZtRE84bDhoMzkybVl6NnpWSUYxVlQyaEJLRFM0VkFUUG5yc2hMYjNFMmhoem9RTWx5NG1QTkxoWWRMYUZNeHFTejdVSDlyalhoSWFiS3F2RVREV1pib2gyMURxNkZ5eW9UMw?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20832,7 +20832,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-05-13T03:55:57.585552+00:00",
+      "dataAsOf": "2026-05-13T06:52:37.260696+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
