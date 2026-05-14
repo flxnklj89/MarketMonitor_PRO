@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-14T10:25:40.848553+00:00",
+  "fetchedAt": "2026-05-14T14:28:05.961456+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -28,7 +28,7 @@
     },
     "fedRate": {
       "value": 3.63,
-      "date": "2026-05-12",
+      "date": "2026-05-13",
       "cadence": "daily",
       "series": "EFFR",
       "displayName": "Effective Federal Funds Rate",
@@ -102,7 +102,7 @@
       "cadence": "daily",
       "method": "proxy",
       "components": {
-        "vix": 17.99,
+        "vix": 17.87,
         "brent": 106.11,
         "eurusd": 1.1773,
         "us10y": 4.46
@@ -230,9 +230,9 @@
     {
       "label": "VIX",
       "icon": "⚡",
-      "val": 17.99,
-      "chg": -0.39,
-      "chgPct": -2.12,
+      "val": 17.87,
+      "chg": -0.12,
+      "chgPct": -0.67,
       "unit": "",
       "dec": 2
     },
@@ -6946,6 +6946,10 @@
       },
       {
         "date": "2026-05-12",
+        "value": 3.63
+      },
+      {
+        "date": "2026-05-13",
         "value": 3.63
       }
     ],
@@ -20626,7 +20630,7 @@
     {
       "title": "War, inflation and Trump’s tariffs have shaken the US. Why does the stock market keep going up?",
       "source": "The Guardian",
-      "publishedAt": "2026-05-14T10:01:00+00:00",
+      "publishedAt": "2026-05-14T13:18:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPLWNBam1MNTNBbWdTdFZwNmF2eVZHb1U5bnFBTEdpU01DRzV0enRkN0FEdlprbjJ4Nmt0am1SdWdlZHpsb2ZqN2dnRmp1d2FBdE1RbU5fWnpNbHQ1OEhwanhzV0hFXzg0ZUZlS1lRVGhIUjZjZzFjTHRPUlZ4SDN2bnVKRXBqRXNRUzhBN2dHUVY5bEp2TE1ldTFOclVvY1g1YU42Y2piN0dzUlk?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
@@ -20642,21 +20646,71 @@
       ]
     },
     {
-      "title": "Stock Market Today (LIVE): Inflation Returns. Markets, Beware.; What Inflation Can't Kill (So Far)",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-05-13T23:04:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWjdmUG0yX1JmeHhrLS1tTnZZMlVCY2FsTjNWdHFYeXBSUWJUei1NYUtfSUJ0RlpXYXlLSUM2N1Q5UUcwTk9ybVdrSVlmU0l2VmRCNFJnbkdPYTRqUmxId1lpdXYwRmx1MTNmY2JWOTV5b05LdS1jMWFkQXFHdGFJMQ?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "title": "Warsh's confirmation, Trump-Xi meeting, Cisco earnings and more in Morning Squawk",
+      "source": "CNBC",
+      "publishedAt": "2026-05-14T12:19:07+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeE1YaHE0WmQwWHFOWWdjTGVtbXl2dWtvQmI2YWVjZUR6c3RxMDVTU1pzT1BvVzU5bkNXaHF4dHotYlp2bVd6czhBektkT09ZWWE3dWl3WWJrRGw5ei1vVzVGWWZwMWxzUFZyRWR1NUdiMVNMRTBCNFBOVFdOOTM0WUY0VdIBiAFBVV95cUxOeTJCQVhRdzl0UFRKZUlyVDYweWdaNTRHd3ItTkJYN0xKWUktbDFweGs4N2ZkbGNCZEFSU3pQVFRsWklwZGdoajUyNTRfR05sQkR2WE9LT1JNdFJiLXR3S3JSQ0hFSDJNblpIQWhMVWJ0aXZSWVpabWotZmtIZF9valh2YktKR284?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
-        "Staatsanleihen",
         "Aktien",
-        "US-Dollar",
-        "Gold"
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "What the biggest mid-cycle earnings acceleration on record means for the stock market",
+      "source": "MarketWatch",
+      "publishedAt": "2026-05-14T10:31:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSDAyY05vZUp2NUZ5a2NueDVtQVlEODgyWmR6eDVVZk9rcVZ6Y1h0bWticmVFUUhOTExRLUVNa0JSQjRjUmdoODhjdFhPdEZPamZHbDhTTmptN2sxUVRHZnBNZWtMZ1pOZExkdEpSRHB5YTFYN3JFa19HaGxwb05ZZG1zLVFhWVFZUGJ5di1LblhvMVZOazd2M2xKdmVsTklVaHp2ZEl6bDdfajh6a09CWENIZVNkcHliZUctZGd4dUFqNnpJb3c0?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Latest From Trump-XI China Summit: 8 Key Items Shaping the Stock Market Thursday",
+      "source": "TheStreet Pro",
+      "publishedAt": "2026-05-14T12:59:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUDhSYVVrRU00YzVBMkJtX2Z3aHFxa3RYdWltS2tPa3ZJSjVRZEdmNTQyZzd0NGRpQWJSWGdKRG43cURKQVNqT0VtLXRTREZxS29iTTczRUlqWlItS3c3ODR3VGE2SVFsNFctaTBldGUwTzFqa1h2akVwbFNhSWQ5SFNxRzZQdnFxRm9VRVM5R2pQcHRlUXVFTXZOVFp2Vld6M1dHbjZPejJZeUpTV2YxNHdJNUNEQQ?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
+      "title": "Stock Market Investors Just Got Bad News About President Trump's Economy. History Says a Domino Effect Could Follow.",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-05-14T09:07:51+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWlhyaWJhMnU1R2IzUGpkQ1FYRkJpTjFEbE5Fa2hRZFFETlEzd2lzdlFpNV9Td1pQZm8zV0tjQ2xCWFV4OGRxbnVybVJqc29hbEdmdHNvakZmRlRQbmVZSDI3MC1vdElVamVLRS1lXzF2WHlkTi1yd0hxOEV2TFNoa0lSQVBlOFFxLWJVRTVoT3pub1RHd2JEaA?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
@@ -20674,58 +20728,6 @@
         "Aktien",
         "Anleihen",
         "Währungen"
-      ]
-    },
-    {
-      "title": "Tech Leads Again as Nvidia Goes to China: Stock Market Today",
-      "source": "Kiplinger",
-      "publishedAt": "2026-05-13T20:15:14+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMC0zUmlQV2RrNjhEblZpamdkNk1oQ1lqVlpPeDltT25ILWwwNWM0NUVFbjE3RkZhWXg1Y1Nwb2FfNHhvQ2h2MldiNjRGUG5rTEE1dUtqQVUtczlZTnZCUV9ieENhWnhfTUdGRVZvNWtxakFXeTZvZUJIVXI5Sk5ZTUdRVm8wc1lsczVvN1N5THNlWHZ3NnQ3WWVYUEQwd2FKUV9kdA?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
-      ]
-    },
-    {
-      "title": "Stock market today: Japan's Nikkei hits new high as SK Hynix nears $1 trillion market cap, Wall Street futures rise",
-      "source": "Economy Middle East",
-      "publishedAt": "2026-05-14T05:39:50+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNZ21nY1VtRlJVd2lyRkdqYkhhbl9ZdHZYREpzd3VPc1lBNWxRamFnbTFJOU5YWFBYc1hlUzZKZGNmWVozYncwa0ZnbUxObDRNakpZM0EtNHgxZDFOZzJjb3F1UEpmZVlzaXhDLW44OS1ndEhZU2k3eWNlOWJnSUw2NVowY2FWRVRyanRSY2lkRGNPRUJlTUR1UlNWcE9JUGh0di0yZHVYYlhrMW5hLV85MVVnMEJkbHZncGtYc3ZPZ3RFTHBsMW5QamNmUTJ1bzVJZE9WNVpGQzlWTnc?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
-      ]
-    },
-    {
-      "title": "The Stock Market Sounds an Alarm as Investors Get a Warning From the Federal Reserve. History Says This Will Happen Next.",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-05-13T09:48:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNd2R6Z0JISngydTZPOWtYUTlEUWVOb0w3VFJDZ21WRWV0NEs3QXB4ZGZHcG1zNzNOa3RZTmgwdWc2R0hIVnBMcXpKdl9hcjVSeVd5bkRtc3BRRnlpaWFPdzk0cTBWV1FycHFxdEZLcms5dVN5S1RoQThRQ2JaR1JRZmFTNzVTSlYzaVJDZHVpckk3QVRX?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
       ]
     }
   ],
@@ -20833,7 +20835,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-05-14T10:25:40.848553+00:00",
+      "dataAsOf": "2026-05-14T14:28:05.961456+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
