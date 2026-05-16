@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-16T09:46:29.868480+00:00",
+  "generatedAt": "2026-05-16T13:44:56.724592+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6166,46 +6166,44 @@
       ]
     },
     {
+      "title": "Macroscope | Global stock markets are bubbling along on unjustified optimism",
+      "source": "South China Morning Post",
+      "publishedAt": "2026-05-16T08:30:04+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdVhxU3g0SWw3N1FLUlhsMmdjcGhiUzJWR18zdkMxX0lkTk5MVFlmanJvSTVnaXpTOTE3T3FCZEp0UTRIbHpkakpqNnVia3gxa2VudmQ2a1NLcWlzR0ZCS0lMaFVMdDBvcU44SGxsaEZwdFJNU3kydFY4eG9CbC04Ulk4TVI5Yk8xSEZ4UjlRNXdIWGhKdkJvbWFqVmFnX29GTVZzVzV6QjZ0Qy1rdmtUaXJrdlc3QVpFMm5n0gG7AUFVX3lxTE9YRGlDQjVVWlhDYkZMWGJIRDVES3dyVmhlYml4RWhEZDdVemxweHBZbGRSeHh1SHN3ODR1LUpxbFA4TFp1NlJGbW9QZ19BVTd1d0pzdDIwX3dUb0FyYkdRSDhLeDd0dmthMzZsNkpIWU81UHNCMzNFN0pJVlEwTWZMVGJ3dHJ2dXhXYVpMeDl3V0U0REI0MjEzMGtYZHduTjVuS2xiMk53bm9HdV9uLU8zdUVXMXRacVJnT1E?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Markets Plunge Amid Concerns About Aftermath of China Summit",
+      "source": "TODAY.com",
+      "publishedAt": "2026-05-16T13:29:10+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVEdmczRJRzFuOXpJQThwUGtMZ184Mi1BelF5eWhzSERJNlNpbEJBc0NjS0RrWEhiMlloYlpwdjRVS1dIWjVNWVNQWmJYTHhsczNTM0NZV0FqWGdBbzJRX1psT09SU1NBdTA3UW9vWHVzNkROV2NjU1BTZGJYYmg4WGZoLTd2azlFSGNmNVVlUlBBWnRGcE9sRGVCTHFXT1JoSkJr?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
       "title": "This Week's Market Wrap: Narrow Leadership, Oil And China Trip, And Hot Inflation",
       "source": "Seeking Alpha",
       "publishedAt": "2026-05-16T03:50:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQ0wxQWlBSnhKUG4tcEpScDlCWDN5R3VVcEx3WDBKd0plS1ZGLW9fS0RnQkJtZy1rRzYyeDdETmZsREZ4bEFtRDh2dkZLc0d6aHNCajJaTjZDS3JtRVoxY0lXR2RjY0pYNjVsYzRTV1ZJMXhoVVdXOUxCcmg2MUs0YlhPVjZtTTZ4cTZFZ1liRDlsVFdWeWtGUmZ3MHhVaDViYUlMYk9oRGRYaDhaeUE?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "CPI inflation overshoots as oil prices, rates test S&P 500 (live coverage)",
-      "source": "MSN",
-      "publishedAt": "2026-05-16T01:40:19+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNc1hWdTVFeVhJTHRPUS1vbXpxVlNWTEJUMDQyYXRZakUyV1Q5NnJHVWJaQ2c0S1RpTHV0M3lDek10OHJSNVZ6cFlvbXBLSGp1RHBPb0NEbWN6azdJSHVKVXl0Zi12Y0cxR1BjMmQ5MmZ0ZTZLaG4zWjRZNzhNaTdDbmtUcGZESGpSQ3lpcDNHZEtuZXJCT2NtX1E4SXRaVnRFbDBZQlZCcjBNMkd6VUF6dWxCT1hnWmY2S3BTdVhsX0NZbjdyc19xNUxidENZNFhlbzBNejFLQ0M3UmRVQTZ4X01Zb25HWGM?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stock Market Erases Gains As Oil Prices, Yields Jump; Cisco, Trump-Xi In Focus: Weekly Review",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-05-15T17:12:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONGRQNE5mN2YyVXEwMDNWZ2hXdm5YcHJjUlZhTzNHR3hOOHpzOURCa1dOY0k5el9DR0ZlUU9DRUdlVWNtOXdLdmJQLUdsM2NrVjgxOThxcm9UTzNxR1ZvN0xTZG5kR0xhdVFXWEJCNUgxdEM5bTYtbTZqQ19LRzcxMTRMVQ?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
