@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-21T18:04:31.211474+00:00",
+  "fetchedAt": "2026-05-21T21:40:43.620688+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -105,7 +105,7 @@
         "vix": 17.44,
         "brent": 116.73,
         "eurusd": 1.1627,
-        "us10y": 4.67
+        "us10y": 4.57
       },
       "uiLabel": "Marktstress",
       "shortText": "Verdichteter Stressmesser aus Markt- und Preisvariablen.",
@@ -248,9 +248,9 @@
     {
       "label": "US 10Y",
       "icon": "📉",
-      "val": 4.67,
-      "chg": 0.06,
-      "chgPct": 1.3,
+      "val": 4.57,
+      "chg": -0.1,
+      "chgPct": -2.14,
       "unit": "%",
       "dec": 2
     },
@@ -20628,6 +20628,23 @@
   },
   "news": [
     {
+      "title": "Stocks Are Choppy After Nvidia Earnings: Stock Market Today",
+      "source": "Kiplinger",
+      "publishedAt": "2026-05-21T20:06:42+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNREVmMFRXelFrTDRuMDlDVXJVNHdYWUhlMWZuTFR6LTRRMWQzbXBwVkhhcmRLekdZRHlVeVJpSThmUXRPc0w4RHdIWkFnaFZMMzVUaDJLamtyOVpBb2tqWFEwbGtNclFJMWMyUjRTZ1kxN3lVNXFfbjhET0lYbVZUVU8tMDNLa3R2M19VMDd2ZzBSbkxxWm1mbnBVSzFTUDJkelFF?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
       "title": "Nvidia Earnings May Mark A Major Turning Point For The Stock Market",
       "source": "Seeking Alpha",
       "publishedAt": "2026-05-21T15:11:45+00:00",
@@ -20645,21 +20662,37 @@
       ]
     },
     {
-      "title": "U.S. stocks slip after oil prices rise and Nvidia’s latest profit report gets a yawn",
-      "source": "Pittsburgh Post-Gazette",
-      "publishedAt": "2026-05-21T17:57:42+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWm1aOGFsdXdxRjA0eWx5WmRhcFA5NFdoTmlKOEl4UExpMUF6UGRvNUt4YWhJY0liLXl2NUh2Uk1UTElpeHRwTWVkQ2pKVTNfazd2aUY1Zzc5a0trSDJsUTdJQmxucnI0eUpjYTBHa09zaXRBbkVSRG5qWFRlaURFVXlTakdfUm5FQkdQUDRCdkxlSy1DQmNDQU9JbjhSVV9jTWVzX2NOOV9Rdw?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "Cisco leads Wall Street to more records and the Dow back to 50,000",
+      "source": "AP News",
+      "publishedAt": "2026-05-21T21:36:35+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZU9LMjdTQTYyTkp6OEx3bzRhSXJjTTVyVXktZVlmVVlfMnhDeERFbjBzWndiTkk5Z3hXcWJ2dHRhMklKQUR6ZUtSMFNwMzllaEdhUi1GTDJHRHNhSXBwaVpjVEM0SWRrN09iQ2ZpYmpEcXAwa04tRFhwdG5YVl9RSDEzUnpaOHo5OGlocW5EMVpJM2JzTGFZVw?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Wall St indexes end slightly higher as investors focus on Mideast peace hopes",
+      "source": "Reuters",
+      "publishedAt": "2026-05-21T20:51:59+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZm5kemFMakdFdC1WNFVQd25VSm0xMGU1cml5SVl2QlpqY0xXQ3EwWWliRTdIMWd2LVpob2lBOHVBWDNsNGdYMmxOQTVsdmJKVWRaR0JsT0FQYkJSTVVxMS1fY0dock5qRHhOR0J0bkh3eDBZNlpPeFE0SWlIYjdlekZpQXRaNkMyQUItM29BQlByZzVaY0dnLTBwZ1FBNW9ZdEZxcjExRkhQTS0wakVMckhZSFNRUQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
@@ -20680,46 +20713,10 @@
       ]
     },
     {
-      "title": "S&P500: US Indices Drop as Oil Rebound Shakes Stock Market Forecast",
-      "source": "FXEmpire",
-      "publishedAt": "2026-05-21T15:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNnJLNlRkV2dDZTFWeXVGc0NXRTBhX2hVUDFTOFFQTFhVV2xxUlI4M3F2b0p4OUVZVnFNejFyZ3dDUXMwUVI2Ty1LLUFDZ1p2ZEowUTE2dWdrUVYxaWk1eGtlQldHVG9XeVJuUTZsNEJWU3FWU1pGSnFkbnhNR3ZMYjhOZzVkaGtqanFQeEJfSzFibkJpb2trcXM4VXJ6ZUJiQ1ZDREd3bmQxS1hvV1Q2T0Y0X1BadkU?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "China’s corporate earnings lag behind stock market gains, survey finds",
-      "source": "South China Morning Post",
-      "publishedAt": "2026-05-21T07:59:37+00:00",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT1dqSEh6WHRudjhxcjVmaHNyTTl3bDFUWVVXT2pIb3FJOWxFdVVZdjNwSXRMZWdfNDRYVDJoV2VaQnFTTmZXRnpFVWdhcFJjLUZidTRiUktGLTFGT2xkdzl5TVJIdGpoaUdBSHlKbFFGTU9iNGJrY1ZiYi0ycnFfbVU1dzNjYzctdU4tQWNGclNCQXRhMWliR0lpMXlYMEJ3MVQyZ3Z6anhvZHlTQVc2Skd6cFpzM0dCZS1RTEQtclRxZ2dhX0HSAcYBQVVfeXFMT3FkSzUyMU50VTBteTNVWTBIS1M3YU9TQUJHelJMbzlhNUJFalg5UzlPdUpjT2xJM0ZYVURJVmt6RWl3aUhCcjkxRWo2LUZ6a0ZuSjNuTmxvWi12dG1zOUdOLUlLTWdlQTRROFd6bUctMGE2ZkxCRHV1Z3E3Y3NOQ3liZkp0TFBhS2dBR2J6RHJXeVNqSGsxMHN1elg1MVIwUENPMlYycllMUGVPYi1ZVHV1dXRoQWpQZWYtQjRnVC1UZUpWVnVn?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "US stocks drift after oil prices rise and Nvidia's latest profit report gets a yawn",
-      "source": "San Francisco Chronicle",
-      "publishedAt": "2026-05-21T13:24:58+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORFN4bjhfNllMZ0o0NEl1clBPeEFaQVpZbUJ1eV9ab3lWdlBsTXY1bkM1WmttUWhPakFTNEQtT21sbXdQcUtlVkdxLVpiRy1jYU11QkFVRXhLTmpSYUdYZTN1MzJPQXF5cFJvQVNscEhwVkF2ZFV1Y0VicVpjX1g3SGpsOXMyRzVXUDJENnR5dTFJUmgzdG1uNlR0UU40V3g0RXJ4MzctVUl1NHM?oc=5",
+      "title": "US stocks slip after oil prices rise and Nvidia’s latest profit report gets a yawn",
+      "source": "KFOR",
+      "publishedAt": "2026-05-21T17:08:21+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTTFacXJPaEdCYjJhZVN5YVJBOFdhdUp6NENnR0EtUTV6Tnp5MDZFRmZJaXoxUkVPMVF0QjF3aUxOY3I3dzFKTFdGbXZvNDVlbE45UjE0ZTEweldOYTZXMmxqQVFDRXdWQWFQdGtCeFpVc285bnROZUh5V2F3UVF6X0RzVGlsLWN3RVl5RDNBZFB2NlJzenJJczJYNDBaa1IxdlVlRmR30gGrAUFVX3lxTE45NmRRVEpDZWlERDVscnQwOUN0TkVoYVRNSHJCYk9oQUtBdjFlNHZtQWxXQ3EwVXhqTkJpeXVET2JjT1VDbFBWLUZVdGY4bmxfeXZGNldIRlcxTnAyRE9faFZ3MTI1Xy1ZMERxTEh5MGNLQXV1TTJiSjJLSFAyTnFWalJmYWdwWWpUbldkRFJPa1ctcnE3bnFlOU8tSTg4T3FwTC11TWNaak1uVQ?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20837,7 +20834,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-05-21T18:04:31.211474+00:00",
+      "dataAsOf": "2026-05-21T21:40:43.620688+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
