@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T11:31:55.481599+00:00",
+  "generatedAt": "2026-05-21T15:40:59.361558+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -20,14 +20,14 @@
     },
     "vix": {
       "title": "Relativ ruhig",
-      "value": 18.1,
+      "value": 17.4,
       "unit": "",
       "tone": "l",
-      "status": "VIX bei 18.1. Unter dem langfristigen Durchschnitt von ~17–20."
+      "status": "VIX bei 17.4. Unter dem langfristigen Durchschnitt von ~17–20."
     },
     "breadth": {
-      "title": "60 % über 200T-Ø (Proxy)",
-      "value": 60,
+      "title": "61 % über 200T-Ø (Proxy)",
+      "value": 61,
       "unit": "%",
       "tone": "l",
       "status": "Näherungswert abgeleitet aus VIX-Niveau. Direktdaten nicht via FRED verfügbar."
@@ -517,9 +517,6 @@
           "value": 3.64
         },
         {
-          "value": 3.64
-        },
-        {
           "value": 3.63
         },
         {
@@ -542,6 +539,9 @@
         },
         {
           "value": 3.63
+        },
+        {
+          "value": 3.62
         },
         {
           "value": 3.62
@@ -668,7 +668,7 @@
     "title": "Crash Probability",
     "score": 8,
     "scoreLabel": "8 %",
-    "reason": "Stress 43/100, Rezessionsrisiko 1.8 %, VIX 18.1.",
+    "reason": "Stress 43/100, Rezessionsrisiko 1.8 %, VIX 17.4.",
     "interpretation": "Crash-Risiko derzeit begrenzt."
   },
   "timingQuality": {
@@ -3707,10 +3707,6 @@
     ],
     "vix": [
       {
-        "date": "2025-03-20",
-        "value": 19.8
-      },
-      {
         "date": "2025-03-21",
         "value": 19.28
       },
@@ -4905,6 +4901,10 @@
       {
         "date": "2026-05-19",
         "value": 18.06
+      },
+      {
+        "date": "2026-05-20",
+        "value": 17.44
       }
     ],
     "brent": [
@@ -6129,54 +6129,21 @@
       ]
     },
     {
-      "title": "Cisco leads Wall Street to more records and the Dow back to 50,000",
-      "source": "AP News",
-      "publishedAt": "2026-05-21T05:58:58+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZU9LMjdTQTYyTkp6OEx3bzRhSXJjTTVyVXktZVlmVVlfMnhDeERFbjBzWndiTkk5Z3hXcWJ2dHRhMklKQUR6ZUtSMFNwMzllaEdhUi1GTDJHRHNhSXBwaVpjVEM0SWRrN09iQ2ZpYmpEcXAwa04tRFhwdG5YVl9RSDEzUnpaOHo5OGlocW5EMVpJM2JzTGFZVw?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "S&P500: US Indices Drop as Oil Rebound Shakes Stock Market Forecast",
+      "source": "FXEmpire",
+      "publishedAt": "2026-05-21T15:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNnJLNlRkV2dDZTFWeXVGc0NXRTBhX2hVUDFTOFFQTFhVV2xxUlI4M3F2b0p4OUVZVnFNejFyZ3dDUXMwUVI2Ty1LLUFDZ1p2ZEowUTE2dWdrUVYxaWk1eGtlQldHVG9XeVJuUTZsNEJWU3FWU1pGSnFkbnhNR3ZMYjhOZzVkaGtqanFQeEJfSzFibkJpb2trcXM4VXJ6ZUJiQ1ZDREd3bmQxS1hvV1Q2T0Y0X1BadkU?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Stock Market Today (May 21, 2026): Nasdaq futures rise on Nvidia earnings",
-      "source": "thestreet.com",
-      "publishedAt": "2026-05-21T10:08:30+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQejlPUDUzaXJDY21JaEtCOVRjTTA0Qml4b2dNR3Rqckp4V25KNzMyMVJyUk5OU0pNZS1MNlRrcWdKLVVRRml6QUlpRjhzVENlV1ctZ09TQjJuUHJaWDRFZnJ4NzZlVjNUR1ZCZHl0TkRVWHRYLURUR25QaThRZW5FU0phQWpMNFpTcTA5QjFRVXhXTUdiWHRJYXlpa3hiMUN2X3ZHXzluOUlKSm8?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Nasdaq Adds 399 Points Ahead of Nvidia Earnings: Stock Market Today",
-      "source": "Kiplinger",
-      "publishedAt": "2026-05-20T20:12:20+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQc0N6Z0VBWURVcnc4cHM2NHVnT25ZNURxN3lQMlZ2UW9UWENsaERvdW9BSFdLcmtaSjBrWGU4VEdDNlNHeDRSb0pwWFEwY1NFd2V1YmppMVpLNTZVVFJGRGhSUEh6VHdXbVQ3ZzRYdUozSFc1czhySERXV1M5NzZmQjdELU9xRG1NR2hHdmdWeExhRm5MNnh3cWlSWUQtQmJsMkdqeTdIUHg1VWxpTlE?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
@@ -6198,10 +6165,27 @@
       ]
     },
     {
-      "title": "U.S. stocks rally after pressure eases from the bond market and oil prices fall",
-      "source": "Pittsburgh Post-Gazette",
-      "publishedAt": "2026-05-20T23:10:35+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcGJaMTRSOHlESGNwaFg5TC1Jd2VkOWRSS0d5VVc5Rmgya0VtWU16ZzFNYVZoRlR6UjBnY0hpM0RseV90Nm10cGREV1lscnFpR3BZVDU5REt0TEJUTWxlZDBmbDJZMTM1My05NmF5Wm5UbVBSaFdxQ0dsX0JCVS1PcjVNNE1lVXA5eE84WlQ0cXExbmZucHhOQjJwS3pCSk94anNqeTNxQ3hfZw?oc=5",
+      "title": "Nvidia Earnings May Mark A Major Turning Point For The Stock Market",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-05-21T15:11:45+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMENiT3p3Q0FHanJlUFo4MzFkZnpEejJ1dVNrekZtUG9oTE8zRF9tNVZSRHNvNXc4RGJhWUNtbVBZZzNQM0pSNHZWR0VkaGZSMkphSXFBM29VRXEzamV4YnhaMTdjWTZCZjFiOXlsUWl3TVlVNy1LZDdBMzNvNm11Q0lreG5HZWp0N2ptajJ2WVJtMnljalJwQlgwNFB3Y3pDUGxrZA?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "US stocks drift after oil prices rise and Nvidia's latest profit report gets a yawn",
+      "source": "San Francisco Chronicle",
+      "publishedAt": "2026-05-21T13:24:58+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORFN4bjhfNllMZ0o0NEl1clBPeEFaQVpZbUJ1eV9ab3lWdlBsTXY1bkM1WmttUWhPakFTNEQtT21sbXdQcUtlVkdxLVpiRy1jYU11QkFVRXhLTmpSYUdYZTN1MzJPQXF5cFJvQVNscEhwVkF2ZFV1Y0VicVpjX1g3SGpsOXMyRzVXUDJENnR5dTFJUmgzdG1uNlR0UU40V3g0RXJ4MzctVUl1NHM?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -6213,6 +6197,23 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Nasdaq Adds 399 Points Ahead of Nvidia Earnings: Stock Market Today",
+      "source": "Kiplinger",
+      "publishedAt": "2026-05-20T20:12:20+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQc0N6Z0VBWURVcnc4cHM2NHVnT25ZNURxN3lQMlZ2UW9UWENsaERvdW9BSFdLcmtaSjBrWGU4VEdDNlNHeDRSb0pwWFEwY1NFd2V1YmppMVpLNTZVVFJGRGhSUEh6VHdXbVQ3ZzRYdUozSFc1czhySERXV1M5NzZmQjdELU9xRG1NR2hHdmdWeExhRm5MNnh3cWlSWUQtQmJsMkdqeTdIUHg1VWxpTlE?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     }
   ]
