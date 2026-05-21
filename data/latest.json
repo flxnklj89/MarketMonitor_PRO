@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-21T15:40:55.243931+00:00",
+  "fetchedAt": "2026-05-21T18:04:31.211474+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20628,6 +20628,41 @@
   },
   "news": [
     {
+      "title": "Nvidia Earnings May Mark A Major Turning Point For The Stock Market",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-05-21T15:11:45+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMENiT3p3Q0FHanJlUFo4MzFkZnpEejJ1dVNrekZtUG9oTE8zRF9tNVZSRHNvNXc4RGJhWUNtbVBZZzNQM0pSNHZWR0VkaGZSMkphSXFBM29VRXEzamV4YnhaMTdjWTZCZjFiOXlsUWl3TVlVNy1LZDdBMzNvNm11Q0lreG5HZWp0N2ptajJ2WVJtMnljalJwQlgwNFB3Y3pDUGxrZA?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "U.S. stocks slip after oil prices rise and Nvidia’s latest profit report gets a yawn",
+      "source": "Pittsburgh Post-Gazette",
+      "publishedAt": "2026-05-21T17:57:42+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWm1aOGFsdXdxRjA0eWx5WmRhcFA5NFdoTmlKOEl4UExpMUF6UGRvNUt4YWhJY0liLXl2NUh2Uk1UTElpeHRwTWVkQ2pKVTNfazd2aUY1Zzc5a0trSDJsUTdJQmxucnI0eUpjYTBHa09zaXRBbkVSRG5qWFRlaURFVXlTakdfUm5FQkdQUDRCdkxlSy1DQmNDQU9JbjhSVV9jTWVzX2NOOV9Rdw?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
       "title": "Korea’s Stock Market Is Forecast to Set Fresh Highs",
       "source": "Goldman Sachs",
       "publishedAt": "2026-05-21T08:43:04+00:00",
@@ -20681,23 +20716,6 @@
       ]
     },
     {
-      "title": "Nvidia Earnings May Mark A Major Turning Point For The Stock Market",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-05-21T15:11:45+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMENiT3p3Q0FHanJlUFo4MzFkZnpEejJ1dVNrekZtUG9oTE8zRF9tNVZSRHNvNXc4RGJhWUNtbVBZZzNQM0pSNHZWR0VkaGZSMkphSXFBM29VRXEzamV4YnhaMTdjWTZCZjFiOXlsUWl3TVlVNy1LZDdBMzNvNm11Q0lreG5HZWp0N2ptajJ2WVJtMnljalJwQlgwNFB3Y3pDUGxrZA?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
       "title": "US stocks drift after oil prices rise and Nvidia's latest profit report gets a yawn",
       "source": "San Francisco Chronicle",
       "publishedAt": "2026-05-21T13:24:58+00:00",
@@ -20713,23 +20731,6 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Nasdaq Adds 399 Points Ahead of Nvidia Earnings: Stock Market Today",
-      "source": "Kiplinger",
-      "publishedAt": "2026-05-20T20:12:20+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQc0N6Z0VBWURVcnc4cHM2NHVnT25ZNURxN3lQMlZ2UW9UWENsaERvdW9BSFdLcmtaSjBrWGU4VEdDNlNHeDRSb0pwWFEwY1NFd2V1YmppMVpLNTZVVFJGRGhSUEh6VHdXbVQ3ZzRYdUozSFc1czhySERXV1M5NzZmQjdELU9xRG1NR2hHdmdWeExhRm5MNnh3cWlSWUQtQmJsMkdqeTdIUHg1VWxpTlE?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
       ]
     }
   ],
@@ -20836,7 +20837,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-05-21T15:40:55.243931+00:00",
+      "dataAsOf": "2026-05-21T18:04:31.211474+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
