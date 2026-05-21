@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-21T04:16:21.257196+00:00",
+  "fetchedAt": "2026-05-21T11:31:50.141861+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20624,28 +20624,44 @@
   },
   "news": [
     {
-      "title": "U.S. stocks rally after pressure eases from the bond market and oil prices fall",
-      "source": "Pittsburgh Post-Gazette",
-      "publishedAt": "2026-05-20T23:10:35+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcGJaMTRSOHlESGNwaFg5TC1Jd2VkOWRSS0d5VVc5Rmgya0VtWU16ZzFNYVZoRlR6UjBnY0hpM0RseV90Nm10cGREV1lscnFpR3BZVDU5REt0TEJUTWxlZDBmbDJZMTM1My05NmF5Wm5UbVBSaFdxQ0dsX0JCVS1PcjVNNE1lVXA5eE84WlQ0cXExbmZucHhOQjJwS3pCSk94anNqeTNxQ3hfZw?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "Korea’s Stock Market Is Forecast to Set Fresh Highs",
+      "source": "Goldman Sachs",
+      "publishedAt": "2026-05-21T08:43:04+00:00",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZGpwVDhtbHV0a2RaNDZkSURFWlhXdHhuQWJPOHRjaXRMbW1wWTQ3WnlsU1ZoNzZlOVlIVl8yX1ZPMm5UdDh2VWpWdlFIVERFd1d1akdzRFhDc3RYN0Q2V3EtWVFyN0dldmpDUUlZSHhENjJrYzlXUWNRZGNNLTl5UVI3QVY4UUxLWVMyd2FUek1vbXI2cktHS0oyckN3QQ?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     },
     {
-      "title": "Why End of Earnings Season Leaves the Stock Market Vulnerable",
-      "source": "Barron's",
-      "publishedAt": "2026-05-20T12:13:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUE53WWkzaVY0ODRDOFNETEhXZDJyRjRpWWZEc29ZR29nSGEtNG9tVDVEZXd6aWtnTWpleFlNR1owTDhHTkxvT2cxbl94TW1rZGh3Y21FUXBoYWxTbWNGSDhvWEZqNkdKZjczb2NQdl9uSmpYdVZ2akFkNmUtemhscUF0elNwR0dydmpJeA?oc=5",
+      "title": "Cisco leads Wall Street to more records and the Dow back to 50,000",
+      "source": "AP News",
+      "publishedAt": "2026-05-21T05:58:58+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZU9LMjdTQTYyTkp6OEx3bzRhSXJjTTVyVXktZVlmVVlfMnhDeERFbjBzWndiTkk5Z3hXcWJ2dHRhMklKQUR6ZUtSMFNwMzllaEdhUi1GTDJHRHNhSXBwaVpjVEM0SWRrN09iQ2ZpYmpEcXAwa04tRFhwdG5YVl9RSDEzUnpaOHo5OGlocW5EMVpJM2JzTGFZVw?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Stock Market Today (May 21, 2026): Nasdaq futures rise on Nvidia earnings",
+      "source": "thestreet.com",
+      "publishedAt": "2026-05-21T10:08:30+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQejlPUDUzaXJDY21JaEtCOVRjTTA0Qml4b2dNR3Rqckp4V25KNzMyMVJyUk5OU0pNZS1MNlRrcWdKLVVRRml6QUlpRjhzVENlV1ctZ09TQjJuUHJaWDRFZnJ4NzZlVjNUR1ZCZHl0TkRVWHRYLURUR25QaThRZW5FU0phQWpMNFpTcTA5QjFRVXhXTUdiWHRJYXlpa3hiMUN2X3ZHXzluOUlKSm8?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -20676,10 +20692,28 @@
       ]
     },
     {
-      "title": "US stocks rally as pressure eases from the bond market and oil prices fall",
-      "source": "Chattanooga Times Free Press",
-      "publishedAt": "2026-05-20T17:10:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNVFwWlV0MDFoVmhfSm9ucXhvc2xvUm92cXhIVXNaZUt1cDBfanVoRjRJWmpVWkZDZ3IxZGZzMlJEZm4zTmlMTVgwcmpyc3AxTlVsTGJ2ZUdCNGJ0WUxPZkc4VUw5TWRxdjhIODJJcW5XMngwWWVTTkFWYzVabkFENk5XajNDU1VGVGpiTkxOXzF0dVZUQ0ZNZXc1UDFVRTVlUkl3NUdJRURHdkRBNUMycEtKanRFMkUzMEhleUl0WkMzbzk4cGc?oc=5",
+      "title": "China’s corporate earnings lag behind stock market gains, survey finds",
+      "source": "South China Morning Post",
+      "publishedAt": "2026-05-21T07:59:37+00:00",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT1dqSEh6WHRudjhxcjVmaHNyTTl3bDFUWVVXT2pIb3FJOWxFdVVZdjNwSXRMZWdfNDRYVDJoV2VaQnFTTmZXRnpFVWdhcFJjLUZidTRiUktGLTFGT2xkdzl5TVJIdGpoaUdBSHlKbFFGTU9iNGJrY1ZiYi0ycnFfbVU1dzNjYzctdU4tQWNGclNCQXRhMWliR0lpMXlYMEJ3MVQyZ3Z6anhvZHlTQVc2Skd6cFpzM0dCZS1RTEQtclRxZ2dhX0HSAcYBQVVfeXFMT3FkSzUyMU50VTBteTNVWTBIS1M3YU9TQUJHelJMbzlhNUJFalg5UzlPdUpjT2xJM0ZYVURJVmt6RWl3aUhCcjkxRWo2LUZ6a0ZuSjNuTmxvWi12dG1zOUdOLUlLTWdlQTRROFd6bUctMGE2ZkxCRHV1Z3E3Y3NOQ3liZkp0TFBhS2dBR2J6RHJXeVNqSGsxMHN1elg1MVIwUENPMlYycllMUGVPYi1ZVHV1dXRoQWpQZWYtQjRnVC1UZUpWVnVn?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "U.S. stocks rally after pressure eases from the bond market and oil prices fall",
+      "source": "Pittsburgh Post-Gazette",
+      "publishedAt": "2026-05-20T23:10:35+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcGJaMTRSOHlESGNwaFg5TC1Jd2VkOWRSS0d5VVc5Rmgya0VtWU16ZzFNYVZoRlR6UjBnY0hpM0RseV90Nm10cGREV1lscnFpR3BZVDU5REt0TEJUTWxlZDBmbDJZMTM1My05NmF5Wm5UbVBSaFdxQ0dsX0JCVS1PcjVNNE1lVXA5eE84WlQ0cXExbmZucHhOQjJwS3pCSk94anNqeTNxQ3hfZw?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20691,40 +20725,6 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Shares rally on Nvidia earnings, Samsung strike suspension",
-      "source": "Reuters",
-      "publishedAt": "2026-05-21T01:25:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1UVmVlNHl2RjhtUWdKLUdMcUdnMEtONldOakJvWHhBMzJiZXI1RWMxc0tqN2k4eThMR3VXRDdWTTJPT3dhRlV4VnBKR05ZdFlVS2hhNUtNM3dJOVN0emJmclVIT2dSYV9CUV9TdFBrcEJOVzFzYzZTYmZNQQ?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Nvidia Earnings Mark Potential Turning Point for The S&P 500 and Stock Market",
-      "source": "Mott Capital Management",
-      "publishedAt": "2026-05-20T22:26:06+00:00",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVnhiQ2VHNnpkeENYOHpFc2EwcVpDNDVQWTVKcjBSVTlBMlgwRldoQlFFUjRTTWgtTS1yMVJTbDR2eUktVjloY3U4dmp2ZXktNHlpdzlWX3ZlLVBnTWJrTzl1YklGUm1aZXVFX1laWXlKel9OdFhtdXFkZHBOTlNqTW8tUy0xb3ByM0dnQjZUb3NnQV9IYU13b2VqVW1sUTYxbkx2WmtjcFNHMWxOWk1BYQ?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
       ]
     }
   ],
@@ -20831,7 +20831,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-05-21T04:16:21.257196+00:00",
+      "dataAsOf": "2026-05-21T11:31:50.141861+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
