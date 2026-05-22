@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-22T04:11:30.112520+00:00",
+  "fetchedAt": "2026-05-22T10:55:45.311921+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20624,6 +20624,24 @@
   },
   "news": [
     {
+      "title": "Oil Climbs on U.S.-Iran Uncertainty, Stock Market Rally Holds",
+      "source": "WSJ",
+      "publishedAt": "2026-05-22T08:28:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQODBPa0g0T196aWNBNl9sZ3dyZjkyTm9pbEQ2TTMxZHotRHdVcmh2TjZzZGtJZmN6RmEteXY3VFBFbnZtTlMtVTNaMFROeDQ1UWNqOTBPQk15UktieVc3ZFJOWVhIN2NZZXlvYXJTZ0hKZmJFNEFTamNDTWJsRTR6WlZFOVNEbnpYd2R0YlpLRUd2MlFIY3ItZElMazY?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
       "title": "Stocks Are Choppy After Nvidia Earnings: Stock Market Today",
       "source": "Kiplinger",
       "publishedAt": "2026-05-21T20:06:42+00:00",
@@ -20641,20 +20659,20 @@
       ]
     },
     {
-      "title": "Cisco leads Wall Street to more records and the Dow back to 50,000",
-      "source": "AP News",
-      "publishedAt": "2026-05-22T01:30:50+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZU9LMjdTQTYyTkp6OEx3bzRhSXJjTTVyVXktZVlmVVlfMnhDeERFbjBzWndiTkk5Z3hXcWJ2dHRhMklKQUR6ZUtSMFNwMzllaEdhUi1GTDJHRHNhSXBwaVpjVEM0SWRrN09iQ2ZpYmpEcXAwa04tRFhwdG5YVl9RSDEzUnpaOHo5OGlocW5EMVpJM2JzTGFZVw?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Stock market today: Japan’s Nikkei, Wall Street futures rise as dollar hovers near six-week high amid U.S.-Iran talks",
+      "source": "Economy Middle East",
+      "publishedAt": "2026-05-22T08:05:29+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNbzJLOW5hRGFSclR2cEpBWlJpR3JKcVpuSzkwS1hicVhMSlZMakVvUi1ZUTQ2Z3Z4TTlZTmJaVnFYaXh6bUhoajZSMkpsRTJEWVUwX0F0LTZCbktXNks3ZFJNSFZRLVVQQUQzOXMyQ2VTSVBpakZqR1NzVVpPU0tHM1BRbXhOR2tkRUpMTkJfNERKLXoyY3pHbWptT3VUVGlWUkt1UWJYZ01Cd1k2YVFKTTBZSkExemJIMm9LcEV5VmhRNGNLbEJUNnN4SVp2N09FY3pHR2djVDJnM2g2QnVNdXJSUQ?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
       "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
       ]
     },
     {
@@ -20707,23 +20725,6 @@
         "Aktien",
         "Sektoren",
         "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "How state media and borrowed money inflated China's stock market to a breaking point",
-      "source": "MSN",
-      "publishedAt": "2026-05-21T20:52:06+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWGF6X1NuZ1JybC16amoxSXNfWkFPbHJmOXlvaXNlMUU2YWEwS19iMFZXb21ZaW9qLVBQcTBxbU9md3ZPTkFHc0VhcGFhR0ZDZzlYS3NzSzFxZlhDaHBweFlvWjRicDBnV2dxN01LSFl2VFZOOUp3V1BjZmkyUGttVGtzQ2xUakxmQzNqOHdCOXZtZERlUi1vY2s4VnRVUG1XYXBHUkotaGt5MTZ6R2U4Nko5OEdIaW13cFdfazBkTFNvTUVDR0I1RFVMdldfOGgxeElLR1BmbjdJMzJqaGstaTFR?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
       ]
     }
   ],
@@ -20830,7 +20831,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-05-22T04:11:30.112520+00:00",
+      "dataAsOf": "2026-05-22T10:55:45.311921+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
