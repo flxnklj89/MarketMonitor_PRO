@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-23T06:38:09.178297+00:00",
+  "generatedAt": "2026-05-23T09:59:15.212325+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6147,6 +6147,23 @@
       ]
     },
     {
+      "title": "Korea’s Stock Market Is Forecast to Set Fresh Highs",
+      "source": "Goldman Sachs",
+      "publishedAt": "2026-05-21T08:43:04+00:00",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZGpwVDhtbHV0a2RaNDZkSURFWlhXdHhuQWJPOHRjaXRMbW1wWTQ3WnlsU1ZoNzZlOVlIVl8yX1ZPMm5UdDh2VWpWdlFIVERFd1d1akdzRFhDc3RYN0Q2V3EtWVFyN0dldmpDUUlZSHhENjJrYzlXUWNRZGNNLTl5UVI3QVY4UUxLWVMyd2FUek1vbXI2cktHS0oyckN3QQ?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
       "title": "Stock Market Week Ahead: Marvell, Dell And The Fed's Inflation Gauge",
       "source": "Investor's Business Daily",
       "publishedAt": "2026-05-22T15:45:00+00:00",
@@ -6165,10 +6182,10 @@
       ]
     },
     {
-      "title": "Korea’s Stock Market Is Forecast to Set Fresh Highs",
-      "source": "Goldman Sachs",
-      "publishedAt": "2026-05-21T08:43:04+00:00",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZGpwVDhtbHV0a2RaNDZkSURFWlhXdHhuQWJPOHRjaXRMbW1wWTQ3WnlsU1ZoNzZlOVlIVl8yX1ZPMm5UdDh2VWpWdlFIVERFd1d1akdzRFhDc3RYN0Q2V3EtWVFyN0dldmpDUUlZSHhENjJrYzlXUWNRZGNNLTl5UVI3QVY4UUxLWVMyd2FUek1vbXI2cktHS0oyckN3QQ?oc=5",
+      "title": "Stocks Are Choppy After Nvidia Earnings: Stock Market Today",
+      "source": "Kiplinger",
+      "publishedAt": "2026-05-21T20:06:42+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNREVmMFRXelFrTDRuMDlDVXJVNHdYWUhlMWZuTFR6LTRRMWQzbXBwVkhhcmRLekdZRHlVeVJpSThmUXRPc0w4RHdIWkFnaFZMMzVUaDJLamtyOVpBb2tqWFEwbGtNclFJMWMyUjRTZ1kxN3lVNXFfbjhET0lYbVZUVU8tMDNLa3R2M19VMDd2ZzBSbkxxWm1mbnBVSzFTUDJkelFF?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -6179,23 +6196,6 @@
         "Aktien",
         "Sektoren",
         "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Consumers Flash Recession Warning as Trump Economy Sentiment Implodes",
-      "source": "24/7 Wall St.",
-      "publishedAt": "2026-05-22T16:24:46+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWjJtLUtiVUpKVVI4bGx2MnhwRDJoZUVzeHB3cGJHWE0wd3NuYnhBSGtpb1Nob3VLM3dzOWZDTHI3cnF1UUV3Nmd2RUdHRnZpOHVxZXV6emstLWY1X1QtNkJGSi14M0dhSng1Q2N2X2hrejBSaFI2UXN1WmtVSDMwc09TZFNKYzlQUDlWUzV3eTdIRzBVZmVNQWt6Q2d5RU9uX3h0czZfTXNmc1FvdTQySnBlOA?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     },
     {
