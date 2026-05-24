@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-23T21:00:06.718537+00:00",
+  "generatedAt": "2026-05-24T04:10:08.142047+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6130,6 +6130,23 @@
       ]
     },
     {
+      "title": "Korea’s Stock Market Is Forecast to Set Fresh Highs",
+      "source": "Goldman Sachs",
+      "publishedAt": "2026-05-21T08:43:04+00:00",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZGpwVDhtbHV0a2RaNDZkSURFWlhXdHhuQWJPOHRjaXRMbW1wWTQ3WnlsU1ZoNzZlOVlIVl8yX1ZPMm5UdDh2VWpWdlFIVERFd1d1akdzRFhDc3RYN0Q2V3EtWVFyN0dldmpDUUlZSHhENjJrYzlXUWNRZGNNLTl5UVI3QVY4UUxLWVMyd2FUek1vbXI2cktHS0oyckN3QQ?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
       "title": "Snowflake Stock (SNOW) Opinions on Federal OneGov Contract and Earnings Outlook",
       "source": "Quiver Quantitative",
       "publishedAt": "2026-05-23T17:33:00+00:00",
@@ -6166,6 +6183,23 @@
       ]
     },
     {
+      "title": "Nvidia says its forecast for $200 billion CPU market includes China By Reuters",
+      "source": "Investing.com",
+      "publishedAt": "2026-05-23T19:40:01+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUnJ6b0J5ZHp6QzU5SE8zTEhrdW1GazBkeTYwenV2MDd3bzY0Nk5PN29CVEJZT1Y2X1M1OWIyYTZUUmFWWUV4Z0pLbHdFRWUxX3YzazhYWTg2SGxScnBZYWJEeFhnUlV2MDZEMkF0a1A1cG1KNEJONzl3dFhGZnR0UC1pQm93aWhEMll5SVRIRUNIUm9mbWxSUmFMNUxpeXJrVkMtWVpfX1hXZFh5UjF6RVFRUXJLX0V0djktMGRDQWw?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
       "title": "Stocks Are Choppy After Nvidia Earnings: Stock Market Today",
       "source": "Kiplinger",
       "publishedAt": "2026-05-21T20:06:42+00:00",
@@ -6180,41 +6214,6 @@
         "Aktien",
         "Sektoren",
         "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Nvidia Earnings May Mark A Major Turning Point For The Stock Market",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-05-21T15:11:45+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMENiT3p3Q0FHanJlUFo4MzFkZnpEejJ1dVNrekZtUG9oTE8zRF9tNVZSRHNvNXc4RGJhWUNtbVBZZzNQM0pSNHZWR0VkaGZSMkphSXFBM29VRXEzamV4YnhaMTdjWTZCZjFiOXlsUWl3TVlVNy1LZDdBMzNvNm11Q0lreG5HZWp0N2ptajJ2WVJtMnljalJwQlgwNFB3Y3pDUGxrZA?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "AI Energy Infrastructure Stocks Near Buy Points: 'Pep In The Step'",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-05-23T12:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVzR5STF6Y1YxVHdPUzBLQnhUdC1vdUlIeWRpdjZYWG5VRldOZW1lZVI3SDVFSnN5Y1RtWm95SjhwU1NPMnFNWHU3RkNhOU10VVlXWlpaQmlhS0NEWjV4RTJDMmhKb3V6ZHd2UmEzZ2FOdktBTzBaOWdNU1R4V193ZFdwLTF3dElvYS0tR3QxOTFVTm5kNDZr?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
       ]
     }
   ]
