@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-24T13:47:49.513482+00:00",
+  "fetchedAt": "2026-05-24T17:10:34.635626+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20642,7 +20642,7 @@
     {
       "title": "Stocks and earnings surge, and Iran deal may be imminent: What to watch this week",
       "source": "Yahoo Finance",
-      "publishedAt": "2026-05-24T11:43:38+00:00",
+      "publishedAt": "2026-05-24T15:20:52+00:00",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOOTBnYVJLT0R2cTR2MU1aamZEODVJSWpGeVNVNkNheG1lbVptdFRrdGhRb1FMUGxUUDM4eWZaRFRibkhCRzAyMk9YVm4za3NnM2w2T3ViUHVVTXhJWTktdmVGOUVGdkx3MjZESTlWQXU4dnBxbEpTd2tOTEZPNUhjQzZkeHd3clJqdW5OZF91MzBuYjNWTHk0dmNpaXdPUkI4SmNKOGQ0RF9PVGJnYWVYR0JMSVl6ZFVVQndNV0h6SVc4ZDA?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
@@ -20657,9 +20657,9 @@
       ]
     },
     {
-      "title": "How Will Futures React To Iran Deal Hopes?",
+      "title": "Futures Due; Iran Deal Near But Key Details Unclear",
       "source": "Investor's Business Daily",
-      "publishedAt": "2026-05-24T12:04:00+00:00",
+      "publishedAt": "2026-05-24T13:28:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZUNENE00Wng2TVMzQnhmVmZQTmg4T2dkZklIMXF4NWxYN29tZm5FUm56VzJwNENHSF9UODh5UUQ3MWFMZG9iMDdzYzdiR21Wdjl2alZHclRpQ25OWXpOQ3ZvUkc1UHVBSHhfTnByQ2FNekUzSUoyMVk1WnRKTmtUb3VVVnM5TDh5c3dhRDZaMzFiMzZNMjJjN1JHdUZoZlQ2Z1I4WHNGUzc2TW5FZW1LYzdn?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
@@ -20691,6 +20691,23 @@
       ]
     },
     {
+      "title": "As stock market rises, University of Michigan reports consumer sentiment at record low",
+      "source": "MLive.com",
+      "publishedAt": "2026-05-24T14:12:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQUJaM0U4NGxvS0pkRlBweGN0bzlOZF9NSXEyT3lOLVR5N19sU2s3MU0yS3JxdUNXVlRtMkppWDNkTEVhbEZpbHhZYUo0RXpkV3k5VXZsZ2hnSkFjYTFOb3lub01xekg5bnhzNm5TU0RLXzR2V3Jyc1cyNVcxTlBaRkhHNmhmTkNub0ZpUTJnMmFUVEc5SnNIME5OV3MxZUY4ZXE4WHRmQjdZcGlzSlMwdHd2c1lCb184WnVtSG1SYjVDdGI5SzRNOWhZVnRVaTI3bE1DMXZSNNIB1wFBVV95cUxNQUJaM0U4NGxvS0pkRlBweGN0bzlOZF9NSXEyT3lOLVR5N19sU2s3MU0yS3JxdUNXVlRtMkppWDNkTEVhbEZpbHhZYUo0RXpkV3k5VXZsZ2hnSkFjYTFOb3lub01xekg5bnhzNm5TU0RLXzR2V3Jyc1cyNVcxTlBaRkhHNmhmTkNub0ZpUTJnMmFUVEc5SnNIME5OV3MxZUY4ZXE4WHRmQjdZcGlzSlMwdHd2c1lCb184WnVtSG1SYjVDdGI5SzRNOWhZVnRVaTI3bE1DMXZSNA?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "Stock Market Investors Just Got Bad News About President Trump's Economy",
       "source": "The Motley Fool",
       "publishedAt": "2026-05-24T09:48:00+00:00",
@@ -20712,23 +20729,6 @@
       "source": "NYSE",
       "publishedAt": "2026-05-22T22:00:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE93UWVlU3g1TVNpdTNEcjI2Yk9kSHU2Tnh5Y0stVFBGRWVkLW9wbU1EbHhQaHdIOE56d2V5NXVhSQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "5 moves retirees should make before a recession hits — so you're never forced to sell investments at a loss",
-      "source": "moneywise.com",
-      "publishedAt": "2026-05-24T12:46:01+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbHYzZkoyRTFIdDdfLWtLYXBWd2ZDZjR5YTlHNmJhRE0yZWQtTmVhal84Y2kwd1RvV2Z0aGduSGVqUDYtS3FHX0M4b2NSS05ZNXU2V2ptbDZwY0lCUzg4TE1RY1JwdkwxMThSRnk5M1BIdXdjMWt4RTNXRDQ3WC02WFRHdENya2hyTTF6X3FvdFlHRmdfTElkYW93QUcySE4yanZiWmg2aw?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20845,7 +20845,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-05-24T13:47:49.513482+00:00",
+      "dataAsOf": "2026-05-24T17:10:34.635626+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
