@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-25T15:25:32.220237+00:00",
+  "fetchedAt": "2026-05-25T17:48:27.349372+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20657,9 +20657,9 @@
       ]
     },
     {
-      "title": "Dow Jones Futures Rise, Oil Prices Fall: Trump Says No 'Rush' For Iran Deal",
+      "title": "Dow Jones Futures Rise, Oil Prices Dive On Iran Deal Hopes; Trump Says No 'Rush'",
       "source": "Investor's Business Daily",
-      "publishedAt": "2026-05-25T12:32:00+00:00",
+      "publishedAt": "2026-05-25T15:19:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZUNENE00Wng2TVMzQnhmVmZQTmg4T2dkZklIMXF4NWxYN29tZm5FUm56VzJwNENHSF9UODh5UUQ3MWFMZG9iMDdzYzdiR21Wdjl2alZHclRpQ25OWXpOQ3ZvUkc1UHVBSHhfTnByQ2FNekUzSUoyMVk1WnRKTmtUb3VVVnM5TDh5c3dhRDZaMzFiMzZNMjJjN1JHdUZoZlQ2Z1I4WHNGUzc2TW5FZW1LYzdn?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
@@ -20849,7 +20849,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-05-25T15:25:32.220237+00:00",
+      "dataAsOf": "2026-05-25T17:48:27.349372+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
