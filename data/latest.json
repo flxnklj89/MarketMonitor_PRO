@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-27T04:20:37.558164+00:00",
+  "fetchedAt": "2026-05-27T11:43:32.897153+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20626,7 +20626,7 @@
     {
       "title": "Weekly market commentary",
       "source": "blackrock.com",
-      "publishedAt": "2026-05-26T23:10:03+00:00",
+      "publishedAt": "2026-05-27T05:10:25+00:00",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
@@ -20641,10 +20641,62 @@
       ]
     },
     {
-      "title": "Asian shares are mostly higher, tracking Wall Street’s fresh records, and oil prices fall",
-      "source": "WTOP",
-      "publishedAt": "2026-05-27T03:42:04+00:00",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNN2dRMldkMmRhcFpUZzlVaTRGa2kzb1dKZVREZGgzYUtXaGJaVEVJdndjX1pRblhpZUJKeWdZalAxcEVlc3hrVi1FMl92MEt5Y2FJeFJLZU1sZ2lvYmlFam45NV9kclNPTlBLU09PSkRNQUdVeV90QmNHVDhKMUVZX09ERFlZYVBOZDlzVjZLRFlMT1JXRy16QVkzRzloVnFEaFJFVkRjOTZzRU1keEdXRmlVcDVDV2VadVprdXBB?oc=5",
+      "title": "Iran war splits global markets into clear winners and losers",
+      "source": "Reuters",
+      "publishedAt": "2026-05-27T08:58:01+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPU3JBNm9iSW1POHNTQjJuVUFsOWFMSEU2T1ZLSEpQRHhPNkc3WWV5WEM2Z1ZBd1BTeTl3ZzVITEg4VjFsd0hGb1pzRG94N1E0STQwUTRVZnh6cDRYUGVuRUxJODAwelh4V0FJVmdBbFd1SWF4RnNSb1JaR3VvQW5JQl96bVBHLVpD?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Stock Market Investors Got a Final Warning From Fed Chair Jerome Powell. History Says This Will Happen Next.",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-05-27T09:13:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOd0dmQlpLajk0WjhkMW9lN3hjdTdiSUxDYnpkbkwteTI2SHozbE5JN21tdzA0QnU0TlhTanBSb1RPYnJxRGVtQUlMWjUyck5PaGFyM2FzT2NnckZVa3FJV2pTY2tfREpTdXVBWDVqcV9HcXVlTEI5bkZtN2tveVV6VFNzNXRSdFpuNHdjTGpIWkpjRjZGNzNzRk84ZHlxQQ?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Futures Rise After Market Hits High; 5 Stocks Flash Buy Signals",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-05-27T03:10:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcjBJNmZuc05xanVPS0dhRHhnZUpENW5tdzJ4ek1jY1hRdXpvX29TQl8xc2JwRDAwbm5CanZ5Vm5jelNsOW1DTTlHUXJKZGlsRE05eEJwUVYzNUFDWjJqRzJqcEVjNTZDcm9vMkJwdS1KbzB3TXpLR293UUFkQXBIRV8xQ1pvbUpvVmJhcGc2STBzcmVXN2FlMmVVNHl1SlN4OExtZ0tKSURDdDVI?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Asian shares are mostly higher, tracking Wall Street's fresh records, and oil prices fall",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "publishedAt": "2026-05-27T06:37:13+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRDVqZXZabjV1N3dvaVJuQW9rbS01SkVRNFRGM183WjdQRldBOWhBNTRNWXctLWdTeU1QaXlMbWVTSDVqeXR4T3N2a1JPUTFWTXMyc3d3Z093NVVqdDlpbkxMZWVIUlh3UlNndDB4ODFwUXJUSUltWlhZSl9KU01TQnlTNzdhWEN1R0dJTHNtZ0NDdEJtMi10dERENDhGeW8?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20661,60 +20713,8 @@
     {
       "title": "As US stock market hits new highs, 2 of 3 Americans are cutting back on spending, survey shows",
       "source": "Audacy",
-      "publishedAt": "2026-05-26T20:39:28+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSHl6TlI2clk4UG9EOThMQXRtY3J1Z2RUY2lDdGhzLUNqejFMQUhFVExNTnBIbVdPN1Q5Y0VOQnI5N1RaYUlQYll2d2FULWFfQ1FobzFHdFI2NWZ1Q3Fhb2FTTkZYb1VhdTJCbGEzVGdiTU9hSFJldUxNUFZXX2FtNXdxdEJKNHY2aFRBQVU1R2MtUEtKTDk4d3JWZGtSdDlRWWM2RXNubDNlWWZu?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Why inflation, not growth, is what really matters for the stock market",
-      "source": "MarketWatch",
-      "publishedAt": "2026-05-26T14:11:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNHc2UVdYZDR3ZlZyVDd4OWl2UXJnZ0Q1Qk5MSXc3SHFMQ0JEdkJxWU9sUWdHYW40MHhVSVBGdHlwMHFWdFkzM3c2Yk1Tb05FbURMNFNPVUdMTkFiWXV5TWVnajQySXdoUEkxb0JzMDVpN25xM2lpWDdUWElXLXMtQ2VTdUhvZ2xEd2xqMGRwV1JVd1Jxd0pfWldLU2N2d1Vic2Voek5aVElsaEF0WFJOZA?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "Stocks mixed as investors shrug off renewed fighting in Iran",
-      "source": "CBS News",
-      "publishedAt": "2026-05-26T13:59:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1YdXVJbDhtYzBFT19QLXJWdDhPTndvS1lOSnFINmJRdElQWWJhenFQM0RBNkh3M29tT0VEYjBQempBT1NaU2oycnJ1NmhHenlPcTRldHVkZjlOVUhkLXd6VUEwaVM2XzQtLTBuN0FUb0dkQdIBd0FVX3lxTFBpbHh5Q01WUkxvcnU1SUwtYmdtckM5dkxZb2pIQmQ1MVZMZmZfc2Q0V0dQNGpNOW1MSlZDeXhOOFlKRjE4MHI3NHhnVmVtQVA1dVpTMDVTazhBNV9UX1l4anBlRjJEQnJKM0VjRm1USDUtZUQ4RHow?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "5 Things to Know Before the Stock Market Opens",
-      "source": "Investopedia",
-      "publishedAt": "2026-05-26T12:24:44+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTTZOZ1ZnTWFPUFBCdEsxYmo3NXVjemNMMDVELUZQR0hfc0FVcmZHaVZfZHdnenlQNEgxSHNQRWhHQ1R2MGtnWDhWRGtxSlB0UkhsWVpqeUhiT01KdnJVaU9tTlVWNTZ6SmtOR2JvcGcyQUNGOXRwT25LeWZqbkFvVVBvMGwyTmNCRmYxQm1IZTFPVHFxbVA3c09sdDY?oc=5",
+      "publishedAt": "2026-05-26T19:54:50+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYnQ4dEw1WnRINDZaeTVTY3lCcV90bUNFMDdha3FUR0E0Z1gxeXlBa04tM015VHpmaUxFSUpZRGpGOHE4bkU0REpiN0F0QUh2RzlTTFN6dTl0OEU0WmowUlMzdHB2T19PcnVmZjRtNFhRQ0R3YkticGNCZVd6RWtQZUlaTkFySUE4NGZJek5NSW9HRFYxdlZtelhxRzRQY1pMZjI1NTRwT2RrYTg?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20831,7 +20831,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-05-27T04:20:37.558164+00:00",
+      "dataAsOf": "2026-05-27T11:43:32.897153+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
