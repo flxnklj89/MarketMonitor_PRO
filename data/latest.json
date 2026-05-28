@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T16:13:18.660930+00:00",
+  "fetchedAt": "2026-05-28T21:59:56.152987+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -96,16 +96,16 @@
       "confidence": "low"
     },
     "tradeStress": {
-      "value": 43,
-      "label": "Erhöht",
+      "value": 34,
+      "label": "Entspannt",
       "date": "2026-05-27",
       "cadence": "daily",
       "method": "proxy",
       "components": {
         "vix": 16.29,
-        "brent": 116.73,
+        "brent": 102.75,
         "eurusd": 1.1603,
-        "us10y": 4.5
+        "us10y": 4.48
       },
       "uiLabel": "Marktstress",
       "shortText": "Verdichteter Stressmesser aus Markt- und Preisvariablen.",
@@ -239,18 +239,18 @@
     {
       "label": "BRENT",
       "icon": "🛢️",
-      "val": 116.73,
-      "chg": 2.77,
-      "chgPct": 2.43,
+      "val": 102.75,
+      "chg": -4.15,
+      "chgPct": -3.88,
       "unit": "USD",
       "dec": 2
     },
     {
       "label": "US 10Y",
       "icon": "📉",
-      "val": 4.5,
-      "chg": -0.06,
-      "chgPct": -1.32,
+      "val": 4.48,
+      "chg": -0.02,
+      "chgPct": -0.44,
       "unit": "%",
       "dec": 2
     },
@@ -20598,36 +20598,53 @@
       },
       {
         "date": "2026-05-20",
-        "value": 43
+        "value": 37
       },
       {
         "date": "2026-05-21",
-        "value": 43
+        "value": 37
       },
       {
         "date": "2026-05-22",
-        "value": 43
+        "value": 37
       },
       {
         "date": "2026-05-25",
-        "value": 43
+        "value": 37
       },
       {
         "date": "2026-05-26",
-        "value": 43
+        "value": 37
       },
       {
         "date": "2026-05-27",
-        "value": 43
+        "value": 34
       }
     ]
   },
   "news": [
     {
-      "title": "Oil prices climb, but US stocks hold near their records",
-      "source": "LancasterOnline",
-      "publishedAt": "2026-05-28T12:57:36+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQblZySEJIMWNvUkh4T0xHZFA2ZFYxQ0hFSFk0T0ZYUUFPLUlJRWpQaVJJaWw3Ylp2ZFpxUVQwclhVYXRpWWVFb1k3ZUUtNm8tYndLUXB2LTdESmtKVVhJamRpYzNsMkRYNnBUMS13UlBXS3ZFSERtNXJkX3RsNnFoS0htSW9tUllQbGJWU1lPTnlRVWZKa0IyRWpUdXlQRnRGWU9zMi1TaVhqVzFzN2N0MjFNaDU1WHdxT1FHbTMxMmtzMUh0aFk5RzktMHVRSEsycGJoeElwYXV2SFlGMEcweE93M0hIcVVpeldPQTEzQWxaZlppU1BhUGtlTklXbXBBYjFTVTlFQ0Y?oc=5",
+      "title": "Stock Market Today, May 28: Tech Stocks Rise as Snowflake Surges After $6 Billion Amazon Deal and Strong Earnings",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-05-28T19:06:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPUXhDRGNybUlFbkZ2OWxReXZFSkU0clVSUUJUYTY4UGFwT0hfSVVLbWhZMEdjd0pWenA2ZDJhX0tUdzZSVWlkUzlmTjZMWUdkV0ZrUVR1Y1pWX2JEUUhnck5Wc2RUd1c5bko3b2cyVWhxWlBNdzlVUndpcXQwTm9KU2pIYy1lZkx2YXhiUlFFU25kRS13YnB4Q3lSTEVqaG1JV05GdlJEYUZGNlUtTVNpZmxtVllubWJ5OXQtaXdSUTlyV2M2YnlKTl9Cd2ZaekMtOUh3cEdsZ1ZLMkFlTmNuWEMxZ3NPaWd4R21Ic19UNF9JeFg3dTFhMUdmZUswZ3RhdmFNRQ?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Inflation Shows No Sign of Letting Up, Rising 3.8% in April on Oil Price Spike | National News | U.S. News",
+      "source": "U.S. News & World Report",
+      "publishedAt": "2026-05-28T14:19:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQM0RkbWtvbXg4TENqWEdnMjlBSlFLQURISU1INFpjNGNSd013VDVjRmdqNUlBQjV1TVhCUHpod1RwdG5jaWNjNnVtWHIzWC1kT2w1enJHNE5SMlVDak5SSENaZFJiTXd3TTlQa1JBSEFyQmNDLUx0VlBULTl0MG1lclFIU1VYRGx2RjBZLU5IRTNSSXRILU5kQktFWGhzMG9pTHBZaUJva3R5YWo2OG1rUUs0ODlMQTBZallzd1h2bTQ3dzBWR2NJSFMwclN6dWIzNk9SUg?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20642,10 +20659,45 @@
       ]
     },
     {
-      "title": "Wall Street pushes to more records as profits keep piling up for U.S. companies",
-      "source": "Pittsburgh Post-Gazette",
-      "publishedAt": "2026-05-28T15:30:53+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNjJkTGE3Yk4teDZtTlUyYlhMYnpUdnk3WklWWlJpTVZzd0h1THdIUGJla04wRzJpLWVPWXRncDNBU1Z6U1VCVUZ6RGFJZU5sMlgtUXUxTnJOT2ZodGl5anh3Sk9CZGpWX3JtcFZMZ0ZPYktFbUhIdHY1OXNSRlhYeHo5aHpIRFdUN1RPSGYyV0dvT3VYR2prcmd0UzlmcjVfbDF4QkxhcWU5UQ?oc=5",
+      "title": "Wall Street pushes to more records as profits keep piling up for US companies",
+      "source": "LancasterOnline",
+      "publishedAt": "2026-05-28T13:55:11+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNUUNnTkZHc0x0MVhhTk1ibkptSFNvay1yQUxKZjJ3bEFoLXhkdjc3TmhldlJfOEJOV0ttZjV4dEdiUEdfd2c1RUVYMjBCV2E3RldxVGlJUmtHNlhweWZKMFVZTDdoLU0zcHduSlZwWjBhelR5YlRyYUZFNnltZW5IbjJuU1p0eXhqbzBFa3dtQmhNbzloRlYtX1hFbjI0MTRQWEhrc2xUeE5DQWJYd09YWVBISXNVcWRFVVhMQV83YUVKaUtpOW9HSm04Qzc0bnVLYTFCdVN6NW13d3puR3F4U2p4R3ItcXhjcHRzS2s2VlhrZmxvN0YwV1IwTkJlZw?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "U.S. stocks fall as Iran strikes push oil above $90",
+      "source": "qz.com",
+      "publishedAt": "2026-05-28T11:30:31+00:00",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE10dzRUQXVXZGxGRHdsMDNKNWhFUWVENnVuTjFobGNzVjNuRjNvLWRCS1VCc0pSNlNwWHVqZm5oQldhNXJzSnVOUXYzZ2x5eG5RN05ibDhmWUxuYmJYX3lobExIckMwVk1KSS1oWG1FTQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Dow Jones Futures: Stock Market Hits Highs On U.S.-Iran Deal; Dell Surges On Earnings",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-05-28T20:48:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOb29jV3JMWnE1OGNqUy0tM3NPck1odVZVR1ZSbURfWExuNzBLbTRDRGF6bUdxNmhPMXdjR3lPU0RFUGM5YWdwYUlVSmJYZ0pnNF9ucDREbHdCRGMwUTZnTU8zRk1LX1gyWHJ1NVVmdmZnQmc4MW91dGJRRUhYUktpbzZtX3h6aXpXVWRpS1Z2UGhNUlg3RkNmc3ZyOEdrRTRfRWxYcHRZN3F6Y2M5OFVCdw?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -20674,60 +20726,6 @@
         "Aktien",
         "US-Dollar",
         "Gold"
-      ]
-    },
-    {
-      "title": "Stocks are booming despite the Iran war, inflation and the country's dour mood. Here's why.",
-      "source": "CBS News",
-      "publishedAt": "2026-05-27T20:37:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBQWnI0bTNUbkE1dnZ4eURMSUJGTmc0ZEFqa2lzTHpaMlk3dVpubHB3aURJcFhrejN5REdvQWlyV25ab1JveXNCbExQaUtDSU5FVkRWMVRSdmRCTzlJaERfTldDQ0lfZzctNEpzcGtEWEEzNGY4WDhEcjlYMTd5dw?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "U.S. stocks fall as Iran strikes push oil above $90",
-      "source": "qz.com",
-      "publishedAt": "2026-05-28T12:00:31+00:00",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE10dzRUQXVXZGxGRHdsMDNKNWhFUWVENnVuTjFobGNzVjNuRjNvLWRCS1VCc0pSNlNwWHVqZm5oQldhNXJzSnVOUXYzZ2x5eG5RN05ibDhmWUxuYmJYX3lobExIckMwVk1KSS1oWG1FTQ?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "S&P500: US Stocks Slip Pre-Market as Oil Rebounds Before Inflation Data",
-      "source": "FXEmpire",
-      "publishedAt": "2026-05-28T12:26:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOY2VJckZzWnZBcmZIOEsxOU1FSWRpcnpGYWFWb2VFR2VyRU9CWWtDWTBxcjNIWGVtdHZweTZ2Y0lYMmZjX2xZRHRXQW5vcDhpWkRTNi1nLTRnWmNacE1fS2JtWE92bHpnaTdmMGdkRTU3d0VfYWdSQWJZR1I2aE9Fck44VEVvWkdXTkhfTDkzcGlkMDM0WTFqQkhCMVJab3FWakQzSmJsNDkwcjAyRUtOb09QV2dXR1MwTnFuVw?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
       ]
     }
   ],
@@ -20781,9 +20779,10 @@
     {
       "id": "A",
       "title": "Basisszenario: stabile Marktphase",
-      "probability": 48,
+      "probability": 51,
       "summary": "Wachstum bleibt grundsätzlich intakt, während Belastungsfaktoren überschaubar bleiben.",
       "supportedBy": [
+        "Marktstress bleibt begrenzt",
         "Rezessionsrisiko wirkt noch nicht dominant",
         "Aktienmarkt zeigt bisher keine klare Eskalation",
         "Preisdruck ist erhöht, aber nicht extrem"
@@ -20798,7 +20797,7 @@
     {
       "id": "B",
       "title": "Zwischenszenario: erhöhte Vorsicht",
-      "probability": 29,
+      "probability": 28,
       "summary": "Das Umfeld wird anspruchsvoller. Stresssignale nehmen zu, ohne bereits ein klares Eskalationsbild zu erzeugen.",
       "supportedBy": [
         "Marktstress ist sichtbar erhöht",
@@ -20814,13 +20813,13 @@
     {
       "id": "C",
       "title": "Stressszenario: defensivere Marktphase",
-      "probability": 23,
+      "probability": 21,
       "summary": "Mehrere belastende Signale greifen gleichzeitig ineinander und erhöhen die Wahrscheinlichkeit einer klaren Risk-off-Phase.",
       "supportedBy": [],
       "probabilityChange": {
-        "direction": "stable",
-        "label": "stabil",
-        "reason": "Die Wahrscheinlichkeit bleibt stabil, weil die Belastung zwar sichtbar ist, aber nicht klar weiter eskaliert."
+        "direction": "down",
+        "label": "fällt",
+        "reason": "Die Wahrscheinlichkeit fällt, weil die Belastung nachlässt oder keine breite Bestätigung findet."
       },
       "investorMeaning": "Für Anleger wäre dieses Bild ein Hinweis auf erhöhte emotionale Disziplin und vorsichtigere Interpretation von Risiken."
     }
@@ -20828,13 +20827,13 @@
   "hero": {
     "phase": {
       "label": "Erhöhte Vorsicht",
-      "score": 43.0,
+      "score": 34.0,
       "summary": "Das Gesamtbild bleibt geordnet, zeigt aber mehr Spannungen als in einer ruhigen Normalphase.",
       "interpretation": "Der Fokus verschiebt sich von Routine hin zu erhöhter Aufmerksamkeit.",
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-05-28T16:13:18.660930+00:00",
+      "dataAsOf": "2026-05-28T21:59:56.152987+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
