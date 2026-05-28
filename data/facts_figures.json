@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T04:10:38.845581+00:00",
+  "generatedAt": "2026-05-28T11:42:56.647826+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,6 +6112,24 @@
   },
   "news": [
     {
+      "title": "Stocks are booming despite the Iran war, inflation and the country's dour mood. Here's why.",
+      "source": "CBS News",
+      "publishedAt": "2026-05-28T11:32:14+00:00",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBQWnI0bTNUbkE1dnZ4eURMSUJGTmc0ZEFqa2lzTHpaMlk3dVpubHB3aURJcFhrejN5REdvQWlyV25ab1JveXNCbExQaUtDSU5FVkRWMVRSdmRCTzlJaERfTldDQ0lfZzctNEpzcGtEWEEzNGY4WDhEcjlYMTd5dw?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
       "title": "Futures Mixed As Snowflake Soars On Earnings; Inflation Data Due",
       "source": "Investor's Business Daily",
       "publishedAt": "2026-05-28T03:11:00+00:00",
@@ -6130,27 +6148,9 @@
       ]
     },
     {
-      "title": "Stocks are booming despite the Iran war, inflation and the country's dour mood. Here's why.",
-      "source": "CBS News",
-      "publishedAt": "2026-05-27T20:37:20+00:00",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBQWnI0bTNUbkE1dnZ4eURMSUJGTmc0ZEFqa2lzTHpaMlk3dVpubHB3aURJcFhrejN5REdvQWlyV25ab1JveXNCbExQaUtDSU5FVkRWMVRSdmRCTzlJaERfTldDQ0lfZzctNEpzcGtEWEEzNGY4WDhEcjlYMTd5dw?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
       "title": "Jerome Powell Stepped Down as Federal Reserve Chairman With a 7-Word Warning That Speaks Volumes for Stock Investors",
       "source": "The Motley Fool",
-      "publishedAt": "2026-05-28T04:03:03+00:00",
+      "publishedAt": "2026-05-28T05:00:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdTE1dXZhXzNXRVk1bllwSHJIWHRfdHJENExxby12UE9QRFFOV0EyS29wT2dNcEdQWFcySzBkS0JqRmRZa2VmNm5mQ19CU1NMSmV6VkhQZV90YUp2Y2cyX2dxVmhYNzlDS0ZBWF8xcW9HRllQS0gxTFg4djV1NXl6UGVCMzRkdXdZb1pfSmZrUnFTemNxSC1xcQ?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
@@ -6166,10 +6166,10 @@
       ]
     },
     {
-      "title": "US stocks inch to more records after oil prices drop",
-      "source": "Boston Herald",
-      "publishedAt": "2026-05-27T19:44:11+00:00",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9vblc2c3dKYVRpNko1RUhWbTR5cUlqTFBDSURXMElBWWNPVUtabktmaDVzWndtZW5LeHFLZHlxdmdCOGhTd1NKcFhHdXJuaUxkTEJFaDQ3VFlmNGh2Y3VSQkZGd2hrampLaXVCRHRZSHZyRkpH?oc=5",
+      "title": "Past oil shocks hint that the stock market has peaked for the year, a veteran strategist says",
+      "source": "AOL.com",
+      "publishedAt": "2026-05-28T10:00:47+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5NUURUVzlpaGF2VXlPbDN6RHUtQlUzamJ5eEk4eDJTNF8xdFRaSzB4ODRwSnZINl9uZ2RrdEpsQm1JaWE2RjNFbTNiTjBXTUo1TmNqdDdpR2M0SWhmX2l5RWtVMEVIT3AxZk1UQUpaMUJ6WmVKcU96QUJ3?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -6184,10 +6184,10 @@
       ]
     },
     {
-      "title": "Stock Market LIVE Updates: Oil Prices | Nifty & Sensex | Israel Iran War | March 5th | Share Market Sony (pwX7nDj6fm)",
-      "source": "Mshale",
-      "publishedAt": "2026-05-27T20:50:56+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE95dThQT0JZRk5sM2twc0lVbDBlNWVtU1IxZDhMcHg2UHdxLXRESDQ5OWUtMThXMXk2bFpLUm4xQnZndVBPWExNOGN3X3VHVnlrQUR5TU1iRGJLT3M?oc=5",
+      "title": "U.S. stocks fall as Iran strikes push oil above $90",
+      "source": "qz.com",
+      "publishedAt": "2026-05-28T11:30:31+00:00",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE10dzRUQXVXZGxGRHdsMDNKNWhFUWVENnVuTjFobGNzVjNuRjNvLWRCS1VCc0pSNlNwWHVqZm5oQldhNXJzSnVOUXYzZ2x5eG5RN05ibDhmWUxuYmJYX3lobExIckMwVk1KSS1oWG1FTQ?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -6202,20 +6202,21 @@
       ]
     },
     {
-      "title": "The Stock Market Just Had One of Its Strongest 8-Week Runs Ever. History Says It May Not Be Done Yet",
-      "source": "24/7 Wall St.",
-      "publishedAt": "2026-05-27T18:17:01+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPOG9jUTBTbzNVR1phOFBXU3J4QzYwYVJ3aHByajIxWDE0QXdELVdYNDhoQ2M2Rkg0bXhTZGpyb2tQNGExYWszR29VRGN0ZkVpVUdDVXhpdFk4dVp6VXE5NnBSdk5SVkVWcXZMQWp0TDFDLWUxOEdGTzJtdERPN0VqaHcxc1IzaE5hTktHcTFNeDRNdkxGLUVIcFFCRzdLZnY0QVpKdXFnMmZLa1ZNc3BDZEx6Njdmb2Z1NTBSNXRvcDU2STJFY0ZhLVRmdmc1NnVJVU5UY2dfTlgzUTg?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Stocks Slip Before the Open as U.S.-Iran Flare-Up Lifts Oil and Bond Yields, PCE Inflation Data in Focus",
+      "source": "Barchart.com",
+      "publishedAt": "2026-05-28T10:38:23+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPeTJ4MVpod0xsdmh2MXBGZ3VET19PNGlJYzZFSjFwd3pZeW05NGpGVGVpVkJXam9EaWduaGdQaFlRemRBWnJ1YXN3eWhhQ1FNSUU4ekRyRjZQUWFGdVZxTWI4VzBkY3UyUVdrY0Y1eGloMFVKMTBVQjRTRzBnYUNwbGg4X2JFcW5xVzRBQVlPX0IxZUswdFMzQ0IwSEY0V2tzc1NJdDBKYWk4Rms4RFh5dkI2NlpjU0M4ZnZ2a1pObVZMLWhUZ043UG9zVzdEWDd5N2htQW9SbUV1TWsxY2pF?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     }
   ]
