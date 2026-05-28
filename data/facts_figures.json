@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T22:00:55.437934+00:00",
+  "generatedAt": "2026-05-28T04:10:38.845581+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -43,10 +43,10 @@
   "technicalTriggers": [
     {
       "label": "50T vs. 200T",
-      "value": 3.9,
+      "value": 4.2,
       "unit": "%",
       "tone": "l",
-      "status": "50T liegt bei +3.9 % gegenüber dem 200T. Schlusskurs 26656, 50T 24018, 200T 23114. NASDAQ Composite (Fallback) über 50T (24018) und 200T (23114). Trendstruktur intakt.",
+      "status": "50T liegt bei +4.2 % gegenüber dem 200T. Schlusskurs 26675, 50T 24104, 200T 23140. NASDAQ Composite (Fallback) über 50T (24104) und 200T (23140). Trendstruktur intakt.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -56,10 +56,10 @@
     },
     {
       "label": "RSI (14)",
-      "value": 70.8,
+      "value": 71.0,
       "unit": "",
       "tone": "m",
-      "status": "RSI (14) bei 70.8. Kein Extremniveau in beide Richtungen.",
+      "status": "RSI (14) bei 71.0. Kein Extremniveau in beide Richtungen.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -702,12 +702,6 @@
   "charts": {
     "chartLabel": "NASDAQ Composite",
     "qqq": [
-      {
-        "date": "2025-03-17",
-        "close": 17808.66,
-        "ma50": 19191.43,
-        "ma200": 18421.95
-      },
       {
         "date": "2025-03-18",
         "close": 17504.12,
@@ -2501,13 +2495,15 @@
         "close": 26656.18,
         "ma50": 24017.87,
         "ma200": 23114.07
+      },
+      {
+        "date": "2026-05-27",
+        "close": 26674.73,
+        "ma50": 24103.88,
+        "ma200": 23140.2
       }
     ],
     "rsi": [
-      {
-        "date": "2025-03-17",
-        "value": 38.5
-      },
       {
         "date": "2025-03-18",
         "value": 35.2
@@ -3703,6 +3699,10 @@
       {
         "date": "2026-05-26",
         "value": 70.8
+      },
+      {
+        "date": "2026-05-27",
+        "value": 71.0
       }
     ],
     "vix": [
@@ -6112,6 +6112,24 @@
   },
   "news": [
     {
+      "title": "Futures Mixed As Snowflake Soars On Earnings; Inflation Data Due",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-05-28T03:11:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORE90MXBaQ0VBN05wNHkzNGlDSFFKQ1ZlblBlSzhhcXV4blVaWmFTbFlDWktHRGQ3Y0JNbW5wUHlqNWRGaXRmakR5R2pQNWlFeUEyMk03YUExZmZrSGo4QlhBRlVGZlJSVWJqZmYyS3ItU2swUFhRcWNYMjg5bENjM0hpalJKS0VBMzc5UFBaOFZYZG9Id3I3eWFjR2ZiY1E1VS1hcUJBZEdmb21JaDNhVlU5VGxtaUlZb3picm9B?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
       "title": "Stocks are booming despite the Iran war, inflation and the country's dour mood. Here's why.",
       "source": "CBS News",
       "publishedAt": "2026-05-27T20:37:20+00:00",
@@ -6130,20 +6148,21 @@
       ]
     },
     {
-      "title": "Weekly market commentary",
-      "source": "blackrock.com",
-      "publishedAt": "2026-05-27T08:46:25+00:00",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Jerome Powell Stepped Down as Federal Reserve Chairman With a 7-Word Warning That Speaks Volumes for Stock Investors",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-05-28T04:03:03+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdTE1dXZhXzNXRVk1bllwSHJIWHRfdHJENExxby12UE9QRFFOV0EyS29wT2dNcEdQWFcySzBkS0JqRmRZa2VmNm5mQ19CU1NMSmV6VkhQZV90YUp2Y2cyX2dxVmhYNzlDS0ZBWF8xcW9HRllQS0gxTFg4djV1NXl6UGVCMzRkdXdZb1pfSmZrUnFTemNxSC1xcQ?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
       "assets": [
+        "Staatsanleihen",
         "Aktien",
-        "Anleihen",
-        "Währungen"
+        "US-Dollar",
+        "Gold"
       ]
     },
     {
@@ -6165,10 +6184,10 @@
       ]
     },
     {
-      "title": "Wall Street hangs near its records as oil prices sink",
-      "source": "Front - The Journal",
-      "publishedAt": "2026-05-27T18:54:03+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbDlqWTlLSTNqUk9xMmNsM2FlOUpyY3JYUjF6cmJUeHl4VUpZSmlGSkUwYXdxNkRUalYzR0lGS2cxVXZfNl9sd25iMDJ1MW9YbTVEbkVNMnJfc3I3alNoTV82cW9iZExwTUNVYWhFY0Z0MXFoWUlEYkVaam5Tdk1JWkhmMzQ4LWM4OUM5cVNSNjNJd3N5NDNjemloRkZoeEIyTEhDUjNUSTY2TUs4UUVtODBZRGh1N1pmdFlHX3RWSmpUUQ?oc=5",
+      "title": "Stock Market LIVE Updates: Oil Prices | Nifty & Sensex | Israel Iran War | March 5th | Share Market Sony (pwX7nDj6fm)",
+      "source": "Mshale",
+      "publishedAt": "2026-05-27T20:50:56+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE95dThQT0JZRk5sM2twc0lVbDBlNWVtU1IxZDhMcHg2UHdxLXRESDQ5OWUtMThXMXk2bFpLUm4xQnZndVBPWExNOGN3X3VHVnlrQUR5TU1iRGJLT3M?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -6197,23 +6216,6 @@
         "Aktien",
         "Anleihen",
         "Währungen"
-      ]
-    },
-    {
-      "title": "WEEKLY WEBCAST: On China’s Lagging Stock Market & An AI Chokepoint",
-      "source": "Yardeni QuickTakes",
-      "publishedAt": "2026-05-27T13:01:33+00:00",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbi1QX2ZabnlLbDJVdlJYQVpKTE1kcnJfbDVxZ0JCTGdqLUVOaUtxTjV4RWtLa1ZLTGJMLXVGVTg3YW5DUUpSUHZuSzBteXdoQU1Bd281bTdDYTNKSGh4ZWFDaWR1QXlON1hYVUpoVWwxdXRGZFlKeXNDdUJPSTBwdzFteDRvZ1MwZ3NFc016elJnSk5lVjFhZzNydEVqUQ?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
       ]
     }
   ]
