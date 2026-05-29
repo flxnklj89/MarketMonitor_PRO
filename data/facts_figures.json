@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T15:55:38.373653+00:00",
+  "generatedAt": "2026-05-29T18:38:40.099679+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -12,22 +12,22 @@
   },
   "marketStatus": {
     "phase": {
-      "title": "Erhöhte Vorsicht",
-      "value": 34.0,
+      "title": "Normalphase",
+      "value": 26.0,
       "unit": "",
-      "tone": "m",
-      "status": "Mehr Spannungen als in ruhigeren Phasen."
+      "tone": "l",
+      "status": "Signallage wirkt geordnet."
     },
     "vix": {
       "title": "Relativ ruhig",
-      "value": 16.3,
+      "value": 15.7,
       "unit": "",
       "tone": "l",
-      "status": "VIX bei 16.3. Unter dem langfristigen Durchschnitt von ~17–20."
+      "status": "VIX bei 15.7. Unter dem langfristigen Durchschnitt von ~17–20."
     },
     "breadth": {
-      "title": "64 % über 200T-Ø (Proxy)",
-      "value": 64,
+      "title": "65 % über 200T-Ø (Proxy)",
+      "value": 65,
       "unit": "%",
       "tone": "l",
       "status": "Näherungswert abgeleitet aus VIX-Niveau. Direktdaten nicht via FRED verfügbar."
@@ -43,10 +43,10 @@
   "technicalTriggers": [
     {
       "label": "50T vs. 200T",
-      "value": 4.2,
+      "value": 4.4,
       "unit": "%",
       "tone": "l",
-      "status": "50T liegt bei +4.2 % gegenüber dem 200T. Schlusskurs 26675, 50T 24104, 200T 23140. NASDAQ Composite (Fallback) über 50T (24104) und 200T (23140). Trendstruktur intakt.",
+      "status": "50T liegt bei +4.4 % gegenüber dem 200T. Schlusskurs 26917, 50T 24193, 200T 23168. NASDAQ Composite (Fallback) über 50T (24193) und 200T (23168). Trendstruktur intakt.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -56,10 +56,10 @@
     },
     {
       "label": "RSI (14)",
-      "value": 71.0,
+      "value": 73.4,
       "unit": "",
       "tone": "m",
-      "status": "RSI (14) bei 71.0. Kein Extremniveau in beide Richtungen.",
+      "status": "RSI (14) bei 73.4. Kein Extremniveau in beide Richtungen.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -502,9 +502,6 @@
           "value": 3.64
         },
         {
-          "value": 3.64
-        },
-        {
           "value": 3.63
         },
         {
@@ -527,6 +524,9 @@
         },
         {
           "value": 3.63
+        },
+        {
+          "value": 3.62
         },
         {
           "value": 3.62
@@ -666,16 +666,16 @@
   },
   "crashProbability": {
     "title": "Crash Probability",
-    "score": 8,
-    "scoreLabel": "8 %",
-    "reason": "Stress 34/100, Rezessionsrisiko 1.8 %, VIX 16.3.",
+    "score": 0,
+    "scoreLabel": "0 %",
+    "reason": "Stress 26/100, Rezessionsrisiko 1.8 %, VIX 15.7.",
     "interpretation": "Crash-Risiko derzeit begrenzt."
   },
   "timingQuality": {
     "title": "Timing-Qualität",
     "score": 0,
     "scoreLabel": "Zu früh 16 % · Optimal 8 % · Zu spät 76 %",
-    "reason": "Bottom-Signal 30 %, Crash-Risiko 8 %.",
+    "reason": "Bottom-Signal 30 %, Crash-Risiko 0 %.",
     "interpretation": "Kein klares Timing-Fenster erkennbar."
   },
   "updateTriggers": {
@@ -696,18 +696,12 @@
   },
   "timeVsTiming": {
     "timeInMarket": "Langfristige Anlagepläne profitieren historisch von Korrekturen, wenn sie diszipliniert durchgehalten werden. Wer raus ist, verpasst die meisten Erholungstage.",
-    "marketTiming": "Das aktuelle Umfeld zeigt erhöhte Spannungen. Stress-Score 34/100. Wer neue Positionen aufbaut, profitiert von gestaffeltem Einstieg.",
+    "marketTiming": "Das aktuelle Umfeld zeigt erhöhte Spannungen. Stress-Score 26/100. Wer neue Positionen aufbaut, profitiert von gestaffeltem Einstieg.",
     "summary": "Die Trennung zwischen langfristiger Logik und kurzfristiger Marktlesart bleibt der wichtigste Hebel gegen emotionale Fehlentscheidungen."
   },
   "charts": {
     "chartLabel": "NASDAQ Composite",
     "qqq": [
-      {
-        "date": "2025-03-18",
-        "close": 17504.12,
-        "ma50": 19155.89,
-        "ma200": 18424.86
-      },
       {
         "date": "2025-03-19",
         "close": 17750.79,
@@ -2501,13 +2495,15 @@
         "close": 26674.73,
         "ma50": 24103.88,
         "ma200": 23140.2
+      },
+      {
+        "date": "2026-05-28",
+        "close": 26917.47,
+        "ma50": 24192.64,
+        "ma200": 23167.86
       }
     ],
     "rsi": [
-      {
-        "date": "2025-03-18",
-        "value": 35.2
-      },
       {
         "date": "2025-03-19",
         "value": 39.7
@@ -3703,13 +3699,13 @@
       {
         "date": "2026-05-27",
         "value": 71.0
+      },
+      {
+        "date": "2026-05-28",
+        "value": 73.4
       }
     ],
     "vix": [
-      {
-        "date": "2025-03-28",
-        "value": 21.65
-      },
       {
         "date": "2025-03-31",
         "value": 22.28
@@ -4905,6 +4901,10 @@
       {
         "date": "2026-05-27",
         "value": 16.29
+      },
+      {
+        "date": "2026-05-28",
+        "value": 15.74
       }
     ],
     "brent": [
@@ -6112,24 +6112,6 @@
   },
   "news": [
     {
-      "title": "Dow Jones Futures Rise As Dell, NetApp Surge On Earnings; Oil Falls On U.S.-Iran Deal Hopes",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-05-29T12:08:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOb29jV3JMWnE1OGNqUy0tM3NPck1odVZVR1ZSbURfWExuNzBLbTRDRGF6bUdxNmhPMXdjR3lPU0RFUGM5YWdwYUlVSmJYZ0pnNF9ucDREbHdCRGMwUTZnTU8zRk1LX1gyWHJ1NVVmdmZnQmc4MW91dGJRRUhYUktpbzZtX3h6aXpXVWRpS1Z2UGhNUlg3RkNmc3ZyOEdrRTRfRWxYcHRZN3F6Y2M5OFVCdw?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
       "title": "‘Tell the story well’: China pushes brokerages to shape stock market narrative",
       "source": "South China Morning Post",
       "publishedAt": "2026-05-29T07:00:08+00:00",
@@ -6197,6 +6179,24 @@
         "Aktien",
         "US-Dollar",
         "Gold"
+      ]
+    },
+    {
+      "title": "Dow Jones Futures Rise As Dell, NetApp Surge On Earnings; Oil Falls On U.S.-Iran Deal Hopes",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-05-29T12:08:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOb29jV3JMWnE1OGNqUy0tM3NPck1odVZVR1ZSbURfWExuNzBLbTRDRGF6bUdxNmhPMXdjR3lPU0RFUGM5YWdwYUlVSmJYZ0pnNF9ucDREbHdCRGMwUTZnTU8zRk1LX1gyWHJ1NVVmdmZnQmc4MW91dGJRRUhYUktpbzZtX3h6aXpXVWRpS1Z2UGhNUlg3RkNmc3ZyOEdrRTRfRWxYcHRZN3F6Y2M5OFVCdw?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
