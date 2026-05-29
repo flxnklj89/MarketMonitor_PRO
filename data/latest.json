@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T11:34:37.225229+00:00",
+  "fetchedAt": "2026-05-29T15:55:33.277164+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20612,38 +20612,21 @@
   },
   "news": [
     {
-      "title": "Futures: Dell Surges, Leads Earnings Movers",
+      "title": "Dow Jones Futures Rise As Dell, NetApp Surge On Earnings; Oil Falls On U.S.-Iran Deal Hopes",
       "source": "Investor's Business Daily",
-      "publishedAt": "2026-05-29T03:04:00+00:00",
+      "publishedAt": "2026-05-29T12:08:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOb29jV3JMWnE1OGNqUy0tM3NPck1odVZVR1ZSbURfWExuNzBLbTRDRGF6bUdxNmhPMXdjR3lPU0RFUGM5YWdwYUlVSmJYZ0pnNF9ucDREbHdCRGMwUTZnTU8zRk1LX1gyWHJ1NVVmdmZnQmc4MW91dGJRRUhYUktpbzZtX3h6aXpXVWRpS1Z2UGhNUlg3RkNmc3ZyOEdrRTRfRWxYcHRZN3F6Y2M5OFVCdw?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Opinion: The Stock Market May Have Dodged a Bullet With Jerome Powell Staying at the Fed",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-05-29T09:05:58+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdm43OTN4QXV2THMzZVJuRWVra2hmUkU5NnpQRG5HWUNnQldYX1hwNHNuYmlVQV9hWklrVzFGSVJhUTVVVkc0VVVqeU83R1ExcXVKcHhXd0hMN0pGYlBxUnpfbGN0U3haTXVxa0hyd1FabDkyeXQ5bFEzc0dyNjlPVlFfNW9pdm5LZ3Y5cnRHMW1pNUFGTm5r?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
@@ -20664,10 +20647,63 @@
       ]
     },
     {
-      "title": "How to Reduce Stock Market Stress",
-      "source": "A Wealth of Common Sense",
-      "publishedAt": "2026-05-28T16:46:07+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOd1VmZmVmS2JiYzg4SndaTEdWdUV0M0Vod1BXOTIzRjVIWmpTWXlSZ3d0dmc1S1dPc3FIdDRjamdFSmJFcjY4QXVXU2pLQjVuTnhZSEd5YTFmRllXZlZnWE95UWNoZjlCWEpfN1cwYmpPQktoTGdtQWxhLXZ3XzRCMA?oc=5",
+      "title": "Why Are Stocks So Resilient? Earnings!",
+      "source": "Advisor Perspectives",
+      "publishedAt": "2026-05-29T11:55:49+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONmxtbkZwdFhPZDJ0d2J0WXJyLUxNV1BWN0N4VlZFaWNOQlZQdXJEaENDeVdfMGVHR1NvX05GeVBhaFk1MFphLWUzZzl1djgzZWFsbnNDbnRrb3BYSEUxaXR6TUxBUi1jR21zX0sydTYyaURoM18taVh2eW5UbHE3RTBySUU3ZFVXeWlNck5LZWF6cHVuWk9ja1BtV2NxRTdLeFZiSUhCQQ?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Opinion: The Stock Market May Have Dodged a Bullet With Jerome Powell Staying at the Fed",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-05-29T09:44:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdm43OTN4QXV2THMzZVJuRWVra2hmUkU5NnpQRG5HWUNnQldYX1hwNHNuYmlVQV9hWklrVzFGSVJhUTVVVkc0VVVqeU83R1ExcXVKcHhXd0hMN0pGYlBxUnpfbGN0U3haTXVxa0hyd1FabDkyeXQ5bFEzc0dyNjlPVlFfNW9pdm5LZ3Y5cnRHMW1pNUFGTm5r?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Navigating the Federal Reserve’s Rate Cuts: What Investors Need to Know",
+      "source": "Nasdaq",
+      "publishedAt": "2026-05-29T05:23:53+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQTk1OGpVZl9PNDBuNjlEVjFpaml5WmQ4NUdGU1N6TUFNWTVDVWI1bDM2UU8zVlpmNHROX2tqZElwSHRlUXUwV3g5RXdZN29sQlZ4eDc2b1hZb1d3cXhNYlJkb2NySXpReUpfZDg4ak8xWHNZaFZVZTYyYk5mQnVwcEhJM2J3ZGNHalRyQXZ6U2NOUWpObFg4ZS15dnc3SzVBeUtv?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "5 Things to Know Before the Stock Market Opens",
+      "source": "Investopedia",
+      "publishedAt": "2026-05-29T12:23:05+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWDVtQkh0TVN4eWxBdkNrcFFfZVpEZ2NiM3h2QXRGdUs2R09PUlhKMDFnSjN5UXk3cjgzekl1ZGYtbG5kV1Z3SDdmQXlLbzlycmszQUdONkNpM0gxR1l5ekVIYVF0WEpFcENwOWlsbndjYVlycm9LZURQQTVxdXl2Vml1Z0FiM2tPTURsX0VLbVhLTmF2c0tIdW5LaFg?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20678,42 +20714,6 @@
         "Aktien",
         "Anleihen",
         "Währungen"
-      ]
-    },
-    {
-      "title": "The Stock Market May Be in Trouble: President Trump Put Fed Chair Kevin Warsh in a Tough Spot",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-05-29T08:57:57+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNX2cxSmRrTkxCR01vMzZvdmNhUHhIRkVjUk1LcElyQ2Q2MmhRRTItQ245VU40SWJvUTZlUHRDdTlOYWotNHZYQjI0aWpkMjZWOHBDV1JJakxVeUh6WFBuaThmUWxydmM0dWFGYTJfTDNsanBEd001Y2dpSFQzcjVnM3VjQXRlWkpjbjN0MUFZUDNnVDdR?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "Dow Jones Futures Fall, Snowflake Surges On Earnings; Fed Inflation Data Due",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-05-28T12:08:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORE90MXBaQ0VBN05wNHkzNGlDSFFKQ1ZlblBlSzhhcXV4blVaWmFTbFlDWktHRGQ3Y0JNbW5wUHlqNWRGaXRmakR5R2pQNWlFeUEyMk03YUExZmZrSGo4QlhBRlVGZlJSVWJqZmYyS3ItU2swUFhRcWNYMjg5bENjM0hpalJKS0VBMzc5UFBaOFZYZG9Id3I3eWFjR2ZiY1E1VS1hcUJBZEdmb21JaDNhVlU5VGxtaUlZb3picm9B?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
       ]
     }
   ],
@@ -20821,7 +20821,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-05-29T11:34:37.225229+00:00",
+      "dataAsOf": "2026-05-29T15:55:33.277164+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
