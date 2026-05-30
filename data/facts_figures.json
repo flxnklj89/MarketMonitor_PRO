@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T06:52:35.368629+00:00",
+  "generatedAt": "2026-05-30T10:05:42.490096+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6147,6 +6147,23 @@
       ]
     },
     {
+      "title": "A Stock Market Indicator Flashes a Warning Last Seen in 2007. Warren Buffett Explains Why It Matters.",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-05-30T09:22:58+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTVRtQ2dNd3FlV3pWZHlKUjFlZDM3S2hGcTMzZkt0MG1qN3BtbzVhNk1nZzRxR0hXQWhWR1M0U2NUNFg5NEdGMW9WdDg2THRJcElCMmlScnNib2o5X0Q5Vk5IWFFNY2pQcXZkNmdFcVkwb2RKdHI1aFBHQWF2YVFEeTYwU0dxd3k1YU4xZDBHQ1hQa1kzN3Q1Qw?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "Will tensions with Iran and rising oil prices derail the stock market rally?",
       "source": "The Berkshire Eagle",
       "publishedAt": "2026-05-29T21:00:00+00:00",
@@ -6165,6 +6182,23 @@
       ]
     },
     {
+      "title": "Wall Street rides high into June on hopes that the war will soon come to an end. Here's what's ahead",
+      "source": "CNBC",
+      "publishedAt": "2026-05-29T18:08:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdzEyemdvMTRfM2hld2I4RkJXVHpXMEtsaFdWWTdCQjN0TWJqUnM4TVRvdXhLaVRDUmwxcEdLSEhjeHRuQXNLWTNSY2NCbm5jN29kNFJyOHRtWE10eVkwZUwwTlVzNEZFUUdpOXg0b3lOb1RudUVIU291OFM4UmtTemNwTW8tbXhxQlRwb1Jn?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "Dell Earnings Drive Tech Stocks Higher: Stock Market Today",
       "source": "Kiplinger",
       "publishedAt": "2026-05-29T20:05:52+00:00",
@@ -6179,41 +6213,6 @@
         "Aktien",
         "Sektoren",
         "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Why Did Ulta Beauty's Stock Plunge After Q4 Earnings",
-      "source": "Kavout",
-      "publishedAt": "2026-05-30T04:40:28+00:00",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQc0ROeDhwd1A0WUtCczRvbUlwX2NhSW9Pa3hnXzZPQkRWMjN6MU5fRTJ3QjljOXJ5eWNyb2ZDXzNoM0pnLThiNEpzODVoNHlxQllGN0VQeUtZbmtocFZYUXZIbG5tRTdZM3BQVU9UbE9PMEhnVDI5TkRyRkNjdElXV2lOQUFHSi03aEduQTZrRzc?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Dow Jones Futures Rise As Dell, NetApp Surge On Earnings; Oil Falls On U.S.-Iran Deal Hopes",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-05-29T12:08:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOb29jV3JMWnE1OGNqUy0tM3NPck1odVZVR1ZSbURfWExuNzBLbTRDRGF6bUdxNmhPMXdjR3lPU0RFUGM5YWdwYUlVSmJYZ0pnNF9ucDREbHdCRGMwUTZnTU8zRk1LX1gyWHJ1NVVmdmZnQmc4MW91dGJRRUhYUktpbzZtX3h6aXpXVWRpS1Z2UGhNUlg3RkNmc3ZyOEdrRTRfRWxYcHRZN3F6Y2M5OFVCdw?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
       ]
     }
   ]
