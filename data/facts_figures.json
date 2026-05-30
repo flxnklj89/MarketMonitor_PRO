@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T10:05:42.490096+00:00",
+  "generatedAt": "2026-05-30T13:52:37.724183+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6129,6 +6129,23 @@
       ]
     },
     {
+      "title": "A Stock Market Indicator Flashes a Warning Last Seen in 2007. Warren Buffett Explains Why It Matters.",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-05-30T09:08:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRC1OTHUzMy1oX1NVc0NSS1JyVHE4ckE5cElGNTU5ZmJKckZfRl9UR0d1MXpuS05Rd21FQ2lOZnhGbm1jWUVENWVFM2xCWTBBQjQyR28tVFE3bTY4bmhQeF95TDFkMXV3V0UzTGhpazdjcmtkSzhjcUFCRkhYem9yc3dpNEN2U0VNRlhvMkVBemo2ZVZWMVFVYmVUVWtEc1N6SGRFWUdB?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "Jobs report, inflation to test stock market rally",
       "source": "Finance & Commerce",
       "publishedAt": "2026-05-29T19:09:30+00:00",
@@ -6147,10 +6164,10 @@
       ]
     },
     {
-      "title": "A Stock Market Indicator Flashes a Warning Last Seen in 2007. Warren Buffett Explains Why It Matters.",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-05-30T09:22:58+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTVRtQ2dNd3FlV3pWZHlKUjFlZDM3S2hGcTMzZkt0MG1qN3BtbzVhNk1nZzRxR0hXQWhWR1M0U2NUNFg5NEdGMW9WdDg2THRJcElCMmlScnNib2o5X0Q5Vk5IWFFNY2pQcXZkNmdFcVkwb2RKdHI1aFBHQWF2YVFEeTYwU0dxd3k1YU4xZDBHQ1hQa1kzN3Q1Qw?oc=5",
+      "title": "What to Look Out for in Economic Data This Week (June 1-5)",
+      "source": "Kiplinger",
+      "publishedAt": "2026-05-29T19:04:48+00:00",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MeVNwMVVnVmhvRWo4b0N4WkhCRXQxTVRtb2ZmTWhCSmd4eERsN3Nfdllwejg0eG5ueFFCRUdPTzVUaXh4dEFZaWJqN3FFZnlFWTBlZ2ZvVkFFRzVScTR3TXRhZGl6MHp2RUF1clppVDRvR1lveC1FaXNCeXQ?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -6196,23 +6213,6 @@
         "Aktien",
         "Anleihen",
         "Währungen"
-      ]
-    },
-    {
-      "title": "Dell Earnings Drive Tech Stocks Higher: Stock Market Today",
-      "source": "Kiplinger",
-      "publishedAt": "2026-05-29T20:05:52+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTnFiN1hXMHc0QzNJaGM1ZmFVWWdkVEhjWlVFdnpYb2RTLWlBY2NicW94Yk9QeDN1eG5PTVM0SGV6SFBHN0p5ZW9KSVhYaFQ0VWZMamI2NjlFNEFwcDhtempxeFVQUlpIcDU0UWxxS0w1d2ZCV18yc3J5ZGRsU1RLT1RmM3FYUlpaU1RDLUxicDJ5UGJRSWdnZmZZWHlhMUwzX0E?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
       ]
     }
   ]
