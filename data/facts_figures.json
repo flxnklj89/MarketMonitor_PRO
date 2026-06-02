@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T04:41:22.440587+00:00",
+  "generatedAt": "2026-06-02T12:11:32.976078+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -290,11 +290,72 @@
     },
     {
       "label": "Gewinnwachstum",
-      "value": null,
+      "value": 17.4,
       "unit": "%",
-      "tone": "m",
-      "status": "Keine Gewinnwachstumsdaten verfügbar.",
-      "history": []
+      "tone": "l",
+      "status": "S&P-500-Gewinnwachstum YoY: +17.4 %. Starkes Wachstum stützt aktuelle Bewertungen.",
+      "history": [
+        {
+          "value": 60.6
+        },
+        {
+          "value": 16.29
+        },
+        {
+          "value": 21.48
+        },
+        {
+          "value": 9.06
+        },
+        {
+          "value": 5.77
+        },
+        {
+          "value": 2.67
+        },
+        {
+          "value": -2.01
+        },
+        {
+          "value": 7.55
+        },
+        {
+          "value": 0.61
+        },
+        {
+          "value": 7.83
+        },
+        {
+          "value": 16.0
+        },
+        {
+          "value": 7.8
+        },
+        {
+          "value": 9.22
+        },
+        {
+          "value": 4.65
+        },
+        {
+          "value": 9.99
+        },
+        {
+          "value": -1.69
+        },
+        {
+          "value": -3.25
+        },
+        {
+          "value": 4.28
+        },
+        {
+          "value": 2.78
+        },
+        {
+          "value": 17.43
+        }
+      ]
     }
   ],
   "macro": [
@@ -6053,7 +6114,7 @@
     {
       "title": "Weekly market commentary",
       "source": "blackrock.com",
-      "publishedAt": "2026-06-01T23:17:06+00:00",
+      "publishedAt": "2026-06-02T10:15:06+00:00",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
@@ -6085,6 +6146,23 @@
       ]
     },
     {
+      "title": "The Stock Market Will Drop Sharply If History Repeats. Warren Buffett Explains Why.",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-06-02T08:39:25+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNUo3RVB1OEpQLXotbHFzRDdUSkNxS3FYTFRRVHJ6THctb3loY0lDdGt5Tms5WGxNYTdBczFwQ2tJdUhEZ1BIaXhHLWFyQnNZcjQ5RC1DV3pwVktHMXhEQWhaWUIxVmphMFR4UHoyR3Z3U3c2MHlOWEs2U0gxM3prY2dENVBnUDFUb09wX3ZNdFdiOVpGNUE?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "Why Stock Market Valuations Are Fair in Context",
       "source": "LPL Financial",
       "publishedAt": "2026-06-01T20:25:43+00:00",
@@ -6102,10 +6180,28 @@
       ]
     },
     {
-      "title": "What stock market pessimists may be missing",
-      "source": "invesco.com",
-      "publishedAt": "2026-06-01T13:08:49+00:00",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5FRVlKajFUV2ZUYzAxbzJqU3dGWE1lQUZOc0RHWTdWNHk1TEhRYWJreUNrSnRXUTJqM0NSVE1qVzJzeDFoc1hrYlN1UlBmUTMwazdUNGg5VWRaSnplSHNaSE1zOEZqdFVjaEVJS3RGMkdib3lZVHc?oc=5",
+      "title": "Navigating the Federal Reserve’s Rate Cuts: What Investors Need to Know",
+      "source": "Nasdaq",
+      "publishedAt": "2026-06-02T00:39:13+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQTk1OGpVZl9PNDBuNjlEVjFpaml5WmQ4NUdGU1N6TUFNWTVDVWI1bDM2UU8zVlpmNHROX2tqZElwSHRlUXUwV3g5RXdZN29sQlZ4eDc2b1hZb1d3cXhNYlJkb2NySXpReUpfZDg4ak8xWHNZaFZVZTYyYk5mQnVwcEhJM2J3ZGNHalRyQXZ6U2NOUWpObFg4ZS15dnc3SzVBeUtv?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "South Korea overtakes India as world’s sixth-largest stock market",
+      "source": "The Japan Times",
+      "publishedAt": "2026-06-02T05:15:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUHkwdTRmYVE3VjJFRkNjdFliekVQMnFVSTZ2RDMydTNQQUVfS054Tm5rZHMzZWV0LVc0bjItRHVyN2VvOFFCMG03X1FFS3FoU1g5ZXRMXzkxTVpzYmFuZ2hoakxiZkhrTjdPX18ySUdDWmVoYTZuMDBIbkRIWmd0N1YzQk9mN0N4bndrdkRZbElqdw?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -6116,40 +6212,6 @@
         "Aktien",
         "Anleihen",
         "Währungen"
-      ]
-    },
-    {
-      "title": "Dow Jones Futures: Broadcom, Micron, Nvidia, Sandisk Rally; Credo Plunges",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-06-02T01:04:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcGxOZ2ZYV3pfNmVJSGtGLXpJYWhUaFBKWTN5ZEkxZ19Qcm5mM0hHNXo2NlhrUnNvbUxLWTBsREh5bVZoYTJBc0lHMDJ6bmRoLXM0VUxOWTdWTlI4ejg1NFE1dFJvbVd5X1dmeWZYSFQ1ZzFJdmsySkVVaER1U1BmRzZveGtGWDZzODlQSUNsU0dTNXR3Vm5rak1HeVBBcVQ2Y083TXVHSXBDbERNN25wYTRpdEt6dVg3?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Stock Market Today, June 1: Hewlett Packard Enterprise Jumps After Beating Revenue and Earnings Forecasts",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-06-01T21:44:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPUmpKdHFPcmNmLWZsWGEwQ2ZjU2JidmZjUTdBU3ZvVm5FbkU1TTRoWlUxR1ZfRGE2aGtnTlc4UmZhVkV3cFhzbUVhZkxJNFFWWXctRGhvWXlqRkMtN1MzaV9KOUJ6cmNIdGEycGRBZ3hMYWc1RGhHNzhidmNTd0RTU0dVLVR2QU1ZLWluQ3Zpdi1FS2xkNmRmMENuYWQ5WHNsR09fb3RRVHJ3TWNqUk5tbVdZcTN4djdIVUVVNTlqX3VoTmpNRWxFcXd2ZTlNU1JsNEZMUzhyaG9vT2czbXI3a2dJR1BxR1dXcFVmVTJ1VGVaNVZ1LWlv?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
       ]
     }
   ]
