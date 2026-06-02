@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T20:21:24.559400+00:00",
+  "generatedAt": "2026-06-02T04:41:22.440587+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -43,10 +43,10 @@
   "technicalTriggers": [
     {
       "label": "50T vs. 200T",
-      "value": 4.7,
+      "value": 5.0,
       "unit": "%",
       "tone": "l",
-      "status": "50T liegt bei +4.7 % gegenüber dem 200T. Schlusskurs 26973, 50T 24289, 200T 23194. NASDAQ Composite (Fallback) über 50T (24289) und 200T (23194). Trendstruktur intakt.",
+      "status": "50T liegt bei +5.0 % gegenüber dem 200T. Schlusskurs 27087, 50T 24389, 200T 23221. NASDAQ Composite (Fallback) über 50T (24389) und 200T (23221). Trendstruktur intakt.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -56,10 +56,10 @@
     },
     {
       "label": "RSI (14)",
-      "value": 73.9,
+      "value": 75.0,
       "unit": "",
       "tone": "m",
-      "status": "RSI (14) bei 73.9. Kein Extremniveau in beide Richtungen.",
+      "status": "RSI (14) bei 75.0. Kein Extremniveau in beide Richtungen.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -290,72 +290,11 @@
     },
     {
       "label": "Gewinnwachstum",
-      "value": 17.4,
+      "value": null,
       "unit": "%",
-      "tone": "l",
-      "status": "S&P-500-Gewinnwachstum YoY: +17.4 %. Starkes Wachstum stützt aktuelle Bewertungen.",
-      "history": [
-        {
-          "value": 60.6
-        },
-        {
-          "value": 16.29
-        },
-        {
-          "value": 21.48
-        },
-        {
-          "value": 9.06
-        },
-        {
-          "value": 5.77
-        },
-        {
-          "value": 2.67
-        },
-        {
-          "value": -2.01
-        },
-        {
-          "value": 7.55
-        },
-        {
-          "value": 0.61
-        },
-        {
-          "value": 7.83
-        },
-        {
-          "value": 16.0
-        },
-        {
-          "value": 7.8
-        },
-        {
-          "value": 9.22
-        },
-        {
-          "value": 4.65
-        },
-        {
-          "value": 9.99
-        },
-        {
-          "value": -1.69
-        },
-        {
-          "value": -3.25
-        },
-        {
-          "value": 4.28
-        },
-        {
-          "value": 2.78
-        },
-        {
-          "value": 17.43
-        }
-      ]
+      "tone": "m",
+      "status": "Keine Gewinnwachstumsdaten verfügbar.",
+      "history": []
     }
   ],
   "macro": [
@@ -365,7 +304,188 @@
       "unit": "%",
       "tone": "m",
       "status": "US-Leitzins bei 3.62 %. Neutral bis leicht restriktiv.",
-      "history": []
+      "history": [
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.64
+        },
+        {
+          "value": 3.63
+        },
+        {
+          "value": 3.63
+        },
+        {
+          "value": 3.63
+        },
+        {
+          "value": 3.63
+        },
+        {
+          "value": 3.63
+        },
+        {
+          "value": 3.63
+        },
+        {
+          "value": 3.63
+        },
+        {
+          "value": 3.63
+        },
+        {
+          "value": 3.62
+        },
+        {
+          "value": 3.62
+        },
+        {
+          "value": 3.62
+        },
+        {
+          "value": 3.62
+        },
+        {
+          "value": 3.62
+        },
+        {
+          "value": 3.62
+        },
+        {
+          "value": 3.62
+        },
+        {
+          "value": 3.62
+        }
+      ]
     },
     {
       "label": "Wachstum",
@@ -521,12 +641,6 @@
   "charts": {
     "chartLabel": "NASDAQ Composite",
     "qqq": [
-      {
-        "date": "2025-03-20",
-        "close": 17691.63,
-        "ma50": 19075.01,
-        "ma200": 18434.72
-      },
       {
         "date": "2025-03-21",
         "close": 17784.05,
@@ -2320,13 +2434,15 @@
         "close": 26972.62,
         "ma50": 24289.04,
         "ma200": 23194.31
+      },
+      {
+        "date": "2026-06-01",
+        "close": 27086.81,
+        "ma50": 24388.96,
+        "ma200": 23221.18
       }
     ],
     "rsi": [
-      {
-        "date": "2025-03-20",
-        "value": 39.0
-      },
       {
         "date": "2025-03-21",
         "value": 40.7
@@ -3522,6 +3638,10 @@
       {
         "date": "2026-05-29",
         "value": 73.9
+      },
+      {
+        "date": "2026-06-01",
+        "value": 75.0
       }
     ],
     "vix": [
@@ -5933,8 +6053,42 @@
     {
       "title": "Weekly market commentary",
       "source": "blackrock.com",
-      "publishedAt": "2026-06-01T17:09:32+00:00",
+      "publishedAt": "2026-06-01T23:17:06+00:00",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "5 Stocks to Sell in June",
+      "source": "Morningstar",
+      "publishedAt": "2026-06-01T22:01:45+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE13TmVHYzRVcFFwZlVfcVdCTmVObXBlZlo2azZTRTM4eGl3RDd1M0dycHpFUW41ZW9mbnJsRmZPNmp5c2V3QUVVbjloWnpSZ2JPUzB6YWdvVlA4LUV5WXFubExhTQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Why Stock Market Valuations Are Fair in Context",
+      "source": "LPL Financial",
+      "publishedAt": "2026-06-01T20:25:43+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSnZ2NmlUeUwxV2NSMEZKSzJyeWdRWUx1Ym91T1VMdHhxeVZsMzk5bjNSdXpUU1JISDhRRS1OUEZ5bXF1RlZTdE5scEpFa3VUNUJZYW5aencyQlNOc1FYWXNXNVhtamduTjF3ZU5vOVdyUW5pbmR4S0V2MHJBUXlLdE92N09MM3pzeUJZcnM5TzNfcHFBUXJaUFFxUDNuV0dGa2tSZTVMMlowQmc?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -5965,45 +6119,10 @@
       ]
     },
     {
-      "title": "Stock Market Today, June 1: Markets Flat as Oil Spike Offsets New Nvidia Chip",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-06-01T17:17:29+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYzlsdHh0WVh5NnNNWnlhQjRfWnN4ODNkQk9EdUVlSFlycUV3S094TXNydHpITTNHOTQybW54NkZWMEdBY1g5WnlPQ1FLcno4X3NsMHZpRzVnNTY2S252cEFQUl9YZGticV8zOVl5MWJHN2lfb2Z6ZGluNTB4TGU3cmR1N2hfazJIZmNoQnR0MUR3VEF2RjByNmJmUGs1WUhvdjJNMWFFR3NBREhaN3BHanNlanc2alhtaEI3eWhoX0JTa3RyRmJYQ3IzY3pndjQxQ1E?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "US Market Call: Earnings Momentum Fuels a Stock Market Melt-Up",
-      "source": "Investing.com",
-      "publishedAt": "2026-06-01T08:03:45+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMWdVeVFtTEIzQTlZbnFKOWJScFJNcklTY2kzM2xDR3ZldXc2QzlLUi1sN3lsZlhObHY5eDdCRmtWUFluSkNnal9NRThzSTZ5ak9mNVhZYWdacXdsOExwTTgtaXl3eGhIeEVoc19keHFILWtBYzlDUUZaNENEbTludk5ac0swbmd6UmlsRkVRS2JGTy1qa0p0RFJiYThJNDhsZkM0dUZqekI?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Stocks hold near record highs as AI optimism trumps Iran tensions",
-      "source": "Reuters",
-      "publishedAt": "2026-06-01T00:55:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRk9ON041eXk2OUtrQ0NFZTdHeXJCVG8zemM5OHkzX18tSnA5aThmdlczZ1lnZ19vN0tSenhmVTV1b05RMEJGTzdvaDVUd1pMR2Mza1lhWWtFaHVHV3V5Y2NSV1prOUtGNTgzTU56aUdaT1ZJRC0xVWloakpndUFTdWpqRQ?oc=5",
+      "title": "Dow Jones Futures: Broadcom, Micron, Nvidia, Sandisk Rally; Credo Plunges",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-06-02T01:04:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcGxOZ2ZYV3pfNmVJSGtGLXpJYWhUaFBKWTN5ZEkxZ19Qcm5mM0hHNXo2NlhrUnNvbUxLWTBsREh5bVZoYTJBc0lHMDJ6bmRoLXM0VUxOWTdWTlI4ejg1NFE1dFJvbVd5X1dmeWZYSFQ1ZzFJdmsySkVVaER1U1BmRzZveGtGWDZzODlQSUNsU0dTNXR3Vm5rak1HeVBBcVQ2Y083TXVHSXBDbERNN25wYTRpdEt6dVg3?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -6017,21 +6136,20 @@
       ]
     },
     {
-      "title": "Stocks reach new high as AI pushes market, even amid Gulf oil crisis",
-      "source": "The Jerusalem Post",
-      "publishedAt": "2026-06-01T08:57:49+00:00",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzYUxiVmx6anFENkZOOGJFdnVLUWlnX2xWcjBxN1pOdlJieEpIRUt4SE9wbmpLWmFBbzFFeDVERkJiaFhUQWZrMHdSWEF1QjRiSUNDR2U0dFVzWEptTUYzWWI4WWp6TTVNRjk2blE3MElvQ1QyUlgtOA?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "Stock Market Today, June 1: Hewlett Packard Enterprise Jumps After Beating Revenue and Earnings Forecasts",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-06-01T21:44:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPUmpKdHFPcmNmLWZsWGEwQ2ZjU2JidmZjUTdBU3ZvVm5FbkU1TTRoWlUxR1ZfRGE2aGtnTlc4UmZhVkV3cFhzbUVhZkxJNFFWWXctRGhvWXlqRkMtN1MzaV9KOUJ6cmNIdGEycGRBZ3hMYWc1RGhHNzhidmNTd0RTU0dVLVR2QU1ZLWluQ3Zpdi1FS2xkNmRmMENuYWQ5WHNsR09fb3RRVHJ3TWNqUk5tbVdZcTN4djdIVUVVNTlqX3VoTmpNRWxFcXd2ZTlNU1JsNEZMUzhyaG9vT2czbXI3a2dJR1BxR1dXcFVmVTJ1VGVaNVZ1LWlv?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     }
   ]
