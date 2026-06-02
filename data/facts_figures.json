@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T19:46:26.553075+00:00",
+  "generatedAt": "2026-06-02T22:24:48.632007+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -96,197 +96,12 @@
     },
     {
       "label": "Buffett-Indikator",
-      "value": 264.4,
+      "value": null,
       "unit": "%",
-      "tone": "h",
-      "status": "Buffett-Indikator bei 264 %. Historisch stark überhitzt. Marktkapitalisierung weit über BIP.",
-      "history": [
-        {
-          "value": 116.3
-        },
-        {
-          "value": 114.0
-        },
-        {
-          "value": 95.8
-        },
-        {
-          "value": 104.2
-        },
-        {
-          "value": 115.0
-        },
-        {
-          "value": 109.8
-        },
-        {
-          "value": 114.7
-        },
-        {
-          "value": 113.6
-        },
-        {
-          "value": 123.8
-        },
-        {
-          "value": 125.6
-        },
-        {
-          "value": 130.7
-        },
-        {
-          "value": 140.4
-        },
-        {
-          "value": 142.9
-        },
-        {
-          "value": 146.9
-        },
-        {
-          "value": 143.6
-        },
-        {
-          "value": 149.0
-        },
-        {
-          "value": 148.7
-        },
-        {
-          "value": 146.0
-        },
-        {
-          "value": 133.4
-        },
-        {
-          "value": 139.5
-        },
-        {
-          "value": 137.9
-        },
-        {
-          "value": 139.3
-        },
-        {
-          "value": 142.9
-        },
-        {
-          "value": 146.2
-        },
-        {
-          "value": 152.5
-        },
-        {
-          "value": 155.4
-        },
-        {
-          "value": 159.2
-        },
-        {
-          "value": 165.5
-        },
-        {
-          "value": 161.4
-        },
-        {
-          "value": 164.7
-        },
-        {
-          "value": 172.3
-        },
-        {
-          "value": 146.0
-        },
-        {
-          "value": 162.9
-        },
-        {
-          "value": 166.8
-        },
-        {
-          "value": 164.7
-        },
-        {
-          "value": 175.7
-        },
-        {
-          "value": 140.6
-        },
-        {
-          "value": 186.7
-        },
-        {
-          "value": 187.8
-        },
-        {
-          "value": 212.9
-        },
-        {
-          "value": 221.8
-        },
-        {
-          "value": 234.1
-        },
-        {
-          "value": 228.8
-        },
-        {
-          "value": 239.6
-        },
-        {
-          "value": 222.4
-        },
-        {
-          "value": 180.5
-        },
-        {
-          "value": 168.6
-        },
-        {
-          "value": 175.5
-        },
-        {
-          "value": 183.4
-        },
-        {
-          "value": 194.8
-        },
-        {
-          "value": 184.0
-        },
-        {
-          "value": 202.1
-        },
-        {
-          "value": 218.6
-        },
-        {
-          "value": 221.8
-        },
-        {
-          "value": 233.0
-        },
-        {
-          "value": 236.9
-        },
-        {
-          "value": 224.9
-        },
-        {
-          "value": 245.1
-        },
-        {
-          "value": 260.0
-        },
-        {
-          "value": 264.4
-        }
-      ],
-      "fallback": {
-        "label": "Fallback: Fed-Marktwertreihe",
-        "reason": "Die Wilshire-5000-Reihen waren in diesem Lauf nicht verfügbar. Deshalb nutzt der Monitor ersatzweise die offizielle Fed-/FRED-Reihe zum Marktwert börsennotierter US-Aktien.",
-        "nextUpdate": "Beim nächsten regulären Facts-&-Figures-Update wird erneut zuerst die Wilshire-Reihe versucht."
-      }
+      "tone": "m",
+      "status": "Buffett-Indikator temporär nicht verfügbar. Wilshire 5000 oder GDP-Daten konnten nicht abgerufen werden.",
+      "history": [],
+      "fallback": null
     },
     {
       "label": "Gewinnwachstum",
@@ -4850,44 +4665,78 @@
   },
   "news": [
     {
-      "title": "The Stock Market Will Drop Sharply If History Repeats. Warren Buffett Explains Why.",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-06-02T08:55:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSUtoZE9oVGVzbTdLSk1FZ1BTdklTM3V5STV0OWM0VF8wX2s0Z01UaVFVSjhPN1VPS1lLOUJQbFNPQmJydUp2elVEbTBHUDZoUzN3WG5rRV9zblJQaGdyZGFZRnY4aW1TcEJmWm9wc1lhVk5kQjBPMEJOVVFlMDNmZVJlamFpc3VSUWNiM2Q4VXhuMXBiWmZ1cl9ucjJsNjg?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "The S&P 500 has only risen this quickly 4 times since WWII. Once, a historic stock-market crash followed.",
-      "source": "MarketWatch",
-      "publishedAt": "2026-06-02T17:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPQnlxb3FEa2sxODV4Vl9BSl9FZ2tZaFk0NXJJcEtWdXF5aU8yTGZqUG54cnpBcmZKVTJaVUJ4OFRIbTZhVXpXMllGS0szT0h4cThoZjRvV2NYczNXU3B4VW5KazRaREtLMno5NThtOUt0Y3VlSEhPUmhmRGxVcmZ3UW5zRTRJNzRkOGVjemJ6S1gxcEZONmJfVGxkcEFvbzVmRDlRZWtxRHpsSW5DZTlVWEZRTzc4bTlzZzU1bU5lUk11QlpZWTctalcxc3dnN2E4cjVidE5DbTBIZTc4Wmc?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Stock Market Today: Stock Market News And Analysis",
+      "title": "Dow Jones Futures: These Sectors Lead Market, Google Tests Support; Palo Alto Jumps Late On Earnings",
       "source": "Investor's Business Daily",
-      "publishedAt": "2026-06-02T16:49:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8zdGl1MmxTM2JJa2pLNlFSWVhuZUd1ekRIeVpDcGVqckVJcloxaWlnRHJ3b0hqb291NXk4dlo0SmRQNlhDaGpubDh6ZWNTUHZiYVhjOVJINUxSYXE0NHRiNVE2OW51R2h4N1daaXRIdzVBR1UxT0g4?oc=5",
+      "publishedAt": "2026-06-02T21:08:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQam1qc2dzRThnUjB0cjJzekZjNHJWTktyRlUzanFNdlNJNmJ4NFZzcVB1ZDdaQ25TTjNGMi1KSkw2SGo4UnhmTkFDLVZMN3VqN1Uzb1I5XzJ5LXpRamd6R3dCNkdja1MxSWgzMmk3cHBMVFVRSWhXQWpET2lkT1VYOEgwYWJFMjlRcWFfVERlUXVacTh0UDBKS0cwOVJPaFdRQmh1OGwtTkIwX1hSdVVfU01ZUkNLaGhQUU1GTTJxOGhxUXIxcHdNTnhkMUFobndfWnc?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Stock Market Could Crash In June (NYSEARCA:SPY)",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-06-02T12:13:11+00:00",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBJV1dIMUtfQTdBZlhKbl9KWGpjRDdpYjk5SXlSZU1BcDAtUjJjSWJyNTN4T1RGUklEU0FNYVJIcm1MakZia3o5dVNfVEhjbjdMdlNLc2NhSlBuN3pFQXlLR29QMG85UDUyVE5wNmZpMldZTnlQYVRvdUE2OWpVUQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Why Is The US Stock Market Up Today?",
+      "source": "BeInCrypto",
+      "publishedAt": "2026-06-02T19:27:13+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBqYVVwakhpT3BNYlNjUzdKZXE3RjZoc0twRnlaal9oMGs2dG9jNWxLbGl5bF80N05NS3FNLVFzLTQ1NmV6eFZWN2s3RlluZ0k4ZURaR0ZiMDNpNDc4NmUtYU54aGg0dw?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "The Stock Market Will Drop Sharply If History Repeats. Warren Buffett Explains Why.",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-06-02T09:35:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNUo3RVB1OEpQLXotbHFzRDdUSkNxS3FYTFRRVHJ6THctb3loY0lDdGt5Tms5WGxNYTdBczFwQ2tJdUhEZ1BIaXhHLWFyQnNZcjQ5RC1DV3pwVktHMXhEQWhaWUIxVmphMFR4UHoyR3Z3U3c2MHlOWEs2U0gxM3prY2dENVBnUDFUb09wX3ZNdFdiOVpGNUE?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "HPE Is Having a Dell-Like Move. But It’s Not Dell.",
+      "source": "Barron's",
+      "publishedAt": "2026-06-02T21:23:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5zN2EwVklaUlktR3FDZi1DbXJJUkRxNXFfR0Q5SWRDMWRtUC1GbXNLMW5LUDk2XzJ2SG5rNVFTbUkzcDZUbWlHTjRKa3ZIOE5LOU5EaWh5Q000SEgyZktUTVB4R25lRDFVSHpib1FUbk1nRzYt?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -4905,41 +4754,6 @@
       "source": "Morningstar",
       "publishedAt": "2026-06-01T22:01:45+00:00",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE13TmVHYzRVcFFwZlVfcVdCTmVObXBlZlo2azZTRTM4eGl3RDd1M0dycHpFUW41ZW9mbnJsRmZPNmp5c2V3QUVVbjloWnpSZ2JPUzB6YWdvVlA4LUV5WXFubExhTQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "How Oil Price Shocks Drive Inflation, Bond Yields, And Stock Market Sell-Offs Roue (QRfJORcaDU)",
-      "source": "Mshale",
-      "publishedAt": "2026-06-02T08:47:23+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jbUtxUnhiMVlfX2pPcjhHVVZZcldfLTRuLWYtQTFPanJxSWN2cFUxTkJHOUQ5cDdoV0lCc1k5X0NZdVlxd2psTWhuNVdjUDBRUXlfQkFxSVF6LTA?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "5 Things to Know Before the Stock Market Opens",
-      "source": "Investopedia",
-      "publishedAt": "2026-06-02T12:20:38+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOG5Xd3BONmVlUGtySTIzYkVBX2QyZHZUSGJzNEltTG1CTjBMWTVKNndYMXEtMWRLb0FkbzJ1WnpmYnBITUpVbjY3WG5rV2RvdENGVEdiYjNfUjJoNG5CSjlKOXRGMkNMcTl0QnhUVkExS19OV3B4MGswUGszbndQQUtrQ1p6MkNmM0dmQWRjT05ic09HRWpFenVYUmQ?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
