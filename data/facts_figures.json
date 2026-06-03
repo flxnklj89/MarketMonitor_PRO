@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T04:50:09.391823+00:00",
+  "generatedAt": "2026-06-03T12:46:07.567419+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -4911,6 +4911,41 @@
   },
   "news": [
     {
+      "title": "Japan’s stock market hits new record as AI boom gathers steam",
+      "source": "Al Jazeera",
+      "publishedAt": "2026-06-03T06:20:56+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdW1CX0thdWpoXzhJWHhNX2x1V3lQVGh4MmRlb21jWnZpcXZPSnRuQXZTQUZ2RnlCajJETVp4U1lqc2R2WTFadC1xam9GNU1pNVFBb1N6bjE4X3ZyaXlXME1sVlRscHR4VGVJNk9MS0hKUmlMS2hKYlNaMVJvbEp6ZUVQLXJ5M3NINXRpdmV0VnpIZVpYTzNUT0hDMmxsSEFSaVA5NUZB0gGrAUFVX3lxTE5GWnZHSXFmRjVCbWMzUjlublN3ZmFqYXU2WDI4Z3hjaTZCU0xyQWx1NmoycEdhZEhiVHB3MTlFUTdsSnFsSG9zcllpTnFGSkdkUmk0Z3I5cVJnaGI4STgtWVIyc2tCbjY5NlFUVU13dFprbHZBQVNKU3lMd0ppQV8xTmJkUzBmaHFDOWF5MWNIMjhOV3lGbjZRVTJ0eXpHLTlOSS1FM3gzLXJ6SQ?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
+      "title": "Trump Turns From Iran to Tariffs as Stock Market’s Record Rally Faces Test and 4 Other Things to Know Today",
+      "source": "Barron's",
+      "publishedAt": "2026-06-03T10:15:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYUFucjdMWmdsbV9sdXlDcjExdmlLd3llZW5rSk45NFcxOTgxbnR5NnZ5SkhBZ0xuSGZJM2hFNnlqdGs0YnNJcDdzRXlyY3l6YXAtdmM3ZGd2MEJzaVpmaTgzYXZLR091blhCYnFUY3h4VEN6LW0yV2lfS0owWnlsNGlCNzF5dDFG?oc=5",
+      "bucket": "Handel / Lieferketten",
+      "summary": "Die Meldung betrifft Zölle, Sanktionen oder Logistik. Das ist wichtig, weil solche Themen Preise, Margen und Verfügbarkeit von Vorprodukten beeinflussen.",
+      "impact": "Mittel bis hoch, wenn die Störung mehrere Branchen oder Länder betrifft.",
+      "probability": "Mittel, weil politische Schlagzeilen oft erst bestätigt werden müssen.",
+      "horizon": "Sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders empfindlich reagieren Industrie, Transport, Rohstoffe, Inflationspreise und konjunktursensitive Aktien.",
+      "assets": [
+        "Industrieaktien",
+        "Rohstoffe",
+        "Inflation",
+        "Transport"
+      ]
+    },
+    {
       "title": "China is making it harder for mom and pop to access U.S. stocks. Here's who will benefit",
       "source": "CNBC",
       "publishedAt": "2026-06-02T23:56:40+00:00",
@@ -4928,10 +4963,10 @@
       ]
     },
     {
-      "title": "The Stock Market Will Drop Sharply If History Repeats. Warren Buffett Explains Why.",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-06-02T08:55:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSUtoZE9oVGVzbTdLSk1FZ1BTdklTM3V5STV0OWM0VF8wX2s0Z01UaVFVSjhPN1VPS1lLOUJQbFNPQmJydUp2elVEbTBHUDZoUzN3WG5rRV9zblJQaGdyZGFZRnY4aW1TcEJmWm9wc1lhVk5kQjBPMEJOVVFlMDNmZVJlamFpc3VSUWNiM2Q4VXhuMXBiWmZ1cl9ucjJsNjg?oc=5",
+      "title": "US tech stocks' market dominance reaches new heights and presents new risks",
+      "source": "Reuters",
+      "publishedAt": "2026-06-03T10:36:36+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWm5WVXFiRzhGd0xFeUt0S1dzUDY2UUdFYUtiZ2xfTjJjZWpYazBIRTlNS0d4bG1jSy1xOTY5MmdzWlJSZi13TGtTdVBHOUZpa2E1bXIwdXkyUHhVVllOd0tRb2N1Vmprc2hpLVJLdWpqblI1TE8waGkzUVR2WE5SOFU4RG13eFZ3T0lYSTR3Q0EwYWFGanhfamc0anp0UDBYMEdGdkdDN1VmUjZSVVJtbFJRQUgzUQ?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -4945,45 +4980,27 @@
       ]
     },
     {
-      "title": "Stock Market Could Crash In June (NYSEARCA:SPY)",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-06-02T12:13:11+00:00",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBJV1dIMUtfQTdBZlhKbl9KWGpjRDdpYjk5SXlSZU1BcDAtUjJjSWJyNTN4T1RGUklEU0FNYVJIcm1MakZia3o5dVNfVEhjbjdMdlNLc2NhSlBuN3pFQXlLR29QMG85UDUyVE5wNmZpMldZTnlQYVRvdUE2OWpVUQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Wall Street hated these 15 stocks. Then their earnings proved the analysts wrong.",
+      "source": "MarketWatch",
+      "publishedAt": "2026-06-03T12:10:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNN0VvMmllSWxsRjV4NmU3N3N1bkl4Zy1zaGZfVldKYWhzeTZUQUhNYVJZTTc0emZOOHVqOXNLTlNFTnhWNC14MTBrQjZEYXIxMUlsa3hRWVZZVnhIQ0x5cWU1LTh4OEt0OGxzQURRYVNweDRScVVkUi14T2JzTEV1ZjYweE1HUnRIZV9kdFNtenRqb0NsaFFoX0NZN3I3MHlNT004eFR4aGNQTk9wZWMtNTM5WWg2MC1ySkpfaGdvZw?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
         "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     },
     {
-      "title": "Goldman CEO says high oil prices could shift consumer behavior in second half of 2026",
-      "source": "WTVB",
-      "publishedAt": "2026-06-02T22:59:34+00:00",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQd3RLdjFQSm9BeVVOMXRzYkJXZ2ZodW04X19aRmVaTHhUS3gwbEtLTjAtdGRHR3UwTl9JR0NINU5TTzVnakJzeGZ1cWNlaFItWU5yZG4zcEhzNGNPR0dYeXkxV1FKSjRSWFlncHNVeWRlNmloQjQtRnZ0M3o5VEFJNS1fLVZ2U3JVRmZ2d0tBWjA3dDgtVUFTSUFyY3BMVlJ3aHh6cmlHMWUxTGhRVEFCNERyX3JEQW8?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Dallas Fed Study: Rising Hedge Fund Leverage Is Reshaping Treasury Markets",
-      "source": "Fort Worth Inc.",
-      "publishedAt": "2026-06-02T20:11:25+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNajBPWVJIVGlIRUgtcTVKT2RkVHF6M0J4Wjhqc3NOa1JkcG9GaC1vazVhZlNRUVdnM1ZPUGZubThPYnNSajh0MHV0UExWNi1LcEljOXVhZkhzd0pReTA3LUhGN0k2RE9pR0NDcEZQbnVWbzJWOWNmTlVGV1MxQUJXV251YkdEYW5ibmR2UjkzUkhldVBTc0E?oc=5",
+      "title": "The 1987 Omen: Why Kevin Warsh's Debut As Fed Chair Gives Market Historians the Chills",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-06-03T07:58:59+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPc3J6ZmFFZW9DcFBfN0xTM2JURDBmUXZKb3l2NDRkcDF3R2xxV2Nmc2pwR253VjdOZEhybGFaTzU3MXdXdTlwWEl0X3FjS0FfdUZvOGtiM0kxSy1uTTZ0SEtxYTZOcXFUSlUtR2xRVHFpSVhLS3V2bUQ2eHI1M0xOUkh0OTRzZmp0cWFtV25iT3kxU3pGWFBz?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -4995,23 +5012,6 @@
         "Aktien",
         "US-Dollar",
         "Gold"
-      ]
-    },
-    {
-      "title": "5 Stocks to Sell in June",
-      "source": "Morningstar",
-      "publishedAt": "2026-06-01T22:01:45+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE13TmVHYzRVcFFwZlVfcVdCTmVObXBlZlo2azZTRTM4eGl3RDd1M0dycHpFUW41ZW9mbnJsRmZPNmp5c2V3QUVVbjloWnpSZ2JPUzB6YWdvVlA4LUV5WXFubExhTQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     }
   ]
