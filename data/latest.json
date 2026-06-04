@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-04T15:28:44.562398+00:00",
+  "fetchedAt": "2026-06-04T18:23:49.028324+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20662,23 +20662,6 @@
       ]
     },
     {
-      "title": "The Stock Market Sounds an Alarm as Investors Get a Grim Update on President Trump's Economy",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-06-04T10:12:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOalFJX1BfVG8tN1dkTlBPV0pnbUd3UUtfZ0pBSDRBdlh2bWlwTC1TSEdIbnQwSGNGNkM2eWh5QUVtbFFXQzhQOU8wRXlUQkk5Y216MUJ1cVl1UklaTTgzejBkTDliR2hLTUtoNFNsdWIzR3lpZ1ZYWDBuVl9TOElRd2I3OEZDZ05PYjhDZXFKUy1fQQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
       "title": "Japan’s stock market hits new record as AI boom gathers steam",
       "source": "Al Jazeera",
       "publishedAt": "2026-06-03T06:20:56+00:00",
@@ -20693,6 +20676,23 @@
         "Weltaktien",
         "Währungen",
         "Rohstoffe"
+      ]
+    },
+    {
+      "title": "The Stock Market Sounds an Alarm as Investors Get a Grim Update on President Trump's Economy",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-06-04T10:12:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOalFJX1BfVG8tN1dkTlBPV0pnbUd3UUtfZ0pBSDRBdlh2bWlwTC1TSEdIbnQwSGNGNkM2eWh5QUVtbFFXQzhQOU8wRXlUQkk5Y216MUJ1cVl1UklaTTgzejBkTDliR2hLTUtoNFNsdWIzR3lpZ1ZYWDBuVl9TOElRd2I3OEZDZ05PYjhDZXFKUy1fQQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
@@ -20713,20 +20713,20 @@
       ]
     },
     {
-      "title": "Palantir’s New Partner: 8 Key Items Shaping the Stock Market Thursday",
-      "source": "TheStreet Pro",
-      "publishedAt": "2026-06-04T12:46:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNS0xPSFVkbi1pYWtvSWZ5LW5rVENfWi1RbWhzemh6QTFvbGVBQ3B6ZXNnTW9TRzJNTC1QdlM0akR1Rmh0QVNIV21wY0FDN01jUEpVbzkwa3BZYTlueG5hX0pWTlpGeDBuRVJVci1nR0daQTJCY0hjWVN6TTFWb3p6RW5YdTNneXR3LWlhcm9ZN3ZpTXY5Rkx5Q01qZVowcHN0aWZWeE9n?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Stock market today: Dow rises, Nasdaq falls as Broadcom, CrowdStrike plunge on earnings news (live coverage)",
+      "source": "MSN",
+      "publishedAt": "2026-06-04T14:39:05+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNakJoOGlOS3VBOFhIR0dTQnlEX01BN2gwamJMeXl2RzZ0Mmw5c0NqNUJ1bVk1SFlrLVBqaExJQUs3Y2hJWmJVMVFHMDJkSFFPT2h5Mk9GcDA2TXVaRk1Mam5YbndJVUJUYUlycW1DZ3hIRms5TlhjaFh2Vk0tdG9DbDZJOTdJUHVtWnpVLWVkTExlM05fQmt1cHdzQzBWcXhSVzNyUWU0cjlHRTNVNVYtb243Z3FwaWhFNnpYUHZXY185NFpFLVlWN1RsNHpVSmNlLXFYMU0zdzktWlltUmJUcjAzdUI?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
         "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     }
   ],
@@ -20833,7 +20833,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-06-04T15:28:44.562398+00:00",
+      "dataAsOf": "2026-06-04T18:23:49.028324+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
