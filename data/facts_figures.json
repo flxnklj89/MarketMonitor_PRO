@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T21:46:21.752709+00:00",
+  "generatedAt": "2026-06-05T04:18:52.258338+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -43,10 +43,10 @@
   "technicalTriggers": [
     {
       "label": "50T vs. 200T",
-      "value": 5.7,
+      "value": 6.0,
       "unit": "%",
       "tone": "l",
-      "status": "50T liegt bei +5.7 % gegenüber dem 200T. Schlusskurs 26854, 50T 24596, 200T 23274. NASDAQ Composite (Fallback) über 50T (24596) und 200T (23274). Trendstruktur intakt.",
+      "status": "50T liegt bei +6.0 % gegenüber dem 200T. Schlusskurs 26831, 50T 24697, 200T 23300. NASDAQ Composite (Fallback) über 50T (24697) und 200T (23300). Trendstruktur intakt.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -56,10 +56,10 @@
     },
     {
       "label": "RSI (14)",
-      "value": 68.1,
+      "value": 67.5,
       "unit": "",
       "tone": "m",
-      "status": "RSI (14) bei 68.1. Kein Extremniveau in beide Richtungen.",
+      "status": "RSI (14) bei 67.5. Kein Extremniveau in beide Richtungen.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -69,10 +69,10 @@
     },
     {
       "label": "Drawdown vom Hoch",
-      "value": -0.9,
+      "value": -1.0,
       "unit": "%",
       "tone": "l",
-      "status": "-0.9 % vom Hoch. Kaum struktureller Druck.",
+      "status": "-1.0 % vom Hoch. Kaum struktureller Druck.",
       "history": []
     }
   ],
@@ -702,12 +702,6 @@
   "charts": {
     "chartLabel": "NASDAQ Composite",
     "qqq": [
-      {
-        "date": "2025-03-25",
-        "close": 18271.86,
-        "ma50": 18997.3,
-        "ma200": 18451.57
-      },
       {
         "date": "2025-03-26",
         "close": 17899.01,
@@ -2501,13 +2495,15 @@
         "close": 26853.98,
         "ma50": 24596.03,
         "ma200": 23274.25
+      },
+      {
+        "date": "2026-06-04",
+        "close": 26830.96,
+        "ma50": 24697.42,
+        "ma200": 23300.26
       }
     ],
     "rsi": [
-      {
-        "date": "2025-03-25",
-        "value": 49.1
-      },
       {
         "date": "2025-03-26",
         "value": 43.7
@@ -3703,6 +3699,10 @@
       {
         "date": "2026-06-03",
         "value": 68.1
+      },
+      {
+        "date": "2026-06-04",
+        "value": 67.5
       }
     ],
     "vix": [
@@ -6129,40 +6129,6 @@
       ]
     },
     {
-      "title": "KBA Tells The Story of China’s Equity Market Evolution",
-      "source": "KraneShares",
-      "publishedAt": "2026-06-04T20:17:05+00:00",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYjRQNk9SWkw1S2QzaHZfQ01lM2dzVERLLWU5MVpLSXNhb0ItblFZMDBvZHRHYThOdzFqT2FDLWd3OXZIX29XbW5mU0FWYVhTOVZQTXBILXh0R2UxeHpaanhvbTB1VVFVQ0JrSTZHZGJETXBYbUZja0ppYjV3MVFab2NCTnc?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
-      ]
-    },
-    {
-      "title": "Broadcom earnings, SpaceX's IPO price, World Cup worries and more in Morning Squawk",
-      "source": "CNBC",
-      "publishedAt": "2026-06-04T12:07:57+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQT09WdTZ2Q0U3Z0ZXNXNzV2gwWTVUbDBLNmJvOHFIZGxQemJCbnJKTm1qR05yeHAzTUNzLUNsLWZJbk5mN3dqZW03X0dMdzNJQUpleW43dWdyZTJIY3V1NjJyelBXVGJJWlh1ZXJFWXNraGRyTHllUGFaenB3T0dSQ3NEaFM3VDBMaTNZ0gGQAUFVX3lxTFBUUGxRaFhWOGRKSzFCc0lEZDZEMFBFS0NMS3F3ZnZvX1I3dTYxUUFERnRham5tajdseXhmNVpqZS0zdUZ6Z204aDZHLTRVVGxGcW1DMU85V0dsQm9kcE1CSDk5clZJdElmbDdOYVJLNVZTUEVMMkJyYlJDUnBWLTBlTlUwZ3JvUHllZmVlU0tOMQ?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
       "title": "Japan’s stock market hits new record as AI boom gathers steam",
       "source": "Al Jazeera",
       "publishedAt": "2026-06-03T06:20:56+00:00",
@@ -6180,10 +6146,10 @@
       ]
     },
     {
-      "title": "The Outlook for India’s Stock Market Amid the Middle East Conflict",
-      "source": "Goldman Sachs",
-      "publishedAt": "2026-06-03T21:21:30+00:00",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSHRRVV9SU0V1SVVtLTRGUkhfc19lOEZRT0haM3U4OGlmM1RPMXRyd0JZU1dnbHd4V2FuUHItcWVkTUZEUlZqN29SVnh3UGpib2YzbU1wTmhLQUMzaGpublpEbUNHZFp0c0cxWVh0UXVDQnhGZktrTEI2X041TVQ5UFRLZXliNDZsd0RwRnlBM1pIczItQWVyNWhRcElWWFJUdDg4VTlQYmtkWGg0aTlIZTRn?oc=5",
+      "title": "Stocks drop as AI rally pauses, US-Iran peace talks stall",
+      "source": "Reuters",
+      "publishedAt": "2026-06-05T01:35:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSDZvYjZiMW9PTFBnYWRFYVRVa0hDanhaTmdoRTFtSVJvY1NXMHR0LXMzdm9VZlJXcUVwbkdEbWd2UG9Tb1FCQk1Rdkl5YkNYWEJ6MkhxU1ZaS3A1eUhiOGxiSzZlbkNCUklYLUJhQmFzUFBmY0dPdGU0aEFTa0tDVmpLVQ?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -6197,10 +6163,45 @@
       ]
     },
     {
-      "title": "The Stock Market Sounds an Alarm as Investors Get a Grim Update on President Trump's Economy",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-06-04T10:12:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOalFJX1BfVG8tN1dkTlBPV0pnbUd3UUtfZ0pBSDRBdlh2bWlwTC1TSEdIbnQwSGNGNkM2eWh5QUVtbFFXQzhQOU8wRXlUQkk5Y216MUJ1cVl1UklaTTgzejBkTDliR2hLTUtoNFNsdWIzR3lpZ1ZYWDBuVl9TOElRd2I3OEZDZ05PYjhDZXFKUy1fQQ?oc=5",
+      "title": "KBA Tells The Story of China’s Equity Market Evolution",
+      "source": "KraneShares",
+      "publishedAt": "2026-06-04T20:17:05+00:00",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYjRQNk9SWkw1S2QzaHZfQ01lM2dzVERLLWU5MVpLSXNhb0ItblFZMDBvZHRHYThOdzFqT2FDLWd3OXZIX29XbW5mU0FWYVhTOVZQTXBILXh0R2UxeHpaanhvbTB1VVFVQ0JrSTZHZGJETXBYbUZja0ppYjV3MVFab2NCTnc?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
+      "title": "Daily Stock Market News(Mar 17 2026):Oil Crash, Unemployment Drop, Trade Deficit Shrink,Ola Electric François Legault (np42mDiPmV)",
+      "source": "Mshale",
+      "publishedAt": "2026-06-05T01:20:27+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE80TWdlSjJGTUtiVy1mTG5KNklINkk0Ry1hbURBaWlQbS1MaXJFZTAzZHdFVXJlbEE1UHdTRWdYTzBlM3pLUE1OUzlSM1ZyblRqUHZNdC1ZUlhfcVE?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "The Outlook for India’s Stock Market Amid the Middle East Conflict",
+      "source": "Goldman Sachs",
+      "publishedAt": "2026-06-03T21:21:30+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSHRRVV9SU0V1SVVtLTRGUkhfc19lOEZRT0haM3U4OGlmM1RPMXRyd0JZU1dnbHd4V2FuUHItcWVkTUZEUlZqN29SVnh3UGpib2YzbU1wTmhLQUMzaGpublpEbUNHZFp0c0cxWVh0UXVDQnhGZktrTEI2X041TVQ5UFRLZXliNDZsd0RwRnlBM1pIczItQWVyNWhRcElWWFJUdDg4VTlQYmtkWGg0aTlIZTRn?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",

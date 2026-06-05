@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-04T21:46:14.302332+00:00",
+  "fetchedAt": "2026-06-05T04:18:46.462180+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -66,10 +66,10 @@
       }
     },
     "sp500": {
-      "ytd": 10.14,
+      "ytd": 10.58,
       "first": 6858.47,
-      "latest": 7553.68,
-      "date": "2026-06-03",
+      "latest": 7584.31,
+      "date": "2026-06-04",
       "cadence": "daily",
       "series": "SP500",
       "uiLabel": "S&P 500 seit Jahresbeginn",
@@ -98,14 +98,14 @@
     "tradeStress": {
       "value": 27,
       "label": "Entspannt",
-      "date": "2026-06-03",
+      "date": "2026-06-04",
       "cadence": "daily",
       "method": "proxy",
       "components": {
         "vix": 16.06,
         "brent": 98.29,
         "eurusd": 1.1679,
-        "us10y": 4.46
+        "us10y": 4.49
       },
       "uiLabel": "Marktstress",
       "shortText": "Verdichteter Stressmesser aus Markt- und Preisvariablen.",
@@ -120,7 +120,7 @@
   "globalComposite": {
     "value": 39.7,
     "label": "Stabil",
-    "date": "2026-06-04"
+    "date": "2026-06-05"
   },
   "regions": {
     "europe": {
@@ -221,9 +221,9 @@
     {
       "label": "SPX",
       "icon": "📊",
-      "val": 7553.68,
-      "chg": -56.1,
-      "chgPct": -0.74,
+      "val": 7584.31,
+      "chg": 30.63,
+      "chgPct": 0.41,
       "unit": "",
       "dec": 2
     },
@@ -248,9 +248,9 @@
     {
       "label": "US 10Y",
       "icon": "📉",
-      "val": 4.46,
-      "chg": -0.01,
-      "chgPct": -0.22,
+      "val": 4.49,
+      "chg": 0.03,
+      "chgPct": 0.67,
       "unit": "%",
       "dec": 2
     },
@@ -932,10 +932,6 @@
       }
     ],
     "fedRate": [
-      {
-        "date": "2020-06-05",
-        "value": 0.07
-      },
       {
         "date": "2020-06-08",
         "value": 0.07
@@ -7669,10 +7665,6 @@
     ],
     "sp500": [
       {
-        "date": "2020-06-05",
-        "value": 3193.93
-      },
-      {
         "date": "2020-06-08",
         "value": 3232.39
       },
@@ -13691,6 +13683,10 @@
       {
         "date": "2026-06-03",
         "value": 7553.68
+      },
+      {
+        "date": "2026-06-04",
+        "value": 7584.31
       }
     ],
     "sentiment": [
@@ -14413,10 +14409,6 @@
     ],
     "tradeStress": [
       {
-        "date": "2020-06-05",
-        "value": 15
-      },
-      {
         "date": "2020-06-08",
         "value": 22
       },
@@ -14434,11 +14426,11 @@
       },
       {
         "date": "2020-06-12",
-        "value": 28
+        "value": 34
       },
       {
         "date": "2020-06-15",
-        "value": 28
+        "value": 34
       },
       {
         "date": "2020-06-16",
@@ -14466,7 +14458,7 @@
       },
       {
         "date": "2020-06-24",
-        "value": 28
+        "value": 34
       },
       {
         "date": "2020-06-25",
@@ -14478,7 +14470,7 @@
       },
       {
         "date": "2020-06-29",
-        "value": 28
+        "value": 34
       },
       {
         "date": "2020-06-30",
@@ -20623,6 +20615,10 @@
       {
         "date": "2026-06-03",
         "value": 27
+      },
+      {
+        "date": "2026-06-04",
+        "value": 27
       }
     ]
   },
@@ -20632,6 +20628,40 @@
       "source": "24/7 Wall St.",
       "publishedAt": "2026-06-04T17:07:29+00:00",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPODVtOEhaU29yR0d2c2l0RGJQUnBSTnBaVk9YUC11MWdiUTJvTVlXOG16RnhwR3pacDBGQWpSZXBMZlpJbEpXQVZFUTZ5U2ZuR3FzSjNEa2M3VEp4LUthSk1xUlI4UjJFWFhEbzNtUm4wRjdTUTNfTi1HWWpDc201M2J4ZzZFUVFXRlROR0tOVXdFUmg1czdsd2xEdkpfWFVxV05UMDVYckRuZjVXTkJ3MEl0d1ZuQmhkNGppdlpJWGtzNF92RUhhSWxBM3JHSkF5TEdZZWIxSTV0UUdqSmc?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Japan’s stock market hits new record as AI boom gathers steam",
+      "source": "Al Jazeera",
+      "publishedAt": "2026-06-03T06:20:56+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdW1CX0thdWpoXzhJWHhNX2x1V3lQVGh4MmRlb21jWnZpcXZPSnRuQXZTQUZ2RnlCajJETVp4U1lqc2R2WTFadC1xam9GNU1pNVFBb1N6bjE4X3ZyaXlXME1sVlRscHR4VGVJNk9MS0hKUmlMS2hKYlNaMVJvbEp6ZUVQLXJ5M3NINXRpdmV0VnpIZVpYTzNUT0hDMmxsSEFSaVA5NUZB0gGrAUFVX3lxTE5GWnZHSXFmRjVCbWMzUjlublN3ZmFqYXU2WDI4Z3hjaTZCU0xyQWx1NmoycEdhZEhiVHB3MTlFUTdsSnFsSG9zcllpTnFGSkdkUmk0Z3I5cVJnaGI4STgtWVIyc2tCbjY5NlFUVU13dFprbHZBQVNKU3lMd0ppQV8xTmJkUzBmaHFDOWF5MWNIMjhOV3lGbjZRVTJ0eXpHLTlOSS1FM3gzLXJ6SQ?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
+      "title": "Stocks drop as AI rally pauses, US-Iran peace talks stall",
+      "source": "Reuters",
+      "publishedAt": "2026-06-05T01:35:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSDZvYjZiMW9PTFBnYWRFYVRVa0hDanhaTmdoRTFtSVJvY1NXMHR0LXMzdm9VZlJXcUVwbkdEbWd2UG9Tb1FCQk1Rdkl5YkNYWEJ6MkhxU1ZaS3A1eUhiOGxiSzZlbkNCUklYLUJhQmFzUFBmY0dPdGU0aEFTa0tDVmpLVQ?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20662,37 +20692,21 @@
       ]
     },
     {
-      "title": "Broadcom earnings, SpaceX's IPO price, World Cup worries and more in Morning Squawk",
-      "source": "CNBC",
-      "publishedAt": "2026-06-04T12:07:57+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQT09WdTZ2Q0U3Z0ZXNXNzV2gwWTVUbDBLNmJvOHFIZGxQemJCbnJKTm1qR05yeHAzTUNzLUNsLWZJbk5mN3dqZW03X0dMdzNJQUpleW43dWdyZTJIY3V1NjJyelBXVGJJWlh1ZXJFWXNraGRyTHllUGFaenB3T0dSQ3NEaFM3VDBMaTNZ0gGQAUFVX3lxTFBUUGxRaFhWOGRKSzFCc0lEZDZEMFBFS0NMS3F3ZnZvX1I3dTYxUUFERnRham5tajdseXhmNVpqZS0zdUZ6Z204aDZHLTRVVGxGcW1DMU85V0dsQm9kcE1CSDk5clZJdElmbDdOYVJLNVZTUEVMMkJyYlJDUnBWLTBlTlUwZ3JvUHllZmVlU0tOMQ?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "Daily Stock Market News(Mar 17 2026):Oil Crash, Unemployment Drop, Trade Deficit Shrink,Ola Electric François Legault (np42mDiPmV)",
+      "source": "Mshale",
+      "publishedAt": "2026-06-05T01:20:27+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE80TWdlSjJGTUtiVy1mTG5KNklINkk0Ry1hbURBaWlQbS1MaXJFZTAzZHdFVXJlbEE1UHdTRWdYTzBlM3pLUE1OUzlSM1ZyblRqUHZNdC1ZUlhfcVE?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Japan’s stock market hits new record as AI boom gathers steam",
-      "source": "Al Jazeera",
-      "publishedAt": "2026-06-03T06:20:56+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdW1CX0thdWpoXzhJWHhNX2x1V3lQVGh4MmRlb21jWnZpcXZPSnRuQXZTQUZ2RnlCajJETVp4U1lqc2R2WTFadC1xam9GNU1pNVFBb1N6bjE4X3ZyaXlXME1sVlRscHR4VGVJNk9MS0hKUmlMS2hKYlNaMVJvbEp6ZUVQLXJ5M3NINXRpdmV0VnpIZVpYTzNUT0hDMmxsSEFSaVA5NUZB0gGrAUFVX3lxTE5GWnZHSXFmRjVCbWMzUjlublN3ZmFqYXU2WDI4Z3hjaTZCU0xyQWx1NmoycEdhZEhiVHB3MTlFUTdsSnFsSG9zcllpTnFGSkdkUmk0Z3I5cVJnaGI4STgtWVIyc2tCbjY5NlFUVU13dFprbHZBQVNKU3lMd0ppQV8xTmJkUzBmaHFDOWF5MWNIMjhOV3lGbjZRVTJ0eXpHLTlOSS1FM3gzLXJ6SQ?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
@@ -20700,23 +20714,6 @@
       "source": "Goldman Sachs",
       "publishedAt": "2026-06-03T21:21:30+00:00",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSHRRVV9SU0V1SVVtLTRGUkhfc19lOEZRT0haM3U4OGlmM1RPMXRyd0JZU1dnbHd4V2FuUHItcWVkTUZEUlZqN29SVnh3UGpib2YzbU1wTmhLQUMzaGpublpEbUNHZFp0c0cxWVh0UXVDQnhGZktrTEI2X041TVQ5UFRLZXliNDZsd0RwRnlBM1pIczItQWVyNWhRcElWWFJUdDg4VTlQYmtkWGg0aTlIZTRn?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "The Stock Market Sounds an Alarm as Investors Get a Grim Update on President Trump's Economy",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-06-04T10:12:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOalFJX1BfVG8tN1dkTlBPV0pnbUd3UUtfZ0pBSDRBdlh2bWlwTC1TSEdIbnQwSGNGNkM2eWh5QUVtbFFXQzhQOU8wRXlUQkk5Y216MUJ1cVl1UklaTTgzejBkTDliR2hLTUtoNFNsdWIzR3lpZ1ZYWDBuVl9TOElRd2I3OEZDZ05PYjhDZXFKUy1fQQ?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20833,7 +20830,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-06-04T21:46:14.302332+00:00",
+      "dataAsOf": "2026-06-05T04:18:46.462180+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
