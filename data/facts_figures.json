@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T04:18:52.258338+00:00",
+  "generatedAt": "2026-06-05T11:32:57.545158+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,23 +6112,6 @@
   },
   "news": [
     {
-      "title": "The Stock Market Has Been Here Precisely Once Before. Buckle Up as Kevin Warsh Tries to Land the Plane",
-      "source": "24/7 Wall St.",
-      "publishedAt": "2026-06-04T17:07:29+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPODVtOEhaU29yR0d2c2l0RGJQUnBSTnBaVk9YUC11MWdiUTJvTVlXOG16RnhwR3pacDBGQWpSZXBMZlpJbEpXQVZFUTZ5U2ZuR3FzSjNEa2M3VEp4LUthSk1xUlI4UjJFWFhEbzNtUm4wRjdTUTNfTi1HWWpDc201M2J4ZzZFUVFXRlROR0tOVXdFUmg1czdsd2xEdkpfWFVxV05UMDVYckRuZjVXTkJ3MEl0d1ZuQmhkNGppdlpJWGtzNF92RUhhSWxBM3JHSkF5TEdZZWIxSTV0UUdqSmc?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
       "title": "Japan’s stock market hits new record as AI boom gathers steam",
       "source": "Al Jazeera",
       "publishedAt": "2026-06-03T06:20:56+00:00",
@@ -6146,10 +6129,44 @@
       ]
     },
     {
-      "title": "Stocks drop as AI rally pauses, US-Iran peace talks stall",
+      "title": "Stocks drop as US-Iran peace talks stall, AI rally cools",
       "source": "Reuters",
-      "publishedAt": "2026-06-05T01:35:00+00:00",
+      "publishedAt": "2026-06-05T09:01:45+00:00",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSDZvYjZiMW9PTFBnYWRFYVRVa0hDanhaTmdoRTFtSVJvY1NXMHR0LXMzdm9VZlJXcUVwbkdEbWd2UG9Tb1FCQk1Rdkl5YkNYWEJ6MkhxU1ZaS3A1eUhiOGxiSzZlbkNCUklYLUJhQmFzUFBmY0dPdGU0aEFTa0tDVmpLVQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "The Stock Market Has Been Here Precisely Once Before. Buckle Up as Kevin Warsh Tries to Land the Plane",
+      "source": "24/7 Wall St.",
+      "publishedAt": "2026-06-04T17:07:29+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPODVtOEhaU29yR0d2c2l0RGJQUnBSTnBaVk9YUC11MWdiUTJvTVlXOG16RnhwR3pacDBGQWpSZXBMZlpJbEpXQVZFUTZ5U2ZuR3FzSjNEa2M3VEp4LUthSk1xUlI4UjJFWFhEbzNtUm4wRjdTUTNfTi1HWWpDc201M2J4ZzZFUVFXRlROR0tOVXdFUmg1czdsd2xEdkpfWFVxV05UMDVYckRuZjVXTkJ3MEl0d1ZuQmhkNGppdlpJWGtzNF92RUhhSWxBM3JHSkF5TEdZZWIxSTV0UUdqSmc?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "The Outlook for India’s Stock Market Amid the Middle East Conflict",
+      "source": "Goldman Sachs",
+      "publishedAt": "2026-06-03T21:21:30+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSHRRVV9SU0V1SVVtLTRGUkhfc19lOEZRT0haM3U4OGlmM1RPMXRyd0JZU1dnbHd4V2FuUHItcWVkTUZEUlZqN29SVnh3UGpib2YzbU1wTmhLQUMzaGpublpEbUNHZFp0c0cxWVh0UXVDQnhGZktrTEI2X041TVQ5UFRLZXliNDZsd0RwRnlBM1pIczItQWVyNWhRcElWWFJUdDg4VTlQYmtkWGg0aTlIZTRn?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -6180,28 +6197,10 @@
       ]
     },
     {
-      "title": "Daily Stock Market News(Mar 17 2026):Oil Crash, Unemployment Drop, Trade Deficit Shrink,Ola Electric François Legault (np42mDiPmV)",
-      "source": "Mshale",
-      "publishedAt": "2026-06-05T01:20:27+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE80TWdlSjJGTUtiVy1mTG5KNklINkk0Ry1hbURBaWlQbS1MaXJFZTAzZHdFVXJlbEE1UHdTRWdYTzBlM3pLUE1OUzlSM1ZyblRqUHZNdC1ZUlhfcVE?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "The Outlook for India’s Stock Market Amid the Middle East Conflict",
-      "source": "Goldman Sachs",
-      "publishedAt": "2026-06-03T21:21:30+00:00",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSHRRVV9SU0V1SVVtLTRGUkhfc19lOEZRT0haM3U4OGlmM1RPMXRyd0JZU1dnbHd4V2FuUHItcWVkTUZEUlZqN29SVnh3UGpib2YzbU1wTmhLQUMzaGpublpEbUNHZFp0c0cxWVh0UXVDQnhGZktrTEI2X041TVQ5UFRLZXliNDZsd0RwRnlBM1pIczItQWVyNWhRcElWWFJUdDg4VTlQYmtkWGg0aTlIZTRn?oc=5",
+      "title": "Ray Dalio warns stock market approaching 1929 and 2000 bubble levels",
+      "source": "Fortune",
+      "publishedAt": "2026-06-04T13:37:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPeEZjTlNfVDc1MmR6RDZHZXJVbnFLQVZCejhBdGdZcnEza3hXSEgzLUtLVnFNRC0xSDNSRjJWQkhtMUROV0ZoYWpKSW5RWGRmS2pvN19qdFdWR002Y2FWc2RsZktESVJxbzR6Vnd0MVlQV1RTaFJQQ1poRU11aERfajFsYWptTEhoWC00NlZQV05xaGJPUkdLZzluVUFMRFF4T2tPWA?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
