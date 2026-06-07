@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T21:10:07.150041+00:00",
+  "generatedAt": "2026-06-07T04:27:33.954891+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6146,21 +6146,20 @@
       ]
     },
     {
-      "title": "Tracker: The Federal Reserve’s Balance Sheet Assets",
-      "source": "The American Action Forum",
-      "publishedAt": "2026-06-06T06:32:23+00:00",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNR2NrRDdoQ1MwS0paZFliV01BelV0MS1tQkNMSEdJYmYweWctanpzZU5hMllmVUtjQWR2cXBPSVhFeFluSFlMbi1ZVTg1ZS1TYzRMam81MFlRbWxockRRN2RpeEk2OGhpYWVXUVpsX3lvcUx4QUFERERGQVdkeVRndHJNeExJTU9DLS1GRW9GTW0?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "title": "Stock Market Under the Trump Administration: What is Driving Markets in 2026?",
+      "source": "U.S. Bank",
+      "publishedAt": "2026-06-04T07:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Staatsanleihen",
         "Aktien",
-        "US-Dollar",
-        "Gold"
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
@@ -6200,20 +6199,21 @@
       ]
     },
     {
-      "title": "Smart Investor: Undervalued Dividend Raisers, Launching SpaceX Coverage and Stock Market Outlook",
-      "source": "Morningstar",
-      "publishedAt": "2026-06-06T12:02:25+00:00",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeU1KMklTZ1hMcUVKQUZZNy1LOFA0RFFsMEdBdS1oNF94NjJ2YU1Xa3V2MDFJekZyM1BMQWdlQm45UXoweUFNY0NESzhWc05pOU1LaEgxTXR6UDZ3MERaOW1KeUdBb25Wd3VZcV94UnFHdVFZLUMyYUZPLWlyQzY2UER4SFk2SndIaUtjdjViM3FhbDd3R3hJbDZXcU9zMmdCdlVUeGVYR3d3V0hudGM0eE9aOHN4SjhBREREeWxaNDRYOU5Q?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Stocks fall sharply as strong jobs data fuels rate hike bets; oil set for weekly gain",
+      "source": "Reuters",
+      "publishedAt": "2026-06-05T18:50:42+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSDZvYjZiMW9PTFBnYWRFYVRVa0hDanhaTmdoRTFtSVJvY1NXMHR0LXMzdm9VZlJXcUVwbkdEbWd2UG9Tb1FCQk1Rdkl5YkNYWEJ6MkhxU1ZaS3A1eUhiOGxiSzZlbkNCUklYLUJhQmFzUFBmY0dPdGU0aEFTa0tDVmpLVQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     }
   ]
