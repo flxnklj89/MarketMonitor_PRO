@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T04:43:22.709575+00:00",
+  "generatedAt": "2026-06-08T12:38:40.151567+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,9 +6112,78 @@
   },
   "news": [
     {
-      "title": "U.S. stock futures mixed, oil prices surge as new attacks threaten the cease-fire with Iran",
+      "title": "Stock market today: Dow, S&P 500, Nasdaq futures mixed as oil rises after Iran and Israel exchange strikes",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-06-08T08:53:10+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQd3FBUDJXUzFoamlwR2lwRWo3UXd1TVNqUkQwWE5pcXpuaU16X3NWR0llbU9rNUtiQzRVa3RCNDZURmJTZjB1VG5GLWM5dzB5OHU3NHloeTZaQnBIb0wzTmtxNVVKVU05ZU9keXdTcVNjTzRPMHhaUDZJQVZ0M0pRdVR6cFRwNndlVThGNzhWeVhuc1g1bU1veFZrTkxhaVpZX3ZNTEdNUGd2RlZhbTJZaVQwbHVYSUdzUDU1a2VGTW9zUzRhcE92MHJDRENwZXVaOGxqN1hFRlZvVGFTNUFmcXFuaXdzLUMwbWRaaQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Stock markets fall on tech plunge and renewed Middle East attacks",
+      "source": "BBC",
+      "publishedAt": "2026-06-08T09:27:46+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE01QWVNQjFNbU01RjRfOWkxQ2pCQnI2MzJEY3ByNW1TM2d2cG01bUt2c0xnR1RwTXMtRzJma1BvdnBQNnpnQjZqVHpEUXdoQ3JTS2g3THgwRzN4Zw?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Why Do Stocks Drop Even After Beating Earnings",
+      "source": "Kavout",
+      "publishedAt": "2026-06-08T10:51:58+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNamRKd3VacWlCUUVUbWp3LTgwaDl5LUhjRXN4Rm95dTZmaFdlS2Rpby1jb3R2OHNlYmt6ZEsyUUNueU5oYVo5UW1SeFhmSzJYektra1RET1hHVlY5RnVsVHExR3YxNVhHdGxEQlpRTmtxaTFCTW15TzZPc0NCaDk4YnVweXZRUFZ2?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "‘Yet another way in which 2026 is looking like 1999’: Top analyst fears bubble popping with investors and Wall Street out over their skis",
+      "source": "Fortune",
+      "publishedAt": "2026-06-08T06:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWGlZVVJFejFVcEd5RktydDg4QUI0U1RVSjZzTXdQdFJDTU5WQ1c3bGVIZkV2bUR4d194YXotMVBKbXk0MzBXT1V4aWFYOGxfWURGS29NS2JnSVNDNjhoV0F4NmFsdkpHY1M5aG9QVDFoN1NDWXB4WkFkVVVKalBVOTZuZ2tRazVEMk5WdDFVQ3ptSW1kVFpUaWUzMA?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Oil prices jump by the most in over a month as fresh attacks threaten the ceasefire with Iran",
       "source": "MarketWatch",
-      "publishedAt": "2026-06-08T03:03:00+00:00",
+      "publishedAt": "2026-06-08T07:36:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaF85a2lHeG10MDJ2WkZRVlRaTTBHU0tQcEQ2UmlRdVFyVjlQUkhTZXk4UF9lQ1FDQzlxRlNHbGFXQ3RvV3RBeXVDRDVpZURUTDhUR3h0YkZFNTZpUTJtcnFYNkRmNlBuc1ZRcnBtU2lVNDdJay00c1NuQUd0QXg3TWlZaVl0eVZfRzhiaE43cVoySnhaSFI3NVlnV2ZBNnk0T2F2R3gtdzBod1h4U1BMcDAwZDNqWDNRdTJXbE1NQVZXQmsyREFtd0ZZYng?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
@@ -6130,61 +6199,9 @@
       ]
     },
     {
-      "title": "Tech stocks plunge in Asia after record rally and renewed Middle East attacks",
-      "source": "BBC",
-      "publishedAt": "2026-06-08T03:44:19+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE01QWVNQjFNbU01RjRfOWkxQ2pCQnI2MzJEY3ByNW1TM2d2cG01bUt2c0xnR1RwTXMtRzJma1BvdnBQNnpnQjZqVHpEUXdoQ3JTS2g3THgwRzN4Zw?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Stock Futures Drift Lower, Oil Rises After Iran Fires Missiles at Israel",
-      "source": "Barron's",
-      "publishedAt": "2026-06-07T22:12:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1SejN0WHcxcHF0Szl2cXBURjhQQlRLa09ZREJtYkVJc0Jub2pfVENkNzVPc1VNQ3BDMnN6bkFqUmpDaThabm5xcWJWY2R1V2pWQzdEXzhoajJkYmlhY3Vubi15RmhocEV4TW04SGIyTzBiV3pOcUJ2VFhR?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Tumbling tech darlings slam brakes on AI rally",
-      "source": "Reuters",
-      "publishedAt": "2026-06-07T23:44:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeFRCX29KbXlhVmEwNV9yUFRNQjZUcXFKVFlubUFGNkdrRDd0Z0ZwY3RUTFlXVmg5N1ppXzFHZ2Niai01RmtXOW1lY0pDRFI0VXJTZF9jeWFqSnZVRjREWDVfM21yMHNTR2NGcDcyb2NKczljNGNuRHJua1BlUkp0cUg2UQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
       "title": "Japan’s Stocks Set to Sink on Tech Selloff, Middle East Worries",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-06-08T01:58:00+00:00",
+      "source": "Bloomberg",
+      "publishedAt": "2026-06-08T06:53:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUGRlSFo5eUZvZlBYcFVQeGkxZEt3clBWZ2RvVmtITWtjM24xVEMtR3dJU3Zwb2lObzZlSEd4QnMzRWR3bVdOR1lqb0M2UDJqcFVuX3Y3cm50bWVhQV8tcXYxd2ZXTjVSaU9YTkk5bUo4TGVpcFZlcUgwei1rSVB6MW5mc2hGcmZvVHhvaFp0VG5yOERzZUVQVDBHNDZzSHEyZzJLY0RnWDUxbmQyQmI2cXR6VQ?oc=5",
       "bucket": "Globales Wachstum",
       "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
@@ -6196,23 +6213,6 @@
         "Weltaktien",
         "Währungen",
         "Rohstoffe"
-      ]
-    },
-    {
-      "title": "Dow Jones Futures Fall, Techs Rise As Iran, Israel Exchange Fire; Market Rally Faces First Real Test",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-06-08T03:04:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWENSLUUzbkk1bFlxUjlvU3NmM3I0RkhlS1VnYkRNMDJ4b1FMdl9qZC11eTVQOGUtM1NvSV9LbDhSd3FNbmp3LWhFRFU2QklmaVIyUm94Q0d1TkNQdVBFb2hqczNacUYyUmVSS1pRZzV5dUVNa2lnMDZnRGJQM1FJeEFhQWxCNUlrdFg3SnozRnhnY1ZEdjY2bXdSd0E4UVhSMDc5T09YTU1VSVJyV3BBcmIzUGVUOXl3cTBRejN5UDFSWUlUZ08zOQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     }
   ]
