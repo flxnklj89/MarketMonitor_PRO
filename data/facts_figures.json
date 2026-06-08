@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T12:38:40.151567+00:00",
+  "generatedAt": "2026-06-08T18:29:08.666560+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -12,24 +12,24 @@
   },
   "marketStatus": {
     "phase": {
-      "title": "Normalphase",
-      "value": 19.0,
+      "title": "Erhöhte Vorsicht",
+      "value": 34.0,
       "unit": "",
-      "tone": "l",
-      "status": "Signallage wirkt geordnet."
+      "tone": "m",
+      "status": "Mehr Spannungen als in ruhigeren Phasen."
     },
     "vix": {
-      "title": "Relativ ruhig",
-      "value": 15.4,
+      "title": "Erhöhte Nervosität",
+      "value": 21.5,
       "unit": "",
-      "tone": "l",
-      "status": "VIX bei 15.4. Unter dem langfristigen Durchschnitt von ~17–20."
+      "tone": "m",
+      "status": "VIX bei 21.5. Merklich über dem langjährigen Durchschnitt."
     },
     "breadth": {
-      "title": "66 % über 200T-Ø (Proxy)",
-      "value": 66,
+      "title": "52 % über 200T-Ø (Proxy)",
+      "value": 52,
       "unit": "%",
-      "tone": "l",
+      "tone": "m",
       "status": "Näherungswert abgeleitet aus VIX-Niveau. Direktdaten nicht via FRED verfügbar."
     }
   },
@@ -43,10 +43,10 @@
   "technicalTriggers": [
     {
       "label": "50T vs. 200T",
-      "value": 6.0,
+      "value": 6.2,
       "unit": "%",
       "tone": "l",
-      "status": "50T liegt bei +6.0 % gegenüber dem 200T. Schlusskurs 26831, 50T 24697, 200T 23300. NASDAQ Composite (Fallback) über 50T (24697) und 200T (23300). Trendstruktur intakt.",
+      "status": "50T liegt bei +6.2 % gegenüber dem 200T. Schlusskurs 25709, 50T 24773, 200T 23322. NASDAQ Composite (Fallback) über 50T (24773) und 200T (23322). Trendstruktur intakt.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -56,10 +56,10 @@
     },
     {
       "label": "RSI (14)",
-      "value": 67.5,
+      "value": 45.0,
       "unit": "",
       "tone": "m",
-      "status": "RSI (14) bei 67.5. Kein Extremniveau in beide Richtungen.",
+      "status": "RSI (14) bei 45.0. Kein Extremniveau in beide Richtungen.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -69,10 +69,10 @@
     },
     {
       "label": "Drawdown vom Hoch",
-      "value": -1.0,
+      "value": -5.1,
       "unit": "%",
-      "tone": "l",
-      "status": "-1.0 % vom Hoch. Kaum struktureller Druck.",
+      "tone": "m",
+      "status": "-5.1 % vom Hoch. Normales Korrekturterritory.",
       "history": []
     }
   ],
@@ -484,9 +484,6 @@
           "value": 3.64
         },
         {
-          "value": 3.64
-        },
-        {
           "value": 3.63
         },
         {
@@ -509,6 +506,9 @@
         },
         {
           "value": 3.63
+        },
+        {
+          "value": 3.62
         },
         {
           "value": 3.62
@@ -627,9 +627,9 @@
     }
   ],
   "sentiment": {
-    "marketMood": "Verhalten konstruktiv, aber mit erhöhter Sensitivität gegenüber negativen Datenpunkten.",
+    "marketMood": "Nervöses Bild: Einzelne Stresssignale sichtbar, aber keine vollständige Eskalation.",
     "tags": [
-      "Relativ ruhig"
+      "Erhöhte Nervosität"
     ],
     "risks": [
       "Kein übergreifendes Hochrisikosignal aktiv."
@@ -666,16 +666,16 @@
   },
   "crashProbability": {
     "title": "Crash Probability",
-    "score": 0,
-    "scoreLabel": "0 %",
-    "reason": "Stress 19/100, Rezessionsrisiko 0.4 %, VIX 15.4.",
+    "score": 8,
+    "scoreLabel": "8 %",
+    "reason": "Stress 34/100, Rezessionsrisiko 0.4 %, VIX 21.5.",
     "interpretation": "Crash-Risiko derzeit begrenzt."
   },
   "timingQuality": {
     "title": "Timing-Qualität",
     "score": 0,
     "scoreLabel": "Zu früh 16 % · Optimal 8 % · Zu spät 76 %",
-    "reason": "Bottom-Signal 30 %, Crash-Risiko 0 %.",
+    "reason": "Bottom-Signal 30 %, Crash-Risiko 8 %.",
     "interpretation": "Kein klares Timing-Fenster erkennbar."
   },
   "updateTriggers": {
@@ -696,18 +696,12 @@
   },
   "timeVsTiming": {
     "timeInMarket": "Langfristige Anlagepläne profitieren historisch von Korrekturen, wenn sie diszipliniert durchgehalten werden. Wer raus ist, verpasst die meisten Erholungstage.",
-    "marketTiming": "Das aktuelle Umfeld zeigt erhöhte Spannungen. Stress-Score 19/100. Wer neue Positionen aufbaut, profitiert von gestaffeltem Einstieg.",
+    "marketTiming": "Das aktuelle Umfeld zeigt erhöhte Spannungen. Stress-Score 34/100. Wer neue Positionen aufbaut, profitiert von gestaffeltem Einstieg.",
     "summary": "Die Trennung zwischen langfristiger Logik und kurzfristiger Marktlesart bleibt der wichtigste Hebel gegen emotionale Fehlentscheidungen."
   },
   "charts": {
     "chartLabel": "NASDAQ Composite",
     "qqq": [
-      {
-        "date": "2025-03-26",
-        "close": 17899.01,
-        "ma50": 18973.51,
-        "ma200": 18455.2
-      },
       {
         "date": "2025-03-27",
         "close": 17804.03,
@@ -2501,13 +2495,15 @@
         "close": 26830.96,
         "ma50": 24697.42,
         "ma200": 23300.26
+      },
+      {
+        "date": "2026-06-05",
+        "close": 25709.43,
+        "ma50": 24773.01,
+        "ma200": 23322.23
       }
     ],
     "rsi": [
-      {
-        "date": "2025-03-26",
-        "value": 43.7
-      },
       {
         "date": "2025-03-27",
         "value": 42.4
@@ -3703,13 +3699,13 @@
       {
         "date": "2026-06-04",
         "value": 67.5
+      },
+      {
+        "date": "2026-06-05",
+        "value": 45.0
       }
     ],
     "vix": [
-      {
-        "date": "2025-04-07",
-        "value": 46.98
-      },
       {
         "date": "2025-04-08",
         "value": 52.33
@@ -4905,6 +4901,10 @@
       {
         "date": "2026-06-04",
         "value": 15.4
+      },
+      {
+        "date": "2026-06-05",
+        "value": 21.51
       }
     ],
     "brent": [
@@ -6112,27 +6112,9 @@
   },
   "news": [
     {
-      "title": "Stock market today: Dow, S&P 500, Nasdaq futures mixed as oil rises after Iran and Israel exchange strikes",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-06-08T08:53:10+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQd3FBUDJXUzFoamlwR2lwRWo3UXd1TVNqUkQwWE5pcXpuaU16X3NWR0llbU9rNUtiQzRVa3RCNDZURmJTZjB1VG5GLWM5dzB5OHU3NHloeTZaQnBIb0wzTmtxNVVKVU05ZU9keXdTcVNjTzRPMHhaUDZJQVZ0M0pRdVR6cFRwNndlVThGNzhWeVhuc1g1bU1veFZrTkxhaVpZX3ZNTEdNUGd2RlZhbTJZaVQwbHVYSUdzUDU1a2VGTW9zUzRhcE92MHJDRENwZXVaOGxqN1hFRlZvVGFTNUFmcXFuaXdzLUMwbWRaaQ?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stock markets fall on tech plunge and renewed Middle East attacks",
+      "title": "Stock market jitters remain amid tech fears and renewed Middle East attacks",
       "source": "BBC",
-      "publishedAt": "2026-06-08T09:27:46+00:00",
+      "publishedAt": "2026-06-08T14:14:11+00:00",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE01QWVNQjFNbU01RjRfOWkxQ2pCQnI2MzJEY3ByNW1TM2d2cG01bUt2c0xnR1RwTXMtRzJma1BvdnBQNnpnQjZqVHpEUXdoQ3JTS2g3THgwRzN4Zw?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
@@ -6147,20 +6129,20 @@
       ]
     },
     {
-      "title": "Why Do Stocks Drop Even After Beating Earnings",
-      "source": "Kavout",
-      "publishedAt": "2026-06-08T10:51:58+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNamRKd3VacWlCUUVUbWp3LTgwaDl5LUhjRXN4Rm95dTZmaFdlS2Rpby1jb3R2OHNlYmt6ZEsyUUNueU5oYVo5UW1SeFhmSzJYektra1RET1hHVlY5RnVsVHExR3YxNVhHdGxEQlpRTmtxaTFCTW15TzZPc0NCaDk4YnVweXZRUFZ2?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "The Stock Market Just Got Crushed. Why Citi Is Raising Its S&P 500 Target.",
+      "source": "Barron's",
+      "publishedAt": "2026-06-08T16:59:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNX3N4MExtWW5tZHAtc0c3UEJLQm9DcW0tQ2hiX3duR0RvNHJueEN1N2poLXJIYy1sVlA1NlB6WDlHUEluZDhQQ1dlNExQTm8zNERsYzdZeWVMdFRhckpOVjZST0ZjNFE5bHVIOGJUNkV2bGxLUEQ0UGZ6eUpuY3l6TXFpNzk0S1BMRWlEeVJtZ3g?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
@@ -6181,26 +6163,25 @@
       ]
     },
     {
-      "title": "Oil prices jump by the most in over a month as fresh attacks threaten the ceasefire with Iran",
-      "source": "MarketWatch",
-      "publishedAt": "2026-06-08T07:36:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaF85a2lHeG10MDJ2WkZRVlRaTTBHU0tQcEQ2UmlRdVFyVjlQUkhTZXk4UF9lQ1FDQzlxRlNHbGFXQ3RvV3RBeXVDRDVpZURUTDhUR3h0YkZFNTZpUTJtcnFYNkRmNlBuc1ZRcnBtU2lVNDdJay00c1NuQUd0QXg3TWlZaVl0eVZfRzhiaE43cVoySnhaSFI3NVlnV2ZBNnk0T2F2R3gtdzBod1h4U1BMcDAwZDNqWDNRdTJXbE1NQVZXQmsyREFtd0ZZYng?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "Stock markets fall as concerns persist over tech firms at heart of AI boom",
+      "source": "The Guardian",
+      "publishedAt": "2026-06-08T08:32:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdWRNQV9jMGlWMFNVeVpoYzcyNGlFVFQ4Zk00N3pYQ3lJZEc1a3g0dml1dmlhTG9CcjQ3V1ZqSk1rT1kyNjFVZS1WWUlaMWdxTFd5Mksta3NpVFlEV0ZZbHFQanJKVXFKWVM1SmotWFA4NU9HdDJ4UEZHS19ja19Tdk9RY1NFdGNHWlp5Rzc1MWtzZXhOaVluRUlrOEtZTURqNW5PR3hPTlZuWW42MUE?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
       "title": "Japan’s Stocks Set to Sink on Tech Selloff, Middle East Worries",
-      "source": "Bloomberg",
+      "source": "Bloomberg.com",
       "publishedAt": "2026-06-08T06:53:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUGRlSFo5eUZvZlBYcFVQeGkxZEt3clBWZ2RvVmtITWtjM24xVEMtR3dJU3Zwb2lObzZlSEd4QnMzRWR3bVdOR1lqb0M2UDJqcFVuX3Y3cm50bWVhQV8tcXYxd2ZXTjVSaU9YTkk5bUo4TGVpcFZlcUgwei1rSVB6MW5mc2hGcmZvVHhvaFp0VG5yOERzZUVQVDBHNDZzSHEyZzJLY0RnWDUxbmQyQmI2cXR6VQ?oc=5",
       "bucket": "Globales Wachstum",
@@ -6213,6 +6194,23 @@
         "Weltaktien",
         "Währungen",
         "Rohstoffe"
+      ]
+    },
+    {
+      "title": "Does President Trump’s Bull Market Start Up Again on Wednesday?",
+      "source": "24/7 Wall St.",
+      "publishedAt": "2026-06-08T14:16:46+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZVI5WEV0UGYzUDRZRzF0NWE3R0M2ejFrTXQzdFU2Rmd1NEtSZmNXbDgySE5jelJHbnFqcW9xaWVKdFc0NkJXbG5SbzQ5RXQzajU1aXVoTGpBSDRrRG0yWXBfamhVbVlSODY5NHBiQnRtZjJyaGZEUHhPZXRvcmIwZHhxc2lKZkE4TnBTRWNYUjJYN25rN0FRdTdQdzNvMmFmbXB5TlR0WG4?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     }
   ]
