@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T11:22:56.871227+00:00",
+  "generatedAt": "2026-06-09T15:17:08.866871+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -13,21 +13,21 @@
   "marketStatus": {
     "phase": {
       "title": "Erhöhte Vorsicht",
-      "value": 37.0,
+      "value": 30.0,
       "unit": "",
       "tone": "m",
       "status": "Mehr Spannungen als in ruhigeren Phasen."
     },
     "vix": {
-      "title": "Erhöhte Nervosität",
-      "value": 21.5,
+      "title": "Relativ ruhig",
+      "value": 18.9,
       "unit": "",
-      "tone": "m",
-      "status": "VIX bei 21.5. Merklich über dem langjährigen Durchschnitt."
+      "tone": "l",
+      "status": "VIX bei 18.9. Unter dem langfristigen Durchschnitt von ~17–20."
     },
     "breadth": {
-      "title": "52 % über 200T-Ø (Proxy)",
-      "value": 52,
+      "title": "58 % über 200T-Ø (Proxy)",
+      "value": 58,
       "unit": "%",
       "tone": "m",
       "status": "Näherungswert abgeleitet aus VIX-Niveau. Direktdaten nicht via FRED verfügbar."
@@ -481,9 +481,6 @@
           "value": 3.64
         },
         {
-          "value": 3.64
-        },
-        {
           "value": 3.63
         },
         {
@@ -506,6 +503,9 @@
         },
         {
           "value": 3.63
+        },
+        {
+          "value": 3.62
         },
         {
           "value": 3.62
@@ -627,9 +627,9 @@
     }
   ],
   "sentiment": {
-    "marketMood": "Nervöses Bild: Einzelne Stresssignale sichtbar, aber keine vollständige Eskalation.",
+    "marketMood": "Verhalten konstruktiv, aber mit erhöhter Sensitivität gegenüber negativen Datenpunkten.",
     "tags": [
-      "Erhöhte Nervosität"
+      "Relativ ruhig"
     ],
     "risks": [
       "Kein übergreifendes Hochrisikosignal aktiv."
@@ -668,7 +668,7 @@
     "title": "Crash Probability",
     "score": 8,
     "scoreLabel": "8 %",
-    "reason": "Stress 37/100, Rezessionsrisiko 0.4 %, VIX 21.5.",
+    "reason": "Stress 30/100, Rezessionsrisiko 0.4 %, VIX 18.9.",
     "interpretation": "Crash-Risiko derzeit begrenzt."
   },
   "timingQuality": {
@@ -696,7 +696,7 @@
   },
   "timeVsTiming": {
     "timeInMarket": "Langfristige Anlagepläne profitieren historisch von Korrekturen, wenn sie diszipliniert durchgehalten werden. Wer raus ist, verpasst die meisten Erholungstage.",
-    "marketTiming": "Das aktuelle Umfeld zeigt erhöhte Spannungen. Stress-Score 37/100. Wer neue Positionen aufbaut, profitiert von gestaffeltem Einstieg.",
+    "marketTiming": "Das aktuelle Umfeld zeigt erhöhte Spannungen. Stress-Score 30/100. Wer neue Positionen aufbaut, profitiert von gestaffeltem Einstieg.",
     "summary": "Die Trennung zwischen langfristiger Logik und kurzfristiger Marktlesart bleibt der wichtigste Hebel gegen emotionale Fehlentscheidungen."
   },
   "charts": {
@@ -3707,10 +3707,6 @@
     ],
     "vix": [
       {
-        "date": "2025-04-08",
-        "value": 52.33
-      },
-      {
         "date": "2025-04-09",
         "value": 33.62
       },
@@ -4905,6 +4901,10 @@
       {
         "date": "2026-06-05",
         "value": 21.51
+      },
+      {
+        "date": "2026-06-08",
+        "value": 18.92
       }
     ],
     "brent": [
@@ -6112,23 +6112,6 @@
   },
   "news": [
     {
-      "title": "Weekly market commentary",
-      "source": "blackrock.com",
-      "publishedAt": "2026-06-09T10:46:30+00:00",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
       "title": "Will the Stock Market Crash if the Federal Reserve Raises Interest Rates? Soaring Bond Yields Portend Trouble.",
       "source": "Yahoo Finance",
       "publishedAt": "2026-06-09T08:32:00+00:00",
@@ -6147,6 +6130,77 @@
       ]
     },
     {
+      "title": "Federal Reserve Policy Risks AI-Fueled Stock Bubble, Wall Street Warns",
+      "source": "24/7 Wall St.",
+      "publishedAt": "2026-06-09T13:30:57+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYkIyNWowV1NVREh1RFA5QVlVS2ljTFdJYW11QjYxVUdwTEdRajR3bTVlUTRJZG9aSnBNdTZBalI5djJjNWVRU0p4bHVNaUJidzdCSG0temxsN0ttNi1oZm5zSkdiMWxSQTN3LV9YNGkzRDBfYVlNaFk1c1hPbnF2ekNmTUNMcldyakxHUmxDa1JZb3NqSExYLWxFMUJLYzVWSmgyTGN4eGZScEN3dVFCejlhRQ?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Weekly market commentary",
+      "source": "blackrock.com",
+      "publishedAt": "2026-06-09T05:10:47+00:00",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Wall Street ticks higher as AI stocks recover more losses and oil prices ease",
+      "source": "news8000.com",
+      "publishedAt": "2026-06-09T14:46:30+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPZ1U0S1BTRW9velB0c05PZVhUQU9waFFHRTg3UlF1WkRDb3FnZVhfcGkwbnN1UVZEblpDTmVMX2hlSDNHS0F5R2N4Rlp6V1BNU3YwcThGSDhpck4taVgwMTFpY2QzMmJEbjl6eWhZYTBjSVB4RHZrZ3lILXBtQTZqMW1sVzI2SnBHYkpMTVptMFN0b1dNQklwVkhNSHZTRlV3WmRINXpZSTlYVkJ1Wl9wOURRLURmVGtVMHJ3TUFMV2loQXg4QkRodHVkbUZabnl5bjFkR3R3MDRjMzZZMFg4cU5SY3VITDQ4WHBHdjU4R0F3NVhtTjhiRmtjSW8?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Wall Street rises as AI stocks recover more of their losses and oil prices ease",
+      "source": "Pittsburgh Post-Gazette",
+      "publishedAt": "2026-06-09T14:33:53+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPM181Uk5UVHN2VTZPU2VDU0JGUElOVVBDTmtPb3A1NXNiRFJJaHRMalZ5ZG42V1FpRGNIQ0FVWjdHQ3NGSEd5Y0tlYlUxTm5TZEhUQnhrdHJ1dFRVUHctenhScXMwd0NVTnRjdzF3Z3VYRUVVeDJMX21sbm5xVnNLcTJ6cHNxMGpRMHdpRFVINnJqaWRIYWVPbEVFM0ZMTkNpWGRTRzlMSFNTQQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
       "title": "Stock market jitters remain amid tech fears and renewed Middle East attacks",
       "source": "BBC",
       "publishedAt": "2026-06-08T20:54:29+00:00",
@@ -6161,58 +6215,6 @@
         "Aktien",
         "Anleihen",
         "Währungen"
-      ]
-    },
-    {
-      "title": "After Reviewing Every International Developed Market ETF These 3 Cover Japan and Europe Better Than Anything Else",
-      "source": "24/7 Wall St.",
-      "publishedAt": "2026-06-09T02:59:32+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQajI3OW41VHZsYmtiSkNTZzRjOTNYc3RnM3pKUVlfVGF2WkZfbjVVQTJPRmJ2RlY5VHFJR1RXZDJCMndCUVB4SkJyTmUzaXZyNndsd2ZfNHRlQ2xGRWpZR2tLSmxmVklJU0dfSk0ybVNocTZOTHpjZkFWZ2FJb2dfcXJqdHhDRWNQMUFJclpGQldhR00tbi1DM1ZDUzVkd3VZc0lmRlJCUW1McUdVVm1LQlV2MV9oTGVlZ3RQUVhfa2lXbDQzZXlEa0N2bFFQUFl4M1ZRU2wzNEtKWlpidFhVMDlGZ1E2ZG1RYkk3X093?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
-      ]
-    },
-    {
-      "title": "The Stock Market Just Got Crushed. Why Citi Is Raising Its S&P 500 Target.",
-      "source": "Barron's",
-      "publishedAt": "2026-06-08T16:59:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNX3N4MExtWW5tZHAtc0c3UEJLQm9DcW0tQ2hiX3duR0RvNHJueEN1N2poLXJIYy1sVlA1NlB6WDlHUEluZDhQQ1dlNExQTm8zNERsYzdZeWVMdFRhckpOVjZST0ZjNFE5bHVIOGJUNkV2bGxLUEQ0UGZ6eUpuY3l6TXFpNzk0S1BMRWlEeVJtZ3g?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Stock market today: S&P 500, Nasdaq jump as chip stocks rebound, Oil prices Jump Amid Tensions",
-      "source": "Eurasia Business News",
-      "publishedAt": "2026-06-08T20:09:55+00:00",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRFB4aVQyb21wY1hlNkdpMlp5NkowdkZXUDdtTnhVSzFKaFNNYzJKRS1BdTVjZm9lQklEUngxbnhTMVB0Nk5zTTZDNUdXX0MzZFl3cnZDXy1pZXhYb2hEQ3ZxVzBpSmlPQVRBX3JPNmFFdEVOYTNQaUJ0ZmF3WVJ2bmJ5RmtOQXI3SHZyY0RmYVBUekgyckFFbWVXaEh5eUQ4SXA3TUNvbGxFcDFBTWZXRVl3ZWVLNy1GM3NPRVBSMjVyWHpCLVdUOEIwUzBGZWc?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
       ]
     }
   ]
