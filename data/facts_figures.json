@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T15:17:08.866871+00:00",
+  "generatedAt": "2026-06-09T18:12:39.025944+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6130,6 +6130,24 @@
       ]
     },
     {
+      "title": "AI stocks are recovering after suddenly tanking last week as oil prices drop more than 3%",
+      "source": "Fortune",
+      "publishedAt": "2026-06-09T14:58:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbjk5OUQzYVFzckR1U0pMampYTS1fWjZwWG00WmdKVVFxc0lOUDUwY01hRmd0RGdqdF95X1BTNFVucHJwbzY0cmttTGs5MUpXcThXUTNTUkE4RFY1RmM4bGRFU2RyT3NIY3dyN29oTFQ4c3ZCY092SjEwNzM5YW1XZnBBdGxMZGs2U1p3?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
       "title": "Federal Reserve Policy Risks AI-Fueled Stock Bubble, Wall Street Warns",
       "source": "24/7 Wall St.",
       "publishedAt": "2026-06-09T13:30:57+00:00",
@@ -6148,45 +6166,28 @@
       ]
     },
     {
-      "title": "Weekly market commentary",
-      "source": "blackrock.com",
-      "publishedAt": "2026-06-09T05:10:47+00:00",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "The Federal Reserve must soon give Donald Trump bad news",
+      "source": "The Economist",
+      "publishedAt": "2026-06-09T16:53:23+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTy1WQTRZTDV0OFNPZTlQcTRKX2dxRWhMN285OXRFME1DS2xQSzZ5eUY0eTRVMDdoMTV5eHphYmFKcXZqa0VTSmwwaUthX3otR05XU2kyWW0wdTlvNVd4YzhxUnN3T2lQalBWdmV1Tkp1MS1aWG1QU0lrM291NzRQX1h1b0k1UWNvejlIbmg5aTVMT05oX2p6dFVHcGM2UGNmcUo4?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
       "assets": [
+        "Staatsanleihen",
         "Aktien",
-        "Anleihen",
-        "Währungen"
+        "US-Dollar",
+        "Gold"
       ]
     },
     {
       "title": "Wall Street ticks higher as AI stocks recover more losses and oil prices ease",
-      "source": "news8000.com",
-      "publishedAt": "2026-06-09T14:46:30+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPZ1U0S1BTRW9velB0c05PZVhUQU9waFFHRTg3UlF1WkRDb3FnZVhfcGkwbnN1UVZEblpDTmVMX2hlSDNHS0F5R2N4Rlp6V1BNU3YwcThGSDhpck4taVgwMTFpY2QzMmJEbjl6eWhZYTBjSVB4RHZrZ3lILXBtQTZqMW1sVzI2SnBHYkpMTVptMFN0b1dNQklwVkhNSHZTRlV3WmRINXpZSTlYVkJ1Wl9wOURRLURmVGtVMHJ3TUFMV2loQXg4QkRodHVkbUZabnl5bjFkR3R3MDRjMzZZMFg4cU5SY3VITDQ4WHBHdjU4R0F3NVhtTjhiRmtjSW8?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Wall Street rises as AI stocks recover more of their losses and oil prices ease",
-      "source": "Pittsburgh Post-Gazette",
-      "publishedAt": "2026-06-09T14:33:53+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPM181Uk5UVHN2VTZPU2VDU0JGUElOVVBDTmtPb3A1NXNiRFJJaHRMalZ5ZG42V1FpRGNIQ0FVWjdHQ3NGSEd5Y0tlYlUxTm5TZEhUQnhrdHJ1dFRVUHctenhScXMwd0NVTnRjdzF3Z3VYRUVVeDJMX21sbm5xVnNLcTJ6cHNxMGpRMHdpRFVINnJqaWRIYWVPbEVFM0ZMTkNpWGRTRzlMSFNTQQ?oc=5",
+      "source": "KTVN",
+      "publishedAt": "2026-06-09T13:46:31+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNZDlvZGFtYnRXdEhROXBaNktKWmJUcXRhRHY4R1hnQ0poNlZMbFlWZ3Q1c0RtR1RtbmNRR0dEdGhfLW9ETDFHMkdtaFJDRGY0UldHbVM3VHRkRm96ZHNXamg4SjBQTHU2SGxhSTZpaHFiMjlLa1FWVTJUT2d0NVJJTzFQRi0xUUxabzloYXdzdzlEMHRsc1ZnWkd4SFAtLWVBUmhUcHRYd01nYmM0NzdqMTI3NHJ6NGJLMXRuTWFESUYyTllLa0djUjE4OUN1cmlJZHpMRWpPRUFOcEpBR1hPVFlMQ0dkdjRsMlY1X2JIeW15WDc2dWFxcHlFcw?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
