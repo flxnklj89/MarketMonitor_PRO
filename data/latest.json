@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-09T18:12:31.070861+00:00",
+  "fetchedAt": "2026-06-09T21:51:23.116740+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -105,7 +105,7 @@
         "vix": 18.92,
         "brent": 98.29,
         "eurusd": 1.1533,
-        "us10y": 4.55
+        "us10y": 4.56
       },
       "uiLabel": "Marktstress",
       "shortText": "Verdichteter Stressmesser aus Markt- und Preisvariablen.",
@@ -248,9 +248,9 @@
     {
       "label": "US 10Y",
       "icon": "📉",
-      "val": 4.55,
-      "chg": 0.08,
-      "chgPct": 1.79,
+      "val": 4.56,
+      "chg": 0.01,
+      "chgPct": 0.22,
       "unit": "%",
       "dec": 2
     },
@@ -20700,10 +20700,27 @@
       ]
     },
     {
-      "title": "Wall Street ticks higher as AI stocks recover more losses and oil prices ease",
-      "source": "KTVN",
-      "publishedAt": "2026-06-09T13:46:31+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNZDlvZGFtYnRXdEhROXBaNktKWmJUcXRhRHY4R1hnQ0poNlZMbFlWZ3Q1c0RtR1RtbmNRR0dEdGhfLW9ETDFHMkdtaFJDRGY0UldHbVM3VHRkRm96ZHNXamg4SjBQTHU2SGxhSTZpaHFiMjlLa1FWVTJUT2d0NVJJTzFQRi0xUUxabzloYXdzdzlEMHRsc1ZnWkd4SFAtLWVBUmhUcHRYd01nYmM0NzdqMTI3NHJ6NGJLMXRuTWFESUYyTllLa0djUjE4OUN1cmlJZHpMRWpPRUFOcEpBR1hPVFlMQ0dkdjRsMlY1X2JIeW15WDc2dWFxcHlFcw?oc=5",
+      "title": "Wall Street yo-yos as AI stocks swing from gains to losses",
+      "source": "The Washington Post",
+      "publishedAt": "2026-06-09T15:45:13+00:00",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMjNRdWVTdG9MZVVzZElvLTZLMWlRUWRzcUY3elpsakw3aUFXQ2NWbzFoaWlrT3pNMUZkUXVTek5tdHJkM3JsTDRBTkpxbzF1RlJqSHBaT3VUMmN5anBGdld2dnY1N0RMTDJjMWdhVnpVMmNqVGJoXzUxVmVCeFoyX1VTSXhoeU9yd1FyV0Npb0c4djh3VW5NWUFFeWxLUVc3MHlWSGY5NWU3bGlGMjQ3eHRsTTREZmtCcGt0SHkyVVVpeFJX?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "U.S. stock indexes slip as semiconductor stocks reverse gains and oil prices pull back on Iran peace deal hopes",
+      "source": "eciks.org",
+      "publishedAt": "2026-06-09T16:17:50+00:00",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTdkcyandhWVJoQUtXVXFFcG1yUnVlSUxxc283eFpQZ252bEVxMktjTzJRYlBlZVJYaG01WWdPNm5ZdHBHN0U2QjMyWjVQbV9OSlpNOEJKVGZNLWtCbWZCOC1LdF9Nc0UzUDF3TFJBNEk?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20715,23 +20732,6 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stock market jitters remain amid tech fears and renewed Middle East attacks",
-      "source": "BBC",
-      "publishedAt": "2026-06-08T20:54:29+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE01QWVNQjFNbU01RjRfOWkxQ2pCQnI2MzJEY3ByNW1TM2d2cG01bUt2c0xnR1RwTXMtRzJma1BvdnBQNnpnQjZqVHpEUXdoQ3JTS2g3THgwRzN4Zw?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     }
   ],
@@ -20839,7 +20839,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-06-09T18:12:31.070861+00:00",
+      "dataAsOf": "2026-06-09T21:51:23.116740+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
