@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-10T04:16:04.713573+00:00",
+  "fetchedAt": "2026-06-10T11:42:22.102842+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20624,20 +20624,21 @@
   },
   "news": [
     {
-      "title": "Futures Fall As U.S. Strikes Iran After Whipsaw Session",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-06-10T03:15:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNOE1hZWZSRXpOWWZLRnBmbEZFMTdKV040X25JbUxvVVU4X2JWQ2ZPbUpJaERPTnJZRlVsMF9Rb1o1NnUweHVxc1NYVVBoU1ZPakhKMDZ6WmlOSXVoWE1Vd3lhMWxkUW5fZ0E5TjVsRW93cU9aMXRtcWpQT2ptVU5yQ3NwRU1TTXZDMGhCbUdxdnNwRF8yMy1LWTBJdG9xeFR5NS1rQWxhcTJydmNvWFh2MFdMNmd4aFgwN0VQZjJFaDkyMjd6clln?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Kevin Warsh's Fed \"Regime Change\" Could Sink the Stock Market, and the Blame Lies With President Trump",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-06-10T08:39:04+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeHVJRWFPbjk5dXVrY3Q3Q2JHWldIU0FBaW5FYngyZW94eDgxdG9FU3J5YW91bGVWbkhFTmJmdkEtNUNzdjJ6YzlYZHZiVl83bUJkdGNzT0JPQ1g5aU1jNk5senRuM0E3bDMtcTNiOFFmbEJyVmVwbURNZk9JeHBtejA5azFTdDJSd2ZvYlJaUXFLemUy?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
       "assets": [
+        "Staatsanleihen",
         "Aktien",
-        "Anleihen",
-        "Währungen"
+        "US-Dollar",
+        "Gold"
       ]
     },
     {
@@ -20659,10 +20660,27 @@
       ]
     },
     {
-      "title": "AI stocks are recovering after suddenly tanking last week as oil prices drop more than 3%",
-      "source": "Fortune",
-      "publishedAt": "2026-06-09T14:58:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbjk5OUQzYVFzckR1U0pMampYTS1fWjZwWG00WmdKVVFxc0lOUDUwY01hRmd0RGdqdF95X1BTNFVucHJwbzY0cmttTGs5MUpXcThXUTNTUkE4RFY1RmM4bGRFU2RyT3NIY3dyN29oTFQ4c3ZCY092SjEwNzM5YW1XZnBBdGxMZGs2U1p3?oc=5",
+      "title": "Futures Fall As U.S. Strikes Iran After Whipsaw Session",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-06-10T03:15:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNOE1hZWZSRXpOWWZLRnBmbEZFMTdKV040X25JbUxvVVU4X2JWQ2ZPbUpJaERPTnJZRlVsMF9Rb1o1NnUweHVxc1NYVVBoU1ZPakhKMDZ6WmlOSXVoWE1Vd3lhMWxkUW5fZ0E5TjVsRW93cU9aMXRtcWpQT2ptVU5yQ3NwRU1TTXZDMGhCbUdxdnNwRF8yMy1LWTBJdG9xeFR5NS1rQWxhcTJydmNvWFh2MFdMNmd4aFgwN0VQZjJFaDkyMjd6clln?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "European shares resilient, oil edges up after fresh Iran-US strikes",
+      "source": "Reuters",
+      "publishedAt": "2026-06-10T01:28:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMzdFYTBQUjA3YzBlRWNHdUp6OXBpbVlabUYwVWJXYzlJa0pHWTVuZ2M4YXlSeEtXZHJDMUotQUdUaXotdklnOXM5R0VEX3QwWVAybFdMSE1hQktPcU9Lc1czUjR0dlRwY1pvZFZDTndsUWRHWHhWOVhiVWs4SFdsVHdUcw?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20695,10 +20713,10 @@
       ]
     },
     {
-      "title": "Asian stocks slide, oil gains as Middle East tensions escalate",
-      "source": "Reuters",
-      "publishedAt": "2026-06-10T01:28:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMzdFYTBQUjA3YzBlRWNHdUp6OXBpbVlabUYwVWJXYzlJa0pHWTVuZ2M4YXlSeEtXZHJDMUotQUdUaXotdklnOXM5R0VEX3QwWVAybFdMSE1hQktPcU9Lc1czUjR0dlRwY1pvZFZDTndsUWRHWHhWOVhiVWs4SFdsVHdUcw?oc=5",
+      "title": "AI stocks are recovering after suddenly tanking last week as oil prices drop more than 3%",
+      "source": "Fortune",
+      "publishedAt": "2026-06-09T14:58:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbjk5OUQzYVFzckR1U0pMampYTS1fWjZwWG00WmdKVVFxc0lOUDUwY01hRmd0RGdqdF95X1BTNFVucHJwbzY0cmttTGs5MUpXcThXUTNTUkE4RFY1RmM4bGRFU2RyT3NIY3dyN29oTFQ4c3ZCY092SjEwNzM5YW1XZnBBdGxMZGs2U1p3?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20710,24 +20728,6 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "The Federal Reserve must soon give Donald Trump bad news",
-      "source": "The Economist",
-      "publishedAt": "2026-06-09T16:53:23+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTy1WQTRZTDV0OFNPZTlQcTRKX2dxRWhMN285OXRFME1DS2xQSzZ5eUY0eTRVMDdoMTV5eHphYmFKcXZqa0VTSmwwaUthX3otR05XU2kyWW0wdTlvNVd4YzhxUnN3T2lQalBWdmV1Tkp1MS1aWG1QU0lrM291NzRQX1h1b0k1UWNvejlIbmg5aTVMT05oX2p6dFVHcGM2UGNmcUo4?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
       ]
     }
   ],
@@ -20835,7 +20835,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-06-10T04:16:04.713573+00:00",
+      "dataAsOf": "2026-06-10T11:42:22.102842+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
