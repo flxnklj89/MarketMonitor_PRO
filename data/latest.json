@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-12T15:28:33.250521+00:00",
+  "fetchedAt": "2026-06-12T18:11:31.791329+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20632,6 +20632,41 @@
   },
   "news": [
     {
+      "title": "Dow Jones Futures Rise, Oil Skids On Iran Deal Hopes; SpaceX IPO Indicated Higher",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-06-12T12:11:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMmExUktlS1RjRmpaNXk1ck5lNVBZbEhfblZSLVRwUk1yYmlLMUtuTDF4bzdlWUhQTVBEUER6SXRKdUF2RV9QVmtkV0t6SGJoN2ZPN3pRbHd2NkRMTHB0cWxsSjVla2F2eWxnZWJjNkVKc3lBaHRUalFCbFpQeHpVc0RoWkYzYW9LN0l5QTVJZXg2Q0U0UzR5MVZqLU10RDlDYkRudUJjeDJnLWtjdmhEdW96NTVjbDR5M2RXWjl1bUgwclNjMVRWNGZNcw?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Wall Street drifts ahead of highly anticipated market debut of SpaceX",
+      "source": "The Morning Call",
+      "publishedAt": "2026-06-12T13:47:34+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9uUi00MV81Q0RkakY4eDJpYkVZSW00RFljZWY3LTAwejN2LXk4QnNYa05UX2dVYl9NaDhUcUhjeW5iaUhORmdQTzRTcGI4V1ZwV2NBZU1CRTh6NTUwSF82dzNB?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "Why does the stock market continue to perform well?",
       "source": "marketplace.org",
       "publishedAt": "2026-06-11T18:55:00+00:00",
@@ -20667,44 +20702,9 @@
       ]
     },
     {
-      "title": "US Stock Market Today: S&P 500 Futures Rise As Energy Inflation Tests Fed Patience",
-      "source": "simplywall.st",
-      "publishedAt": "2026-06-12T09:34:52+00:00",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSzdvZ185M083YzBBRVNQbDgzZ1dVSV9RQ0ZUTUxvS05hWWZiMTdVU3Z5ZWY0UzNKZ2dQc2w4eE9NdWVJTFBGNmhiMG5HUTZEMmV4X2Uyc1RqTnFXUUF0cTBkVi1TdVJWbGpsZ0JSUG5jS0hvM1Rvby1UODJmTFMtQWk0S3lYVEF5N1VCUzl2bEVXUFh2OXZrbjlYSG5LcTAweUxHcTNyUzJXY1doRkNOMVVLSml3Y1puLUxfRmNOd9IBxAFBVV95cUxOcUdESFFZUG1CU2tPNWJqbUZNeW43WDdYbHREMy1pNXN4eldFU25DQWNyQUdmRWxCWDF0bVU1TVNEd24tU3lVYzY0SGx0U1JnTVJUMjRHb1JwV0I0WWItZFZWNUNvcmZMcXFSM1F3SW5GQUdUSVY1V1VldnJyRTBzTHNlbVJySnJHQTV1bGJhUjlianlpRVpPaklrM0V1dmxuaEN0M2NTc3lKQjhNY201c2JRaC1hNEZDQW9VQ25DbU5PQ3Vy?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Wall Street drifts ahead of highly anticipated market debut of SpaceX",
-      "source": "Hartford Courant",
-      "publishedAt": "2026-06-12T13:46:50+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5zN3NiTVlmUHJYMFB5eGZhUUh6cnBVUV9ETFk4VG9xTEtWVkVqa2c5bHpSZ0ZGa29RdW8xaHFGdGthSUZ1aVZSOWw3SWlXelR1YUZvMkxFZl9LSS14dFRQekttZXk?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
       "title": "SpaceX's arrival heralds a wave of new stock",
       "source": "Axios",
-      "publishedAt": "2026-06-12T11:33:29+00:00",
+      "publishedAt": "2026-06-12T12:51:15+00:00",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WeEwwOEFWWmFuR1dNbzdsdXYzeE9zUVVOckYzNWliWTBvQVBQT250OG1tci1mT3ppbHJVSmN4ZExDdy1XRFoyRmY0MEdqUGdLaEdPTDZkUV9TemRRZHczb3htZm9ESjZKY0VydnpHS2FrRWdX?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
@@ -20719,20 +20719,20 @@
       ]
     },
     {
-      "title": "Stock Market Today: Dow Soars 900 Points As Trump Axes Attack Plans; Caterpillar, Space Names Rally",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-06-11T21:05:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOWhCblQ4WENHYjhIRUFyT3N4Q24zZFd4RTEyRmF5VktOWE1yRlI0R2VFMklqTXdrR0o5WEl4dExWYmpOaEotcW9WSU1oY3ZGaVZ1MkE5QzhnZmNCTkZwMUxXZWtVeXpnd0VLTHlWVF9iV1AwNmNNaDBjSGxLRWUwSUpEUmZxNnVYUGxzUnhFM0RENVdDcnp3R21uZFk1UF9TelNhQm41Z3RPZ3V6VkhLZjV5WjVWZw?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Kioxia Rises to Top Spot in Market Capitalization in Japan",
+      "source": "nippon.com",
+      "publishedAt": "2026-06-12T11:26:16+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBLNEFJQjh1SHFOanBibENHYjJoOExvclEwejZENlNSUVZUOTktS1BSZFRtaFh6VEthYU9tREhhRU9fYWRtSnRVQ2hnSjVpZGo5eXN0RGhSalVXdW9k?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
       "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
       ]
     }
   ],
@@ -20839,7 +20839,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-06-12T15:28:33.250521+00:00",
+      "dataAsOf": "2026-06-12T18:11:31.791329+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
