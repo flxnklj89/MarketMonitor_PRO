@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-12T04:40:56.372420+00:00",
+  "fetchedAt": "2026-06-12T11:47:52.038200+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -127,7 +127,7 @@
       "name": "Europa",
       "score": 34.0,
       "label": "Stabil",
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "summary": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "driverText": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "inflation": {
@@ -140,7 +140,7 @@
       "growthOrRate": {
         "label": "ECB Einlagezins",
         "value": 2.0,
-        "date": "2026-06-11",
+        "date": "2026-06-12",
         "unit": "%",
         "cadence": "daily",
         "series": "ECBDFR"
@@ -20679,20 +20679,21 @@
       ]
     },
     {
-      "title": "5 US Stocks to Consider Before the Next Market Rotation",
-      "source": "Morningstar",
-      "publishedAt": "2026-06-11T09:36:28+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbXI0RUdwcVNUZFotMXAtZ2hFZ3ZfSFVFSUFYQjJkbW40UWRYNXVEVWRzdXFsUUZJOWQ5eUdEQlJNMy1HN2NFbkE3U3BSVHJGNE5SNjc4ZHFNdkpzLU80cXVQQnhHbFlab0k4RThhYUlpMld0Zk5VN0VVd01mMWdMSlN1WTF5WndIWFpXZDUtV2VSZDNzSS1B?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "US stocks jump, and oil prices fall after Trump calls off his threat to attack Iran",
+      "source": "mininggazette.com",
+      "publishedAt": "2026-06-12T06:53:20+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPY0Rld1lxR3l5S0VwZTlvSm9LbUs0WUYwRnRaWi1uZ1htQV84M21KZlRBWHVjNTAwek95c3U4LTh4eXkwNVFtLWJCLVJHalVybURVUl83X1N2NlZ4YmhxdFFVMW1EcklmOWtsaHliQVRhR3V3cWt5cGE3eWU2amI0WnBDMDZRUGtNYUN6MS1Wdkx0LUFIVFB0dk40aHhsVEZ4Q1BYYUR4OWFnTzl3YTNqZV9zT2hrMXFOZ2FFcVlQdXlVRllvZjBtMml6ZkNVWXND?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
@@ -20714,10 +20715,10 @@
       ]
     },
     {
-      "title": "What to Look Out for in Economic Data This Week (June 8-12)",
-      "source": "Kiplinger",
-      "publishedAt": "2026-06-10T21:25:13+00:00",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MeVNwMVVnVmhvRWo4b0N4WkhCRXQxTVRtb2ZmTWhCSmd4eERsN3Nfdllwejg0eG5ueFFCRUdPTzVUaXh4dEFZaWJqN3FFZnlFWTBlZ2ZvVkFFRzVScTR3TXRhZGl6MHp2RUF1clppVDRvR1lveC1FaXNCeXQ?oc=5",
+      "title": "The SpaceX factor: Hong Kong stocks face liquidity test from mega IPO",
+      "source": "South China Morning Post",
+      "publishedAt": "2026-06-12T11:00:07+00:00",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOTZnVXA1S0EtaGtGd1htbjBYa1RtZHNCYUNFTjEyMC1mTVhrZ2Q3NC12ajQ1a25XMEVfRm1ONnlVc0pDMXVrS2VraTFSV2cwajNfRF9HM1FVSlg1S3g5V2psWDdaZXppenBSNVZHM1B4eGExdm1BNjNGZEFqclJ1NUFuZGZqVGh1UTFqQ3BkUkE0Q0hUaVhOZXpzdVl0dGhsN1N1WUFHekd2cm9pZ2VhR0YzTGcyZlhrNnlLNNIBvAFBVV95cUxNbVFpSEZJdENIY2xRWnFFZDN1b0dCY3NUMEU1S2tTUXVGZ21Xc0tDNHRwcGZzVU83elkxYXBoRVY3cWlaaHgxbmpTNzBmS2xoUk5rSzNNLVFBajEyaHdOb1F1djRTMzBkSWhPZ0JNWEQtMjRqejJYTWJEY1hmemFQSDlHXzRfS01LeUstUGZOSWc2ZWRIYXFlV1FCODZJZDR3WmVWN1FWUEVZUW5uSlBzZjdpc2RCVHpMTVk4dQ?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20833,7 +20834,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-06-12T04:40:56.372420+00:00",
+      "dataAsOf": "2026-06-12T11:47:52.038200+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
