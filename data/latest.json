@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-12T21:54:08.689767+00:00",
+  "fetchedAt": "2026-06-13T04:19:41.976637+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -66,10 +66,10 @@
       }
     },
     "sp500": {
-      "ytd": 7.81,
+      "ytd": 8.35,
       "first": 6858.47,
-      "latest": 7394.3,
-      "date": "2026-06-11",
+      "latest": 7431.46,
+      "date": "2026-06-12",
       "cadence": "daily",
       "series": "SP500",
       "uiLabel": "S&P 500 seit Jahresbeginn",
@@ -98,7 +98,7 @@
     "tradeStress": {
       "value": 27,
       "label": "Entspannt",
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "cadence": "daily",
       "method": "proxy",
       "components": {
@@ -120,7 +120,7 @@
   "globalComposite": {
     "value": 39.7,
     "label": "Stabil",
-    "date": "2026-06-12"
+    "date": "2026-06-13"
   },
   "regions": {
     "europe": {
@@ -221,9 +221,9 @@
     {
       "label": "SPX",
       "icon": "📊",
-      "val": 7394.3,
-      "chg": 127.31,
-      "chgPct": 1.75,
+      "val": 7431.46,
+      "chg": 37.16,
+      "chgPct": 0.5,
       "unit": "",
       "dec": 2
     },
@@ -13695,6 +13695,10 @@
       {
         "date": "2026-06-11",
         "value": 7394.3
+      },
+      {
+        "date": "2026-06-12",
+        "value": 7431.46
       }
     ],
     "sentiment": [
@@ -20627,6 +20631,10 @@
       {
         "date": "2026-06-11",
         "value": 27
+      },
+      {
+        "date": "2026-06-12",
+        "value": 27
       }
     ]
   },
@@ -20650,41 +20658,6 @@
       ]
     },
     {
-      "title": "VTI Is Cheaper Than Its Own History. Is The Market Missing Something?",
-      "source": "Trefis",
-      "publishedAt": "2026-06-12T19:02:25+00:00",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTVhTSWx4ODZKaFpVRGxxRXFEU0VVc1ZvSWN3ZFR1bWl3MzM0NnI0dlNlQ1JVeXdPbVk0WjFJNTdYM3l5VTItNm5xdHZ3OGFkU1RWZ2JTYjlkbnpRcHlwSEhZMlo1MU44MHZLa0EzVlNQX05wT3J2M1FpNEdOQk9NUWJCcVZGbzJYbnZUa0x6TEQ1N19Wa2dBUWZtOHptSnFWZ3NSWHhEQkVHNHZnLWVHaFAtMnNNWWJkaE1vcTk2Nl9FWFR1Qnc?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Dow Jones Futures Rise, Oil Skids On Iran Deal Hopes; SpaceX IPO Indicated Higher",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-06-12T12:11:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMmExUktlS1RjRmpaNXk1ck5lNVBZbEhfblZSLVRwUk1yYmlLMUtuTDF4bzdlWUhQTVBEUER6SXRKdUF2RV9QVmtkV0t6SGJoN2ZPN3pRbHd2NkRMTHB0cWxsSjVla2F2eWxnZWJjNkVKc3lBaHRUalFCbFpQeHpVc0RoWkYzYW9LN0l5QTVJZXg2Q0U0UzR5MVZqLU10RDlDYkRudUJjeDJnLWtjdmhEdW96NTVjbDR5M2RXWjl1bUgwclNjMVRWNGZNcw?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
       "title": "Why does the stock market continue to perform well?",
       "source": "marketplace.org",
       "publishedAt": "2026-06-11T18:55:00+00:00",
@@ -20702,10 +20675,27 @@
       ]
     },
     {
-      "title": "US stocks drift as oil falls and Wall Street waits for SpaceX’s debut",
-      "source": "ABC Columbia",
-      "publishedAt": "2026-06-12T15:17:02+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQV01IZHJNa1NzWnE2cXhINWNkenBCYUpzZ1Z2R0JNTGFqZk9sYm15ZkwwMVBPMlVQay1qdmhxWUR5T0JaN3ZYWWt3Vk5EY3BnVEhaMEl3TGp5MUluNmI4RDY3aGZ5N1BNWjZOSFd2RTZFd2lxZzZoTUJ2NlQ1dlJIS0lZY3I5QmdFVk1fV3FvcXpjTkgtQjVmY2NpLVRGQUhxbmVqWUQwMXp3X3V2?oc=5",
+      "title": "VTI Is Cheaper Than Its Own History. Is The Market Missing Something?",
+      "source": "Trefis",
+      "publishedAt": "2026-06-12T19:02:25+00:00",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTVhTSWx4ODZKaFpVRGxxRXFEU0VVc1ZvSWN3ZFR1bWl3MzM0NnI0dlNlQ1JVeXdPbVk0WjFJNTdYM3l5VTItNm5xdHZ3OGFkU1RWZ2JTYjlkbnpRcHlwSEhZMlo1MU44MHZLa0EzVlNQX05wT3J2M1FpNEdOQk9NUWJCcVZGbzJYbnZUa0x6TEQ1N19Wa2dBUWZtOHptSnFWZ3NSWHhEQkVHNHZnLWVHaFAtMnNNWWJkaE1vcTk2Nl9FWFR1Qnc?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Stocks rise as oil slides on Gulf peace hopes, SpaceX market debut in focus",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-06-12T15:20:06+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWXEwZkJaRGVHX09jX0JoZFZGNzZocXF3Zi1TM0NRTE9WQW1hMUJrYzJuRS1IeVVrSlVJdmcweE9veS03dnllWmZjQ0dIaE9wdlhaRnp0VnY0S1kzZlN1N3BFa1hGWURSSjBxelREYml3Mmo2WXIxcGJfdGhYWE1jaFpKM3ZCRmVTSVVvNEZhZUJNd0U4Z0hJbDZYQUd0Y0I4dXJGQg?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20720,10 +20710,28 @@
       ]
     },
     {
-      "title": "SpaceX's arrival heralds a wave of new stock",
-      "source": "Axios",
-      "publishedAt": "2026-06-12T11:34:33+00:00",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WeEwwOEFWWmFuR1dNbzdsdXYzeE9zUVVOckYzNWliWTBvQVBQT250OG1tci1mT3ppbHJVSmN4ZExDdy1XRFoyRmY0MEdqUGdLaEdPTDZkUV9TemRRZHczb3htZm9ESjZKY0VydnpHS2FrRWdX?oc=5",
+      "title": "US Stock Market Today After Hours: S&P 500, Dow Rise as SpaceX Debut and Oil Slide Lift Wall Street",
+      "source": "TechStock²",
+      "publishedAt": "2026-06-13T00:22:10+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRGgzcVN6OHdmc0czbGNKeGpiSGhHWm1wd3lkMFpldE15MVlQZXFrSEtPeGk0dDBGQnZoNDFud2tjSWdxRFBOX1dSS0Y5Mm9QbEh4SDJVU1VSTGZtdk0tYVFwZGZHdF9Pdm13aXZLdzk5MV8tVGJBOWw2QjdwVC0yXzVUTW16RkYzUmhtZGEtblNoV1hydFBoVlUwMVRVNG9tWVg4TDlJMUV3eXZWQmxQTVB6ejFIWXZr?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Stock Market Whipsaws; SpaceX IPO Rockets, Oracle Dives: Weekly Review",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-06-12T15:02:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZXZuUVl5dW9ReWRMUUJreGNxRW5TMFNvT0g1OXFXZThzMURUWGdQS2s2aVpvaTFNSlBMaXgwYWNEdkhwdHFFdVVOcmxYeEl6SDlDWklCdHNKV3F4Y05vY1FmeDl3TUgzY25uTW55aHlLNmw4RU9WR0RaeU5tTjZuYTNGQUhBWlJ6S3JiVDNWQVNDM3FnUUFOQTdGM2FVdw?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20839,7 +20847,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-06-12T21:54:08.689767+00:00",
+      "dataAsOf": "2026-06-13T04:19:41.976637+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
