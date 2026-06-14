@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T14:17:36.183262+00:00",
+  "generatedAt": "2026-06-14T17:24:48.313785+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6113,9 +6113,9 @@
   "news": [
     {
       "title": "The Stock Market Could Drop: 2 Urgent Warnings From Former Fed Chair Jerome Powell Explain Why.",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-06-14T09:12:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPc0hGZ2FRTzlIV2xKT0FtMDdkVGw3WXh6Mm1zcHpETGo2ZURxSmdNdGlFN2pmaTM3U0x0emxPdzlTY2V2czhmZFhvOWsyRENiRHlrY2VzMzl3ZHVMalNIN0ktaW1qWG5GdDBEcjZyQ3U2YnJnUWw2Z3ZRTi1OanhXNVJGbldDZlJxemFkMkhSMzk3NUFuVkRF?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-06-14T08:32:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOelNxTG5CaGNXZUF1QmNXYVZzM3JFMG9odzVKY1FqTHFjMW5TNVJ2elk0cDVqdWxZX3ZnWXNwVVlkN0diVklJbTlnMWwwekhQNFJpaTkwTmFkaGhkQmdCc3QybGdiQzkzczRtVElsOXpudDM0SlBIemFwaDFjendFLUVob21MbXExbjFfXy1IU3ZGLTBk?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -6147,23 +6147,6 @@
       ]
     },
     {
-      "title": "PayPay Corporation (PAYP) Stock Price, News, Quote & History",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-06-13T19:04:43+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9ONE92Zi0wQXFiRTBjTmRJbjFEV0lIc1dkLUdoM0JqdGk0N2Ryamd3dVJfNmg2cnhTQmM4bmFxNE5GaXdSUF9hdjZqU2lxdw?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
       "title": "What to Look Out for in Economic Data This Week (June 15-19)",
       "source": "Kiplinger",
       "publishedAt": "2026-06-12T14:16:23+00:00",
@@ -6181,21 +6164,37 @@
       ]
     },
     {
-      "title": "Tracker: The Federal Reserve’s Balance Sheet Assets",
-      "source": "The American Action Forum",
-      "publishedAt": "2026-06-12T07:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNR2NrRDdoQ1MwS0paZFliV01BelV0MS1tQkNMSEdJYmYweWctanpzZU5hMllmVUtjQWR2cXBPSVhFeFluSFlMbi1ZVTg1ZS1TYzRMam81MFlRbWxockRRN2RpeEk2OGhpYWVXUVpsX3lvcUx4QUFERERGQVdkeVRndHJNeExJTU9DLS1GRW9GTW0?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "title": "Equity in earnings of IDA Private Access Fund Class I – NASDAQ:ONEFX",
+      "source": "TradingView",
+      "publishedAt": "2026-06-14T13:26:31+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSlJyYm1wRGdIbWpjYXVaVlI0UEt2N2lWWENzbmJpbWlwSFRmbUhROUFSRmJEZWJleVBVejNfVklvMzFuVmZ4Q21RVm1YYU1aVmp3VXRJUV9tWmtzQ2pyTnZSeFdKOUJuNHpHcjdFX1J6dnltODhVaXNpY1hwMnR2NFBQZmZnOENCNUQzNlU2TXotaTBRVGsxS1l4cTI?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
-        "Staatsanleihen",
         "Aktien",
-        "US-Dollar",
-        "Gold"
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Is the Stock Market Really Done Falling? Don't Get Your Hopes Up",
+      "source": "tastylive",
+      "publishedAt": "2026-06-12T10:45:54+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb1BBSnBkbEExTlRpSkVYUkJ4VWVoTTZyMTZwUXZJUlNuSnFyaW5iWlotOEtQNGd2U0hSd19jZnZxcUlEYlZDYWZLcWJqcGFra1ZVaFRBRklpVlk1d0p1SEdMdUlWTTd0OXA0R1EyM3NBZlZEVTNqclZ6bERId2xPd1dUcjFkYU5tUnVSRVI5VHBQMmh4OWpEUTR6TXRWMlpvck1OUw?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
