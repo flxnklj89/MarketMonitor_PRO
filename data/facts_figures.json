@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T19:51:43.467903+00:00",
+  "generatedAt": "2026-06-15T22:23:00.314265+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6130,21 +6130,20 @@
       ]
     },
     {
-      "title": "Oil prices sink, stocks soar after Trump announces deal with Iran",
-      "source": "CBS News",
-      "publishedAt": "2026-06-15T13:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1TanMwME5ZWGQ0RTI5UjAwWlVpSTBqdk1yc3k1LWxUTURWazFTY3pZUkN2bUNiOHhlSl9DVkUxZ0xBQmhnV2g1SWdobHJleXFvMzVwQUh2aGxXQkdEZjhmMjNQYW9sNzBlTXB3WVJ6dHNTRzl2VTR2cDBjaHI?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "Stock Market Today: Dow Pops On Trump-Iran Deal; Elon Musk's SpaceX Rockets, Tesla Does This",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-06-15T20:43:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYTdPUnFhNERYS29PTjFTYmpOWEx5V2c3R1VkRHg3NDBXY0Q1c3RkYVJDQ1pqMUxyQXVKZF9aUWFsNUhJaDRPRVRNWjZpbGVKVlA0WGRHV3hmMTM4T21kdkhYU0gyTldMNGZjWHhqSjh3SXB1Q2cxTzcyeXpTSVoxVTN3MjRyRVUwVE1acU8tQm1sLUswMFpzTFREZjMxV2F4bXhGM0l4dDk?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
@@ -6165,20 +6164,39 @@
       ]
     },
     {
-      "title": "A Place Where Some AI Stocks Are Still Cheap: China",
-      "source": "WSJ",
-      "publishedAt": "2026-06-15T03:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQ0FYQmd0SEVXelN2YjJKOWkxcG1jVXNZbVFmWjBOLWFyVF9YSS1zWmU4TUU3bzJfVVA1LTFoQVNwa3BISEI0ZVVjNmJsX29UQ24wT1JsWEMyM1Qzb29sa3lIbW0tWkQ3U3JCMGlrLXhDOXZfODYzb3VHVlFiRmU2SFlsTHpRODhQcDEwUGs2ZlZ1em9GcTVlRkJ3?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "title": "Stock Market Today, June 15: American Airlines Group Jumps After Oil Prices Drop on U.S.-Iran Peace Agreement",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-06-15T21:18:52+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOc3I3ZWMwV0Y3d09UdE5mSXF4anR3b09YR0wwOFFjYlVmLUJYcDNfX0FHcWVmUU15YXVENTRPeU1mNC14RHFzWnZEaUN0Rm9EY0lxaHJfWTJtUDlQbVhpSi1sblZLY1dyLXJlOFF3ZnV1bEFXRUV6b2dpSHY5VGpGTDYtaE1OWW9CbzdlVllWdWR5X2l1SkRlOXc1V0tjaGVIcEJTNDhOUDVCOEpSaFV4Q1VDc19QVDZNTThDeEp4UDZ3VXRQdEd6Y0RfZThTQTFxaG0zbmZpMGFDeFhYT0ZOM0JEMW16NEVrQVlpRWxaRzdMNFR6eGhrd1RrOA?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Oil prices sink, stocks soar after Trump announces deal with Iran",
+      "source": "CBS News",
+      "publishedAt": "2026-06-15T13:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1TanMwME5ZWGQ0RTI5UjAwWlVpSTBqdk1yc3k1LWxUTURWazFTY3pZUkN2bUNiOHhlSl9DVkUxZ0xBQmhnV2g1SWdobHJleXFvMzVwQUh2aGxXQkdEZjhmMjNQYW9sNzBlTXB3WVJ6dHNTRzl2VTR2cDBjaHI?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
@@ -6196,24 +6214,6 @@
         "Aktien",
         "Anleihen",
         "Währungen"
-      ]
-    },
-    {
-      "title": "Stocks leap worldwide, and oil prices drop after the US and Iran reach a tentative deal on their war",
-      "source": "WDEF",
-      "publishedAt": "2026-06-15T14:26:48+00:00",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQURjbVBxdVZhZ0hPUlI2VDVNejRzQmNXRDFlcXVqdEJNLXF0WEFuaWljNlJNa3dMc0pVcm1IbVJzNFg0Q05TczhuNUUwcTZnRG1ranFIUF92N2F4NDBiLWVmWDFGVDBCWVZ0LXEwVFJsdHdjTjRkVGZ3b1VNM1VhRlVUb3kxNkZQSzZKSWx5UndRSEJIQTljb2hSbU9EbHFHTnd4SkxuZzhUTUlibXVia2NOcnZCRUZTRTV1bkdn?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
       ]
     }
   ]
