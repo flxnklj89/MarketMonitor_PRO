@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-15T05:02:55.106291+00:00",
+  "fetchedAt": "2026-06-15T14:32:22.089954+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -28,7 +28,7 @@
     },
     "fedRate": {
       "value": 3.62,
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "cadence": "daily",
       "series": "EFFR",
       "displayName": "Effective Federal Funds Rate",
@@ -102,7 +102,7 @@
       "cadence": "daily",
       "method": "proxy",
       "components": {
-        "vix": 19.44,
+        "vix": 17.68,
         "brent": 97.46,
         "eurusd": 1.1533,
         "us10y": 4.45
@@ -127,7 +127,7 @@
       "name": "Europa",
       "score": 34.0,
       "label": "Stabil",
-      "date": "2026-06-12",
+      "date": "2026-06-15",
       "summary": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "driverText": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "inflation": {
@@ -140,7 +140,7 @@
       "growthOrRate": {
         "label": "ECB Einlagezins",
         "value": 2.0,
-        "date": "2026-06-12",
+        "date": "2026-06-15",
         "unit": "%",
         "cadence": "daily",
         "series": "ECBDFR"
@@ -230,9 +230,9 @@
     {
       "label": "VIX",
       "icon": "⚡",
-      "val": 19.44,
-      "chg": -2.78,
-      "chgPct": -12.51,
+      "val": 17.68,
+      "chg": -1.76,
+      "chgPct": -9.05,
       "unit": "",
       "dec": 2
     },
@@ -6946,6 +6946,10 @@
       },
       {
         "date": "2026-06-11",
+        "value": 3.62
+      },
+      {
+        "date": "2026-06-12",
         "value": 3.62
       }
     ],
@@ -20628,9 +20632,9 @@
   },
   "news": [
     {
-      "title": "Stock markets soar, oil falls as US, Iran confirm deal to end war",
+      "title": "Stock markets soar, oil falls as US and Iran announce framework to end war",
       "source": "Al Jazeera",
-      "publishedAt": "2026-06-15T03:45:00+00:00",
+      "publishedAt": "2026-06-15T09:24:35+00:00",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTkIwZ3BGbEtQVlpMd2hsNjBRTGo3ckloaWxtWEV4dFF3dUpzQzVRNjNuY0FGd091UXJSc2xmLUt4SU9Oc05yQm5lY3BJYW12MFBLSHdVUFJWV0hGbm9odlFXV2F3Q2VlRmxMQUY4NEJDYnpoQm9sQl8zZWRyN0JCV3YyQU9yMmJiaHp2aDJWYmZuWXhoSnNxVmg1ODlybzdrSzBYbUZKZkxTZG_SAbABQVVfeXFMT3diT2hnTFBuekVmOEpUSkh5d3FITjBrVndZM0g2UVZXczl1ckJYbEJMcEdreUREaG9ZOW1TN3pNTzFzNC1QSFNaZ1BPUjNLYk92allOZnhEY3RqY3JBVV9xWk03amxWUEhVakpZdlNHeU84ZFBvV1Y4amZsTHJBSWl0ZGtxSTROdVh6OTI3bDFtSDRoTmdmSGhxeFUtRnNaZkEzZ1YtMExKaHlGOUJsOWg?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
@@ -20646,7 +20650,43 @@
       ]
     },
     {
-      "title": "Shares surge, oil slides in Asia on Gulf deal",
+      "title": "Oil prices sink, stocks soar after Trump announces deal with Iran",
+      "source": "CBS News",
+      "publishedAt": "2026-06-15T14:18:04+00:00",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1TanMwME5ZWGQ0RTI5UjAwWlVpSTBqdk1yc3k1LWxUTURWazFTY3pZUkN2bUNiOHhlSl9DVkUxZ0xBQmhnV2g1SWdobHJleXFvMzVwQUh2aGxXQkdEZjhmMjNQYW9sNzBlTXB3WVJ6dHNTRzl2VTR2cDBjaHI?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Tentative deal on ending the Iran war sends stocks soaring, oil prices to lowest levels in months",
+      "source": "LancasterOnline",
+      "publishedAt": "2026-06-15T12:20:25+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPYTdZWVNxNWZTSEhjanhfNlpsQzF5U3VxUlFrNE1iaGJKS2kwd1RVWXlZMVpLYkgzelZ0RGxSSHNQeU02alEzbUxwbk9vVXZ6QzNtdmExZmtMdFdYejhERGlIQm5VSDhOQWZMQlRnM1o0MmxmYkJ2TU13YUtvd0c0dVZqVmxPNXpOSEtKOFVXNnpsZm1NTW51WGZhaHZ6a3NOVlFxc2xYNmE4NnRGcWRPbFZFMVlhak92bnY3XzdNZWtXaEVDMXBMRjRLaHIzQ01fNjltVkxnVHhnRWpfSFZFM0NKWENHWTVTMVNNckJERmhvU2hNQ1B4UHdhMXNad2NVN0JRZnlBTVVFeERhSVQwY1ZiNWk?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Shares and bonds surge, oil slides on Iran deal",
       "source": "Reuters",
       "publishedAt": "2026-06-14T22:58:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdEFOMl9uakdZcWkxTFkyRVlFajFnMkZUc3NOOF9aVk9zSlJGQWg0eDVQdmlNQWlROC1leXlZWkVuNDduSHlUUFc1RGhhRm5oYXdMUDlLZXlpTUJhYXJ4MThLT2EydUswRE0wa0syaGh4STg3bXJ3RW1UbmRRNGVLNjRFbw?oc=5",
@@ -20664,10 +20704,10 @@
       ]
     },
     {
-      "title": "Dow Jones Futures Rise, Oil Prices Dive As Trump Announces Iran Deal; SpaceX's Next Test",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-06-15T03:05:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUnNvRl9SOHZzNXlPQ0s2d1BmRi1BbDdfTW5rVmpEREd4bmtvNm9yQ1cxTzdnWW40RFNVdlAwcklZNktWQ3JjaXZkbFhiU2JxTWFoM1VycEZzUU5nRTFJRElPQndwbWxtYkRad0twWmtqbzRObFBtek9IdTVrSWRwdFFia2hmbVNRblBONTdwM1lfNGFxNWxDa3RVeFR3aTNE?oc=5",
+      "title": "Oil Tumbles to $80 on Iran Deal. Could Fed Rate Cuts Be Back in Play?",
+      "source": "24/7 Wall St.",
+      "publishedAt": "2026-06-15T11:24:57+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVk1nNlJnSUg4bnRMMWI2dFFqNXZyZ2ppaGZQbURyMUFreGNtTG4ybV9JUE9zZWN5QWxqaVpJZjRnQ0lPNlhoUzBZc1lzVk1Ob0hfSkxzcWNFX1RjejZXYkFjeTc2Q2MydV9GWHU3ZFExa3U1MmtaUnVLYTNJMnVIUEJpUS1fUDV2T25wUlF6TG5nZ3lRWjFqQjJyN2ZEcWgwQjd2bTFsRDV4NkJMRGRV?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20682,46 +20722,10 @@
       ]
     },
     {
-      "title": "Stocks rally, oil slides as U.S.-Iran peace deal lifts market mood",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-06-14T23:12:30+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaDRtalAwc2sxak1fSXdYekZmczhHYkl0a0dmMzdLTFVTV2hxUEFZUzZBOTgzUGNtM0VrQlNVUnlQVzdfNWUzN3hWRkttV21GQzdpa3dlYzR4aTBuU0ZyQk54c0RqTGxlSngtUmR0NWZmWHhPbk1yV0lpS0pVaUhPU3ZtcmxQOXBzZlFLdWgxNzdidmVWWkJnNWRHMTNueDlodThhNg?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "US Futures Climb, Oil Falls on Iran Peace Deal: Markets Wrap",
+      "title": "Stocks and Bonds Rally as Oil Falls on Iran Deal: Markets Wrap",
       "source": "Bloomberg.com",
       "publishedAt": "2026-06-14T22:06:25+00:00",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaUhKcHF1aHBVMlpjQm1nNm1CM043eXpnYUtiVUJIYlM5N1RHTm1YQk9Fb000V3lvLTdUMzVieXhtRnNwMVFzcGNUVE5RWEN1bk95d19FVTFrWDlaaFpubmxfM0ctcTYxRjctZElzSkhubkoxSDZfbDVXVndCUU5kbXRoNmIydjd2QVFNV0ZsWDUzUzRBbHg1R2RmbGJSQWNVa2c0b2NLVlRWcXJrUFE?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Tentative deal on ending the Iran war sends stocks soaring while oil prices fall",
-      "source": "LancasterOnline",
-      "publishedAt": "2026-06-15T02:51:51+00:00",
-      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNbEtNRFBlU2pkSHhfRTdmVk5UcHE5SVN4ellSRzFXcWk3MS0zcUhscEduTkpXYWVFV1hOdHF0RWhVZ2JxX2tsUUU3d21pQzJ1TEF1QkJWVFBEd1V5OFBRU0wwODljbFgxVnhpSmgyZUx1VV9ZRkVndWIxaHpJZk9Hb3VUb0FacFhka3psYjdGLTlDU1EtT2JGdUo2TnJzOTgwNkVuMUxtWkZmbERpdG9Kd21jTEstWGRwak5ZMWw1azBYZE5SWk5MeEhqaVFMLTZFRktpUmlZa1lfMGdJVU5KS3NmZzNsU0FpTDdRbmdqSlJOOUZxWG1ndWNjS3NrWEgzOE9jbEVoSVBxX1lu?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20838,7 +20842,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-06-15T05:02:55.106291+00:00",
+      "dataAsOf": "2026-06-15T14:32:22.089954+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
