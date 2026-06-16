@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-16T05:05:52.770319+00:00",
+  "fetchedAt": "2026-06-16T12:59:15.054999+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -127,7 +127,7 @@
       "name": "Europa",
       "score": 34.0,
       "label": "Stabil",
-      "date": "2026-06-15",
+      "date": "2026-06-16",
       "summary": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "driverText": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "inflation": {
@@ -140,7 +140,7 @@
       "growthOrRate": {
         "label": "ECB Einlagezins",
         "value": 2.0,
-        "date": "2026-06-15",
+        "date": "2026-06-16",
         "unit": "%",
         "cadence": "daily",
         "series": "ECBDFR"
@@ -20628,10 +20628,10 @@
   },
   "news": [
     {
-      "title": "Stock markets soar, oil falls as US and Iran announce framework to end war",
+      "title": "US stock market jumps as US-Iran deal stirs hopes for end to energy turmoil",
       "source": "Al Jazeera",
-      "publishedAt": "2026-06-15T09:24:35+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTkIwZ3BGbEtQVlpMd2hsNjBRTGo3ckloaWxtWEV4dFF3dUpzQzVRNjNuY0FGd091UXJSc2xmLUt4SU9Oc05yQm5lY3BJYW12MFBLSHdVUFJWV0hGbm9odlFXV2F3Q2VlRmxMQUY4NEJDYnpoQm9sQl8zZWRyN0JCV3YyQU9yMmJiaHp2aDJWYmZuWXhoSnNxVmg1ODlybzdrSzBYbUZKZkxTZG_SAbABQVVfeXFMT3diT2hnTFBuekVmOEpUSkh5d3FITjBrVndZM0g2UVZXczl1ckJYbEJMcEdreUREaG9ZOW1TN3pNTzFzNC1QSFNaZ1BPUjNLYk92allOZnhEY3RqY3JBVV9xWk03amxWUEhVakpZdlNHeU84ZFBvV1Y4amZsTHJBSWl0ZGtxSTROdVh6OTI3bDFtSDRoTmdmSGhxeFUtRnNaZkEzZ1YtMExKaHlGOUJsOWg?oc=5",
+      "publishedAt": "2026-06-16T05:09:05+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTGExUWx1WGZaNmtxTXJLZ1pNMmZ2dUg0dmJLTExtX1NXZURmZS1lNEQ2ZXIzdmxVZTdQdmtERU1PcnNXVU5YUGtXbWhPY3NjREtUYXhfUnN6aDRPNGhvWmFEbnlNWlNTcjdDUU5zMkxSaFZqVXdYZWhvUU1XNDZqcTNoZXp1Vk1sM3E4Q2NDWXgwcE1CdHo0RVdNMk5fUE00NVRIZ193NG03T3BUR0MyTURfcXZ4VS1fOXfSAb8BQVVfeXFMTkNlcjZLbmh6QUR3M19VY21kSWk0N2RPMEpneUxvZzhLRFdBMV9Uc0dCVzlNcG0zQWFRcm5SSnFSUGVoYlRnblpjX2ZhdnlBSXRrNllWMFQyQlM3TGJ4WndMYlVQU0l6alhNcWhLRkFkRVVqOTVhYXFtTnRha3hJa2c1OEV1djlkOWdBVDVWR1VMQ2MzSnpwclVMN29BNUFxRnJ5VWpYbE9XX1VJS0pFYXNZNUMxSlA5OVB2a083Ym8?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20663,20 +20663,56 @@
       ]
     },
     {
-      "title": "Stock Market Today: Dow Pops On Trump-Iran Deal; Elon Musk's SpaceX Rockets, Tesla Does This",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-06-15T20:43:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYTdPUnFhNERYS29PTjFTYmpOWEx5V2c3R1VkRHg3NDBXY0Q1c3RkYVJDQ1pqMUxyQXVKZF9aUWFsNUhJaDRPRVRNWjZpbGVKVlA0WGRHV3hmMTM4T21kdkhYU0gyTldMNGZjWHhqSjh3SXB1Q2cxTzcyeXpTSVoxVTN3MjRyRVUwVE1acU8tQm1sLUswMFpzTFREZjMxV2F4bXhGM0l4dDk?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Dow record, SpaceX rally, Federal Reserve decision 2026",
+      "source": "qz.com",
+      "publishedAt": "2026-06-16T11:51:42+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBFMDF4NVJKeE5yZlc4ZlZPTENrUkF2eW1PaTlTOFYwZUFLQXFZVThSV1gweVRscWZ5V0hrbU5YLUVKM1ZIaGUzVENtTlEwZ1JpUHZvUHNvMDZvVkVtUzlJaWZ6VUp2cWtVNmc?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
       "assets": [
+        "Staatsanleihen",
         "Aktien",
-        "Anleihen",
-        "Währungen"
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "The Dow Jones of Old China: State-Owned Giants Still Dominating the World’s Second-Largest Economy",
+      "source": "Disruption Banking",
+      "publishedAt": "2026-06-16T09:55:20+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPaTlJOFVnNjh0WjFfZzg0TFV1RFFsY1g4YVdySVJTbXdrdHRjdkViajM5M0ZGQTRxUmVLb0ZKd293NHZQRm5CU1kycXN6NlNsanRtVHVTc280RDY5ZFRNWnJkbUJGalNTRlh1cktVbXZHaXV6cDYzaENOampqaXU0WnhjenNBZTJwZzZhcjNadkk2SUVQNGRWRHQ0QThoU012QUdQcHBQZ1pqLVRuaEp5MEE4R3Q3YlpmQlQ3ZjYtVVhFTnJXcGRDaURTb05iUzROcnBQVUxQajJTdw?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
+      "title": "Global shares are mostly higher and Japan's Nikkei tops 70,000 before BOJ's rate hike",
+      "source": "LancasterOnline",
+      "publishedAt": "2026-06-16T09:23:26+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQU3pvVGl4Q2wwajlpOEc4S3VHR2U0NFp0RGtZWU02UXRpVWoxa3FjVDRfTkZJbWs1WkwyU3Zpb3N3UEFVa00tRVBNWDVWaFVCUUdGTTFiQXYxQURtWUc1RDIwZVc5czJqbmdqV3JWWEpMalhvam9VTm9TSzRDT1Q2MXRoQVlQY3h5TURTZkZ2emE5djhXdFpHWWNmbDBPa0h0R3locXRkaXBQdmhDSVRZTHhUNW9DdVpXUlVXYURlUEZiMzdsT0VBWWRhR0cyeWkzQmVPLVlRNXh5dkNsZEhHckh4R3psZF90R2lkbDBrdjhMOVFOcWpLNDVhbzc4Nl9NSW5KOUg0LXA0alVjdkFiZg?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
       ]
     },
     {
@@ -20694,40 +20730,6 @@
         "Weltaktien",
         "Währungen",
         "Rohstoffe"
-      ]
-    },
-    {
-      "title": "Why the stock market tanks when the economy grows rapidly",
-      "source": "WAMC",
-      "publishedAt": "2026-06-15T16:52:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbWNNNkdnUDZnQ2ZocE5tMUtvb2lrU2JGUk1idjdpam8wSmZqTEZ3eEo2RHBmWGtCU1RkY2owV3daR0ZMMGpKS2pLYTNUbV90OFk2RUlrcDhrdHBkTzFYbm1DMEFuR2FsWUE2MzlyNEVRNjE1UjJwY1dPZGhadVlydi0yM3l6NnFJV2FmQzRKTEZNam52TU10b1hIdTY2MmlXdzkxaFp0ejlXTzNuLUJHNWVKYkFtanpwOUE?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Morgan Stanley’s Wilson Sees US Stock Market Rally Broadening",
-      "source": "AdvisorHub",
-      "publishedAt": "2026-06-15T19:41:23+00:00",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOLUV0ZWU1dkYxNmtzM254V3hfSFVVSGt4VVFIck1MdzRRTndhWWZMS3VGckgzeVVvYkZzSjJHTjR5eHgzQzlfVjVYVDBZZUUtS2dmY21aY0ZXWmZFYTN0LTdDeEZxSk5JTmdtZnJubzk5ZG55RW5pSWtERFJzS2J2bHJQZ3pNWk1tcmFCbG1fSFdTdw?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     }
   ],
@@ -20833,7 +20835,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-06-16T05:05:52.770319+00:00",
+      "dataAsOf": "2026-06-16T12:59:15.054999+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
