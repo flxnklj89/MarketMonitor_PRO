@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T22:23:00.314265+00:00",
+  "generatedAt": "2026-06-16T05:05:59.571413+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -43,10 +43,10 @@
   "technicalTriggers": [
     {
       "label": "50T vs. 200T",
-      "value": 7.6,
+      "value": 7.9,
       "unit": "%",
       "tone": "l",
-      "status": "50T liegt bei +7.6 % gegenüber dem 200T. Schlusskurs 25889, 50T 25211, 200T 23431. NASDAQ Composite (Fallback) über 50T (25211) und 200T (23431). Trendstruktur intakt.",
+      "status": "50T liegt bei +7.9 % gegenüber dem 200T. Schlusskurs 26684, 50T 25307, 200T 23456. NASDAQ Composite (Fallback) über 50T (25307) und 200T (23456). Trendstruktur intakt.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -56,10 +56,10 @@
     },
     {
       "label": "RSI (14)",
-      "value": 49.6,
+      "value": 58.8,
       "unit": "",
       "tone": "m",
-      "status": "RSI (14) bei 49.6. Kein Extremniveau in beide Richtungen.",
+      "status": "RSI (14) bei 58.8. Kein Extremniveau in beide Richtungen.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -69,10 +69,10 @@
     },
     {
       "label": "Drawdown vom Hoch",
-      "value": -4.4,
+      "value": -1.5,
       "unit": "%",
       "tone": "l",
-      "status": "-4.4 % vom Hoch. Kaum struktureller Druck.",
+      "status": "-1.5 % vom Hoch. Kaum struktureller Druck.",
       "history": []
     }
   ],
@@ -702,12 +702,6 @@
   "charts": {
     "chartLabel": "NASDAQ Composite",
     "qqq": [
-      {
-        "date": "2025-04-03",
-        "close": 16550.61,
-        "ma50": 18708.27,
-        "ma200": 18452.17
-      },
       {
         "date": "2025-04-04",
         "close": 15587.79,
@@ -2501,13 +2495,15 @@
         "close": 25888.84,
         "ma50": 25210.88,
         "ma200": 23430.8
+      },
+      {
+        "date": "2026-06-15",
+        "close": 26683.94,
+        "ma50": 25306.98,
+        "ma200": 23456.26
       }
     ],
     "rsi": [
-      {
-        "date": "2025-04-03",
-        "value": 31.0
-      },
       {
         "date": "2025-04-04",
         "value": 24.5
@@ -3703,6 +3699,10 @@
       {
         "date": "2026-06-12",
         "value": 49.6
+      },
+      {
+        "date": "2026-06-15",
+        "value": 58.8
       }
     ],
     "vix": [
@@ -6130,6 +6130,23 @@
       ]
     },
     {
+      "title": "June 16 May be a Big Day for the Stock Market and Set the Stage for What Happens Next.",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-06-15T23:10:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNERUM0ctZ1Y0QkkzbGdTRFlBUGNFbG1TYmpYT0RTdFViT1lUM19rTU1YQ2w4ekoxY1Jrall4OUpfZmprUDQ5cUY2SHNJazFQdHR4S2dLbzNVWkJMNjd3VGpxMFh0NENjSUJJQ0t2M3lkYnFfQzZDb0RoOU01YWFFZC00YzhWVzdTTEZHZlYwNjVIWFRBR1FV?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "Stock Market Today: Dow Pops On Trump-Iran Deal; Elon Musk's SpaceX Rockets, Tesla Does This",
       "source": "Investor's Business Daily",
       "publishedAt": "2026-06-15T20:43:00+00:00",
@@ -6147,6 +6164,23 @@
       ]
     },
     {
+      "title": "Why Is The US More Exuberant Than China?",
+      "source": "Yardeni QuickTakes",
+      "publishedAt": "2026-06-16T04:38:17+00:00",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4yRjFnazBnSmVYcXFOa3BhN0pXR1B4RC1QM010cXBsd2xSZHkzaldpWWprR0Y2V3EtWVFaQ01UVTBwLTlSNmZBTUk3OEJCcDlzSlo0X3BDWHloUk9IbVlqUmhMZURlNnpGWmhDV0dBelFpaWJDQ3VSdmp1dzVlY2s?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
       "title": "Why the stock market tanks when the economy grows rapidly",
       "source": "WAMC",
       "publishedAt": "2026-06-15T16:52:00+00:00",
@@ -6161,42 +6195,6 @@
         "Aktien",
         "Anleihen",
         "Währungen"
-      ]
-    },
-    {
-      "title": "Stock Market Today, June 15: American Airlines Group Jumps After Oil Prices Drop on U.S.-Iran Peace Agreement",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-06-15T21:18:52+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOc3I3ZWMwV0Y3d09UdE5mSXF4anR3b09YR0wwOFFjYlVmLUJYcDNfX0FHcWVmUU15YXVENTRPeU1mNC14RHFzWnZEaUN0Rm9EY0lxaHJfWTJtUDlQbVhpSi1sblZLY1dyLXJlOFF3ZnV1bEFXRUV6b2dpSHY5VGpGTDYtaE1OWW9CbzdlVllWdWR5X2l1SkRlOXc1V0tjaGVIcEJTNDhOUDVCOEpSaFV4Q1VDc19QVDZNTThDeEp4UDZ3VXRQdEd6Y0RfZThTQTFxaG0zbmZpMGFDeFhYT0ZOM0JEMW16NEVrQVlpRWxaRzdMNFR6eGhrd1RrOA?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Oil prices sink, stocks soar after Trump announces deal with Iran",
-      "source": "CBS News",
-      "publishedAt": "2026-06-15T13:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1TanMwME5ZWGQ0RTI5UjAwWlVpSTBqdk1yc3k1LWxUTURWazFTY3pZUkN2bUNiOHhlSl9DVkUxZ0xBQmhnV2g1SWdobHJleXFvMzVwQUh2aGxXQkdEZjhmMjNQYW9sNzBlTXB3WVJ6dHNTRzl2VTR2cDBjaHI?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
       ]
     },
     {
