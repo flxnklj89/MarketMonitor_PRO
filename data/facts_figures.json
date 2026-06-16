@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T19:41:22.114377+00:00",
+  "generatedAt": "2026-06-16T22:18:30.327328+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,6 +6112,24 @@
   },
   "news": [
     {
+      "title": "Oil prices drop below $80 as US stock market drifts near all-time highs",
+      "source": "WISH-TV",
+      "publishedAt": "2026-06-16T20:59:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWklZdW4tZEQ3Q0FIY0FjMGRjazh0YlA1dlROVGhIV1R0ekYwWmhLN2g2d0VJeEoySTAyeENFM21Ga25hRlhUOTlORGNDcXBGb3o5VGdCYmVaZ0FCcVhTemszaTF4MFpIbVVIOVd0el85cjVvTzlCQV9pQWhGSDhCeWlsM2hxVnI3QzU1aWFfeHBKQkFlY2VuWmVPVG00d2ZiNE1WQnFnY3hqWTBX?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
       "title": "Investors: Tomorrow Will Be a Critical Day for the Stock Market. Here's What You Need to Know.",
       "source": "Yahoo Finance",
       "publishedAt": "2026-06-16T15:40:00+00:00",
@@ -6129,10 +6147,10 @@
       ]
     },
     {
-      "title": "Oil prices fall below $80 per barrel, while U.S. stocks drift",
-      "source": "Pittsburgh Post-Gazette",
-      "publishedAt": "2026-06-16T17:32:29+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNR1RfRUROQ09kcktyOHpSMGtKZEgzeTd2aGVWaXFKSlpwT0t1a1hRc0FfZzFKNjNFT1J2S3FKUjJCSzc1V1lWM2ZQZkdMcjlJdWg4UDNFMmlyR1NuS1pBSGpoR1YxV1lNT2p6T1lwTkN3Wl9vMDc4UWFNWEZySmdkbXJOS1dOOTQ5elp2ZzJIN0ZhVDJ4Z0hESURfalNKZG5Id3pOYnl0ZE9jYU0?oc=5",
+      "title": "Asian Stocks to Slip Ahead of Fed, Oil Steadies: Markets Wrap",
+      "source": "Bloomberg",
+      "publishedAt": "2026-06-16T22:06:39+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMjZSNjViRXpkcFVCci1GSTdET3doQnlHejZPRGNVYnlrRkZGOGZJdXhELXJpY2hfQ3lWX2EyWlhCQmFWdWE1ZWtzaFIwMmJfZmthVlBSUU1SQlB0XzhtQ0lCZHhwRFFFSTZmR1JXa1A4akR6VDM0ejBCTzdZUzRlVEs0X0VpeldtRDdPS3N6aGhpS1VEa1VRdVpGNzM4RGtBZWFyXzdPRzI3eFRYenVj?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -6147,21 +6165,20 @@
       ]
     },
     {
-      "title": "Oil prices fall below $80 per barrel, while US stocks drift in mixed trading",
-      "source": "fox23.com",
-      "publishedAt": "2026-06-16T19:18:56+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQVXlIZHJETUU4TGQxdi1JTi1YdlRkd1AyUnQzM3MyczJ6NGpkd1lzVmd6WExraEltX1h5LTE3REJMVTl4ek9nWDFybUV3OWdWRlpyM3BUaFJ5enpRSVdBZkRiVmtLaGZ3TWlQa0V4VlNUUHgwNGE5OXJIRzJRbTJENXBrdTQ3ckVjSWVOemwyZ2Q5Qm9BNlhIa2NMTzVSWmJSbVIzQ0FIMzVERUdoNmlKZlVxXy0tMUpBcG5aZzZIWDF6Z0s5RjhGZkVHZWtxaUI0YXB1VF9PcV9LTEt6X2tCeWJSN3VEQQ?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "Nasdaq and S&P 500 slip while Dow hits record close",
+      "source": "Reuters",
+      "publishedAt": "2026-06-16T20:51:08+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONEpZcjB1UUpuN05zN283anhrUE9FaHJWOGRPTnF6VWdLcEkwT3U5OWhjM05VckRjMFpnS2dDR2dtdXNDc0pYdkhxdXpnbExoM2loNmRsN29qLXVEYUdpZEI2cEpISFJXZkJXeGNzV292S0tCUVhZd2lRX1hlNFdaOXp2dEJ2LUh1dm9reFE3VlFnZE5salNHUXlmS3A4WlkwNVZ5aHhZZ29ENnExMEVkQjVB?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
@@ -6183,39 +6200,20 @@
       ]
     },
     {
-      "title": "Oil rises plummet, stock market soars amid US-Iran deal momentum",
-      "source": "Fox News",
-      "publishedAt": "2026-06-16T17:15:46+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DZWVSWVd6ZVctZVpsM3luQkM4N3pQWWFZLVUyX192LXNvNTc1SmhtQXRZRFNnNGMxQXQzX2tQcDhMN1RPQVAtNl81LVZOU3VvM1U0VDVB?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "ZEW Shows Mixed Conditions and an Expectations Rebound",
+      "source": "Haver Analytics",
+      "publishedAt": "2026-06-16T21:30:26+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1DNF8xQ0ZicmxZcWZYc3FsNmtkSlJDV29BM051QlcxTXNWb1JZUVR3Y3lpd1RHZlUyajc5bVFoUzByZWdubVFONWxTcHdaRmNLdW82VkdoOA?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Dow hits record high as oil slides; SpaceX soars",
-      "source": "Reuters",
-      "publishedAt": "2026-06-16T16:48:32+00:00",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONEpZcjB1UUpuN05zN283anhrUE9FaHJWOGRPTnF6VWdLcEkwT3U5OWhjM05VckRjMFpnS2dDR2dtdXNDc0pYdkhxdXpnbExoM2loNmRsN29qLXVEYUdpZEI2cEpISFJXZkJXeGNzV292S0tCUVhZd2lRX1hlNFdaOXp2dEJ2LUh1dm9reFE3VlFnZE5salNHUXlmS3A4WlkwNVZ5aHhZZ29ENnExMEVkQjVB?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     }
   ]
