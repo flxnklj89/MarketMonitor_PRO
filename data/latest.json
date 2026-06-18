@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-17T22:05:18.527851+00:00",
+  "fetchedAt": "2026-06-18T04:41:14.952369+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -66,10 +66,10 @@
       }
     },
     "sp500": {
-      "ytd": 9.52,
+      "ytd": 8.19,
       "first": 6858.47,
-      "latest": 7511.35,
-      "date": "2026-06-16",
+      "latest": 7420.1,
+      "date": "2026-06-17",
       "cadence": "daily",
       "series": "SP500",
       "uiLabel": "S&P 500 seit Jahresbeginn",
@@ -96,14 +96,14 @@
       "confidence": "low"
     },
     "tradeStress": {
-      "value": 27,
+      "value": 21,
       "label": "Entspannt",
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "cadence": "daily",
       "method": "proxy",
       "components": {
         "vix": 16.41,
-        "brent": 97.46,
+        "brent": 84.36,
         "eurusd": 1.1573,
         "us10y": 4.43
       },
@@ -120,7 +120,7 @@
   "globalComposite": {
     "value": 39.7,
     "label": "Stabil",
-    "date": "2026-06-17"
+    "date": "2026-06-18"
   },
   "regions": {
     "europe": {
@@ -221,9 +221,9 @@
     {
       "label": "SPX",
       "icon": "📊",
-      "val": 7511.35,
-      "chg": -42.94,
-      "chgPct": -0.57,
+      "val": 7420.1,
+      "chg": -91.25,
+      "chgPct": -1.21,
       "unit": "",
       "dec": 2
     },
@@ -239,9 +239,9 @@
     {
       "label": "BRENT",
       "icon": "🛢️",
-      "val": 97.46,
-      "chg": 0.17,
-      "chgPct": 0.17,
+      "val": 84.36,
+      "chg": -4.28,
+      "chgPct": -4.83,
       "unit": "USD",
       "dec": 2
     },
@@ -936,10 +936,6 @@
       }
     ],
     "fedRate": [
-      {
-        "date": "2020-06-18",
-        "value": 0.09
-      },
       {
         "date": "2020-06-19",
         "value": 0.09
@@ -7673,10 +7669,6 @@
     ],
     "sp500": [
       {
-        "date": "2020-06-18",
-        "value": 3115.34
-      },
-      {
         "date": "2020-06-19",
         "value": 3097.74
       },
@@ -13695,6 +13687,10 @@
       {
         "date": "2026-06-16",
         "value": 7511.35
+      },
+      {
+        "date": "2026-06-17",
+        "value": 7420.1
       }
     ],
     "sentiment": [
@@ -14416,10 +14412,6 @@
       }
     ],
     "tradeStress": [
-      {
-        "date": "2020-06-18",
-        "value": 28
-      },
       {
         "date": "2020-06-19",
         "value": 31
@@ -20618,24 +20610,100 @@
       },
       {
         "date": "2026-06-12",
-        "value": 27
+        "value": 21
       },
       {
         "date": "2026-06-15",
-        "value": 27
+        "value": 21
       },
       {
         "date": "2026-06-16",
-        "value": 27
+        "value": 21
+      },
+      {
+        "date": "2026-06-17",
+        "value": 21
       }
     ]
   },
   "news": [
     {
+      "title": "Stocks fall as oil, gas price increases raise inflation fears",
+      "source": "The Press Democrat",
+      "publishedAt": "2026-06-18T01:54:56+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZl9jTGtiVm1GVHdRS0N6TG5MOTBXZmxrWDg4MGZiTmxlendUWjYtckdPeUE2OHlxRmp1UnFHR05Dbl9KOHpHQXdoRW5yeFNtTVlOZy1GSm9iZWNPMGpmc2lpUmRsazZYZ2J6Z21HOUNiN01kZVBheHpJaVFmRFRYTF93MGtObGRORnJPcFJMYXBQSmYzVlVsYnZXdkI3T2JraGdCUEZsbw?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
       "title": "US stocks sink on worries about a possible hike to interest rates this year by the Federal Reserve",
-      "source": "The Washington Post",
-      "publishedAt": "2026-06-17T21:32:02+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObXF6a1h2V2hzOC1vSnhDMVZkUklnMTE4UHJ2TmFjQWxSbTB6M29QMC1rTFBxeFBoX1NXSzhZeG1XcVZnMXBkTGp3Z29fMEhjRkowdDFMVEJRRnNFN0RGc09XOENHWWdOTFVUcmlJYk1Zb3pmNG82dnBpSWZjVzI1dTF1Y1hEVkFzV2t5bXoyN2JEbURwUVh6OWRFc3d3My1QQVh0Q3Jadmo2RFplLU9WVVRpejE4NmJDNDhlX3pfaFRDTEM3bGU0Umt6VQ?oc=5",
+      "source": "The Killeen Daily Herald",
+      "publishedAt": "2026-06-17T23:58:44+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQOEdEdlBSajJtb00yeWROR0hYdjM1U1A1cV8ybVN6U3VNd0Y4NEhjZGs3eDROSlRySEpZZ1hIb0hXQTVXUVA2ZDBlVm8yV0lpLU1EUDhGa0V6aTZ5RVh5WXVqXzlHWWx0UjJaNWRIMS1WNi14RmFHbkN2OWE2blZVSEhoTmpSWVBtYjFnd3pFT0RxRktQdmVfbUxDa3B2V0xaaUZKTU5STEhHT0RsbEk1ZjNlNFFmb2s5ZTZOWlRSdWhOVEdVeWliR3RhNUhaV0Jka01aekRkcFNRMURDNDlSZjRRUmlOdW5JWDZScUJR?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Fed Meeting Live Updates: Kevin Warsh to Address U.S. Economy as Fed Holds Interest Rates Steady",
+      "source": "The New York Times",
+      "publishedAt": "2026-06-17T22:01:16+00:00",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOR2NOTllpX18tVW1rOVZ2elphZlVaWXVhQTJJTjVWVFYwY2FadnZwcnl5U0RBTkkzQjVONnBHakNlTXVEeEhiX1VnTnMzYXBqcFZ2YVBWaERzMlpZUzFVZk5YcDE3NEp5bVJhV2pHY0NyVEdiTzZOT2syU3ItRjZzeS1uUGU?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Asian stocks steady, oil lower as US and Iran sign peace deal",
+      "source": "Reuters",
+      "publishedAt": "2026-06-18T01:40:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQWc5blRuNGVXLWNEeGRWUHBJTi1tNG1oR2wzR3R0RXY1dWdVS3JVMmRRSlI0NEgwZUpVNTNLdUphd1Q4OGpXSmtSc0lwVmNONzFpYWZFVG05OFQ4Y1JtaVAyN0lCblhSVEUwZ2RDTUx4eTFzWl9SR1NVT1RvTGxwSTg0dw?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Futures Rise After Fed Hits Market; These AI Stocks Flash Buy Signals",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-06-18T02:47:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNM3BlTEdMMGFseUNkRzl5MjduZW50S21zZkhOV0xDUGM1UFotYk13YlNZZWV1RHZFelFyN0pPR3hzWjJ4emlhWm9WQl9WR0RGX0RHX3Z2ek5HV0ZVQmdfOUhpTVV6eEE4OFQzVFQ4RF9sMktsSGloMnozLVNCVnFBU2FWN3dkb2xfQ0dMT2I4TmNEVXpzQWt3THAybm1kLWxORGJ5M1VGZkZnN3c?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -20652,80 +20720,8 @@
     {
       "title": "Federal Reserve policymakers show support for rate hikes as Warsh reins in guidance",
       "source": "LancasterOnline",
-      "publishedAt": "2026-06-17T20:33:28+00:00",
+      "publishedAt": "2026-06-17T17:07:13+00:00",
       "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNVWZMSGdpZEJpQTN4VGpJSkh0LUZ6Q0x4UTVjdkltR0k4WUpQTnBqOEswRzhERXJHRzB0VzFkdzUxOFZkMklqYWJ1VDdwRjNIb21qV3RmNngxdlJFb3l1dkZqVHphQ3dYT1lrUkd5R0lOQkFTVWJBdmlvcDB6RjlTMHhYZzQ0OXVRbnp2djUyNTI2eXdZb1ZVLWw2Q1FRNkhmVThRTWdZS0llM2dSQUhYZktDTGZvYnZVcTMwZnVkTVhFNldwUDRyR05ZNmE5MFJMZUJCLXFWRWJicjZ3Qk9mOGcyQldfTnZwMkdOODkxaUw5ODM5ZUNsOF9JTm91ZkF3NmpOR05pclRJMmpIMC1tSQ?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "Fed Holds Rates and Leans Toward Fighting Inflation With Future Increases",
-      "source": "The New York Times",
-      "publishedAt": "2026-06-17T20:48:24+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWlo2eWRfMHQzRGk2MTdTdkR4R3FLWHlxWjdRekZCOWRhWk42ajJxamdDcmZlbER4TzVxZlFMa0F5d0wycHVMejh1Qk1vTGtWQW1qV05HdXp6ZFFOd3FEOXdaRmw5ZC1HdDd6WGl1Q3NnOS0xc3Y0YUdyQ3htLUlzTVJqRG9oalZM?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "US stocks waver after Fed officials indicate an increase to rates is possible this year",
-      "source": "WRAL",
-      "publishedAt": "2026-06-17T16:16:59+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNeVlnQkVsVUE3THV2amFRMXd4YUdLRjhLQmFENHBwdGJrOUFoZ2FGMWFFbmJ1NlktSGJXUmhKemk3cUM0RXl0cV96ZUFJcG4zMDgwR0xqemF2Rnd4ZXlWbzBBQ3FSdlNpejk0QmxvdVlzRF9Pb053NklJbEJYVWN1dk4tUHZUVUR6MHkzZzlHMkl1ZzBnaHhTUUJnak5CODUtNm5TZHQydF9zRi1VYXVMNnF5dGxoUVd4UUE?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "Trading Day: US stocks end lower, dollar jumps as Federal Reserve kicks off Warsh era",
-      "source": "Reuters",
-      "publishedAt": "2026-06-17T21:10:02+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNXgzLXpId1Nfb2JFdTB1cnhvRVNEcFh0RGd3UGJoUXc1elJITHQxbGN6ZUw1WWFWS0xXMnNLY3NSa1NHSUlhVi14QzR5YjhGWWlhX3BaMWg5NE1fYzI2Wl8zRkxoSmdmSGRobHlDOUtYZ2k0YWk5UG9RcGY0bU9IQ2E1MFc3YkJBd01ZNkFpRm1yczloWV9WeDF5Smh4T1otMW14Vmln?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "Dow tumbles 500 points as possible rate hike under new Fed chief rattles Wall Street",
-      "source": "New York Post",
-      "publishedAt": "2026-06-17T21:33:45+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNU04cjNkcklUUnRJbjNwc05iM3cxVFFVZ0VRLTQ5Sm1zcTUxVnRKeVFTWnFPLWFMaWlHcFhJMWdxM3d1a1RISFdmRXlUSlAwaWFJOUJMdExYcVhhN01SZkNobnIycC04VjZJeWZBSThtY21idFV4UGkwUlFsam1YM0FQQnFCcTdiTnUtMkMwc3FqVVRNVFVWZjA5T2VXOHB3TXVjU01oZXRPcFRrUXc?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -20790,7 +20786,7 @@
     {
       "id": "A",
       "title": "Basisszenario: stabile Marktphase",
-      "probability": 54,
+      "probability": 57,
       "summary": "Wachstum bleibt grundsätzlich intakt, während Belastungsfaktoren überschaubar bleiben.",
       "supportedBy": [
         "Marktstress bleibt begrenzt",
@@ -20807,7 +20803,7 @@
     {
       "id": "B",
       "title": "Zwischenszenario: erhöhte Vorsicht",
-      "probability": 27,
+      "probability": 26,
       "summary": "Das Umfeld wird anspruchsvoller. Stresssignale nehmen zu, ohne bereits ein klares Eskalationsbild zu erzeugen.",
       "supportedBy": [
         "Verbraucherstimmung stützt das Bild nicht klar"
@@ -20822,7 +20818,7 @@
     {
       "id": "C",
       "title": "Stressszenario: defensivere Marktphase",
-      "probability": 19,
+      "probability": 17,
       "summary": "Mehrere belastende Signale greifen gleichzeitig ineinander und erhöhen die Wahrscheinlichkeit einer klaren Risk-off-Phase.",
       "supportedBy": [],
       "probabilityChange": {
@@ -20836,13 +20832,13 @@
   "hero": {
     "phase": {
       "label": "Normalphase",
-      "score": 27.0,
+      "score": 21.0,
       "summary": "Die Signallage wirkt insgesamt geordnet. Einzelne Belastungen dominieren das Gesamtbild noch nicht.",
       "interpretation": "Der Monitor liefert derzeit eher Orientierung als Alarm.",
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-06-17T22:05:18.527851+00:00",
+      "dataAsOf": "2026-06-18T04:41:14.952369+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
