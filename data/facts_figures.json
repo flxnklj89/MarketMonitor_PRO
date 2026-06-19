@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T18:02:50.574063+00:00",
+  "generatedAt": "2026-06-19T21:13:26.825371+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6148,23 +6148,6 @@
       ]
     },
     {
-      "title": "Stock Market Week Ahead: Rebalancing And Technical Support",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-06-19T12:25:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWmhoblp3V01RVXY4amxFWmhlVDktbUE4SU1CS01yVEVFaHkxb3V6S1lZaHpLQkkwYk9JbTZuRkE4QWFzVlhYVDNtamFpZUdLZkJnNWRURjJVNTN5STZvMUNHSG40ZWRGdzNaSklpNno3aGV4Zl80WVU4WDlPY2RYejVYdXp4QUZldm9Za2tEcWxUeDUxSDI0YXhsOTRiZmlvaWRuNURRX0RNUHFTcU4zWUN5OVBiQQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
       "title": "Shares ease as investors ponder US-Iran peace talks; yen nears 40-year lows",
       "source": "Reuters",
       "publishedAt": "2026-06-19T02:28:00+00:00",
@@ -6179,6 +6162,23 @@
         "Weltaktien",
         "Währungen",
         "Rohstoffe"
+      ]
+    },
+    {
+      "title": "Stock Market Week Ahead: Rebalancing And Technical Support",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-06-19T12:25:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWmhoblp3V01RVXY4amxFWmhlVDktbUE4SU1CS01yVEVFaHkxb3V6S1lZaHpLQkkwYk9JbTZuRkE4QWFzVlhYVDNtamFpZUdLZkJnNWRURjJVNTN5STZvMUNHSG40ZWRGdzNaSklpNno3aGV4Zl80WVU4WDlPY2RYejVYdXp4QUZldm9Za2tEcWxUeDUxSDI0YXhsOTRiZmlvaWRuNURRX0RNUHFTcU4zWUN5OVBiQQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
@@ -6199,10 +6199,10 @@
       ]
     },
     {
-      "title": "Are prices really dropping in the US, as Trump claims?",
-      "source": "Al Jazeera",
-      "publishedAt": "2026-06-18T21:40:58+00:00",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORGRNUXhVb0N3SXdvN2I0WE9Ud0pwcDZETHhMM0tlU3Q3bVctWFhzV3VTc05TVUk3a3Y0SDJYcWYtVUNGakt1TjNxZUxyaEcxQ2ZVbGlrZk4zcFRHd2dKSnV4NE92bmthaUNyS1dRLXZON18yZzZCY21RT3lDYWs0dGszQl9VRUU5WWUzTXA1TdIBlAFBVV95cUxOc1ZQVTZwMENtNVNvenhjeENpNVpna0gxeXJhejlTQ055LVlWMmNKeHhPaVJXaVFDQzU5QmZmSVZGb2p0M2VhcmRnZTJndGZ3alBQTzdMX2NaLXZaaG9JZnpObmQzbWkzbnFSTXF5N1piOERnZW43VWdvQ0ctYzBBYmJCWjk1UnhIRzI1NzMzaV9NR3pM?oc=5",
+      "title": "What to Look Out for in Economic Data This Week (June 22-26)",
+      "source": "Kiplinger",
+      "publishedAt": "2026-06-18T16:22:39+00:00",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MeVNwMVVnVmhvRWo4b0N4WkhCRXQxTVRtb2ZmTWhCSmd4eERsN3Nfdllwejg0eG5ueFFCRUdPTzVUaXh4dEFZaWJqN3FFZnlFWTBlZ2ZvVkFFRzVScTR3TXRhZGl6MHp2RUF1clppVDRvR1lveC1FaXNCeXQ?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
