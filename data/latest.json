@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-18T22:19:06.441989+00:00",
+  "fetchedAt": "2026-06-19T04:59:46.109212+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -66,10 +66,10 @@
       }
     },
     "sp500": {
-      "ytd": 8.19,
+      "ytd": 9.36,
       "first": 6858.47,
-      "latest": 7420.1,
-      "date": "2026-06-17",
+      "latest": 7500.58,
+      "date": "2026-06-18",
       "cadence": "daily",
       "series": "SP500",
       "uiLabel": "S&P 500 seit Jahresbeginn",
@@ -98,7 +98,7 @@
     "tradeStress": {
       "value": 21,
       "label": "Entspannt",
-      "date": "2026-06-17",
+      "date": "2026-06-18",
       "cadence": "daily",
       "method": "proxy",
       "components": {
@@ -120,7 +120,7 @@
   "globalComposite": {
     "value": 39.7,
     "label": "Stabil",
-    "date": "2026-06-18"
+    "date": "2026-06-19"
   },
   "regions": {
     "europe": {
@@ -221,9 +221,9 @@
     {
       "label": "SPX",
       "icon": "📊",
-      "val": 7420.1,
-      "chg": -91.25,
-      "chgPct": -1.21,
+      "val": 7500.58,
+      "chg": 80.48,
+      "chgPct": 1.08,
       "unit": "",
       "dec": 2
     },
@@ -936,10 +936,6 @@
       }
     ],
     "fedRate": [
-      {
-        "date": "2020-06-19",
-        "value": 0.09
-      },
       {
         "date": "2020-06-22",
         "value": 0.08
@@ -7673,10 +7669,6 @@
     ],
     "sp500": [
       {
-        "date": "2020-06-19",
-        "value": 3097.74
-      },
-      {
         "date": "2020-06-22",
         "value": 3117.86
       },
@@ -13695,6 +13687,10 @@
       {
         "date": "2026-06-17",
         "value": 7420.1
+      },
+      {
+        "date": "2026-06-18",
+        "value": 7500.58
       }
     ],
     "sentiment": [
@@ -14416,10 +14412,6 @@
       }
     ],
     "tradeStress": [
-      {
-        "date": "2020-06-19",
-        "value": 31
-      },
       {
         "date": "2020-06-22",
         "value": 28
@@ -20627,6 +20619,10 @@
       {
         "date": "2026-06-17",
         "value": 21
+      },
+      {
+        "date": "2026-06-18",
+        "value": 21
       }
     ]
   },
@@ -20650,6 +20646,23 @@
       ]
     },
     {
+      "title": "Are prices really dropping in the US, as Trump claims?",
+      "source": "Al Jazeera",
+      "publishedAt": "2026-06-18T21:40:58+00:00",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORGRNUXhVb0N3SXdvN2I0WE9Ud0pwcDZETHhMM0tlU3Q3bVctWFhzV3VTc05TVUk3a3Y0SDJYcWYtVUNGakt1TjNxZUxyaEcxQ2ZVbGlrZk4zcFRHd2dKSnV4NE92bmthaUNyS1dRLXZON18yZzZCY21RT3lDYWs0dGszQl9VRUU5WWUzTXA1TdIBlAFBVV95cUxOc1ZQVTZwMENtNVNvenhjeENpNVpna0gxeXJhejlTQ055LVlWMmNKeHhPaVJXaVFDQzU5QmZmSVZGb2p0M2VhcmRnZTJndGZ3alBQTzdMX2NaLXZaaG9JZnpObmQzbWkzbnFSTXF5N1piOERnZW43VWdvQ0ctYzBBYmJCWjk1UnhIRzI1NzMzaV9NR3pM?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "How the stock market became Trump’s most favored adviser",
       "source": "The Washington Post",
       "publishedAt": "2026-06-18T17:00:01+00:00",
@@ -20667,27 +20680,26 @@
       ]
     },
     {
-      "title": "Fed Holds Rates and Leans Toward Fighting Inflation With Future Increases",
-      "source": "The New York Times",
-      "publishedAt": "2026-06-18T19:55:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWlo2eWRfMHQzRGk2MTdTdkR4R3FLWHlxWjdRekZCOWRhWk42ajJxamdDcmZlbER4TzVxZlFMa0F5d0wycHVMejh1Qk1vTGtWQW1qV05HdXp6ZFFOd3FEOXdaRmw5ZC1HdDd6WGl1Q3NnOS0xc3Y0YUdyQ3htLUlzTVJqRG9oalZM?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "title": "Stock Market Today, June 18: Netflix Edges Higher as Investors Weigh Pricing Upside Before Earnings",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-06-18T22:43:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPeTYyQm9oaENaYVNMczJ6MFprOFoyM0dTVVd2T0loMzQ2d1dLTDhCYVVaQTYtbkRwUDM1YjJjRWtremVzTUtNRmF5a1VLZ25MNVJhb005UV9lUV9HZ0NreUpUNXlOaGw5YkMwaE9fc3ZiZU9LMG13MjVsOVl0RWlPX3gzUUNWLWRHWk40cnRVc2I3UzBqSVQ3RFB2WXdxaW16YzE5QmxYU2ZnZ3lxbFJmVUh0SUJMUHQ4Tml3TEpRR041Umx4Qm5iRjRqRHpMU1RoRGxVcURFNDhqSzlNZk1EdTB4ejlzaTJXUS1jNFBhcw?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
-        "Staatsanleihen",
         "Aktien",
-        "US-Dollar",
-        "Gold"
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     },
     {
       "title": "Stock Market Forecast For Next Six Months: Why More Gains May Lie Ahead",
       "source": "Investor's Business Daily",
-      "publishedAt": "2026-06-18T16:48:00+00:00",
+      "publishedAt": "2026-06-18T21:02:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNeTFDTVlOLU9tckVpTGRXVDVPZV82elNENmpvN2pQSkpISk1iQmJoZXg0QzFCb0Zhb1ByNVR2eGhLSDZWU2thRVcydG9GTTZyY2tOOXZTdENHTW5ac3N0VERtVkZUdG1HbVV1aFVHcS1kdWtuLUN4S1MtSmlSQ0w3Mk5rbHl0bjJ2ZE5VeA?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
@@ -20702,10 +20714,10 @@
       ]
     },
     {
-      "title": "S&P 500 Outlook: Unstoppable Stock Market Rally Outruns Fed Policy Anxiety",
-      "source": "Barron's",
-      "publishedAt": "2026-06-18T20:23:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4tUlFhUnd5TEd5LUhEYUZiRG1KSm5vVS1KcUUyazdtbEd5YVNjZklfNGFKRnhNUnlfSER6ZEZOZFBRdzFsQy1CUk9WRkJlSHVUZVExYk85ZHB6QU15Y1A1WWpXaHpoRFQwYWM3UlMxSVVxTkt0MkZ3SnI0OA?oc=5",
+      "title": "Markets are clinging to a Federal Reserve that no longer exists – analyst (SP500:)",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-06-18T20:29:38+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMm1oNHM1TmhITzFSR0ZtZlhIeC1WNk9nQkpsajZTc0hoZWdzZlNCVDl2QWQ5NzczbUk0T1pNODVkRldXM3JESDVKQUdQZ0UtbXhGd25mYVhhSmthdVRXVWJwOFVzZVlZMEJhQ1JtSnMwVVM4eDZXQ0F1eG5FVGlvelIwRTlkZWJ3Rjg1ZXlHTzBtbkZnX1VneC1mX1Q4SG5Wd0dGYUc2bDl0RUctVmc?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -20717,23 +20729,6 @@
         "Aktien",
         "US-Dollar",
         "Gold"
-      ]
-    },
-    {
-      "title": "Stocks rise on Wall Street, erasing much of their loss from a day earlier",
-      "source": "The Boston Globe",
-      "publishedAt": "2026-06-18T19:41:15+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNEpjeGFSd3V3MEpqaTZBNzYwSEMzdzY2eXo5aHpDeV9nTG5qRWFyUmhwUDdUdmFVZUk0MEJYaW5GUmZsdkZNWGk1YnpJVnhZdFRETlAyV054YmlLZDhKUGNRdU5BUi1yWm1OMjJBdzU1Z2J1Wjhzc2lRM1AzZXh5TVdDS3dtYU5QLXVlTG1CYzVGeDhUWDJwMDJKZmxtR1RLZ01j?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     }
   ],
@@ -20839,7 +20834,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-06-18T22:19:06.441989+00:00",
+      "dataAsOf": "2026-06-19T04:59:46.109212+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
