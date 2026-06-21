@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T17:43:52.323938+00:00",
+  "generatedAt": "2026-06-21T21:20:10.340005+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,6 +6112,24 @@
   },
   "news": [
     {
+      "title": "What to Expect in Markets This Week: A Post-Fed Inflation Reading and Earnings From a Hot Memory Maker",
+      "source": "Investopedia",
+      "publishedAt": "2026-06-21T10:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPUC04UHJqT1FvbVRjeVMtejFKTHByX3N3cDIyUzkyZDQ3VnpoeFpwbElQSXJyZDRqMnpzWFlUWlRkb1htNW1kanB4VzFRU25GWEp6dGhMd0Z2OHc4SDRIWkxGajY1QXI4OEItam1Oa21hUWxsSGpCYXdlME9sMVkyNXpmU3lOM09CaDlvN2ZxSEk3U1pnN0Zxek4yeTFQT1QtcE5RNXZaMHV6UFo2SThRTENyR1JKRjluZE5XdHVGTGNkMzFzVTdFc0oxdlpzWkp2UWZIWEp4WnVLb00xUWc?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
       "title": "If you're surprised by how well the stock market is doing, so is Jamie Dimon",
       "source": "Fortune",
       "publishedAt": "2026-06-21T12:30:00+00:00",
@@ -6129,10 +6147,10 @@
       ]
     },
     {
-      "title": "What to Expect in Markets This Week: A Post-Fed Inflation Reading and Earnings From a Hot Memory Maker",
-      "source": "Investopedia",
-      "publishedAt": "2026-06-21T10:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPUC04UHJqT1FvbVRjeVMtejFKTHByX3N3cDIyUzkyZDQ3VnpoeFpwbElQSXJyZDRqMnpzWFlUWlRkb1htNW1kanB4VzFRU25GWEp6dGhMd0Z2OHc4SDRIWkxGajY1QXI4OEItam1Oa21hUWxsSGpCYXdlME9sMVkyNXpmU3lOM09CaDlvN2ZxSEk3U1pnN0Zxek4yeTFQT1QtcE5RNXZaMHV6UFo2SThRTENyR1JKRjluZE5XdHVGTGNkMzFzVTdFc0oxdlpzWkp2UWZIWEp4WnVLb00xUWc?oc=5",
+      "title": "Warsh's gamble: A quieter Federal Reserve could mean volatile markets, higher rates",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "publishedAt": "2026-06-20T13:06:12+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZTNIcEN0R3ZySHZTdlNOM2I5a0NmT3BReXAtRkdaUUV2Tmt1VTVSQWl5WGwyamRtU3ZkV2NHaWZmZkxMcGNqbEg2dDNKbFJGSG9VWUpvd1VJRnFSalNPemFpOXlsUVNub2x4ZDA0WXN5Y0JESzNUWDZ3NEtIYnR1Y3VESlp6NFN6emN1aVVoNXo5UUtRUzdxbVhlZnd1NS1sZFN6WkdjRdIBrAFBVV95cUxQN292TEh1TlFmWWJReTdGZ3Zpc0N0NW1sR2lyYkh2Q0p3ZnBMVjBFLTI5LWVaMnZQNnVoV1I5Q2hVWHprMUpYNEJCZERtYXZ2U1ZOaDVWd2x2VmVoSkgxbl9mVWxUeS1ITDQwdkNYM2N0bGJGcUlRb1d0RlIxUUtqWl9nQXkyWUh2SDB2Uk9jMmtYX0w3MGdMNkRNYnJuUm01dUR0WFYzZWFNYkFY?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -6144,6 +6162,24 @@
         "Aktien",
         "US-Dollar",
         "Gold"
+      ]
+    },
+    {
+      "title": "Oil Falls to 3-Month Low After Trump’s Iran Deal. What It Means for Inflation",
+      "source": "24/7 Wall St.",
+      "publishedAt": "2026-06-21T20:31:34+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZFp6Q1oxUmwzblppSkZycTJFMTdGX3FyTVRrOHNJMWx6R3pxdGluT1NVelk1SDF1ZElib2d5a0I5QjNhMnhzcUNCRVljSUVadGs5UFVtOTFhQ3BoVHdrQl95bEpYS0JST1Fxb1BCc1pMblphdTdRTVp2WnhObmpNVDl0RDFVb25YSG9IN094dmZ2RWNoeE1udHRPOW9kUDhqN2dsMlMzVVhVM21FVG9UdzlfTENIVFBoYm1N?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
@@ -6179,41 +6215,6 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Federal Reserve Meeting 2026: These Are the 3 Most Important Takeaway for Investors Right Now",
-      "source": "AOL.com",
-      "publishedAt": "2026-06-21T14:53:21+00:00",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5DOV9ISlBOb3dJRnVSMmdQc3N5MmdPNG9fM2oweVVVNFcyMnFXNGVxYkJtMlBENWNvZjl4b2pYLXhHQmlGbFhqMkhWU3JjaGVpa3pNUzE4ZlhzQ2p3enhsOXlNaDItcXZDUC00Q3k2eUxIQURtS3VzSWUxNA?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "Dow Jones Futures: U.S.-Iran Talks Begin; Nvidia, SpaceX In Focus With Micron Earnings Ahead",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-06-21T14:57:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPc1NIUjVtbWI5RXdHR012UnFDUGtMRlFwWnp5QlR2WFBRSGw4NnFJNFZXWnlXWnAwUk84Q254ZUI1QWlaTlZHeVl5WFlMWVJrU0duUDBmajAtT01PSkdQek5ZdjNhbDB1V29YcE1wUmhVOXZpcUQxTTJ4bGNLVlZkTkRseDdRdHVVRXBJY1IzaVJRN3VVX3BqcWdQbkFRUkZLVkZtbUJJV0lKbTRCd0tzNzFtQkJQcVV1VVE?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
       ]
     }
   ]
