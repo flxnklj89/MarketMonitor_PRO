@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-23T15:13:23.260291+00:00",
+  "fetchedAt": "2026-06-23T18:03:56.568124+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20624,63 +20624,10 @@
   },
   "news": [
     {
-      "title": "‘It’s Unnerving’: Markets Recoil in Global Sell-Off Driven by Tech Stocks",
-      "source": "The New York Times",
-      "publishedAt": "2026-06-23T12:47:59+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYTNJNHI1N2NmTjJITTkySzlabHgxazlCdGVDLVFnMEJwTnZRZmthbTFTTlh5VmFYUFJuM0ZzdUotNjdLeGUxWWM5eWlkY3dvNk1MWEpubktfazVYdTM2d19FWTNkd3ZUOHhCaXN5VU5RNEMtQ0xqVEJJMlo4eE0wRGlsbF9DLUE3NjZEcVh1RXJwLTlNLUs2dg?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "5 Things to Know Before the Stock Market Opens on Tuesday",
-      "source": "Investopedia",
-      "publishedAt": "2026-06-23T12:24:32+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYUhrUUpZdHZWaUdnNWZ6MUFkOFlZZjJCWnhfS2tTRTQ5eXlQSWZ3bUd3d21FSnpILWZsU0ltR3l3Y3Nad3lyX1pLX2VWWmJWT2FfUWxBZkRLVTcxQUJ2RzgtRWM3Y2gwTHdVaDFwbW1kMFozc2tjSDk0cHgtdzZSY0NHTnIzWUY0aW1TVVRiYlNKZEZCb3pqN2h4UzJFVk9sM3lxVjZ4U2M?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Market mixed as oil prices ease, tech stocks sink",
-      "source": "The Arkansas Democrat-Gazette",
-      "publishedAt": "2026-06-23T07:21:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOblFLa25EbXZlT1JlR3A5c3VZdGtxZXk4TURkOUVfdG5teFhOd01PWUxlY2xYMTJ0QmN0czFFNGZ3SWpKQm1iUm5XZDYzYi1PemQwRFY2WUFlcXNlWWVoem94TE9jTXEtLUFYMnk3MFBqV1QzSWgzTXo5aGhEalBvV0pNQzBCbzAwUlB3d2ZaY2RZMHByYzdPQzRGZ0VFQQ?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stocks drop as Fed rate bets hit tech royalty; dollar gains",
-      "source": "Reuters",
-      "publishedAt": "2026-06-23T01:30:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRmhDU00zNnJxQ0g3SWFxOFJ0RVlnTl8tSHl2cS1sRS16eTJtVmxHOU15dkRqR2NKU3BRMUZtTEx1RjFzSVFwRzRWVFpQdnNBU1VwMDM5RFpBTU1HRzJiV2tFUXhvdGRSenhPcTVVVldGV2pDd0lEZms2UVMwUmE4RzJLYnhJYWloLVJUNA?oc=5",
+      "title": "Alan Greenspan, former Federal Reserve chairman, dies at 100",
+      "source": "KYOU-TV",
+      "publishedAt": "2026-06-22T11:49:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQR2REMGgtYURFcDBmaUN4VkxzbERKNHhmV0hhc1hmSlJTVnVlM19ybFJ2Y3hVa0xHTjZDeWVvRlNjeXJqRjdrUVVoMFp5TmFtWTdkRWxQRlVZMjlrTTJuUjBGcHJiOWNSTTNWNmJnaEdLN0pKNmN3YXVYT2lSMTlKMDBjVGNsMU9zeVMwb2NhbERrcWo10gGoAUFVX3lxTE1BZ0lMUS1RXzQwNjM1dUxmZ3NDdTBuQ3RmcHdpdU5RdHR1OE1mX3kwb3ZkT3FWc3p0bUgwc2djVzFLSkhZR2pXLTV6R3FudWdMQUVRZGo3b0pyTS1BR0hkZU52SnZFbUgwbTVxVm1YdnI5TU1vXzhkM1M5Vmt1emtBVkkxM0lEd3lDRDRGOTRFYWNZS3BzMjNDcy1zNV9PZ0p1TTNKMVpYUQ?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -20695,10 +20642,10 @@
       ]
     },
     {
-      "title": "AI stocks are getting trampled. South Korean market plunges 10%",
-      "source": "CNN",
-      "publishedAt": "2026-06-23T12:10:31+00:00",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8xWi1vbVJfRVl3SlVIX0xzRGpoS3pzMFBNYUJreWZsTVpRaUhwY0NFQlVvbGFzRWJRRnlNTWNYaHlTeFF4TUVBaTlkVmxSZ1h3T2tzTk5iRmpnNVZLZURiSkpoaGN0blFvVzMteEJxWFZTT0tOUXRrZlh3VWY?oc=5",
+      "title": "‘REMARKABLY STRONG’: CEO Reveals What’s Driving Surging Stock Market Bbc New (UHIavYJCT4)",
+      "source": "Mshale",
+      "publishedAt": "2026-06-22T08:43:47+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5faG1XNDBSZktneGpCSWUyVWpxVm41RGwwY2pBdTRrdkwzVE0wSGlabkNXQmIyQk9VenlMUTdfY2VhenFYNThFVXdSb1ZTS0dQWmx4QWFDLTI2bVk?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20712,21 +20659,75 @@
       ]
     },
     {
-      "title": "Investor Shannon Saccocia Talks Oil Prices, Opportunities, and Stock Outlook for 2026",
-      "source": "Kiplinger",
-      "publishedAt": "2026-06-23T09:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOOC1WdVJmSmZralBOSmJkZVVjdGJvc25HamwtTV91OW9vNWZILUlENzJiNF9VdDVvMDFYVEZzbTJnUWQxamNJNnZOcGxPLWtsbHI3REhidkdmOENBUkhhWDZwTmdydEljblV0YnNDbHNwSklZUlZ0UlJhOGFnRlMzcFQ5eUVtQXpDeHM5Zm42VDR3TXVrSUVyUWV2VW1WZEJCdW1vd3RObHl4ajRjVEl3YUpJYXpHWVllX1I0?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "Former Federal Reserve Chairman Alan Greenspan dies at 100",
+      "source": "Laredo Morning Times",
+      "publishedAt": "2026-06-22T16:02:48+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdjE0WHBFTmIybTdxYlFYcVpyUFZ5SWlUUjRHRTcxWmw4Wk9ob1BieXFvSnljb3A0OVFuNTlDeGlKR0xGR21faVBEQ1g0Q1VEYXpLSEpUc0FpbjFtZ2ZuSWNCaFpyYnBoUDFVaGVWeFBXQkRhQ1MwemgtNkZqdnVyeUg2MndNdVhtaXdLS1BTTEt5b0ZDWXowZEtSYTB0c3VzNGJOMQ?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Key Global Macro Events to Watch in the Fourth Week of June: Fed Speeches, Micron Earnings, and US PCE Data",
+      "source": "CryptoRank",
+      "publishedAt": "2026-06-22T01:13:49+00:00",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0ZEF6UTdGVi1JUElDV0RsejFQenJvSUg3SjJKU3ZUU1hyRHVvSEQybUZPSW04U0pLVHh3bWtYd3VJSjhnR1VSQldtUGoxcTY1M21ndjZlNENFc01QUU1pOHhEczJuVHYtSEhZVHNpNVNSSWI5enNZX3NfTWE0WUU?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Buckle up! The Federal Reserve's May inflation forecast points to fireworks on Wall Street.",
+      "source": "MSN",
+      "publishedAt": "2026-06-22T23:40:07+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisgNBVV95cUxOLVJFWGwzTDF3SE5Ock1TdVdxWnNOa3ZlaWlONUs2cGVZdDA4Q0JOTEFKWmlZWGMxX2xudURyZ0pBcUVFX2RwUDlWRk5pdnM5cWl5UGhyX3RyT1NPenRGM3BKOG1EaUR1Y2FXbE9kMmtqMkRjTnhJbkVlT2trRlFMT1V2TG5meHJDN3FrakZiaUhKM01DWlBjdS1ySUpBdWxiOWp0dURZeE12cWNIVUFROU03Zi03RjhidVZVRFktVXFWUHdnc1BpVzcwY1BLLVJ6VXZTOHBabTlYZ2tIdkw0N2RBeUpOd3NOX3djbS1ocG9GX180bWp3ZWlQS09HZlc0SE11QkxVYlJoTFhEV0VfRHlZTEdBdU9yUEI2dU5LanNyNUgwcENXZkhBb0NybnZJRGV4eTktSVhsa2JGeVdsQ21oSU9nTy1YX01zUzFqS3hQcEpmUFRlb1gxUXhTVm50YW5xaG9vUWdsZXpjRG5MRXFzWnp5YmxMQ09Ia2c0VjkxZi02NC1fUElhVHpYRE03NXpzbnBEWXhWQTNsVWRGZFY5UGk5Z0VNNXZqeklJRXhfUQ?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "The Federal Reserve's hawkish pivot reshapes the dominant theme in foreign exchange markets, triggering large-scale unwinding of carry trades.",
+      "source": "富途牛牛",
+      "publishedAt": "2026-06-22T03:59:26+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeEgyNWRsd2dQbTktRXJ4NDg4REY5RGVWa3hiZEl5QnFia0h5R0Q5MVRLRnE1eGJpeTNydl9mLXp4RV9CTFlhNy13RHZjWjBKdm9ULVcxY3c3aUlLckt2Nk02cUE0TTNGcU5jUDVLOTh5T0MzbE81MURjRzdBVGduNWtuaXZidkduTDZGWDNwQ0g2RGJ4Q2dNMUJScHluaU1LYWpCWmYtZw?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
       ]
     }
   ],
@@ -20832,7 +20833,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-06-23T15:13:23.260291+00:00",
+      "dataAsOf": "2026-06-23T18:03:56.568124+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
