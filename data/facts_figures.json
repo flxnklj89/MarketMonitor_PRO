@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T10:56:16.587374+00:00",
+  "generatedAt": "2026-06-24T14:43:22.694229+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -20,16 +20,16 @@
     },
     "vix": {
       "title": "Relativ ruhig",
-      "value": 17.3,
+      "value": 19.5,
       "unit": "",
       "tone": "l",
-      "status": "VIX bei 17.3. Unter dem langfristigen Durchschnitt von ~17–20."
+      "status": "VIX bei 19.5. Unter dem langfristigen Durchschnitt von ~17–20."
     },
     "breadth": {
-      "title": "61 % über 200T-Ø (Proxy)",
-      "value": 61,
+      "title": "57 % über 200T-Ø (Proxy)",
+      "value": 57,
       "unit": "%",
-      "tone": "l",
+      "tone": "m",
       "status": "Näherungswert abgeleitet aus VIX-Niveau. Direktdaten nicht via FRED verfügbar."
     }
   },
@@ -451,9 +451,6 @@
           "value": 3.64
         },
         {
-          "value": 3.64
-        },
-        {
           "value": 3.63
         },
         {
@@ -530,6 +527,9 @@
         },
         {
           "value": 3.62
+        },
+        {
+          "value": 3.63
         },
         {
           "value": 3.63
@@ -668,7 +668,7 @@
     "title": "Crash Probability",
     "score": 0,
     "scoreLabel": "0 %",
-    "reason": "Stress 24/100, Rezessionsrisiko 0.4 %, VIX 17.3.",
+    "reason": "Stress 24/100, Rezessionsrisiko 0.4 %, VIX 19.5.",
     "interpretation": "Crash-Risiko derzeit begrenzt."
   },
   "timingQuality": {
@@ -3707,10 +3707,6 @@
     ],
     "vix": [
       {
-        "date": "2025-04-24",
-        "value": 26.47
-      },
-      {
         "date": "2025-04-25",
         "value": 24.84
       },
@@ -4905,6 +4901,10 @@
       {
         "date": "2026-06-22",
         "value": 17.28
+      },
+      {
+        "date": "2026-06-23",
+        "value": 19.49
       }
     ],
     "brent": [
@@ -6112,44 +6112,27 @@
   },
   "news": [
     {
-      "title": "The S&P 500 Is Up 9% in 2026. Wall Street Says the Stock Market Will Do This Next.",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-06-24T09:32:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNM0dFNmlYSjRZM2J6bVZFY2dfcmE0OWM2RDNZRk1QWTVNTHNmc1A5STVPWVliWGNGYjgzbFh0clBXOE1JZ25EVllXWFZwWE1wSWlKNnZBUnNleDdfQVk0ZXJFOXdWU1p1TEdWbWJZSUlvZjItOTFwbUJndFdBWENScmlBd254WS1EQVE?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Micron Earnings Present a Major Test for the Stock Market",
+      "source": "TheStreet Pro",
+      "publishedAt": "2026-06-24T12:05:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMmxoWnlFWm5WdWJicFR4aDFLeWdGNXhNeWhiVmM2d24zaEpyUllIazdaRm1Gc0JLMkFNVEM4NWl2UjFsbUZzN2JnZkNTRzNyMHdqZ0tETzNyYXhsVmR0Zkh2YlVFYkFOSG10V3ZXNTEyWFNGNkpJaFJua0gwZGxKUDlLM1d2RHVFZVlQblZaX2tDc2dkWC1Gd2FwSm5aYUZsSnNZ?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
         "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     },
     {
-      "title": "Stocks steady as tech recovers; peace talk uncertainty boosts dollar",
-      "source": "Reuters",
-      "publishedAt": "2026-06-24T01:44:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVVhrUmdEOThuTVBvZ2hvWXR5QjJXLXRnb2NicWtJX0hBcWJNRV9yVHlONk5CWkcyeG1rcjJweXdkVDUzYmtUU3o2MHhfM0MyVVZJNEUwaUJQYzh2YWlCTWtiZF85OFJDWTNIRktqVk9jZ1hyRjAyX1NTVzNqakVBdDVYTQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Trump boasts of stock market and oil prices coming down",
-      "source": "WKYC",
-      "publishedAt": "2026-06-23T20:51:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMl9xc19SbGpHbFkzTVdjQ29NNGd1YW5RZGpqeGs1OXhLT19YakxWX255UTlIV1dXTzdlMEdXYWdzc09SM28tWGl6NVo4U3dBOTdwU3J2Z3dTcDJVV1prUjNNMTl0YVAwY0FhV0lLNF9IdWFodk9OTGNXYm1UUXVKREQ2MVlROGNHdFZuclNDbmt4ZTlIV243eWFrekRKTjN6ODZIYkdyeVRhaXZfc3F5YmRYeTNSdGZVSFI3LTlYc2FOQWxsWWc?oc=5",
+      "title": "US Stocks Edge Higher in Early Trading as Falling Oil Prices Help Take Pressure off the Market",
+      "source": "U.S. News & World Report",
+      "publishedAt": "2026-06-24T12:37:33+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaFBVTXdibVZwNGNwdUJQRHB3WndkTzFwODNOQ1dUdW9IdHdyWEczSVVuaWdUTl83ZjM5Y2NWcnJSbU1ZUWxITVY0Wm4taE9DVDFxblpVT2M0VzVIYUxpUnVhSFBhSGw2OWduNGUyMWNWaHhGMWVfLXItY1N0VzczQVZYa2xBMFViVDJibHIzYkFycWJGMGZyTkxwSzB6MDVGdVR5RV9B?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -6164,27 +6147,10 @@
       ]
     },
     {
-      "title": "S&P, Nasdaq futures rise after bruising tech selloff; Micron earnings on tap",
-      "source": "Investing.com",
-      "publishedAt": "2026-06-24T02:08:18+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZDdEX08zUDltdVB0SVlDazZuWk5iOERGNUVaTHIteURMeUNheUJydXVEc3JKNm9FYUtBYXE5NUlWWjJ1RjVOcnkwOTBoVUx0MVY2THRhWFV4WFVEOTRUREFQMEdsb2lIR2xaaklCVzM5TG1WUzRYNnhmZXhWZUtWNnpMQ2NEcWxZRjF2dHFTY3JIa1FLTWNJRDVReVhsYlRtNm1Qc3lHNjl5RHFfR3pES3Vsa0gwZ2k3UHJCM3F2QnQ2a2tEV0wzbg?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Stock market today: S&P 500 falls 1.4 percent while Nikkei 225 drops 0.71 percent as tech selloff weighs on global markets",
-      "source": "Economy Middle East",
-      "publishedAt": "2026-06-24T06:58:21+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPeWlMdkNDS01LakJLSWdWcF90cGJSWG1UTFpNWXZMM2VyUWJYdDRkUl80aThtV2pNMUJGTEFsaVVjV2VMVFg4REt2Ym1GcklpekJaaG1sYmNOU09lSWJxSUFMTzZaWUhYb3M0ZGlNZjhLNmtKSFBxb2syaHVkQzNUX19JcDh1VlJHYUhrbDRlcmVRLWQ3Sy1vV3FSSWRrLW1sbGhhcjJlNDE2QjRxUXAyb1VKb21XZjhJaDYyWWNjT0UzbHRGT3VUbHZMRktWdzdDakEyb0RER3dOX3BkLWxoQndvMFV3WTJTX2I4Tg?oc=5",
+      "title": "Stock Market: Will S&P 500 Open Up Or Down Today?",
+      "source": "Benzinga",
+      "publishedAt": "2026-06-24T08:45:01+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWERGcDBLTmVsREJ5Zy16UkoxaHVQekhucWxKUWVSNUt5NFBZQk42N0VwcDdIYjIwTmNLNWxtOXVHN3ZuTWRhV05KYUZxMDlhUmtNZHlJODI4MUQtcjZLZk0xV0YtbjRRSk51LUl3NmpueFR4UWsxa1VFSXBtTzdlaXhWanpWTFRCZmZ4aTFRU2d6Q0lLU1NSd1F3alI4d2xTbGdTRzVRdTdyZWUtNi1lNXBMREgzenhUT2NMVzN0TGVLbFVjbWdNQ2ZKdTBFVE1KMUlWS2daZGlydWt0TWc?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -6198,21 +6164,54 @@
       ]
     },
     {
-      "title": "Markets tumble worldwide as Fed resets expectations: $400 billion wiped off SpaceX stock",
-      "source": "Fortune",
-      "publishedAt": "2026-06-23T10:08:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNGRySjJXc0VJVWZXdWVTLTdpRDNna2tUaERVVlNpanFrYUR5VFVhSlhwNFZFRlloY2IxX1Y5N1NPVWZDSkNGQW1vUTZDaDZuck1nQkdsN01WTDRRb1B4R1Fnenk5Q0p4RThmS3FmQXNmaXhLUS1STjQ4VDBZVzJPNndZN2UwNkl1cEVBZ0VsX2s0SnVBNXQ1TjlGNA?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "title": "The S&P 500 Is Up 9% in 2026. Wall Street Says the Stock Market Will Do This Next.",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-06-24T10:12:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTmxrNkgxdXpiUk5kZnQwWnBRVGVzMDVSaGNiRGZ0M3JDUVViLXdGV1FfRnBXR2xVbk00b1N3ekJjdE01cTBRWGZQWThCUnVZWHA3NHNKZ0pSWnhCcC1oUGY4U2s2SlVlWXBqbzBZcndkRXVpcW1Wb1J0N2dkYVQtLXI5ZjdwclFad2haemFRQ3ZkNXVNRUpJ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Staatsanleihen",
         "Aktien",
-        "US-Dollar",
-        "Gold"
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "JPMorgan raises S&P 500 target to 7,800, says earnings revision ’unprecedented’",
+      "source": "Investing.com",
+      "publishedAt": "2026-06-24T13:22:03+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPY290VHI3Q3JMdnUyUENqbzQyVzQzN0xqS0hqdnNXQ1VkdmM1a3BpdHlrODJkWlhEX2lwd3hXV04tZHJDbFRUS0dqQlQtSVY0aFoya3V2dWRsdjN3VDVtV0R4QmdLdXQyQVNHRkItRE5kajd2eC1wY2owYVZfaml1aHVMR0xwbGx6dDF2NnBoTnZTUUdrcWJ3Rk5lOFVsQWpzQldNS3Q1RmtWc3U3V291N3YyM01peklCYVNPSzlDR25FZw?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "The global chip rout, Cerebras earnings, the PGA Tour's next chapter and more in Morning Squawk",
+      "source": "CNBC",
+      "publishedAt": "2026-06-24T12:37:22+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZ3pRNGhPazJWTC16VG84YnlZRG9HRmIzR2xqcExaQVJ4dHU3WnhmX29wU1Jpb0VDaGV6bTBPSVFFa0h2cTNCV25pNThORzJibjZLMWNERlBjYjhaUno4czVmSzNNNEdfYWdvVlFSNkVlZUszeURFN21MckVUXzZpRVp0WFR3ajV6c1Nn0gGQAUFVX3lxTE5PX01TT0pnVU1Vb0JuaVdVbHRSNHN1azhsT3R4TGJiNnBGaE84ejVJRTJ5cHUzRXljRXp4cVJhd1RuU0c0eTc4ZkxVWUhtVTFFZk9PUkJTZG0teFJTNHp3amRxQVp4WnNxN19ZU29fUDNBRTRINjFtVWp1QTBmZGc2VFhvVkpVQVFFMmFFWDZyRQ?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     }
   ]
