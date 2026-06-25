@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T04:06:05.091547+00:00",
+  "generatedAt": "2026-06-25T10:48:05.988849+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,9 +6112,9 @@
   },
   "news": [
     {
-      "title": "Dow Jones Futures: Micron Earnings Send Sandisk, Techs Soaring; Fed Inflation Data Due",
+      "title": "Tech Futures Soar On Micron; Fed Inflation Data Due",
       "source": "Investor's Business Daily",
-      "publishedAt": "2026-06-25T02:53:00+00:00",
+      "publishedAt": "2026-06-25T03:09:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPa2JUU1B4NDAxVHA0Z0VsVWdsUnBIbU9SR0NLTUdfdWtSanQ1T3hzN20taks2QWZxV1dReWpPdG90WUwwdmVQcHlKcTdXQmN1dGNtR3ppQmZ4b2s1U0hBeFU4aGU0WEVVWTUxcjUtOG02YnFEaU5vMTk2MFFKeG5qQ1YxeGNodWZsNV9BWjJadUQ1SXdMUGhlQ1dXN2doempjUTJrdDNWY05HR1NaaGFoeGFhMnNGUV9iYzNraWJfeE11V3M3UnduMVBfbkJuQzFQS2c1ZQ?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
@@ -6130,10 +6130,10 @@
       ]
     },
     {
-      "title": "Whether oil prices are high or low, Wall Street is betting on inflation",
-      "source": "marketplace.org",
-      "publishedAt": "2026-06-24T20:15:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQnpRMzZaV2ZaZEdNcGVIUFhHZzRqOFN3YmQwclpTSDVfT2RlSWN5YnA0YWRtTW11Sl8waThWc3JUclNPVnBNOFJaa01IOVlEbjROLTNmTUNRSUZhOFpxTVVlRXFnZWVpOUdLcWN4Q1lDMkowQXA5UjlaS2Z5YmVwWTR3T2loMnhQOHY1dkhueXhuZFdCaTZjYlBaZmtNMWxXSnRrUzZqYlRzU1lFMzg4bWFPOEpKZFZoN180ZllB?oc=5",
+      "title": "Inside the June Market’s Anti-Swoon Led by Micron and Oil Prices",
+      "source": "Barron's",
+      "publishedAt": "2026-06-25T10:33:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUHNMb0QwUnFJQTdsTmVIMVRhdy02cjRnakRCYk16dTF0M0dNSUFtVVZuT0NwY0JzZW5RYzRRWkRHZGJlZHlFV3BMMUFtaFlKbGlFbldaTGw1MEFWR01IdDNaTEdHWTd5QzFJNXZkbHc5UzgyNFA2Ull2WnJVZ1V5aTB2aERxWlBYOS0xWDFVRFNMR1RHaGNCN3JiWU4xaEJ2N0pjbUNyaFFsQQ?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -6165,27 +6165,10 @@
       ]
     },
     {
-      "title": "Micron’s Blockbuster Earnings Quiet the AI Doubters",
-      "source": "WSJ",
-      "publishedAt": "2026-06-24T23:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPLVh6NkRqRVFPOXg0U3pVSkVGWWNDNXdUMUJiZHJ2OUkxVGJLRXBqemRabnJIVGNoQ1RmS0UyYi0wRzJxVGZmc2xESFMzRlBsMXg4dzNkaWZaMmhqdmJZS2FYanNNQU9jUlJ5cDV0dkFpcU1zYkVYNVJZZUtaMDJDNEE2WjZad2ZQN0ZWZ2NKRy1hUkZFdnkwWFpvTQ?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "The Fed may raise interest rates within months. Here's what it means for you.",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "publishedAt": "2026-06-24T20:48:37+00:00",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNenUzMm5kWTJOUHEtcHhxdmdwbDBYb1dFME1RZ185dkxEcWRIanY3ZmRvUGs5WjZKbVJHLWxHdlNtUVV3Rm1lUE5EOVpjaGV5bVJHeUZhYm9HT29JY0JtSGdWdTkzeGxWMzJBeTBDYThUajFoaURnSG05ZnVpdnhxUHNkbi1uZGtsVFVXcEdB0gGTAUFVX3lxTE5RUERWVjBaZ1pSbEM1MEhPVzZWaWFEX3JOSGJlbmtDbnNwRzJuZ2hkckZ1dlJtbkJ6YjljeGhzdWVvZjhWMFp3TzhLSGM5Um9aSko2QV84cEVMNmtLa2hPNWR3Qnp2aUhHS0hhLWJqZG1HMi16aUc4cEtIdzV6emp3bFlQZ0UySmFpZVUyQWNYOGUwdw?oc=5",
+      "title": "US Stock Market Today: S&P 500 Futures Edge Up As Traders Eye PCE Inflation",
+      "source": "simplywall.st",
+      "publishedAt": "2026-06-25T08:32:03+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUTdWRmRyb19aaWpwdDNkRXpuUl9JdmlkbHgtSDR6OFExSXVQY3hsTENnV3VJa3JEamFGb0d0bmtNMUM1cHl5ZnBnV1UzZHlxblRQdy1jR1VrQTZNaDJvRmZIU1RvMkZ1dHlSaGtNdmdjS0g4U0dYTF9sSDJDcTA4YkVrWU9Bak1KeWVodmZxQUVlS3VKSVZCSUpGdzV6UlhXRVhTbkJNSUpiQnlIYXMtSEJtRjVya1FTSTVOdFBVckFNeVhNdGt4N01aYTEzeENxUTBjQUVR0gHbAUFVX3lxTE5kSFV3b29SWW5rX29HbWpkVlZubnR1dVdrTDVva01XNVA4Tm1lX2pDclFBQzZuUE96MGxBSm9FLUROQ0wweXZCcDdVc3hqMnJHT3RpSHYtQmQ2ME9VbHVGSUhRS0h3dnBsd3pMTEQ2NV9Bc0g3emdPWWRmVkI1dm5LNGFvOER4T0I5YUo5ZXJRYXg5Y2g1M21MR1dyOXQ2Vmo4VUIyMnhuXzhnNjZRTjJZS1hUcG5XaEx3THBnc3ZMYS1QdnRVWllTMW5iVUgwMzlLbVVjRnBteFRYVQ?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -6200,20 +6183,38 @@
       ]
     },
     {
-      "title": "Asian stocks surge as Micron earnings ease AI fears",
-      "source": "Reuters",
-      "publishedAt": "2026-06-25T02:28:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5nWk9IbnVOdjlyMWt2UG1hUXI0Qm8wTHdsVmRQQXNKRTg3cGtqaUJ0MTlDQ3NLYlFRR0c1V3IwUEhwM0FPbUUxb3NTMGI5S19vcmt0RElPTGxlamlSbVRJQWRiS3E3Vjh5RkpfZHRtWDdQTUpGVXNXaFR2Yw?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "Stocks Rally Before the Open on Upbeat Micron Earnings, U.S. PCE Inflation Data in Focus",
+      "source": "Barchart.com",
+      "publishedAt": "2026-06-25T10:36:34+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNXkzMVhnVDZQbkZxNF85ZnZCWkI2VWFiQlRoS1dsREJLT1pmT01BbTNKcnY0eGhzYWVFWG53ZHEwcEZNU1F1V09aX2FSWFhtNFRhcFpCMG5qaEhlbmV3LTMyZWxyWGRjUmRyZHBLWXQ4TGNtQnJzOUFuZnIwWmdfRkZFaTRMclNDSzN0eGE5MF9lVGV3MU4tQlFYb0FPYTJ5Z1NLU2l3NElNdFg3cTR6R25RSy0zM0JYV3F2SkpvSHpvR0hrTTNGUzJR?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Thai stock market thriving as surprise beneficiary of AI boom",
+      "source": "The Japan Times",
+      "publishedAt": "2026-06-25T03:50:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWUNVdWNyaXphbU03cE03UEU2bkZjMmo3NTB6N0YxRE1FM2hGZ2lWc29ad09NY0F5QnFnU0VpUGpQODJsckVsU0NfMHVhdHZrZllLTFVuTndHeEtobUpJZmlidmNSOFNxRFRKZ19FNnZfcGhtNWdJVXBXYnc4YkI5WU1SSVV0LVkzQ1lIZg?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Anleihen",
+        "Währungen"
       ]
     }
   ]
