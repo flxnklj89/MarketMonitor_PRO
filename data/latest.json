@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-25T21:47:51.966939+00:00",
+  "fetchedAt": "2026-06-26T04:13:04.756206+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -66,10 +66,10 @@
       }
     },
     "sp500": {
-      "ytd": 7.39,
+      "ytd": 7.28,
       "first": 6858.47,
-      "latest": 7365.46,
-      "date": "2026-06-23",
+      "latest": 7357.49,
+      "date": "2026-06-25",
       "cadence": "daily",
       "series": "SP500",
       "uiLabel": "S&P 500 seit Jahresbeginn",
@@ -98,7 +98,7 @@
     "tradeStress": {
       "value": 14,
       "label": "Entspannt",
-      "date": "2026-06-24",
+      "date": "2026-06-25",
       "cadence": "daily",
       "method": "proxy",
       "components": {
@@ -120,7 +120,7 @@
   "globalComposite": {
     "value": 39.7,
     "label": "Stabil",
-    "date": "2026-06-25"
+    "date": "2026-06-26"
   },
   "regions": {
     "europe": {
@@ -221,9 +221,9 @@
     {
       "label": "SPX",
       "icon": "📊",
-      "val": 7365.46,
-      "chg": -107.33,
-      "chgPct": -1.44,
+      "val": 7357.49,
+      "chg": -0.73,
+      "chgPct": -0.01,
       "unit": "",
       "dec": 2
     },
@@ -936,10 +936,6 @@
       }
     ],
     "fedRate": [
-      {
-        "date": "2020-06-26",
-        "value": 0.08
-      },
       {
         "date": "2020-06-29",
         "value": 0.08
@@ -7669,10 +7665,6 @@
     ],
     "sp500": [
       {
-        "date": "2020-06-26",
-        "value": 3009.05
-      },
-      {
         "date": "2020-06-29",
         "value": 3053.24
       },
@@ -13683,6 +13675,14 @@
       {
         "date": "2026-06-23",
         "value": 7365.46
+      },
+      {
+        "date": "2026-06-24",
+        "value": 7358.22
+      },
+      {
+        "date": "2026-06-25",
+        "value": 7357.49
       }
     ],
     "sentiment": [
@@ -14404,10 +14404,6 @@
       }
     ],
     "tradeStress": [
-      {
-        "date": "2020-06-26",
-        "value": 28
-      },
       {
         "date": "2020-06-29",
         "value": 28
@@ -20615,14 +20611,36 @@
       {
         "date": "2026-06-24",
         "value": 14
+      },
+      {
+        "date": "2026-06-25",
+        "value": 14
       }
     ]
   },
   "news": [
     {
+      "title": "The Stock Market Just Got Its Worst Inflation News in 3 Years. Here's What History Says Investors Should Do Now.",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-06-25T11:35:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcGJrbDBJNmE1UVR2a3gwSnBfUFBxZVhycVFLVV9NZWpUX2tRdzRycDRjUWJJUjdoWVNwbGFGR3NubzJSZ2M3azJ2UkVYeTFiMXZWcnRRSDZKX2ttYUZZdU5HS0c5LVk5MzF4eXVUMUp0OTVJWXROME1yME9BcE1hZU1Hc2RiMlRUZ2tKSC1NaDhOcmRhTTFF?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
       "title": "Stock Market Today, June 25: BlackBerry Surges After Earnings Beat and Revenue Tops Estimates",
       "source": "The Motley Fool",
-      "publishedAt": "2026-06-25T21:00:00+00:00",
+      "publishedAt": "2026-06-25T21:00:33+00:00",
       "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRUExa2tqRGc3ejJBQzdxbE45NnRZUi1kNFVlcHQ1WXJ1cDBBd1A2ZmJONGtqMXlWMkFaMExDYmRrVXdvN1pfTlp4eTRxajFiZW55b2NyUzZHNk5fSUlVdmVOMFltbkZPaXl2ZGlDQzZzMTBCRzJ2aEhHb19adlozVTRsUVo2SnQ3UHI3OWUyRG1UaS1WZGxFX1k5X1NKTjYwOURfZTI2RE54RXZQWlFtX3VzNk5aZFBHaGVxOG13TVloU0VzSXFjOU9zYWsyMXVUUGg2a1lBODN1dXc2MW9KREpvNmxHOEE?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
@@ -20654,41 +20672,6 @@
       ]
     },
     {
-      "title": "Stock market today: Dow rises, S&P 500 and Nasdaq slip as Micron soars, Apple drags Big Tech lower",
-      "source": "Yahoo Finance UK",
-      "publishedAt": "2026-06-25T20:00:37+00:00",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPUEpRSi14cWUzcGI4bVVDVklFdElQQTl1d25mdTdxM0QtYUwyeFNzNnc1VG12RUNMTHByUk9EODI2aTFjVFU2SnF1a3hWcEoxYlh3bWZYYmVHUWtQT0ZxZ09qTXFsU2J0T21WdlJneURoZXBKT2ZMd0FxRTlrTDVFQ3Z1a280eVdMZjBmNm9IN1NieVRXSFV6T2s2TFljM3BiZXBVQjFTd1g5WjJsRXY5RVlyZmZBTWt5Yl9OYkxuM0h1Yk83ZmVDZHZfNUpKdw?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "May US PCE inflation tops 4%, leaves Fed hike on the table",
-      "source": "Reuters",
-      "publishedAt": "2026-06-25T18:10:40+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTkttQ2dqWE53WS1XUWNlT0FUb2pERERFc2pkTEFDSV9tU3JUaWk3aEs5SjAxMnd3amRlZG12N0gtcFN5My1Bb0JkR3BzSGMwSHJzNE1JX2hEMmRkNW1IbnpaRHNiUVEzMDBVaFphUlVjUS1hUDFtMW9pYjI0SmVIeTljUDFUTkRXdEMzdUxSM2hTXzlYUndiU084c05sY0w1dFNINFVxeldPNlhU?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
       "title": "The Fed's preferred inflation gauge shows prices rising at fastest pace in 3 years",
       "source": "CBS News",
       "publishedAt": "2026-06-25T12:48:00+00:00",
@@ -20707,21 +20690,38 @@
       ]
     },
     {
-      "title": "Micron earnings, oil prices fall, the newest meme stock and more in Morning Squawk",
-      "source": "CNBC",
-      "publishedAt": "2026-06-25T12:25:26+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOWllR3ZITElYRDR1N3ZYZ2tFam1jWUNCOV9jRnVER3cxRTB5U0NfSGlISGhuTDg2UmluaDc4d01qSmRVSHFXRWxZQ1NlRk1nMExmMEZHSERjTjB2VUNNdXRsWGljYUlROFJFaktpSkRSMlpkMjM3WXE2d1A4Z29RVXZJeU9EUXdwdFVZ0gGQAUFVX3lxTE5oaFAzQk91UTNLajlMc2xHbVBYMUV2czNTRU5DajQzeWR3VFN5MnVGd3BNRkVRMjRxd3BXb3pDT3F3MDAwS2ZhM0tDUHF5Zkp2eXROVVFKZl82ZHAxSmR5ZFdiRVQ4YXFSblp1QVVuQlN5ZTZNZVJDcUxRbHNGMEloWHBEa25IdGtKSWl0dEtKdQ?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "Stock market today: Dow rises, S&P 500 and Nasdaq slip as Micron soars, Apple drags Big Tech lower",
+      "source": "Yahoo Finance UK",
+      "publishedAt": "2026-06-25T20:00:37+00:00",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPUEpRSi14cWUzcGI4bVVDVklFdElQQTl1d25mdTdxM0QtYUwyeFNzNnc1VG12RUNMTHByUk9EODI2aTFjVFU2SnF1a3hWcEoxYlh3bWZYYmVHUWtQT0ZxZ09qTXFsU2J0T21WdlJneURoZXBKT2ZMd0FxRTlrTDVFQ3Z1a280eVdMZjBmNm9IN1NieVRXSFV6T2s2TFljM3BiZXBVQjFTd1g5WjJsRXY5RVlyZmZBTWt5Yl9OYkxuM0h1Yk83ZmVDZHZfNUpKdw?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Dow Jones Futures Rise As Micron Earnings Send Sandisk, Techs Soaring; Fed Inflation Data Due",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-06-25T12:08:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPa2JUU1B4NDAxVHA0Z0VsVWdsUnBIbU9SR0NLTUdfdWtSanQ1T3hzN20taks2QWZxV1dReWpPdG90WUwwdmVQcHlKcTdXQmN1dGNtR3ppQmZ4b2s1U0hBeFU4aGU0WEVVWTUxcjUtOG02YnFEaU5vMTk2MFFKeG5qQ1YxeGNodWZsNV9BWjJadUQ1SXdMUGhlQ1dXN2doempjUTJrdDNWY05HR1NaaGFoeGFhMnNGUV9iYzNraWJfeE11V3M3UnduMVBfbkJuQzFQS2c1ZQ?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
       ]
     }
   ],
@@ -20775,7 +20775,7 @@
     {
       "id": "A",
       "title": "Basisszenario: stabile Marktphase",
-      "probability": 60,
+      "probability": 59,
       "summary": "Wachstum bleibt grundsätzlich intakt, während Belastungsfaktoren überschaubar bleiben.",
       "supportedBy": [
         "Marktstress bleibt begrenzt",
@@ -20807,7 +20807,7 @@
     {
       "id": "C",
       "title": "Stressszenario: defensivere Marktphase",
-      "probability": 15,
+      "probability": 16,
       "summary": "Mehrere belastende Signale greifen gleichzeitig ineinander und erhöhen die Wahrscheinlichkeit einer klaren Risk-off-Phase.",
       "supportedBy": [],
       "probabilityChange": {
@@ -20827,7 +20827,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-06-25T21:47:51.966939+00:00",
+      "dataAsOf": "2026-06-26T04:13:04.756206+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
