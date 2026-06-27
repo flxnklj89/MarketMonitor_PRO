@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T21:23:34.120437+00:00",
+  "generatedAt": "2026-06-27T03:59:12.312922+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -46,7 +46,7 @@
       "value": 9.1,
       "unit": "%",
       "tone": "m",
-      "status": "50T liegt bei +9.1 % gegenüber dem 200T. Schlusskurs 25359, 50T 25753, 200T 23608. NASDAQ Composite (Fallback) unter 50T (25753), aber noch über 200T (23608).",
+      "status": "50T liegt bei +9.1 % gegenüber dem 200T. Schlusskurs 25298, 50T 25779, 200T 23625. NASDAQ Composite (Fallback) unter 50T (25779), aber noch über 200T (23625).",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -56,10 +56,10 @@
     },
     {
       "label": "RSI (14)",
-      "value": 42.9,
+      "value": 42.3,
       "unit": "",
       "tone": "m",
-      "status": "RSI (14) bei 42.9. Kein Extremniveau in beide Richtungen.",
+      "status": "RSI (14) bei 42.3. Kein Extremniveau in beide Richtungen.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -69,10 +69,10 @@
     },
     {
       "label": "Drawdown vom Hoch",
-      "value": -6.4,
+      "value": -6.6,
       "unit": "%",
       "tone": "m",
-      "status": "-6.4 % vom Hoch. Normales Korrekturterritory.",
+      "status": "-6.6 % vom Hoch. Normales Korrekturterritory.",
       "history": []
     }
   ],
@@ -702,12 +702,6 @@
   "charts": {
     "chartLabel": "NASDAQ Composite",
     "qqq": [
-      {
-        "date": "2025-04-15",
-        "close": 16823.17,
-        "ma50": 18166.94,
-        "ma200": 18393.88
-      },
       {
         "date": "2025-04-16",
         "close": 16307.16,
@@ -2501,13 +2495,15 @@
         "close": 25358.6,
         "ma50": 25753.13,
         "ma200": 23608.06
+      },
+      {
+        "date": "2026-06-26",
+        "close": 25297.62,
+        "ma50": 25778.76,
+        "ma200": 23625.15
       }
     ],
     "rsi": [
-      {
-        "date": "2025-04-15",
-        "value": 45.8
-      },
       {
         "date": "2025-04-16",
         "value": 41.5
@@ -3703,6 +3699,10 @@
       {
         "date": "2026-06-25",
         "value": 42.9
+      },
+      {
+        "date": "2026-06-26",
+        "value": 42.3
       }
     ],
     "vix": [
@@ -6112,10 +6112,27 @@
   },
   "news": [
     {
-      "title": "Most of Wall Street rises, but sinking AI stocks send it lower for the week",
-      "source": "LEX 18 News",
-      "publishedAt": "2026-06-26T20:58:59+00:00",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObnUwVFh1N1RaZkh6aFRoZ1czMmhNc2hJWldBa0xKeWdQM2RaVjNBdVRSeTQzUlNlQkVFVTBTNjZkejlmdFg4N195dUNzTnduM3ZmVFFmZjB6ekJMbzd3NFVtNVZINHljUXZ1Rzh1SzRCRkxlMzBGSF9CaldZRS1rMkVNVTE5SldWZlE2cjI3RUtOLVlueDA3SDdUNE1lVEVhNFdSalZxODRhcnlpb1NTYnFvaDZSUQ?oc=5",
+      "title": "Why US Stocks Could Climb Higher",
+      "source": "Goldman Sachs",
+      "publishedAt": "2026-06-26T21:24:02+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQUhud2pOLUhCVlo1UVF3QTVRQXRKdWZXRHZnTkU5QVJLVDNlSVA0SE9MUnZFRFNXalJBdVEwcjFuNUNNZmVLdjU5S3VBbllaTEdhd3JRVkVKckQyZFp2V0x6RjhyTUhUUTJ3R2RacXF6NUczbjBiOG4yTWZqdTFLREVvOGlHTVVRU1E?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "JPMorgan doubles down on stock market, S&P 500",
+      "source": "Yahoo Finance Australia",
+      "publishedAt": "2026-06-26T17:47:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZm9PeXg0blNrRkEyR0x3QUQ1ZUFfZGtuWnlaQWw2N1cxRjJBVGdtcHk2c2d4eUlyX253dm5mZkhLTWk5bzF0T2EteWhTeFJ1VkFtSnNkV1Ffa3Juc0xpUkNqTThRa0VRVU16X2psQnhNZ1Y4NmlxUU5rU3EzYkN3Wnkzcng1VEZPeXc4?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -6146,10 +6163,10 @@
       ]
     },
     {
-      "title": "Stock market today: S&P 500, Nasdaq snap 2-week win streak as AI jitters pressure tech",
-      "source": "Yahoo Finance UK",
-      "publishedAt": "2026-06-26T20:17:17+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxORGNtdWowclhWczFUVEdhZlBGUV95clJnYndDVXllSmppTUxoVDdJanc4R0d6RWYtOHNSX3h0cGpCZ0Y5X3M3cGlBTkMyaHhtTmlMOTdURm9YV3lGUkhZS0QycmZyYW9GdnVZNXVKLVJMU0twUTh3NGstRnI4em9HSnd6dm9XTmYtN0ltdHREWVhyMFIzMktja1Z1SGZ4LTJfbDB4TUZTNUIweWE5dUJTT2N5blcxWGJXbjhYX2djQ0txeFkyYXFDeHJvbnJnSVdf?oc=5",
+      "title": "Most of Wall Street rises, but sinking AI stocks send it lower for the week",
+      "source": "Daily Herald",
+      "publishedAt": "2026-06-26T20:42:04+00:00",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaFQ4eXpaQ21JZmsya2YzYXlvWkhPNERYUFR1NzA5ODdMYlFIa04xU21vdlhIdTlRUUx6ZThPbExGbFp5cW9QaENBUDhIWlgzME54eWh2UXZnLVRZb1lIUUhpaGtzd1VuV3Z0ZVQtV3BsWEdFRVJEWW5NY0RiSlBfRXU0QVhaMWVlZXRjZWVwR2hCSzh4MUItUG92VEducTZES05KMjNQSlIyYzE1VVcwRTl6S2NKMUtZdEZreVRB?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -6181,37 +6198,21 @@
       ]
     },
     {
-      "title": "Stock Market Weekly Review: S&P 500, Nasdaq Below 50-Day Line; Micron, Apple In Focus",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-06-26T14:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9iQWczQTdyUU5HS2RqWEo4cldKRHdWRWRwaFpiaXRSZThCWVdIYXA1eVBhdng2Zm4yMWJXbVN0aVdILWFrQXNTZk9fSTIyMnNkWEs5YTdzTW5COUlNdmZLQ2VHcWZxYUFpU1pETTllTGV5Sk16Vzh4bzZXcw?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "In the early morning, the Federal Reserve \"declares war,\" and the world pretends not to hear",
+      "source": "Bitget",
+      "publishedAt": "2026-06-27T00:34:08+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE05bllTXzNsSllsNzhqT2paZkUxcURkTHZVQk9QYjFtSkp3ODlKWUp5d2NzZzdBdGJFNXoxbHFDdEV5eG1UQUt4akVVM1QtZUVncHBsYkZRUHNpbTdqQkUwVVZfY9IBY0FVX3lxTE05bllTXzNsSllsNzhqT2paZkUxcURkTHZVQk9QYjFtSkp3ODlKWUp5d2NzZzdBdGJFNXoxbHFDdEV5eG1UQUt4akVVM1QtZUVncHBsYkZRUHNpbTdqQkUwVVZfYw?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
       "assets": [
+        "Staatsanleihen",
         "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Stock market stays ‘very solid’ thanks to strong earnings amid ‘AI fatigue’ – Ed Yardeni",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-06-26T16:34:04+00:00",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNLXJ6bUxQQlM3TEFsY1R3dlRnYUVYbHlFS3JscTZacFJmQ1dPZHJnQkkzUzdjVXJlSmc4OWUwdHE1RVh5WlJacW5sMHJWVnpqcWhIdnFZRnRDVS1NcnVVV2xhS1djX0ZjMUFDN0dGeTlfdEhia21lR0ZGSk44YWl2YUMxNENEUlkzQWFBc2lwV1ctRmhZZ2tLUnZDU25wem5wTGxLS0dVNUpYQUVLRVQ3bzFOcTREa1JqbUZCdg?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "US-Dollar",
+        "Gold"
       ]
     }
   ]
