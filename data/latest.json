@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-29T04:40:36.083573+00:00",
+  "fetchedAt": "2026-06-29T12:42:38.318477+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -127,7 +127,7 @@
       "name": "Europa",
       "score": 34.0,
       "label": "Stabil",
-      "date": "2026-06-26",
+      "date": "2026-06-29",
       "summary": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "driverText": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "inflation": {
@@ -140,7 +140,7 @@
       "growthOrRate": {
         "label": "ECB Einlagezins",
         "value": 2.25,
-        "date": "2026-06-26",
+        "date": "2026-06-29",
         "unit": "%",
         "cadence": "daily",
         "series": "ECBDFR"
@@ -20630,27 +20630,10 @@
       ]
     },
     {
-      "title": "Why brokers believe China’s AI-driven stock run will find fresh legs",
-      "source": "South China Morning Post",
-      "publishedAt": "2026-06-29T00:00:11+00:00",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOb3FQOS1Pb2RoLXdRNk5CUWY2T193NDB0Z1FScmNZaEt3Z3NTZDdKdnhoVEhiMkRkczhobVk5OHF4dE5rQ1NYcWhERE14NC1kNENOYmdGVHBzbjdzdFNva1g1U1Rxa1VmU00yZjRqWS1pNkRGMUxVRHFVVlR5b3hEM0pxNG8tWXBtX21UZ2RraDhUVGx1WW1OVUpzRVFxcjRkVTVpODBjR3JDMWZEazJLZlp2SlN4UlpzMFdJa1RNcmRRaUN0TXY40gHHAUFVX3lxTE9CcXBOWk51SGRBRDd2NVI4WEZvSlZONTQ3VHhlSG9MV3FGeHRiWW5HOFBFcXBUMzY0dlNzNEY0WjBLTEhNVmNKRDYwdlMxU3FNRlR6S0pCMW5HTkNuTWQxam9yUldEdE5VaDNOTkJSYWVySU5JX2pWdGRnSmZ5aDNYdTNINEZoczNqQW03aHdMQTBnemlta2RqdE1WaVhMRkt3Tk52aDNvZWZpVk12T29pWTJtbW5Denp6SGpzN2k3LWNMbks5WlU?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
-      ]
-    },
-    {
-      "title": "AI jitters meet a jobs report and falling oil prices: What to watch this week",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-06-28T10:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOREZCYkx2MjgzcS1EYUk1dGtCVnhyR0VhUFRia3Riby16VkZ6MUlULUxtUlB1QjJod3hRbzdtZjZPX1k2RGlReVJpRngtNFVoa0s4NkZ6eHRsNmdSeGdKcFBTcnQ4RGdFOVUtX0Qzd09uZ0ZtVl8wTnF0eGNZVURBVTdPV1pVcG9zNC1LTWFJTGdSWU02TVkwcDBscERYV1A1dHM3aXFoYlRsVi1wOVRHQUMxQVdiMG9CXzAyR000STRMZFBUR0U1SHlIRkppdw?oc=5",
+      "title": "Stocks perk up and oil cools as US and Iran halt hostilities",
+      "source": "Reuters",
+      "publishedAt": "2026-06-29T01:40:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYUFwVXVYYUk3ZXZGYUhac1BmQjhYN1JiSHM5SlhvWW9taHVTRkFZeVlrNFVfTl8wQVY0VTc3ekNEd1EyX2NMYjdNZXFwWi1WMFJWTHVIaE8yNTNNVWR4NkFHelBmSFlwYWdjRTZQREo4elhtYnNhZ3RMMjg2ckttSw?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20662,6 +20645,40 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Stock market today: S&P 500, Nasdaq, Dow futures rise as US and Iran reportedly call a halt to attacks",
+      "source": "Yahoo Finance UK",
+      "publishedAt": "2026-06-29T09:54:08+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPYTFtSWE5N2RLaGpxZjVTdHptQUdDb09hSVNJalFQS3JtLWx6Z2JUU2NGdGJZcUNoazhEUHFQSlhuVzlaMk1FQVFrLTROYUxLOXh3ZVVWN0o1T2NVaGdTQ0RYMFhEbGNYVnU2X1NSd1Q4RU0wVFJQbFJDOUNZVnF4UURuM2pncFNyVmRva2xWcHhDb0JpYThYcVR0a0FnQUEwSXNnaElKNzlPajVvWWNYYnpfY3J6QkR3cUNpLVY5OFAybjVoaUdoTW5GUG96WHZP?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "The central bank of central banks warns AI frenzy could trigger stock-market slump and jeopardize economy",
+      "source": "MarketWatch",
+      "publishedAt": "2026-06-29T09:13:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPN1JjRk5kamVRbE8yX1pzdVFibllJYUxxRWgyckx1Z1JscjVoT3hKSFFDd2syY3J1Nk1pYU9sYUJoY3RpZzJiTm9QeUNfTnVER2RveTlmRmZxdUZGSW5OTm9LbTBrRXExRlBfSF9xZ2RoZ05CalVZYUZ5ZUs4QkRVcVp4em9YemVZQW1iYVZRODM2bnRkdzJXcTFSWUJHemNBY2ZLbkRZYmp5ay1kODcxTGZfLUtibEprdV9vaGl1QkM4V2hfVHZneDFpU0hjTHA4VTZ0aEU4ZkJJLUloQURPRlRn?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
@@ -20682,37 +20699,20 @@
       ]
     },
     {
-      "title": "Dollar poised for best month in nearly a year; eyes on jobs data, Gulf tension",
-      "source": "The Mighty 790 KFGO",
-      "publishedAt": "2026-06-29T02:18:26+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdDVjLUtFS1lNb0k4OHVOYlhObnJsbU9WV2ZJdHFNZGEteVlxQnpaYWxQUGlBM29laG1BSnRWaXljd2piMUUwclQ5QkZwMGtPX1daWEJTLU45eDB4NmJNeWw5blFaMVI1LWNDaEFhYl81NHRhVHZ1Wmh2TWVRZXFneHJKR0Qzd2tPVHRmdTNoS0xCeXhDWFkyWnBQanU5bUFxeWpIaWFsQWw?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Why brokers believe China’s AI-driven stock run will find fresh legs",
+      "source": "South China Morning Post",
+      "publishedAt": "2026-06-29T00:00:11+00:00",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQnFwTlpOdUhkQUQ3djVSOFhGb0pWTjU0N1R4ZUhvTFdxRnh0YlluRzhQRXFwVDM2NHZTczRGNFowS0xITVZjSkQ2MHZTMVNxTUZUektKQjFuR05Dbk1kMWpvclJXRHROVWgzTk5CUmFlcklOSV9qVnRkZ0pmeWgzWHUzSDRGaHMzakFtN2h3TEEwZ3ppbWtkanRNVmlYTEZLd05Odmgzb2VmaVZNdk9vaVkybW1uQ3p6ekhqczdpNy1jTG5LOVpV0gHHAUFVX3lxTE9CcXBOWk51SGRBRDd2NVI4WEZvSlZONTQ3VHhlSG9MV3FGeHRiWW5HOFBFcXBUMzY0dlNzNEY0WjBLTEhNVmNKRDYwdlMxU3FNRlR6S0pCMW5HTkNuTWQxam9yUldEdE5VaDNOTkJSYWVySU5JX2pWdGRnSmZ5aDNYdTNINEZoczNqQW03aHdMQTBnemlta2RqdE1WaVhMRkt3Tk52aDNvZWZpVk12T29pWTJtbW5Denp6SGpzN2k3LWNMbks5WlU?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
       "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "US Futures Climb on Reports Peace Talks to Resume: Markets Wrap",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-06-28T22:15:36+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUzVfczV6S0ZFcXdKcVpWR09wcHR1bnZ3b1BvN2l3dnFnMVM1c0JneHBzQ1F3ejVCWUFrLWNnaTFvOUt3NVhaNmZoaTBNN1M0V3MwQUUzRWgtSTdVOHVHQWdlYkJaanU1Y2oxVUlRc2UzYURFdnlQZmRUNWJuWjllSXc4YjF4cnBGakM4aHRyQTJnNUtiNWVGbXZIc3puVGxkcExkbkVnUUF1aTZ5bVZJOXp4cw?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
       ]
     }
   ],
@@ -20818,7 +20818,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-06-29T04:40:36.083573+00:00",
+      "dataAsOf": "2026-06-29T12:42:38.318477+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
