@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T18:02:24.472918+00:00",
+  "generatedAt": "2026-06-30T21:41:51.194288+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,10 +6112,44 @@
   },
   "news": [
     {
+      "title": "Japanese Yen Collapse: How It Impacts the US Stock Market",
+      "source": "Barron's",
+      "publishedAt": "2026-06-30T13:39:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1wUkRYbmNnV3dTclFsd05kMnkyMHRnaV84VkVSMWM1UFdya0VPeHQxb25uTjNheGhGSVBSNHE0VUpIWkREenVDYy02T3Zzb1JRQWJldl9SdV9wUnM0OGJKN2N0NWJTcjJoVlhDUlhPT3dpa2t0ZXc?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
       "title": "Stock market today: Dow, S&P 500, Nasdaq waver after record-setting session",
       "source": "Yahoo Finance",
       "publishedAt": "2026-06-30T13:47:47+00:00",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPREItR3dJZGJwa1NHSUdiZFZoZXI5RVBNR3JaVENZSmhWWEEwdVpQYUEtZlVzVG0wcWZ3NlRNMjdvSDVCQWFwVkpSRE03YjRteGE3ckNCYjhkTXBrV1gwV3ZEc0xBdUJCYkJ0d01yd0EtNXN6djU3U210eC10SncycmtVek5xTTFvV2k0MTBOT2MxeW85VEtBMC1LOWZuZEdMbUFYck9JSU5vUmpzeDE2dDRoUnhhV2lOaHg1VTVGUWFfRGs?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Tech selloff stirs bubble fears in US stock market",
+      "source": "Reuters",
+      "publishedAt": "2026-06-30T17:01:15+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQUFlQXU0QUQ2d3NhY2hNU1llc2ZCOUdyZW5IRlhzYVdYcjZ0eTkxU25fa3A3WjlZTDRRQ0FoRVFxNXF5OC1oRHI1clNXazZic0liOGhxeGVBZDNzbUx4cHpuS2JoWEZSMzE2RVhJSlNWZXotWHZwSnh2UFVjN1EtYVpuaXF5RWlUd19jZjBYWHNUNHJMTDN1bHVENXE1bGRzZ203dTJR?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -6147,10 +6181,10 @@
       ]
     },
     {
-      "title": "Why the Stock Market’s Staggering Quarterly Gains Will Be Tough to Match",
-      "source": "Barron's",
-      "publishedAt": "2026-06-30T12:12:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRmZaM2JnLU13amthS3B2ckxlU1lkZFBYbEZGU3VGRDdRVnlxRkU3bk41SWN4MGdneHdiajVGWjZFMkt2Z3lvUE8yWVl6LXdnRnFWVDh4WUNxcS0xd2xyMmRHbnVSUm9kZVl1WjJ4YTFtZk9JdzhxYjJZa0lWNHliUnNZUm9TZ2tqc2Vr?oc=5",
+      "title": "How many Americans own stock? The top 1% own more than the bottom 90% combined",
+      "source": "Tacoma News Tribune",
+      "publishedAt": "2026-06-30T20:44:02+00:00",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9LWEFRTW5RMkpnajNuNWFybVNWTWlfa2xfaWNheXZ2Yi1Vc19WRnV0N3BJdkVBLXNJX3pJdUVSNjVfN0YzWVJEam51cXRWcEpKdU1QWnV4c2RBNlVfSXg2WWZZQlJiRjFJS1pRaXlQbE5sOHl2?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -6164,44 +6198,10 @@
       ]
     },
     {
-      "title": "Are banks closed on July 3rd? What's open and closed on Friday, July 3",
-      "source": "Bergen Record",
-      "publishedAt": "2026-06-30T15:48:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQZExIdlN6a3dJQ3YwcFpTVGVlb0pEZnE2SXF3RGZuRUlDekxSWkd2blR2YlhSeFRHcC1KUWRCYlRjSjQwYTZ6MDlDZlg3RTJzdU50clVpcGs4SmhzOFplMDlEOTVQa3EwRkFsZTQ5OWNsM01VWDBqcFRwbHFhUVJNUnVKWnVQRjJMVW5iQ0V1LUZ5SGJRUEc1Nk91WGxDa3d2UlVRblI5MmxJcFZvYWVWUjZ4cU9zZzJxWlFPRmxKVUYzdDJYeVFpMFNqVUs1ajhvejFfVXdfWjRrV0doc1BiUEczM3lEdHc?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Tech selloff stirs bubble fears in US stock market",
-      "source": "Reuters",
-      "publishedAt": "2026-06-30T09:04:09+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQUFlQXU0QUQ2d3NhY2hNU1llc2ZCOUdyZW5IRlhzYVdYcjZ0eTkxU25fa3A3WjlZTDRRQ0FoRVFxNXF5OC1oRHI1clNXazZic0liOGhxeGVBZDNzbUx4cHpuS2JoWEZSMzE2RVhJSlNWZXotWHZwSnh2UFVjN1EtYVpuaXF5RWlUd19jZjBYWHNUNHJMTDN1bHVENXE1bGRzZ203dTJR?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "US stocks are drifting to the close of a weak June",
-      "source": "WDEF",
-      "publishedAt": "2026-06-30T13:43:23+00:00",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1nSGZybWVSamFURHljOHY5ZUQ1S3BpcC1MZjlUWEYxdDNjT0JFUTcyOXdWb0IzTmdDa01NdkhnMlM4b29sNjR5ZU83QlBJWGk4QjdjM01kVlZNR3lkZjJmdlgzSS1JblEtX1RJWnBVRFFfX3IzMGd2VzJteTE?oc=5",
+      "title": "Why did the stock market soar in the first half of 2026? Experts explain",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "publishedAt": "2026-06-30T18:40:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPY0c1b2hINEN5UTVjVzFvd0xTaERveTV4Yk1yNUFwdzRfdHA0TGNMcVZkcUNTMVNTM29HR1FlVHE3LVRwaXR5cWcwSlZ4RmZHZFlnaExyTmpvZnBNM0ZOZ0RORlljdHJtbjNpTnp0bVQ1RFpyYW9Sc3JjLWRXY1lVcXhma3lKZUU0VjVfMldqUjg5X3ZSTlpUTkNOY9IBmwFBVV95cUxPY0c1b2hINEN5UTVjVzFvd0xTaERveTV4Yk1yNUFwdzRfdHA0TGNMcVZkcUNTMVNTM29HR1FlVHE3LVRwaXR5cWcwSlZ4RmZHZFlnaExyTmpvZnBNM0ZOZ0RORlljdHJtbjNpTnp0bVQ1RFpyYW9Sc3JjLWRXY1lVcXhma3lKZUU0VjVfMldqUjg5X3ZSTlpUTkNOYw?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
