@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-01T14:48:03.630749+00:00",
+  "fetchedAt": "2026-07-01T18:02:46.469351+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -103,7 +103,7 @@
       "method": "proxy",
       "components": {
         "vix": 16.45,
-        "brent": 76.49,
+        "brent": 71.59,
         "eurusd": 1.1403,
         "us10y": 4.38
       },
@@ -239,9 +239,9 @@
     {
       "label": "BRENT",
       "icon": "🛢️",
-      "val": 76.49,
-      "chg": -3.97,
-      "chgPct": -4.93,
+      "val": 71.59,
+      "chg": 1.43,
+      "chgPct": 2.04,
       "unit": "USD",
       "dec": 2
     },
@@ -20618,7 +20618,114 @@
       }
     ]
   },
-  "news": [],
+  "news": [
+    {
+      "title": "Stock Market Investors Just Got Bad News From the Federal Reserve. History Says a Big Drop Could Follow.",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-01T08:32:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSG5UVUo2Qjc0QmZXVkZkVG5DNDFUMHJVT3ZDUHZzOFBVOXVuWk55aE9ZcDVOVEFJa3Y5ZHpjNWx4YWgtb3VfSjRHQUJXMFJIV3lPcTFDSjFadXBmdENDeGx2eGMyZ2NVRjM2Mk9RYlU3X1B2OGMwWmR6ajgtMWxQUmFCMER2R1gxZk52LVZYWW1lVkxxeWp2S3dpVjA?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Stocks Have Risen So Far This Year. Here's What Experts Say the Second Half of 2026 Could Bring",
+      "source": "Investopedia",
+      "publishedAt": "2026-07-01T14:43:27+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYW9udWlVeVJOd2Z0aU5QMXdWZnV6bGtyUzV4MHZUa1FCcS12YVRlbVVhWlg2a0NyZEs0Q29xcGFESGN6QWEweXcwTWRURlo2TENzLWNuTV9DVmJoOUFCU2VYN2xjMGl4MGJlWEZNa0VtT3ptZlNVeG83VlBoVEFsT2hsOV9DT2V1Y2RmSFNtR3dGUQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Warning: The Federal Reserve Is Quietly Fueling the Biggest Inflation Spike Since 2021",
+      "source": "24/7 Wall St.",
+      "publishedAt": "2026-07-01T15:18:51+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSFRJb1JwcnI0VEhTem9kUlFLbTlFdHRwVHdyZnlsUFZyQVUwNl9kNjRLNE1vcG1meFFjcm5oMnV5S1VHOXdUQ2Zydnk3ekRiSzYzTVNWblVCYWRvYno2SkFJNS1WakFXWXN6VHM3TEhkbml3QjNDT0Ztd0x2eFlhMDFXZFJOVFZWakZ3Y0dmYnVFeV96SEtlaWl2bFVUckJZV0IydjMyMzNYTjNvM2hYRFZ3UE5KcGNuX3p1LVJQS1lGaEN4TnQ1Rg?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "The S&P 500 is up almost 10% this year, despite war, inflation and AI nerves",
+      "source": "CNN",
+      "publishedAt": "2026-07-01T08:00:26+00:00",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE91SWJSaDV1RlZqMHZvVlZzSDFEMGFIVlZ5S3dqc1RmR1R4NDcxWXBzUGhaQzJ4Wl9XS2tYbFJNTS1ubzVYVlNSZHNxaVNLalpiVnUzcjJiZzBhcnJ3SmgwckdBd0trd0lpRTBodmxIbXhyN280cGRYZQ?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Stock-market bulls need Kevin Warsh on their side to keep winning, says Wall Street veteran Bob Doll",
+      "source": "MarketWatch",
+      "publishedAt": "2026-07-01T17:25:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUFRZSE1ncmVBVnc3WU94YTAxYktjaUVnbkFwR056RnhueW16Q1RsT1VnSHJIR1FNa0hkcGJmZ05WbFdNREdsTXpvSXZoNDAwNDl3alJTMHlKdmstRlZsaHNJMUtITTNSVmo1TU9oLV96MjU2ZkZOVWZpb3o2Ym5XcG5lOUd6dkRXVHhkRjhvRHo3U00zVkR5YmVrUldHYWc1WGFXWWg3X0pFUy0yaDdNbHpQUlVFYk5ncWtBRjUwWks1bjd2MnNkU1pyeE5RTWFDX1VHVEY4MlhYQQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Stocks edge up as Warsh says inflation expectations fall; oil slips",
+      "source": "Reuters",
+      "publishedAt": "2026-07-01T01:56:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbWIzbFBrbzZhVDlNVmQwbktCbmZIV3VBQnc1d1dhUnYtbm45SDZZa1NZVXE0Vkh3V1QwTDVqT1ZwYUI0Zk9kYTlyRGRTN0NLMllyRmNLcXlDbUd4WXZ0RXZxcDUza0VKUWIyeFdoQjA2WTRGYWktZ0FkNklQWnZRX3J6NA?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    }
+  ],
   "product": {
     "name": "Marktrisiko-Kompass",
     "version": "PRO",
@@ -20721,7 +20828,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-07-01T14:48:03.630749+00:00",
+      "dataAsOf": "2026-07-01T18:02:46.469351+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
