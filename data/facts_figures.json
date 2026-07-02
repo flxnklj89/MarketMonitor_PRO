@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T10:46:31.855976+00:00",
+  "generatedAt": "2026-07-02T14:15:26.165539+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -20,10 +20,10 @@
     },
     "vix": {
       "title": "Relativ ruhig",
-      "value": 16.4,
+      "value": 16.6,
       "unit": "",
       "tone": "l",
-      "status": "VIX bei 16.4. Unter dem langfristigen Durchschnitt von ~17–20."
+      "status": "VIX bei 16.6. Unter dem langfristigen Durchschnitt von ~17–20."
     },
     "breadth": {
       "title": "63 % über 200T-Ø (Proxy)",
@@ -433,9 +433,6 @@
           "value": 3.64
         },
         {
-          "value": 3.64
-        },
-        {
           "value": 3.63
         },
         {
@@ -512,6 +509,9 @@
         },
         {
           "value": 3.62
+        },
+        {
+          "value": 3.63
         },
         {
           "value": 3.63
@@ -668,7 +668,7 @@
     "title": "Crash Probability",
     "score": 0,
     "scoreLabel": "0 %",
-    "reason": "Stress 14/100, Rezessionsrisiko 0.5 %, VIX 16.4.",
+    "reason": "Stress 14/100, Rezessionsrisiko 0.5 %, VIX 16.6.",
     "interpretation": "Crash-Risiko derzeit begrenzt."
   },
   "timingQuality": {
@@ -3707,10 +3707,6 @@
     ],
     "vix": [
       {
-        "date": "2025-05-02",
-        "value": 22.68
-      },
-      {
         "date": "2025-05-05",
         "value": 23.64
       },
@@ -4905,6 +4901,10 @@
       {
         "date": "2026-06-30",
         "value": 16.45
+      },
+      {
+        "date": "2026-07-01",
+        "value": 16.59
       }
     ],
     "brent": [
@@ -6130,27 +6130,62 @@
       ]
     },
     {
-      "title": "Yen rallies as traders alert to intervention risk; U.S. payrolls in focus",
-      "source": "Reuters",
-      "publishedAt": "2026-07-02T08:42:53+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONzFHRjZIdGlfOW9MazZncThqbnlKZEdfZm0tRHlMQTFCclF6TUcxdHFZVWVHdWFhenFzX00yUzh1ZzZfQkRIT01LWUt4ckdSUTdEVW1hTG1TYlBYZmpjRWZ2WklFTmdIWm1RdGl3Tm0xSWJWdjVNRmtUUTJxTF9zQjFnMUVGb1gxbER2b1JHZ00xdUlYOWJDTXBWRGhNY21CemdIdTcwdkdFN3V0X3p1b0w2SUduczNzUXc?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "title": "5 Things to Know Before the Stock Market Opens on Thursday",
+      "source": "Investopedia",
+      "publishedAt": "2026-07-02T10:51:07+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQXhDX0JMOUhaaXltdkpmZjA3VFJadENiQjd0YkMwMk03VTZhR0hzbEEwWHI2Ykk3eTJMdGNjSTIzOUJtNGxJanNad0Z0WmstUlV1ZklIQ29zaHAyWWRYMGxPT2ZxZ2p4WnhyRXlfelpOZzVndFhZU1B3Qjk4Z1NuNUxnaHA4QU12azRkQXNET2ktZVpKcUJ2dGZXYTQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
-      "title": "Macroscope | Why Hong Kong has become this year’s worst-performing stock market",
+      "title": "June Review: Markets Remain Resilient Amid Oil and Inflation Uncertainty",
+      "source": "Advisor Perspectives",
+      "publishedAt": "2026-07-02T07:55:05+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNN2Rvd254MTY4V194VVlWNEc2eEZiMkJhU2U5dTZmR0t5ZExGNFFrX3Bvc2lHenl1TE1zOUt1anNmdS1uU3lwVEdUeFZPZ0hRVzBvN1J6YUdwZnpFa01HLUNvcG1keU1obnNYaDBYdmpnM1pHMFNVTks1S3ZrWjJXRTlwZzJBYUs2dG9mdExzVXhzeFlPeDZVU3RCYy04ekVNMnNmaGItcUFSbE9HWjZaZmFOTjNwdw?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Macroscope | Why Hong Kong has become the worst-performing major stock market",
       "source": "South China Morning Post",
       "publishedAt": "2026-07-02T08:30:15+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQN1JtWmZ6LWV0UFdBdnlLeU1WbmVleVR0OE5RVTZXN1VUaUlUQnFERGlKUnJLMkd5c3AzdnhTSGdKYXV6OVdxeC16VmdHZDhxSWNOUVZVeEdNR0ZmN1R1Rnk0QzdHSTUtYXFXXzJ4aXdHVVFWQjctanBDYTlEM2hXTl9nQVlfV0VWMjBnOEU5b2gycWhydGpmWS1NMUFpcnh0dVc1NEI0SUx4X2JWU1k3dXhCWkFRUzJ5SVRkbFZEY1TSAcABQVVfeXFMUDdSbVpmei1ldFBXQXZ5S3lNVm5lZXlUdDhOUVU2VzdVVGlJVEJxRERpSlJySzJHeXNwM3Z4U0hnSmF1ejlXcXgtelZnR2Q4cUljTlFWVXhHTUdGZjdUdUZ5NEM3R0k1LWFxV18yeGl3R1VRVkI3LWpwQ2E5RDNoV05fZ0FZX1dFVjIwZzhFOW9oMnFocnRqZlktTTFBaXJ4dHVXNTRCNElMeF9iVlNZN3V4QlpBUVMyeUlUZGxWRGNU?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSWg4cENJQXI4Q1dqQXdUaEJLWmdfS1NyckJwWWhGT1N3NE0tU0FLellLYlJFMGdxNmtlcUhfdmZiZU5wcUlLeURIclhsa0lHRkpiLXA5X1dfWG9iekJtYndadEo0eldRYzY5dDd4UWhOaEd1S0pQeEJUNTNuZ0tnellmckZsNVZrTHJoQTZHRGhGN0tpSGpBRDExSjBSRktROFQ3eGE5b1NvOTdMTUZaY0piOXJVZ25HaS1aTk41dHXSAcABQVVfeXFMUDdSbVpmei1ldFBXQXZ5S3lNVm5lZXlUdDhOUVU2VzdVVGlJVEJxRERpSlJySzJHeXNwM3Z4U0hnSmF1ejlXcXgtelZnR2Q4cUljTlFWVXhHTUdGZjdUdUZ5NEM3R0k1LWFxV18yeGl3R1VRVkI3LWpwQ2E5RDNoV05fZ0FZX1dFVjIwZzhFOW9oMnFocnRqZlktTTFBaXJ4dHVXNTRCNElMeF9iVlNZN3V4QlpBUVMyeUlUZGxWRGNU?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "What's open, closed on July 3? Banks, post office, stock market, more",
+      "source": "Democrat and Chronicle",
+      "publishedAt": "2026-07-02T11:57:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRmNfLTVza2dONDFJYlZDUHNMajVHUlZwX1FxZFhhU2lfNVotSndOVTNPZElvcVo5ZTNaelRXWlBmTVdpd1FJMG0xeC1sdmVPMG5VU2c5NVBkNDc2WFphLUdlTjN2LUtjRkdQOVp3Yy1saDl4ZDc5czEyZVJtVUZpYmZFWGxIM1hleGpHV0tmRFVKQWZMVkstcXdnTnZySmZkVFdLdnZIN09oMTRWQmlFZjhldHZqWEV4c0JQaGJxYmYxUjBIOWc?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -6179,40 +6214,6 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stock-market bulls need Kevin Warsh on their side to keep winning, says Wall Street veteran Bob Doll",
-      "source": "MarketWatch",
-      "publishedAt": "2026-07-01T17:25:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUFRZSE1ncmVBVnc3WU94YTAxYktjaUVnbkFwR056RnhueW16Q1RsT1VnSHJIR1FNa0hkcGJmZ05WbFdNREdsTXpvSXZoNDAwNDl3alJTMHlKdmstRlZsaHNJMUtITTNSVmo1TU9oLV96MjU2ZkZOVWZpb3o2Ym5XcG5lOUd6dkRXVHhkRjhvRHo3U00zVkR5YmVrUldHYWc1WGFXWWg3X0pFUy0yaDdNbHpQUlVFYk5ncWtBRjUwWks1bjd2MnNkU1pyeE5RTWFDX1VHVEY4MlhYQQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Most US stocks rise, but drops for tech pull Wall Street lower",
-      "source": "LancasterOnline",
-      "publishedAt": "2026-07-01T21:11:02+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxNczVNYXhnUUVJR3FTZTRKSVNWRkxsVmVXYXRMRHJlWXhfUVpHTDlWOWtwRXNLVm1GNktFSThDdm9pTXRSU1BjZzdfM1FsNVZqc0VXc3NUVTYwV2hoVUZpWlpvdWo2dHRuRldTZElhYU05RkIxYTdPY1B6clByMnR2TkRnS2ZSdm1vSEZxa3Z2bmNqODR2YV9ZeVhjbXVzNUd3RUd2amJaODhOXzdrS3NEaktUaWZ0UEdHMTZIUTNCZEk2ZUFKRkxHUFl1M1l3QlZ4OGJSZU9kVXpucV95WmVpcUcxZC1FNjlnR0lSckFPQ0t1RmRldXF0MTBKVDhKS3BaTm1ZSTZYcnlYdHMzYkt4Z0plUHI5SW1mYmE2aHFIaXc2VG9aRmI0Z0w4YjRGRm1OVUFSN2NwdGMwdEtUemxCbWxMbU9lU3prR3pmWGRFQUhqczh6dTBkY2FtUmRKN19RNVBoNkVnUEhvQ2Y4aXNqWGhZU2Yxdw?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     }
   ]
