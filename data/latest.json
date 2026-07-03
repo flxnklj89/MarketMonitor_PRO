@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-02T21:14:51.100005+00:00",
+  "fetchedAt": "2026-07-03T03:49:17.091691+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -68,8 +68,8 @@
     "sp500": {
       "ytd": 9.11,
       "first": 6858.47,
-      "latest": 7483.23,
-      "date": "2026-07-01",
+      "latest": 7483.24,
+      "date": "2026-07-02",
       "cadence": "daily",
       "series": "SP500",
       "uiLabel": "S&P 500 seit Jahresbeginn",
@@ -98,7 +98,7 @@
     "tradeStress": {
       "value": 14,
       "label": "Entspannt",
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "cadence": "daily",
       "method": "proxy",
       "components": {
@@ -120,7 +120,7 @@
   "globalComposite": {
     "value": 39.7,
     "label": "Stabil",
-    "date": "2026-07-02"
+    "date": "2026-07-03"
   },
   "regions": {
     "europe": {
@@ -221,9 +221,9 @@
     {
       "label": "SPX",
       "icon": "📊",
-      "val": 7483.23,
-      "chg": -16.13,
-      "chgPct": -0.22,
+      "val": 7483.24,
+      "chg": 0.01,
+      "chgPct": 0.0,
       "unit": "",
       "dec": 2
     },
@@ -932,10 +932,6 @@
       }
     ],
     "fedRate": [
-      {
-        "date": "2020-07-03",
-        "value": 0.09
-      },
       {
         "date": "2020-07-06",
         "value": 0.09
@@ -13683,6 +13679,10 @@
       {
         "date": "2026-07-01",
         "value": 7483.23
+      },
+      {
+        "date": "2026-07-02",
+        "value": 7483.24
       }
     ],
     "sentiment": [
@@ -20611,28 +20611,14 @@
       {
         "date": "2026-07-01",
         "value": 14
+      },
+      {
+        "date": "2026-07-02",
+        "value": 14
       }
     ]
   },
   "news": [
-    {
-      "title": "Analysis-Cooling US jobs data buys the Fed and stock market more time",
-      "source": "The Mighty 790 KFGO",
-      "publishedAt": "2026-07-02T20:09:04+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQd04wVnRrTHFWVFEwSS1YeUFJbzRVSldTNGM1cUEzbzZrbExUck9QR2RHTUZzdHNQVldfcDlsTVktcndoNS1FR2dxVW0zLWhyUGx5ZElWRlVIX3R6VW5ldnE2UHJOejN0VmNUUjhndWRkR1h2R29WaF9RNzlVTHhrZkhBYmpMdzFmWWRXZ0RxWG9RWDBTeC1TaUhBRlNCeFk?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
     {
       "title": "Stock Market Investors Just Got Bad News From the Federal Reserve. History Says a Big Drop Could Follow.",
       "source": "Yahoo Finance",
@@ -20652,9 +20638,62 @@
       ]
     },
     {
+      "title": "Cooling US jobs data buys the Fed and stock market more time",
+      "source": "Reuters",
+      "publishedAt": "2026-07-02T19:59:29+00:00",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTGg2SFp1b01MWjdIT3J0dDdEd2ZkRkNnZmJDQkVzQ2tTa0hubXN6cmthRjVWd2FGUE1fcHNpQjhWYlY3UXdodjNiUGFQaXlnSVc1TmFudURlLVduQTlOakEwMFk2MG16WWlKM0hySnpUNlNtd3RHdWtjSEU2bEN4VlVSc1F5dFRqdHFKcnNoWVJ1N2xlbEtUMm15RWNKdw?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Stock Market Today, July 2: UiPath Gains as Agentic Automation Strategy Faces Earnings Test",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-07-02T22:34:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPN0Z3NzRSaFpHWUQ1QkhTOGt2aFFweFo2eGZ1dVhQRm1vaTAxTnR4VGFocmxPNnN4VXZRSlZEemdjVTlVMGJKbGlvS0tlQ1k3OXNacUxSMmN3a0ozenE3dm55UF81TTdfdkN3NjJ4YWIzbmxHR0FCSlNscVdWR0pEdkUzS3JOcjcwVHMzU2ozNktVcnl5QlNxYWNlcEk1WnNRSnRCRTZjb3hSYmU3UmJaOERnT25vaDFHbHRkWlhVUFNyMHZiSlFKX2hOY3F3ZUtWNzd0UEJBcHF2SUhTSlA4em9qVHo?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Stocks Stabilize After Tech-Led Selloff, Gold Up: Markets Wrap",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-07-02T22:10:18+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbFp2a0lWdU9xbS1UbTZUeE9lWEQyNGsxTHB6LUJVVVJoSkJuWFA1enVrLS1CeUdqOHpKVlo0a00yN0Z0V29aSHdLdk9LMzVfaXpvRUMtZFpXd0FqZ1RWSjVGWTM2VUludFl6eEYwMnp1TnB6ZWNHVVJNdG1TUXNIMkJ1VW9TQzQ1YXBQOGw4Znptd21a?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "What's open, closed on July 3? Banks, post office, stock market, more",
       "source": "Democrat and Chronicle",
-      "publishedAt": "2026-07-02T11:57:00+00:00",
+      "publishedAt": "2026-07-02T11:59:13+00:00",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRmNfLTVza2dONDFJYlZDUHNMajVHUlZwX1FxZFhhU2lfNVotSndOVTNPZElvcVo5ZTNaelRXWlBmTVdpd1FJMG0xeC1sdmVPMG5VU2c5NVBkNDc2WFphLUdlTjN2LUtjRkdQOVp3Yy1saDl4ZDc5czEyZVJtVUZpYmZFWGxIM1hleGpHV0tmRFVKQWZMVkstcXdnTnZySmZkVFdLdnZIN09oMTRWQmlFZjhldHZqWEV4c0JQaGJxYmYxUjBIOWc?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
@@ -20669,56 +20708,21 @@
       ]
     },
     {
-      "title": "China- A Real Opening-Up, or Opening-Up With Boundaries? Where Is China’s Capital Market Heading?",
-      "source": "The National Law Review",
-      "publishedAt": "2026-07-02T20:15:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOU080MzIxQkZvZG9NazJ3WXpJMjAtWFBQM055QllMOHozVG5HTDhGd1RXQTlSOXFEODhKZkt3UTFNSklNanJVSUtMdmRNblk0Zi1qc0U5NnN4NlZWeTNoc24tZnF6RHM5WENVMWlIZE9vQzRYMlJUZDgwYndtcGtCZXJaQ3ctOTZvX3Y2cDZxeVNEU0FtaV9NZ3REV2J5bl9SaklyaVNFeVM2SklfMnfSAbMBQVVfeXFMUHRnLWJ1S2NfQ2sxRHNLdjlfWEtXSGZhdHlCVjJHWGFFZ3BJcHFaMkE4SzFRWkh3a3hBN1dtUlVZeTFhbWZFTXNiMUNfQTBTTVhOZnlhenJIa0NfWFhaOWsybFVXLXIyRWVpZW5wdkdEM3VhVnRwWEU0Zk42Ti0wdHJqcjBYcndMOS1uT1MxaTdJZFl0S1F6VlNCa0szLWtBcGtRS3ZDdXlYV1FhYU4tQUZ4VkE?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "title": "Trump Made Hundreds of Stock Trades One Day Before Pausing Tariffs",
+      "source": "The New Republic",
+      "publishedAt": "2026-07-02T16:11:14+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNX3ZRRkN1LVNud0g1eHNWNGQ1b3I3ek9pVHBZcVJfZVVkYmdTN3dlVTRwV0hmWjQ2YTlSWF91YmZYZWh0ZnpIVmZmekZKY2JoZmk3V3RLUFRmU2h2OFB3eEotT0JxamJiclZCWFY2WkJDRHRtbUI1YklQVzNNSmpWX08zTXlzWmI0V09v?oc=5",
+      "bucket": "Handel / Lieferketten",
+      "summary": "Die Meldung betrifft Zölle, Sanktionen oder Logistik. Das ist wichtig, weil solche Themen Preise, Margen und Verfügbarkeit von Vorprodukten beeinflussen.",
+      "impact": "Mittel bis hoch, wenn die Störung mehrere Branchen oder Länder betrifft.",
+      "probability": "Mittel, weil politische Schlagzeilen oft erst bestätigt werden müssen.",
+      "horizon": "Sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders empfindlich reagieren Industrie, Transport, Rohstoffe, Inflationspreise und konjunktursensitive Aktien.",
       "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
-      ]
-    },
-    {
-      "title": "Regime Change at the Federal Reserve: Why it Could Matter to Investors",
-      "source": "ETF Trends",
-      "publishedAt": "2026-07-02T17:50:19+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdS1iX3FSQnR0aHNIcGI5RmphTk5RYzRPdlpMcU5ZSkJtN05ETS15b2hqOHptSGVwVkZvR2ZqeWQyZFJUZU01YV81LTZiQ0k4VXY2c2J3WUl5TFIzTGRrQ0tNX0VkZ2U3Uk52bWFfcVkyd25yNXN1MDJQX1VEUFZRbDZ4b2FkaThvOTN4eHZJNUJFSTVvYmNIU3BWaEFNRWliUlMyMEZISXBHcjE5a3hxeGJhSDVFQzlYWG9YQkU3Z2LSAcYBQVVfeXFMTjFYbU9sVnByYzZINmRUeERsYnJQSjQzU0tyUmxNLU9vRGxEZkRqdTh3TUJfbG4ySGFvd2xvbm13ZGJIZTYzQTR6Z3ZPUHc4UUl5U3ZDdzFOa0R1VU1QYk9oOFQ1MGR4dDFTNHVKUXhKU2w0VFVHWHFfaE9GTi1taVdNX0J4S3dRRXpOYlFpa3VMOVU3QmdCd1BTcXdvdzBGcWZnVjFQSVdvTXNJd1JSRUw0N1EtSjRIQ2pVdkVOVmN2NklUeGJ3?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "Wall Street rises toward the finish of its best week in nearly 2 months after bond yields relax",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "publishedAt": "2026-07-02T12:54:15+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbjQ3d2dnZW5OcEY3UzVmZ0NWYVVRUGZSLXB6OGhRNUV2cHNKTkJBT0VYbXMyTU1ZRjRHYTJCbFB4OHJBNzNhQ2ZjVXZDYUVTV2VOSUFzMmN5SHlQbDRFS1o5aFJsS0ZucVdrbjV6X0UydFJadzRZWURFZUd2bmtkY2JUVGlPV1BrVmxsWGRkVHFzQnRIY1FBWHdMV3Bmel92WVJGMmZR0gGrAUFVX3lxTE5udlVtTVpNVTRGcER1MVp2WVZUZU9mTWNPUGhEZl82VzJoTWx0VUdiM2R6c3JGbXBJdVZtbGhKM3l0T3lLZnh5RjJxR3pWODhFMHlnelBSTW9LZ2psQXN5WmhZeE1mNUE2TlNESlVTUlhvYkZOd18xb05XUF9VQzRaYl9NMDEzc2psSEhac2dqXzVjYXc2Z0s0QjlSN1FrX1EtdEYwZzY2bm5WOA?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
+        "Industrieaktien",
+        "Rohstoffe",
+        "Inflation",
+        "Transport"
       ]
     }
   ],
@@ -20824,7 +20828,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-07-02T21:14:51.100005+00:00",
+      "dataAsOf": "2026-07-03T03:49:17.091691+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
