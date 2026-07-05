@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T04:00:53.186120+00:00",
+  "generatedAt": "2026-07-05T07:35:23.140154+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,6 +6112,23 @@
   },
   "news": [
     {
+      "title": "Samsung Earnings, SK Hynix Nasdaq Debut to Decide Market Fate",
+      "source": "조선일보",
+      "publishedAt": "2026-07-05T04:49:12+00:00",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUVBKV0pNbnR1WVlSQ2lub3d1bWVJdnpOTDdOaTRnbElTZGowclo0U2RJbktMTDV1d2htNHlpN0h0Q2g5SmdIRDVaUlE3TzMyQlk3V2pqSkdsU2NFUXpXZzI2SlhGQmZzZ1VoY3A3TFdMR29jZHBWQnFvRkk1WUJsdmZOaWYtMHY0OGpHcHV3?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
       "title": "Is the stock market open July 3? What to know about Friday, and if its a federal holiday",
       "source": "NBC 5 Chicago",
       "publishedAt": "2026-07-03T11:55:25+00:00",
@@ -6127,23 +6144,6 @@
         "Aktien",
         "US-Dollar",
         "Gold"
-      ]
-    },
-    {
-      "title": "The World's Best Investments Aren't Always in Your Backyard: Why Global Economic Knowledge Matters",
-      "source": "Substack",
-      "publishedAt": "2026-07-04T11:09:36+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSnREeGVlQS1BdWI2RWlaX3pGRmdLM1ZHc3hHU0RxMHJBaGtMV2hRMU9RdWJTSlN1NjA0a2t2dGRDZ0wwNWNoMk9DNzEzUExnek4tQlNUVWJoWTROUkYxbUdCcVZDM2Q4Z0xMY1ZWUzc4UnhQTTNOeVpVSnUxT2tiMTlB?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     },
     {
@@ -6165,20 +6165,21 @@
       ]
     },
     {
-      "title": "Samsung, SK Hynix Face Fateful Week: Earnings, Nasdaq Listing",
-      "source": "조선일보",
-      "publishedAt": "2026-07-05T03:33:45+00:00",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUVBKV0pNbnR1WVlSQ2lub3d1bWVJdnpOTDdOaTRnbElTZGowclo0U2RJbktMTDV1d2htNHlpN0h0Q2g5SmdIRDVaUlE3TzMyQlk3V2pqSkdsU2NFUXpXZzI2SlhGQmZzZ1VoY3A3TFdMR29jZHBWQnFvRkk1WUJsdmZOaWYtMHY0OGpHcHV3?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "Key events next week: China inflation data, FOMC meeting minutes, SK Hynix's U.S. stock market debut, and Zhipu AI's MiniMax model release",
+      "source": "富途牛牛",
+      "publishedAt": "2026-07-05T03:39:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQVFkWmpNWVE2b1RHdVBMR0N3dWlBc2JCa19jaFN2Z2hYU0hHOTlrcjY0SlJnTmNqSjJGcVBGeWo5N1VVd3FlYzNIeDdPc3BMN1VZcGFVY2ZqbFBWU0N1LWJzYVU1b1pHaGEtRlU0cHdHaHVlZHI5cmlVUU1LMGhSaEZzVDFiRDRPS1ByZ25nelBCMENHR0I1dFUzRjNxcDA0Ni1oSU9n?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
       "assets": [
+        "Staatsanleihen",
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "US-Dollar",
+        "Gold"
       ]
     },
     {
@@ -6199,20 +6200,20 @@
       ]
     },
     {
-      "title": "Equity in earnings of Aeon Acquisition I Corp. – NASDAQ:AESPW",
-      "source": "TradingView",
-      "publishedAt": "2026-07-04T23:11:10+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxON1MwMHdGWlVUX3V1YlNhaHFGOHNJa3ZpZkFmNHZsY2U1RS1kcVFYUXJUYXNYeWVkd2pHUmhueEdVdGFZUnFoRDA5TGw0bTUtQ294UVhmeGpoS1BYS25UNW5HOTE3dndhejVmaHZMamhuU3d4TG85TTlmbjVCa09qMlkzajVSSFBRNk9EUHcxc1otTzBSNmV1SUJxczY?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "The World's Best Investments Aren't Always in Your Backyard: Why Global Economic Knowledge Matters",
+      "source": "Substack",
+      "publishedAt": "2026-07-04T11:09:36+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSnREeGVlQS1BdWI2RWlaX3pGRmdLM1ZHc3hHU0RxMHJBaGtMV2hRMU9RdWJTSlN1NjA0a2t2dGRDZ0wwNWNoMk9DNzEzUExnek4tQlNUVWJoWTROUkYxbUdCcVZDM2Q4Z0xMY1ZWUzc4UnhQTTNOeVpVSnUxT2tiMTlB?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Anleihen",
+        "Währungen"
       ]
     }
   ]
