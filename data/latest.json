@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-05T21:08:14.508843+00:00",
+  "fetchedAt": "2026-07-06T04:05:49.724234+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -120,7 +120,7 @@
   "globalComposite": {
     "value": 39.7,
     "label": "Stabil",
-    "date": "2026-07-05"
+    "date": "2026-07-06"
   },
   "regions": {
     "europe": {
@@ -932,10 +932,6 @@
       }
     ],
     "fedRate": [
-      {
-        "date": "2020-07-06",
-        "value": 0.09
-      },
       {
         "date": "2020-07-07",
         "value": 0.09
@@ -7664,10 +7660,6 @@
       }
     ],
     "sp500": [
-      {
-        "date": "2020-07-06",
-        "value": 3179.72
-      },
       {
         "date": "2020-07-07",
         "value": 3145.32
@@ -14409,10 +14401,6 @@
     ],
     "tradeStress": [
       {
-        "date": "2020-07-06",
-        "value": 22
-      },
-      {
         "date": "2020-07-07",
         "value": 22
       },
@@ -20624,6 +20612,23 @@
   },
   "news": [
     {
+      "title": "China’s divergent stock market displays a microcosm of the nation’s economy",
+      "source": "South China Morning Post",
+      "publishedAt": "2026-07-06T00:30:09+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSzZOQWNIczRYV29icXp3c080QlV0TnJmLW1DSWpuX0tDdS16YV8wY3Q4UXFIZUd6VmhMeHZxZEZMS0luUkRjaFRjOExqbWdiZHhvbjVubFFMWGE0bDE5YV9SZm1adWlRSm0zVkN2QmpGb2tUOW9obG9hb0ZwZTN6NE40YmJpSXJ2bGdtM29PT1J6XzNneG85a3VTVUx2M1kyS1lZZ1o0TmNRbWVWS3JqeC1wLVhVSUl1aU1WSTdpR1VMWEdYWjJuMFNENWF2aHdoTllXaXVmc0rSAdgBQVVfeXFMT1NTbGM0Z2NPYTItNkYtWGdLTDBBaUNINThjcDN6eHQ1ZjJ0X1FQZUZHSDZBbWs2Wjd0eDZYNUo0NGJnQmJXRlNwT2EzQmhGY0k0QWlfWXhwdHEzSzJ3NWtVWU9IdFlFWFZMeE9obE5uWWZXMTZjMXR3czZzdmxfWldSSEI4V3c3cktWeWZGRF9BQVpLQ2VsdzdFR1FhcnhBVHVhemQtSmFQaG82dk90UTdCZ09ZcGN5bXYtSTVBQVhhcXB5THk0SnQ1UHJKT2hiUmhmTWMyVHlK?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
       "title": "Stock market outlook: S&P 500 to lose much of 2026 gains as 'speculation is hitting extreme levels'",
       "source": "Fortune",
       "publishedAt": "2026-07-05T19:43:00+00:00",
@@ -20641,20 +20646,21 @@
       ]
     },
     {
-      "title": "'It's a bull market': Wall Street sees more upside in stocks for the second half of 2026",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-07-05T12:02:20+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPRmxINFJsdG5CN3JXY2ZyZm9NZVQyUTNTLVFuUXhPbXB3YTJJTEExdG1KNW9NNjgwS05oUEhaLVpMVEItejRiZlRaVFJRbm1sbjZ1TWg3VFRlRG5QUEdwOU5WUGtfV3k5dy1odE5yQnQ1Sy1HZGFWdHJ2VnEtdWJ2Q1N1cVVyWlBNcTB4R19RN2J1c0FYZTNZQkZCZFN1X3hwREprQjhXbEFGNHE5M3F5cXBHTDFFbjhaT3Rja3pIVXZZYWtHQ2Q3WTBEcDBIZ2hMM09FWEFGdTU?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Stock Futures Open Mixed, Kicking Off Week that Includes Fed Minutes and Pepsi, Delta Earnings",
+      "source": "Barron's",
+      "publishedAt": "2026-07-05T22:37:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUXhuNzBmTnNZRUViUU52dVNoQjF2MVl1SWl3YVhNLUJBWXdpOGZiT1U5bjNMWDJRc2psZ2NJRFdKV3duX3RTZG9pUHRHVXVmVHVwbHNkclRDdDNBd21BZWxKTmwzWFI2VkV1djd1dXVkWVBRSHN2N2Ezai1WamtRSUNqSk1KdTVfbzZFMGQ2eU9fQQ?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
       "assets": [
+        "Staatsanleihen",
         "Aktien",
-        "Anleihen",
-        "Währungen"
+        "US-Dollar",
+        "Gold"
       ]
     },
     {
@@ -20675,54 +20681,38 @@
       ]
     },
     {
-      "title": "Tesla China Sales Spike 36%. The Stock Passes An Aggressive Buy Point.",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-07-05T13:43:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1INWZNQnptbnpWdU04YjJ0WFJTMEd4aVpzMnEyWHZxZWlFMC1mMjNLZGZzUUJmV056YWtsT3VFT2ZSSUh3SjlaNHB1WDhycEtIVDN0YU5sRVFiSVJfQUlPX00tbTltVGZQTDZ1dWZyV0EwQVQ4MGd4VVRPWQ?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "title": "'It's a bull market': Wall Street sees more upside in stocks for the second half of 2026",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-05T12:02:20+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPRmxINFJsdG5CN3JXY2ZyZm9NZVQyUTNTLVFuUXhPbXB3YTJJTEExdG1KNW9NNjgwS05oUEhaLVpMVEItejRiZlRaVFJRbm1sbjZ1TWg3VFRlRG5QUEdwOU5WUGtfV3k5dy1odE5yQnQ1Sy1HZGFWdHJ2VnEtdWJ2Q1N1cVVyWlBNcTB4R19RN2J1c0FYZTNZQkZCZFN1X3hwREprQjhXbEFGNHE5M3F5cXBHTDFFbjhaT3Rja3pIVXZZYWtHQ2Q3WTBEcDBIZ2hMM09FWEFGdTU?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
-      "title": "What to Expect in Markets This Week: SpaceX Joins Nasdaq 100 Index; Second-Quarter Results Start to Arrive",
-      "source": "Investopedia",
-      "publishedAt": "2026-07-05T10:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNRC02X1B3RGp3d2hDeHB5aDduWV9xWnM4dGpNa1B2STlLdUJFZGYwZXV0TS12V1RMZ044X3BpREVtTlphd0dINUhVZVZNRl8ycFU4WHBadjVHZlk4OENSYlIzUURSLXNhMzFMRWdVb1BrbnhKbHRNVi1RQTUxcHktYnVKRFl0Z0lwdnVOUjNwZnNyOFBOU095QXpzdEhxeXV3Z1REQTJxelhkMVM3cUkxN1NFcjZ3QVljNWsxOEl2ZzRjYmN4VlBNcVl1MFVBekNxNV9ob200WkZLYVVqcUQ5dA?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "Oil Edges Lower on OPEC Increase, Dollar Steady: Markets Wrap",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-07-05T22:19:05+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQms1OXFMOUJXelktWldaTmFkR0E0NHoyQWx6THBGZV9zVUI3UXFiQ2lDaElWRG1POERvVXk4WGl6MDBBbTgzTWQzZC1Hak1SeFloQ1BValhNdlBqS2k2NmJIaG1jVkJWYUdFX0Noa3RBVVhBQVRhd3NyR1d5SFphR2hpX21iLVFHVllUT2EtNGlRRFls?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Samsung Earnings, SK Hynix Nasdaq Debut to Shape 'Top Two' Semiconductor Stocks",
-      "source": "조선일보",
-      "publishedAt": "2026-07-05T15:33:35+00:00",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNN202RjRlMDQzVDY2a21pbTk4Zjd4djN4VmRldHF0UWJudXF6R21qamJJQ0pUV092TWJneGo2dlo1X1RrOUlQc3VvbEpDYnF1ZzlmdHpHWm9YMTQ2bEFicEFCa0NFbWh0LUxvRTR5cVdYeU9QRTBDRTBTZTBSOExUYVRaZThOc2g2YjE3V0xB?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     }
   ],
@@ -20828,7 +20818,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-07-05T21:08:14.508843+00:00",
+      "dataAsOf": "2026-07-06T04:05:49.724234+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
