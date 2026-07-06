@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-06T18:14:42.601899+00:00",
+  "fetchedAt": "2026-07-06T21:40:44.800464+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -104,8 +104,8 @@
       "components": {
         "vix": 15.81,
         "brent": 71.59,
-        "eurusd": 1.1403,
-        "us10y": 4.48
+        "eurusd": 1.1448,
+        "us10y": 4.49
       },
       "uiLabel": "Marktstress",
       "shortText": "Verdichteter Stressmesser aus Markt- und Preisvariablen.",
@@ -147,8 +147,8 @@
       },
       "fx": {
         "label": "EUR/USD",
-        "value": 1.1403,
-        "date": "2026-06-26",
+        "value": 1.1448,
+        "date": "2026-07-02",
         "unit": "",
         "cadence": "daily",
         "series": "DEXUSEU"
@@ -158,7 +158,7 @@
       "name": "Japan",
       "score": 52.0,
       "label": "Beobachten",
-      "date": "2026-06-26",
+      "date": "2026-07-02",
       "summary": "Japan wird über Wachstum, Preisbild und Yen-Stärke gelesen. Ein schwacher Yen kann globalen Stress und importierten Preisauftrieb verstärken.",
       "driverText": "Japan wird über Wachstum, Preisbild und Yen-Stärke gelesen. Ein schwacher Yen kann globalen Stress und importierten Preisauftrieb verstärken.",
       "inflation": {
@@ -178,8 +178,8 @@
       },
       "fx": {
         "label": "JPY pro USD",
-        "value": 161.67,
-        "date": "2026-06-26",
+        "value": 160.9,
+        "date": "2026-07-02",
         "unit": "",
         "cadence": "daily",
         "series": "DEXJPUS"
@@ -189,7 +189,7 @@
       "name": "China",
       "score": 33.0,
       "label": "Stabil",
-      "date": "2026-06-26",
+      "date": "2026-07-02",
       "summary": "China wird hier über Wachstum, Preisbild und Yuan-Stärke gelesen. Schwächeres Wachstum oder sehr niedriger Preisauftrieb können globalen Industrie- und Rohstoffdruck verstärken.",
       "driverText": "China wird hier über Wachstum, Preisbild und Yuan-Stärke gelesen. Schwächeres Wachstum oder sehr niedriger Preisauftrieb können globalen Industrie- und Rohstoffdruck verstärken.",
       "inflation": {
@@ -209,8 +209,8 @@
       },
       "fx": {
         "label": "CNY pro USD",
-        "value": 6.798,
-        "date": "2026-06-26",
+        "value": 6.7886,
+        "date": "2026-07-02",
         "unit": "",
         "cadence": "daily",
         "series": "DEXCHUS"
@@ -248,18 +248,18 @@
     {
       "label": "US 10Y",
       "icon": "📉",
-      "val": 4.48,
-      "chg": 0.04,
-      "chgPct": 0.9,
+      "val": 4.49,
+      "chg": 0.01,
+      "chgPct": 0.22,
       "unit": "%",
       "dec": 2
     },
     {
       "label": "EUR/USD",
       "icon": "💱",
-      "val": 1.1403,
-      "chg": 0.0018,
-      "chgPct": 0.16,
+      "val": 1.1448,
+      "chg": 0.0064,
+      "chgPct": 0.56,
       "unit": "",
       "dec": 4
     }
@@ -20620,6 +20620,23 @@
   },
   "news": [
     {
+      "title": "Stock market today: Dow posts record, S&P 500 and Nasdaq rally on revived AI optimism",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-06T20:02:34+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTktvaWU4WlZaV3VGWTBZSGVkMUhpNG5aQ0FZUDN4TXdYTzBrc2gwWTJXS1VIaVFKYTZSVHNTc0Z6dnFvLU5sUE00a3lpS1ZoNzBkVXpRRjc1cDZuUEtZemhOV05nVXNQZlFtMEo4Vy1BeGdFdkFzaUQ2VWNJNGhRcXJJY0dvUWxTMWFXQUFrZFBSTGdEZ2tIOTlhRzhEUHNWN0RmYVNodXZEN0VR?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "Bonds Are Flashing a Warning to the Stock Market as Earnings Season Approaches",
       "source": "Barron's",
       "publishedAt": "2026-07-06T12:57:00+00:00",
@@ -20638,10 +20655,10 @@
       ]
     },
     {
-      "title": "Stock market today: Nasdaq leads S&P 500, Dow higher as tech jitters ease",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-07-06T17:45:25+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTktvaWU4WlZaV3VGWTBZSGVkMUhpNG5aQ0FZUDN4TXdYTzBrc2gwWTJXS1VIaVFKYTZSVHNTc0Z6dnFvLU5sUE00a3lpS1ZoNzBkVXpRRjc1cDZuUEtZemhOV05nVXNQZlFtMEo4Vy1BeGdFdkFzaUQ2VWNJNGhRcXJJY0dvUWxTMWFXQUFrZFBSTGdEZ2tIOTlhRzhEUHNWN0RmYVNodXZEN0VR?oc=5",
+      "title": "Rebounding AI stocks send the S&P 500 within 1% of its record",
+      "source": "Boston Herald",
+      "publishedAt": "2026-07-06T18:15:08+00:00",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1qYUJZZnVSR014T09oRUNXbXhaeFpkaDYxNThoX3gyZmduNmpKX0thMTZGdnhsT2lSc1M4VHp5NmdDR1A1T3h6UnpEQWpvYkpSYUUwODktN19idzlBa2txRERYSDR4Vlg1aS1zaXhmSTBQb0NRSmdzaFF5TQ?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20655,10 +20672,10 @@
       ]
     },
     {
-      "title": "5 Things to Know Before the Stock Market Opens on Monday",
-      "source": "Investopedia",
-      "publishedAt": "2026-07-06T12:25:23+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSDBhT1ItYkxyb0VLZzNnVzhmcE1RWGF0dXVxa3BpamZtS2V0UHVEdVhsclU1a3U3cXV0WHc4eGNmNTl5ZmgtdnRFZlpmb2VEUWtqNjNTZ3RVeEVhMTkyMjRNemRBYVdxYnNKdkRxcmg1aGREd2tTc2xyeFBWdGZMUDdRbkQ2WDZMS2d1a3IxREkxaG5EeS1JYmFFb0QxMzNwSjJwWTR3?oc=5",
+      "title": "If the stock market’s double bubble bursts, it could usher in the next crash",
+      "source": "MarketWatch",
+      "publishedAt": "2026-07-06T21:11:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbTAyZTdzUU1HeFBwTHprbkxlbmI5VmZXdFMzU2ItTXU5YzNuUHZOXzlaWVFFQ0RrSHZ3N2Nzb2xVa04wWmR3UkpfdUs1Nnl5RUdmT3Yzci1fUjI5XzVWbXFKY09PQlZhWWt3MlFUdmE5NmtBOExPZU4wZTFRUjV5Y1RIOTRpNkFkWHI2TkIwWlNZNFBBS3YzbXpfekdEZEdsRVp0WkcwNUREcGw5ZEtiQnZrcXhZZU85?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20673,9 +20690,9 @@
     },
     {
       "title": "Rebounds for AI stocks help support Wall Street and keep the market mixed",
-      "source": "Boston Herald",
-      "publishedAt": "2026-07-06T15:19:18+00:00",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1qYUJZZnVSR014T09oRUNXbXhaeFpkaDYxNThoX3gyZmduNmpKX0thMTZGdnhsT2lSc1M4VHp5NmdDR1A1T3h6UnpEQWpvYkpSYUUwODktN19idzlBa2txRERYSDR4Vlg1aS1zaXhmSTBQb0NRSmdzaFF5TQ?oc=5",
+      "source": "Orange County Register",
+      "publishedAt": "2026-07-06T13:08:41+00:00",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBIYU1YVGM0dE9Wbk9CaHV2OENMOUliVV80QTE3QWxnaDEtQndHdU5adDc5WHRSME1COEl4d3BvemN2TXlfSlNnckZtaVJTLXB5MWlSbFBjOWNLV3NvdEVlX0xXMFVscGlQRk9MUmhMSXVJM0pRZ0RKMg?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20703,24 +20720,6 @@
         "Weltaktien",
         "Währungen",
         "Rohstoffe"
-      ]
-    },
-    {
-      "title": "Can US Stocks Extend Their Rally as Chip Shares Rebound and Oil Prices Fall?",
-      "source": "Modern Diplomacy",
-      "publishedAt": "2026-07-06T10:23:26+00:00",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOd2pSdHRzRmExdnA5VDF2YXFMZVlaVmlPaG5mRkt6cDIyYlZwMzZNM0pTcFE3SHktcUg2RzN1OElmODhKd3Z1WjV5V3ByMlkzZllMalFDNkhJU1A2a0xpRWNtQVlUeEpYWVR3NXE2TFZBWE5sUUNJelRPeVNaNGtqOHZMOFR5dWMxYzdhNHNrLXVoV1ExRHI1MFJiVlphOWFqempBNXZrdnhUYWdaSzB4TU9BbmQ?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
       ]
     }
   ],
@@ -20826,7 +20825,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-07-06T18:14:42.601899+00:00",
+      "dataAsOf": "2026-07-06T21:40:44.800464+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
