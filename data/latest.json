@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-07T03:56:57.338508+00:00",
+  "fetchedAt": "2026-07-07T07:48:54.424740+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20650,6 +20650,23 @@
       ]
     },
     {
+      "title": "Dow Jones Futures: Tech Futures Slide On Samsung Earnings; SpaceX Falls Ahead Of Nasdaq-100 Inclusion",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-07-07T01:54:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNXVwTDN6ZmJ4TEpBTmtUUDloWDZ3Z1JfR1lpWHgxN1RNWFhpMXo3amxaYUVQaFNua0pOdjZhRVhoS3F4aG9sZDduQW5TbUF2cDF5VlRYNnQ2Ui11d3BnZ1VrZ3JVR0RIZXpnTHVFVEdmb0NDSmlFMUJlRjJUTnB4d0xMdHZiZkFEMVgyX2FXcGVFUFRDSG44RnMxOEdXUGhpTDdNMnZwWjhUcUJhTzRlNUtNd0RKTURi?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
       "title": "If the stock market’s double bubble bursts, it could usher in the next crash",
       "source": "MarketWatch",
       "publishedAt": "2026-07-06T21:11:00+00:00",
@@ -20667,20 +20684,20 @@
       ]
     },
     {
-      "title": "Dow Jones Futures: Tech Futures Slide On Samsung Earnings; SpaceX Falls Ahead Of Nasdaq-100 Inclusion",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-07-07T01:54:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNXVwTDN6ZmJ4TEpBTmtUUDloWDZ3Z1JfR1lpWHgxN1RNWFhpMXo3amxaYUVQaFNua0pOdjZhRVhoS3F4aG9sZDduQW5TbUF2cDF5VlRYNnQ2Ui11d3BnZ1VrZ3JVR0RIZXpnTHVFVEdmb0NDSmlFMUJlRjJUTnB4d0xMdHZiZkFEMVgyX2FXcGVFUFRDSG44RnMxOEdXUGhpTDdNMnZwWjhUcUJhTzRlNUtNd0RKTURi?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "The Stock Market Just Finished Its Best Quarter in Years. Here's What History Says Is Coming Next.",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-07-07T06:57:37+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcndJSFQxTGJNMXE1Mlh0Slg0VVpsZ3FJZVNHR1kwVzcyUG9aN0dYeFo1QkhWTFl5dUdGRm1XRUVUTHVKWV8xZno2VWhpN29sYVlIX21ZYzdyWnExMlRoY0huVUlSWU9SNjBkRVRocEdTUU41bldXYllEajN1ZTBVLTNfUVYybVhzdzh1WmxwZ3hUNk04QWlr?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
@@ -20699,23 +20716,6 @@
         "Aktien",
         "US-Dollar",
         "Gold"
-      ]
-    },
-    {
-      "title": "Rotation Or Correction Ahead In Response To Earnings Season?",
-      "source": "Yardeni QuickTakes",
-      "publishedAt": "2026-07-07T03:16:19+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOU201R2FuaHFLZWs3TjdCT2NKQnFDWXFkRDdfbmpEN2o4bzJWUjRFZXRoQlJHZDAtWm16cTkwRkxOcDFCaGp4bUxhcTJHSnJXUXdxZVZWMC1vVzBvNVBMRkpGeEF2NzFHWklTRG5wVzRkYTZIck1pTl9ZY3Nad2RTbFRzTGQ5NHhaU1E4T0YyYmJLb0tUUmtKenh3?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
       ]
     }
   ],
@@ -20821,7 +20821,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-07-07T03:56:57.338508+00:00",
+      "dataAsOf": "2026-07-07T07:48:54.424740+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
