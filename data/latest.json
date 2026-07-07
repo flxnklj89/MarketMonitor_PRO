@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-07T14:49:37.448674+00:00",
+  "fetchedAt": "2026-07-07T18:04:43.408900+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20620,23 +20620,6 @@
   },
   "news": [
     {
-      "title": "China breaks step with global markets, and investors buy in",
-      "source": "Reuters",
-      "publishedAt": "2026-07-07T01:10:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQ3h0djZqeHZyVGNZTGlJbXFQMmhSQ1NobzBncUpLV2dLcnBJV0JVQWhjUlhQcDZCVWVxSzJiSWNlelJtU1NoUkt3eTkxS1FBRUhZbWx6aExMLWtrXy1lVkZ1ZVE0blFHc1BRUmc4MDBoWVAwS3pDSjRFeDNBYUUyd3pqOU42R2ZpM0FUV19SVEFmejN2ZElnSThpbUExX1l2?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
-      ]
-    },
-    {
       "title": "Will the Federal Reserve Crush the Small-Cap Stock Revival?",
       "source": "24/7 Wall St.",
       "publishedAt": "2026-07-07T12:03:21+00:00",
@@ -20652,6 +20635,41 @@
         "Aktien",
         "US-Dollar",
         "Gold"
+      ]
+    },
+    {
+      "title": "Tanker attacks send oil higher, stocks hit by AI jitters",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-07T15:57:54+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSnBnbDBDXzlvdTZSbXZROTN2dE14YUktU3BCaVIwWVdfeElzbGQ1NFB5cjNUalhVbWxJc253OGZIaWk4YmNnQy1GYi1pLU9SSmx0THpRLVd3bVByWmxtR2pYSGp4eHBRZjNlX2dONGsxVzREdFZaRGgxcU9QVFlVTW93TWVma2hsN1FsRWFYWWpNWi1WU3c?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "The Stock Market Must Decide If the Tech Selloff Is a Bubble Popping or Just Fatigue",
+      "source": "Barron's",
+      "publishedAt": "2026-07-07T17:35:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNGZhWXR0dUR4VU1iblB4cndtWC1VWHcweFN2YjRUaXVBLTh4c2R1dENNVTNPZXN5MVl2VlBmNEloWjhyNUZ4TV9VcWpjc0I0RmIxRXhyQ3R2U09iTE8xTE5vZFFlclppckNTV2FySFRXa0xoZ1dFOVgxdjF6cXNqU3oxNA?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
@@ -20690,37 +20708,21 @@
       ]
     },
     {
-      "title": "Stock market today: Dow hits record, S&P 500 jumps to cap best quarter since 2020 amid massive chip rally",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-07-06T21:21:49+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxObVhOMHZ6bXFMU0lFU2J6S2R4b2w5YkthUmRYdWh1ZmRna3Nqck9QVzJUU0RESmtJQ1ZyeHRZelhBaEQwMFVYcjlpbkgxWGtnejJ3NVE5ZHo1MHdndE0yRm11ZmptWXk4Yk5yTnlFdGh0ckh5bVJlRU9zNFhFb0QyOHBOZGp5NXVadFA5RUFDZ0JOSVlzckpqc2FDb21YbG1YZTJyVjFIcHJHdXFXOFdRRHNvSlQ5R2JMQzJxdTNBRV9IZjhKck5SeHpXWC1IY1JlTE9tVHc4SWdDMVZEcEl0Tk45bXFwcDBRYUp4RA?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Wall Street trades lower as chip stocks retreat; oil, yields climb (DJI:)",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-07-07T16:02:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVXM1SUItRXdJVkxzbTB0emlPN1gtRzZUa2szV1NDZW9UNFJ1NnA1WWJOeE41R0trVFJQU1drYlBVcVExS2NOS2ZBQzloZjlVNlFPWkU5WlV1OGlQWXllVXFyVFZGRmllVUR5VFhRZ3J4WHlETmk2UE4xOG9LN0hza3BpYXZvRzda?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "The Stock Market Just Finished Its Best Quarter in Years. Here's What History Says Is Coming Next.",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-07-07T07:31:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcndJSFQxTGJNMXE1Mlh0Slg0VVpsZ3FJZVNHR1kwVzcyUG9aN0dYeFo1QkhWTFl5dUdGRm1XRUVUTHVKWV8xZno2VWhpN29sYVlIX21ZYzdyWnExMlRoY0huVUlSWU9SNjBkRVRocEdTUU41bldXYllEajN1ZTBVLTNfUVYybVhzdzh1WmxwZ3hUNk04QWlr?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     }
   ],
@@ -20826,7 +20828,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-07-07T14:49:37.448674+00:00",
+      "dataAsOf": "2026-07-07T18:04:43.408900+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
