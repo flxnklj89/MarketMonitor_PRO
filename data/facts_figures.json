@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T18:04:49.438717+00:00",
+  "generatedAt": "2026-07-07T21:34:55.180028+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6132,7 +6132,7 @@
     {
       "title": "Tanker attacks send oil higher, stocks hit by AI jitters",
       "source": "Yahoo Finance",
-      "publishedAt": "2026-07-07T15:57:54+00:00",
+      "publishedAt": "2026-07-07T20:38:29+00:00",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSnBnbDBDXzlvdTZSbXZROTN2dE14YUktU3BCaVIwWVdfeElzbGQ1NFB5cjNUalhVbWxJc253OGZIaWk4YmNnQy1GYi1pLU9SSmx0THpRLVd3bVByWmxtR2pYSGp4eHBRZjNlX2dONGsxVzREdFZaRGgxcU9QVFlVTW93TWVma2hsN1FsRWFYWWpNWi1WU3c?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
@@ -6148,61 +6148,45 @@
       ]
     },
     {
-      "title": "The Stock Market Must Decide If the Tech Selloff Is a Bubble Popping or Just Fatigue",
-      "source": "Barron's",
-      "publishedAt": "2026-07-07T17:35:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNGZhWXR0dUR4VU1iblB4cndtWC1VWHcweFN2YjRUaXVBLTh4c2R1dENNVTNPZXN5MVl2VlBmNEloWjhyNUZ4TV9VcWpjc0I0RmIxRXhyQ3R2U09iTE8xTE5vZFFlclppckNTV2FySFRXa0xoZ1dFOVgxdjF6cXNqU3oxNA?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Chip Rout Drags Nasdaq 100 Lower, Oil Climbs: Stock Market Today",
+      "source": "Benzinga",
+      "publishedAt": "2026-07-07T17:20:32+00:00",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQN0Y2WFd6MWxEN3Rndk5aZFpPdXFBdnNSdEliSThmZXhwUUpXdlEtXzFwLWxXcDdzdzluUGNFcWktSTRWa19tSzdnX1BlNmNQRERGRU03RThjQVB1THFxQ3NBOHRHcjFObU1BcE1hYzBrczB1NElETGFta1g2X2NmZkFsdnUtcWZTOG1zZUtnNkJVSTlJQzAxX2JUQjNKLVpFS0llNDM3dkRNWGlOOGVLSmF4N3hEaXFiNy1vTk5lcHhCR0VFS3VZdmt1c2ozUQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
-      "title": "Forget AI Bubble Fears. The Stock Market Keeps Getting Cheaper",
-      "source": "inc.com",
-      "publishedAt": "2026-07-07T10:12:19+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPb3BoU2dzWVRvMmY1SGNlN0hpSC1faDB4am14UVpkOFhvRHN6bEZPRG1qRU5GWFBYWldGZV9YQzZIMUE0R044LU12QTFJVEprRlVFallubDd2bzZveXZxYVBfZzBaN0xhNmRzWklOVmFXQ2dCNFhXUG9aY3VEOUswMlJoTVBPRHBRdDI0SE5zQlp2ZDV1NDgtQXNHaTVkXzk1NUZn?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Tidewater, Magnolia Oil & Gas, and Cactus Shares Are Soaring, What You Need To Know",
+      "source": "StockStory",
+      "publishedAt": "2026-07-07T20:49:45+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPTkIyUWU5eGhXYW1kekdxcjRDS2FINmhGNzBDU3ZiV3hvSldWeDhJUFBwUF9Oai1WZEI1Y01WWmp6VlpLc2plZXlxeFBHRTRMcThkakJkbmNIMEFxRWhoNGxPaHJRWmtkaGNicUZTUmVQNXJrdzN1VThJV0kyT1NjVFhhWkxVd092VExuclNnbDZuQmFTMndrN1J4R19GVTV0RjV3Um5BeDZ4MmhpXzRzRmtGT19Sb2ZYOE4xd29JaDN3a2R1aDU2aFVSZ1czelZ2d0s4Nm9keHM?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
-      "title": "How the Federal Reserve Learned to Love Bubbles",
-      "source": "Michael Hudson",
-      "publishedAt": "2026-07-07T12:17:45+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxON3h5bF95X1p4dHJEeU1LSk8yLTFGNlhnYjZLb3NLcFdyWjM1SlU2RjByYTFVbGxTMnpfY25pZVRFb1RGNlhzZHQyLUMydFhHX2lvajQ0ZVhjWExxVXZ6UWhEWEhpSEp1SmdxanB1cjRYQVNXM19BS2NTZTVGV053SEtJRXFVR0xMMTc4?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "Wall Street trades lower as chip stocks retreat; oil, yields climb (DJI:)",
+      "title": "Wall Street closes lower on oil spike, chip rout (DJI:)",
       "source": "Seeking Alpha",
-      "publishedAt": "2026-07-07T16:02:00+00:00",
+      "publishedAt": "2026-07-07T20:08:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVXM1SUItRXdJVkxzbTB0emlPN1gtRzZUa2szV1NDZW9UNFJ1NnA1WWJOeE41R0trVFJQU1drYlBVcVExS2NOS2ZBQzloZjlVNlFPWkU5WlV1OGlQWXllVXFyVFZGRmllVUR5VFhRZ3J4WHlETmk2UE4xOG9LN0hza3BpYXZvRzda?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
@@ -6215,6 +6199,23 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Financials Stocks Are Charging Into Q2 Earnings. Why Wall Street Sees More Gains Ahead",
+      "source": "Investopedia",
+      "publishedAt": "2026-07-07T17:06:47+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVVB5UWJMeS1LYVoza2hxUEZKRzZOeDRZbXJNUi1WYTJoZDRnNFJkejlsa0NMVHA2OFZNUFgzSS1Va2U5dl81YVNrUHNoTDJrcFlGSXlyb0NaTERBNTJuVVprZ2FOSV9yUzRKZkhhNHVJUXRib203c2tOWktrWDJyV3ZaUGVGZkxLQU5jcF9SSXREU3JfX3d0cWRXbGVoSXVaOGNES19ROEpUMkhQZ1FxYlU1QUVrcFNPZGV2SGpXSHY?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     }
   ]
