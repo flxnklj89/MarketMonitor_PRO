@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-09T03:50:41.984196+00:00",
+  "fetchedAt": "2026-07-09T07:42:14.289759+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20616,6 +20616,23 @@
   },
   "news": [
     {
+      "title": "Tensions with Iran add fresh uncertainty to an already shaky global economy",
+      "source": "NPR",
+      "publishedAt": "2026-07-08T17:07:22+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPS2lrWS1DSHFVdzNGdU1TcnJqNHpEYmxFU1J4T3prS09QaGNpTGE1SlA5LXZabUZIYXdaSWNuQjZZemxKMzlrbUV5dTh1OGZSSUFvdkNsX0prYlhNajAxNV9YRmwwQTIxcTgyV0xIeWpHVVZnejBJU3dnTnpQNW81SlNfek5IdjY2c29HdmdBUmhYTTBqMUtYdWRYTQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "US stock markets fall amid Iran strikes and potential higher interest rates",
       "source": "The Guardian",
       "publishedAt": "2026-07-08T20:35:00+00:00",
@@ -20651,6 +20668,24 @@
       ]
     },
     {
+      "title": "Futures, Oil Prices Rise; 5 Stocks To Watch",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-07-09T05:19:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPckpmRl9ZaEQ5Z3lmLVZuN2VZeHFYdFEyNG5YZzU2bWZ5NHMxMzA5UGxzeThERVMtYnNwOGdLdXQ3QV9IYV9VMUtSQzhxdTBnc3o1RFJmUDlEQlNxNjdPVVlHbG42LVEyOEptQmdYbURLVXBzV0JaYlhqNFgwczhXRlJpSjR4Y2R3a203eHE4djVCVmoxcGdFSW9MdW5hQkFEdTZZS1NCbllEM3gwUFFqYzduNUVwd0M4NVBwTENhblJ2RzRXMHc?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
       "title": "Stock market today: Nasdaq rises, Dow and S&P 500 retreat as oil prices climb on renewed US-Iran tensions",
       "source": "Yahoo! Finance Canada",
       "publishedAt": "2026-07-08T20:01:37+00:00",
@@ -20673,41 +20708,6 @@
       "source": "FOX 5 New York",
       "publishedAt": "2026-07-08T14:54:11+00:00",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE04bUU5cDItbG1NUEJzcExrUTRXSVJmS1haRlFrRFlZSzZVYlJLMTQ1a09uZXhCT0RMSTdDbXd3RTg4a0x6MWhVcy1ueFFyckZZSHZ6aUE5THhMcXVZQ2fSAWNBVV95cUxQem1yT3VVWVRPcGgyMUFIMkVNWmZNaUZlc1JHNGY5dTdlZlhNbklhUnp3SEtQY0xaekJDeW40SFBrSm9uWjE5U2FyaUhJeUZHM3hsVzlvclhVa04xa2lWNG1vSTQ?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Tensions with Iran add fresh uncertainty to an already shaky global economy",
-      "source": "NPR",
-      "publishedAt": "2026-07-08T17:07:22+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPS2lrWS1DSHFVdzNGdU1TcnJqNHpEYmxFU1J4T3prS09QaGNpTGE1SlA5LXZabUZIYXdaSWNuQjZZemxKMzlrbUV5dTh1OGZSSUFvdkNsX0prYlhNajAxNV9YRmwwQTIxcTgyV0xIeWpHVVZnejBJU3dnTnpQNW81SlNfek5IdjY2c29HdmdBUmhYTTBqMUtYdWRYTQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Oil prices surge, stocks slide after Trump says Iran ceasefire is ‘over’",
-      "source": "NBC News",
-      "publishedAt": "2026-07-08T21:02:11+00:00",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcFJGM3EyYnhPN3ZsY2hPcmpBMHlaNExqUXJEb0M0QktaazczNDdWSXJ3TFZMY0xsczBHVzktS0tScnVqbzdBVVdZUDFsRDVkcFhyZWF5U1NiV2JWdmxidlh0WmhabmhLc0FoRWdFdWF4dWVWMTBvcU1zMi1wR05xaGF1TmdmMnZWOGZxbmUxaUtfU2JJVkM1SUhmbUhzR01tVWRDSU9QOGlXSVJ4VzNzZWZPMzJlS1NUMlZfcVd3?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20824,7 +20824,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-07-09T03:50:41.984196+00:00",
+      "dataAsOf": "2026-07-09T07:42:14.289759+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
