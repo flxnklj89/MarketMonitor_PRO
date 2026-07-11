@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T17:03:19.547665+00:00",
+  "generatedAt": "2026-07-11T20:57:07.087158+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,9 +6112,26 @@
   },
   "news": [
     {
+      "title": "The U.S. stock market is becoming ‘too big to fail’",
+      "source": "MarketWatch",
+      "publishedAt": "2026-07-11T15:47:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPT0w4WVRxd0RGY3Nva0ROSXBWemZBT3A0VnNTcWctd291VUw3MVBqeDh0Uk93c25jbTJ1Z3YzLUMxdER3UHpySm1pTHZkQ2haZm80aWVSMkRWOV84MTJlcXh0bVJBbnhUY0JMZHdJS19wTmt4d2RBMkdjRzlHaEh4UktETkdQLXJKU0JzTDNEWmF0ZG80eUE?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "Market Sets Up, 5 Stocks Near Buy Points; Big Earnings Ahead",
       "source": "Investor's Business Daily",
-      "publishedAt": "2026-07-11T15:41:00+00:00",
+      "publishedAt": "2026-07-11T18:19:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNelVxeE1aOEEwd2hrc1RQazVvMWFNampFVXdNeUtFQmlnMS12empNVTZ1NEZGNDA1Q2I1U1RBeGYweWZaWE5JbFE5Sy02YnI2a3NyRjZwQ3VXNDNVeHFoWEVUbEZNRk40V2NJWVRYekVBZGNFWnRtbHBuRHJvU0d6SkQ5RlhHV1p6NS04SzRfUWtFVlNqTXJraWYwUzRvaUVsWGdiYmVneWtQUVliMnBkeHJWV0tKLXF3U256REFrTlJad3NtUy1FZjk5OXhCeXNYSDljbFRneEc2OU0?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
@@ -6126,23 +6143,6 @@
         "Aktien",
         "Sektoren",
         "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Morgan Stanley says stock market rally faces $1.2 trillion question",
-      "source": "Yahoo Finance Singapore",
-      "publishedAt": "2026-07-11T16:03:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVTBtSjhDeXhoYUpmemZfZHpnVDFobWRVaDRKRVNFRUZLNF90cDZFcENLajhZSGlyZE5yTDhXT1BPcGozTm53SVcxUTZBTHhvRU82Q2sxQ01kQ1R2OG1Bd2kxRnlhMnduWUpmT29GNlhnTFBzNTBkRmJXTWNYekJvSkhuT2JOaDRh?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     },
     {
@@ -6163,40 +6163,6 @@
       ]
     },
     {
-      "title": "Meta Leads Again as Markets Look Forward to Earnings: Stock Market Today",
-      "source": "Kiplinger",
-      "publishedAt": "2026-07-10T20:11:38+00:00",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMnhVOHFZRW8yRUU3U2hRQTdrRkVjQk5nVUVJVEZTek1KOUFNX0JndEZ3MjJzcEdxRTRCOVFXTlVEdmlLOExGMDhUSzRzSGdaQkV5Vko3WjF3RU8xMXlCczZzU3ZKN1RFaXdyVHA5bnhuOW04NGNkMDRJUVg0YmxSalpGczlKaVFCSkh0dC1DSl9fcm5KRnJVQ1pEQjlxVV9ETzJCR2sxS1FKQXBfcU42R2M3WjI?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "US stocks rise as Wall Street shows it’s still hungry for AI winners",
-      "source": "AP News",
-      "publishedAt": "2026-07-10T20:48:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUE94dmZybFcyTlJhRnZNYi1BVGJ0VnZhZURrYnpVT0NGOGo2WTdXZ252aXZTZ3hvTEYwTWdWT0lJQklMODBreW1FYjVISWhXNTVVWGEtNTgyUGk5ampEMlBIbTE4TGx3c2VJS2kzOE05cW1XNHY4dERoeTFvRWVzUHZveld4Ri1kR2JXWXozVTVBbVU?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
       "title": "Are US Stock Market Valuations Outpacing Fundamentals?",
       "source": "Goldman Sachs",
       "publishedAt": "2026-07-10T19:01:05+00:00",
@@ -6211,6 +6177,41 @@
         "Aktien",
         "Anleihen",
         "Währungen"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence (AI) Stocks Have Crushed the Broader Market in 2026. Here Are 2 Top Stocks to Buy Before They Soar Higher This Earnings Season and Beyond",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-07-11T19:46:39+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQnYxaGh0Y2NyTnRpWXRTWEZUN002Nkl2d1hEV25GaDJUSDM4ZEdUMko2Z0JwN3dkQUM3MmVMQ3VNYXVGNXFkSlRTN09pVHFfaUdTSHBfam5NVUZ4dXp2NWJRaXM0ZzdnZC02VDNiYllfUEQ3RXBoQ0c3dGVRQVFDTkxsRlZMLV96eDRPWEJmOXBEVW5sZmVnZg?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Is It Too Late to Buy Oil Stocks? Here’s What the Options Market Says Happens Next",
+      "source": "InvestorPlace",
+      "publishedAt": "2026-07-11T14:55:39+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSUkwazRJMDZiSzJJTEdkQ1gwTVJoMnRQUS1fM3ZhWDhHLU5vRkMtald0dGtWNExDUkVPcUNxSDl2djRnWkZvZmVsTVZ1Z3RVbVloWDlDbTFCalVGSHVtYWVobWViTmw2bWZoRG05amR6UFJPMHA5Wlg5am1MbnBFeHRSem5YNmNmWnExekYwam94WHAwaERMZEgxdDJxOVc4ZGhXR3BCekxsSzhRal8tajBxT0tsdw?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     }
   ]
