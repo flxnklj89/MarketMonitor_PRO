@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-11T06:19:00.549317+00:00",
+  "fetchedAt": "2026-07-11T09:42:46.654798+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20662,6 +20662,23 @@
       ]
     },
     {
+      "title": "Meta Leads Again as Markets Look Forward to Earnings: Stock Market Today",
+      "source": "Kiplinger",
+      "publishedAt": "2026-07-10T20:11:38+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMnhVOHFZRW8yRUU3U2hRQTdrRkVjQk5nVUVJVEZTek1KOUFNX0JndEZ3MjJzcEdxRTRCOVFXTlVEdmlLOExGMDhUSzRzSGdaQkV5Vko3WjF3RU8xMXlCczZzU3ZKN1RFaXdyVHA5bnhuOW04NGNkMDRJUVg0YmxSalpGczlKaVFCSkh0dC1DSl9fcm5KRnJVQ1pEQjlxVV9ETzJCR2sxS1FKQXBfcU42R2M3WjI?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
       "title": "Are US Stock Market Valuations Outpacing Fundamentals?",
       "source": "Goldman Sachs",
       "publishedAt": "2026-07-10T19:01:05+00:00",
@@ -20693,23 +20710,6 @@
         "Aktien",
         "Anleihen",
         "Währungen"
-      ]
-    },
-    {
-      "title": "Meta Leads Again as Markets Look Forward to Earnings: Stock Market Today",
-      "source": "Kiplinger",
-      "publishedAt": "2026-07-10T20:11:38+00:00",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMnhVOHFZRW8yRUU3U2hRQTdrRkVjQk5nVUVJVEZTek1KOUFNX0JndEZ3MjJzcEdxRTRCOVFXTlVEdmlLOExGMDhUSzRzSGdaQkV5Vko3WjF3RU8xMXlCczZzU3ZKN1RFaXdyVHA5bnhuOW04NGNkMDRJUVg0YmxSalpGczlKaVFCSkh0dC1DSl9fcm5KRnJVQ1pEQjlxVV9ETzJCR2sxS1FKQXBfcU42R2M3WjI?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
       ]
     },
     {
@@ -20832,7 +20832,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-07-11T06:19:00.549317+00:00",
+      "dataAsOf": "2026-07-11T09:42:46.654798+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
