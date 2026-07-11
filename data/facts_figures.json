@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T03:18:16.913294+00:00",
+  "generatedAt": "2026-07-11T06:19:08.615432+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -43,10 +43,10 @@
   "technicalTriggers": [
     {
       "label": "50T vs. 200T",
-      "value": 9.4,
+      "value": 9.5,
       "unit": "%",
       "tone": "l",
-      "status": "50T liegt bei +9.4 % gegenüber dem 200T. Schlusskurs 26207, 50T 26016, 200T 23774. NASDAQ Composite (Fallback) über 50T (26016) und 200T (23774). Trendstruktur intakt.",
+      "status": "50T liegt bei +9.5 % gegenüber dem 200T. Schlusskurs 26282, 50T 26048, 200T 23792. NASDAQ Composite (Fallback) über 50T (26048) und 200T (23792). Trendstruktur intakt.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -56,10 +56,10 @@
     },
     {
       "label": "RSI (14)",
-      "value": 53.6,
+      "value": 54.6,
       "unit": "",
       "tone": "m",
-      "status": "RSI (14) bei 53.6. Kein Extremniveau in beide Richtungen.",
+      "status": "RSI (14) bei 54.6. Kein Extremniveau in beide Richtungen.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -69,10 +69,10 @@
     },
     {
       "label": "Drawdown vom Hoch",
-      "value": -3.3,
+      "value": -3.0,
       "unit": "%",
       "tone": "l",
-      "status": "-3.3 % vom Hoch. Kaum struktureller Druck.",
+      "status": "-3.0 % vom Hoch. Kaum struktureller Druck.",
       "history": []
     }
   ],
@@ -702,12 +702,6 @@
   "charts": {
     "chartLabel": "NASDAQ Composite",
     "qqq": [
-      {
-        "date": "2025-04-29",
-        "close": 17461.32,
-        "ma50": 17631.08,
-        "ma200": 18328.4
-      },
       {
         "date": "2025-04-30",
         "close": 17446.34,
@@ -2501,13 +2495,15 @@
         "close": 26206.89,
         "ma50": 26016.13,
         "ma200": 23774.19
+      },
+      {
+        "date": "2026-07-10",
+        "close": 26281.61,
+        "ma50": 26048.49,
+        "ma200": 23791.66
       }
     ],
     "rsi": [
-      {
-        "date": "2025-04-29",
-        "value": 54.8
-      },
       {
         "date": "2025-04-30",
         "value": 54.6
@@ -3703,6 +3699,10 @@
       {
         "date": "2026-07-09",
         "value": 53.6
+      },
+      {
+        "date": "2026-07-10",
+        "value": 54.6
       }
     ],
     "vix": [
@@ -6129,20 +6129,20 @@
       ]
     },
     {
-      "title": "US stocks rise as Wall Street shows it’s still hungry for AI winners",
-      "source": "AP News",
-      "publishedAt": "2026-07-10T20:48:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUE94dmZybFcyTlJhRnZNYi1BVGJ0VnZhZURrYnpVT0NGOGo2WTdXZ252aXZTZ3hvTEYwTWdWT0lJQklMODBreW1FYjVISWhXNTVVWGEtNTgyUGk5ampEMlBIbTE4TGx3c2VJS2kzOE05cW1XNHY4dERoeTFvRWVzUHZveld4Ri1kR2JXWXozVTVBbVU?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Market Sets Up, 5 Stocks Near Buy Points; Big Earnings Ahead",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-07-11T02:39:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNelVxeE1aOEEwd2hrc1RQazVvMWFNampFVXdNeUtFQmlnMS12empNVTZ1NEZGNDA1Q2I1U1RBeGYweWZaWE5JbFE5Sy02YnI2a3NyRjZwQ3VXNDNVeHFoWEVUbEZNRk40V2NJWVRYekVBZGNFWnRtbHBuRHJvU0d6SkQ5RlhHV1p6NS04SzRfUWtFVlNqTXJraWYwUzRvaUVsWGdiYmVneWtQUVliMnBkeHJWV0tKLXF3U256REFrTlJad3NtUy1FZjk5OXhCeXNYSDljbFRneEc2OU0?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
         "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     },
     {
@@ -6163,20 +6163,20 @@
       ]
     },
     {
-      "title": "Market Sets Up With Big Earnings Due; Five Stocks Near Buy Points",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-07-10T21:43:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNelVxeE1aOEEwd2hrc1RQazVvMWFNampFVXdNeUtFQmlnMS12empNVTZ1NEZGNDA1Q2I1U1RBeGYweWZaWE5JbFE5Sy02YnI2a3NyRjZwQ3VXNDNVeHFoWEVUbEZNRk40V2NJWVRYekVBZGNFWnRtbHBuRHJvU0d6SkQ5RlhHV1p6NS04SzRfUWtFVlNqTXJraWYwUzRvaUVsWGdiYmVneWtQUVliMnBkeHJWV0tKLXF3U256REFrTlJad3NtUy1FZjk5OXhCeXNYSDljbFRneEc2OU0?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "US stocks rise as Wall Street shows it’s still hungry for AI winners",
+      "source": "AP News",
+      "publishedAt": "2026-07-10T20:48:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUE94dmZybFcyTlJhRnZNYi1BVGJ0VnZhZURrYnpVT0NGOGo2WTdXZ252aXZTZ3hvTEYwTWdWT0lJQklMODBreW1FYjVISWhXNTVVWGEtNTgyUGk5ampEMlBIbTE4TGx3c2VJS2kzOE05cW1XNHY4dERoeTFvRWVzUHZveld4Ri1kR2JXWXozVTVBbVU?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
