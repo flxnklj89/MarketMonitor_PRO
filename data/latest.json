@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-11T13:39:01.163957+00:00",
+  "fetchedAt": "2026-07-11T17:03:13.465528+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20628,10 +20628,10 @@
   },
   "news": [
     {
-      "title": "The stock market looks pretty cheap based on future earnings expectations. Don't be fooled",
-      "source": "CNBC",
-      "publishedAt": "2026-07-10T16:05:13+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZHNROFNfRzdPM3p1UVVsUDJNckZMdVJiaktQNGk3NUUyeE9QUXBqa0V1ZDBFUm5yVXRqeml6YTZMMm1xNGhmYlRjWnVfdGk0RlFMS2VDcEF2dUJmQ053QkRKOVhJeFZUQjFiOFVhVU8yOV90NDU5NXREbERrNlROeFY3MXJ2SmNaZG1oS2Iwdk1RQUpGYjRDb2J1QklTX1AyWGkycVMyZFk1RDhQUjA3ZE1qSVhKQnItd1B5ZWRTRWJINFU?oc=5",
+      "title": "Market Sets Up, 5 Stocks Near Buy Points; Big Earnings Ahead",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-07-11T15:41:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNelVxeE1aOEEwd2hrc1RQazVvMWFNampFVXdNeUtFQmlnMS12empNVTZ1NEZGNDA1Q2I1U1RBeGYweWZaWE5JbFE5Sy02YnI2a3NyRjZwQ3VXNDNVeHFoWEVUbEZNRk40V2NJWVRYekVBZGNFWnRtbHBuRHJvU0d6SkQ5RlhHV1p6NS04SzRfUWtFVlNqTXJraWYwUzRvaUVsWGdiYmVneWtQUVliMnBkeHJWV0tKLXF3U256REFrTlJad3NtUy1FZjk5OXhCeXNYSDljbFRneEc2OU0?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -20645,10 +20645,27 @@
       ]
     },
     {
-      "title": "Market Sets Up, 5 Stocks Near Buy Points; Big Earnings Ahead",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-07-11T02:39:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNelVxeE1aOEEwd2hrc1RQazVvMWFNampFVXdNeUtFQmlnMS12empNVTZ1NEZGNDA1Q2I1U1RBeGYweWZaWE5JbFE5Sy02YnI2a3NyRjZwQ3VXNDNVeHFoWEVUbEZNRk40V2NJWVRYekVBZGNFWnRtbHBuRHJvU0d6SkQ5RlhHV1p6NS04SzRfUWtFVlNqTXJraWYwUzRvaUVsWGdiYmVneWtQUVliMnBkeHJWV0tKLXF3U256REFrTlJad3NtUy1FZjk5OXhCeXNYSDljbFRneEc2OU0?oc=5",
+      "title": "Morgan Stanley says stock market rally faces $1.2 trillion question",
+      "source": "Yahoo Finance Singapore",
+      "publishedAt": "2026-07-11T16:03:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVTBtSjhDeXhoYUpmemZfZHpnVDFobWRVaDRKRVNFRUZLNF90cDZFcENLajhZSGlyZE5yTDhXT1BPcGozTm53SVcxUTZBTHhvRU82Q2sxQ01kQ1R2OG1Bd2kxRnlhMnduWUpmT29GNlhnTFBzNTBkRmJXTWNYekJvSkhuT2JOaDRh?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "The stock market looks pretty cheap based on future earnings expectations. Don't be fooled",
+      "source": "CNBC",
+      "publishedAt": "2026-07-10T16:05:13+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZHNROFNfRzdPM3p1UVVsUDJNckZMdVJiaktQNGk3NUUyeE9QUXBqa0V1ZDBFUm5yVXRqeml6YTZMMm1xNGhmYlRjWnVfdGk0RlFMS2VDcEF2dUJmQ053QkRKOVhJeFZUQjFiOFVhVU8yOV90NDU5NXREbERrNlROeFY3MXJ2SmNaZG1oS2Iwdk1RQUpGYjRDb2J1QklTX1AyWGkycVMyZFk1RDhQUjA3ZE1qSVhKQnItd1B5ZWRTRWJINFU?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -20679,23 +20696,6 @@
       ]
     },
     {
-      "title": "Are US Stock Market Valuations Outpacing Fundamentals?",
-      "source": "Goldman Sachs",
-      "publishedAt": "2026-07-10T19:01:05+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVm1LUGF1eHpVcVlORmRMWHlrS0x4My1FQ2lldWdQUHlxMXFTMkRSQlJUVzA5UDROeDdfNkpIVENuUUxGeFVSdlhnMHFBOVU4T0YzUnNNeC1HQ1lWaFdGZzJsemRMREdRR1Uzc0RrUnFTbWo1SnE1RDhGdVZnX0RZdG50XzVadGhZVkhZOTBCcWtURVpmNGpWV3VrSk96NnIyYkE?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
       "title": "US stocks rise as Wall Street shows it’s still hungry for AI winners",
       "source": "AP News",
       "publishedAt": "2026-07-10T20:48:00+00:00",
@@ -20713,10 +20713,10 @@
       ]
     },
     {
-      "title": "U.S. Stock Market Ticks Higher With Memory Chip Maker’s Big Debut",
-      "source": "WSJ",
-      "publishedAt": "2026-07-10T21:20:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQb2ljV0ZIOWRBU2JOR2Ffak5HNzlMMVJmUklKd0VMclpab3FJSGJxdVBRWWdiYjZubVBYQzB4dUlMR0M0X0RVa0l5RjgwODZOamVxeVlpUERfU2MwMTlucEFEUUQ0eU9kMlJGS1hmZFMyTkJrdTRjd0ZjR2thVWRTbE9oeTVqaGhDb2JlZDEzU2lnOWk2VF91SlJYUGM4Z0I2WjBGSHJVTGNMNVU?oc=5",
+      "title": "Are US Stock Market Valuations Outpacing Fundamentals?",
+      "source": "Goldman Sachs",
+      "publishedAt": "2026-07-10T19:01:05+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVm1LUGF1eHpVcVlORmRMWHlrS0x4My1FQ2lldWdQUHlxMXFTMkRSQlJUVzA5UDROeDdfNkpIVENuUUxGeFVSdlhnMHFBOVU4T0YzUnNNeC1HQ1lWaFdGZzJsemRMREdRR1Uzc0RrUnFTbWo1SnE1RDhGdVZnX0RZdG50XzVadGhZVkhZOTBCcWtURVpmNGpWV3VrSk96NnIyYkE?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20832,7 +20832,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-07-11T13:39:01.163957+00:00",
+      "dataAsOf": "2026-07-11T17:03:13.465528+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
