@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T09:55:55.573742+00:00",
+  "generatedAt": "2026-07-12T13:39:15.655287+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,6 +6112,24 @@
   },
   "news": [
     {
+      "title": "The stock-market rally now hinges more on AI than oil",
+      "source": "MarketWatch",
+      "publishedAt": "2026-07-12T13:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObnJZUzNXSEpLYXQzeXpxSEsxbVBlbldsVXVKWFM5ZkpVY09Rb1FDbnJxdE50Nmx3eEVob1JYREI3RkUycnd6WnhfVkFveW5lS0tVdTIzVDJvMzF0ZjNjSktRdDBVbm11WXhGSTRYYjNQQktfdHRRclR1UGtBMm1wRzZPakpuWTdjQUJ5RnZTOGVFajBibGllRFRaNmo?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
       "title": "Market Ready To Go? 5 Stocks Near Buy Points; Big Earnings Loom",
       "source": "Investor's Business Daily",
       "publishedAt": "2026-07-12T03:08:00+00:00",
@@ -6126,23 +6144,6 @@
         "Aktien",
         "Sektoren",
         "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "The U.S. stock market is becoming ‘too big to fail’",
-      "source": "MarketWatch",
-      "publishedAt": "2026-07-11T15:47:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPT0w4WVRxd0RGY3Nva0ROSXBWemZBT3A0VnNTcWctd291VUw3MVBqeDh0Uk93c25jbTJ1Z3YzLUMxdER3UHpySm1pTHZkQ2haZm80aWVSMkRWOV84MTJlcXh0bVJBbnhUY0JMZHdJS19wTmt4d2RBMkdjRzlHaEh4UktETkdQLXJKU0JzTDNEWmF0ZG80eUE?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     },
     {
@@ -6198,20 +6199,20 @@
       ]
     },
     {
-      "title": "Tech stocks capture China’s elderly retail investors amid faith in AI, chips",
-      "source": "South China Morning Post",
-      "publishedAt": "2026-07-12T03:00:07+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZW12cGgzS1FNWTdwS1JNN0FfYlJkM3lBSmxxSXltcTZBQmVELUVpdG5vcjh5TFZfdXVOUjhFaVdibldIU2o1cUl4Wm9iMFVEUmdsN2syNzYwS0thVDEtQkY3SWV5R3IyMFFUeDBVV0dFVS16Z19TOFQtUzBqdVRKWGhHUGl3QWVIRXUxakpNZml6eGFaR2o3amRQQ0VHdkJtMkd4bkVab0RsNWpYOUIxa3o5VFNOalBFd1Y4MVUzY2REbjlZcnFCRkZ2T2psMHozTEHSAdIBQVVfeXFMT1Y0M1RkMjdLZXNjN01vaUpUTklyV3JRVFRuQ1hxUlhUdEI3OEVNaDJsSC1EVkcwd2pLQXRHU0RMTldDWlpNSXE4TGRPanhyNUNjY05NTGgtSzdnX01iVktKcDg0dno0bnY4czYxaExjeGV2NEFRdFBUZEM5U183YmV0ekRRemhtdmRBVTZlRXZ2WWdhbFZhYl9XOVpYUkJqYVpRYVN1TDFWNUpybGZnZ2wzRnE5aW1lYUFJYzF3SUhodlJuU1JTUFE5Uk12UTBFZUpn?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "title": "US stocks rise as Wall Street shows it’s still hungry for AI winners",
+      "source": "AP News",
+      "publishedAt": "2026-07-10T20:48:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUE94dmZybFcyTlJhRnZNYi1BVGJ0VnZhZURrYnpVT0NGOGo2WTdXZ252aXZTZ3hvTEYwTWdWT0lJQklMODBreW1FYjVISWhXNTVVWGEtNTgyUGk5ampEMlBIbTE4TGx3c2VJS2kzOE05cW1XNHY4dERoeTFvRWVzUHZveld4Ri1kR2JXWXozVTVBbVU?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     }
   ]
