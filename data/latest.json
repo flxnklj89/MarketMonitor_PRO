@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-13T17:59:03.719638+00:00",
+  "fetchedAt": "2026-07-13T21:02:13.368101+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -104,8 +104,8 @@
       "components": {
         "vix": 15.03,
         "brent": 69.56,
-        "eurusd": 1.1448,
-        "us10y": 4.54
+        "eurusd": 1.1438,
+        "us10y": 4.56
       },
       "uiLabel": "Marktstress",
       "shortText": "Verdichteter Stressmesser aus Markt- und Preisvariablen.",
@@ -147,8 +147,8 @@
       },
       "fx": {
         "label": "EUR/USD",
-        "value": 1.1448,
-        "date": "2026-07-02",
+        "value": 1.1438,
+        "date": "2026-07-10",
         "unit": "",
         "cadence": "daily",
         "series": "DEXUSEU"
@@ -158,7 +158,7 @@
       "name": "Japan",
       "score": 52.0,
       "label": "Beobachten",
-      "date": "2026-07-02",
+      "date": "2026-07-10",
       "summary": "Japan wird über Wachstum, Preisbild und Yen-Stärke gelesen. Ein schwacher Yen kann globalen Stress und importierten Preisauftrieb verstärken.",
       "driverText": "Japan wird über Wachstum, Preisbild und Yen-Stärke gelesen. Ein schwacher Yen kann globalen Stress und importierten Preisauftrieb verstärken.",
       "inflation": {
@@ -178,8 +178,8 @@
       },
       "fx": {
         "label": "JPY pro USD",
-        "value": 160.9,
-        "date": "2026-07-02",
+        "value": 161.31,
+        "date": "2026-07-10",
         "unit": "",
         "cadence": "daily",
         "series": "DEXJPUS"
@@ -189,7 +189,7 @@
       "name": "China",
       "score": 33.0,
       "label": "Stabil",
-      "date": "2026-07-02",
+      "date": "2026-07-10",
       "summary": "China wird hier über Wachstum, Preisbild und Yuan-Stärke gelesen. Schwächeres Wachstum oder sehr niedriger Preisauftrieb können globalen Industrie- und Rohstoffdruck verstärken.",
       "driverText": "China wird hier über Wachstum, Preisbild und Yuan-Stärke gelesen. Schwächeres Wachstum oder sehr niedriger Preisauftrieb können globalen Industrie- und Rohstoffdruck verstärken.",
       "inflation": {
@@ -209,8 +209,8 @@
       },
       "fx": {
         "label": "CNY pro USD",
-        "value": 6.7886,
-        "date": "2026-07-02",
+        "value": 6.7766,
+        "date": "2026-07-10",
         "unit": "",
         "cadence": "daily",
         "series": "DEXCHUS"
@@ -248,18 +248,18 @@
     {
       "label": "US 10Y",
       "icon": "📉",
-      "val": 4.54,
-      "chg": -0.02,
-      "chgPct": -0.44,
+      "val": 4.56,
+      "chg": 0.02,
+      "chgPct": 0.44,
       "unit": "%",
       "dec": 2
     },
     {
       "label": "EUR/USD",
       "icon": "💱",
-      "val": 1.1448,
-      "chg": 0.0064,
-      "chgPct": 0.56,
+      "val": 1.1438,
+      "chg": -0.0001,
+      "chgPct": -0.01,
       "unit": "",
       "dec": 4
     }
@@ -20709,10 +20709,10 @@
       ]
     },
     {
-      "title": "Stocks slip, oil rallies and bond yields rise as Gulf conflict escalates",
-      "source": "Euronext Markets: Real-time Stock Market Data | live",
-      "publishedAt": "2026-07-13T16:18:42+00:00",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbE5PR25hNGpxSkk1cWhybzJmckdHckZzdnAyNjBBNlprcmxseWNZUVpQclhKWGp0T2U0dmhYOU5BWlNiUlpCR1dTZUhyNUZNYkhzbHVwU3QxOFc5VFdXS2hjNzVOWHJiVEhzRmwtSTJXRUpremlZRUpnZ0szRDFQQWkzZmdiYTFzRkhBd0sxaEN0Y25MU0puRXZhX2dpS2V3MGdPY19jaHZ2SVpEaWM5djdB?oc=5",
+      "title": "Dow Jones Futures: Techs Fall, Oil Prices Rise Amid New U.S.-Iran Attacks; Taiwan Semi, Nvidia, Micron, Sandisk",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-07-13T12:12:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxORU9feGs2S085SEFuY29nazFKXzBHU0hjVDlBMmNzTXREN25hTEEzcXlzR2tiRTEwNVQyMDloQk5mNkxYTFlSeXI1ZmlhSW5hMWNYbFBkbjJPdUI3ZF9Ya0tuSENUVGhHNG5NSnFGQ1hYMk90ZDltNlo0c0M3QmY1X2ozNkVXYlNZZDJhY0RJeTZKN3FZUzZsb3diekV3b0dPZWl5dmhodm9LUDVZMmFYM01UVXhpVDJqdXNNalYyVzNyUlRLMGpyRjRPYXFyRXdM?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20829,7 +20829,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-07-13T17:59:03.719638+00:00",
+      "dataAsOf": "2026-07-13T21:02:13.368101+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
