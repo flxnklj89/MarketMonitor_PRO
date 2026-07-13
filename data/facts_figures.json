@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T20:57:06.287465+00:00",
+  "generatedAt": "2026-07-13T03:32:50.791078+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,20 +6112,21 @@
   },
   "news": [
     {
-      "title": "Futures Due Amid U.S.-Iran Attacks; Big Earnings Ahead",
+      "title": "Futures Fall, Oil Rises Amid Iran Attacks; Big Earnings Ahead",
       "source": "Investor's Business Daily",
-      "publishedAt": "2026-07-12T18:10:00+00:00",
+      "publishedAt": "2026-07-13T00:48:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxORU9feGs2S085SEFuY29nazFKXzBHU0hjVDlBMmNzTXREN25hTEEzcXlzR2tiRTEwNVQyMDloQk5mNkxYTFlSeXI1ZmlhSW5hMWNYbFBkbjJPdUI3ZF9Ya0tuSENUVGhHNG5NSnFGQ1hYMk90ZDltNlo0c0M3QmY1X2ozNkVXYlNZZDJhY0RJeTZKN3FZUzZsb3diekV3b0dPZWl5dmhodm9LUDVZMmFYM01UVXhpVDJqdXNNalYyVzNyUlRLMGpyRjRPYXFyRXdM?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
@@ -6165,44 +6166,28 @@
       ]
     },
     {
-      "title": "The stock market looks pretty cheap based on future earnings expectations. Don't be fooled",
-      "source": "CNBC",
-      "publishedAt": "2026-07-10T16:05:13+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZHNROFNfRzdPM3p1UVVsUDJNckZMdVJiaktQNGk3NUUyeE9QUXBqa0V1ZDBFUm5yVXRqeml6YTZMMm1xNGhmYlRjWnVfdGk0RlFMS2VDcEF2dUJmQ053QkRKOVhJeFZUQjFiOFVhVU8yOV90NDU5NXREbERrNlROeFY3MXJ2SmNaZG1oS2Iwdk1RQUpGYjRDb2J1QklTX1AyWGkycVMyZFk1RDhQUjA3ZE1qSVhKQnItd1B5ZWRTRWJINFU?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "Earnings season kicks off and a wave of inflation data: What to watch this week",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-12T14:16:28+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNX0VId0xxVXhtcXZ3emVNRkc2NUJhdGpuaVBzX3lTSWZzZjVJZk5TcHpyV05jNU1lZUlWUmxjdHd1QjdoampBa1ZJX3JwLURha2lCeVlBX0tmZ1JyZGhsVUxNUEhfS2F4eVJhYno0d3V4cnIwNFQyRUhLVUJxTzBQcW8zdWNSbWppYWdmX1lVVzZJejdOLVNqaWo5cFdFQmptYTJsc0MyYVRUSkVPRUg1ZFEwRmNsZ1Q1TEpKY3Q0R1drQQ?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
       "assets": [
+        "Staatsanleihen",
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "US-Dollar",
+        "Gold"
       ]
     },
     {
-      "title": "Big Tech Earnings: Will Massive AI Spending Pay Off?",
-      "source": "Barron's",
-      "publishedAt": "2026-07-12T18:16:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ZUlo4TUlEV19jVkdIeFI1SDlWZTVURmV5VGFHVlFaNE42VzF3Zmd3SE02eU56UU5nbXI0SVhrYWJsSUNBTjJGMjlWZFZMRHliU3BnVkU5aEFib2NLWmx0ZzRFT2dySnFyeTJXQ0pVUVN1djZJbjF3NmtCYw?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Oil prices and the stock market: Do energy prices move markets?",
-      "source": "Chase Bank",
-      "publishedAt": "2026-07-10T18:34:17+00:00",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWXZQSmFjTUctRmZpVjUyc3BzMXhXV3loX1JTcTZrVG1YMTRmaTNzeWMzcmM3RjVCeEFZZWc4SEpyVkJSZkpBSmtuVDYzT01STkwtSnd4NUtXXzg5VlZFXzZkUEFHWDZoRHZfR1I1R1pRbEg5RU80OHV2X1hyX3ZzUzhvcVItc1dzM1hxRjJBdkREY0UzaFhvRlVVdTFMcXh2b05CWkRXRzN3dHdDWTlTT2ItVnFEMFpRODFBX2tfMEltNUVQWFo4WF9CSWZaT2c?oc=5",
+      "title": "Shares skid in Asia as oil climbs on Gulf conflict",
+      "source": "Reuters",
+      "publishedAt": "2026-07-13T00:25:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQS2QwU3pIcHNXVlZZZW1SUXpNSVlUYlRILUdqUmJBODg5ZDh0Q3d4U21VZkdHZGhmZDlnNFFxYWZ1Y1AwTTJ1bTBZVlQ5ZFpSSngtMTdzNzljNExjWk15WE11MDBScXMwTmJkcG9NM2lEMjM3Z1E5ODNPWWljYnVxUko5T21tZ055eHhtMnh0bDZNZw?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -6214,6 +6199,23 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Are US Stock Market Valuations Outpacing Fundamentals?",
+      "source": "Goldman Sachs",
+      "publishedAt": "2026-07-10T19:01:05+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVm1LUGF1eHpVcVlORmRMWHlrS0x4My1FQ2lldWdQUHlxMXFTMkRSQlJUVzA5UDROeDdfNkpIVENuUUxGeFVSdlhnMHFBOVU4T0YzUnNNeC1HQ1lWaFdGZzJsemRMREdRR1Uzc0RrUnFTbWo1SnE1RDhGdVZnX0RZdG50XzVadGhZVkhZOTBCcWtURVpmNGpWV3VrSk96NnIyYkE?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     }
   ]
