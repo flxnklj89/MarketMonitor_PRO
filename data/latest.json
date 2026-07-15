@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-14T21:04:23.667265+00:00",
+  "fetchedAt": "2026-07-15T02:52:50.452353+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -66,10 +66,10 @@
       }
     },
     "sp500": {
-      "ytd": 9.58,
+      "ytd": 9.99,
       "first": 6858.47,
-      "latest": 7515.34,
-      "date": "2026-07-13",
+      "latest": 7543.59,
+      "date": "2026-07-14",
       "cadence": "daily",
       "series": "SP500",
       "uiLabel": "S&P 500 seit Jahresbeginn",
@@ -98,7 +98,7 @@
     "tradeStress": {
       "value": 17,
       "label": "Entspannt",
-      "date": "2026-07-13",
+      "date": "2026-07-14",
       "cadence": "daily",
       "method": "proxy",
       "components": {
@@ -120,7 +120,7 @@
   "globalComposite": {
     "value": 39.7,
     "label": "Stabil",
-    "date": "2026-07-14"
+    "date": "2026-07-15"
   },
   "regions": {
     "europe": {
@@ -221,9 +221,9 @@
     {
       "label": "SPX",
       "icon": "📊",
-      "val": 7515.34,
-      "chg": -60.05,
-      "chgPct": -0.79,
+      "val": 7543.59,
+      "chg": 28.25,
+      "chgPct": 0.38,
       "unit": "",
       "dec": 2
     },
@@ -936,10 +936,6 @@
       }
     ],
     "fedRate": [
-      {
-        "date": "2020-07-15",
-        "value": 0.1
-      },
       {
         "date": "2020-07-16",
         "value": 0.1
@@ -7669,10 +7665,6 @@
     ],
     "sp500": [
       {
-        "date": "2020-07-15",
-        "value": 3226.56
-      },
-      {
         "date": "2020-07-16",
         "value": 3215.57
       },
@@ -13687,6 +13679,10 @@
       {
         "date": "2026-07-13",
         "value": 7515.34
+      },
+      {
+        "date": "2026-07-14",
+        "value": 7543.59
       }
     ],
     "sentiment": [
@@ -14408,10 +14404,6 @@
       }
     ],
     "tradeStress": [
-      {
-        "date": "2020-07-15",
-        "value": 22
-      },
       {
         "date": "2020-07-16",
         "value": 22
@@ -20619,6 +20611,10 @@
       {
         "date": "2026-07-13",
         "value": 17
+      },
+      {
+        "date": "2026-07-14",
+        "value": 17
       }
     ]
   },
@@ -20626,7 +20622,7 @@
     {
       "title": "Stocks gain on softer inflation, bank results while oil rises on US-Iran hostilities",
       "source": "Reuters",
-      "publishedAt": "2026-07-14T19:54:12+00:00",
+      "publishedAt": "2026-07-14T21:13:54+00:00",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdWRaMVFPRFNSMDhQQ1dQT09aWlhsdzdhVGVFcGUzblZreE9kSms3eXc3ZjRlbVhvdUtFRW5IQ3ZSSE42bnhoTGxIaVlwbVVQR0tLUE0yY1N3NTJ2Qko2S01pNHREcW5CbmpweXpORmVRRzdCR0RDcTRjeG9oS2tqR2hIWQ?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
@@ -20696,21 +20692,20 @@
       ]
     },
     {
-      "title": "S&P 500 and Nasdaq Rise as Soft Inflation Data, Bank Earnings Buoy Sentiment",
-      "source": "GV Wire",
-      "publishedAt": "2026-07-14T16:47:03+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTDBjMGtIbWQxc0s3SEk5WnlVVURyV0ZiQUoyVjBHU2pKZ1VIcGNRU1UwbWs1azJfeE01bVRGbUZNLXFZZ3Itek1FbFo1WjNDMU5Ycjc1YlgyRFE0VENydEIzRG1KcHBBM0pxdG5hVDQzY1RTVGt0SmdGYTdvZnozM3JpcUdSOFFDS0xnTmxVNlNMOEVFZkxxLXBMQWxTRGFhU3FwYUwxZ3Y?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "title": "Stock Market Today, July 14: IBM Slides After Profit Warning Weighs on Dow",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-14T16:36:21+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbHZfalQta3FmQTZVeFJlbXhEOGNZalhscUFBN2RpeFJHV010M1g3eVpCOHplV3JXcWkwODRiZHpHV042ZUxOaWZfSnctRTNjakxBZ3JGZkk5azN0V2ZFaE5iSXZxc1RwcFlyMGY5azdXdmNyVXlWcmNvcWVaZ1otM2ZCMmU2WFlFSTVHa2dfeXI4VDJqeXc?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
-        "Staatsanleihen",
         "Aktien",
-        "US-Dollar",
-        "Gold"
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     },
     {
@@ -20835,7 +20830,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-07-14T21:04:23.667265+00:00",
+      "dataAsOf": "2026-07-15T02:52:50.452353+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
