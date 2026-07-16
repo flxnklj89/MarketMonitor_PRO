@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T21:06:48.905123+00:00",
+  "generatedAt": "2026-07-16T03:14:15.449148+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,10 +6112,10 @@
   },
   "news": [
     {
-      "title": "Stock market today: Dow, S&P 500, Nasdaq seesaw as semiconductor stocks sell off",
-      "source": "Yahoo! Finance Canada",
-      "publishedAt": "2026-07-15T16:51:28+00:00",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONWJWT2ZZc0lEeGJIZGRzYXVfZUJvRUZoNURJNlI3eFlWNlMzRXcxZ2JWZ2ViQUgwb3ZiMlVIMlQ3bjJBa2NuY2c2NWZwUXEzaFNNY25vQUxCc3h0WlB6VE16RFA1VVpNRUFSamh6eWxfZ0VwSU03bzFMNW5pOHNxdUotbUU2d0FDbUVodVZ0RXBTWGpldXl2bk93ejBRb09Q?oc=5",
+      "title": "Stock Market Today: Nasdaq Rises Despite Tumble Among Chip Leaders; Apple Paces Mag 7 Rally",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-07-15T20:31:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSWNjOXV2dHM4M2UxOE5YRjgzaXRPTXItaGtxdWM3ek5BMmFoN3NVSzFmOTNwd3praHV6WThMc25BTlRJcHA3NVBDWnhsTVRtdUxQVGdQdjAxbGxtWTlXTEtMTFBhNmNMaDg1bURycktSTzMycU5ob3FscEszdE5qZmlLODA5SFdONXhvQzNrUm93X3VGaDlUN3BmLUY0RlZpSWpKUkpwM08xbW9QaXV2Sg?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -6129,10 +6129,63 @@
       ]
     },
     {
-      "title": "Here's Why the Latest Inflation Data Was Good News for Fed Chair Kevin Warsh and the Stock Market",
+      "title": "Stock Market Today, July 15: Markets Rise on Cooler Inflation and Strong Earnings Start",
       "source": "The Motley Fool",
-      "publishedAt": "2026-07-15T14:37:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObmpwOXl2Z0NEZmF5Vm94UFJRWHp6MFdIcGhxaXNkNkpyT2J0RzRTcVVZclZ2X3d2UTRGWFVOWmFtZlNTdU9zRnJFc2pnUjhhRUdqakZlWU0xV1UwTE1YSlNrRkhkM2ZlVzJZNW5nTVhhYWpwcXVGbWFFYkthamFHU1NsNWYwWXUxNnBEeGo4SzdJYW5yeWpQMA?oc=5",
+      "publishedAt": "2026-07-15T21:56:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQMld2RVFTLTY3N3liTkpER1FsUThJa3NfOE4wS0s2bzB0RjNBUC1QRThOUWNkYlQ3RlNxTjJsLVgxZXNDMDR3UURBaTluOC03aEUwR0dTTmZtU1pMWWxFejR2Ti1Ed2lmV0FmNHRfU2ptZzh1OE5pNzRMRm5KVndwakJHR0JEU1pmbVJoS3NudjRQMjBiUm02RHZ3YUNEMmxnYVJxTXNfd0JqdGt5QWF4OFFyMnk5UVhTcmE3T05mamlQSm1GN0Y4SWJNSHZOWmJRQ3NscE9pa0RPRmpQVHpN?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Can the stock market keep reaching all-time highs?",
+      "source": "Fidelity",
+      "publishedAt": "2026-07-15T16:45:55+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUlpranFPY1JBZXBZaVIzVWJYYkR1Mzh5aE5LZTczQU5reENqYmZSaUxUTGxJVTNrYlM0cFBQUTMtU1VDUkcya2lGWEZOMjhhbXA0MmJQOVVPcEFELVN3djlweEk4RmdaY3pLTGdFZnR2aWZjeUE0el9vTkZoUGJrZ3JUS3M4QzNSdG5LQWNoVmZUSlhfcndCbVFPdTFsY3VOOXJTQkZ1OUUwYmVz?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Asian shares slump on chipmaker drag, bonds cheer cooler inflation",
+      "source": "Reuters",
+      "publishedAt": "2026-07-16T02:09:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONzEtUE5IX0ZhajhxclVEalRCODR4QWpsVTNmWHFYZkpvXy1jTy10ZGJmVEZ4SVFKT1BkSkF2OTdzTXd6WE1tWk5OMEV2ajVLOGhnaUlER3pKbnZ5SHhSdGcxSG83RTVIckFaOUp6Z0x2T1FKUGo2M0V6YzhQRnFOLTlRcw?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Wall Street ends higher on cool inflation data, strong earnings",
+      "source": "The Detroit News",
+      "publishedAt": "2026-07-15T20:24:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcTJpVEZfM3MwLUNfdEgxbWZjZ2pmdUhwbkRQZTh2aDB2QkxtRjk5XzF6aU1pdHFZclg4UnkxdFN1cWhBVmpQUTNtNmRETEVmZVN2Q1MwLW05dC1SZXU3WnltNGlGWC1kMlotbkNmaWN1OFkxSnZrQ1Ywcl9BZm44S2gyc1pDVHhzcnN4ZEJkQzh3UmhEdWZwVnBlbnZPb2xUeWloUnJfUmNyTlFMQzl2OXJhMW4zcDYxek9uVHNuRy1SNVdLRnlZczFCRHdjYXM?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -6162,60 +6215,6 @@
         "Aktien",
         "US-Dollar",
         "Gold"
-      ]
-    },
-    {
-      "title": "Wall St advances on cool inflation data, strong earnings By Reuters",
-      "source": "Investing.com",
-      "publishedAt": "2026-07-15T19:52:30+00:00",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOajNiMXlyVFFtODBndWZ5ZmxJRU9XNGhrTDZNcVh4ZzlKbXNnNVdKbDdsTU8tN0V6dEYtTlN1NVdhRjRfci1ZR3g5dHNhTHhSVHBROXdTS3dOY051TktxaTZEbHlrZVRXc3NpS1ZrOGNtSTZ2ZFZ3R1dBY3dyWTdZMm9OOWpTUGhWX093cG9OWVR4THhEYTY1ZU84bXF0ZGM1cnBMOFpWVnFaS2R5SmoxQWRQcU1uWG8?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "US stocks rise within 0.5% of their record, even as oil prices keep climbing",
-      "source": "Northeast Mississippi Daily Journal",
-      "publishedAt": "2026-07-15T20:17:34+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNR2pDamRfYWJFMXdOU2l4XzV6d3lEbnNOWnJqdmRMSFpKQzZ3alRCVy1zUU1rM3RHVzdKMmxNSUowaFl4WUlwTndLTmwzd2c0TmxqdUVpZkVETkNzTzNQQVg1ZGRjeHA4OVk1dlk4aGs3ck5oekZhUnY5cEV3aFlWcmZ3SkNlZW1fYlo3Ung4NGlCUE9LaEJLc0Y0WThDSjR0SzM1dTVyUlNkQWJjc1dzcDh0N00wZ0djcnQ0RkdNcFBBdUdMVVM5RDc5a1JCV1lMdV93dHdFRmhoQWczM215XzlqalNnbFdKUzl6a0dOcXdlN3RpUzF6aUVRcw?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stocks gain on softer inflation, bank results while oil rises on US-Iran hostilities",
-      "source": "The Journal Record",
-      "publishedAt": "2026-07-15T00:24:46+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWnkxdXJLMHFPc04xNVYtM3VDQkhONGtmTzVlWEZPay1mQXdQbk9FTU1tTkU1MHdIekUxaTFpQUhTUWM4X1dDSmhUZjRBcjVhZEROUFlwUHRBMU9IWVJUSGhGelRfMk1lREJOMTZXQ2N2Z3lyZllwR0JNT29ZN3dQbHNIejZjNXBEZE41LTVCWnNfN2V3Y3Vfc0dWYi0?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
       ]
     }
   ]
