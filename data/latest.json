@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-17T10:03:40.712892+00:00",
+  "fetchedAt": "2026-07-17T13:49:57.048124+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -28,7 +28,7 @@
     },
     "fedRate": {
       "value": 3.63,
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "cadence": "daily",
       "series": "EFFR",
       "displayName": "Effective Federal Funds Rate",
@@ -96,13 +96,13 @@
       "confidence": "low"
     },
     "tradeStress": {
-      "value": 16,
+      "value": 24,
       "label": "Entspannt",
       "date": "2026-07-16",
       "cadence": "daily",
       "method": "proxy",
       "components": {
-        "vix": 15.67,
+        "vix": 16.73,
         "brent": 81.62,
         "eurusd": 1.1438,
         "us10y": 4.55
@@ -118,21 +118,21 @@
     }
   },
   "globalComposite": {
-    "value": 39.7,
+    "value": 35.7,
     "label": "Stabil",
     "date": "2026-07-17"
   },
   "regions": {
     "europe": {
       "name": "Europa",
-      "score": 34.0,
+      "score": 22.0,
       "label": "Stabil",
-      "date": "2026-07-16",
+      "date": "2026-07-17",
       "summary": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "driverText": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "inflation": {
-        "value": 3.14,
-        "date": "2026-05-01",
+        "value": 2.73,
+        "date": "2026-06-01",
         "unit": "%",
         "cadence": "monthly",
         "series": "CP0000EZ19M086NEST"
@@ -140,7 +140,7 @@
       "growthOrRate": {
         "label": "ECB Einlagezins",
         "value": 2.25,
-        "date": "2026-07-16",
+        "date": "2026-07-17",
         "unit": "%",
         "cadence": "daily",
         "series": "ECBDFR"
@@ -230,9 +230,9 @@
     {
       "label": "VIX",
       "icon": "⚡",
-      "val": 15.67,
-      "chg": -0.83,
-      "chgPct": -5.03,
+      "val": 16.73,
+      "chg": 1.06,
+      "chgPct": 6.76,
       "unit": "",
       "dec": 2
     },
@@ -6942,6 +6942,10 @@
       },
       {
         "date": "2026-07-15",
+        "value": 3.63
+      },
+      {
+        "date": "2026-07-16",
         "value": 3.63
       }
     ],
@@ -20614,11 +20618,116 @@
       },
       {
         "date": "2026-07-16",
-        "value": 16
+        "value": 24
       }
     ]
   },
-  "news": [],
+  "news": [
+    {
+      "title": "Global stocks drop on growing semiconductor rout; oil set for weekly gain",
+      "source": "Reuters",
+      "publishedAt": "2026-07-17T01:16:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVTBUX2ZaNk9EY2M2SU5BaEw4VkRFXzF6OE1MeENrcVRwT1hnd2gtbzVDODJ3VUh2ZXdOYi03b2ZobHhhdlMzSE1fOWM0b3lWTlh1Q2VENEFFdHlKWmNuOVltd0R4X254aFM0SmNjZ3RIWVNqREU3OXlHSFNsUGtBUXYyUQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "META_TITLE_QUOTE",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-17T08:42:12+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE51cTBUdmJTdWRuVFN1QjQxcDh1ZzMtcElOUHNJck5hcVpNSXNzbE9yYjFOakNHMzBDa3Z6ektnUEV4MkYyU1FkNzZ3TXM1S3M?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "This Chipmaker Just Crushed Expectations Again. So Why Did the Stock Drop?",
+      "source": "inc.com",
+      "publishedAt": "2026-07-17T11:24:51+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQaUFTNWsyLUxaSzFqelNOY1BNZUotcFpVS3drbHh3UWhpVlU4T1NBbWxobTduaVF1S2dvOGdMMlRTMzhjUUtEYTByTUpyRzdVR1dIRjItQ1hUd3gzYlRlUmJJZlFvOHNXVHZQTlkySV9CUDBpUjVkLVREUXVVanVtRGNXcHQ3NGlCU2JBTVo0TjN5Mlo4dmNZ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Rising oil prices spark stock market volatility concerns amid US-Iran tensions",
+      "source": "Crypto Briefing",
+      "publishedAt": "2026-07-17T13:00:06+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTTREWjROdmFjS2FfUk9ROHRvTjhMWG4xWjN5QkJVUFlSdWVVZjhyZXpYUHhUYTNKVWFQRjRVbjVJajROeXpsR2psVTZyUVE0Si00TXVaN2I5czhVZHdqLWZYSWVsY3pLeE1EYU1NMUYzMmw0WDRwTjI4WVZSakFqUENVaXI0TkFpRTQyaWFQdXVYVFZjOUk0OW9uSm1BaFhJM25EamZuVEMyUQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Alphabet, Intel results in focus for AI trade as US earnings rev up",
+      "source": "1450 AM 99.7 FM WHTC",
+      "publishedAt": "2026-07-17T10:26:11+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOazdVUy1GNXZvSUo3aGl6YUEyM2l4NVlPNWhqMm5hbG92QndXZmJoWXlnSThNdU5WTWxRTG01UjNVTDNVdFJMaEZKaGZGYnYxUlpwc2lZam5tYWtHeE5Ma2J3UVpNakp3RVhQenJkNWhDZXlma0Q2dk02dTRVZmdsS3p3NWZ3azhUQ0F5WFJvN1BqNEFpVUREbzNFSQ?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "AI memory, chip stocks dip amid Japan's Nikkei slump, Moonshot's new AI model",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-07-17T12:28:07+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbndGeHFmR1U5a0ZrcWNNWWJ2MUtDUFZEczRyU3QtNWZZaGhUZ0JFVHRnQjZTb1Buemw1cVlQd2xRUEFHcTBWRG1fMlVBLWhLZG5OREFlYmppc3VxcnFibmhLUzhEbEhYckhJTWJuZUMtN2x3NzRMUkJNSHhOYXVUZUZiSTFLcXd6Qi1GLWNYSTNVX2hYUG1aclJMSHByaEYwdU1wdURTcFdJMmdTeVV2Tw?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    }
+  ],
   "product": {
     "name": "Marktrisiko-Kompass",
     "version": "PRO",
@@ -20669,7 +20778,7 @@
     {
       "id": "A",
       "title": "Basisszenario: stabile Marktphase",
-      "probability": 59,
+      "probability": 56,
       "summary": "Wachstum bleibt grundsätzlich intakt, während Belastungsfaktoren überschaubar bleiben.",
       "supportedBy": [
         "Marktstress bleibt begrenzt",
@@ -20687,7 +20796,7 @@
     {
       "id": "B",
       "title": "Zwischenszenario: erhöhte Vorsicht",
-      "probability": 25,
+      "probability": 26,
       "summary": "Das Umfeld wird anspruchsvoller. Stresssignale nehmen zu, ohne bereits ein klares Eskalationsbild zu erzeugen.",
       "supportedBy": [
         "Verbraucherstimmung stützt das Bild nicht klar"
@@ -20702,7 +20811,7 @@
     {
       "id": "C",
       "title": "Stressszenario: defensivere Marktphase",
-      "probability": 16,
+      "probability": 18,
       "summary": "Mehrere belastende Signale greifen gleichzeitig ineinander und erhöhen die Wahrscheinlichkeit einer klaren Risk-off-Phase.",
       "supportedBy": [],
       "probabilityChange": {
@@ -20716,13 +20825,13 @@
   "hero": {
     "phase": {
       "label": "Normalphase",
-      "score": 16.0,
+      "score": 24.0,
       "summary": "Die Signallage wirkt insgesamt geordnet. Einzelne Belastungen dominieren das Gesamtbild noch nicht.",
       "interpretation": "Der Monitor liefert derzeit eher Orientierung als Alarm.",
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-07-17T10:03:40.712892+00:00",
+      "dataAsOf": "2026-07-17T13:49:57.048124+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
