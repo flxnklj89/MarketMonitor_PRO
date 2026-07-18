@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T06:09:44.956054+00:00",
+  "generatedAt": "2026-07-18T09:38:25.157946+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,6 +6112,75 @@
   },
   "news": [
     {
+      "title": "Macroscope | Why Japan should be able to weather a US market crash",
+      "source": "South China Morning Post",
+      "publishedAt": "2026-07-18T08:30:06+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTzRORnBFQ1Q4bC10QlFUQ2hOM3haSkNTSHJUQXRxVVNlSmF2YUwycU1xcmhTd3A4cDlValZ3UkxsLTJxZFBaM18tc19ScXV4UjBMUUpQcXdZcjZEbHlrdmZEODVldFVzVldlOHE2MDFYM3FpRXlnNXJ0UWVvTDR0VzhHbVdiUkU4dk1WWG54bE5RNkZScEx5Q2dGTGQ1cTY0aGcyejRlWmVpQdIBqgFBVV95cUxPcGRldk5wRHlqSlhSdzcxWEd5TThBb3FBTHlJRHAzdU95ODJidHh1N3N4ZDlfZVlPbU95OUhodUJRdGYtNGxwNlNRQWZpVjhnVTllQktBSE1UNXJYWXUyVjUxUkszU1VzUzJxM2tmQTRFSlRWNG1DTEVYUWpHVERHR2hVR2hWUFZmYkxid3pZU0g5VmtWZERnb0lscjZtNUZSWDNZVXlac0pLQQ?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
+      "title": "China’s Moonshot AI Adds More Fuel to Wall Street’s Chip Selloff",
+      "source": "WSJ",
+      "publishedAt": "2026-07-17T21:38:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMTVud1RGOWRKaW1XUkcwaVBvVkVWQ0plMmdKX3ZOOUIzbjJiRlp2WFZ6bmszbDhRYUVYQ3FMaExjWHJ6QVhJaTVmOE9wMlB2YS0wNktFMjBORnUybWxJTGhTVG5Mend0WHh3Q1Njc0stU0dwcHdHZGtaazd6Q2xCM2thb0czeGE4MEJSVm1Rd1hCaW9hSmw1cg?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
+      "title": "Stock Market Records and Inflation Pressures in 2026: Tariffs and Iran War Impact",
+      "source": "IndexBox",
+      "publishedAt": "2026-07-18T09:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcnBfbjkxeEZpWUx2a0pPOUk0ZHpPNmhKZW12Q296cGlvZm5NWjZ4bE1kVDRWUllIbnA4RkVpMjlsWGxoMTBYaDY1aExYdm1mTWdDX2l6Qjg3SS1QX3BJeVZLdFUtbGo0NFUzdFY0U29tZ3Q5MnJmekFlOW5wQWZ1VG5jSk1wRjBKRkdjVWxTWThjd3QyNUtvSU1ZTW4?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "China’s Kimi K3 Hits US Stock Markets. Is the American AI Boom Over?",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-17T22:57:28+00:00",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYkM3aXlMaGFHM1dNT3RQTFBzX1cwQ0Qtc0RWb1hIRVM3enhEOWRLb1pDX3JFWDV1TTM1LW9MYU1PSUwtbTRSZDJ1b2l0dlc1T3BpWEFqS21Tc1g5Z2RxMTZhSnBtakJsV1ZQY1JKQTJHZ0tUaTFObjhxTFhvanpqU3ZOTG5oQVRETWdYN3pn?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
       "title": "China AI Fears, Netflix Earnings Sink Stocks: Stock Market Today",
       "source": "Kiplinger",
       "publishedAt": "2026-07-17T20:08:00+00:00",
@@ -6133,77 +6202,6 @@
       "source": "Boston Herald",
       "publishedAt": "2026-07-17T20:22:30+00:00",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5iOHZnU3Z6T0FLVnV1MS0xdFRSaHBsUlFibHRmcjdVY2U5Nll2NW5qWVAyRTVaUlRxc1BLNWVodmZ3dFVPWXQyaGZLYWRUU1hYbEctcy1peGprQms2SW5jeEE5MlBpWWZVTmpFVWdUZlRLODdkQmJHbExSUlZhUQ?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Going Into Earnings, Is SAP Stock a Buy, a Sell, or Fairly Valued?",
-      "source": "Morningstar",
-      "publishedAt": "2026-07-17T16:56:45+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRERIZ3NJOWZ2UEJoMXF5UUk3d21raUd6QjduT05FNDZzZURreWhDUmwtSjQ2OGhCSDZKbzJnRmhkN3FMNEJ5cjRZLTdIdnBQWWpHS3g1dG5lWDE2UVl6OFJfNWhyb2ROcGtnZGVwSDNrVUx6c1ZRbXJQRGJIbUVUcHdrSERMdUtsdzJpMDd2amE0ZWlrX2JYaDFTU2NNSE1LYUlYQg?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "US stocks rise within 0.5% of their record, even as oil prices keep climbing",
-      "source": "AP News",
-      "publishedAt": "2026-07-15T20:58:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMnRNaFpMSUNqZnFoUmtRTk15d25YZ2pxTDM2OTc4cDZtOVMwNThrc0VBY1BNejBmWEpla0xudHNobUVuVUpWSlhva1RmVFBfM0NUeHozd3pmNUxGVkJjN3VqWjhLX3E4d25jMkI5V1hEeDBnWXY2Y2dTSkhtS25hSjA1Qi0tel9KVDUyeWpXWlFqSFRvQllN?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Rising oil prices spark stock market volatility concerns amid US-Iran tensions",
-      "source": "Crypto Briefing",
-      "publishedAt": "2026-07-17T13:00:06+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTTREWjROdmFjS2FfUk9ROHRvTjhMWG4xWjN5QkJVUFlSdWVVZjhyZXpYUHhUYTNKVWFQRjRVbjVJajROeXpsR2psVTZyUVE0Si00TXVaN2I5czhVZHdqLWZYSWVsY3pLeE1EYU1NMUYzMmw0WDRwTjI4WVZSakFqUENVaXI0TkFpRTQyaWFQdXVYVFZjOUk0OW9uSm1BaFhJM25EamZuVEMyUQ?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "AI stocks keep falling, while oil prices keep climbing",
-      "source": "WTOP",
-      "publishedAt": "2026-07-17T16:12:52+00:00",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcGNWV0V1cS1POXJEY3ZYTEpnTUJaa1RHRkRybnJ5bWREM2hOM09GZ3NUaXdnb0ZwOU1QWnF1bTlrOVdUbzlzUXNEbU80NVZjNURrbDlpVk0wNVUwLVVIWmZjeUJmVGZYVkNfS213QXJzcVE1ZUFUSmRnek85RTFnSHpEeFNDUl9obUZVMDNkOHdvaUhFNGY4bDhfWmh3dTRHUXNBTUZtUm9GWU5wX3VtMmxqb1JaMnVSOXNsb3ZB?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
