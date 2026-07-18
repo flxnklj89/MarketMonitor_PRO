@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T02:54:07.175362+00:00",
+  "generatedAt": "2026-07-18T06:09:44.956054+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -46,7 +46,7 @@
       "value": 9.5,
       "unit": "%",
       "tone": "m",
-      "status": "50T liegt bei +9.5 % gegenüber dem 200T. Schlusskurs 25882, 50T 26136, 200T 23863. NASDAQ Composite (Fallback) unter 50T (26136), aber noch über 200T (23863).",
+      "status": "50T liegt bei +9.5 % gegenüber dem 200T. Schlusskurs 25520, 50T 26140, 200T 23877. NASDAQ Composite (Fallback) unter 50T (26140), aber noch über 200T (23877).",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -56,10 +56,10 @@
     },
     {
       "label": "RSI (14)",
-      "value": 48.6,
+      "value": 44.2,
       "unit": "",
       "tone": "m",
-      "status": "RSI (14) bei 48.6. Kein Extremniveau in beide Richtungen.",
+      "status": "RSI (14) bei 44.2. Kein Extremniveau in beide Richtungen.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -69,10 +69,10 @@
     },
     {
       "label": "Drawdown vom Hoch",
-      "value": -4.5,
+      "value": -5.8,
       "unit": "%",
-      "tone": "l",
-      "status": "-4.5 % vom Hoch. Kaum struktureller Druck.",
+      "tone": "m",
+      "status": "-5.8 % vom Hoch. Normales Korrekturterritory.",
       "history": []
     }
   ],
@@ -702,12 +702,6 @@
   "charts": {
     "chartLabel": "NASDAQ Composite",
     "qqq": [
-      {
-        "date": "2025-05-06",
-        "close": 17689.66,
-        "ma50": 17427.04,
-        "ma200": 18315.5
-      },
       {
         "date": "2025-05-07",
         "close": 17738.16,
@@ -2501,13 +2495,15 @@
         "close": 25881.95,
         "ma50": 26136.16,
         "ma200": 23862.61
+      },
+      {
+        "date": "2026-07-17",
+        "close": 25520.24,
+        "ma50": 26140.04,
+        "ma200": 23877.26
       }
     ],
     "rsi": [
-      {
-        "date": "2025-05-06",
-        "value": 55.8
-      },
       {
         "date": "2025-05-07",
         "value": 56.4
@@ -3703,6 +3699,10 @@
       {
         "date": "2026-07-16",
         "value": 48.6
+      },
+      {
+        "date": "2026-07-17",
+        "value": 44.2
       }
     ],
     "vix": [
@@ -6147,24 +6147,6 @@
       ]
     },
     {
-      "title": "World stocks fall in semiconductor rout; oil rises on Middle East escalation",
-      "source": "Reuters",
-      "publishedAt": "2026-07-17T01:16:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVTBUX2ZaNk9EY2M2SU5BaEw4VkRFXzF6OE1MeENrcVRwT1hnd2gtbzVDODJ3VUh2ZXdOYi03b2ZobHhhdlMzSE1fOWM0b3lWTlh1Q2VENEFFdHlKWmNuOVltd0R4X254aFM0SmNjZ3RIWVNqREU3OXlHSFNsUGtBUXYyUQ?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
       "title": "Going Into Earnings, Is SAP Stock a Buy, a Sell, or Fairly Valued?",
       "source": "Morningstar",
       "publishedAt": "2026-07-17T16:56:45+00:00",
@@ -6179,6 +6161,24 @@
         "Aktien",
         "Sektoren",
         "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "US stocks rise within 0.5% of their record, even as oil prices keep climbing",
+      "source": "AP News",
+      "publishedAt": "2026-07-15T20:58:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMnRNaFpMSUNqZnFoUmtRTk15d25YZ2pxTDM2OTc4cDZtOVMwNThrc0VBY1BNejBmWEpla0xudHNobUVuVUpWSlhva1RmVFBfM0NUeHozd3pmNUxGVkJjN3VqWjhLX3E4d25jMkI5V1hEeDBnWXY2Y2dTSkhtS25hSjA1Qi0tel9KVDUyeWpXWlFqSFRvQllN?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
@@ -6200,10 +6200,10 @@
       ]
     },
     {
-      "title": "US stocks rise within 0.5% of their record, even as oil prices keep climbing",
-      "source": "AP News",
-      "publishedAt": "2026-07-15T20:58:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMnRNaFpMSUNqZnFoUmtRTk15d25YZ2pxTDM2OTc4cDZtOVMwNThrc0VBY1BNejBmWEpla0xudHNobUVuVUpWSlhva1RmVFBfM0NUeHozd3pmNUxGVkJjN3VqWjhLX3E4d25jMkI5V1hEeDBnWXY2Y2dTSkhtS25hSjA1Qi0tel9KVDUyeWpXWlFqSFRvQllN?oc=5",
+      "title": "AI stocks keep falling, while oil prices keep climbing",
+      "source": "WTOP",
+      "publishedAt": "2026-07-17T16:12:52+00:00",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcGNWV0V1cS1POXJEY3ZYTEpnTUJaa1RHRkRybnJ5bWREM2hOM09GZ3NUaXdnb0ZwOU1QWnF1bTlrOVdUbzlzUXNEbU80NVZjNURrbDlpVk0wNVUwLVVIWmZjeUJmVGZYVkNfS213QXJzcVE1ZUFUSmRnek85RTFnSHpEeFNDUl9obUZVMDNkOHdvaUhFNGY4bDhfWmh3dTRHUXNBTUZtUm9GWU5wX3VtMmxqb1JaMnVSOXNsb3ZB?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
