@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T17:02:08.458224+00:00",
+  "generatedAt": "2026-07-18T20:56:39.554198+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6146,27 +6146,28 @@
       ]
     },
     {
+      "title": "World stocks fall in semiconductor rout; oil rises on Middle East escalation",
+      "source": "Reuters",
+      "publishedAt": "2026-07-17T01:16:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVTBUX2ZaNk9EY2M2SU5BaEw4VkRFXzF6OE1MeENrcVRwT1hnd2gtbzVDODJ3VUh2ZXdOYi03b2ZobHhhdlMzSE1fOWM0b3lWTlh1Q2VENEFFdHlKWmNuOVltd0R4X254aFM0SmNjZ3RIWVNqREU3OXlHSFNsUGtBUXYyUQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
       "title": "China’s Kimi K3 Hits US Stock Markets. Is the American AI Boom Over?",
       "source": "Yahoo Finance",
       "publishedAt": "2026-07-17T22:57:28+00:00",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYkM3aXlMaGFHM1dNT3RQTFBzX1cwQ0Qtc0RWb1hIRVM3enhEOWRLb1pDX3JFWDV1TTM1LW9MYU1PSUwtbTRSZDJ1b2l0dlc1T3BpWEFqS21Tc1g5Z2RxMTZhSnBtakJsV1ZQY1JKQTJHZ0tUaTFObjhxTFhvanpqU3ZOTG5oQVRETWdYN3pn?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
-      ]
-    },
-    {
-      "title": "China’s Moonshot AI Adds More Fuel to Wall Street’s Chip Selloff",
-      "source": "WSJ",
-      "publishedAt": "2026-07-17T21:38:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMTVud1RGOWRKaW1XUkcwaVBvVkVWQ0plMmdKX3ZOOUIzbjJiRlp2WFZ6bmszbDhRYUVYQ3FMaExjWHJ6QVhJaTVmOE9wMlB2YS0wNktFMjBORnUybWxJTGhTVG5Mend0WHh3Q1Njc0stU0dwcHdHZGtaazd6Q2xCM2thb0czeGE4MEJSVm1Rd1hCaW9hSmw1cg?oc=5",
       "bucket": "Globales Wachstum",
       "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
       "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
@@ -6198,20 +6199,20 @@
       ]
     },
     {
-      "title": "China AI Fears, Netflix Earnings Sink Stocks: Stock Market Today",
+      "title": "What to Look Out for in Economic Data This Week (July 20-24)",
       "source": "Kiplinger",
-      "publishedAt": "2026-07-17T20:08:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUHNELXhjTkhXMFhuSDFZWjNiX1V1eG9nSGo0VnpLZ0lhSU5HQ3lCdFhqd0pRTGgtWjhwSy1BZkpxVXM4NDlzaEd0UXBOQkQzcDktX0JtUWdNMGQ5VXhOd3c2WUZWRlJYV2RvUUZQbGRUSndHekJ4cWlqLVJ0TXVnQWIyRDVtNV9EeTNQc3E5dUZodzNwTW1CU0JTUEpfdjM3MnV1S3RlejI?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "publishedAt": "2026-07-17T17:15:55+00:00",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MeVNwMVVnVmhvRWo4b0N4WkhCRXQxTVRtb2ZmTWhCSmd4eERsN3Nfdllwejg0eG5ueFFCRUdPTzVUaXh4dEFZaWJqN3FFZnlFWTBlZ2ZvVkFFRzVScTR3TXRhZGl6MHp2RUF1clppVDRvR1lveC1FaXNCeXQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Anleihen",
+        "Währungen"
       ]
     }
   ]
