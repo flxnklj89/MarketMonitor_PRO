@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-19T06:35:11.665322+00:00",
+  "fetchedAt": "2026-07-19T09:56:10.448801+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20666,23 +20666,6 @@
       ]
     },
     {
-      "title": "Macroscope | Why Japan should be able to weather a US market crash",
-      "source": "South China Morning Post",
-      "publishedAt": "2026-07-18T08:30:06+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTzRORnBFQ1Q4bC10QlFUQ2hOM3haSkNTSHJUQXRxVVNlSmF2YUwycU1xcmhTd3A4cDlValZ3UkxsLTJxZFBaM18tc19ScXV4UjBMUUpQcXdZcjZEbHlrdmZEODVldFVzVldlOHE2MDFYM3FpRXlnNXJ0UWVvTDR0VzhHbVdiUkU4dk1WWG54bE5RNkZScEx5Q2dGTGQ1cTY0aGcyejRlWmVpQdIBqgFBVV95cUxPcGRldk5wRHlqSlhSdzcxWEd5TThBb3FBTHlJRHAzdU95ODJidHh1N3N4ZDlfZVlPbU95OUhodUJRdGYtNGxwNlNRQWZpVjhnVTllQktBSE1UNXJYWXUyVjUxUkszU1VzUzJxM2tmQTRFSlRWNG1DTEVYUWpHVERHR2hVR2hWUFZmYkxid3pZU0g5VmtWZERnb0lscjZtNUZSWDNZVXlac0pLQQ?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
-      ]
-    },
-    {
       "title": "China’s Kimi K3 Hits US Stock Markets. Is the American AI Boom Over?",
       "source": "Yahoo Finance",
       "publishedAt": "2026-07-17T22:57:28+00:00",
@@ -20731,6 +20714,23 @@
         "Aktien",
         "Anleihen",
         "Währungen"
+      ]
+    },
+    {
+      "title": "Macroscope | Why Japan should be able to weather a US market crash",
+      "source": "South China Morning Post",
+      "publishedAt": "2026-07-18T08:30:06+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTzRORnBFQ1Q4bC10QlFUQ2hOM3haSkNTSHJUQXRxVVNlSmF2YUwycU1xcmhTd3A4cDlValZ3UkxsLTJxZFBaM18tc19ScXV4UjBMUUpQcXdZcjZEbHlrdmZEODVldFVzVldlOHE2MDFYM3FpRXlnNXJ0UWVvTDR0VzhHbVdiUkU4dk1WWG54bE5RNkZScEx5Q2dGTGQ1cTY0aGcyejRlWmVpQdIBqgFBVV95cUxPcGRldk5wRHlqSlhSdzcxWEd5TThBb3FBTHlJRHAzdU95ODJidHh1N3N4ZDlfZVlPbU95OUhodUJRdGYtNGxwNlNRQWZpVjhnVTllQktBSE1UNXJYWXUyVjUxUkszU1VzUzJxM2tmQTRFSlRWNG1DTEVYUWpHVERHR2hVR2hWUFZmYkxid3pZU0g5VmtWZERnb0lscjZtNUZSWDNZVXlac0pLQQ?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
       ]
     }
   ],
@@ -20837,7 +20837,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-07-19T06:35:11.665322+00:00",
+      "dataAsOf": "2026-07-19T09:56:10.448801+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
