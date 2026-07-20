@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-20T03:39:48.702236+00:00",
+  "fetchedAt": "2026-07-20T06:52:43.364100+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20618,7 +20618,112 @@
       }
     ]
   },
-  "news": [],
+  "news": [
+    {
+      "title": "Oil prices rise, stock futures flat as fighting between U.S. and Iran intensifies",
+      "source": "MarketWatch",
+      "publishedAt": "2026-07-20T03:02:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRGZOeTVJN09iVkpUYkY5bW44ZjhDSEV2UmRNVjJCZkxsakQxY3ZaWElPWkpiTWpXLWQxYUUxY3I4RUhKUjJ0Y1psOENlMjNDQko3dDhPQkMyaTI0eHdETHBrRTZFZEdDUmhHcElyN2lXdFdxRXNxdExfWG5aak1uTFhNSlpZZVYtMmRqMlZud0hzOEpTZ044N09tWEVNTnJTRUZtSWNtT0dTRmllSHhQMUVid3dIVks4QkhUMlU4Zw?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Shares unsettled as oil climbs, earnings loom for AI",
+      "source": "Reuters",
+      "publishedAt": "2026-07-20T00:35:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNLXNOVkRxS1o3Q3pZUnR2TzZIVmRBbUs5MGZRYV9xRXJmVl8wUklWb0RfRjNETm5HR3Q3OEd1R3NZS0Nrc3Q0OGdQMDlVX041OGMybkpoZ0VWTFZ0Mlp4bGJmeXFUMzQ2NEpTdEFXbWh6eUNUQ1BXbkRRcHFUWnhLa3Fhdw?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Chinese Stocks Rebound After National Team Reveals Buying",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-07-20T01:09:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdml0UkJLZEthNlpuR0VSRkZCaEN3U3BPMXJ3WEtlWkhKaXRSVFZGdWxzdHNxU2xQOUtJNXozT3ZfYy1OZWdLQXNsc21Hczd4MEZNTkdYTkNKSC02Z0dBM3JyWTh2QVpMN0xBaV8zbVB5WVliZl9KVHlvUDRsU3dLNUZFN0RMMnJPZTNlSEdxR1Z5NW0tNU1aWUNNX0xubHVfUC1WbjM2TjFuNmt5V1dSeg?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Futures Mixed Amid Iran News; Big Earnings Due",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-07-20T03:04:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOay15SVFtNmJpekhoY2gxVk5ZaFh5YkMzYmY4NWtkM3ZtVVN6b2lrQ3NBUW5fQUhuUVYzY00xNjJIblREbVpNUmVwV3V0SVpMaElYdHJKUnp1bGFjWDkwMTB3WDlRd1hueVJ3OTdQWDZrU1lMT2h4LW1nNDlOZHhUQWdvbnRRRWhiNGo4WGtEbmxXb09MZ2tsYkpjT05pMmJCWExvSndRb1I4VGdWNmVjRHdNR0lBaDFLWXlRZ2JR?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Beijing steps in to stem China’s stock market decline with US$8.9b in purchases",
+      "source": "South China Morning Post",
+      "publishedAt": "2026-07-20T01:41:28+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQb0dDcl9iYXdKNkFONmJmYzYzRF8wWlpYb214VjBua0VFUkNQN0ZqdjdqdlFvNmxaUURtMGJOV0lMRUVNa1FHdi1SMXVCQlo4TkdqWFhkY1daWFF2QW5Bd3pTWlpvWHVMcXBVSHBHQUJTdXJCeTVyc1pZdkFWZVRXal8wTjBZYkFWb1BwSVlZdFo4TExUVXBEMGVYdmxjOWZ2cy15a0o2eXhIWmhITVVsaDkxMFhPMVY4ZVJjMUJqLU1QTU9xZ1hVeNIByAFBVV95cUxQclRwdmFyYzRxN216Q3AzZWFHQkJVblp6NDdNZFZzd0JOVEE1YVk5RU1xRjVXT2xnWlNKcm5hQmp4UUJacEstcmladVhrdWwxYV9zWHFpUi1zdkxIMWY1ZWF0MXRwNzlEX3haSHJpQlhfa2FHYVdnUWFKMTZUcUVTS0lhMHdXcG8xeDg5NGdkVnplYzI5YlV2VkhMUERtYk9SajFDVjhDOUFRV0ZKekJQR0ItNzQ5aHR3WFNxLVJ1Qkx6azEwUWczaQ?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
+      "title": "Big Tech earnings test tech's big rotation: What to watch this week",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-19T12:23:59+00:00",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNN3ZISzktMVBmM1NIUms1NFZmZmZZb1JhZVBHSENFTGNRTTloVkUxZ2trQU5YcDc1VE1XUzVLVHpPZl9GN0JoUWM2QTNsQkVBdV9KQkc3cl9CNlVRWXR1ZklIZUxIcDV5QjFXZG9uNnNZbFJ0Q2F3U2Q1OGRXajExUHBhOXgyMFctVm1mNDFsSFdjdW9OQ2dmTWo2UVRZZHNhZU9uZy1WTWZBdzFhamRmZ3FqOHlaY2hnZjBvQ2EyRQ?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    }
+  ],
   "product": {
     "name": "Marktrisiko-Kompass",
     "version": "PRO",
@@ -20722,7 +20827,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-07-20T03:39:48.702236+00:00",
+      "dataAsOf": "2026-07-20T06:52:43.364100+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
