@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-19T20:57:10.757191+00:00",
+  "fetchedAt": "2026-07-20T03:39:48.702236+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -120,7 +120,7 @@
   "globalComposite": {
     "value": 35.7,
     "label": "Stabil",
-    "date": "2026-07-19"
+    "date": "2026-07-20"
   },
   "regions": {
     "europe": {
@@ -936,10 +936,6 @@
       }
     ],
     "fedRate": [
-      {
-        "date": "2020-07-20",
-        "value": 0.1
-      },
       {
         "date": "2020-07-21",
         "value": 0.1
@@ -7668,10 +7664,6 @@
       }
     ],
     "sp500": [
-      {
-        "date": "2020-07-20",
-        "value": 3251.84
-      },
       {
         "date": "2020-07-21",
         "value": 3257.3
@@ -14413,10 +14405,6 @@
     ],
     "tradeStress": [
       {
-        "date": "2020-07-20",
-        "value": 15
-      },
-      {
         "date": "2020-07-21",
         "value": 15
       },
@@ -20630,111 +20618,7 @@
       }
     ]
   },
-  "news": [
-    {
-      "title": "Big Tech earnings test tech's big rotation: What to watch this week",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-07-19T12:23:59+00:00",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNN3ZISzktMVBmM1NIUms1NFZmZmZZb1JhZVBHSENFTGNRTTloVkUxZ2trQU5YcDc1VE1XUzVLVHpPZl9GN0JoUWM2QTNsQkVBdV9KQkc3cl9CNlVRWXR1ZklIZUxIcDV5QjFXZG9uNnNZbFJ0Q2F3U2Q1OGRXajExUHBhOXgyMFctVm1mNDFsSFdjdW9OQ2dmTWo2UVRZZHNhZU9uZy1WTWZBdzFhamRmZ3FqOHlaY2hnZjBvQ2EyRQ?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Can the ‘Magnificent Seven’ save a stock market that might be doomed without them?",
-      "source": "MarketWatch",
-      "publishedAt": "2026-07-19T19:06:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMEpJSEM5dXctN0F6ZTBVS0RWaHdnTWpoQ01Vc2hzcEI4cTh0SnBlV09RbkNESUdmeExudE9qTWNrYjNFQW5VWHhiblNlSFBYQ01uZGRndWdRZmdDYUFyc3REakRZbUVQNExhTXMyOE00a3ZCRjhpMDZFZmwtd1JuSEVzMkNOSWVpb25IMV84UWpRSVN3dEVZdHo2ZTh4RUN1Qjk5Nms0ZGpoVkZROFk4VzVpQkdvU3ZNeGdnZ09qZw?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Why Inflation May Suddenly Look Better Even Though Everything Still Costs More",
-      "source": "24/7 Wall St.",
-      "publishedAt": "2026-07-19T13:37:56+00:00",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPalFHUWNYQndPZHR3UDRJLTl4blJBMV9OUUgxYTg2Yy1PMGZXNk5kNHZ4VkozTkRPM045WFRmblNSM0FJRmFqMEVOMnJkSmdMUXduNl9SNDlyUHV3eGJscjRwSFFfRC1ZNkxkelozOEhUcUpTaVU2WnFZY2xHMWVES25fUUl6SEVMSnhGeFBWZ1JtczV1WVNyeGg2Um9LeUVmS0NXMEVSVHZYYnR3X015WEJVZ2NHZlI1RmZPdXM4MA?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "Dow Jones Futures Loom As U.S.-Iran Attacks Escalate; Google, Tesla, AMD Ahead",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-07-19T20:26:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOay15SVFtNmJpekhoY2gxVk5ZaFh5YkMzYmY4NWtkM3ZtVVN6b2lrQ3NBUW5fQUhuUVYzY00xNjJIblREbVpNUmVwV3V0SVpMaElYdHJKUnp1bGFjWDkwMTB3WDlRd1hueVJ3OTdQWDZrU1lMT2h4LW1nNDlOZHhUQWdvbnRRRWhiNGo4WGtEbmxXb09MZ2tsYkpjT05pMmJCWExvSndRb1I4VGdWNmVjRHdNR0lBaDFLWXlRZ2JR?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "A strong start to earnings season will be put to the test next week",
-      "source": "CNBC",
-      "publishedAt": "2026-07-17T20:22:07+00:00",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNDZFVGZuSnktTE9rX1NXanp4YXdHaHBSM2xRUy1jWEw1QUV2aHZwZ044cXRvNjRWVFQyNFFGZktCVUVoOEM3U294a2xIanJHSkx6Q05VTkFXTjJ6ZUNCT0tJZjFsVFpZMEdzZkROV3ZSR0NSc0xobGNGQ2FOcFRSSExadlcxLTRrSDZ3ZGh5eTU?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "What to Expect in Markets This Week: Alphabet, Tesla and Intel Headline Big Tech Earnings Reports",
-      "source": "Investopedia",
-      "publishedAt": "2026-07-19T11:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQSGswUG1qY1NfN2lyWk5uMGVEVnFhRElhTjlNc3Z1ZldGMmw2bE5ya3l0WlVNZ3hjSUFObi1xb3QzQ1JIbG1FVnFfQXhFWWhUV2Nmal9BenRHWnRaLW9rS3pKZ3pNYWZkd1NjdE9IWU1reUZUcXlBOGVQR2Riellac0x5R3FKVDRkeDFLc0RTMVczUllvUGNvRjN4SlB0d0cwSHdQN093QVVBYTJGMjNwYTVvYTVCWU51dVhvbXlFTHgwb2NZcFJKSGZIUWxkQQ?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    }
-  ],
+  "news": [],
   "product": {
     "name": "Marktrisiko-Kompass",
     "version": "PRO",
@@ -20838,7 +20722,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-07-19T20:57:10.757191+00:00",
+      "dataAsOf": "2026-07-20T03:39:48.702236+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
