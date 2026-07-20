@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T14:19:42.435852+00:00",
+  "generatedAt": "2026-07-20T18:09:45.006146+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,7 +6112,7 @@
   },
   "news": [
     {
-      "title": "Chinese Stocks Rebound After National Team Support Resurfaces",
+      "title": "Chinese Stocks Rebound After National Team Reveals Buying",
       "source": "Bloomberg.com",
       "publishedAt": "2026-07-20T08:49:14+00:00",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdml0UkJLZEthNlpuR0VSRkZCaEN3U3BPMXJ3WEtlWkhKaXRSVFZGdWxzdHNxU2xQOUtJNXozT3ZfYy1OZWdLQXNsc21Hczd4MEZNTkdYTkNKSC02Z0dBM3JyWTh2QVpMN0xBaV8zbVB5WVliZl9KVHlvUDRsU3dLNUZFN0RMMnJPZTNlSEdxR1Z5NW0tNU1aWUNNX0xubHVfUC1WbjM2TjFuNmt5V1dSeg?oc=5",
@@ -6163,10 +6163,27 @@
       ]
     },
     {
-      "title": "Choppy oil keeps investors on edge, stocks brace for big earnings week",
-      "source": "Reuters",
-      "publishedAt": "2026-07-20T00:35:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNLXNOVkRxS1o3Q3pZUnR2TzZIVmRBbUs5MGZRYV9xRXJmVl8wUklWb0RfRjNETm5HR3Q3OEd1R3NZS0Nrc3Q0OGdQMDlVX041OGMybkpoZ0VWTFZ0Mlp4bGJmeXFUMzQ2NEpTdEFXbWh6eUNUQ1BXbkRRcHFUWnhLa3Fhdw?oc=5",
+      "title": "Alphabet Inc. (GOOGL) Stock Price, News, Quote & History",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-20T13:51:19+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE51cTBUdmJTdWRuVFN1QjQxcDh1ZzMtcElOUHNJck5hcVpNSXNzbE9yYjFOakNHMzBDa3Z6ektnUEV4MkYyU1FkNzZ3TXM1S3M?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Futures Rise, Oil Swings Amid Iran News; Big Earnings Due",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-07-20T12:13:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOay15SVFtNmJpekhoY2gxVk5ZaFh5YkMzYmY4NWtkM3ZtVVN6b2lrQ3NBUW5fQUhuUVYzY00xNjJIblREbVpNUmVwV3V0SVpMaElYdHJKUnp1bGFjWDkwMTB3WDlRd1hueVJ3OTdQWDZrU1lMT2h4LW1nNDlOZHhUQWdvbnRRRWhiNGo4WGtEbmxXb09MZ2tsYkpjT05pMmJCWExvSndRb1I4VGdWNmVjRHdNR0lBaDFLWXlRZ2JR?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -6181,10 +6198,10 @@
       ]
     },
     {
-      "title": "5 Things to Know Before the Stock Market Opens on Monday",
-      "source": "Investopedia",
-      "publishedAt": "2026-07-20T12:06:02+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNjhGQ1ZrWjQ5bGE2MGVMYUhWeDZPc1pxbWVQOVNHcTBiR3BOX0JRTlNzcGo4bldDQWgycy1ITzFoR1dNMjJtUzFVcTV4alpObGlFOVNfMHJmcm43UWczRmk3ZFUxUDh4Nm95MTgxM25TaU91eWY1RHZhMnNLVnJuSTVSV2dpc0FQMUtseFpJUVVVM0czWTJXSkdJME5XdmIzLXBJU2c5WTljM2M?oc=5",
+      "title": "Why the Next Two Weeks Will Make or Break the Stock Market",
+      "source": "Barron's",
+      "publishedAt": "2026-07-20T13:21:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTnBtUmVkZlVnaVJtSFFJQ1JvWUNmSlVHMThvRHhmY3R6dUk1X2NGYlpWS2ZGSEdpcW4xeUZET1AzcTBaLUxJV0NEMzIzalBfVUtrVGl3YkcyVGhuV1VHeDJObll1WktJWjRJZWw3dmRLbmY2UGNva0lyYjVyM3JFeWdqamxuQVE?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -6195,23 +6212,6 @@
         "Aktien",
         "Anleihen",
         "Währungen"
-      ]
-    },
-    {
-      "title": "Futures Rise Amid Iran News; Big Earnings Due",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-07-20T11:35:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOay15SVFtNmJpekhoY2gxVk5ZaFh5YkMzYmY4NWtkM3ZtVVN6b2lrQ3NBUW5fQUhuUVYzY00xNjJIblREbVpNUmVwV3V0SVpMaElYdHJKUnp1bGFjWDkwMTB3WDlRd1hueVJ3OTdQWDZrU1lMT2h4LW1nNDlOZHhUQWdvbnRRRWhiNGo4WGtEbmxXb09MZ2tsYkpjT05pMmJCWExvSndRb1I4VGdWNmVjRHdNR0lBaDFLWXlRZ2JR?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
       ]
     }
   ]
