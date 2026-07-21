@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-20T21:15:34.618222+00:00",
+  "fetchedAt": "2026-07-21T03:19:56.681129+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -120,7 +120,7 @@
   "globalComposite": {
     "value": 35.7,
     "label": "Stabil",
-    "date": "2026-07-20"
+    "date": "2026-07-21"
   },
   "regions": {
     "europe": {
@@ -936,10 +936,6 @@
       }
     ],
     "fedRate": [
-      {
-        "date": "2020-07-21",
-        "value": 0.1
-      },
       {
         "date": "2020-07-22",
         "value": 0.09
@@ -7668,10 +7664,6 @@
       }
     ],
     "sp500": [
-      {
-        "date": "2020-07-21",
-        "value": 3257.3
-      },
       {
         "date": "2020-07-22",
         "value": 3276.02
@@ -14409,10 +14401,6 @@
     ],
     "tradeStress": [
       {
-        "date": "2020-07-21",
-        "value": 15
-      },
-      {
         "date": "2020-07-22",
         "value": 15
       },
@@ -20624,6 +20612,23 @@
   },
   "news": [
     {
+      "title": "China's securities regulator vows to maintain stability after market rout",
+      "source": "Reuters",
+      "publishedAt": "2026-07-20T19:37:12+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSzVZN2F3d0ZFaHpjRXRNb01lVzA5R095LVU0YmY2YVN6bVBRRHJHQnRmQVpsd1l3cmVrT3lIQXpOR0hfUDZrVE1vWmZIdjBKRWNlWFNuZ1dFaUI5YUxZMVl2cWI3dXlEYkE1V3RCLUpIZXB2dVFhcWdlRHhrQ3pYYnpkRTJRNDBHNm1TVnczM0tHRlRrb1dXLUFZN0I0VzN6anZqclYtTWlyckVVaC1acg?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
       "title": "If history is a guide, there’s still another week before earnings will start to move the stock market",
       "source": "MarketWatch",
       "publishedAt": "2026-07-20T09:18:00+00:00",
@@ -20641,10 +20646,45 @@
       ]
     },
     {
-      "title": "Chinese Stocks Rebound After National Team Reveals Buying",
+      "title": "Stock Market Today, July 20: AMC Surges on Earnings Beat and Record Revenue",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-07-20T21:59:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQa2JjOFVKUmdxaHFvZlpoaFl4U0MwUF9TbTdDSG9aSWtGUkVnSXRSUkVmN29DUmFjZkxOVmJxQWgtSVZMMF9jY2pZRUVZOVNUMzMwR0ZXallhNVZVVkY4dlc5aG9icXpjNW45T1I5TnlmVnRaVEhkWXRTMzZTQi1JcTZtYVQ1UkZ2dl9TNDlHQ1JyUVNhOHUtWnNldjZQNEIyRVBISnFoTWN0eWNRck1heDVmdXBSQ2EwOGhIdDlub1JfVl9sZ3lGc3h6UENBY28?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Conflict Rattles Stocks, Bonds as Oil Holds Gains: Markets Wrap",
       "source": "Bloomberg.com",
-      "publishedAt": "2026-07-20T08:49:14+00:00",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdml0UkJLZEthNlpuR0VSRkZCaEN3U3BPMXJ3WEtlWkhKaXRSVFZGdWxzdHNxU2xQOUtJNXozT3ZfYy1OZWdLQXNsc21Hczd4MEZNTkdYTkNKSC02Z0dBM3JyWTh2QVpMN0xBaV8zbVB5WVliZl9KVHlvUDRsU3dLNUZFN0RMMnJPZTNlSEdxR1Z5NW0tNU1aWUNNX0xubHVfUC1WbjM2TjFuNmt5V1dSeg?oc=5",
+      "publishedAt": "2026-07-20T23:08:31+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNkNWOXN1YXJVTDNkZWJxWFZ4a0Vpa1FCVm9BT2szZWZBRm1XWkxMTXlBQnZhUWNPNDkwWktKREtsU1BkZmVubDB6cGpvQXdDSGpuQjNZX1JfaG5VSmJOSDJib0FfWXdyZFZZWHBid0hnRUpNLXhNdF9yWjFQUmRyTHg1ZUk3T0xuSEU5UU5BN0dKdjk3?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Why the Next Two Weeks Will Make or Break the Stock Market",
+      "source": "Barron's",
+      "publishedAt": "2026-07-20T13:21:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTnBtUmVkZlVnaVJtSFFJQ1JvWUNmSlVHMThvRHhmY3R6dUk1X2NGYlpWS2ZGSEdpcW4xeUZET1AzcTBaLUxJV0NEMzIzalBfVUtrVGl3YkcyVGhuV1VHeDJObll1WktJWjRJZWw3dmRLbmY2UGNva0lyYjVyM3JFeWdqamxuQVE?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20662,58 +20702,6 @@
       "source": "Yahoo! Finance Canada",
       "publishedAt": "2026-07-20T19:05:21+00:00",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQT2NqUWhxazM3OFNWSmJ5SlQ2TDlqaXR6Sk5oSjlrVWl0ZmVoeTJQZE5GenN3ZjE0aVNPOVdZNjRGVXFvbWttM2gySk5lZ0xoMmlTcjV5UjdTbGJqSTV2b3JkZzdhdmFVWjEzODlwT0pjMEZmV0tudExoMFdwRjZqLVVqUkZ0cjBEZGREa1k2WEFESmI4R25KdUNUc1pZZ3AzV3phRko4cw?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stock Market Today, July 20: AMC Surges on Earnings Beat and Record Revenue",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-07-20T21:14:33+00:00",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQa2JjOFVKUmdxaHFvZlpoaFl4U0MwUF9TbTdDSG9aSWtGUkVnSXRSUkVmN29DUmFjZkxOVmJxQWgtSVZMMF9jY2pZRUVZOVNUMzMwR0ZXallhNVZVVkY4dlc5aG9icXpjNW45T1I5TnlmVnRaVEhkWXRTMzZTQi1JcTZtYVQ1UkZ2dl9TNDlHQ1JyUVNhOHUtWnNldjZQNEIyRVBISnFoTWN0eWNRck1heDVmdXBSQ2EwOGhIdDlub1JfVl9sZ3lGc3h6UENBY28?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "CSRC’s Wu vows ‘stable market’ as A-shares rebound on concerted buying",
-      "source": "South China Morning Post",
-      "publishedAt": "2026-07-20T01:41:28+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQb0dDcl9iYXdKNkFONmJmYzYzRF8wWlpYb214VjBua0VFUkNQN0ZqdjdqdlFvNmxaUURtMGJOV0lMRUVNa1FHdi1SMXVCQlo4TkdqWFhkY1daWFF2QW5Bd3pTWlpvWHVMcXBVSHBHQUJTdXJCeTVyc1pZdkFWZVRXal8wTjBZYkFWb1BwSVlZdFo4TExUVXBEMGVYdmxjOWZ2cy15a0o2eXhIWmhITVVsaDkxMFhPMVY4ZVJjMUJqLU1QTU9xZ1hVeNIByAFBVV95cUxQclRwdmFyYzRxN216Q3AzZWFHQkJVblp6NDdNZFZzd0JOVEE1YVk5RU1xRjVXT2xnWlNKcm5hQmp4UUJacEstcmladVhrdWwxYV9zWHFpUi1zdkxIMWY1ZWF0MXRwNzlEX3haSHJpQlhfa2FHYVdnUWFKMTZUcUVTS0lhMHdXcG8xeDg5NGdkVnplYzI5YlV2VkhMUERtYk9SajFDVjhDOUFRV0ZKekJQR0ItNzQ5aHR3WFNxLVJ1Qkx6azEwUWczaQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Equities inch higher with semi stocks, oil up amid further Iran tensions",
-      "source": "Reuters",
-      "publishedAt": "2026-07-20T00:35:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNLXNOVkRxS1o3Q3pZUnR2TzZIVmRBbUs5MGZRYV9xRXJmVl8wUklWb0RfRjNETm5HR3Q3OEd1R3NZS0Nrc3Q0OGdQMDlVX041OGMybkpoZ0VWTFZ0Mlp4bGJmeXFUMzQ2NEpTdEFXbWh6eUNUQ1BXbkRRcHFUWnhLa3Fhdw?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20831,7 +20819,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-07-20T21:15:34.618222+00:00",
+      "dataAsOf": "2026-07-21T03:19:56.681129+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
