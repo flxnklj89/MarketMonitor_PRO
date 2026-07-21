@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-21T06:33:58.380917+00:00",
+  "fetchedAt": "2026-07-21T10:29:02.796189+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20614,7 +20614,7 @@
     {
       "title": "China Broadens Market Rescue With Record Inflows Into Tech ETF",
       "source": "Bloomberg.com",
-      "publishedAt": "2026-07-21T03:31:00+00:00",
+      "publishedAt": "2026-07-21T08:17:21+00:00",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPa2p6cVRJbldrcjVNbjh6OEw0dG1LZmg4b2RLZmVPaVVONVBtYkU4WWVpZTB6bWtoeEdHYXB6X2ZFY0NKdUxUU09DMDlCVFZCanBfN3A3WE50UWJObUl3V3doZF9hcXh0MG9uT1IyU2NvTExRZTJQX0tuQkxnV3YwcGFOdEoyQThUM04xTk5mT2V4NF9MeHdZcUt6VWZtZDdEYVRHY1VaQ0lHUEFlaFV2VXJ4UQ?oc=5",
       "bucket": "Globales Wachstum",
       "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
@@ -20626,6 +20626,23 @@
         "Weltaktien",
         "Währungen",
         "Rohstoffe"
+      ]
+    },
+    {
+      "title": "Stock market today: Nasdaq leads Dow, S&P 500 futures higher as chip stocks revive",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-21T08:46:31+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT0t0NC1oZFVxY2t6bmFBaTJMcjJscFdqYWh5WC1iTURmemdubXg2QVlTbXNvODFES1cyMGdNU2UzZ25oUjhfQUxlTWlWUG0yT3V3TWtoTHdNaEF0cTZSRUFjTmhEbzVJdzFrelNNdTVNbkV6ajVJd3lrbGh1N1pXVW4zQ29uVzQyRUxKZVU4WUFCR2xyZ24ycEc5ekNaVmpYcHZpWlN6bVAzQQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
@@ -20646,10 +20663,10 @@
       ]
     },
     {
-      "title": "Stock Market Today, July 20: AMC Surges on Earnings Beat and Record Revenue",
+      "title": "Palantir and Sandisk Both Posted Blowout Earnings in 2026. The Stock Market Rewarded Only One of Them the Same Day. Here's the Difference.",
       "source": "The Motley Fool",
-      "publishedAt": "2026-07-20T21:59:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQa2JjOFVKUmdxaHFvZlpoaFl4U0MwUF9TbTdDSG9aSWtGUkVnSXRSUkVmN29DUmFjZkxOVmJxQWgtSVZMMF9jY2pZRUVZOVNUMzMwR0ZXallhNVZVVkY4dlc5aG9icXpjNW45T1I5TnlmVnRaVEhkWXRTMzZTQi1JcTZtYVQ1UkZ2dl9TNDlHQ1JyUVNhOHUtWnNldjZQNEIyRVBISnFoTWN0eWNRck1heDVmdXBSQ2EwOGhIdDlub1JfVl9sZ3lGc3h6UENBY28?oc=5",
+      "publishedAt": "2026-07-21T06:49:25+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSjJrTGF1aW1XaU9VekZtUjBKY2JaNjlzeEU4NC1rUVU5TFdhNGpId1RmMjZsYV9iVDhTTXU4dVhORElHM0QxWGVYV2h5WkxmTzN5X2N0NnI2TW81MjBHbThucnQtNWQwTmQ0X01sSEZhMi1ObTdGX0tEMU1QRWg5NVViLS0yUWNUdGQ1WkZmai1XVlRWV3dz?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -20663,44 +20680,28 @@
       ]
     },
     {
-      "title": "If history is a guide, there’s still another week before earnings will start to move the stock market",
-      "source": "MarketWatch",
-      "publishedAt": "2026-07-20T09:18:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOclFEZG5jY3ppV2pnWFh0MEZlTjJpYmVfbnpJVWV6TU11NWZvSFJaUjBZaVExenlYcTZFdlJhTmhtME1HWGcwMGJ0MzZSZmx5SVcycGEtcU5tdTZXaW4xM2dBNnZPb2pyS3c2OTVEemdjcFFFMUpjQUJCSXNiTWNGckJqMWJBdWw3bUZERFlzR0hxU3AzSG9GOEkwTEhjMXVVTm9WVUpHb3MtakVFQ0ZlRzJrdmNlZk5ZS1c5YjhxZGRrRE9DME45UEhlMldaSUVyY1pZOUJicmhwdw?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "Why China’s market rescue matters for a durable bull run and strategic tech push",
+      "source": "South China Morning Post",
+      "publishedAt": "2026-07-21T09:16:22+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPckJ3Ukl6TEpvZXZmN3VtMDFCWTlDQTNXWEo3d29ZNVRocC1fVHlOOEVYT0x2YnNIU3lqT1R0a1VUTkNuTFJueEpZZ2J6WjgxekxEU3gtck0yQzU4M2RyUzNCNEwwNkFBd2tseFItS2VRclZtdHMxeEI3Y2R1OFZ4ck9wMnhadk1RaHg5NHcyNmlGallMTl9YdWtfV2xIMVJnbm53V2c3eVFMbEZLT0l2ZXp3OXkxcWltWGdEa0lYZUxfNGVuamh4RUtTMzI0OEsxdU1oUDBvSng3UGdLbFHSAd4BQVVfeXFMUGY1d3c0TF9WWFNkTXZSV3RPUVIzR0Qwemk2Z241dVlyV05lVHdaV2FhTzVFN0Y4ajFBWEJ1dnVEb0ZBTkVSS1FjMkJTMDBVdkZHWTJtcnd3dEZkcEVuVTZZMFdlSkYzd1ZqSFEwbEhOT3F0RVc0alA2YXRHd2VoRTVsZEFMZThQT0VpODUya3lPcHdjZmRiN2l6MUZPYXpHYldyRE5VRFhFUkZzSnBMa3ZZR2ZWbmc4eHlvbmJVOFdLTkI4bnhEYVQ2SWtGWmZDcHJwZmhWSWJYaXB0SWVR?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
       "assets": [
+        "Staatsanleihen",
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "US-Dollar",
+        "Gold"
       ]
     },
     {
-      "title": "Why the Next Two Weeks Will Make or Break the Stock Market",
-      "source": "Barron's",
-      "publishedAt": "2026-07-20T13:21:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTnBtUmVkZlVnaVJtSFFJQ1JvWUNmSlVHMThvRHhmY3R6dUk1X2NGYlpWS2ZGSEdpcW4xeUZET1AzcTBaLUxJV0NEMzIzalBfVUtrVGl3YkcyVGhuV1VHeDJObll1WktJWjRJZWw3dmRLbmY2UGNva0lyYjVyM3JFeWdqamxuQVE?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Stock market today: Dow, S&P 500, Nasdaq mixed as oil rises, Big Tech earnings loom",
-      "source": "Yahoo! Finance Canada",
-      "publishedAt": "2026-07-20T19:05:21+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQT2NqUWhxazM3OFNWSmJ5SlQ2TDlqaXR6Sk5oSjlrVWl0ZmVoeTJQZE5GenN3ZjE0aVNPOVdZNjRGVXFvbWttM2gySk5lZ0xoMmlTcjV5UjdTbGJqSTV2b3JkZzdhdmFVWjEzODlwT0pjMEZmV0tudExoMFdwRjZqLVVqUkZ0cjBEZGREa1k2WEFESmI4R25KdUNUc1pZZ3AzV3phRko4cw?oc=5",
+      "title": "Conflict Rattles Stocks, Bonds as Oil Holds Gains: Markets Wrap",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-07-21T08:15:36+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNkNWOXN1YXJVTDNkZWJxWFZ4a0Vpa1FCVm9BT2szZWZBRm1XWkxMTXlBQnZhUWNPNDkwWktKREtsU1BkZmVubDB6cGpvQXdDSGpuQjNZX1JfaG5VSmJOSDJib0FfWXdyZFZZWHBid0hnRUpNLXhNdF9yWjFQUmRyTHg1ZUk3T0xuSEU5UU5BN0dKdjk3?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20818,7 +20819,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-07-21T06:33:58.380917+00:00",
+      "dataAsOf": "2026-07-21T10:29:02.796189+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
