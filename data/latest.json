@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-21T14:05:58.857500+00:00",
+  "fetchedAt": "2026-07-21T17:26:16.733718+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -66,10 +66,10 @@
       }
     },
     "sp500": {
-      "ytd": 8.74,
+      "ytd": 8.53,
       "first": 6858.47,
-      "latest": 7457.69,
-      "date": "2026-07-17",
+      "latest": 7443.28,
+      "date": "2026-07-20",
       "cadence": "daily",
       "series": "SP500",
       "uiLabel": "S&P 500 seit Jahresbeginn",
@@ -221,9 +221,9 @@
     {
       "label": "SPX",
       "icon": "📊",
-      "val": 7457.69,
-      "chg": -76.08,
-      "chgPct": -1.01,
+      "val": 7443.28,
+      "chg": -14.41,
+      "chgPct": -0.19,
       "unit": "",
       "dec": 2
     },
@@ -13683,6 +13683,10 @@
       {
         "date": "2026-07-17",
         "value": 7457.69
+      },
+      {
+        "date": "2026-07-20",
+        "value": 7443.28
       }
     ],
     "sentiment": [
@@ -20655,20 +20659,21 @@
       ]
     },
     {
-      "title": "As the U.S.-Iran war heats up again, these parts of the stock market and economy could be affected",
-      "source": "CNBC",
-      "publishedAt": "2026-07-21T11:56:14+00:00",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyYkFrMThCMDFmd0ZVeEJTTktSaU1TVGE1UkcwY0JlTUc5bXZmZ1FrVmRUalAyQVZVUnk0TnNieG8zMDdVSkdEYjh4LWFCZE1jREdISTRWYTQ1WVQwanktZV9GS0c2YkVPdGlZNzdxMjRMRHZsMlE?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "AI stocks gather more strength, even as Brent oil’s price tops $90",
+      "source": "The Press Democrat",
+      "publishedAt": "2026-07-21T15:13:32+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbFF1OGViMWwtbHhfbkNDWWhpLV9fM3p5SklHRlk1MW9aOWRLNDJJenhMc21NcmhRT2xyeEluVTNiTzg0dUR2bHpTakZwLXN0TUlObm5TcFctYWhKNUJPVXd2N3lhMTNKY3ZKR1M5WVgtcWlCd0dRNGtWVlBDZ1VNM0tjNFBRdnI1RXVPMkgtM2VGakU?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
@@ -20689,37 +20694,37 @@
       ]
     },
     {
-      "title": "Investors Gave Up on the Magnificent 7. Earnings Season Tells a Very Different Story",
-      "source": "inc.com",
-      "publishedAt": "2026-07-21T11:42:54+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQX3hMQl9XTHRCZ2JjUzBDdU8xMHgtYzlBa2w3bDcwelRWdmNrUmNTbG1rVkNPMFlIaXU3RHR4N0JaMTJwVjZCNGFNUGFTN1A4TldhLVpFX0lpUzNMZVpEM1pMc0RpcjkyY1FrbmpLOXRqOGlwWHU2MmZ4eVc0MVlIYnBBTXpGRkVCb1pJdHp0WHVMMnpuamhNajdxLUl3UnRsNDl4WEdxUnRCOVE?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "As the U.S.-Iran war heats up again, these parts of the stock market and economy could be affected",
+      "source": "CNBC",
+      "publishedAt": "2026-07-21T11:56:14+00:00",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyYkFrMThCMDFmd0ZVeEJTTktSaU1TVGE1UkcwY0JlTUc5bXZmZ1FrVmRUalAyQVZVUnk0TnNieG8zMDdVSkdEYjh4LWFCZE1jREdISTRWYTQ1WVQwanktZV9GS0c2YkVPdGlZNzdxMjRMRHZsMlHSAXtBVV95cUxPaDRCaDVoTXFMRHc4bmtPSVZwNTZHR2NRVjdIRHBydHdGOEt2cVNrWkFDWEVFakM2aFVsZGg4RW5qNmN1b1VBdzc2Qi1paWx4eWhna1ZrWDl2TTltQUtJLW1GN0c0bHExakJJdXE1aS1BZjh2OUViaGktalk?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
-      "title": "Palantir and Sandisk Both Posted Blowout Earnings in 2026. The Stock Market Rewarded Only One of Them the Same Day. Here's the Difference.",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-07-21T07:23:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSjJrTGF1aW1XaU9VekZtUjBKY2JaNjlzeEU4NC1rUVU5TFdhNGpId1RmMjZsYV9iVDhTTXU4dVhORElHM0QxWGVYV2h5WkxmTzN5X2N0NnI2TW81MjBHbThucnQtNWQwTmQ0X01sSEZhMi1ObTdGX0tEMU1QRWg5NVViLS0yUWNUdGQ1WkZmai1XVlRWV3dz?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "Something Weird Is Happening Beneath the Stock Market’s Surface",
+      "source": "WSJ",
+      "publishedAt": "2026-07-21T10:39:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcTJwS3A5VGRQNVAwUDlGR3lOMXBQcEt4bklSV3pRdW5oUHZRMWNudk9WRzVTUGIwenlhbkZxMWxGanU1M0tWNmtMWE9rZU4zY1YxZ3dTSGZKcUc1OXVVNzZneVdiNm54YS1FX3ZFLVBXckNnMXVXWExuc3c5MlhhZU5BQXNlWUxzZ0lTUmFlcGpveDJPRU8zQ1ROOGF0cGE1aVNkYVl6SGE2Zw?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Anleihen",
+        "Währungen"
       ]
     }
   ],
@@ -20826,7 +20831,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-07-21T14:05:58.857500+00:00",
+      "dataAsOf": "2026-07-21T17:26:16.733718+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
