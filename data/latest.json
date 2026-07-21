@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-21T17:26:16.733718+00:00",
+  "fetchedAt": "2026-07-21T21:15:38.694344+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -105,7 +105,7 @@
         "vix": 18.65,
         "brent": 81.62,
         "eurusd": 1.144,
-        "us10y": 4.55
+        "us10y": 4.6
       },
       "uiLabel": "Marktstress",
       "shortText": "Verdichteter Stressmesser aus Markt- und Preisvariablen.",
@@ -248,9 +248,9 @@
     {
       "label": "US 10Y",
       "icon": "📉",
-      "val": 4.55,
-      "chg": -0.02,
-      "chgPct": -0.44,
+      "val": 4.6,
+      "chg": 0.05,
+      "chgPct": 1.1,
       "unit": "%",
       "dec": 2
     },
@@ -20624,6 +20624,23 @@
   },
   "news": [
     {
+      "title": "As the U.S.-Iran war heats up again, these parts of the stock market and economy could be affected",
+      "source": "CNBC",
+      "publishedAt": "2026-07-21T11:56:14+00:00",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyYkFrMThCMDFmd0ZVeEJTTktSaU1TVGE1UkcwY0JlTUc5bXZmZ1FrVmRUalAyQVZVUnk0TnNieG8zMDdVSkdEYjh4LWFCZE1jREdISTRWYTQ1WVQwanktZV9GS0c2YkVPdGlZNzdxMjRMRHZsMlHSAXtBVV95cUxPaDRCaDVoTXFMRHc4bmtPSVZwNTZHR2NRVjdIRHBydHdGOEt2cVNrWkFDWEVFakM2aFVsZGg4RW5qNmN1b1VBdzc2Qi1paWx4eWhna1ZrWDl2TTltQUtJLW1GN0c0bHExakJJdXE1aS1BZjh2OUViaGktalk?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "Hello Tariffs, My Old Friend. How the Stock Market Risks Are Piling Up, and 5 Other Things to Know Today.",
       "source": "Barron's",
       "publishedAt": "2026-07-21T10:46:00+00:00",
@@ -20659,55 +20676,20 @@
       ]
     },
     {
-      "title": "AI stocks gather more strength, even as Brent oil’s price tops $90",
-      "source": "The Press Democrat",
-      "publishedAt": "2026-07-21T15:13:32+00:00",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbFF1OGViMWwtbHhfbkNDWWhpLV9fM3p5SklHRlk1MW9aOWRLNDJJenhMc21NcmhRT2xyeEluVTNiTzg0dUR2bHpTakZwLXN0TUlObm5TcFctYWhKNUJPVXd2N3lhMTNKY3ZKR1M5WVgtcWlCd0dRNGtWVlBDZ1VNM0tjNFBRdnI1RXVPMkgtM2VGakU?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stock market today: Nasdaq leads Dow, S&P 500 futures higher as chip stocks revive",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-07-21T08:46:31+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT0t0NC1oZFVxY2t6bmFBaTJMcjJscFdqYWh5WC1iTURmemdubXg2QVlTbXNvODFES1cyMGdNU2UzZ25oUjhfQUxlTWlWUG0yT3V3TWtoTHdNaEF0cTZSRUFjTmhEbzVJdzFrelNNdTVNbkV6ajVJd3lrbGh1N1pXVW4zQ29uVzQyRUxKZVU4WUFCR2xyZ24ycEc5ekNaVmpYcHZpWlN6bVAzQQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Nasdaq Rallies Ahead of Magnificent 7 Earnings: Stock Market Today",
+      "source": "Kiplinger",
+      "publishedAt": "2026-07-21T20:09:09+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNc2VlX2IzWlUxRUxMOU9ISWp5dGlPLVAxVmYxckNNVWlvblJ6X2RUZTFYOHduaUN2SEEyYjYzWjZ1Tm9tYk9VVUtJWm9kRFQxYVZoMDBtbDR2R1lka3pOc1RMTTg4d2poNEhISkY0cXA5RThjSXp6MTZVTk9LUHBOMnZURG00QjlsdjBRR3hmaGtLOENOX3VtOG9DWVpNXzhRUnNZdU8wa2dUSFll?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
         "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "As the U.S.-Iran war heats up again, these parts of the stock market and economy could be affected",
-      "source": "CNBC",
-      "publishedAt": "2026-07-21T11:56:14+00:00",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyYkFrMThCMDFmd0ZVeEJTTktSaU1TVGE1UkcwY0JlTUc5bXZmZ1FrVmRUalAyQVZVUnk0TnNieG8zMDdVSkdEYjh4LWFCZE1jREdISTRWYTQ1WVQwanktZV9GS0c2YkVPdGlZNzdxMjRMRHZsMlHSAXtBVV95cUxPaDRCaDVoTXFMRHc4bmtPSVZwNTZHR2NRVjdIRHBydHdGOEt2cVNrWkFDWEVFakM2aFVsZGg4RW5qNmN1b1VBdzc2Qi1paWx4eWhna1ZrWDl2TTltQUtJLW1GN0c0bHExakJJdXE1aS1BZjh2OUViaGktalk?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     },
     {
@@ -20725,6 +20707,24 @@
         "Aktien",
         "Anleihen",
         "Währungen"
+      ]
+    },
+    {
+      "title": "AI stocks lead Wall Street higher, even as Brent oil’s price nears $92",
+      "source": "Baltimore Sun",
+      "publishedAt": "2026-07-21T19:34:23+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcElfODMwRC1jcWU1UjctcXBObHNFU3NJenNFWngxTEhxY2U3QVZIMXgyWWtBcThuSFh1YUpFWlFMVGFsNUw0NWd5Q1VtT1RJUlJDYWM4aWtIZ0hoMHN4ZDdKME1pTHN4LVlzRkFWTV9EU3RRbFhBTHZLTUtmLWRKbWMyaEtnaE5NUVItUTd4WDRkdw?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     }
   ],
@@ -20831,7 +20831,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-07-21T17:26:16.733718+00:00",
+      "dataAsOf": "2026-07-21T21:15:38.694344+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
