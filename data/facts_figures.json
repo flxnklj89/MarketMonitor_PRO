@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T10:29:07.541155+00:00",
+  "generatedAt": "2026-07-21T14:06:09.104871+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -20,10 +20,10 @@
     },
     "vix": {
       "title": "Relativ ruhig",
-      "value": 18.8,
+      "value": 18.6,
       "unit": "",
       "tone": "l",
-      "status": "VIX bei 18.8. Unter dem langfristigen Durchschnitt von ~17–20."
+      "status": "VIX bei 18.6. Unter dem langfristigen Durchschnitt von ~17–20."
     },
     "breadth": {
       "title": "58 % über 200T-Ø (Proxy)",
@@ -394,9 +394,6 @@
           "value": 3.64
         },
         {
-          "value": 3.64
-        },
-        {
           "value": 3.63
         },
         {
@@ -533,6 +530,9 @@
         },
         {
           "value": 3.62
+        },
+        {
+          "value": 3.63
         },
         {
           "value": 3.63
@@ -668,7 +668,7 @@
     "title": "Crash Probability",
     "score": 0,
     "scoreLabel": "0 %",
-    "reason": "Stress 24/100, Rezessionsrisiko 0.5 %, VIX 18.8.",
+    "reason": "Stress 24/100, Rezessionsrisiko 0.5 %, VIX 18.6.",
     "interpretation": "Crash-Risiko derzeit begrenzt."
   },
   "timingQuality": {
@@ -3707,10 +3707,6 @@
     ],
     "vix": [
       {
-        "date": "2025-05-21",
-        "value": 20.87
-      },
-      {
         "date": "2025-05-22",
         "value": 20.28
       },
@@ -4905,6 +4901,10 @@
       {
         "date": "2026-07-17",
         "value": 18.77
+      },
+      {
+        "date": "2026-07-20",
+        "value": 18.65
       }
     ],
     "brent": [
@@ -6112,6 +6112,24 @@
   },
   "news": [
     {
+      "title": "Hello Tariffs, My Old Friend. How the Stock Market Risks Are Piling Up, and 5 Other Things to Know Today.",
+      "source": "Barron's",
+      "publishedAt": "2026-07-21T10:46:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8zTVlhNHdHR0lOZ21VNzlyR2paVUpYVVJmbTFMS1lqVG1RZE1ONE9DYXlJM0xVSXdqRzA2ekY5V2JlWUk5NlFmV041T2NfWWczbWVGdDQ4dTA5MEpQVVN5NDhWZU9KeGNYa3o5MVE2WQ?oc=5",
+      "bucket": "Handel / Lieferketten",
+      "summary": "Die Meldung betrifft Zölle, Sanktionen oder Logistik. Das ist wichtig, weil solche Themen Preise, Margen und Verfügbarkeit von Vorprodukten beeinflussen.",
+      "impact": "Mittel bis hoch, wenn die Störung mehrere Branchen oder Länder betrifft.",
+      "probability": "Mittel, weil politische Schlagzeilen oft erst bestätigt werden müssen.",
+      "horizon": "Sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders empfindlich reagieren Industrie, Transport, Rohstoffe, Inflationspreise und konjunktursensitive Aktien.",
+      "assets": [
+        "Industrieaktien",
+        "Rohstoffe",
+        "Inflation",
+        "Transport"
+      ]
+    },
+    {
       "title": "China Broadens Market Rescue With Record Inflows Into Tech ETF",
       "source": "Bloomberg.com",
       "publishedAt": "2026-07-21T08:17:21+00:00",
@@ -6126,6 +6144,23 @@
         "Weltaktien",
         "Währungen",
         "Rohstoffe"
+      ]
+    },
+    {
+      "title": "As the U.S.-Iran war heats up again, these parts of the stock market and economy could be affected",
+      "source": "CNBC",
+      "publishedAt": "2026-07-21T11:56:14+00:00",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyYkFrMThCMDFmd0ZVeEJTTktSaU1TVGE1UkcwY0JlTUc5bXZmZ1FrVmRUalAyQVZVUnk0TnNieG8zMDdVSkdEYjh4LWFCZE1jREdISTRWYTQ1WVQwanktZV9GS0c2YkVPdGlZNzdxMjRMRHZsMlE?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
@@ -6146,27 +6181,10 @@
       ]
     },
     {
-      "title": "China's securities regulator vows to maintain stability after market rout",
-      "source": "Reuters",
-      "publishedAt": "2026-07-20T19:37:12+00:00",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSzVZN2F3d0ZFaHpjRXRNb01lVzA5R095LVU0YmY2YVN6bVBRRHJHQnRmQVpsd1l3cmVrT3lIQXpOR0hfUDZrVE1vWmZIdjBKRWNlWFNuZ1dFaUI5YUxZMVl2cWI3dXlEYkE1V3RCLUpIZXB2dVFhcWdlRHhrQ3pYYnpkRTJRNDBHNm1TVnczM0tHRlRrb1dXLUFZN0I0VzN6anZqclYtTWlyckVVaC1acg?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
-      ]
-    },
-    {
-      "title": "Palantir and Sandisk Both Posted Blowout Earnings in 2026. The Stock Market Rewarded Only One of Them the Same Day. Here's the Difference.",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-07-21T06:49:25+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSjJrTGF1aW1XaU9VekZtUjBKY2JaNjlzeEU4NC1rUVU5TFdhNGpId1RmMjZsYV9iVDhTTXU4dVhORElHM0QxWGVYV2h5WkxmTzN5X2N0NnI2TW81MjBHbThucnQtNWQwTmQ0X01sSEZhMi1ObTdGX0tEMU1QRWg5NVViLS0yUWNUdGQ1WkZmai1XVlRWV3dz?oc=5",
+      "title": "Investors Gave Up on the Magnificent 7. Earnings Season Tells a Very Different Story",
+      "source": "inc.com",
+      "publishedAt": "2026-07-21T11:42:54+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQX3hMQl9XTHRCZ2JjUzBDdU8xMHgtYzlBa2w3bDcwelRWdmNrUmNTbG1rVkNPMFlIaXU3RHR4N0JaMTJwVjZCNGFNUGFTN1A4TldhLVpFX0lpUzNMZVpEM1pMc0RpcjkyY1FrbmpLOXRqOGlwWHU2MmZ4eVc0MVlIYnBBTXpGRkVCb1pJdHp0WHVMMnpuamhNajdxLUl3UnRsNDl4WEdxUnRCOVE?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -6180,39 +6198,20 @@
       ]
     },
     {
-      "title": "Why China’s market rescue matters for a durable bull run and strategic tech push",
-      "source": "South China Morning Post",
-      "publishedAt": "2026-07-21T09:16:22+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPckJ3Ukl6TEpvZXZmN3VtMDFCWTlDQTNXWEo3d29ZNVRocC1fVHlOOEVYT0x2YnNIU3lqT1R0a1VUTkNuTFJueEpZZ2J6WjgxekxEU3gtck0yQzU4M2RyUzNCNEwwNkFBd2tseFItS2VRclZtdHMxeEI3Y2R1OFZ4ck9wMnhadk1RaHg5NHcyNmlGallMTl9YdWtfV2xIMVJnbm53V2c3eVFMbEZLT0l2ZXp3OXkxcWltWGdEa0lYZUxfNGVuamh4RUtTMzI0OEsxdU1oUDBvSng3UGdLbFHSAd4BQVVfeXFMUGY1d3c0TF9WWFNkTXZSV3RPUVIzR0Qwemk2Z241dVlyV05lVHdaV2FhTzVFN0Y4ajFBWEJ1dnVEb0ZBTkVSS1FjMkJTMDBVdkZHWTJtcnd3dEZkcEVuVTZZMFdlSkYzd1ZqSFEwbEhOT3F0RVc0alA2YXRHd2VoRTVsZEFMZThQT0VpODUya3lPcHdjZmRiN2l6MUZPYXpHYldyRE5VRFhFUkZzSnBMa3ZZR2ZWbmc4eHlvbmJVOFdLTkI4bnhEYVQ2SWtGWmZDcHJwZmhWSWJYaXB0SWVR?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "title": "Palantir and Sandisk Both Posted Blowout Earnings in 2026. The Stock Market Rewarded Only One of Them the Same Day. Here's the Difference.",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-07-21T07:23:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSjJrTGF1aW1XaU9VekZtUjBKY2JaNjlzeEU4NC1rUVU5TFdhNGpId1RmMjZsYV9iVDhTTXU4dVhORElHM0QxWGVYV2h5WkxmTzN5X2N0NnI2TW81MjBHbThucnQtNWQwTmQ0X01sSEZhMi1ObTdGX0tEMU1QRWg5NVViLS0yUWNUdGQ1WkZmai1XVlRWV3dz?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
-        "Staatsanleihen",
         "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "Conflict Rattles Stocks, Bonds as Oil Holds Gains: Markets Wrap",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-07-21T08:15:36+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNkNWOXN1YXJVTDNkZWJxWFZ4a0Vpa1FCVm9BT2szZWZBRm1XWkxMTXlBQnZhUWNPNDkwWktKREtsU1BkZmVubDB6cGpvQXdDSGpuQjNZX1JfaG5VSmJOSDJib0FfWXdyZFZZWHBid0hnRUpNLXhNdF9yWjFQUmRyTHg1ZUk3T0xuSEU5UU5BN0dKdjk3?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     }
   ]
