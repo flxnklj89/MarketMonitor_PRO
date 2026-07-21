@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T03:20:06.607207+00:00",
+  "generatedAt": "2026-07-21T06:34:04.783729+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -43,10 +43,10 @@
   "technicalTriggers": [
     {
       "label": "50T vs. 200T",
-      "value": 9.5,
+      "value": 9.4,
       "unit": "%",
       "tone": "m",
-      "status": "50T liegt bei +9.5 % gegenüber dem 200T. Schlusskurs 25520, 50T 26140, 200T 23877. NASDAQ Composite (Fallback) unter 50T (26140), aber noch über 200T (23877).",
+      "status": "50T liegt bei +9.4 % gegenüber dem 200T. Schlusskurs 25508, 50T 26133, 200T 23892. NASDAQ Composite (Fallback) unter 50T (26133), aber noch über 200T (23892).",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -56,10 +56,10 @@
     },
     {
       "label": "RSI (14)",
-      "value": 44.2,
+      "value": 44.1,
       "unit": "",
       "tone": "m",
-      "status": "RSI (14) bei 44.2. Kein Extremniveau in beide Richtungen.",
+      "status": "RSI (14) bei 44.1. Kein Extremniveau in beide Richtungen.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -69,10 +69,10 @@
     },
     {
       "label": "Drawdown vom Hoch",
-      "value": -5.8,
+      "value": -5.9,
       "unit": "%",
       "tone": "m",
-      "status": "-5.8 % vom Hoch. Normales Korrekturterritory.",
+      "status": "-5.9 % vom Hoch. Normales Korrekturterritory.",
       "history": []
     }
   ],
@@ -702,12 +702,6 @@
   "charts": {
     "chartLabel": "NASDAQ Composite",
     "qqq": [
-      {
-        "date": "2025-05-07",
-        "close": 17738.16,
-        "ma50": 17401.27,
-        "ma200": 18315.55
-      },
       {
         "date": "2025-05-08",
         "close": 17928.14,
@@ -2501,13 +2495,15 @@
         "close": 25520.24,
         "ma50": 26140.04,
         "ma200": 23877.26
+      },
+      {
+        "date": "2026-07-20",
+        "close": 25508.07,
+        "ma50": 26133.43,
+        "ma200": 23891.5
       }
     ],
     "rsi": [
-      {
-        "date": "2025-05-07",
-        "value": 56.4
-      },
       {
         "date": "2025-05-08",
         "value": 58.7
@@ -3703,6 +3699,10 @@
       {
         "date": "2026-07-17",
         "value": 44.2
+      },
+      {
+        "date": "2026-07-20",
+        "value": 44.1
       }
     ],
     "vix": [
@@ -6112,6 +6112,23 @@
   },
   "news": [
     {
+      "title": "China Broadens Market Rescue With Record Inflows Into Tech ETF",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-07-21T03:31:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPa2p6cVRJbldrcjVNbjh6OEw0dG1LZmg4b2RLZmVPaVVONVBtYkU4WWVpZTB6bWtoeEdHYXB6X2ZFY0NKdUxUU09DMDlCVFZCanBfN3A3WE50UWJObUl3V3doZF9hcXh0MG9uT1IyU2NvTExRZTJQX0tuQkxnV3YwcGFOdEoyQThUM04xTk5mT2V4NF9MeHdZcUt6VWZtZDdEYVRHY1VaQ0lHUEFlaFV2VXJ4UQ?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
       "title": "China's securities regulator vows to maintain stability after market rout",
       "source": "Reuters",
       "publishedAt": "2026-07-20T19:37:12+00:00",
@@ -6126,23 +6143,6 @@
         "Weltaktien",
         "Währungen",
         "Rohstoffe"
-      ]
-    },
-    {
-      "title": "If history is a guide, there’s still another week before earnings will start to move the stock market",
-      "source": "MarketWatch",
-      "publishedAt": "2026-07-20T09:18:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOclFEZG5jY3ppV2pnWFh0MEZlTjJpYmVfbnpJVWV6TU11NWZvSFJaUjBZaVExenlYcTZFdlJhTmhtME1HWGcwMGJ0MzZSZmx5SVcycGEtcU5tdTZXaW4xM2dBNnZPb2pyS3c2OTVEemdjcFFFMUpjQUJCSXNiTWNGckJqMWJBdWw3bUZERFlzR0hxU3AzSG9GOEkwTEhjMXVVTm9WVUpHb3MtakVFQ0ZlRzJrdmNlZk5ZS1c5YjhxZGRrRE9DME45UEhlMldaSUVyY1pZOUJicmhwdw?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
       ]
     },
     {
@@ -6163,21 +6163,20 @@
       ]
     },
     {
-      "title": "Conflict Rattles Stocks, Bonds as Oil Holds Gains: Markets Wrap",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-07-20T23:08:31+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNkNWOXN1YXJVTDNkZWJxWFZ4a0Vpa1FCVm9BT2szZWZBRm1XWkxMTXlBQnZhUWNPNDkwWktKREtsU1BkZmVubDB6cGpvQXdDSGpuQjNZX1JfaG5VSmJOSDJib0FfWXdyZFZZWHBid0hnRUpNLXhNdF9yWjFQUmRyTHg1ZUk3T0xuSEU5UU5BN0dKdjk3?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "If history is a guide, there’s still another week before earnings will start to move the stock market",
+      "source": "MarketWatch",
+      "publishedAt": "2026-07-20T09:18:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOclFEZG5jY3ppV2pnWFh0MEZlTjJpYmVfbnpJVWV6TU11NWZvSFJaUjBZaVExenlYcTZFdlJhTmhtME1HWGcwMGJ0MzZSZmx5SVcycGEtcU5tdTZXaW4xM2dBNnZPb2pyS3c2OTVEemdjcFFFMUpjQUJCSXNiTWNGckJqMWJBdWw3bUZERFlzR0hxU3AzSG9GOEkwTEhjMXVVTm9WVUpHb3MtakVFQ0ZlRzJrdmNlZk5ZS1c5YjhxZGRrRE9DME45UEhlMldaSUVyY1pZOUJicmhwdw?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     },
     {
