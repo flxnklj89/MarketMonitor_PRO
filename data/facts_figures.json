@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T21:15:46.613506+00:00",
+  "generatedAt": "2026-07-22T03:18:25.205136+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,10 +6112,44 @@
   },
   "news": [
     {
-      "title": "As the U.S.-Iran war heats up again, these parts of the stock market and economy could be affected",
-      "source": "CNBC",
-      "publishedAt": "2026-07-21T11:56:14+00:00",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyYkFrMThCMDFmd0ZVeEJTTktSaU1TVGE1UkcwY0JlTUc5bXZmZ1FrVmRUalAyQVZVUnk0TnNieG8zMDdVSkdEYjh4LWFCZE1jREdISTRWYTQ1WVQwanktZV9GS0c2YkVPdGlZNzdxMjRMRHZsMlHSAXtBVV95cUxPaDRCaDVoTXFMRHc4bmtPSVZwNTZHR2NRVjdIRHBydHdGOEt2cVNrWkFDWEVFakM2aFVsZGg4RW5qNmN1b1VBdzc2Qi1paWx4eWhna1ZrWDl2TTltQUtJLW1GN0c0bHExakJJdXE1aS1BZjh2OUViaGktalk?oc=5",
+      "title": "Nasdaq Rallies Ahead of Magnificent 7 Earnings: Stock Market Today",
+      "source": "Kiplinger",
+      "publishedAt": "2026-07-21T20:09:09+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNc2VlX2IzWlUxRUxMOU9ISWp5dGlPLVAxVmYxckNNVWlvblJ6X2RUZTFYOHduaUN2SEEyYjYzWjZ1Tm9tYk9VVUtJWm9kRFQxYVZoMDBtbDR2R1lka3pOc1RMTTg4d2poNEhISkY0cXA5RThjSXp6MTZVTk9LUHBOMnZURG00QjlsdjBRR3hmaGtLOENOX3VtOG9DWVpNXzhRUnNZdU8wa2dUSFll?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Opinion | China’s stock market intervention is a confidence booster",
+      "source": "South China Morning Post",
+      "publishedAt": "2026-07-21T23:15:12+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaTc0bGhSX21DaEtNVDJRNVFGUG9ibVptOEVpeWhjMWtfZkJnYWJnMlBSZ3dlaTZYb1c2bElFek80VHYteTJlX1FGN2xlcl93UTNLRFFla0g5NVVVWngxRThZcE9aT3BxNVJFV3RMVkFPdTh2T3VaUm84RkpQNDhYcHY4T2VteWRKX2hNYllTX0Y5SHNUZVl6R2dnd0F1eS0wLXk2aHhpONIBpwFBVV95cUxNNXI2ejc5Q3BYZkhVVmZocmlWWXY4WXk4YVE1VnczUk9Mak5uN1ZlbXVnakJJSlQ1eWh5cG1nSmxTNUtySzU2Y0QxYVpJQ3JZbERWSG1TZ0tmbDJHTnpvQjhKMDAtWEZLLW1IMTBtNFZqTjh2X1ZjdGlDb0N6V0tNVzAxSTZXZ2dHV3c1a0YwTlM3XzJpZ3ZjTkZxU2RKZjRuUVlZU3FSbw?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
+      "title": "Stock market today: Nasdaq leads Dow, S&P 500 higher as chip stocks revive",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-21T21:10:22+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT0t0NC1oZFVxY2t6bmFBaTJMcjJscFdqYWh5WC1iTURmemdubXg2QVlTbXNvODFES1cyMGdNU2UzZ25oUjhfQUxlTWlWUG0yT3V3TWtoTHdNaEF0cTZSRUFjTmhEbzVJdzFrelNNdTVNbkV6ajVJd3lrbGh1N1pXVW4zQ29uVzQyRUxKZVU4WUFCR2xyZ24ycEc5ekNaVmpYcHZpWlN6bVAzQQ?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -6147,6 +6181,24 @@
       ]
     },
     {
+      "title": "Terry Savage: Stock market is somehow up despite the rising oil prices",
+      "source": "WGN Radio 720",
+      "publishedAt": "2026-07-21T22:18:05+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUkw5V3JGYjZ1UXBWOXJqZUpkMVZyMC1XeHVTV1JJWEtLbDJNclUwRGRSWjVDOUtsblZUSjJRQUVFVFFPUlRQa2dCblMwRVJ6V2tJeWdhUlZZaGtGNWxXWmpxd1ZiZDVTTkdjS3hGeHNaa0E4YU1sanZoM3U4UjhoeDNyUzBmYWdGYnhKOERzQjhHdmI4Y0djdFY4T0J3dlNHNDNn0gGoAUFVX3lxTE4wWXh1dDJmcFNpdV9qMnMyQjliSGZhcmFJSXRuUDY2emZxUDRjT2xUdmFqQWtNbEFzbi1qX0FkNk9RLTBzZlN1MnVjbXp1ckZMM1VaT245djNpdTBPTmFKUUt2czJrVmsxM2piZ0ZyeFlGY05xbzhEeUN1aEkxbVZEVk56aUozTFBaem9uMlJXeWx4dWl5Y3pkUnhSX2RzZFBjNExPVC0yUw?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
       "title": "China Broadens Market Rescue With Record Inflows Into Tech ETF",
       "source": "Bloomberg.com",
       "publishedAt": "2026-07-21T08:17:21+00:00",
@@ -6161,58 +6213,6 @@
         "Weltaktien",
         "Währungen",
         "Rohstoffe"
-      ]
-    },
-    {
-      "title": "Nasdaq Rallies Ahead of Magnificent 7 Earnings: Stock Market Today",
-      "source": "Kiplinger",
-      "publishedAt": "2026-07-21T20:09:09+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNc2VlX2IzWlUxRUxMOU9ISWp5dGlPLVAxVmYxckNNVWlvblJ6X2RUZTFYOHduaUN2SEEyYjYzWjZ1Tm9tYk9VVUtJWm9kRFQxYVZoMDBtbDR2R1lka3pOc1RMTTg4d2poNEhISkY0cXA5RThjSXp6MTZVTk9LUHBOMnZURG00QjlsdjBRR3hmaGtLOENOX3VtOG9DWVpNXzhRUnNZdU8wa2dUSFll?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Something Weird Is Happening Beneath the Stock Market’s Surface",
-      "source": "WSJ",
-      "publishedAt": "2026-07-21T10:39:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcTJwS3A5VGRQNVAwUDlGR3lOMXBQcEt4bklSV3pRdW5oUHZRMWNudk9WRzVTUGIwenlhbkZxMWxGanU1M0tWNmtMWE9rZU4zY1YxZ3dTSGZKcUc1OXVVNzZneVdiNm54YS1FX3ZFLVBXckNnMXVXWExuc3c5MlhhZU5BQXNlWUxzZ0lTUmFlcGpveDJPRU8zQ1ROOGF0cGE1aVNkYVl6SGE2Zw?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "AI stocks lead Wall Street higher, even as Brent oil’s price nears $92",
-      "source": "Baltimore Sun",
-      "publishedAt": "2026-07-21T19:34:23+00:00",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcElfODMwRC1jcWU1UjctcXBObHNFU3NJenNFWngxTEhxY2U3QVZIMXgyWWtBcThuSFh1YUpFWlFMVGFsNUw0NWd5Q1VtT1RJUlJDYWM4aWtIZ0hoMHN4ZDdKME1pTHN4LVlzRkFWTV9EU3RRbFhBTHZLTUtmLWRKbWMyaEtnaE5NUVItUTd4WDRkdw?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
       ]
     }
   ]
