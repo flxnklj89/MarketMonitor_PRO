@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-22T17:25:01.390236+00:00",
+  "fetchedAt": "2026-07-22T21:14:17.090717+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -105,7 +105,7 @@
         "vix": 17.05,
         "brent": 86.99,
         "eurusd": 1.144,
-        "us10y": 4.6
+        "us10y": 4.63
       },
       "uiLabel": "Marktstress",
       "shortText": "Verdichteter Stressmesser aus Markt- und Preisvariablen.",
@@ -248,9 +248,9 @@
     {
       "label": "US 10Y",
       "icon": "📉",
-      "val": 4.6,
-      "chg": 0.05,
-      "chgPct": 1.1,
+      "val": 4.63,
+      "chg": 0.03,
+      "chgPct": 0.65,
       "unit": "%",
       "dec": 2
     },
@@ -20624,6 +20624,24 @@
   },
   "news": [
     {
+      "title": "Stock market today: Dow, S&P 500, Nasdaq slip as oil prices rise, Alphabet and Tesla earnings loom",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-22T20:05:16+00:00",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOTXBKajBzM0pqZExjOW05NlBGdkRKQzY3b3gwT0lkSHJJVm5jTDJRNVBBRno5cnpUMnRzbnRSdEUxel9MZGtuazZDV2FPUlpuVlllUjBIYy1mWm00RmtvMUZkd0JDNmFITVVCdnpOOXZqc3FpSXU5N2h0c1M2cUxJWko2dktldUV1U2VhbWlHN295TUVsV1dGbkt3cHRVaXlvQnFHZ1U2a1pLS2NXNnNQRll2d0J5bS16U2JjWHFNNjFMZ0p5MEtTZ3BiSjQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
       "title": "Tech Earnings Will Put a Fragile Stock Market to the Test",
       "source": "Barron's",
       "publishedAt": "2026-07-22T15:37:00+00:00",
@@ -20641,26 +20659,26 @@
       ]
     },
     {
-      "title": "Why China's \"national team\" buys up stocks",
-      "source": "Axios",
-      "publishedAt": "2026-07-22T11:23:32+00:00",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9tck9oZWxOQUMwRldPN005TmZCVVoyZ3BXNEJ1NHotVkFqVnBpWkJVai1weFowa2ZkcUQtajhQeW9OU01zaHJOUUtTU3p5N3p1NlhBVzk5T1B2UGdibkNpbW1aQ1ZJNW9OYm4yNV9UYmQ?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "title": "Stocks and the Economy Are Increasingly Relying on the A.I. Boom",
+      "source": "The New York Times",
+      "publishedAt": "2026-07-22T14:15:41+00:00",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pd3lUdFg5TkpBanp6YTNIZENreTk3bDBLVnVBZWw4VzlFdXlGUWxjcDRFQ3NBYktza2NmcWRjLWdfZlRrVWtvYmMwUFNfNENqb2Y0SkprYklCVnhyN1NhNnBYcTFodlk3MjZyUndUSW41SDQ1RUNxQUc3eDAycXM?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
       "title": "Stock Market Midday, July 22: Markets Brace for Alphabet Earnings as Hyperscaler's AI Debt Comes Into Focus",
       "source": "The Motley Fool",
-      "publishedAt": "2026-07-22T16:55:34+00:00",
+      "publishedAt": "2026-07-22T17:19:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOUzZOY0lxTXBqdVdTT2pSU0ZFWklzbkRmcHk5OXg3TVAycGQ3TC1na0dEQmdrMkdSUk83Rl9CWWtIZjMzejBXYUtQVVNZSmFDekN5U3VucUNLZDJ3X3JGT1drbzlVRDhVR0RKT09XdzctaHpXem1qeE4takRsYk5McHU1TDE4ZWZDamE3RTBWNjNfMEU2Z29PdTFkQ1FoRjVUSzNERjBfalNwZEYyY056NEpoOVRucWZ6Z3VmUGlucGlWci1qYlJvUWp4OElVeUpKSnQzZ2N3LUU5NFQyYndWUTJXQ0o1UEVFVDBsRVVvY2tXamstRlZVcDJtM0ZkRktR?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
@@ -20675,10 +20693,10 @@
       ]
     },
     {
-      "title": "Oil Prices Jump on US-Iran Strikes, Stocks Flat Ahead of Big Tech Results",
-      "source": "GV Wire",
-      "publishedAt": "2026-07-22T16:43:39+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNLWY2aWJtY2dNUEdRdDNTVVJMVlJwaUcwbDZzVWFGeDR3YUNUNkI2MWpnY2RRSEp5dHNRSzBOY3hrTGZhbkVxYUI5dW9GOGN1Mkt4SDlidFp4SjhsSEJSa3dmY3BlYjM1Q0dldVo0LWdKeWtNWFFCRDVpNkhpSm0wX2RPdzVqaGFLRzFzZXlmdktBZEljYmtTbU8taXdzX1FVdjJBN0NR?oc=5",
+      "title": "Oil prices rise another 3%, while Wall Street drifts in mixed trading",
+      "source": "WRAL",
+      "publishedAt": "2026-07-22T16:11:43+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOd29UZkFZcEctRzhvcGZJMlpRdTN1cjU5TmFpbFFoU1B0QW0zb3oyb3Y4WUR3SXpCWHJ1cmFhRXhjSnlrN3pPdzlHT3cydVlsa1Q2S0ZuczZtNEk0VXU4V3NKSV9Zc0c2Tk82OW41c09hZW9jSFpRR2czSW4yRmYyTTlLWGE0enJuNWpRR3prUzVCVDNrbGZFSGtmdlNteW10MDltSm1OYkFLcVBSeFJvdWxMTVNxZw?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20707,24 +20725,6 @@
         "Aktien",
         "Sektoren",
         "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "As Oil Races Toward $100, the Federal Reserve’s Next Move Gets Cloudier",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-07-22T14:39:03+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQW92LVJWZDFTNlBFblM2cklpZTBpc3ZjV2pRMmJKeWhRYUN0WjhzaFpsbVdRRlg0UktnOHU4UkJoZjlyUjd0NDkxUUNjeTdMY3BTMmFpTDZBdkRXaU10TDByX2VHZkJUWHBBd0lldzRLZ1hMSXFHZDUyZ0RTXzVTZUNDMGVOMnBJQzZPX1lLOWVxb2pMTjMwQw?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
       ]
     }
   ],
@@ -20831,7 +20831,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-07-22T17:25:01.390236+00:00",
+      "dataAsOf": "2026-07-22T21:14:17.090717+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
