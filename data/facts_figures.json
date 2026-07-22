@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T03:18:25.205136+00:00",
+  "generatedAt": "2026-07-22T06:34:26.231891+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -43,10 +43,10 @@
   "technicalTriggers": [
     {
       "label": "50T vs. 200T",
-      "value": 9.4,
+      "value": 9.3,
       "unit": "%",
       "tone": "m",
-      "status": "50T liegt bei +9.4 % gegenüber dem 200T. Schlusskurs 25508, 50T 26133, 200T 23892. NASDAQ Composite (Fallback) unter 50T (26133), aber noch über 200T (23892).",
+      "status": "50T liegt bei +9.3 % gegenüber dem 200T. Schlusskurs 25837, 50T 26134, 200T 23907. NASDAQ Composite (Fallback) unter 50T (26134), aber noch über 200T (23907).",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -56,10 +56,10 @@
     },
     {
       "label": "RSI (14)",
-      "value": 44.1,
+      "value": 49.0,
       "unit": "",
       "tone": "m",
-      "status": "RSI (14) bei 44.1. Kein Extremniveau in beide Richtungen.",
+      "status": "RSI (14) bei 49.0. Kein Extremniveau in beide Richtungen.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -69,10 +69,10 @@
     },
     {
       "label": "Drawdown vom Hoch",
-      "value": -5.9,
+      "value": -4.6,
       "unit": "%",
-      "tone": "m",
-      "status": "-5.9 % vom Hoch. Normales Korrekturterritory.",
+      "tone": "l",
+      "status": "-4.6 % vom Hoch. Kaum struktureller Druck.",
       "history": []
     }
   ],
@@ -702,12 +702,6 @@
   "charts": {
     "chartLabel": "NASDAQ Composite",
     "qqq": [
-      {
-        "date": "2025-05-08",
-        "close": 17928.14,
-        "ma50": 17378.33,
-        "ma200": 18315.16
-      },
       {
         "date": "2025-05-09",
         "close": 17928.92,
@@ -2501,13 +2495,15 @@
         "close": 25508.07,
         "ma50": 26133.43,
         "ma200": 23891.5
+      },
+      {
+        "date": "2026-07-21",
+        "close": 25837.21,
+        "ma50": 26134.05,
+        "ma200": 23906.91
       }
     ],
     "rsi": [
-      {
-        "date": "2025-05-08",
-        "value": 58.7
-      },
       {
         "date": "2025-05-09",
         "value": 58.7
@@ -3703,6 +3699,10 @@
       {
         "date": "2026-07-20",
         "value": 44.1
+      },
+      {
+        "date": "2026-07-21",
+        "value": 49.0
       }
     ],
     "vix": [
@@ -6129,6 +6129,23 @@
       ]
     },
     {
+      "title": "Futures: AI Server Maker Jumps Late; Google, Tesla Due",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-07-22T05:33:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeTllWk5peEtlSnVEOG1jd2tQQUxnTXl3ZE9kdW91cXQxdlFXdW42M01qM2V1TFB3MDU4RVVVX2s0VmhRVWowckhpalNnc1RWa3JFdXlzeFVnVS14TklNS3AxRUMyMm9TMklWWkEyTlhRemZ6RWZSMVFXbmVqUTZkeDVacmdrblZBZWlqbEdmd0ZObFB4M3dtVXBXcmdISE5jX3lIdDE2SmRCbGJ6eXdnb25CYndXQWMzOUYxcA?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "Opinion | China’s stock market intervention is a confidence booster",
       "source": "South China Morning Post",
       "publishedAt": "2026-07-21T23:15:12+00:00",
@@ -6163,6 +6180,24 @@
       ]
     },
     {
+      "title": "Asian Shares Edge Higher After Wall Street Climb, Even as Brent Oil Keeps Rising",
+      "source": "U.S. News & World Report",
+      "publishedAt": "2026-07-22T04:36:18+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQS1RBUDRxTzBTYUY5cVFJak04S29MNmpyYlZ1TmRwelRCRE5kUU5sM0RGLTFRMEVwb193ZzBMcHM5X0R5akJkcWk4dE9BWlNCalRheGQ1aFlfRS03aUR1Zk1pMFpGV2F2UjRuV3FFVkhaYzM4T3R0NnU1X093Uk1sS2xWR19tUll6UHdWUUJ4b0hIY1pLeVVNdlJFZzU0ZVZqbFFTVmlNUTZDV3FQakVmV0RMdXUyVFBidEVieWhsRUNXd1VBbnpLMUlR?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
       "title": "Hello Tariffs, My Old Friend. How the Stock Market Risks Are Piling Up, and 5 Other Things to Know Today.",
       "source": "Barron's",
       "publishedAt": "2026-07-21T10:46:00+00:00",
@@ -6178,41 +6213,6 @@
         "Rohstoffe",
         "Inflation",
         "Transport"
-      ]
-    },
-    {
-      "title": "Terry Savage: Stock market is somehow up despite the rising oil prices",
-      "source": "WGN Radio 720",
-      "publishedAt": "2026-07-21T22:18:05+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUkw5V3JGYjZ1UXBWOXJqZUpkMVZyMC1XeHVTV1JJWEtLbDJNclUwRGRSWjVDOUtsblZUSjJRQUVFVFFPUlRQa2dCblMwRVJ6V2tJeWdhUlZZaGtGNWxXWmpxd1ZiZDVTTkdjS3hGeHNaa0E4YU1sanZoM3U4UjhoeDNyUzBmYWdGYnhKOERzQjhHdmI4Y0djdFY4T0J3dlNHNDNn0gGoAUFVX3lxTE4wWXh1dDJmcFNpdV9qMnMyQjliSGZhcmFJSXRuUDY2emZxUDRjT2xUdmFqQWtNbEFzbi1qX0FkNk9RLTBzZlN1MnVjbXp1ckZMM1VaT245djNpdTBPTmFKUUt2czJrVmsxM2piZ0ZyeFlGY05xbzhEeUN1aEkxbVZEVk56aUozTFBaem9uMlJXeWx4dWl5Y3pkUnhSX2RzZFBjNExPVC0yUw?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "China Broadens Market Rescue With Record Inflows Into Tech ETF",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-07-21T08:17:21+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPa2p6cVRJbldrcjVNbjh6OEw0dG1LZmg4b2RLZmVPaVVONVBtYkU4WWVpZTB6bWtoeEdHYXB6X2ZFY0NKdUxUU09DMDlCVFZCanBfN3A3WE50UWJObUl3V3doZF9hcXh0MG9uT1IyU2NvTExRZTJQX0tuQkxnV3YwcGFOdEoyQThUM04xTk5mT2V4NF9MeHdZcUt6VWZtZDdEYVRHY1VaQ0lHUEFlaFV2VXJ4UQ?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
       ]
     }
   ]
