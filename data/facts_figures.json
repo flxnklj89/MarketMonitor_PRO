@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T06:34:26.231891+00:00",
+  "generatedAt": "2026-07-22T10:29:55.070671+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6129,6 +6129,24 @@
       ]
     },
     {
+      "title": "US Stock Market Today: S&P 500 Futures Rise On Rate Jitters And Tech Earnings",
+      "source": "simplywall.st",
+      "publishedAt": "2026-07-22T08:37:48+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVk01UmR3MzFLSVJUMFF4eTRJVUxidDN6d2ZtMG1PdDdHQV9vSzB5SUl1X0VSZnQ3Zlh4XzNMVkxtc0FFZzFzR284WmRhYnZLUlFISWVTU1N5T3lIczhUWmtVdkNvV3h5LVE4U2R5eXJmSkRONlo4MjM0SkdicFFmVERHMlpJUEpBZW1seE5PcVU3Xy01ZWZWNTM2eEZFdF9HUV9NLS15eVVoLTN6bzBBSjk3ek1mQXhna2RhX1ZMWGNKc0hsVmRvaU9iMNIB0AFBVV95cUxQVkhvQXBrbktzaG9uSU5icHEtOThwd29ncVRBTnFSSWliWnNWZ1JMa1M5aHRRVmxpbEpVMW5pdVdhVXljMDRLWFpuZ3BoUDgzaEFkeFBoYVhBTWNZam45QnkwbUM3YWNpS0gyUm9mOWQyZEZCQVZCVHUtSDYtWXhsZXdTUjJILW9pRWhWQjZqWEhZLWRBUUNuajlLRVhXVlpDYUF6Zk1BNGs1Tlg3LTZGdnY3dnRFdUhnbDYzU2MzMDNXekJZZ2NnSGw4S0VwNkpn?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
       "title": "Futures: AI Server Maker Jumps Late; Google, Tesla Due",
       "source": "Investor's Business Daily",
       "publishedAt": "2026-07-22T05:33:00+00:00",
@@ -6163,10 +6181,10 @@
       ]
     },
     {
-      "title": "Stock market today: Nasdaq leads Dow, S&P 500 higher as chip stocks revive",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-07-21T21:10:22+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT0t0NC1oZFVxY2t6bmFBaTJMcjJscFdqYWh5WC1iTURmemdubXg2QVlTbXNvODFES1cyMGdNU2UzZ25oUjhfQUxlTWlWUG0yT3V3TWtoTHdNaEF0cTZSRUFjTmhEbzVJdzFrelNNdTVNbkV6ajVJd3lrbGh1N1pXVW4zQ29uVzQyRUxKZVU4WUFCR2xyZ24ycEc5ekNaVmpYcHZpWlN6bVAzQQ?oc=5",
+      "title": "Stock Market Today: S&P 500, Nasdaq 100 Futures Fall As Chip Stocks Cool Down and Tesla, Alphabet Gear Up",
+      "source": "Benzinga",
+      "publishedAt": "2026-07-22T09:33:40+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOREExazM3R0xScTE4eVhlUlB2Q0wzUWpNM1BQMkNSQ2xVVDR4MFFOMjB4bktyRFJlT2gxNFY2Rll4QVk3cndqNlNLMFNhSE92UmVuT1MwYzZxelNsdmNnUUllMVcteTRYakRlMW9tWDJkb1FRbTZCcHoya2xwWHhueDhZTFJoa240Ql9oNVR2XzNXb0xoVDhWcEtJZTRTOXJRb0x4cjR2bS15bThEUWk3Q0x3SS0tX25Mb2N1Z2RhdjBxMEZkZmJCWVhuc2FoLTg3di1uWk1zY1RHZjF3b1l2UWdJM2dydjhSbzhnT3IteDc0Mmp0MWFQWHlmUG5KT09aa2xkcFh6YUx1VXpGbG95UzYzakt4dm9jUjlQMWNtSzA3V09tWXVHMXExTnJTT3RZYjhTQW1B?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -6180,39 +6198,20 @@
       ]
     },
     {
-      "title": "Asian Shares Edge Higher After Wall Street Climb, Even as Brent Oil Keeps Rising",
-      "source": "U.S. News & World Report",
-      "publishedAt": "2026-07-22T04:36:18+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQS1RBUDRxTzBTYUY5cVFJak04S29MNmpyYlZ1TmRwelRCRE5kUU5sM0RGLTFRMEVwb193ZzBMcHM5X0R5akJkcWk4dE9BWlNCalRheGQ1aFlfRS03aUR1Zk1pMFpGV2F2UjRuV3FFVkhaYzM4T3R0NnU1X093Uk1sS2xWR19tUll6UHdWUUJ4b0hIY1pLeVVNdlJFZzU0ZVZqbFFTVmlNUTZDV3FQakVmV0RMdXUyVFBidEVieWhsRUNXd1VBbnpLMUlR?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "China Broadens Market Rescue With Record Inflows Into Tech ETF",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-07-21T08:17:21+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPa2p6cVRJbldrcjVNbjh6OEw0dG1LZmg4b2RLZmVPaVVONVBtYkU4WWVpZTB6bWtoeEdHYXB6X2ZFY0NKdUxUU09DMDlCVFZCanBfN3A3WE50UWJObUl3V3doZF9hcXh0MG9uT1IyU2NvTExRZTJQX0tuQkxnV3YwcGFOdEoyQThUM04xTk5mT2V4NF9MeHdZcUt6VWZtZDdEYVRHY1VaQ0lHUEFlaFV2VXJ4UQ?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Hello Tariffs, My Old Friend. How the Stock Market Risks Are Piling Up, and 5 Other Things to Know Today.",
-      "source": "Barron's",
-      "publishedAt": "2026-07-21T10:46:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8zTVlhNHdHR0lOZ21VNzlyR2paVUpYVVJmbTFMS1lqVG1RZE1ONE9DYXlJM0xVSXdqRzA2ekY5V2JlWUk5NlFmV041T2NfWWczbWVGdDQ4dTA5MEpQVVN5NDhWZU9KeGNYa3o5MVE2WQ?oc=5",
-      "bucket": "Handel / Lieferketten",
-      "summary": "Die Meldung betrifft Zölle, Sanktionen oder Logistik. Das ist wichtig, weil solche Themen Preise, Margen und Verfügbarkeit von Vorprodukten beeinflussen.",
-      "impact": "Mittel bis hoch, wenn die Störung mehrere Branchen oder Länder betrifft.",
-      "probability": "Mittel, weil politische Schlagzeilen oft erst bestätigt werden müssen.",
-      "horizon": "Sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders empfindlich reagieren Industrie, Transport, Rohstoffe, Inflationspreise und konjunktursensitive Aktien.",
-      "assets": [
-        "Industrieaktien",
-        "Rohstoffe",
-        "Inflation",
-        "Transport"
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
       ]
     }
   ]
