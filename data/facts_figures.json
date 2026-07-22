@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T10:29:55.070671+00:00",
+  "generatedAt": "2026-07-22T14:08:27.015021+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -20,16 +20,16 @@
     },
     "vix": {
       "title": "Relativ ruhig",
-      "value": 18.6,
+      "value": 17.1,
       "unit": "",
       "tone": "l",
-      "status": "VIX bei 18.6. Unter dem langfristigen Durchschnitt von ~17–20."
+      "status": "VIX bei 17.1. Unter dem langfristigen Durchschnitt von ~17–20."
     },
     "breadth": {
-      "title": "58 % über 200T-Ø (Proxy)",
-      "value": 58,
+      "title": "62 % über 200T-Ø (Proxy)",
+      "value": 62,
       "unit": "%",
-      "tone": "m",
+      "tone": "l",
       "status": "Näherungswert abgeleitet aus VIX-Niveau. Direktdaten nicht via FRED verfügbar."
     }
   },
@@ -391,9 +391,6 @@
           "value": 3.64
         },
         {
-          "value": 3.64
-        },
-        {
           "value": 3.63
         },
         {
@@ -530,6 +527,9 @@
         },
         {
           "value": 3.62
+        },
+        {
+          "value": 3.63
         },
         {
           "value": 3.63
@@ -668,7 +668,7 @@
     "title": "Crash Probability",
     "score": 0,
     "scoreLabel": "0 %",
-    "reason": "Stress 24/100, Rezessionsrisiko 0.5 %, VIX 18.6.",
+    "reason": "Stress 24/100, Rezessionsrisiko 0.5 %, VIX 17.1.",
     "interpretation": "Crash-Risiko derzeit begrenzt."
   },
   "timingQuality": {
@@ -3707,10 +3707,6 @@
     ],
     "vix": [
       {
-        "date": "2025-05-22",
-        "value": 20.28
-      },
-      {
         "date": "2025-05-23",
         "value": 22.29
       },
@@ -4905,6 +4901,10 @@
       {
         "date": "2026-07-20",
         "value": 18.65
+      },
+      {
+        "date": "2026-07-21",
+        "value": 17.05
       }
     ],
     "brent": [
@@ -6131,7 +6131,7 @@
     {
       "title": "US Stock Market Today: S&P 500 Futures Rise On Rate Jitters And Tech Earnings",
       "source": "simplywall.st",
-      "publishedAt": "2026-07-22T08:37:48+00:00",
+      "publishedAt": "2026-07-22T09:06:07+00:00",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVk01UmR3MzFLSVJUMFF4eTRJVUxidDN6d2ZtMG1PdDdHQV9vSzB5SUl1X0VSZnQ3Zlh4XzNMVkxtc0FFZzFzR284WmRhYnZLUlFISWVTU1N5T3lIczhUWmtVdkNvV3h5LVE4U2R5eXJmSkRONlo4MjM0SkdicFFmVERHMlpJUEpBZW1seE5PcVU3Xy01ZWZWNTM2eEZFdF9HUV9NLS15eVVoLTN6bzBBSjk3ek1mQXhna2RhX1ZMWGNKc0hsVmRvaU9iMNIB0AFBVV95cUxQVkhvQXBrbktzaG9uSU5icHEtOThwd29ncVRBTnFSSWliWnNWZ1JMa1M5aHRRVmxpbEpVMW5pdVdhVXljMDRLWFpuZ3BoUDgzaEFkeFBoYVhBTWNZam45QnkwbUM3YWNpS0gyUm9mOWQyZEZCQVZCVHUtSDYtWXhsZXdTUjJILW9pRWhWQjZqWEhZLWRBUUNuajlLRVhXVlpDYUF6Zk1BNGs1Tlg3LTZGdnY3dnRFdUhnbDYzU2MzMDNXekJZZ2NnSGw4S0VwNkpn?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
@@ -6147,20 +6147,20 @@
       ]
     },
     {
-      "title": "Futures: AI Server Maker Jumps Late; Google, Tesla Due",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-07-22T05:33:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeTllWk5peEtlSnVEOG1jd2tQQUxnTXl3ZE9kdW91cXQxdlFXdW42M01qM2V1TFB3MDU4RVVVX2s0VmhRVWowckhpalNnc1RWa3JFdXlzeFVnVS14TklNS3AxRUMyMm9TMklWWkEyTlhRemZ6RWZSMVFXbmVqUTZkeDVacmdrblZBZWlqbEdmd0ZObFB4M3dtVXBXcmdISE5jX3lIdDE2SmRCbGJ6eXdnb25CYndXQWMzOUYxcA?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Going Into Earnings, Is Microsoft Stock a Buy, a Sell, or Fairly Valued?",
+      "source": "Morningstar",
+      "publishedAt": "2026-07-22T08:47:26+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUzNBTkhXakNuQnR3aHhOd3NWbWhRZnlkVEcwc2lEQm0ybFJ4U0NQaS1wMG9JODBtbi1XdEw4T0VlRF9oTEcwYzJIMlBCTW0zV0FMdTQwQWVXbTF6QzJQS043UXNTWTVzTm5sejA4S2dZTnBQNnVKOVNSOFBHZUl5REhwMWZIWm1CR0RfTFEyZ3U2Vlh4ZTdEcWtaaHAxSTVEbExpZnJxMkJzTWNyZml3?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
         "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     },
     {
@@ -6181,37 +6181,39 @@
       ]
     },
     {
-      "title": "Stock Market Today: S&P 500, Nasdaq 100 Futures Fall As Chip Stocks Cool Down and Tesla, Alphabet Gear Up",
-      "source": "Benzinga",
-      "publishedAt": "2026-07-22T09:33:40+00:00",
-      "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOREExazM3R0xScTE4eVhlUlB2Q0wzUWpNM1BQMkNSQ2xVVDR4MFFOMjB4bktyRFJlT2gxNFY2Rll4QVk3cndqNlNLMFNhSE92UmVuT1MwYzZxelNsdmNnUUllMVcteTRYakRlMW9tWDJkb1FRbTZCcHoya2xwWHhueDhZTFJoa240Ql9oNVR2XzNXb0xoVDhWcEtJZTRTOXJRb0x4cjR2bS15bThEUWk3Q0x3SS0tX25Mb2N1Z2RhdjBxMEZkZmJCWVhuc2FoLTg3di1uWk1zY1RHZjF3b1l2UWdJM2dydjhSbzhnT3IteDc0Mmp0MWFQWHlmUG5KT09aa2xkcFh6YUx1VXpGbG95UzYzakt4dm9jUjlQMWNtSzA3V09tWXVHMXExTnJTT3RZYjhTQW1B?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Stocks boosted by energy as oil rises ahead of Big Tech earnings test",
+      "source": "Reuters",
+      "publishedAt": "2026-07-22T01:08:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE15bndqdmhfTjlVQXVscXkwMHFjU3hXNFR5RTdLSnY3a0trdmEzYlNGbm5LeUhxbVJSd21PR1FmQnJpeWxSdHN1aTEwalByRGZFcGtiRUhXeUZSeVdFMHFBekU3bzRvblRKMms0OW5vZkJPekhNSThGOERjRQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
-      "title": "China Broadens Market Rescue With Record Inflows Into Tech ETF",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-07-21T08:17:21+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPa2p6cVRJbldrcjVNbjh6OEw0dG1LZmg4b2RLZmVPaVVONVBtYkU4WWVpZTB6bWtoeEdHYXB6X2ZFY0NKdUxUU09DMDlCVFZCanBfN3A3WE50UWJObUl3V3doZF9hcXh0MG9uT1IyU2NvTExRZTJQX0tuQkxnV3YwcGFOdEoyQThUM04xTk5mT2V4NF9MeHdZcUt6VWZtZDdEYVRHY1VaQ0lHUEFlaFV2VXJ4UQ?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "title": "SpaceX ends its losing streak, oil prices jump, the Fed's AI red flags and more in Morning Squawk",
+      "source": "CNBC",
+      "publishedAt": "2026-07-22T12:34:12+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRU9PeUtvVEdMN2FsY3M5WnBOT19ROUhWR3JqSVJmZW9LTGJJTlgxMDdzWDdZZVRpUGN6TU1MMUpmcXhEOFdpcDlTQXh0bGtCOWpRbXVZSnk5Sno2RTRySnh0TllwRFU4ZVhJSGUyZ1gta29PSkRZUU5DUXFxNHRWU3pBaG9JcmY4TkdN0gGQAUFVX3lxTE1jN01IYWRyQ25Hc0hyX2xCeHhXb05TN1dGN0xrNklWU1psMzJNMFA1OHo1WXpWSDc3VTR0dmhpZU4zUWt4V0N5VHFSdVJiTlllM0ZKczJjTDdkY3VSdXlrMElwS1RYQUs1Zm1GMUJTQVZkSzFFbGVBbUk1STRPb3FZNS1iQmhvX1dsR2xsTDF2VQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     }
   ]
