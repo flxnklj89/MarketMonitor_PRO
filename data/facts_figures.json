@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T03:25:19.241129+00:00",
+  "generatedAt": "2026-07-23T06:34:12.444881+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -43,10 +43,10 @@
   "technicalTriggers": [
     {
       "label": "50T vs. 200T",
-      "value": 9.3,
+      "value": 9.2,
       "unit": "%",
       "tone": "m",
-      "status": "50T liegt bei +9.3 % gegenüber dem 200T. Schlusskurs 25837, 50T 26134, 200T 23907. NASDAQ Composite (Fallback) unter 50T (26134), aber noch über 200T (23907).",
+      "status": "50T liegt bei +9.2 % gegenüber dem 200T. Schlusskurs 25691, 50T 26123, 200T 23921. NASDAQ Composite (Fallback) unter 50T (26123), aber noch über 200T (23921).",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -56,10 +56,10 @@
     },
     {
       "label": "RSI (14)",
-      "value": 49.0,
+      "value": 47.0,
       "unit": "",
       "tone": "m",
-      "status": "RSI (14) bei 49.0. Kein Extremniveau in beide Richtungen.",
+      "status": "RSI (14) bei 47.0. Kein Extremniveau in beide Richtungen.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -69,10 +69,10 @@
     },
     {
       "label": "Drawdown vom Hoch",
-      "value": -4.6,
+      "value": -5.2,
       "unit": "%",
-      "tone": "l",
-      "status": "-4.6 % vom Hoch. Kaum struktureller Druck.",
+      "tone": "m",
+      "status": "-5.2 % vom Hoch. Normales Korrekturterritory.",
       "history": []
     }
   ],
@@ -702,12 +702,6 @@
   "charts": {
     "chartLabel": "NASDAQ Composite",
     "qqq": [
-      {
-        "date": "2025-05-09",
-        "close": 17928.92,
-        "ma50": 17366.02,
-        "ma200": 18314.82
-      },
       {
         "date": "2025-05-12",
         "close": 18708.34,
@@ -2501,13 +2495,15 @@
         "close": 25837.21,
         "ma50": 26134.05,
         "ma200": 23906.91
+      },
+      {
+        "date": "2026-07-22",
+        "close": 25690.9,
+        "ma50": 26122.92,
+        "ma200": 23921.14
       }
     ],
     "rsi": [
-      {
-        "date": "2025-05-09",
-        "value": 58.7
-      },
       {
         "date": "2025-05-12",
         "value": 67.0
@@ -3703,6 +3699,10 @@
       {
         "date": "2026-07-21",
         "value": 49.0
+      },
+      {
+        "date": "2026-07-22",
+        "value": 47.0
       }
     ],
     "vix": [
@@ -6114,7 +6114,7 @@
     {
       "title": "Tech Futures Fall As Google, Tesla Slide",
       "source": "Investor's Business Daily",
-      "publishedAt": "2026-07-23T03:04:00+00:00",
+      "publishedAt": "2026-07-23T03:06:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNlAweGpTejZLSld4UHh1WklPcHF5aXcybHJRN1dLVk1QaDJ1eEFEdndiallicDduZjV2OVFOWEYwUWxsZzVweHBYNjlnVldUSUNpcTNxcWd1cFM2MXFFQ21tVm00cFdLZ1Y4enpaX1hQOEhxMnNsUm5JOUVBa2s2OWh3ckx6QW5fVTRHZXFsRWNTLUJSVjhuYzN4VUV6eW8?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
@@ -6129,10 +6129,10 @@
       ]
     },
     {
-      "title": "Stocks and the Economy Are Increasingly Relying on the A.I. Boom",
-      "source": "The New York Times",
-      "publishedAt": "2026-07-22T15:46:49+00:00",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pd3lUdFg5TkpBanp6YTNIZENreTk3bDBLVnVBZWw4VzlFdXlGUWxjcDRFQ3NBYktza2NmcWRjLWdfZlRrVWtvYmMwUFNfNENqb2Y0SkprYklCVnhyN1NhNnBYcTFodlk3MjZyUndUSW41SDQ1RUNxQUc3eDAycXM?oc=5",
+      "title": "Choke Points & Other Concerns Causing The Stock Market's Summer Stall",
+      "source": "Yardeni QuickTakes",
+      "publishedAt": "2026-07-23T02:58:24+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcEoxMVB4Qmlocl9vSE95T0RFeWxkSlF1MU5KMkdwc1o3aEh4dE15SHFEN0lrbGRJSTcxbjQ5aXUzOFJ0R2N5NEVqMkc2Rzdad2cwTVZJU1VVaHRydUc3d0h0b3NNdWdKYWNOMzRPQk8xVzl3dDhiU2YybGMzdi1FblM0REhmMlp2dTVkOXFablA3M1Z1VG94dzVyYnBxVENxeUpR?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -6163,23 +6163,6 @@
       ]
     },
     {
-      "title": "Choke Points & Other Concerns Causing The Stock Market's Summer Stall",
-      "source": "Yardeni QuickTakes",
-      "publishedAt": "2026-07-23T02:58:24+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcEoxMVB4Qmlocl9vSE95T0RFeWxkSlF1MU5KMkdwc1o3aEh4dE15SHFEN0lrbGRJSTcxbjQ5aXUzOFJ0R2N5NEVqMkc2Rzdad2cwTVZJU1VVaHRydUc3d0h0b3NNdWdKYWNOMzRPQk8xVzl3dDhiU2YybGMzdi1FblM0REhmMlp2dTVkOXFablA3M1Z1VG94dzVyYnBxVENxeUpR?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
       "title": "Oil prices rise another 3%, while Wall Street drifts in mixed trading",
       "source": "The Washington Post",
       "publishedAt": "2026-07-22T16:49:39+00:00",
@@ -6198,21 +6181,37 @@
       ]
     },
     {
-      "title": "US Stock Futures Slip on Alphabet, Oil Advances: Markets Wrap",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-07-22T22:12:30+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdXE2ZW9PcjVqTG5idHBwdnBCNzNpQVo2WGZKaVdrZVhrNENlUWlQeXI3ajk1MG12ZUVOYURBdDVzUThwRnAzTkZ6c3FSUWpOOE51Y3MwVFptLTdyZXh5OC0yRVdTdzVoQm1ndEpIclhTNjh2dlRIbDVzME1CaHBJMnllUWhlLWoxd0JMNVRfSkFaYmRH?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "Nasdaq Rallies Ahead of Magnificent 7 Earnings: Stock Market Today",
+      "source": "Kiplinger",
+      "publishedAt": "2026-07-21T20:09:09+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNc2VlX2IzWlUxRUxMOU9ISWp5dGlPLVAxVmYxckNNVWlvblJ6X2RUZTFYOHduaUN2SEEyYjYzWjZ1Tm9tYk9VVUtJWm9kRFQxYVZoMDBtbDR2R1lka3pOc1RMTTg4d2poNEhISkY0cXA5RThjSXp6MTZVTk9LUHBOMnZURG00QjlsdjBRR3hmaGtLOENOX3VtOG9DWVpNXzhRUnNZdU8wa2dUSFll?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Tech Earnings Will Put a Fragile Stock Market to the Test",
+      "source": "Barron's",
+      "publishedAt": "2026-07-22T15:37:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeTZvdzRMQU1ueVFHNV9BdGZ3WFh3N1NNUDRxZ1lsX2pSal9raTh3ZzBnMG9KZ3ZjanM0NVNYRTJHUTNuQ1JKRzRtSlN0bnRxR2dVNkNtTjd3YWdpYzhndTRTR05aYUVSM1BKWmhBY04ySHNNajAwY2NqMFFLTGRKMUt1RjVFWF9mZUVtTFhDWFptZU1pekZKcDV5MDA2bG5T?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     }
   ]
