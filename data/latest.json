@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-23T21:10:17.470947+00:00",
+  "fetchedAt": "2026-07-24T03:19:17.054296+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -66,10 +66,10 @@
       }
     },
     "sp500": {
-      "ytd": 9.34,
+      "ytd": 8.02,
       "first": 6858.47,
-      "latest": 7498.96,
-      "date": "2026-07-22",
+      "latest": 7408.3,
+      "date": "2026-07-23",
       "cadence": "daily",
       "series": "SP500",
       "uiLabel": "S&P 500 seit Jahresbeginn",
@@ -98,7 +98,7 @@
     "tradeStress": {
       "value": 24,
       "label": "Entspannt",
-      "date": "2026-07-22",
+      "date": "2026-07-23",
       "cadence": "daily",
       "method": "proxy",
       "components": {
@@ -120,7 +120,7 @@
   "globalComposite": {
     "value": 35.7,
     "label": "Stabil",
-    "date": "2026-07-23"
+    "date": "2026-07-24"
   },
   "regions": {
     "europe": {
@@ -221,9 +221,9 @@
     {
       "label": "SPX",
       "icon": "📊",
-      "val": 7498.96,
-      "chg": -10.24,
-      "chgPct": -0.14,
+      "val": 7408.3,
+      "chg": -90.66,
+      "chgPct": -1.21,
       "unit": "",
       "dec": 2
     },
@@ -936,10 +936,6 @@
       }
     ],
     "fedRate": [
-      {
-        "date": "2020-07-24",
-        "value": 0.09
-      },
       {
         "date": "2020-07-27",
         "value": 0.1
@@ -7669,10 +7665,6 @@
     ],
     "sp500": [
       {
-        "date": "2020-07-24",
-        "value": 3215.63
-      },
-      {
         "date": "2020-07-27",
         "value": 3239.41
       },
@@ -13687,6 +13679,10 @@
       {
         "date": "2026-07-22",
         "value": 7498.96
+      },
+      {
+        "date": "2026-07-23",
+        "value": 7408.3
       }
     ],
     "sentiment": [
@@ -14408,10 +14404,6 @@
       }
     ],
     "tradeStress": [
-      {
-        "date": "2020-07-24",
-        "value": 22
-      },
       {
         "date": "2020-07-27",
         "value": 15
@@ -20619,6 +20611,10 @@
       {
         "date": "2026-07-22",
         "value": 24
+      },
+      {
+        "date": "2026-07-23",
+        "value": 24
       }
     ]
   },
@@ -20628,6 +20624,42 @@
       "source": "CNBC",
       "publishedAt": "2026-07-23T16:36:24+00:00",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPM1ptS092RkJxU29IclRfcjFBSXRvVG9FUTkzczY1b2FMX3RsUXU3UDBDQkRfbDlpYlJFMkw0WWptTlVROTkyb2hFdmhISUt3NkNMWVo0akp2S3M3N09rdmxtT2g0UVJDZjZ6TGZzS2Uyd3R3UXUxb05vMmh4cVlFa2pNaWdGQVh6aFExUHFlRU1nZjgyZnB4X3lOZi1JUHV3bjFUdmZPSUfSAa4BQVVfeXFMTkJKZWktbHlRSXpmN1NqUkc5RzFtM0lFeXlsRVBuRlJGR3N1T2VmblFvdDRDNnN4a0xSdE83NlRjTUlicmtpX1JUMzVkejctVTJ1TjdTQ09Eb0xJMjNsclBad2JuX1pMcGs1UEE1ekR0YUNMMGt2UXBTcmxWQmNoRVhleTREMHFOU2ttMHdKVDJxclNYcXZnWkhEeGxtd3RvYkgtTGlBVG9tUWNDd3J3?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Dow Jones Futures: Market Sells Off On Oil Prices, Google, Tesla; Intel Jumps Late",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-07-24T02:35:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUm5NdkpvWXk1YTMyNDNKUW1LSjh6b0Y1R3BJOUszSVJHNFQyeDVoTTFkT2dOYVdsdzlTMzU3QTc2M3JLS3RCOUFHRFNFcTFnbk1jWVFfX0NvUWEybTZVZC1pVFMwdGMxVExfbGNVb0hrQ1NSOExKNTNYWjFPVUplLURSMUNLMldLbnpZdmZiazU2R0RQajJmNXVrRllpNUVLdXlsTi1ERVlyeTk4WFFWanFfZVlDem0wbERnRXEzMHJrbkIxZUd5T1g0RHRfaWR3aS0za1Y2WFdtTjlNamlR?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Asian stocks skid as oil spike revives inflation fears, bonds take a hit",
+      "source": "Reuters",
+      "publishedAt": "2026-07-24T01:20:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORzVSb2tZRUVrYzhLQ0hCcVk1clVDQ1hjaGFPVElvd0JKZ0RVeGFTQ2JBVlVwRFNLbUxHOGZKTnl3WGEyeU5PQzEtTnBmVjBRdVVVUHBaSzJXY1pRT2ZFenczR0d2emszLWpGZDItNEcxd29RSGdWSDhVOEM5RjZRRXc0VQ?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20674,42 +20706,6 @@
         "Aktien",
         "Anleihen",
         "Währungen"
-      ]
-    },
-    {
-      "title": "Brent oil tops $100 per barrel, as tumbles for Tesla and Alphabet yank Wall Street lower",
-      "source": "The Washington Post",
-      "publishedAt": "2026-07-23T20:13:13+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNkU1bndyS29HSUdCUll1VC1hTnNuNV9Nb2FDMmNjZEpEQ3hKaWRHWWlZdVJfRlpCOFBoc29KajhqLWxsSVZHUGh4ZHltUkUxc3VvNTZIcms0ajJhSnkyUlVoSXhLUmtyeENRczdiQzl6cVRwYnJpTUdnY2h6OVJBajZrckpOVU0zS3lYMm5rNXNZcERtV1pKTVBqMFA0Ul8wZl9nampFQjNzLXpDenlZZXl2akJ2ZWZGZjhudzBMbW9fSHlnNDJHUlBvTm5JbVRkSmxn?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Brent oil's price tops $100 per barrel, as Tesla and Alphabet drag Wall Street lower",
-      "source": "Spectrum News",
-      "publishedAt": "2026-07-23T13:46:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPb3YzM3hYU01SXzBxLVNjZm1vNTdNU2hjTnhlNXY5eHNiZ2ZxTlROczl2WFJBUHpHY3BNRkEtOElxTTROQ3VKMEl6VnBZTmhzUXo3VHVCcUtDWlpCYzhtbWdqeE0zMFg2aWdDTXZGTVUyblBWRnJvOHhTcHppWkFVdENSdmtrYTNR?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
       ]
     },
     {
@@ -20798,7 +20794,7 @@
     {
       "id": "B",
       "title": "Zwischenszenario: erhöhte Vorsicht",
-      "probability": 26,
+      "probability": 27,
       "summary": "Das Umfeld wird anspruchsvoller. Stresssignale nehmen zu, ohne bereits ein klares Eskalationsbild zu erzeugen.",
       "supportedBy": [
         "Verbraucherstimmung stützt das Bild nicht klar"
@@ -20813,7 +20809,7 @@
     {
       "id": "C",
       "title": "Stressszenario: defensivere Marktphase",
-      "probability": 19,
+      "probability": 18,
       "summary": "Mehrere belastende Signale greifen gleichzeitig ineinander und erhöhen die Wahrscheinlichkeit einer klaren Risk-off-Phase.",
       "supportedBy": [],
       "probabilityChange": {
@@ -20833,7 +20829,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-07-23T21:10:17.470947+00:00",
+      "dataAsOf": "2026-07-24T03:19:17.054296+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }

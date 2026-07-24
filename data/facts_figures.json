@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T21:10:25.846657+00:00",
+  "generatedAt": "2026-07-24T03:19:24.520549+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6130,6 +6130,42 @@
       ]
     },
     {
+      "title": "Dow Jones Futures: Market Sells Off On Oil Prices, Google, Tesla; Intel Jumps Late",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-07-24T02:35:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUm5NdkpvWXk1YTMyNDNKUW1LSjh6b0Y1R3BJOUszSVJHNFQyeDVoTTFkT2dOYVdsdzlTMzU3QTc2M3JLS3RCOUFHRFNFcTFnbk1jWVFfX0NvUWEybTZVZC1pVFMwdGMxVExfbGNVb0hrQ1NSOExKNTNYWjFPVUplLURSMUNLMldLbnpZdmZiazU2R0RQajJmNXVrRllpNUVLdXlsTi1ERVlyeTk4WFFWanFfZVlDem0wbERnRXEzMHJrbkIxZUd5T1g0RHRfaWR3aS0za1Y2WFdtTjlNamlR?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Asian stocks skid as oil spike revives inflation fears, bonds take a hit",
+      "source": "Reuters",
+      "publishedAt": "2026-07-24T01:20:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORzVSb2tZRUVrYzhLQ0hCcVk1clVDQ1hjaGFPVElvd0JKZ0RVeGFTQ2JBVlVwRFNLbUxHOGZKTnl3WGEyeU5PQzEtTnBmVjBRdVVVUHBaSzJXY1pRT2ZFenczR0d2emszLWpGZDItNEcxd29RSGdWSDhVOEM5RjZRRXc0VQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
       "title": "Stock market today: Dow, S&P 500, Nasdaq sell off as rising oil prices, bond yields, and AI capex weigh",
       "source": "Yahoo Finance",
       "publishedAt": "2026-07-23T14:00:55+00:00",
@@ -6162,42 +6198,6 @@
         "Aktien",
         "Anleihen",
         "Währungen"
-      ]
-    },
-    {
-      "title": "Brent oil tops $100 per barrel, as tumbles for Tesla and Alphabet yank Wall Street lower",
-      "source": "The Washington Post",
-      "publishedAt": "2026-07-23T20:13:13+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNkU1bndyS29HSUdCUll1VC1hTnNuNV9Nb2FDMmNjZEpEQ3hKaWRHWWlZdVJfRlpCOFBoc29KajhqLWxsSVZHUGh4ZHltUkUxc3VvNTZIcms0ajJhSnkyUlVoSXhLUmtyeENRczdiQzl6cVRwYnJpTUdnY2h6OVJBajZrckpOVU0zS3lYMm5rNXNZcERtV1pKTVBqMFA0Ul8wZl9nampFQjNzLXpDenlZZXl2akJ2ZWZGZjhudzBMbW9fSHlnNDJHUlBvTm5JbVRkSmxn?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Brent oil's price tops $100 per barrel, as Tesla and Alphabet drag Wall Street lower",
-      "source": "Spectrum News",
-      "publishedAt": "2026-07-23T13:46:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPb3YzM3hYU01SXzBxLVNjZm1vNTdNU2hjTnhlNXY5eHNiZ2ZxTlROczl2WFJBUHpHY3BNRkEtOElxTTROQ3VKMEl6VnBZTmhzUXo3VHVCcUtDWlpCYzhtbWdqeE0zMFg2aWdDTXZGTVUyblBWRnJvOHhTcHppWkFVdENSdmtrYTNR?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
       ]
     },
     {
