@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T03:17:52.078337+00:00",
+  "generatedAt": "2026-07-25T06:22:31.042183+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -43,10 +43,10 @@
   "technicalTriggers": [
     {
       "label": "50T vs. 200T",
-      "value": 9.1,
+      "value": 8.9,
       "unit": "%",
       "tone": "m",
-      "status": "50T liegt bei +9.1 % gegenüber dem 200T. Schlusskurs 25138, 50T 26100, 200T 23933. NASDAQ Composite (Fallback) unter 50T (26100), aber noch über 200T (23933).",
+      "status": "50T liegt bei +8.9 % gegenüber dem 200T. Schlusskurs 24976, 50T 26078, 200T 23943. NASDAQ Composite (Fallback) unter 50T (26078), aber noch über 200T (23943).",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -56,10 +56,10 @@
     },
     {
       "label": "RSI (14)",
-      "value": 40.4,
+      "value": 38.7,
       "unit": "",
       "tone": "m",
-      "status": "RSI (14) bei 40.4. Kein Extremniveau in beide Richtungen.",
+      "status": "RSI (14) bei 38.7. Kein Extremniveau in beide Richtungen.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -69,10 +69,10 @@
     },
     {
       "label": "Drawdown vom Hoch",
-      "value": -7.2,
+      "value": -7.8,
       "unit": "%",
       "tone": "m",
-      "status": "-7.2 % vom Hoch. Normales Korrekturterritory.",
+      "status": "-7.8 % vom Hoch. Normales Korrekturterritory.",
       "history": []
     }
   ],
@@ -659,10 +659,10 @@
   ],
   "marketBottomProbability": {
     "title": "Market Bottom Probability",
-    "score": 30,
-    "scoreLabel": "30 %",
+    "score": 40,
+    "scoreLabel": "40 %",
     "reason": "Rezessionsrisiko begrenzt; Sahm Rule unter Warnschwelle",
-    "interpretation": "Noch keine klare Bodenbildungskonstellation erkennbar."
+    "interpretation": "Signalkonstellation weist auf mögliche Erholungsphase hin."
   },
   "crashProbability": {
     "title": "Crash Probability",
@@ -674,9 +674,9 @@
   "timingQuality": {
     "title": "Timing-Qualität",
     "score": 0,
-    "scoreLabel": "Zu früh 16 % · Optimal 8 % · Zu spät 76 %",
-    "reason": "Bottom-Signal 30 %, Crash-Risiko 0 %.",
-    "interpretation": "Kein klares Timing-Fenster erkennbar."
+    "scoreLabel": "Zu früh 22 % · Optimal 11 % · Zu spät 67 %",
+    "reason": "Bottom-Signal 40 %, Crash-Risiko 0 %.",
+    "interpretation": "Leichtes Timing-Signal – noch nicht breit bestätigt."
   },
   "updateTriggers": {
     "positive": [
@@ -702,12 +702,6 @@
   "charts": {
     "chartLabel": "NASDAQ Composite",
     "qqq": [
-      {
-        "date": "2025-05-13",
-        "close": 19010.08,
-        "ma50": 17376.44,
-        "ma200": 18330.79
-      },
       {
         "date": "2025-05-14",
         "close": 19146.81,
@@ -2501,13 +2495,15 @@
         "close": 25137.69,
         "ma50": 26100.19,
         "ma200": 23932.93
+      },
+      {
+        "date": "2026-07-24",
+        "close": 24975.82,
+        "ma50": 26077.95,
+        "ma200": 23943.1
       }
     ],
     "rsi": [
-      {
-        "date": "2025-05-13",
-        "value": 69.6
-      },
       {
         "date": "2025-05-14",
         "value": 70.7
@@ -3703,6 +3699,10 @@
       {
         "date": "2026-07-23",
         "value": 40.4
+      },
+      {
+        "date": "2026-07-24",
+        "value": 38.7
       }
     ],
     "vix": [
@@ -6112,21 +6112,20 @@
   },
   "news": [
     {
-      "title": "Stock market today: Dow, S&P 500, Nasdaq recover as oil eases, new Trump tariffs take effect",
+      "title": "Stock market today: Nasdaq slips, Dow and S&P 500 recover to close a volatile week on Wall Street",
       "source": "Yahoo Finance",
-      "publishedAt": "2026-07-24T19:08:53+00:00",
+      "publishedAt": "2026-07-24T21:28:07+00:00",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTUFYaE1xaFRzalhQdWRXZ1d5dEpsQWlsVzBfS1V6RU52aG5reW8wRnZYdFk0LV93RVdxOFIzYnhteDM5RnBkOURtYWhpWXhJNjVmUkoxczRHVVFnbU1KQzFlaTQ4bVJ2MldmbGhhcU1kY2hIVndoaEY3ZXF1T2xocGM5TkNxM2FsY2hpcXltckJHQ0xSb0Rybm5BamN1Nmpfay1ObzF1d1I?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {

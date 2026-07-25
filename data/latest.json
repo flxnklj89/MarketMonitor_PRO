@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-25T03:17:46.323515+00:00",
+  "fetchedAt": "2026-07-25T06:22:25.424487+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20632,21 +20632,20 @@
   },
   "news": [
     {
-      "title": "Stock market today: Dow, S&P 500, Nasdaq recover as oil eases, new Trump tariffs take effect",
+      "title": "Stock market today: Nasdaq slips, Dow and S&P 500 recover to close a volatile week on Wall Street",
       "source": "Yahoo Finance",
-      "publishedAt": "2026-07-24T19:08:53+00:00",
+      "publishedAt": "2026-07-24T21:28:07+00:00",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTUFYaE1xaFRzalhQdWRXZ1d5dEpsQWlsVzBfS1V6RU52aG5reW8wRnZYdFk0LV93RVdxOFIzYnhteDM5RnBkOURtYWhpWXhJNjVmUkoxczRHVVFnbU1KQzFlaTQ4bVJ2MldmbGhhcU1kY2hIVndoaEY3ZXF1T2xocGM5TkNxM2FsY2hpcXltckJHQ0xSb0Rybm5BamN1Nmpfay1ObzF1d1I?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
@@ -20842,7 +20841,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-07-25T03:17:46.323515+00:00",
+      "dataAsOf": "2026-07-25T06:22:25.424487+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
