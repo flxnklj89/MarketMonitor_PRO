@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-26T06:41:05.204460+00:00",
+  "fetchedAt": "2026-07-26T10:05:12.316979+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20632,24 +20632,6 @@
   },
   "news": [
     {
-      "title": "Dow Jones Futures: Market Triggers Sell Signal; Apple Earnings, Iran News, Fed Meeting In Focus",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-07-26T02:56:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNN3p3SzdOVDFES19TRHFQWmlIQ3BpZUVqTDdkdUV1bUd3alFyYzVubHNmU3FVWnpYS2JFZDJiZHVpWDJFV3V3OEdfWFd0YmNMOTB2UF9WaktUaUNKd21JV0hacllkdlI1UnNjTDQzV1MzanFXTFJUQWVHN284dVBKTUJXdEthVFg1T1Z3bmFnamFzZXd4OVpjMTVZcTB0MXNqeHRYS1lCX21xbjZhck1xMGs3bXRUV2xuQ3YwbnN1cmo?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
       "title": "Shortsighted stock market can no longer brush off war: 'It's too hard to ignore $100 oil'",
       "source": "CNBC",
       "publishedAt": "2026-07-23T16:36:24+00:00",
@@ -20668,21 +20650,21 @@
       ]
     },
     {
-      "title": "The ‘Trump Trade’ is turning into a loser in the stock market",
-      "source": "Fortune",
-      "publishedAt": "2026-07-25T20:40:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOalhlUVMySzI0aUZWM1M5cDd3ZTdsVVdFZGdoOFY3ZkhSV3luRkFGMVFEX3V0YnVMVU1qSTVGZnd6aHFuRFV4WTJjbkdPcnFKUUpjN21pSUNlOGFBSFkzLTNIeWJJZ1Vyc3FQVnBNelVwQmpaMWpnblhuNlJpUXNsNXFScmVBREQ0Nm1fME5LMmxWYU1MRGt5Qmk3bG5mM1NkeWNVRGwtbw?oc=5",
-      "bucket": "Handel / Lieferketten",
-      "summary": "Die Meldung betrifft Zölle, Sanktionen oder Logistik. Das ist wichtig, weil solche Themen Preise, Margen und Verfügbarkeit von Vorprodukten beeinflussen.",
-      "impact": "Mittel bis hoch, wenn die Störung mehrere Branchen oder Länder betrifft.",
-      "probability": "Mittel, weil politische Schlagzeilen oft erst bestätigt werden müssen.",
-      "horizon": "Sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders empfindlich reagieren Industrie, Transport, Rohstoffe, Inflationspreise und konjunktursensitive Aktien.",
+      "title": "Dow Jones Futures: Market Triggers Sell Signal; Apple Earnings, Iran News, Fed Meeting In Focus",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-07-26T02:56:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNN3p3SzdOVDFES19TRHFQWmlIQ3BpZUVqTDdkdUV1bUd3alFyYzVubHNmU3FVWnpYS2JFZDJiZHVpWDJFV3V3OEdfWFd0YmNMOTB2UF9WaktUaUNKd21JV0hacllkdlI1UnNjTDQzV1MzanFXTFJUQWVHN284dVBKTUJXdEthVFg1T1Z3bmFnamFzZXd4OVpjMTVZcTB0MXNqeHRYS1lCX21xbjZhck1xMGs3bXRUV2xuQ3YwbnN1cmo?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
       "assets": [
-        "Industrieaktien",
-        "Rohstoffe",
-        "Inflation",
-        "Transport"
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
       ]
     },
     {
@@ -20736,6 +20718,23 @@
         "Aktien",
         "US-Dollar",
         "Gold"
+      ]
+    },
+    {
+      "title": "Can Japan avoid a Liz Truss-style shock as its PM embarks on a giant spending spree?",
+      "source": "The Guardian",
+      "publishedAt": "2026-07-25T12:01:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZkhCTUJzcWt5a1FfYUd1VWJ4MGtzbjJhODU3YnJ6dG9XRF85TFdEX19JaTNKUmtsRXpUQW5BSUM5dXd4VEFhQ0p4cVhBM0IzTGpERzlPbUlENnRpcm5MTW5pRm1nblZhTTVnVC04akVTcFdDazBYczlRS2hZSWRGRTVpdTllUFhVSHVKa2lLQ3VkRmlMLUg0V3pLaFd5MjVuN3c?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
       ]
     }
   ],
@@ -20842,7 +20841,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-07-26T06:41:05.204460+00:00",
+      "dataAsOf": "2026-07-26T10:05:12.316979+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
