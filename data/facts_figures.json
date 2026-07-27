@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T03:39:40.349906+00:00",
+  "generatedAt": "2026-07-27T07:37:53.530464+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,7 +6112,25 @@
   },
   "news": [
     {
-      "title": "Shares, bonds bounce as oil skid offers inflation relief",
+      "title": "Dow Jones Futures Rise, Oil Prices Dive On Iran Hopes; Apple Leads Earnings Wave, Fed Meeting Ahead",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-07-27T05:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNN3p3SzdOVDFES19TRHFQWmlIQ3BpZUVqTDdkdUV1bUd3alFyYzVubHNmU3FVWnpYS2JFZDJiZHVpWDJFV3V3OEdfWFd0YmNMOTB2UF9WaktUaUNKd21JV0hacllkdlI1UnNjTDQzV1MzanFXTFJUQWVHN284dVBKTUJXdEthVFg1T1Z3bmFnamFzZXd4OVpjMTVZcTB0MXNqeHRYS1lCX21xbjZhck1xMGs3bXRUV2xuQ3YwbnN1cmo?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Shares, bonds bounce in Asia as oil skids",
       "source": "Reuters",
       "publishedAt": "2026-07-27T00:41:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA2VEF4Z09wNW9GaGZxaENhMVk5X3ZPSVhjSDNwb1ZKeld2S0xDZFNkZ1l6RDRNdHZ6bktSMnhrOFpNNTJQaU83eEtHa3FVQ0swVjVjSGF0SDlqbjZoWVpQbW1icmJoM1Y2TldZUERiTHdGNUpRbnpWR080TQ?oc=5",
@@ -6130,39 +6148,20 @@
       ]
     },
     {
-      "title": "Dow Jones Futures Rise, Oil Prices Dive On Iran Hopes; Apple Leads Earnings Wave, Fed Meeting Ahead",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-07-27T00:56:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNN3p3SzdOVDFES19TRHFQWmlIQ3BpZUVqTDdkdUV1bUd3alFyYzVubHNmU3FVWnpYS2JFZDJiZHVpWDJFV3V3OEdfWFd0YmNMOTB2UF9WaktUaUNKd21JV0hacllkdlI1UnNjTDQzV1MzanFXTFJUQWVHN284dVBKTUJXdEthVFg1T1Z3bmFnamFzZXd4OVpjMTVZcTB0MXNqeHRYS1lCX21xbjZhck1xMGs3bXRUV2xuQ3YwbnN1cmo?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "Chipmaker CXMT becomes mainland China's most valuable listed firm",
+      "source": "BBC",
+      "publishedAt": "2026-07-27T04:25:54+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBHQnlCYmEyMmlIUWE4STQtWnp5Q0FhZ1NSNjRQZFA4N0VaT3QtTzNSTXhwWkhJV24yT29mRy1VMmxmYTg0SS1PU0hLZTR1SUNzaVE0YzhYNlFSQQ?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stock Futures Are Rising, Oil Falling With Iran Peace Talks Continuing",
-      "source": "Barron's",
-      "publishedAt": "2026-07-26T22:12:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE12enE3eUhmRmFHTmZ6Z1NSOXVNOWNNXzAwNUlwQV9lT0RvZDN3U0VBeVFCbk1rd2dfSVNlMEotVTlSeGlGNzk5elh6TkM4X2ZIWlA4Z191RDFRM3l0TVU3ZEgyR1VUcWlBT0xqd1laNUZHLXItaF9IRS1R?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
       ]
     },
     {
@@ -6184,10 +6183,10 @@
       ]
     },
     {
-      "title": "China's wobbly stock market braces for CXMT's mega-listing",
-      "source": "TradingView",
-      "publishedAt": "2026-07-27T00:41:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcDdISTF5Z2lIeEVyOFgzXzdYekY2bmpQWmpRTVFnNlFQeEJjb21FQkRfVnJ6Rk9Ja29JcFdUZF9qQkZVN0lXS1ZZd05kcGhONEhDM2ZhM0FwWDJJYXV5Sm5WUlhTV2ZwTDE3VXZQVUw5TVJVM3FWZnN3eWZtV2xpTWNsVnpSUGU1ZDNZSzJTbXJ5OU5IT3BFSHJLS195Z0x5WEVEQkVpeUhHUWZiTTZBR0ZxN2plRzVOcXNsS1VpMzRwMHhoakRN?oc=5",
+      "title": "China’s CXMT surges over 500% in Shanghai debut, tops Intel in market value",
+      "source": "Investing.com",
+      "publishedAt": "2026-07-27T06:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZTVxT1FpVzltRFRQYXVwSHJRN1FZQndDNWRYenFJQjhRWE45YkQ0QlBFeExUZ1lwT2QyRkYyYmFCemYxMjVaSDNFT3NTUldoRmR5OW9KRGIzMXg0a3lGb3dEbDF2X1J0NTRFdGR2OFNiajE1T1lDUF9OQ0ZJMWJjYlVuZkcySm1pYWpsV2tMZFp1RW5EUVkzMlNCN1ZPQkR2dktZYWhyMnpYUjRyRGdPeWxpbXVzZHFKX1llVHEyVkNKUkVX?oc=5",
       "bucket": "Globales Wachstum",
       "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
       "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
@@ -6201,10 +6200,10 @@
       ]
     },
     {
-      "title": "CXMT surges 472% on debut to become most valuable mainland China-listed firm",
-      "source": "South China Morning Post",
-      "publishedAt": "2026-07-27T01:46:37+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZ19Vd2hrcXZOWXJLREtidWFSTnFtV3h1QlM3Zkw3ckFzVEtJN1pWUmk5WTFEU3NKcDAwSDVWZC1hZC11V1lVMFJxUzNHNThPb1l1dkZERF93dlNvUU45eDQzU05xbDQ4U3FmeURTRGtMNmtJVUNoTUpqZ1NtRl9SenJkVkVRN3IzaEl4b1pJRHZ3dGZFdVZfb3pjMjdlVmU5XzAwZHhXTEdVbWY3SU1CajNsSkxTLVMwMTdMRDhPZ3ZlTngxS1h0TtIByAFBVV95cUxNUTJoNS1vLXJ4ZVJ5TUcxUVhIZXd0UWhPamtoNFhyRWh6TTE4SmRwZ3FqaU1BUXpSRzJTeGF6XzBrcVVkekRvQXlBVG1ndFZNYnVxVDhBTVVFcUd0ckVEdGVMSFNHbU1BNGg0ZXpTemxYZ1NNR0hERXBCWFFFR25zUHFYU1htdmQtMzJ6dVA0ZFQ2c3JrZnpJN3lpZVJwdEJYMXdQeDlqdXBrS0ROQ21ialFuUklZbnlHcHNaOHpRRDhGcnhxbmRhSw?oc=5",
+      "title": "China's wobbly stock market braces for CXMT's mega-listing",
+      "source": "TradingView",
+      "publishedAt": "2026-07-27T00:41:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcDdISTF5Z2lIeEVyOFgzXzdYekY2bmpQWmpRTVFnNlFQeEJjb21FQkRfVnJ6Rk9Ja29JcFdUZF9qQkZVN0lXS1ZZd05kcGhONEhDM2ZhM0FwWDJJYXV5Sm5WUlhTV2ZwTDE3VXZQVUw5TVJVM3FWZnN3eWZtV2xpTWNsVnpSUGU1ZDNZSzJTbXJ5OU5IT3BFSHJLS195Z0x5WEVEQkVpeUhHUWZiTTZBR0ZxN2plRzVOcXNsS1VpMzRwMHhoakRN?oc=5",
       "bucket": "Globales Wachstum",
       "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
       "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
