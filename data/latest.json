@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-27T11:30:23.346492+00:00",
+  "fetchedAt": "2026-07-27T14:47:51.460245+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -28,7 +28,7 @@
     },
     "fedRate": {
       "value": 3.63,
-      "date": "2026-07-23",
+      "date": "2026-07-24",
       "cadence": "daily",
       "series": "EFFR",
       "displayName": "Effective Federal Funds Rate",
@@ -102,7 +102,7 @@
       "cadence": "daily",
       "method": "proxy",
       "components": {
-        "vix": 18.7,
+        "vix": 18.58,
         "brent": 86.99,
         "eurusd": 1.144,
         "us10y": 4.71
@@ -127,7 +127,7 @@
       "name": "Europa",
       "score": 22.0,
       "label": "Stabil",
-      "date": "2026-07-24",
+      "date": "2026-07-27",
       "summary": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "driverText": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "inflation": {
@@ -140,7 +140,7 @@
       "growthOrRate": {
         "label": "ECB Einlagezins",
         "value": 2.25,
-        "date": "2026-07-24",
+        "date": "2026-07-27",
         "unit": "%",
         "cadence": "daily",
         "series": "ECBDFR"
@@ -230,9 +230,9 @@
     {
       "label": "VIX",
       "icon": "⚡",
-      "val": 18.7,
-      "chg": 2.06,
-      "chgPct": 12.38,
+      "val": 18.58,
+      "chg": -0.12,
+      "chgPct": -0.64,
       "unit": "",
       "dec": 2
     },
@@ -6942,6 +6942,10 @@
       },
       {
         "date": "2026-07-23",
+        "value": 3.63
+      },
+      {
+        "date": "2026-07-24",
         "value": 3.63
       }
     ],
@@ -20620,9 +20624,9 @@
   },
   "news": [
     {
-      "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise as oil falls, investors brace for busy week",
+      "title": "Stock market today: Dow, S&P 500, Nasdaq rise as oil tumbles, investors brace for busy week",
       "source": "Yahoo Finance",
-      "publishedAt": "2026-07-27T08:04:12+00:00",
+      "publishedAt": "2026-07-27T13:38:38+00:00",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObWE4UE55cjJKTXFET0xKNElSblpHdnRaZW92RlhpUzFnRER6WkUtMy0yTjVHMm9fLUxJWGphcTRTb2oyd2lPRkd4Q2tSd1JCaldHR3Q4ZFVESFl5T1R4SzB1M3d3V0JSbHVZbjBBM3FLdjFSX0NxUm1fTkczR0NET0M1ald1OTdjd1pHTVJLdnJCWmdYZGJQdGwzcVI0bFQ0bVZRSUJSbEI?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
@@ -20638,9 +20642,9 @@
       ]
     },
     {
-      "title": "Global stocks climb, oil slides after pause in Middle East fighting",
+      "title": "Falling oil prices spark relief rally in global stocks, bonds",
       "source": "Reuters",
-      "publishedAt": "2026-07-27T00:41:00+00:00",
+      "publishedAt": "2026-07-27T12:29:44+00:00",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA2VEF4Z09wNW9GaGZxaENhMVk5X3ZPSVhjSDNwb1ZKeld2S0xDZFNkZ1l6RDRNdHZ6bktSMnhrOFpNNTJQaU83eEtHa3FVQ0swVjVjSGF0SDlqbjZoWVpQbW1icmJoM1Y2TldZUERiTHdGNUpRbnpWR080TQ?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
@@ -20656,21 +20660,37 @@
       ]
     },
     {
-      "title": "Dow Jones Futures Rise, Oil Prices Dive On Iran Hopes; Apple Leads Earnings Wave, Fed Meeting Ahead",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-07-27T05:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNN3p3SzdOVDFES19TRHFQWmlIQ3BpZUVqTDdkdUV1bUd3alFyYzVubHNmU3FVWnpYS2JFZDJiZHVpWDJFV3V3OEdfWFd0YmNMOTB2UF9WaktUaUNKd21JV0hacllkdlI1UnNjTDQzV1MzanFXTFJUQWVHN284dVBKTUJXdEthVFg1T1Z3bmFnamFzZXd4OVpjMTVZcTB0MXNqeHRYS1lCX21xbjZhck1xMGs3bXRUV2xuQ3YwbnN1cmo?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "Chip Maker Soars 466% on Debut to Become No. 1 in China Stock Market",
+      "source": "WSJ",
+      "publishedAt": "2026-07-27T11:02:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPd2wzbDVUZGU3dFMtYTJIUVhBSWQxNGhveG03WkphVkhwRlRHNGVMSkxNb0NZYkdnMlVvOVBtV2gyM2tRX0x4eGZ1NDRpdkdHWXZUdm5GSHVPcUkzRVJpbGZrdXBXOXprQV9pX0RidTNPODF0bmpiN2xNX2xueDgzVkFPbE1yd0RvQXl5VFl5QzFnM0pLNUpyRGdB?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
+      "title": "Chipmaker CXMT becomes mainland China's most valuable listed firm",
+      "source": "BBC",
+      "publishedAt": "2026-07-27T10:19:36+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBHQnlCYmEyMmlIUWE4STQtWnp5Q0FhZ1NSNjRQZFA4N0VaT3QtTzNSTXhwWkhJV24yT29mRy1VMmxmYTg0SS1PU0hLZTR1SUNzaVE0YzhYNlFSQQ?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
       ]
     },
     {
@@ -20692,10 +20712,10 @@
       ]
     },
     {
-      "title": "Oil prices fall as US pauses strikes on Iran over strait of Hormuz",
-      "source": "The Guardian",
-      "publishedAt": "2026-07-27T09:16:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPY3NLLWN3ME9IZjdEWmdJNHE4cEJsSEV3SG5pTlpRWjBqbWdFYllsZGZJXzFXQVBlT2w3XzBOempmcWw3RGpvWVFVSWEtM1k2MlNPaU9CdUlJNkVVOU5QcUJIem1UMEZLanh0SzUxVkE1bEs5RWppNFJWMDAyT0NNVVNFdGJqcEJHbDZ5ejl6N01mOWY1RVZVSnRvWEhvVXBFYTNCcmFfVTJtUUU1U09V?oc=5",
+      "title": "Stocks open higher on Wall Street and crude oil prices drop 6% as Mideast tensions cool",
+      "source": "WDEF",
+      "publishedAt": "2026-07-27T13:44:13+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPLW5JVl9lSWFqRGtjUVg5bzgwN3JPMGdfdlNfSXhOaWZkcFB3TkU1S1Y1WDd2OV9WUlBjNXhLbGhGMVduRTlsOGRhRXFQT3B4T2tlNm5RRWwtbC1Da2tETmdmQnhGbmNsdVc5RHoza3pJRDBpN2k4bDhKRGpBWmR5NEJzREZCV0lzNlQyYk02NVdQeVdGbFljOWxBekRGVWd0MVRCWXBmNndhTmRL?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20707,23 +20727,6 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Maker of Chips Sought by Apple Soars to No. 1 in China Stock Market",
-      "source": "WSJ",
-      "publishedAt": "2026-07-27T07:28:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPd2wzbDVUZGU3dFMtYTJIUVhBSWQxNGhveG03WkphVkhwRlRHNGVMSkxNb0NZYkdnMlVvOVBtV2gyM2tRX0x4eGZ1NDRpdkdHWXZUdm5GSHVPcUkzRVJpbGZrdXBXOXprQV9pX0RidTNPODF0bmpiN2xNX2xueDgzVkFPbE1yd0RvQXl5VFl5QzFnM0pLNUpyRGdB?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
       ]
     }
   ],
@@ -20830,7 +20833,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-07-27T11:30:23.346492+00:00",
+      "dataAsOf": "2026-07-27T14:47:51.460245+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
