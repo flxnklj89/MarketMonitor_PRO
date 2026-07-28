@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-28T17:39:09.219737+00:00",
+  "fetchedAt": "2026-07-28T21:12:23.143236+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -105,7 +105,7 @@
         "vix": 18.67,
         "brent": 86.99,
         "eurusd": 1.1385,
-        "us10y": 4.69
+        "us10y": 4.65
       },
       "uiLabel": "Marktstress",
       "shortText": "Verdichteter Stressmesser aus Markt- und Preisvariablen.",
@@ -248,9 +248,9 @@
     {
       "label": "US 10Y",
       "icon": "📉",
-      "val": 4.69,
-      "chg": -0.02,
-      "chgPct": -0.42,
+      "val": 4.65,
+      "chg": -0.04,
+      "chgPct": -0.85,
       "unit": "%",
       "dec": 2
     },
@@ -20612,61 +20612,27 @@
   },
   "news": [
     {
-      "title": "Weekly market commentary",
-      "source": "BlackRock",
-      "publishedAt": "2026-07-28T05:09:27+00:00",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Dow Soars 537 Points on Strong Blue-Chip Earnings: Stock Market Today",
+      "source": "Kiplinger",
+      "publishedAt": "2026-07-28T20:09:49+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNY2t4UUJmbVI0UHZRZ2xmNjNXTzBkekUzbk1hM1luYkc3NVV1N1d3U2ZILUpfZlRFSkdTVWJ4OHdWTHdxeHRZaDg5LUY5ajZKd1M3b3ByQ2k4X0xQRVd4RDBnbU1RSDAyUElnam0xeVBZSkJZMFBxaXU3QTJ4RlN4UVlKTnJpeEttOG9yRERUYUVZelFPdHhXOVpHaVRZRUNwOG92Um9CQmxTc1FqeHpoMA?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
         "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     },
     {
-      "title": "Stock market today: Nasdaq pares losses as chip stocks sell off, S&P 500 and Dow rise",
-      "source": "Yahoo! Finance Canada",
-      "publishedAt": "2026-07-28T15:53:10+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUmpZQlVVa0dyNE5Yem5IQ0NvRzFtazRCem9hazg1QzZSdnVSTHoybjdXR1c0WXZ1SlZ1M1N0a2tPa0ZaaDJ0RWtJSkd2MG9JYzNtN0ZHSWhBREQzTWhJYkw3dW1ZazQtaTFZYkUxZTFRRlBHQkxOTTItOXRnZ25YQ0tTZE44Q29uZTlIVFhQUW14bXd0UzNGSnowbVkxZHZXWTVN?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Tech Stocks Tumble on Worries Over A.I. Spending and China’s Chips",
-      "source": "The New York Times",
-      "publishedAt": "2026-07-28T16:23:42+00:00",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE45VWk0QW5DWTBhXzVzQTQ4MXNtMDR5NVRKZnFsLWhWLVRhbVB6N2ZDNUZxcndKVWd6WW5vaWNjTzBoUUlzUzlWZWE1SkVWV0R1RXRoMklLWjUxOUw3dm5ncW9PZmlKOFc5a2U3V3Y2UXh3UQ?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
-      ]
-    },
-    {
-      "title": "Wall Street's flip from AI stocks to elsewhere accelerates, while oil prices keep easing",
-      "source": "Chattanooga Times Free Press",
-      "publishedAt": "2026-07-28T17:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNEhtWk0tVHJ0NmZnWHg4eXNvbTgySF9Rbk5WWW9kQWM5Z0w1MVduaEt3dnpUOTN3NlduMk5zeTRqTWJvbE82OUFldEdXSXNxcF9XNHlocmszYVc2V0dYRWdHRUx1OC1Ccl9ILXFXYTlpeVM0emdnOENLQUh5bW9QNEN6Vk1tTUs5bWdQNjd2UUFwTFhNdUdpb3pvSV91YUE0ZWZ5dlVaQ2JVMHJxbXNSVHJiZzdCeWYtemVCLS1rMjg2VmxZVm5rZzE2QS1mRkpvbEpmS1hB?oc=5",
+      "title": "Stock market today: Nasdaq slips, S&P 500 and Dow rise as earnings, falling oil prices offset chip weakness",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-28T18:50:10+00:00",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNOVZSbmg0OWlPMHFwU2VWR3ktOV9GRHV4Y2Ywcl80TUdBR3AySWhHSmtXSFNVdkhFemRyYXZhYy1rdm1fcUR1UGpWbTlqUG1pbEtVZ2psNVpzeFpDLUxNTjZiaHdiVU9WTkpvY2kxREZZdlBtNmF5ejBWMXMyS0JqbVNHR05ZaXRRd0ljM0VoS2VvU2dWZzYtVHRvckF4VjdwVzVqWm9SZFRQbVBWVUlRa0tYWDA2cTBJSnAyaFE4bVJfQWhQemc?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20698,21 +20664,56 @@
       ]
     },
     {
-      "title": "Stock Market Before Fed Meeting, AI Giants’ Earnings: Why So Sad?",
-      "source": "tastylive",
-      "publishedAt": "2026-07-28T09:05:01+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNODdERkg1T0YyZkxGUVdjd1NmRVl3Q1hnbU1meHA4OHE3cmJ3dzJaRjBXek1jZ0Jad2p4Y3VXZDNJdFZhYzJmeVp2LVhWTXh1OVlGWE5CcDE0S0Z2MFNpZ1JVejZzN1RpS1VwY192Wkh5My1Tejh4RE1ja0JMWUZkWFhCQjdXMVRmV09BZG05QlNyNmFuV2JHaVRFcnphTEFxZngw?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "title": "Wall Street’s flip from AI to less-loved stocks accelerates, while oil prices keep easing",
+      "source": "Los Angeles Times",
+      "publishedAt": "2026-07-28T20:41:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPb3kzaUdudkJiOVRxVmtXRXQzSzJnVDR2WmZvT2hwZU55V2lOOUc1UlY4d3c0NlhCQ0R1WmpEUGdTcVYxZkhTTEVsRThKTFJqWVhHT2J1QjVGd1JtVmh5NV82QTB0b05fOGlpdHNnVmNzQUd4NzNXTEpSWXBSSGg0bUJTV2trLTB3MUhmOTZETFJGaGNZQlBBTE1BajFiNmJmenlueVJINnZRaU5QMUZ2R1l2VlNDcFVKbU0tVmlxeGlJc0hVQ2V0YnhMaGpTcUVybkRJ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Wall Street's flip from AI to less-loved stocks accelerates, while oil prices keep easing",
+      "source": "Greater Milwaukee Today",
+      "publishedAt": "2026-07-28T19:08:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOVzRhMTloTzR5SnozOGx3bHJHeHJTbDhZOG0wc2U3ZUNvRFRrWnRsRkZPcDV4V0hrd3JsalpPcjFySlhiY2Nia0hSZ0ZIcE1sSTdlYzlRSFFIQ09KNHFGVmdwRWZUY1hMUnR1bFZ3V0NZS1l0alkzWWJuWl9LM0xfTEhCUGsyMFQwSnJwTGVpYTFyV3VvMERhX21VQkFGanV2b2pJNjA2blNFYWo4bHpxaHRDZ3U5OWxVdnI4QmluOFdoUXFYNS11RHpRVE5PSzlGQzZxRElQSjBldmphbnAxM3BYVC1TbmhINm5QVUE2M0hjNTBOMlJGZzA4c2VQQTliQVo1TVN5ajRWTlNOWC1EbFp0ZUFsQQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Korean stocks skid on China’s chip push; volatility at record high",
+      "source": "KED Global",
+      "publishedAt": "2026-07-28T10:49:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE54M1F3ZGpVS2VPeFZicm5mT2laaWkxeTA3cFoxRGtPakZ5cXpFbXFtVG0ycUo3ZXJIdTNrMXpjSDNpQ29IYy04SzZ4WDJ6TVQ3ZHhNZWVLU08wa1lYcHp3V0thZnktM1ZUNUhRZ05vT3BwOFBjTW55U0R3?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
       ]
     }
   ],
@@ -20819,7 +20820,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-07-28T17:39:09.219737+00:00",
+      "dataAsOf": "2026-07-28T21:12:23.143236+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
