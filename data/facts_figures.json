@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T10:29:41.755629+00:00",
+  "generatedAt": "2026-07-30T14:16:32.601464+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -373,9 +373,6 @@
           "value": 3.64
         },
         {
-          "value": 3.64
-        },
-        {
           "value": 3.63
         },
         {
@@ -512,6 +509,9 @@
         },
         {
           "value": 3.62
+        },
+        {
+          "value": 3.63
         },
         {
           "value": 3.63
@@ -6112,10 +6112,44 @@
   },
   "news": [
     {
-      "title": "Stock Market Today: S&P 500, Nasdaq 100 Futures Gain as Federal Reserve Holds Interest Rates—Meta, Micros",
-      "source": "Benzinga",
-      "publishedAt": "2026-07-30T09:15:47+00:00",
-      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPakk1TmYzX0hGdldnNkViLWt3LWJuVHF0d2FneWdFd1gzQzNtcDQxUWw1THVfa0pXWW9jd0puYjhTUWwxNFBNSkpyNG5fSmRuSzktWkxzSGtkLTRGTnhHQnFsdi1xRjU4NmwwNmFJZUdiYkZvcGFNR1praEFBcFBnbGVoM1B0MWZ5cmw1RHA3OXJsLXhLem9ZaUxTNk9ZemRBUVFyeHZQSG4wempuelhxV2lSOV95TzVPekxSRlNfaFpQOE5RaWNVQ0xZUmY3X1NoOU1BdFMydkM5N01JOVpPQW9aNEdZanVQZW9NblY4WVVJancwSmdQUUtFX3NoS1d1WGpHWUppTQ?oc=5",
+      "title": "Capital Market Earnings Crash Out",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-07-30T12:47:30+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYmd2bTYwU2NBUzd5MDFMekVQTUN2V3QxOFcwTG1WWW1wZnNOT0RXTGFueWZyZnNqVU1qZHFyQkt4UlJJdFpXbDRrVHA2dy1MRW41bW5lN2JXSTBpTUF6MXpaanVOeXk3WGV3QTRYUEVDbE51RnpNUHRIX3h1NnJFUHp3?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Meta: What We Think of the Stock After Earnings",
+      "source": "Morningstar",
+      "publishedAt": "2026-07-30T08:52:21+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPOHBWd3RkYUpXSnNZWHVaYTRMTDJTWHdFZnhtS0lHWXdOSUE4dE5fMkdXX2o2VTNuNy1nWHVDRXkxRnM3bEZiUm0xY1ZYeTZ1Q1Jsb0R2M3dWaVpYS0ZnZXEycnBPeXlJZ3Ita3hOYXRPb0VvMlNOZDFzWGFBU1ZhdHgtbkxZcnhZT1B3?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Stock market tumbles as Fed holds rates, Dow drops 1,152 points",
+      "source": "eciks.org",
+      "publishedAt": "2026-07-30T11:02:50+00:00",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5KbjVFNTBPSW9jY1F0NHVkTHltaTc2QXpzUm9DNk1jaWNBZFFWMVQxRGN5dnMtRFI2TGszRVR0LW1KMnVMN29xWm52TUNXTi03ajNuNHdzZC1Ya3Q3eFhjaV85TFZVWHdQOW5xXzBPRXFIVkpPVWlDYzhUTUE?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -6130,44 +6164,8 @@
       ]
     },
     {
-      "title": "Dow Jones Futures Rise; Microsoft, Meta Lead Big Earnings After Market Tumbles, Oil Prices Soar",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-07-30T03:07:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWGJBdlp5Z0tBenIzTFlwMGF0UkZWVm5ndHlXbTlyUmxWWmdnWEppOUNHWVBoVHFLZk5ubEpaVkJEdHRIcTR3SkdPTldGZU5iUVp2UEZIU1E3djRiNV9iWEdIUEk3N2JTUjkxZUs0LV9oZ2dxVVZNSEhCd09TWThuTkdnODFKWjE5eDZzWk1ZUmc2dE1lRXhFVmViN2x2VTA5X1VEZDl6NDJ5SHlYXzZtUk5EMEp2dTA3YjlXN2IwaTJQUExEaWxXUTJmUUpKM0YyM1g4dy1n?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Dow drops over 1,100 points as sinking tech stocks combine with jumping oil prices to drag markets down",
-      "source": "Fortune",
-      "publishedAt": "2026-07-29T20:55:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRGdwM0pDUmkyRFYydl9VOGVwVHY4XzhSS25uQjFyN2s2dnl6al9wWTQ3eV8tcXlKWWNCaUtpdjZLRDd2Mjk4SzJvcE4tM2NrcEc1MVQ4VDE1MWYwN2VRZlpXOVN1RzZ2bDNCbTExdi1PNlM3UTZrMWhUaVlQZzJEMFBWWmtHLUlIY1AteDllcGdfc3Mtd0M3aUpNVFJCbFpvaElDRDRpenJTVGhLNlBGQ1NWVXNQR0o0cDYzNF96VHFnN1B1Wk11MWRteFhLWDA?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
       "title": "How major US stock indexes fared Wednesday 7/29/2026",
-      "source": "washingtonpost.com",
+      "source": "The Washington Post",
       "publishedAt": "2026-07-30T01:52:49+00:00",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSzdPQlJDTnJFOHU2M2swZGJaTnJHaWx3bUdYZWg4Yy1YRW9lRDEtSVYzOHRtenNVUDlvaDJQaERGd2RWMFN0SG5LamhlczQ3NXBWalZCd2ZaeXVkSElua1gxTUw2bEpfUFpQT0tpbUdpcU5zTDlTcGJhZ01hVF95dmRUeFh3Q2ZiWk5OUDFhZTdhZWlzUzRmWVdQMjgwS1IzOWVuU3pEQWZtSU9Ud1FNdkhZMFpBb2pnbVRYQ1JDZENEZDU0U1lF?oc=5",
       "bucket": "Marktkontext",
@@ -6183,28 +6181,28 @@
       ]
     },
     {
-      "title": "Oil prices jump, while US stocks trim their losses after the Fed leaves rates alone",
-      "source": "Chattanooga Times Free Press",
-      "publishedAt": "2026-07-29T18:23:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQi1OeC1RbnB1NEVFYmJ1OTQ2YkY0azJONE1hdmc3bll6eGtZX204dldNaC1fWlNJOU95WGwtTENIUG9OQ3ZIdEtmRlFkMnJzRGNRaV84eGJpNWxxR1lFTXl5eDRvTHdfekN0dnNVUl9tczhGZzZzOEhKOUhTeEZYMEVQZmNXUC0xYVQ0UmV6NWZITmxrS19CaGJEV2h3WkZsSGMzZmFiRlVtcWE1RDRzVHNkdDZXMUJQZzhiU2dCVkZXSG5BVG8yUjR5VU55c2I2?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "Stock Market Today: S&P 500, Nasdaq 100 Futures Gain as Federal Reserve Holds Interest Rates—Meta, Microsoft, Apple in Focus",
+      "source": "TradingView",
+      "publishedAt": "2026-07-30T09:15:47+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPUURzQk5ZY2JhUzE2MUxuM2xBVkxid25xQm5uUDdMTWwzeTQ1WUJGWFhLY040VzRFYnZsWFhJOEl4bFlzQnp3dFB4QmpiZGgweXViSXdrVzJfQVUtTXl0bUlYMXM1dXV6cDl2WWxuc3h0NXZYRGIzRVNkLWlmcjg3YWVrSkFJU0VVNVdBZl8xamxLYkVRaEYxb1FKMnhodFhFSkhSdHJ2dWY3SC1LM25ERGllTFVnSkcxb2JFSnBUZS1HSllaRDE2MmFzOU1vT1AyUGdMcVQ4NnVaV1pPWWpEUVR2WFFJU1dwMHJCY2cxbnFxSG4xb2hSRjhIcDBvTTB1VDV6U2pGUHVXVVU?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
       ]
     },
     {
-      "title": "US Stock Market Today: S&P 500 Futures Edge Higher As Fed And Oil Risks Loom",
-      "source": "simplywall.st",
-      "publishedAt": "2026-07-30T08:28:26+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdmZUSlA1YWdHaFFCV1FKTmxzcTBkcnNLeTRFaW14YzljTS1JSEwyOEZqLXhfeHVGT2JlOFJlUHlFajNqZU55a181RUJsQ1llSEEycHFCZ2JUdmRrYVZTLXdTY2NiVEFOUEg5Q01WTmdYZm4tUG5nNG9sV1hBbjk4Q2FoMDM3emdWMHZIRkktb0lCQ1p1aHRDQzZOUUppQk0wNEpEZkM3SjYwTzZkZTFmblZFY2dfTzZjX0JGVGE0dm5pUHRxN1RQMzRhR3p6ZlRRYUloLUZtQ2FaUdIB3wFBVV95cUxQeEU4d3hnZkEtcko3dGFlbEZ6WGVtbm9TT0M2QmxVdFpHNEFSc0FSNl9uY0pETUVjemVldmNxT1hxWFpOU2RWcTU0NnYtY0N3Ump3ZXh2YWpfNG9WT0ZHbG5kSV9DWW9rb2pjZjNsalFLUEp1UW5WVFF2UC02cWdmOGdaUzkwS1k2OWNySTdMSVl1MzRRVTBGTU13dXgwMzIzU0xtUmNqNzBJZWlIektHb0dNZlR4Sy1LZ1A0SEFmNlFxcGRsWk1xSTlOTml5ckpzVDhJdktlRDVFM1NCT0Zn?oc=5",
+      "title": "Dow drops over 1,100 points as sinking tech stocks combine with jumping oil prices to drag markets down",
+      "source": "Fortune",
+      "publishedAt": "2026-07-29T20:55:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRGdwM0pDUmkyRFYydl9VOGVwVHY4XzhSS25uQjFyN2s2dnl6al9wWTQ3eV8tcXlKWWNCaUtpdjZLRDd2Mjk4SzJvcE4tM2NrcEc1MVQ4VDE1MWYwN2VRZlpXOVN1RzZ2bDNCbTExdi1PNlM3UTZrMWhUaVlQZzJEMFBWWmtHLUlIY1AteDllcGdfc3Mtd0M3aUpNVFJCbFpvaElDRDRpenJTVGhLNlBGQ1NWVXNQR0o0cDYzNF96VHFnN1B1Wk11MWRteFhLWDA?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
