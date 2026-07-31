@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-31T10:45:04.679411+00:00",
+  "fetchedAt": "2026-07-31T14:21:03.530737+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -28,7 +28,7 @@
     },
     "fedRate": {
       "value": 3.63,
-      "date": "2026-07-29",
+      "date": "2026-07-30",
       "cadence": "daily",
       "series": "EFFR",
       "displayName": "Effective Federal Funds Rate",
@@ -96,13 +96,13 @@
       "confidence": "low"
     },
     "tradeStress": {
-      "value": 37,
-      "label": "Erhöht",
-      "date": "2026-07-29",
+      "value": 30,
+      "label": "Entspannt",
+      "date": "2026-07-30",
       "cadence": "daily",
       "method": "proxy",
       "components": {
-        "vix": 20.66,
+        "vix": 17.09,
         "brent": 91.82,
         "eurusd": 1.1385,
         "us10y": 4.67
@@ -127,7 +127,7 @@
       "name": "Europa",
       "score": 22.0,
       "label": "Stabil",
-      "date": "2026-07-30",
+      "date": "2026-07-31",
       "summary": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "driverText": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "inflation": {
@@ -140,7 +140,7 @@
       "growthOrRate": {
         "label": "ECB Einlagezins",
         "value": 2.25,
-        "date": "2026-07-30",
+        "date": "2026-07-31",
         "unit": "%",
         "cadence": "daily",
         "series": "ECBDFR"
@@ -230,9 +230,9 @@
     {
       "label": "VIX",
       "icon": "⚡",
-      "val": 20.66,
-      "chg": 2.45,
-      "chgPct": 13.45,
+      "val": 17.09,
+      "chg": -3.57,
+      "chgPct": -17.28,
       "unit": "",
       "dec": 2
     },
@@ -6938,6 +6938,10 @@
       },
       {
         "date": "2026-07-29",
+        "value": 3.63
+      },
+      {
+        "date": "2026-07-30",
         "value": 3.63
       }
     ],
@@ -20595,6 +20599,10 @@
       {
         "date": "2026-07-29",
         "value": 37
+      },
+      {
+        "date": "2026-07-30",
+        "value": 30
       }
     ]
   },
@@ -20617,20 +20625,38 @@
       ]
     },
     {
-      "title": "Futures Rise As Apple, Amazon Diverge; What To Do After AI Surge",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-07-31T09:30:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOY2s1TWNNZkh6ZndHVUs0LTZaV1lteUZEbXotUEVmMklsMUMtbjlCal9HbnRXaEVNQlo0aW5IaUpLQTY1alFEaTVUc0NnS3Vlcjg5MFZwbEJ4RFE0YWc3M21TdUNNc0xCdU9hTXBOdEZoY2h5QkhIc3dKME5VM0VNOXBmZWIyVXE1YmJaNnlnY3dZenZDYS1hWWZoMTJCSkxoOEd6bEYzTDdVanhkbGFnWnVuMG9sZEI0ckNoNXBYbXdFUQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Wall Street rises as Amazon and chip stocks jump, even as oil prices add to worries about inflation",
+      "source": "Daily Freeman",
+      "publishedAt": "2026-07-31T14:01:59+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZTB5QlU2SUFoNUkzeDFrQkRNLUlpU2tzRHpwVTlJV0pZWFZhLWlkRkl3OXJjckZReUo4dkRFQW80cGJyTXJydG5fcEJVT2kyVlNPeXhoWnUwa0pfd3ZaeUswTE9yTnZZcUFHVVdteG9RM0ZyMEYtV21pdmJ3LVdLMlltd2M1d2puRUdaMmhEaVNlQQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Stock market climbs as Amazon earnings lift tech sentiment (SPX:)",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-07-31T13:35:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQM3UxVEhSS1laM3hBVmRKd3gzek5pT1lkemhJM05GWWxFM2ZTcjhOMDgzbk94OTlJSFpKVGo2SzZpS3FhSS1XdFc2RnM5MG5zUFpwMzBRVnJTa2h5YlI1VThhUVlxYTU4OWxMZER3RE1CRGxXYUxtZjhCdlNFS0hkTXA5WkJIQ2Qz?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
         "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     },
     {
@@ -20669,27 +20695,10 @@
       ]
     },
     {
-      "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-      "source": "Benzinga",
-      "publishedAt": "2026-07-31T08:53:11+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORXhsZWxfbklVdWdNSkl5d0w2WExXX0E1ekMwWXE3RW8ySmF1MmxQUVNqMV8yV0hVMVhjZVZmQWpKM0ZDeXhSMVQ0c2dGeFl4cl84ZDhuSVRLUnZmT1AwdlU2Z2pCNmppODI0bHpVTHRyM1F0THVkeVM4UlpjZWhEdTQyUDdDX1g2VEFXODk4RVQ2MGs3TnJWLTZvR28tZDFCcngwQVJYWE9OeFB1X0wtc2JHcEZnQm1XbWJEVTRMNW9FeUpFSTJieU05YU5pejdpQ285SGZFWC1Ndw?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Stock Market Today, July 30: Amazon Soars Over 8% After Hours on Earnings Beat",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-07-30T21:25:37+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbkV4LUthUEJsNlVDS2stb18tM2ttXzZfQmJ6NzdqR3lTUTRuV1BBSlFPUllQcDhFMXV6Mk9SSjNSSE0xUWs4aHIyV3V1ZVBUbW0wcldITXNxMVVRXzZ2OWtaYXI1dHZOaUhDN1RvbkVQS1JISFRjQ0lISV9yc3FiQ2lkZmlHdFBQdGJFcGhsMHd6NkNTdmw3MmVJb1I5Z0FnYWx0azdDY1hFZUdpWXlKZVNMaWVqdGp5b3FTbTI5eGNTLUJreHFMNy16TTN5SU9jX0E?oc=5",
+      "title": "Apple drops 7%, Amazon surges 12% as investors pick AI winners after earnings",
+      "source": "CNBC",
+      "publishedAt": "2026-07-31T08:13:58+00:00",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE83UDhFcjNxOUdxa1dydWU2NmFjN0JFUk16ZUtJTk03dmVpakpLbmRybTNRdUVGYzM5cE9LNmVBMHVNLVR1bGVRZ2tyMGFScjJkeDFYNnRVdi1aXzhoMEQ3bElxVXYxVTFhMUptaHB3WWtuUzFNcWw3LTEzZ9IBgAFBVV95cUxOR3lVcFE4bmxqZ2JJSXp1M3VGYjFaX0x4YzVvTmtwaTZIaS1nZ25PV2FZOHc4WDJCWE9Td2N1amNrSzFLZ1lkUGl1Q2lKa1h5YzZpRlhqX3hJU2xNQ0t4bTJZMjlOVjdNalRfVU8tSXFDRi1TREg5b2piNGZiZGY3bg?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -20753,9 +20762,10 @@
     {
       "id": "A",
       "title": "Basisszenario: stabile Marktphase",
-      "probability": 50,
+      "probability": 53,
       "summary": "Wachstum bleibt grundsätzlich intakt, während Belastungsfaktoren überschaubar bleiben.",
       "supportedBy": [
+        "Marktstress bleibt begrenzt",
         "Rezessionsrisiko wirkt noch nicht dominant",
         "Aktienmarkt zeigt bisher keine klare Eskalation",
         "Preisdruck ist erhöht, aber nicht extrem"
@@ -20770,7 +20780,7 @@
     {
       "id": "B",
       "title": "Zwischenszenario: erhöhte Vorsicht",
-      "probability": 29,
+      "probability": 28,
       "summary": "Das Umfeld wird anspruchsvoller. Stresssignale nehmen zu, ohne bereits ein klares Eskalationsbild zu erzeugen.",
       "supportedBy": [
         "Marktstress ist sichtbar erhöht",
@@ -20786,7 +20796,7 @@
     {
       "id": "C",
       "title": "Stressszenario: defensivere Marktphase",
-      "probability": 21,
+      "probability": 19,
       "summary": "Mehrere belastende Signale greifen gleichzeitig ineinander und erhöhen die Wahrscheinlichkeit einer klaren Risk-off-Phase.",
       "supportedBy": [],
       "probabilityChange": {
@@ -20800,13 +20810,13 @@
   "hero": {
     "phase": {
       "label": "Erhöhte Vorsicht",
-      "score": 37.0,
+      "score": 30.0,
       "summary": "Das Gesamtbild bleibt geordnet, zeigt aber mehr Spannungen als in einer ruhigen Normalphase.",
       "interpretation": "Der Fokus verschiebt sich von Routine hin zu erhöhter Aufmerksamkeit.",
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-07-31T10:45:04.679411+00:00",
+      "dataAsOf": "2026-07-31T14:21:03.530737+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
