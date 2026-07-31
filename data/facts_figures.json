@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T14:21:11.996635+00:00",
+  "generatedAt": "2026-07-31T17:44:46.436236+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6129,45 +6129,10 @@
       ]
     },
     {
-      "title": "Wall Street rises as Amazon and chip stocks jump, even as oil prices add to worries about inflation",
-      "source": "Daily Freeman",
-      "publishedAt": "2026-07-31T14:01:59+00:00",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZTB5QlU2SUFoNUkzeDFrQkRNLUlpU2tzRHpwVTlJV0pZWFZhLWlkRkl3OXJjckZReUo4dkRFQW80cGJyTXJydG5fcEJVT2kyVlNPeXhoWnUwa0pfd3ZaeUswTE9yTnZZcUFHVVdteG9RM0ZyMEYtV21pdmJ3LVdLMlltd2M1d2puRUdaMmhEaVNlQQ?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stock market climbs as Amazon earnings lift tech sentiment (SPX:)",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-07-31T13:35:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQM3UxVEhSS1laM3hBVmRKd3gzek5pT1lkemhJM05GWWxFM2ZTcjhOMDgzbk94OTlJSFpKVGo2SzZpS3FhSS1XdFc2RnM5MG5zUFpwMzBRVnJTa2h5YlI1VThhUVlxYTU4OWxMZER3RE1CRGxXYUxtZjhCdlNFS0hkTXA5WkJIQ2Qz?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "US Stock Market Today: S&P 500 Futures Edge Higher On Cooling Inflation And Solid GDP",
-      "source": "simplywall.st",
-      "publishedAt": "2026-07-31T08:28:13+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOanlCaEQ0alp0TmV2dVR3Uk9kRjR2V1BDOW05QkRXdFJYeHlwejBxd2xQd1NKbWNqZnJyLW51NmN1elFXUE92dllsek9mRjQwVzhlaE5IMUUyTW9SR05hc04xdDQ3UDdWVFJBRGg5SHoyemNCMmYtLUdGczFxVVFrS2swZGZIbDlYZjdPeWhoUXVGWU1LRTlJWm5FRjBRcDg2T3pfQWJwR1FZY09hZkx5Z0stcmt2YnBZNTZLX1kxanMzcS1WSzFoY21CSWxERFlSbVRQRHgxaXd3bFB4ZWZ6QWU2Y3hkMTRtdFNxdtIB8gFBVV95cUxPMnEta3AzNVllWkNMNEV3T3kwY2dISkxZaXVzYTVGVVpxMnJOQ0EwYkQyX2doRnhCT2w4YlNwT2xtQ2JnX3VFd1EyQ1J6VlJCV25ZOVQ5NWZ4d2RBWUs4MVI2bTZodjNORjVFOFAzQkc2SDZmanhDbzl5RDZSbTVsRm5VNWZSdm0zaVhpbl9GakJxc2dOYktieGRvdHdlcUt3NnNoOFNtMS00V0xIaTlkSHowZl9DcnIydEJYOXdPaWNmR2lHRVBROEFKWDN4RGljN3E5TmQxN0l2ejZRTk96OE9OeWkzdV9GaVlBRktiWElXZw?oc=5",
+      "title": "Stock Market Rises Amid Apple, Amazon, Meta, Microsoft Earnings, Soaring Yields: Weekly Review",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-07-31T16:38:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc19SV2ZzQ1VOYnFRSG0zSktjeTRiM3NvcEhZd09HNGY5TG9GOGthWGVTbjM2bjV4LXhja2FXQ25ZTmtpeUNsdkZlNzZqOGhzTnctMTZJYlJMYXhOeXY4OFloSGktaDlvUEFwSXBQcEFjRDNTbUo2RjlscVZUWldjd3VOV25IYS1Wc1g5dkJiVXpZSXY5LUlBNmJ0cU1VOUIxdDlBVGVZRnJIVkhiXy0yWlVDdXl4eHRiVkRyVWJB?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -6182,24 +6147,61 @@
       ]
     },
     {
-      "title": "Teetering US stock market faces jobs report, big earnings week",
-      "source": "TradingView",
-      "publishedAt": "2026-07-31T10:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZ0cycFFSZjVVcXMtTXhUQ1UxU0hLV3Y2eHBDYTA0ODh6OXAxYllRdEJRWUVsVkhGbjI5UUU4TE9sQ0VkRmJPSkdPdml3RzdtUGRpbHRTcVZmUW1OVW1Qak1NZUJNbTV2LWZZM1VQbWg4R3VNQi1QeUlGcUpLRVBlSkpKWUstT21vNi1IdUVsOFZNMXJrREVyMnFfNnVXQWxVbk1zOWhldklUN01PZ0Q2WG04U01FMnBYVE54cVQtNklqa19mTTdwcFdfWQ?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "US stocks swing as Amazon leaps, Apple sinks and rising oil prices add to worries about inflation",
+      "source": "Boston Herald",
+      "publishedAt": "2026-07-31T16:38:48+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNM2tMeXlhbE90VW1wcjRrSjh3RndFLWxncEtiS0RSQldqZTF3VUpxcVo3c0F0Y1gtaHNQdWV6T092NW1haFg1azE3ZGdQZkdCYkh3VVZTOGxyMHJoS1dXcFU0c1RicG9GNjdrR2h0c0pFM0t1TkV1bEpsMjhlS1J4eUVITlhHUm05UlNCTjRtbW81QQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
-      "title": "Apple drops 7%, Amazon surges 12% as investors pick AI winners after earnings",
+      "title": "US stocks swing as Wall Street’s wild July keeps swerving and inflation worries keep squeezing",
+      "source": "Orlando Sentinel",
+      "publishedAt": "2026-07-31T15:11:15+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTWV2ejVBSHJZMm5lWFhCNFE2WEg0RHJOZ1JCM1pMN1hHUHBuWUJnQ1ZDUFFaaWotR1Z2NHJUamlNdW1LZFNyZUFXLVZsMDlFOFdNTUhwVXlkOE5mdlozYkFzTm9LV1daUDVuTFJwRkRGSHhTdHJxcUpoMkUxcmh2cGJYQ29IaU8wNmJqbk5ER1c2Yjh5UHc?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Wall Street rises as Amazon and chip stocks jump, even as oil prices add to worries about inflation",
+      "source": "Mainline Media News",
+      "publishedAt": "2026-07-31T13:53:50+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVGZ0c2h4ejhhbTZOZkZVVTBmVk5RQzVsbEtsZ1ZoTGJyRWVYSzZBVE9xbWVSUXBFRWJnVkNPMFA0NjZuMTNXUzFHdUlXUjg5RmF2eDBTOWJZOE9Zc2RpdkdQLTVhbXlJU2lmVWREV1BGN2VTQU04NlFiSjVfMmZOVkRLZElCc2dLQmxBWmdTaDFQOEducnFCUg?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Amazon surges 14%, Apple falls 9% as investors pick post-earnings AI winners",
       "source": "CNBC",
       "publishedAt": "2026-07-31T08:13:58+00:00",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE83UDhFcjNxOUdxa1dydWU2NmFjN0JFUk16ZUtJTk03dmVpakpLbmRybTNRdUVGYzM5cE9LNmVBMHVNLVR1bGVRZ2tyMGFScjJkeDFYNnRVdi1aXzhoMEQ3bElxVXYxVTFhMUptaHB3WWtuUzFNcWw3LTEzZ9IBgAFBVV95cUxOR3lVcFE4bmxqZ2JJSXp1M3VGYjFaX0x4YzVvTmtwaTZIaS1nZ25PV2FZOHc4WDJCWE9Td2N1amNrSzFLZ1lkUGl1Q2lKa1h5YzZpRlhqX3hJU2xNQ0t4bTJZMjlOVjdNalRfVU8tSXFDRi1TREg5b2piNGZiZGY3bg?oc=5",
