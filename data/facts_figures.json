@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T13:39:52.805226+00:00",
+  "generatedAt": "2026-08-02T17:06:15.696281+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,9 +6112,27 @@
   },
   "news": [
     {
+      "title": "Investors scored on Iran war's oil market boom. Staying long the trade will get trickier",
+      "source": "CNBC",
+      "publishedAt": "2026-08-02T13:00:01+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9LY2JjZElLTGFUT0wxcXhvbnJFd2taYzlXaUhRNWNwOUFvbFBLX3MtWnhWeXpHUUlxRjBJcWwyaktlVnBOVmxPdFJSSUhIa0FZQmU2VU5zTHdVN0VXdVVWMWFrZUVBSlgwcXc3cXliY2FkVWNYbkdGX0dB0gF_QVVfeXFMTnJKWHBaeTFfYUZ3RHoyMWx0c0NWSFpsc1ZZUzZoN3JiRUFla3FfVDFVMllZcHplSTRmRExUMHU4aG16T29MOGluZ1RyOFJ5ME13aktEZUJ0c01OQmlaUzRNRHFYblNGOE0xVVc2WG1lcWZkLWpDTGsxS0Z3blVvSQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
       "title": "Futures: Trump Calls Off Iran Strikes; Look For This Market Move",
       "source": "Investor's Business Daily",
-      "publishedAt": "2026-08-02T12:14:00+00:00",
+      "publishedAt": "2026-08-02T16:27:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOGZ3cDIxS21VRGQ1eVFZWDF5enNNQmplMC1Sc3hyajJGR05Kd1hJc3VpVEo3X0VCYnNrQUtPckg1clUwMkl3Nk94cFF5NGJjLTBXVERyNlV0ZGZ0WDFfYlVTcVNUdE4wOTFnVXczQVo5aGZ6eTNMWUV2TkxHcE5GQVZZdnNwcVVQaldqdG5pZWh4bHRBbmxVaUlBWXk0eXNYLXZvSENRVTdlUGZ2UU00a253MXVrdG9GN3A0?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
@@ -6147,28 +6165,10 @@
       ]
     },
     {
-      "title": "Investors scored on Iran war's oil market boom. Staying long the trade will get trickier",
-      "source": "CNBC",
-      "publishedAt": "2026-08-02T13:00:01+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9LY2JjZElLTGFUT0wxcXhvbnJFd2taYzlXaUhRNWNwOUFvbFBLX3MtWnhWeXpHUUlxRjBJcWwyaktlVnBOVmxPdFJSSUhIa0FZQmU2VU5zTHdVN0VXdVVWMWFrZUVBSlgwcXc3cXliY2FkVWNYbkdGX0dB0gF_QVVfeXFMTnJKWHBaeTFfYUZ3RHoyMWx0c0NWSFpsc1ZZUzZoN3JiRUFla3FfVDFVMllZcHplSTRmRExUMHU4aG16T29MOGluZ1RyOFJ5ME13aktEZUJ0c01OQmlaUzRNRHFYblNGOE0xVVc2WG1lcWZkLWpDTGsxS0Z3blVvSQ?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Amazon's strong Q2 results and cloud growth lift major indexes to weekly gains",
-      "source": "eciks.org",
-      "publishedAt": "2026-08-02T11:02:37+00:00",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ncFpndy1oZmtsRDZTUVNOVVdHWFA2bUhMUE9FSng4ZXRMclZvTHcxS2pVdTUyRE9OQ192YkZrRVQ1S3FhbjJkMkdmQ2ZOY0I1Sy1iRlppcHpOVmRwcW5CZS1hNWlsbDgtOGh4WHFOOW02QjR6TG5pVTNkbw?oc=5",
+      "title": "What to Expect in Markets this Week: SpaceX’s First Earnings Report; Earnings From Chip and Memory Giants",
+      "source": "Investopedia",
+      "publishedAt": "2026-08-02T09:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPUDlLQnFXOVV1Z3NaNmhmcDlQNGJrT3BISE1PakdWWEVOX1Q4eDhscU1BZTdqVllFU2lVQ2dXVTBjdElwLUxVa2h0bV9iYnp1a0gwbjVPRW1WWXR1SVdnMHN4aHcyTGpRZEhNaW52SDZlREZBSVVfYXBrZHJtcm5XZmE4S1l6Rm5HcEFTMDB4OW1tWkU2bm8zSGtFd1NtbVV6YzBlNk1BYXBxckRFWG43azBLNlJ6OVlfeG9XaTNuUC01Vzdqc25BUmdRSkZ3X1NMV0RMdm1GanI2ejZMV0x5Vi04djlqOXVQdS1aeg?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -6182,27 +6182,27 @@
       ]
     },
     {
-      "title": "The New York Stock Exchange | NYSE",
-      "source": "NYSE",
-      "publishedAt": "2026-07-31T22:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE93UWVlU3g1TVNpdTNEcjI2Yk9kSHU2Tnh5Y0stVFBGRWVkLW9wbU1EbHhQaHdIOE56d2V5NXVhSQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Teetering US stock market faces jobs report, big earnings week By Reuters",
+      "source": "Investing.com",
+      "publishedAt": "2026-08-02T13:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUjFORzduclg1VVkzYVhFU3RwSWR4Q0k2LUFTdFdaeWRHSk13dE0xMzZ4RlYyamdHU0ZPTGpubnU2VldQekdJMTJVQXQwV2tndzVreWxpbEtyN1BrT2dYZ1ZxNEItY2V3cEQxMWZ0QVJuUFp3cHFURk5kNmtwbjZWV1J0NlIxQXVFY2RoY1JRSjBZY1J1Q1psdk5kQTh6NW9uM2pabm5HQzFVZmt5ZFJOZVRiaXNtczIyY054Nmtn?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
         "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     },
     {
-      "title": "What to Expect in Markets this Week: SpaceX’s First Earnings Report; Earnings From Chip and Memory Giants",
-      "source": "investopedia.com",
-      "publishedAt": "2026-08-02T09:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPUDlLQnFXOVV1Z3NaNmhmcDlQNGJrT3BISE1PakdWWEVOX1Q4eDhscU1BZTdqVllFU2lVQ2dXVTBjdElwLUxVa2h0bV9iYnp1a0gwbjVPRW1WWXR1SVdnMHN4aHcyTGpRZEhNaW52SDZlREZBSVVfYXBrZHJtcm5XZmE4S1l6Rm5HcEFTMDB4OW1tWkU2bm8zSGtFd1NtbVV6YzBlNk1BYXBxckRFWG43azBLNlJ6OVlfeG9XaTNuUC01Vzdqc25BUmdRSkZ3X1NMV0RMdm1GanI2ejZMV0x5Vi04djlqOXVQdS1aeg?oc=5",
+      "title": "Amazon's strong Q2 results and cloud growth lift major indexes to weekly gains",
+      "source": "eciks.org",
+      "publishedAt": "2026-08-02T11:02:37+00:00",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ncFpndy1oZmtsRDZTUVNOVVdHWFA2bUhMUE9FSng4ZXRMclZvTHcxS2pVdTUyRE9OQ192YkZrRVQ1S3FhbjJkMkdmQ2ZOY0I1Sy1iRlppcHpOVmRwcW5CZS1hNWlsbDgtOGh4WHFOOW02QjR6TG5pVTNkbw?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
