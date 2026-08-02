@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-02T10:01:43.867866+00:00",
+  "fetchedAt": "2026-08-02T13:39:47.074601+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20624,9 +20624,9 @@
   },
   "news": [
     {
-      "title": "Market Rebounds, Now Watch For This",
+      "title": "Futures: Trump Calls Off Iran Strikes; Look For This Market Move",
       "source": "Investor's Business Daily",
-      "publishedAt": "2026-08-02T03:06:00+00:00",
+      "publishedAt": "2026-08-02T12:14:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOGZ3cDIxS21VRGQ1eVFZWDF5enNNQmplMC1Sc3hyajJGR05Kd1hJc3VpVEo3X0VCYnNrQUtPckg1clUwMkl3Nk94cFF5NGJjLTBXVERyNlV0ZGZ0WDFfYlVTcVNUdE4wOTFnVXczQVo5aGZ6eTNMWUV2TkxHcE5GQVZZdnNwcVVQaldqdG5pZWh4bHRBbmxVaUlBWXk0eXNYLXZvSENRVTdlUGZ2UU00a253MXVrdG9GN3A0?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
@@ -20659,10 +20659,28 @@
       ]
     },
     {
-      "title": "Wall St Week Ahead Teetering US stock market faces jobs report, big earnings week",
-      "source": "Reuters",
-      "publishedAt": "2026-07-31T10:02:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONXJVQnRLbDN6Q1ZZdnVtaFMzYXIxM2RlT214dFlNMkdlWDYwSWt2cjBoQzBlME9CbFVPcVhDRzk3YnNMak5xeVVYX0NwR2NFazJQR3pKaTl5NlBfTTVDWHAwNGg1QWxIYzJ2UGJ5cUxBUm5yOThySUZmcS1xRXF5MkxNMVRVVUtQX19sZXY5bmVjam5sbFVYYnpxOTJ5WjJZckxXdnd0R2Y5UFIydzFWWGZaczdwVVZVN1AyU2pQLV9jcFU?oc=5",
+      "title": "Investors scored on Iran war's oil market boom. Staying long the trade will get trickier",
+      "source": "CNBC",
+      "publishedAt": "2026-08-02T13:00:01+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9LY2JjZElLTGFUT0wxcXhvbnJFd2taYzlXaUhRNWNwOUFvbFBLX3MtWnhWeXpHUUlxRjBJcWwyaktlVnBOVmxPdFJSSUhIa0FZQmU2VU5zTHdVN0VXdVVWMWFrZUVBSlgwcXc3cXliY2FkVWNYbkdGX0dB0gF_QVVfeXFMTnJKWHBaeTFfYUZ3RHoyMWx0c0NWSFpsc1ZZUzZoN3JiRUFla3FfVDFVMllZcHplSTRmRExUMHU4aG16T29MOGluZ1RyOFJ5ME13aktEZUJ0c01OQmlaUzRNRHFYblNGOE0xVVc2WG1lcWZkLWpDTGsxS0Z3blVvSQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Amazon's strong Q2 results and cloud growth lift major indexes to weekly gains",
+      "source": "eciks.org",
+      "publishedAt": "2026-08-02T11:02:37+00:00",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ncFpndy1oZmtsRDZTUVNOVVdHWFA2bUhMUE9FSng4ZXRMclZvTHcxS2pVdTUyRE9OQ192YkZrRVQ1S3FhbjJkMkdmQ2ZOY0I1Sy1iRlppcHpOVmRwcW5CZS1hNWlsbDgtOGh4WHFOOW02QjR6TG5pVTNkbw?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -20676,8 +20694,25 @@
       ]
     },
     {
+      "title": "The New York Stock Exchange | NYSE",
+      "source": "NYSE",
+      "publishedAt": "2026-07-31T22:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE93UWVlU3g1TVNpdTNEcjI2Yk9kSHU2Tnh5Y0stVFBGRWVkLW9wbU1EbHhQaHdIOE56d2V5NXVhSQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "What to Expect in Markets this Week: SpaceX’s First Earnings Report; Earnings From Chip and Memory Giants",
-      "source": "Investopedia",
+      "source": "investopedia.com",
       "publishedAt": "2026-08-02T09:00:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPUDlLQnFXOVV1Z3NaNmhmcDlQNGJrT3BISE1PakdWWEVOX1Q4eDhscU1BZTdqVllFU2lVQ2dXVTBjdElwLUxVa2h0bV9iYnp1a0gwbjVPRW1WWXR1SVdnMHN4aHcyTGpRZEhNaW52SDZlREZBSVVfYXBrZHJtcm5XZmE4S1l6Rm5HcEFTMDB4OW1tWkU2bm8zSGtFd1NtbVV6YzBlNk1BYXBxckRFWG43azBLNlJ6OVlfeG9XaTNuUC01Vzdqc25BUmdRSkZ3X1NMV0RMdm1GanI2ejZMV0x5Vi04djlqOXVQdS1aeg?oc=5",
       "bucket": "Unternehmensgewinne",
@@ -20690,41 +20725,6 @@
         "Aktien",
         "Sektoren",
         "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Microsoft's best day since 2008 leads US stocks, while inflation worries remain in the bond market",
-      "source": "AP News",
-      "publishedAt": "2026-07-30T21:13:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVzg3S3dnZExJa0JrQ0tWRDJfOUxDS25LaHU5djJUVTlqTXhRMU9QRjNsZGlVNU5wclotbThRcW92Mnd0ZzdSaktaSktmMUpaVmUyaWs0aFF4SGhtc2E2TS1lcXNXSlphajlFQWFiaWo2aDdrLWlXTXQyTmZIeElQX3Mtelh6Mi1RMHI2UFFVdVdFTl92ay1N?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "Stocks finish wild month with Amazon rising, Apple sinking and Seoul's best day ever resulting in a 22% loss",
-      "source": "Fortune",
-      "publishedAt": "2026-08-01T12:42:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ULVJ3b3pjUTFZdzdWbEpzRzRRODBnRGNtcDJsSkxNaVJKTFFRRzBsSmJoaGRGUzU3SXJqV2RhN2tCNnJwNFRncVRpclRMd2RZYTBGRl9zWS1CNG1XUk96UVVTZU9vMWNJanJnRExHQkpfeUExRFo5YnRfSQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     }
   ],
@@ -20832,7 +20832,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-08-02T10:01:43.867866+00:00",
+      "dataAsOf": "2026-08-02T13:39:47.074601+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
