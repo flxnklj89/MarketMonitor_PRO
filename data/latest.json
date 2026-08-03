@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-03T11:32:04.839225+00:00",
+  "fetchedAt": "2026-08-03T14:51:28.747875+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -28,7 +28,7 @@
     },
     "fedRate": {
       "value": 3.63,
-      "date": "2026-07-30",
+      "date": "2026-07-31",
       "cadence": "daily",
       "series": "EFFR",
       "displayName": "Effective Federal Funds Rate",
@@ -42,8 +42,8 @@
       "confidence": "high"
     },
     "recProb": {
-      "value": 0.5,
-      "date": "2026-05-01",
+      "value": 0.6,
+      "date": "2026-06-01",
       "cadence": "monthly",
       "series": "RECPROUSM156N",
       "fastProxy": {
@@ -96,13 +96,13 @@
       "confidence": "low"
     },
     "tradeStress": {
-      "value": 30,
+      "value": 22,
       "label": "Entspannt",
       "date": "2026-07-31",
       "cadence": "daily",
       "method": "proxy",
       "components": {
-        "vix": 17.09,
+        "vix": 15.99,
         "brent": 91.82,
         "eurusd": 1.1385,
         "us10y": 4.68
@@ -127,7 +127,7 @@
       "name": "Europa",
       "score": 22.0,
       "label": "Stabil",
-      "date": "2026-07-31",
+      "date": "2026-08-03",
       "summary": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "driverText": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "inflation": {
@@ -140,7 +140,7 @@
       "growthOrRate": {
         "label": "ECB Einlagezins",
         "value": 2.25,
-        "date": "2026-07-31",
+        "date": "2026-08-03",
         "unit": "%",
         "cadence": "daily",
         "series": "ECBDFR"
@@ -230,9 +230,9 @@
     {
       "label": "VIX",
       "icon": "⚡",
-      "val": 17.09,
-      "chg": -3.57,
-      "chgPct": -17.28,
+      "val": 15.99,
+      "chg": -1.1,
+      "chgPct": -6.44,
       "unit": "",
       "dec": 2
     },
@@ -6939,6 +6939,10 @@
       {
         "date": "2026-07-30",
         "value": 3.63
+      },
+      {
+        "date": "2026-07-31",
+        "value": 3.63
       }
     ],
     "recProb": [
@@ -6956,7 +6960,7 @@
       },
       {
         "date": "2011-11-01",
-        "value": 0.2
+        "value": 0.1
       },
       {
         "date": "2011-12-01",
@@ -6964,7 +6968,7 @@
       },
       {
         "date": "2012-01-01",
-        "value": 0.0
+        "value": 0.1
       },
       {
         "date": "2012-02-01",
@@ -6972,7 +6976,7 @@
       },
       {
         "date": "2012-03-01",
-        "value": 0.3
+        "value": 0.5
       },
       {
         "date": "2012-04-01",
@@ -6980,19 +6984,19 @@
       },
       {
         "date": "2012-05-01",
-        "value": 0.2
-      },
-      {
-        "date": "2012-06-01",
-        "value": 0.2
-      },
-      {
-        "date": "2012-07-01",
         "value": 0.1
       },
       {
+        "date": "2012-06-01",
+        "value": 0.4
+      },
+      {
+        "date": "2012-07-01",
+        "value": 0.3
+      },
+      {
         "date": "2012-08-01",
-        "value": 0.2
+        "value": 0.3
       },
       {
         "date": "2012-09-01",
@@ -7000,7 +7004,7 @@
       },
       {
         "date": "2012-10-01",
-        "value": 0.0
+        "value": 0.1
       },
       {
         "date": "2012-11-01",
@@ -7012,11 +7016,11 @@
       },
       {
         "date": "2013-01-01",
-        "value": 0.0
+        "value": 0.1
       },
       {
         "date": "2013-02-01",
-        "value": 0.1
+        "value": 0.0
       },
       {
         "date": "2013-03-01",
@@ -7036,7 +7040,7 @@
       },
       {
         "date": "2013-07-01",
-        "value": 0.3
+        "value": 0.2
       },
       {
         "date": "2013-08-01",
@@ -7044,7 +7048,7 @@
       },
       {
         "date": "2013-09-01",
-        "value": 0.0
+        "value": 0.1
       },
       {
         "date": "2013-10-01",
@@ -7052,11 +7056,11 @@
       },
       {
         "date": "2013-11-01",
-        "value": 0.1
+        "value": 0.0
       },
       {
         "date": "2013-12-01",
-        "value": 0.1
+        "value": 0.2
       },
       {
         "date": "2014-01-01",
@@ -7072,23 +7076,23 @@
       },
       {
         "date": "2014-04-01",
-        "value": 0.1
+        "value": 0.0
       },
       {
         "date": "2014-05-01",
-        "value": 0.1
+        "value": 0.0
       },
       {
         "date": "2014-06-01",
-        "value": 0.1
+        "value": 0.0
       },
       {
         "date": "2014-07-01",
-        "value": 0.1
+        "value": 0.0
       },
       {
         "date": "2014-08-01",
-        "value": 0.2
+        "value": 0.1
       },
       {
         "date": "2014-09-01",
@@ -7104,107 +7108,107 @@
       },
       {
         "date": "2014-12-01",
-        "value": 0.5
+        "value": 0.4
       },
       {
         "date": "2015-01-01",
-        "value": 1.7
-      },
-      {
-        "date": "2015-02-01",
-        "value": 2.3
-      },
-      {
-        "date": "2015-03-01",
-        "value": 2.0
-      },
-      {
-        "date": "2015-04-01",
-        "value": 1.5
-      },
-      {
-        "date": "2015-05-01",
-        "value": 1.7
-      },
-      {
-        "date": "2015-06-01",
         "value": 1.3
       },
       {
-        "date": "2015-07-01",
-        "value": 1.0
-      },
-      {
-        "date": "2015-08-01",
-        "value": 1.2
-      },
-      {
-        "date": "2015-09-01",
-        "value": 1.4
-      },
-      {
-        "date": "2015-10-01",
-        "value": 1.9
-      },
-      {
-        "date": "2015-11-01",
-        "value": 2.3
-      },
-      {
-        "date": "2015-12-01",
-        "value": 1.8
-      },
-      {
-        "date": "2016-01-01",
-        "value": 1.5
-      },
-      {
-        "date": "2016-02-01",
-        "value": 1.6
-      },
-      {
-        "date": "2016-03-01",
+        "date": "2015-02-01",
         "value": 1.7
       },
       {
-        "date": "2016-04-01",
+        "date": "2015-03-01",
+        "value": 1.6
+      },
+      {
+        "date": "2015-04-01",
+        "value": 1.3
+      },
+      {
+        "date": "2015-05-01",
         "value": 1.1
       },
       {
-        "date": "2016-05-01",
+        "date": "2015-06-01",
         "value": 0.9
       },
       {
-        "date": "2016-06-01",
-        "value": 0.4
-      },
-      {
-        "date": "2016-07-01",
-        "value": 0.4
-      },
-      {
-        "date": "2016-08-01",
+        "date": "2015-07-01",
         "value": 0.6
       },
       {
-        "date": "2016-09-01",
-        "value": 0.4
+        "date": "2015-08-01",
+        "value": 0.8
       },
       {
-        "date": "2016-10-01",
-        "value": 0.4
+        "date": "2015-09-01",
+        "value": 1.0
       },
       {
-        "date": "2016-11-01",
-        "value": 0.4
+        "date": "2015-10-01",
+        "value": 1.3
       },
       {
-        "date": "2016-12-01",
+        "date": "2015-11-01",
+        "value": 1.9
+      },
+      {
+        "date": "2015-12-01",
+        "value": 1.4
+      },
+      {
+        "date": "2016-01-01",
+        "value": 0.9
+      },
+      {
+        "date": "2016-02-01",
+        "value": 1.1
+      },
+      {
+        "date": "2016-03-01",
+        "value": 1.0
+      },
+      {
+        "date": "2016-04-01",
+        "value": 0.8
+      },
+      {
+        "date": "2016-05-01",
+        "value": 0.8
+      },
+      {
+        "date": "2016-06-01",
+        "value": 0.3
+      },
+      {
+        "date": "2016-07-01",
         "value": 0.2
       },
       {
+        "date": "2016-08-01",
+        "value": 0.3
+      },
+      {
+        "date": "2016-09-01",
+        "value": 0.2
+      },
+      {
+        "date": "2016-10-01",
+        "value": 0.2
+      },
+      {
+        "date": "2016-11-01",
+        "value": 0.2
+      },
+      {
+        "date": "2016-12-01",
+        "value": 0.1
+      },
+      {
         "date": "2017-01-01",
-        "value": 0.4
+        "value": 0.2
       },
       {
         "date": "2017-02-01",
@@ -7216,39 +7220,39 @@
       },
       {
         "date": "2017-04-01",
-        "value": 0.1
+        "value": 0.0
       },
       {
         "date": "2017-05-01",
-        "value": 0.2
+        "value": 0.0
       },
       {
         "date": "2017-06-01",
-        "value": 0.2
+        "value": 0.1
       },
       {
         "date": "2017-07-01",
-        "value": 0.3
+        "value": 0.2
       },
       {
         "date": "2017-08-01",
-        "value": 0.3
+        "value": 0.1
       },
       {
         "date": "2017-09-01",
-        "value": 0.1
+        "value": 0.0
       },
       {
         "date": "2017-10-01",
-        "value": 0.1
+        "value": 0.0
       },
       {
         "date": "2017-11-01",
-        "value": 0.1
+        "value": 0.0
       },
       {
         "date": "2017-12-01",
-        "value": 0.3
+        "value": 0.2
       },
       {
         "date": "2018-01-01",
@@ -7264,7 +7268,7 @@
       },
       {
         "date": "2018-04-01",
-        "value": 0.1
+        "value": 0.0
       },
       {
         "date": "2018-05-01",
@@ -7280,19 +7284,19 @@
       },
       {
         "date": "2018-08-01",
-        "value": 0.1
+        "value": 0.0
       },
       {
         "date": "2018-09-01",
-        "value": 0.3
+        "value": 0.2
       },
       {
         "date": "2018-10-01",
-        "value": 0.5
+        "value": 0.2
       },
       {
         "date": "2018-11-01",
-        "value": 0.4
+        "value": 0.3
       },
       {
         "date": "2018-12-01",
@@ -7300,7 +7304,7 @@
       },
       {
         "date": "2019-01-01",
-        "value": 1.7
+        "value": 1.6
       },
       {
         "date": "2019-02-01",
@@ -7308,27 +7312,27 @@
       },
       {
         "date": "2019-03-01",
-        "value": 1.1
+        "value": 1.3
       },
       {
         "date": "2019-04-01",
-        "value": 1.2
+        "value": 1.4
       },
       {
         "date": "2019-05-01",
-        "value": 1.0
+        "value": 0.8
       },
       {
         "date": "2019-06-01",
-        "value": 0.9
+        "value": 0.7
       },
       {
         "date": "2019-07-01",
-        "value": 1.0
+        "value": 0.7
       },
       {
         "date": "2019-08-01",
-        "value": 0.6
+        "value": 0.5
       },
       {
         "date": "2019-09-01",
@@ -7340,19 +7344,19 @@
       },
       {
         "date": "2019-11-01",
-        "value": 0.8
-      },
-      {
-        "date": "2019-12-01",
         "value": 0.9
       },
       {
+        "date": "2019-12-01",
+        "value": 1.0
+      },
+      {
         "date": "2020-01-01",
-        "value": 0.6
+        "value": 0.5
       },
       {
         "date": "2020-02-01",
-        "value": 0.3
+        "value": 0.2
       },
       {
         "date": "2020-03-01",
@@ -7380,15 +7384,15 @@
       },
       {
         "date": "2020-09-01",
-        "value": 0.0
+        "value": 0.1
       },
       {
         "date": "2020-10-01",
-        "value": 0.0
+        "value": 0.1
       },
       {
         "date": "2020-11-01",
-        "value": 0.1
+        "value": 0.3
       },
       {
         "date": "2020-12-01",
@@ -7408,7 +7412,7 @@
       },
       {
         "date": "2021-04-01",
-        "value": 0.2
+        "value": 0.3
       },
       {
         "date": "2021-05-01",
@@ -7420,15 +7424,15 @@
       },
       {
         "date": "2021-07-01",
-        "value": 0.1
+        "value": 0.2
       },
       {
         "date": "2021-08-01",
-        "value": 1.5
+        "value": 1.6
       },
       {
         "date": "2021-09-01",
-        "value": 1.6
+        "value": 1.5
       },
       {
         "date": "2021-10-01",
@@ -7436,27 +7440,27 @@
       },
       {
         "date": "2021-11-01",
-        "value": 0.2
+        "value": 0.1
       },
       {
         "date": "2021-12-01",
-        "value": 1.0
+        "value": 0.9
       },
       {
         "date": "2022-01-01",
-        "value": 1.2
+        "value": 0.8
       },
       {
         "date": "2022-02-01",
-        "value": 0.4
+        "value": 0.1
       },
       {
         "date": "2022-03-01",
-        "value": 0.5
+        "value": 0.2
       },
       {
         "date": "2022-04-01",
-        "value": 0.8
+        "value": 0.7
       },
       {
         "date": "2022-05-01",
@@ -7464,11 +7468,11 @@
       },
       {
         "date": "2022-06-01",
-        "value": 0.7
+        "value": 0.5
       },
       {
         "date": "2022-07-01",
-        "value": 0.3
+        "value": 0.1
       },
       {
         "date": "2022-08-01",
@@ -7480,23 +7484,23 @@
       },
       {
         "date": "2022-10-01",
-        "value": 0.8
+        "value": 0.6
       },
       {
         "date": "2022-11-01",
-        "value": 1.4
+        "value": 1.1
       },
       {
         "date": "2022-12-01",
-        "value": 1.3
+        "value": 1.2
       },
       {
         "date": "2023-01-01",
-        "value": 0.2
+        "value": 0.1
       },
       {
         "date": "2023-02-01",
-        "value": 0.3
+        "value": 0.2
       },
       {
         "date": "2023-03-01",
@@ -7504,15 +7508,15 @@
       },
       {
         "date": "2023-04-01",
-        "value": 0.3
+        "value": 0.2
       },
       {
         "date": "2023-05-01",
-        "value": 0.3
+        "value": 0.2
       },
       {
         "date": "2023-06-01",
-        "value": 0.3
+        "value": 0.4
       },
       {
         "date": "2023-07-01",
@@ -7528,7 +7532,7 @@
       },
       {
         "date": "2023-10-01",
-        "value": 0.3
+        "value": 0.4
       },
       {
         "date": "2023-11-01",
@@ -7540,19 +7544,19 @@
       },
       {
         "date": "2024-01-01",
-        "value": 2.6
+        "value": 2.3
       },
       {
         "date": "2024-02-01",
-        "value": 0.2
+        "value": 0.4
       },
       {
         "date": "2024-03-01",
-        "value": 0.2
+        "value": 0.4
       },
       {
         "date": "2024-04-01",
-        "value": 0.2
+        "value": 0.3
       },
       {
         "date": "2024-05-01",
@@ -7564,19 +7568,19 @@
       },
       {
         "date": "2024-07-01",
-        "value": 0.6
+        "value": 0.7
       },
       {
         "date": "2024-08-01",
-        "value": 0.2
+        "value": 0.4
       },
       {
         "date": "2024-09-01",
-        "value": 0.3
+        "value": 0.6
       },
       {
         "date": "2024-10-01",
-        "value": 0.3
+        "value": 0.6
       },
       {
         "date": "2024-11-01",
@@ -7588,7 +7592,7 @@
       },
       {
         "date": "2025-01-01",
-        "value": 0.4
+        "value": 0.2
       },
       {
         "date": "2025-02-01",
@@ -7600,11 +7604,11 @@
       },
       {
         "date": "2025-04-01",
-        "value": 0.3
+        "value": 0.2
       },
       {
         "date": "2025-05-01",
-        "value": 0.5
+        "value": 0.3
       },
       {
         "date": "2025-06-01",
@@ -7612,11 +7616,11 @@
       },
       {
         "date": "2025-07-01",
-        "value": 0.2
+        "value": 0.1
       },
       {
         "date": "2025-08-01",
-        "value": 0.8
+        "value": 0.6
       },
       {
         "date": "2025-09-01",
@@ -7628,15 +7632,15 @@
       },
       {
         "date": "2025-11-01",
-        "value": 0.5
+        "value": 0.6
       },
       {
         "date": "2025-12-01",
-        "value": 0.1
+        "value": 0.3
       },
       {
         "date": "2026-01-01",
-        "value": 0.2
+        "value": 0.3
       },
       {
         "date": "2026-02-01",
@@ -7652,7 +7656,11 @@
       },
       {
         "date": "2026-05-01",
-        "value": 0.5
+        "value": 0.3
+      },
+      {
+        "date": "2026-06-01",
+        "value": 0.6
       }
     ],
     "sp500": [
@@ -20606,11 +20614,64 @@
       },
       {
         "date": "2026-07-31",
-        "value": 30
+        "value": 22
       }
     ]
   },
   "news": [
+    {
+      "title": "Falling oil prices help calm Wall Street's inflation worries, while chip stocks get back to sinking",
+      "source": "The Washington Post",
+      "publishedAt": "2026-08-03T13:45:47+00:00",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQ0RnOEZpYTMzUHQwWTNaeGdyMnFGalltaWEwTmVjb3FQYVlsWTZZbkhiLUR0WU5jazRvY0FNV1pnMFMwdXF3Q0h0b25LS0NncDdGQnJCT01LajRGa2NnT2tINEs0VXFLMGozTjMzeENHMHUyOWZDZUNpeER5QXFNV3FFdlVab05LbjBlUHoxM0l5ZHk0UUdlSFdTM3hNV25SakdXczlHOGgyRVR2MXN1YXlEd2RSM3BUOEVLRk1rZnk4aF9WRmgzWldscWZoSGM?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Dow Futures Pop, Oil Dives On Trump Move, But AI Stocks Fade",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-08-03T12:10:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOGZ3cDIxS21VRGQ1eVFZWDF5enNNQmplMC1Sc3hyajJGR05Kd1hJc3VpVEo3X0VCYnNrQUtPckg1clUwMkl3Nk94cFF5NGJjLTBXVERyNlV0ZGZ0WDFfYlVTcVNUdE4wOTFnVXczQVo5aGZ6eTNMWUV2TkxHcE5GQVZZdnNwcVVQaldqdG5pZWh4bHRBbmxVaUlBWXk0eXNYLXZvSENRVTdlUGZ2UU00a253MXVrdG9GN3A0?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "What to Expect in Markets this Week: SpaceX’s First Earnings Report; Earnings From Chip and Memory Giants; Jobs Report",
+      "source": "Investopedia",
+      "publishedAt": "2026-08-03T12:43:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPUDlLQnFXOVV1Z3NaNmhmcDlQNGJrT3BISE1PakdWWEVOX1Q4eDhscU1BZTdqVllFU2lVQ2dXVTBjdElwLUxVa2h0bV9iYnp1a0gwbjVPRW1WWXR1SVdnMHN4aHcyTGpRZEhNaW52SDZlREZBSVVfYXBrZHJtcm5XZmE4S1l6Rm5HcEFTMDB4OW1tWkU2bm8zSGtFd1NtbVV6YzBlNk1BYXBxckRFWG43azBLNlJ6OVlfeG9XaTNuUC01Vzdqc25BUmdRSkZ3X1NMV0RMdm1GanI2ejZMV0x5Vi04djlqOXVQdS1aeg?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
     {
       "title": "US Stock Market Today: S&P 500 Futures Rise As Earnings Optimism Outweighs Rate Jitters",
       "source": "simplywall.st",
@@ -20627,24 +20688,6 @@
         "Aktien",
         "US-Dollar",
         "Gold"
-      ]
-    },
-    {
-      "title": "Asian stocks are mixed as yen jumps against the dollar, while oil prices slip",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "publishedAt": "2026-08-03T06:05:55+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZnBMZU1PR0YxT3VvQVozXy0zRkxESUM0SEdjeHZCaTNpYm00ZVFDTG5rQVZXZ0g1TlZPOGNGeDNFRzNmR3k2bUNVcER0QnBvQW1vQ0dSeE9BUHhwMXFod2ZuRVFxS1hhZmswQTVrd1hlbmtrbG13WVN5R0tiYVg5azFlbEE0bWg2WDBSX1Q3REdXakZyaTN6YW1aWdIBoAFBVV95cUxQTW85VGFWaHlCc1FoNFlOSG53VWlWNUdVcUFMOHNyb3lHLUg4eFNxMENBRWdRWkc1MUptRXQ3d3FWOF9yODFacVZNSlhmenhLaGtUZHVXWmNoZmJuODJzcGZzTU91U0lHcWNvNGY2WFY4a2VfMXFpckQyUlJfd0NIQjVwTTU3Rk9xdXlWRmxMTlVNQ1dVWmhvVndYdU9fdzZm?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
       ]
     },
     {
@@ -20665,10 +20708,10 @@
       ]
     },
     {
-      "title": "Stock market turmoil sheds stark light on the opaque AI economy",
-      "source": "The Guardian",
-      "publishedAt": "2026-08-02T09:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRDA2eEdWZUVjWFNkbGdwZVFhZ0FUODRfU2dGQy1OaHVENmgzcFBDak1na3JzY08yTWtWS3N4STF0VjV3R0w5bzFMYTJxMl9XajZFYVFNd2s0ckdKdThkTlZ5UzZyRlo3RnZnSHU0eFpZM0JrMDdPNUtBNzhQOFV2TnFqbGZpY2FXbmRTSUhVOGVOTGU5Yjh5ZFAxWWRhYnBYUXIw?oc=5",
+      "title": "Asian stocks are mixed as yen jumps against the dollar, while oil prices slip",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "publishedAt": "2026-08-03T06:05:55+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZnBMZU1PR0YxT3VvQVozXy0zRkxESUM0SEdjeHZCaTNpYm00ZVFDTG5rQVZXZ0g1TlZPOGNGeDNFRzNmR3k2bUNVcER0QnBvQW1vQ0dSeE9BUHhwMXFod2ZuRVFxS1hhZmswQTVrd1hlbmtrbG13WVN5R0tiYVg5azFlbEE0bWg2WDBSX1Q3REdXakZyaTN6YW1aWdIBoAFBVV95cUxQTW85VGFWaHlCc1FoNFlOSG53VWlWNUdVcUFMOHNyb3lHLUg4eFNxMENBRWdRWkc1MUptRXQ3d3FWOF9yODFacVZNSlhmenhLaGtUZHVXWmNoZmJuODJzcGZzTU91U0lHcWNvNGY2WFY4a2VfMXFpckQyUlJfd0NIQjVwTTU3Rk9xdXlWRmxMTlVNQ1dVWmhvVndYdU9fdzZm?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20680,40 +20723,6 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Who Says the Stock Market Is Overpriced?",
-      "source": "Barron's",
-      "publishedAt": "2026-08-03T05:30:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1UMzhETlRGQWZNZE85bGI0QVNiQ0V3c2NSdy1lRGQ4WjJVTDhLUjNNZnBTTUE2cnk2Nzk0MXJVYUQ3RTRYcDI2dVlsUk9ZQllPSTg5U3NHSG1fTFVPdkxIeHlHOUFKTXhFT2NRa1REeGF3VHZ2U2xpazJIc0I?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Stock Market Today: Stock Market Today: S&P 500, Dow Jones Futures Gain as Trump Halts 'Massive Attack' o",
-      "source": "Benzinga",
-      "publishedAt": "2026-08-03T09:14:11+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQQ0wzbW9SdFJPeFE3cTBUcVdEMkZpc2N2UWFBak1udzhFQ21WTnJRVk9nYm9wSFVteV8tYjhkS2wtOThvdHFicExWZFFBREwzSS1oTElGdlJoNm9jQXFSZTRiODlPWE1GZGVGYlZBbDFCMnJoamtnalFHcVQwMWgtWThjMjBNdnliUzhiTkFsdWtFaHVveEhLN3lKQ0U2VVd4RTlUQVB4SE1Cakx1OG9xakxfUkNuYkZBVEE2MUxPZ1R1aktGY0k5cDR4N1hmT19vN3FjX2c5QnJsNHByMGNMWVJIQWZqcElfX0Vld0FsclJIalowUmoxWTdmdHZtZFBnVTU1c05mMWY0OTlWbjhTREJtTGE0WE5QQy05SDZ5U25NN012Mjg0?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     }
   ],
@@ -20767,7 +20776,7 @@
     {
       "id": "A",
       "title": "Basisszenario: stabile Marktphase",
-      "probability": 53,
+      "probability": 56,
       "summary": "Wachstum bleibt grundsätzlich intakt, während Belastungsfaktoren überschaubar bleiben.",
       "supportedBy": [
         "Marktstress bleibt begrenzt",
@@ -20785,10 +20794,9 @@
     {
       "id": "B",
       "title": "Zwischenszenario: erhöhte Vorsicht",
-      "probability": 27,
+      "probability": 26,
       "summary": "Das Umfeld wird anspruchsvoller. Stresssignale nehmen zu, ohne bereits ein klares Eskalationsbild zu erzeugen.",
       "supportedBy": [
-        "Marktstress ist sichtbar erhöht",
         "Verbraucherstimmung stützt das Bild nicht klar"
       ],
       "probabilityChange": {
@@ -20801,7 +20809,7 @@
     {
       "id": "C",
       "title": "Stressszenario: defensivere Marktphase",
-      "probability": 20,
+      "probability": 18,
       "summary": "Mehrere belastende Signale greifen gleichzeitig ineinander und erhöhen die Wahrscheinlichkeit einer klaren Risk-off-Phase.",
       "supportedBy": [],
       "probabilityChange": {
@@ -20814,14 +20822,14 @@
   ],
   "hero": {
     "phase": {
-      "label": "Erhöhte Vorsicht",
-      "score": 30.0,
-      "summary": "Das Gesamtbild bleibt geordnet, zeigt aber mehr Spannungen als in einer ruhigen Normalphase.",
-      "interpretation": "Der Fokus verschiebt sich von Routine hin zu erhöhter Aufmerksamkeit.",
-      "actionMatrixKey": "caution"
+      "label": "Normalphase",
+      "score": 22.0,
+      "summary": "Die Signallage wirkt insgesamt geordnet. Einzelne Belastungen dominieren das Gesamtbild noch nicht.",
+      "interpretation": "Der Monitor liefert derzeit eher Orientierung als Alarm.",
+      "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-08-03T11:32:04.839225+00:00",
+      "dataAsOf": "2026-08-03T14:51:28.747875+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
