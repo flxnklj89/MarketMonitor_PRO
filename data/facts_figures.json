@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T03:14:31.897229+00:00",
+  "generatedAt": "2026-08-04T06:31:51.028386+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -43,10 +43,10 @@
   "technicalTriggers": [
     {
       "label": "50T vs. 200T",
-      "value": 8.1,
+      "value": 8.0,
       "unit": "%",
       "tone": "m",
-      "status": "50T liegt bei +8.1 % gegenüber dem 200T. Schlusskurs 25374, 50T 25948, 200T 23998. NASDAQ Composite (Fallback) unter 50T (25948), aber noch über 200T (23998).",
+      "status": "50T liegt bei +8.0 % gegenüber dem 200T. Schlusskurs 25914, 50T 25941, 200T 24015. NASDAQ Composite (Fallback) unter 50T (25941), aber noch über 200T (24015).",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -56,10 +56,10 @@
     },
     {
       "label": "RSI (14)",
-      "value": 47.9,
+      "value": 54.6,
       "unit": "",
       "tone": "m",
-      "status": "RSI (14) bei 47.9. Kein Extremniveau in beide Richtungen.",
+      "status": "RSI (14) bei 54.6. Kein Extremniveau in beide Richtungen.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -69,10 +69,10 @@
     },
     {
       "label": "Drawdown vom Hoch",
-      "value": -6.3,
+      "value": -4.4,
       "unit": "%",
-      "tone": "m",
-      "status": "-6.3 % vom Hoch. Normales Korrekturterritory.",
+      "tone": "l",
+      "status": "-4.4 % vom Hoch. Kaum struktureller Druck.",
       "history": []
     }
   ],
@@ -702,12 +702,6 @@
   "charts": {
     "chartLabel": "NASDAQ Composite",
     "qqq": [
-      {
-        "date": "2025-05-21",
-        "close": 18872.64,
-        "ma50": 17510.31,
-        "ma200": 18387.07
-      },
       {
         "date": "2025-05-22",
         "close": 18925.73,
@@ -2501,13 +2495,15 @@
         "close": 25373.85,
         "ma50": 25948.42,
         "ma200": 23998.06
+      },
+      {
+        "date": "2026-08-03",
+        "close": 25913.9,
+        "ma50": 25941.29,
+        "ma200": 24015.02
       }
     ],
     "rsi": [
-      {
-        "date": "2025-05-21",
-        "value": 63.1
-      },
       {
         "date": "2025-05-22",
         "value": 63.7
@@ -3703,6 +3699,10 @@
       {
         "date": "2026-07-31",
         "value": 47.9
+      },
+      {
+        "date": "2026-08-03",
+        "value": 54.6
       }
     ],
     "vix": [
@@ -6132,7 +6132,7 @@
     {
       "title": "Dow Jones Futures: Trump Sparks Stock Market Rally; Palantir Soars On Earnings With SpaceX On Deck",
       "source": "Investor's Business Daily",
-      "publishedAt": "2026-08-03T22:00:00+00:00",
+      "publishedAt": "2026-08-04T02:45:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTkF3SWhJTWdNVWRlTlBSV09tbTg2bTZIakRNTUx5cmhGekw0UUlDSlBSdXktVExFa0VURjBaeGZ4YWVCQ3FHTjlMVG5TQ1Jad19rOVFTUTJWbE9Md3NMX3pxNjdiSjNvcUNYZm1IR3JMX1hDb18zbVhTNW5UWjkyTURWbDM5VDlCVmNHYlpZM0JvLWJBZ3ZWZUlqdWxaek5jUVY2SEwzMDlNLVRVd0dNMmpNcjFVenJzTllaTThib1FYZ0J3V01Xc1YxMnNCcjg?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
@@ -6147,8 +6147,43 @@
       ]
     },
     {
+      "title": "US stocks near record high, oil falls as Trump claims Iran talks under way",
+      "source": "aljazeera.com",
+      "publishedAt": "2026-08-04T06:22:30+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQM3lRMnNtREFPd01Dc2NnWXZXclZnUjZsQ3pWNTd5bW12dmFSdDFyNWRxcFBzczF5TGFNZ3pwbzIwU1paUzNZMV9BNTd1c2d4UzBleW1aX1YyMnpIeVVZZ0N6SVB4Q1Q4aThZLW43LVR6OVhuQTNST2VyZGlYaXQ4cm1SaWpLMElIajRaWF9nalQybHI1MVV4Z3dvV3pNYURpMEk3cGVrZDlITEdJbFdnckVEeWo0UdIBuwFBVV95cUxNbjVjcldMX0ljOVNVdEVHajk2alBIaURLeF9Za1Zia1h3aTR6YUNMUDQwdmh5TUZqbmIzZjdGbDcxSHcyeVZjMGRxYWpZYU9hNS1tSHBzQ1RsWWpNMUNjN3BUUjdkVnM3NlgxbnRDR180SnRzbkwyeDdfX3pQRTBHTGU2M3VRVTZnTDVVWTk5dlhPLXBGZXF4MHlUUnpWMTg1emtyb2lrOGdUMnNxVmhsNm5wM2ZKY0txXzFF?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "China’s AI rout triggers 14% margin retreat in record tech sell-off",
+      "source": "South China Morning Post",
+      "publishedAt": "2026-08-04T01:00:09+00:00",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMnFXdWc1S2NITnhYRTFYMnQyNmNyR1NWampXQ3ZfSWlIeEFsWDJSV3FpTGhTTUdxM2hka2IwUDA1R1dtTmtrUFc3eEQyZDZGVURFaFlyY2Z0VGItMFhUajRoR05mUXJ2eVJOVnBJSUtIeHMxWE1SV3VLMnJiN1NGSHhVOWRSWVBBNmg1a0x5Z3g0V0tqUWQ5YXdBQVNqTWtIVzZfcHRaM2JXZXZuUUxHT3FVWXZIT1VpYlZSRE4xY0F6N3NFVkHSAcYBQVVfeXFMUHBRUUk4N3NObHFYeTRaUl9oZ1dyOWMxcHNfOUc3MnNIdDdvTHBHemlwVElGTl92Nktta1FvdDRCby1KRjY3V3luLW5FQjZkWlFualQ0QW9Rbmxlb3hrSXUwWnI1QWVkMV9JcmgwWUtCaDVhU1BsbU9GbVY0WFMtQW9wZ3Z5eHQzNkxFRVdFUlRrT3Y1T1NfR2RFcWZCN1N2amtTRW44Z0MxdDFSdkhMSXdQRHI2czZxS3lFdWxDeFFqemxvaml3?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
       "title": "Wall Street bulls are starting to admit the earnings bubble is real—and the 60/40 portfolio may be the first casualty",
-      "source": "Fortune",
+      "source": "fortune.com",
       "publishedAt": "2026-08-03T16:03:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVGJxOVN1T211RW9KcERVWm9UZVVQMEE2UUdIQkRVaHVMX3Rhc3ptRHdTQVNBclItZXhVQnlkUlZkZUJUN3IyY3UwN0FERGNQcEIxaWtUa1N2NU5tQjVYNUxvM3ZLT0tuZTBZbFpLVkZRLThlWXZKdEc0WEhkVXI5MW9tQnFSclZ3WjhWb0JvN0x6YmkzdW9KODhjRi1JV3hudDBidjVn?oc=5",
       "bucket": "Unternehmensgewinne",
@@ -6168,41 +6203,6 @@
       "source": "WDEF",
       "publishedAt": "2026-08-03T13:55:51+00:00",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOb191aEJjRUpFRERqRTV3SDhGU05sLUp2bHpmdlBmcnk5cUFYOERLQjBOTnlTU293MGxTMEhNbVBCeWROdFUybW9TVDdyeS00XzNTUVJRNUdycE5SNDZYOE1oOE15MHZnNWdvU2tFaHllWk9KNTg0Z2g0TE5EVVB5eXRQUzJONnBCbGUzNzhKZk9wLUtEd3ZuZ08yNGRmSG0wLUdIX0VKdTNqU2tKRGkzcGktamhrY1lWNDZN?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Will China’s tech stocks feel the tremors amid a global AI sell-off?",
-      "source": "South China Morning Post",
-      "publishedAt": "2026-08-04T01:00:09+00:00",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMnFXdWc1S2NITnhYRTFYMnQyNmNyR1NWampXQ3ZfSWlIeEFsWDJSV3FpTGhTTUdxM2hka2IwUDA1R1dtTmtrUFc3eEQyZDZGVURFaFlyY2Z0VGItMFhUajRoR05mUXJ2eVJOVnBJSUtIeHMxWE1SV3VLMnJiN1NGSHhVOWRSWVBBNmg1a0x5Z3g0V0tqUWQ5YXdBQVNqTWtIVzZfcHRaM2JXZXZuUUxHT3FVWXZIT1VpYlZSRE4xY0F6N3NFVkHSAcYBQVVfeXFMUHBRUUk4N3NObHFYeTRaUl9oZ1dyOWMxcHNfOUc3MnNIdDdvTHBHemlwVElGTl92Nktta1FvdDRCby1KRjY3V3luLW5FQjZkWlFualQ0QW9Rbmxlb3hrSXUwWnI1QWVkMV9JcmgwWUtCaDVhU1BsbU9GbVY0WFMtQW9wZ3Z5eHQzNkxFRVdFUlRrT3Y1T1NfR2RFcWZCN1N2amtTRW44Z0MxdDFSdkhMSXdQRHI2czZxS3lFdWxDeFFqemxvaml3?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
-      ]
-    },
-    {
-      "title": "U.S. stocks rally near a record as falling oil prices ease Wall Street’s worries about inflation",
-      "source": "Inquirer.com",
-      "publishedAt": "2026-08-03T20:34:12+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOUUpkczVITWVaUGxTTDJkMTdTdm9tR0RMRFlmczFyTXBPeVBva1VxRlVNcTk2UG5adjM3QTVhOGZHcld2VTVua3pDcE41Y2o4WDNCckRDNDFaQ2l4aWZnTUpIMjFkdnNfY25NejhlQlJ0ZWdqQWd5d2FtODI3NnRQSkFVelhIRTM0OXpB?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
