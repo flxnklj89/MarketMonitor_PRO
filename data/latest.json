@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-05T10:41:43.775394+00:00",
+  "fetchedAt": "2026-08-05T14:21:10.497738+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -28,7 +28,7 @@
     },
     "fedRate": {
       "value": 3.63,
-      "date": "2026-08-03",
+      "date": "2026-08-04",
       "cadence": "daily",
       "series": "EFFR",
       "displayName": "Effective Federal Funds Rate",
@@ -96,13 +96,13 @@
       "confidence": "low"
     },
     "tradeStress": {
-      "value": 22,
+      "value": 30,
       "label": "Entspannt",
       "date": "2026-08-04",
       "cadence": "daily",
       "method": "proxy",
       "components": {
-        "vix": 15.86,
+        "vix": 16.5,
         "brent": 91.82,
         "eurusd": 1.1519,
         "us10y": 4.7
@@ -127,7 +127,7 @@
       "name": "Europa",
       "score": 22.0,
       "label": "Stabil",
-      "date": "2026-08-04",
+      "date": "2026-08-05",
       "summary": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "driverText": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "inflation": {
@@ -140,7 +140,7 @@
       "growthOrRate": {
         "label": "ECB Einlagezins",
         "value": 2.25,
-        "date": "2026-08-04",
+        "date": "2026-08-05",
         "unit": "%",
         "cadence": "daily",
         "series": "ECBDFR"
@@ -230,9 +230,9 @@
     {
       "label": "VIX",
       "icon": "⚡",
-      "val": 15.86,
-      "chg": -0.13,
-      "chgPct": -0.81,
+      "val": 16.5,
+      "chg": 0.64,
+      "chgPct": 4.04,
       "unit": "",
       "dec": 2
     },
@@ -6938,6 +6938,10 @@
       },
       {
         "date": "2026-08-03",
+        "value": 3.63
+      },
+      {
+        "date": "2026-08-04",
         "value": 3.63
       }
     ],
@@ -20610,33 +20614,15 @@
       },
       {
         "date": "2026-08-04",
-        "value": 22
+        "value": 30
       }
     ]
   },
   "news": [
     {
-      "title": "US stock market hits record high amid hopes for Strait of Hormuz reopening",
-      "source": "aljazeera.com",
-      "publishedAt": "2026-08-05T08:22:17+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdnNodFRlOXZtOTlIUnRSTlFmbTVsUF82dFRfeXlKYVAwUHZidGt1eU5GcmpYMHRSYmVMa2pHY0I4d2dtTThnLWJGdWF6NTk2a0ZXNlNhTDk5Z2R0VE5BRjllOWJENWFGOXR0QWNreWVSbjVWQVFXQ0pJQlFvaUpDeGI4VnRUYW8wOXZ5SFkxVWxfeENoYVcxQ1FtRjNLaHVKd290V0ZLRWpJTDcyTElDbmNKTDJCVDZp0gG-AUFVX3lxTE9BLU5sYmQzSWNsVUdkeXFmSXhPbUZ1eU51cFdtbEo3d3FCU1VlMUVINGZKOXZXaWVDanpJT2JSS3ZKZXhic2MwYzVNQTRSd0ZMSGswODVsemh0a3drY0JqNkx4MHBueWdmamtjU3N6amJQemh1cUthOGowdzJ2VmxaUU93WjlSZmlRMnQ4NEpZa3MxdWdRZmxOLWU1Z1dCTk5haGpkOWlFNUlxUFdtbGJIeE5VakM0VzFSMUY5S0E?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stocks get AI-boost; investors on tenterhooks over Mideast peace talks",
+      "title": "Stocks get AI boost; investors on tenterhooks over Mideast peace talks",
       "source": "Reuters",
-      "publishedAt": "2026-08-05T01:37:00+00:00",
+      "publishedAt": "2026-08-05T13:37:21+00:00",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSjNOaFJhdXRJblJMNldJM09LeFJDOXNqY2Y0R3dhcGt3S1ZyNm1peFdvVlBfN2RrNmtCYVhQa3pzenI5VlBld2c2Y0JPLTAzNWRhTWxUYWxjNEpvWGxIYlR3M2NLdGg5RnpRSmtYVVVwamJfYTZ5S1JaQ3J5QjFEQ3B0WQ?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
@@ -20651,10 +20637,28 @@
       ]
     },
     {
-      "title": "Stock Market's Summer Stall Is Over Thanks To The ‘OK Economy’ & FEMO",
-      "source": "yardeniquicktakes.com",
-      "publishedAt": "2026-08-05T02:44:28+00:00",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQT2x0cHY0VlFHdVE1WVJpdzlqaVNSNG5tY3ZvV0dXLUwyd0pJNEJuVDB0ckhIM0luTDdoLTR5Q3FTek1MeGZwaVNTRlVKMENLWUhtTzdmME5hYVk2b2d5MkJKcnZMMzBBdXZ4M1Rkb0txYzRnUkNTYzVlN3dPc2VnemtHMFhqMXI1b1l5dkZYYV9vYkRVcGVTVWJqOUlmUmRC?oc=5",
+      "title": "US stock market hits record high amid hopes for Strait of Hormuz reopening | Financial Markets News",
+      "source": "Al Jazeera",
+      "publishedAt": "2026-08-05T08:22:17+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdnNodFRlOXZtOTlIUnRSTlFmbTVsUF82dFRfeXlKYVAwUHZidGt1eU5GcmpYMHRSYmVMa2pHY0I4d2dtTThnLWJGdWF6NTk2a0ZXNlNhTDk5Z2R0VE5BRjllOWJENWFGOXR0QWNreWVSbjVWQVFXQ0pJQlFvaUpDeGI4VnRUYW8wOXZ5SFkxVWxfeENoYVcxQ1FtRjNLaHVKd290V0ZLRWpJTDcyTElDbmNKTDJCVDZp?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Uber’s Ride-Sharing Business Is Booming. Why the Stock Market Couldn’t Care Less.",
+      "source": "Barron's",
+      "publishedAt": "2026-08-05T13:48:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE96aGpTZGpuQ2RNbTJBZVZFYnoxMDBqbXBsZFJCQndCdVdXZ0xlWHFqXzBPTTJNTXlHSlhrYVZrc0x3RGhxOFJqVU1jM0lWbzBDZGR0MUFYUUZ1Qk5md0hud25oZ2VaSUotMkplbnF2d0hpYzNxY1E?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20686,10 +20690,10 @@
       ]
     },
     {
-      "title": "Wall Street rallies to records, pushing S&P 500 up 1.8%, as profits pile up and oil prices ease",
-      "source": "Scripps News",
-      "publishedAt": "2026-08-04T20:25:54+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPOEtHekc2bTlEcm1uQzhOeVdYakFyb0gxWGgyS0FqQ2tpNmZKQVh6Ul9ndUVFMjV2MU00TDlBWmdHWlU4SFF5LW1qcEc2ckFoWlIwTVRrYm9RYkUwdThqUmVsbXNmWFpXaDNrQmoxbENZdmxCNnpPWlZ6SWgyd0dXbjFnR1hIQ2lMLWVIM1RCcHlBcTZTMjRQR0lmUmhMYy1ta0ZsVUVYcEgyUzU0UVEwdkdMXzRvc2swNXFtRUNvV3BvT251QWtQY0VzZndqMy1OMXgw?oc=5",
+      "title": "Stock market today: Dow and S&P 500 rise as oil falls, Nasdaq digests tech earnings",
+      "source": "AOL.com",
+      "publishedAt": "2026-08-05T10:04:07+00:00",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0tbGpDUU9HN1hSRVlLaW9uWTNRamNubmpRcGxfSmhHUjh4QVZ2YnhZTDN4dFlZSGozVS0wWUtwRjU0TzRMRnBwQ3FXeGl0c1hpXzNNWGxBMWl4TlFiMVhfRzEtMWhsM2JhbGFiSW96X3B3el8yTkp3?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20704,20 +20708,20 @@
       ]
     },
     {
-      "title": "China’s stock account openings slow in July amid tech sell-off",
-      "source": "South China Morning Post",
-      "publishedAt": "2026-08-05T03:49:19+00:00",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOYnlpS3JJbjU4cjdxM1JiM1FOdFZCSS1sLWI2VVl1NW1xNTgwVTRMaGZnS0ItZHl1ZEwzWTVUV0pqNVpDQ2NpZEFaT195V0ZnX01LZzRrejVKbTZYSlJOU0RENDZ1Vy1qT3kwZUFPQ2hBQ2FaOEhRRklsUXdnamNYTW1IOEU3aEZCaHBydnJUc0lVOWlvQTlURlA2d1I1NmxHOXNUcUlvdDBxN1Nla094SHVLSEozVmgxSTZrVGlxdFYwN0pfTndMdGV6SVfSAcwBQVVfeXFMTjF4bXBxcGl3c3V5RVowaTNLaUFFWDBQdFhxMi1kdFlMR0Ixel9jTnVURkU4enI4RU9pQVVfTWc4eE5RWFZSdGYtWWwxNTEwcHV5cE5GYUt2aFowZEFmbkgwS0U0NUpaYlZGNWNwMjZWYXNBTk1xa2Fpd1B4VDFMUGdRTmtacDQ2M3ZNUm5LVkpVNW56bDROTHlkRGVQS1QzdkVoZ0Q1YVhFM2dJOW53a1FRMm11dEZuZlpBSHAzTHpsV3p1U0lNVjdpM3JM?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "title": "Stock Market's Summer Stall Is Over Thanks To The ‘OK Economy’ & FEMO",
+      "source": "Yardeni QuickTakes",
+      "publishedAt": "2026-08-05T02:44:28+00:00",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQT2x0cHY0VlFHdVE1WVJpdzlqaVNSNG5tY3ZvV0dXLUwyd0pJNEJuVDB0ckhIM0luTDdoLTR5Q3FTek1MeGZwaVNTRlVKMENLWUhtTzdmME5hYVk2b2d5MkJKcnZMMzBBdXZ4M1Rkb0txYzRnUkNTYzVlN3dPc2VnemtHMFhqMXI1b1l5dkZYYV9vYkRVcGVTVWJqOUlmUmRC?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     }
   ],
@@ -20771,7 +20775,7 @@
     {
       "id": "A",
       "title": "Basisszenario: stabile Marktphase",
-      "probability": 57,
+      "probability": 54,
       "summary": "Wachstum bleibt grundsätzlich intakt, während Belastungsfaktoren überschaubar bleiben.",
       "supportedBy": [
         "Marktstress bleibt begrenzt",
@@ -20789,9 +20793,10 @@
     {
       "id": "B",
       "title": "Zwischenszenario: erhöhte Vorsicht",
-      "probability": 26,
+      "probability": 27,
       "summary": "Das Umfeld wird anspruchsvoller. Stresssignale nehmen zu, ohne bereits ein klares Eskalationsbild zu erzeugen.",
       "supportedBy": [
+        "Marktstress ist sichtbar erhöht",
         "Verbraucherstimmung stützt das Bild nicht klar"
       ],
       "probabilityChange": {
@@ -20804,7 +20809,7 @@
     {
       "id": "C",
       "title": "Stressszenario: defensivere Marktphase",
-      "probability": 17,
+      "probability": 19,
       "summary": "Mehrere belastende Signale greifen gleichzeitig ineinander und erhöhen die Wahrscheinlichkeit einer klaren Risk-off-Phase.",
       "supportedBy": [],
       "probabilityChange": {
@@ -20817,14 +20822,14 @@
   ],
   "hero": {
     "phase": {
-      "label": "Normalphase",
-      "score": 22.0,
-      "summary": "Die Signallage wirkt insgesamt geordnet. Einzelne Belastungen dominieren das Gesamtbild noch nicht.",
-      "interpretation": "Der Monitor liefert derzeit eher Orientierung als Alarm.",
-      "actionMatrixKey": "normal"
+      "label": "Erhöhte Vorsicht",
+      "score": 30.0,
+      "summary": "Das Gesamtbild bleibt geordnet, zeigt aber mehr Spannungen als in einer ruhigen Normalphase.",
+      "interpretation": "Der Fokus verschiebt sich von Routine hin zu erhöhter Aufmerksamkeit.",
+      "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-08-05T10:41:43.775394+00:00",
+      "dataAsOf": "2026-08-05T14:21:10.497738+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
