@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-05T14:21:10.497738+00:00",
+  "fetchedAt": "2026-08-05T17:45:34.890742+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -96,14 +96,14 @@
       "confidence": "low"
     },
     "tradeStress": {
-      "value": 30,
+      "value": 24,
       "label": "Entspannt",
       "date": "2026-08-04",
       "cadence": "daily",
       "method": "proxy",
       "components": {
         "vix": 16.5,
-        "brent": 91.82,
+        "brent": 88.9,
         "eurusd": 1.1519,
         "us10y": 4.7
       },
@@ -239,9 +239,9 @@
     {
       "label": "BRENT",
       "icon": "🛢️",
-      "val": 91.82,
-      "chg": -8.49,
-      "chgPct": -8.46,
+      "val": 88.9,
+      "chg": -8.05,
+      "chgPct": -8.3,
       "unit": "USD",
       "dec": 2
     },
@@ -20594,7 +20594,7 @@
       },
       {
         "date": "2026-07-28",
-        "value": 30
+        "value": 24
       },
       {
         "date": "2026-07-29",
@@ -20610,20 +20610,37 @@
       },
       {
         "date": "2026-08-03",
-        "value": 22
+        "value": 16
       },
       {
         "date": "2026-08-04",
-        "value": 30
+        "value": 24
       }
     ]
   },
   "news": [
     {
-      "title": "Stocks get AI boost; investors on tenterhooks over Mideast peace talks",
-      "source": "Reuters",
-      "publishedAt": "2026-08-05T13:37:21+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSjNOaFJhdXRJblJMNldJM09LeFJDOXNqY2Y0R3dhcGt3S1ZyNm1peFdvVlBfN2RrNmtCYVhQa3pzenI5VlBld2c2Y0JPLTAzNWRhTWxUYWxjNEpvWGxIYlR3M2NLdGg5RnpRSmtYVVVwamJfYTZ5S1JaQ3J5QjFEQ3B0WQ?oc=5",
+      "title": "What the Stock Market’s Record Rally Has to Do With Rescuing the Yen",
+      "source": "The New York Times",
+      "publishedAt": "2026-08-05T16:07:49+00:00",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA1V0ZsTWlIOWFIaWtZXzVQODBRZTI4aTlFYUVGQ05JQUM3V2U2eHd1Z254bWl5M3ZDblJnRkR4QlUxLXpYZ0lDNDI0QzducnRXVDdBWm5aRG5qSmRXZEl5bnhiQ21GbC1ubkhOWWUyYU0yME51WURj?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
+      "title": "What the Stock Market’s Record Highs Are Hiding",
+      "source": "Barron's",
+      "publishedAt": "2026-08-05T17:24:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObm91V2hFN3lOUnR4Z3F4elpoTnRubFVqSjhBMGJvSlFvenF6bnQwR2h6U0VCQ1c4N29UOEpUSGZBU19MY0NaQTdVaVZxUzZzZ0x3VVFMa1VXdDZTTDFxNjd2SG9QYUMzNVl0Z2k1YW5ISGV1dUpYQVYzZUlrRmx4U0pjTnBfWUoxMFZqb3FB?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20637,10 +20654,45 @@
       ]
     },
     {
-      "title": "US stock market hits record high amid hopes for Strait of Hormuz reopening | Financial Markets News",
+      "title": "Why Uber Stock Is Sliding After Earnings Report, Robotaxi Update",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-08-05T15:59:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZWw4R09rT0ZFYTBrcWhDM1JNY3d6WWpXVW5tYV9UcGFaSEdpWnZnbHdSSjVYRDlsYTI4X2hkbFpqaHFsVlVlS19pWi1TQy1fQ25ab2lQZzFUMWVtQjhzVVhtNzFTblBicHF3WXdMS1lnTFlnZUplRkFja200bm4tQlR0LWNDQQ?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Stocks hover near record highs and oil prices stabilize with talk of a deal to open Strait of Hormuz",
+      "source": "The Washington Post",
+      "publishedAt": "2026-08-05T17:32:11+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUjZmSXdjWmU5NW5BYTZicTRGUUJhQnRxdENIYUNVcVp4N0NxSlh2MGxHZS0yYnNRbk1tTGdyZGxaNDJfckY4LXpnaXJBemJlRmVuZS1ZcGdITHFQT1NQQlRDclk4bFF5eHhfeGoxY0RvQjM0VVRzZ3RIbDktWWtDZVFrOERQanhEWHN2cnhOYjE1WnBvOEpUVXI3aUEyWHhxVDMzOVVRUE5NY0p6UkNZYThFa1I2U3QzQi02LUxQZEFwZXBNeTJIOWtn?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "US stock market hits record high amid hopes for Strait of Hormuz reopening",
       "source": "Al Jazeera",
       "publishedAt": "2026-08-05T08:22:17+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdnNodFRlOXZtOTlIUnRSTlFmbTVsUF82dFRfeXlKYVAwUHZidGt1eU5GcmpYMHRSYmVMa2pHY0I4d2dtTThnLWJGdWF6NTk2a0ZXNlNhTDk5Z2R0VE5BRjllOWJENWFGOXR0QWNreWVSbjVWQVFXQ0pJQlFvaUpDeGI4VnRUYW8wOXZ5SFkxVWxfeENoYVcxQ1FtRjNLaHVKd290V0ZLRWpJTDcyTElDbmNKTDJCVDZp?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdnNodFRlOXZtOTlIUnRSTlFmbTVsUF82dFRfeXlKYVAwUHZidGt1eU5GcmpYMHRSYmVMa2pHY0I4d2dtTThnLWJGdWF6NTk2a0ZXNlNhTDk5Z2R0VE5BRjllOWJENWFGOXR0QWNreWVSbjVWQVFXQ0pJQlFvaUpDeGI4VnRUYW8wOXZ5SFkxVWxfeENoYVcxQ1FtRjNLaHVKd290V0ZLRWpJTDcyTElDbmNKTDJCVDZp0gG-AUFVX3lxTE9BLU5sYmQzSWNsVUdkeXFmSXhPbUZ1eU51cFdtbEo3d3FCU1VlMUVINGZKOXZXaWVDanpJT2JSS3ZKZXhic2MwYzVNQTRSd0ZMSGswODVsemh0a3drY0JqNkx4MHBueWdmamtjU3N6amJQemh1cUthOGowdzJ2VmxaUU93WjlSZmlRMnQ4NEpZa3MxdWdRZmxOLWU1Z1dCTk5haGpkOWlFNUlxUFdtbGJIeE5VakM0VzFSMUY5S0E?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20655,73 +20707,20 @@
       ]
     },
     {
-      "title": "Uber’s Ride-Sharing Business Is Booming. Why the Stock Market Couldn’t Care Less.",
-      "source": "Barron's",
-      "publishedAt": "2026-08-05T13:48:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE96aGpTZGpuQ2RNbTJBZVZFYnoxMDBqbXBsZFJCQndCdVdXZ0xlWHFqXzBPTTJNTXlHSlhrYVZrc0x3RGhxOFJqVU1jM0lWbzBDZGR0MUFYUUZ1Qk5md0hud25oZ2VaSUotMkplbnF2d0hpYzNxY1E?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Analysis-US Stock Market Could Ride Earnings Strength to More Gains After S&P 500 Hits Record",
+      "source": "U.S. News - Money",
+      "publishedAt": "2026-08-05T16:29:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOVWROa20weWdoV0hkNHozOFpya08wUGEyUjBFT0lWUlpNd21BdUJYekY3bW1yU2gzakNFMEVib0VtbnFGdXZBQnFpM2VudzRTSGF1TDhwa0lMRGZSTDdPQ0JRTzZiRU9NcmhadU1TWlJ0X2RLaF9kS0hUalQyd1ZKYmctZ240dWpMTGlhQkdrTXpmbVlpT0NZM0V5cE41RzVxdlliV0pTbjhqY2NOM0QwbGJHZkV1NUdfTmY1UUt0eHdWSlRQTWtNNnVpUlkyXzdVQjJSTFlGcW1TLUoxcm9nOFFwRm94dTNY?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
         "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "US stocks rally near a record as falling oil prices ease Wall Street’s worries about inflation",
-      "source": "AP News",
-      "publishedAt": "2026-08-03T20:53:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWTMweFRadm51ZDBCVG5fZlAzdEFVZGZpZ2dVcVdsb0dfRHI4M3VzTWI4YllxTDBQUzJNUDQwLXFjZnVMMG43aW0zbnJ1ZmxyODhmdk1zeXhIVmdxc2F4OUlPNWZ6MFFZRTlKNnduenlqcjJDQ3JNWHpuZFBpejZmTXVva3ZwTWg1cnduR2hhMTJQYmVVZ3JacklNYw?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stock market today: Dow and S&P 500 rise as oil falls, Nasdaq digests tech earnings",
-      "source": "AOL.com",
-      "publishedAt": "2026-08-05T10:04:07+00:00",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0tbGpDUU9HN1hSRVlLaW9uWTNRamNubmpRcGxfSmhHUjh4QVZ2YnhZTDN4dFlZSGozVS0wWUtwRjU0TzRMRnBwQ3FXeGl0c1hpXzNNWGxBMWl4TlFiMVhfRzEtMWhsM2JhbGFiSW96X3B3el8yTkp3?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stock Market's Summer Stall Is Over Thanks To The ‘OK Economy’ & FEMO",
-      "source": "Yardeni QuickTakes",
-      "publishedAt": "2026-08-05T02:44:28+00:00",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQT2x0cHY0VlFHdVE1WVJpdzlqaVNSNG5tY3ZvV0dXLUwyd0pJNEJuVDB0ckhIM0luTDdoLTR5Q3FTek1MeGZwaVNTRlVKMENLWUhtTzdmME5hYVk2b2d5MkJKcnZMMzBBdXZ4M1Rkb0txYzRnUkNTYzVlN3dPc2VnemtHMFhqMXI1b1l5dkZYYV9vYkRVcGVTVWJqOUlmUmRC?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     }
   ],
@@ -20775,7 +20774,7 @@
     {
       "id": "A",
       "title": "Basisszenario: stabile Marktphase",
-      "probability": 54,
+      "probability": 56,
       "summary": "Wachstum bleibt grundsätzlich intakt, während Belastungsfaktoren überschaubar bleiben.",
       "supportedBy": [
         "Marktstress bleibt begrenzt",
@@ -20793,10 +20792,9 @@
     {
       "id": "B",
       "title": "Zwischenszenario: erhöhte Vorsicht",
-      "probability": 27,
+      "probability": 26,
       "summary": "Das Umfeld wird anspruchsvoller. Stresssignale nehmen zu, ohne bereits ein klares Eskalationsbild zu erzeugen.",
       "supportedBy": [
-        "Marktstress ist sichtbar erhöht",
         "Verbraucherstimmung stützt das Bild nicht klar"
       ],
       "probabilityChange": {
@@ -20809,7 +20807,7 @@
     {
       "id": "C",
       "title": "Stressszenario: defensivere Marktphase",
-      "probability": 19,
+      "probability": 18,
       "summary": "Mehrere belastende Signale greifen gleichzeitig ineinander und erhöhen die Wahrscheinlichkeit einer klaren Risk-off-Phase.",
       "supportedBy": [],
       "probabilityChange": {
@@ -20822,14 +20820,14 @@
   ],
   "hero": {
     "phase": {
-      "label": "Erhöhte Vorsicht",
-      "score": 30.0,
-      "summary": "Das Gesamtbild bleibt geordnet, zeigt aber mehr Spannungen als in einer ruhigen Normalphase.",
-      "interpretation": "Der Fokus verschiebt sich von Routine hin zu erhöhter Aufmerksamkeit.",
-      "actionMatrixKey": "caution"
+      "label": "Normalphase",
+      "score": 24.0,
+      "summary": "Die Signallage wirkt insgesamt geordnet. Einzelne Belastungen dominieren das Gesamtbild noch nicht.",
+      "interpretation": "Der Monitor liefert derzeit eher Orientierung als Alarm.",
+      "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-08-05T14:21:10.497738+00:00",
+      "dataAsOf": "2026-08-05T17:45:34.890742+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
