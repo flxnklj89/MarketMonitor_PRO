@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-05T06:32:33.305715+00:00",
+  "fetchedAt": "2026-08-05T10:41:43.775394+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20617,8 +20617,8 @@
   "news": [
     {
       "title": "US stock market hits record high amid hopes for Strait of Hormuz reopening",
-      "source": "Al Jazeera",
-      "publishedAt": "2026-08-05T02:14:19+00:00",
+      "source": "aljazeera.com",
+      "publishedAt": "2026-08-05T08:22:17+00:00",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdnNodFRlOXZtOTlIUnRSTlFmbTVsUF82dFRfeXlKYVAwUHZidGt1eU5GcmpYMHRSYmVMa2pHY0I4d2dtTThnLWJGdWF6NTk2a0ZXNlNhTDk5Z2R0VE5BRjllOWJENWFGOXR0QWNreWVSbjVWQVFXQ0pJQlFvaUpDeGI4VnRUYW8wOXZ5SFkxVWxfeENoYVcxQ1FtRjNLaHVKd290V0ZLRWpJTDcyTElDbmNKTDJCVDZp0gG-AUFVX3lxTE9BLU5sYmQzSWNsVUdkeXFmSXhPbUZ1eU51cFdtbEo3d3FCU1VlMUVINGZKOXZXaWVDanpJT2JSS3ZKZXhic2MwYzVNQTRSd0ZMSGswODVsemh0a3drY0JqNkx4MHBueWdmamtjU3N6amJQemh1cUthOGowdzJ2VmxaUU93WjlSZmlRMnQ4NEpZa3MxdWdRZmxOLWU1Z1dCTk5haGpkOWlFNUlxUFdtbGJIeE5VakM0VzFSMUY5S0E?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
@@ -20634,26 +20634,25 @@
       ]
     },
     {
-      "title": "U.S. stock market rallies to records as oil prices ease",
-      "source": "JC Post",
-      "publishedAt": "2026-08-05T02:37:30+00:00",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAwRzNjTllFWkRhYjhIQUNzcDl3VERDTVhrR2hUR1hrOGlwT1kxQkhTdlJQWXdNUVN0UzhuT1E0MUxSaENPTmwwdmtHQzlxaWNSaG41ZUdwZlJIY2N4UHZhdVZNanBPcjY0ZFlNbXNn?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "Stocks get AI-boost; investors on tenterhooks over Mideast peace talks",
+      "source": "Reuters",
+      "publishedAt": "2026-08-05T01:37:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSjNOaFJhdXRJblJMNldJM09LeFJDOXNqY2Y0R3dhcGt3S1ZyNm1peFdvVlBfN2RrNmtCYVhQa3pzenI5VlBld2c2Y0JPLTAzNWRhTWxUYWxjNEpvWGxIYlR3M2NLdGg5RnpRSmtYVVVwamJfYTZ5S1JaQ3J5QjFEQ3B0WQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
       "title": "Stock Market's Summer Stall Is Over Thanks To The ‘OK Economy’ & FEMO",
-      "source": "Yardeni QuickTakes",
+      "source": "yardeniquicktakes.com",
       "publishedAt": "2026-08-05T02:44:28+00:00",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQT2x0cHY0VlFHdVE1WVJpdzlqaVNSNG5tY3ZvV0dXLUwyd0pJNEJuVDB0ckhIM0luTDdoLTR5Q3FTek1MeGZwaVNTRlVKMENLWUhtTzdmME5hYVk2b2d5MkJKcnZMMzBBdXZ4M1Rkb0txYzRnUkNTYzVlN3dPc2VnemtHMFhqMXI1b1l5dkZYYV9vYkRVcGVTVWJqOUlmUmRC?oc=5",
       "bucket": "Marktkontext",
@@ -20669,10 +20668,28 @@
       ]
     },
     {
-      "title": "Oil prices ease and Asian shares gain on hopes for Mideast deal, as companies report strong profits",
-      "source": "WRAL",
-      "publishedAt": "2026-08-05T05:07:47+00:00",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMUlKOWE3YWxOcGdXcV9iSUpUdG9YVVRWdTAwMjh3RExKWVdseGdPN1BnWl96NGF1bUY5ZEZUbVlXQm5XdFZNbkgxMVFKdGVub2xCU002Rk5ONnVnTllQLUE3VkRTbDZ1MEZya1c2eE9LOUdlS3QwQ1l6ZGtWazY4dXJiRjd5SkdxT2JXR1dBRldqQ1BpSnktNjZSeGFQUk5lQXltT1VhWnVBVXM5M0ZwV0UwNkE4WnZLZWt4bnZuOHdSVXVINVo2MmtRMXR3Vjg?oc=5",
+      "title": "US stocks rally near a record as falling oil prices ease Wall Street’s worries about inflation",
+      "source": "AP News",
+      "publishedAt": "2026-08-03T20:53:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWTMweFRadm51ZDBCVG5fZlAzdEFVZGZpZ2dVcVdsb0dfRHI4M3VzTWI4YllxTDBQUzJNUDQwLXFjZnVMMG43aW0zbnJ1ZmxyODhmdk1zeXhIVmdxc2F4OUlPNWZ6MFFZRTlKNnduenlqcjJDQ3JNWHpuZFBpejZmTXVva3ZwTWg1cnduR2hhMTJQYmVVZ3JacklNYw?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Wall Street rallies to records, pushing S&P 500 up 1.8%, as profits pile up and oil prices ease",
+      "source": "Scripps News",
+      "publishedAt": "2026-08-04T20:25:54+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPOEtHekc2bTlEcm1uQzhOeVdYakFyb0gxWGgyS0FqQ2tpNmZKQVh6Ul9ndUVFMjV2MU00TDlBWmdHWlU4SFF5LW1qcEc2ckFoWlIwTVRrYm9RYkUwdThqUmVsbXNmWFpXaDNrQmoxbENZdmxCNnpPWlZ6SWgyd0dXbjFnR1hIQ2lMLWVIM1RCcHlBcTZTMjRQR0lmUmhMYy1ta0ZsVUVYcEgyUzU0UVEwdkdMXzRvc2swNXFtRUNvV3BvT251QWtQY0VzZndqMy1OMXgw?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20701,24 +20718,6 @@
         "Weltaktien",
         "Währungen",
         "Rohstoffe"
-      ]
-    },
-    {
-      "title": "US stocks rally near a record as falling oil prices ease Wall Street’s worries about inflation",
-      "source": "AP News",
-      "publishedAt": "2026-08-03T20:53:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWTMweFRadm51ZDBCVG5fZlAzdEFVZGZpZ2dVcVdsb0dfRHI4M3VzTWI4YllxTDBQUzJNUDQwLXFjZnVMMG43aW0zbnJ1ZmxyODhmdk1zeXhIVmdxc2F4OUlPNWZ6MFFZRTlKNnduenlqcjJDQ3JNWHpuZFBpejZmTXVva3ZwTWg1cnduR2hhMTJQYmVVZ3JacklNYw?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
       ]
     }
   ],
@@ -20825,7 +20824,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-08-05T06:32:33.305715+00:00",
+      "dataAsOf": "2026-08-05T10:41:43.775394+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
