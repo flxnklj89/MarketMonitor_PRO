@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T10:44:31.974173+00:00",
+  "generatedAt": "2026-08-06T14:24:50.508682+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -13,21 +13,21 @@
   "marketStatus": {
     "phase": {
       "title": "Normalphase",
-      "value": 24.0,
+      "value": 16.0,
       "unit": "",
       "tone": "l",
       "status": "Signallage wirkt geordnet."
     },
     "vix": {
       "title": "Relativ ruhig",
-      "value": 16.5,
+      "value": 15.8,
       "unit": "",
       "tone": "l",
-      "status": "VIX bei 16.5. Unter dem langfristigen Durchschnitt von ~17–20."
+      "status": "VIX bei 15.8. Unter dem langfristigen Durchschnitt von ~17–20."
     },
     "breadth": {
-      "title": "63 % über 200T-Ø (Proxy)",
-      "value": 63,
+      "title": "65 % über 200T-Ø (Proxy)",
+      "value": 65,
       "unit": "%",
       "tone": "l",
       "status": "Näherungswert abgeleitet aus VIX-Niveau. Direktdaten nicht via FRED verfügbar."
@@ -382,9 +382,6 @@
           "value": 3.63
         },
         {
-          "value": 3.63
-        },
-        {
           "value": 3.62
         },
         {
@@ -497,6 +494,9 @@
         },
         {
           "value": 3.62
+        },
+        {
+          "value": 3.63
         },
         {
           "value": 3.63
@@ -668,7 +668,7 @@
     "title": "Crash Probability",
     "score": 0,
     "scoreLabel": "0 %",
-    "reason": "Stress 24/100, Rezessionsrisiko 0.6 %, VIX 16.5.",
+    "reason": "Stress 16/100, Rezessionsrisiko 0.6 %, VIX 15.8.",
     "interpretation": "Crash-Risiko derzeit begrenzt."
   },
   "timingQuality": {
@@ -696,7 +696,7 @@
   },
   "timeVsTiming": {
     "timeInMarket": "Langfristige Anlagepläne profitieren historisch von Korrekturen, wenn sie diszipliniert durchgehalten werden. Wer raus ist, verpasst die meisten Erholungstage.",
-    "marketTiming": "Das aktuelle Umfeld zeigt erhöhte Spannungen. Stress-Score 24/100. Wer neue Positionen aufbaut, profitiert von gestaffeltem Einstieg.",
+    "marketTiming": "Das aktuelle Umfeld zeigt erhöhte Spannungen. Stress-Score 16/100. Wer neue Positionen aufbaut, profitiert von gestaffeltem Einstieg.",
     "summary": "Die Trennung zwischen langfristiger Logik und kurzfristiger Marktlesart bleibt der wichtigste Hebel gegen emotionale Fehlentscheidungen."
   },
   "charts": {
@@ -3707,10 +3707,6 @@
     ],
     "vix": [
       {
-        "date": "2025-06-06",
-        "value": 16.77
-      },
-      {
         "date": "2025-06-09",
         "value": 17.16
       },
@@ -4905,6 +4901,10 @@
       {
         "date": "2026-08-04",
         "value": 16.5
+      },
+      {
+        "date": "2026-08-05",
+        "value": 15.81
       }
     ],
     "brent": [
@@ -6130,9 +6130,26 @@
       ]
     },
     {
+      "title": "Stock market mixed as investors await earnings and monitor Middle East development (SP500:)",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-08-06T13:32:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQXRSZnpnZUlvOVJKVzZxNHQ2ZTlDaHVyS1F2Q3NaU0VFNlpkMEdOakJEQjU1NmhtbWxERXl0c2psUzVCU3RQNmh1WU5GNERvaGNNS2RNbTF1VDQ3c20xcUlRU0ZNa25sblVHZWNYcWg0Ml9DaXhsQjNhMmFVNDJ5cXpTdEhoOW5w?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
       "title": "US stock market could ride earnings strength to more gains after S&P 500 hits record",
       "source": "San Juan Daily Star",
-      "publishedAt": "2026-08-06T04:36:20+00:00",
+      "publishedAt": "2026-08-06T04:40:21+00:00",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNLVZGa2JmcUo2X1dYbmF2dFFKTWhpR3RwQ3I1R2xua3AxazJSYk5PcHRQbGtPU0ZXSXdiZUtkSC04TXBZN19uZVVkN2ppSXlzWmVkN05RSUtfTGxtVnJQVHdobUpWbGRab0ptWlE5cjRvakRkWnZHVEpDQzBjalVXc2FScFk3SGV1Vnd1SUlsS1ZydlpITDdmR0MwN0hrN1RuNXd4amx2VS1pNThwN0IzS3pad2hPS3d0S1lHNDNGUQ?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
@@ -6147,20 +6164,21 @@
       ]
     },
     {
-      "title": "Asian Stocks Set for Declines as AI Rally Cools: Markets Wrap",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-08-06T08:53:12+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPalBZaVhYZzF6cHlBTkI0ZEwyT012aU5LdUx5ZU1QRWRtTWsxam41QkJEWkZtNG5QYW1LRU1URzZpX25RZ0FrQkM4bjdfZnFxREFRWk9BLWZaSEpxT3FGVU9RV2RPZzlmQ1BPR2Q1QllNeVNsMF9kOVhnOHBIX2ZXcG9ZU3VhV3dXck1ZVGFyeGtpdDBL?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "ONE CYR'S VIEW: The steady course of the Federal Reserve",
+      "source": "Imperial Valley Press Online",
+      "publishedAt": "2026-08-06T07:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDUxUUw5WE1MeWtZaXpoR3pNcWtpS2swYWJ4X1lXMXVSYnJGeU5sa1kzSFJMTlltYlZrYUg0a1lWdTZ2M01weHRhcmNMU3lGUjlVd2RSNTNLTlo2d1V5U00yVnVta0hDc1VDQ3ZkU0xMc3pFNzNkVkk2TFBhVVlPeWVocWlkc0Z6bXIzUEQ5TllQR2dkVHp0M2RoMUpLbDMzSlVyWVZ6WGJQODFaZE5yVl9hY3ZuY1ZpU0ViLVRQLVZaeGFjOVN0ZHhTTllXSU01Tlk1OE02eXh6dw?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
       "assets": [
+        "Staatsanleihen",
         "Aktien",
-        "Anleihen",
-        "Währungen"
+        "US-Dollar",
+        "Gold"
       ]
     },
     {
@@ -6181,37 +6199,21 @@
       ]
     },
     {
-      "title": "Dow makes history again, as strong earnings could keep stocks climbing, analyst says",
-      "source": "WNWO",
-      "publishedAt": "2026-08-06T02:01:24+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOV04zeXhOUTUwMUo5UERlVVRsa0NteU5kTnNDZE1EcmRTNk5TWHZXU05FMEZUMDZyd3VscXNtZi11LWJxRHhxYTF3TVBwM3N6aXVwQllOYndzMEFfajk5bDdBVV91OUYxU1NTMllhOWR5YnRocUhrOThHTC1FSEUtOWZwdlhCZllhU0pRLTFMb2hVRmNPYU04N1N1Tkh4WmtWcWpaeGRuZFhLUXBzU3pyUkRjU2hfQnJNM1EybldkVG5fcl9zNkhjVDF5WmlIXzJ2ZkRUWTRSRQ?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "Google's AI shake-up, tariff refunds, the interest rate outlook and more in Morning Squawk",
+      "source": "CNBC",
+      "publishedAt": "2026-08-06T12:39:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOFBiZEhiRjBmTzBRTEh0ZjhZaGhoc2ZfZ1FhLVlFODZHWXlUcDhaenp2NkFMcDhCcFFoV2wwRXkxd3p2NTJ0endsbEd3UmVCUzM3dnpMb2JnRU50RmJHR1YwdlViM1h0NFZCQlQyQUlpaTgtNkFhbWh0Q1MzYzVIYXgyODN2OE1KTjl1U1Z3djbSAZABQVVfeXFMTzhQYmRIYkYwZk8wUUxIdGY4WWhoaHNmX2dRYS1ZRTg2R1l5VHA4Wnp6djZBTHA4QnBRaFdsMEV5MXd6djUydHp3bGxHd1JlQlMzN3Z6TG9iZ0VOdEZiR0dWMHZVYjNYdDRWQkJUMkFJaWk4LTZBYW1odENTM2M1SGF4MjgzdjhNSk45dVNWd3Y2?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
       "assets": [
+        "Staatsanleihen",
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "This Asset Class Crushed the Stock Market Last Month. Can It Continue in August?",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-08-06T08:56:15+00:00",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOeEJrVzFpWEktXy1NZWFzaEM5LXRmMGNJQXBubm5KLWViYlg4TjB3RklNXzlTSGJGLTJvRDd5eWpqeTIxZElHMktLVEwyZ1g4eWg1aGV6OEt1NllOb1BnYVFDUHNUS1dlM1MyNWVxRFlhUG1xaFI3VVZYckJRUGY0bkF1MU41czlZcU1JdzM0VEM?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
+        "US-Dollar",
+        "Gold"
       ]
     }
   ]
