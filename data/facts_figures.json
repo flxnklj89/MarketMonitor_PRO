@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T03:13:03.674341+00:00",
+  "generatedAt": "2026-08-06T06:35:51.426707+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -43,10 +43,10 @@
   "technicalTriggers": [
     {
       "label": "50T vs. 200T",
-      "value": 8.0,
+      "value": 7.9,
       "unit": "%",
       "tone": "l",
-      "status": "50T liegt bei +8.0 % gegenüber dem 200T. Schlusskurs 26585, 50T 25947, 200T 24035. NASDAQ Composite (Fallback) über 50T (25947) und 200T (24035). Trendstruktur intakt.",
+      "status": "50T liegt bei +7.9 % gegenüber dem 200T. Schlusskurs 26363, 50T 25948, 200T 24054. NASDAQ Composite (Fallback) über 50T (25948) und 200T (24054). Trendstruktur intakt.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -56,10 +56,10 @@
     },
     {
       "label": "RSI (14)",
-      "value": 61.2,
+      "value": 58.2,
       "unit": "",
       "tone": "m",
-      "status": "RSI (14) bei 61.2. Kein Extremniveau in beide Richtungen.",
+      "status": "RSI (14) bei 58.2. Kein Extremniveau in beide Richtungen.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -69,10 +69,10 @@
     },
     {
       "label": "Drawdown vom Hoch",
-      "value": -1.9,
+      "value": -2.7,
       "unit": "%",
       "tone": "l",
-      "status": "-1.9 % vom Hoch. Kaum struktureller Druck.",
+      "status": "-2.7 % vom Hoch. Kaum struktureller Druck.",
       "history": []
     }
   ],
@@ -702,12 +702,6 @@
   "charts": {
     "chartLabel": "NASDAQ Composite",
     "qqq": [
-      {
-        "date": "2025-05-23",
-        "close": 18737.21,
-        "ma50": 17564.53,
-        "ma200": 18412.55
-      },
       {
         "date": "2025-05-27",
         "close": 19199.16,
@@ -2501,13 +2495,15 @@
         "close": 26584.99,
         "ma50": 25947.13,
         "ma200": 24034.6
+      },
+      {
+        "date": "2026-08-05",
+        "close": 26363.44,
+        "ma50": 25947.52,
+        "ma200": 24053.6
       }
     ],
     "rsi": [
-      {
-        "date": "2025-05-23",
-        "value": 59.5
-      },
       {
         "date": "2025-05-27",
         "value": 65.5
@@ -3703,6 +3699,10 @@
       {
         "date": "2026-08-04",
         "value": 61.2
+      },
+      {
+        "date": "2026-08-05",
+        "value": 58.2
       }
     ],
     "vix": [
@@ -6112,6 +6112,40 @@
   },
   "news": [
     {
+      "title": "Analysis-US stock market could ride earnings strength to more gains after S&P 500 hits record",
+      "source": "whbl.com",
+      "publishedAt": "2026-08-05T17:09:55+00:00",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOQ0FNbDA4REJSLXUyUlgtZ1BpUWpzbjlvcXFQaHZjZXVIR1g4NlBpVDcyaGx1Z1h2OXhMYjJ0Zngtd05CWGFMblBOVU1yaU1pdjRDLTFiM0VqdGVFck9YaWNlaE52YVJjOEEtYjhxWkozWTVOQk1ZWEc4UkpwOW8yd0NiaHFLMWdsSWxuWFNTNFpiY0wtSGJPMUItMHItVkpMdHRKeHFfa0FCUDNCampYVHhQaExEd1lCZThWTUhB?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Dow makes history again, as strong earnings could keep stocks climbing, analyst says",
+      "source": "WNWO",
+      "publishedAt": "2026-08-06T02:00:56+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOV04zeXhOUTUwMUo5UERlVVRsa0NteU5kTnNDZE1EcmRTNk5TWHZXU05FMEZUMDZyd3VscXNtZi11LWJxRHhxYTF3TVBwM3N6aXVwQllOYndzMEFfajk5bDdBVV91OUYxU1NTMllhOWR5YnRocUhrOThHTC1FSEUtOWZwdlhCZllhU0pRLTFMb2hVRmNPYU04N1N1Tkh4WmtWcWpaeGRuZFhLUXBzU3pyUkRjU2hfQnJNM1EybldkVG5fcl9zNkhjVDF5WmlIXzJ2ZkRUWTRSRQ?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
       "title": "What the Stock Market’s Record Rally Has to Do With Rescuing the Yen",
       "source": "The New York Times",
       "publishedAt": "2026-08-05T16:07:49+00:00",
@@ -6126,23 +6160,6 @@
         "Weltaktien",
         "Währungen",
         "Rohstoffe"
-      ]
-    },
-    {
-      "title": "Dow makes history again, as strong earnings could keep stocks climbing, analyst says",
-      "source": "WNWO",
-      "publishedAt": "2026-08-06T02:01:24+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOV04zeXhOUTUwMUo5UERlVVRsa0NteU5kTnNDZE1EcmRTNk5TWHZXU05FMEZUMDZyd3VscXNtZi11LWJxRHhxYTF3TVBwM3N6aXVwQllOYndzMEFfajk5bDdBVV91OUYxU1NTMllhOWR5YnRocUhrOThHTC1FSEUtOWZwdlhCZllhU0pRLTFMb2hVRmNPYU04N1N1Tkh4WmtWcWpaeGRuZFhLUXBzU3pyUkRjU2hfQnJNM1EybldkVG5fcl9zNkhjVDF5WmlIXzJ2ZkRUWTRSRQ?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
       ]
     },
     {
@@ -6164,7 +6181,7 @@
     },
     {
       "title": "Investment strategist details the market’s ‘earnings-driven rally’",
-      "source": "Fox Business",
+      "source": "foxbusiness.com",
       "publishedAt": "2026-08-05T22:33:27+00:00",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5RWmpjdWRhZnlOYVhDcTBoV0RpX0w0X08wbWdRSHAxM25PNWV3V1VzWEtwTmVUT0xQbzdYM2ZhSVdaclZadGFZY01sdzh6ZG15eWM4QnVLZE5tWDg?oc=5",
       "bucket": "Zinsen / Inflation",
@@ -6181,38 +6198,20 @@
       ]
     },
     {
-      "title": "Stocks hold near records on hopes of an agreement with Iran",
-      "source": "Pittsburgh Post-Gazette",
-      "publishedAt": "2026-08-06T00:21:30+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWEpyVWxEUmVwcThJWENTTFpseU1ockpkZFZqSmgxLTc2UUtNYnR3MWVLM1FpMk45c2VWU0w5LVFhTGhpdlBwcTc5OHFWSGM2TnZTMS0xMFBoSzJiQ2tsaGhtMWJtZmhENzlLQ2h2TTVIVXl0NmdQMUE5Z0dfRlFjVmxBdU0ybzQyOUk4emNfT25OWU95aUpiVm5Sa0xUVE80bjhvZnNudzZKUWF3?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Why Uber Stock Is Sliding After Earnings Report, Robotaxi Update",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-08-05T15:59:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZWw4R09rT0ZFYTBrcWhDM1JNY3d6WWpXVW5tYV9UcGFaSEdpWnZnbHdSSjVYRDlsYTI4X2hkbFpqaHFsVlVlS19pWi1TQy1fQ25ab2lQZzFUMWVtQjhzVVhtNzFTblBicHF3WXdMS1lnTFlnZUplRkFja200bm4tQlR0LWNDQQ?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
         "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "US stock market hits record high amid hopes for Strait of Hormuz reopening",
-      "source": "Al Jazeera",
-      "publishedAt": "2026-08-05T08:22:17+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdnNodFRlOXZtOTlIUnRSTlFmbTVsUF82dFRfeXlKYVAwUHZidGt1eU5GcmpYMHRSYmVMa2pHY0I4d2dtTThnLWJGdWF6NTk2a0ZXNlNhTDk5Z2R0VE5BRjllOWJENWFGOXR0QWNreWVSbjVWQVFXQ0pJQlFvaUpDeGI4VnRUYW8wOXZ5SFkxVWxfeENoYVcxQ1FtRjNLaHVKd290V0ZLRWpJTDcyTElDbmNKTDJCVDZp0gG-AUFVX3lxTE9BLU5sYmQzSWNsVUdkeXFmSXhPbUZ1eU51cFdtbEo3d3FCU1VlMUVINGZKOXZXaWVDanpJT2JSS3ZKZXhic2MwYzVNQTRSd0ZMSGswODVsemh0a3drY0JqNkx4MHBueWdmamtjU3N6amJQemh1cUthOGowdzJ2VmxaUU93WjlSZmlRMnQ4NEpZa3MxdWdRZmxOLWU1Z1dCTk5haGpkOWlFNUlxUFdtbGJIeE5VakM0VzFSMUY5S0E?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     }
   ]
