@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T01:59:19.734046+00:00",
+  "generatedAt": "2026-08-08T05:02:55.189299+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -43,10 +43,10 @@
   "technicalTriggers": [
     {
       "label": "50T vs. 200T",
-      "value": 7.8,
+      "value": 7.7,
       "unit": "%",
       "tone": "l",
-      "status": "50T liegt bei +7.8 % gegenüber dem 200T. Schlusskurs 26348, 50T 25941, 200T 24072. NASDAQ Composite (Fallback) über 50T (25941) und 200T (24072). Trendstruktur intakt.",
+      "status": "50T liegt bei +7.7 % gegenüber dem 200T. Schlusskurs 26691, 50T 25942, 200T 24090. NASDAQ Composite (Fallback) über 50T (25942) und 200T (24090). Trendstruktur intakt.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -56,10 +56,10 @@
     },
     {
       "label": "RSI (14)",
-      "value": 58.0,
+      "value": 61.4,
       "unit": "",
       "tone": "m",
-      "status": "RSI (14) bei 58.0. Kein Extremniveau in beide Richtungen.",
+      "status": "RSI (14) bei 61.4. Kein Extremniveau in beide Richtungen.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -69,10 +69,10 @@
     },
     {
       "label": "Drawdown vom Hoch",
-      "value": -2.8,
+      "value": -1.5,
       "unit": "%",
       "tone": "l",
-      "status": "-2.8 % vom Hoch. Kaum struktureller Druck.",
+      "status": "-1.5 % vom Hoch. Kaum struktureller Druck.",
       "history": []
     }
   ],
@@ -702,12 +702,6 @@
   "charts": {
     "chartLabel": "NASDAQ Composite",
     "qqq": [
-      {
-        "date": "2025-05-28",
-        "close": 19100.94,
-        "ma50": 17619.28,
-        "ma200": 18439.77
-      },
       {
         "date": "2025-05-29",
         "close": 19175.87,
@@ -2501,13 +2495,15 @@
         "close": 26348.35,
         "ma50": 25941.37,
         "ma200": 24071.94
+      },
+      {
+        "date": "2026-08-07",
+        "close": 26690.62,
+        "ma50": 25941.68,
+        "ma200": 24090.44
       }
     ],
     "rsi": [
-      {
-        "date": "2025-05-28",
-        "value": 63.4
-      },
       {
         "date": "2025-05-29",
         "value": 64.3
@@ -3703,6 +3699,10 @@
       {
         "date": "2026-08-06",
         "value": 58.0
+      },
+      {
+        "date": "2026-08-07",
+        "value": 61.4
       }
     ],
     "vix": [
@@ -6112,10 +6112,45 @@
   },
   "news": [
     {
-      "title": "Wall St Week Ahead: Inflation data to test record-setting US stocks, Fed rate views",
-      "source": "Reuters",
-      "publishedAt": "2026-08-07T10:02:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNT2tydC12dWhpUnJJXzhSQXpxNFR2S2VQamVXcTAwMms4YWNSZnVwSnJEeEtMMi1WZW1EQkc2dzJwSEt0V0hBc3N1VUxHODRfZkhodk5teVg0NHBGS2xBNHVTczA2U1NvTE4xR1Y0dlVDVE5mOWpqbnIzczZiZ1drb3d5V3VWX0xOLUgwakItMF9jTXZzR3hhNWZjRXlnaklZcFg4MDZzOGtZd2RaZkhsT1laaXpST3NUR2JtVFlCNEo?oc=5",
+      "title": "Dow Jones Futures: What To Do As Stock Market Revs Up; Warren Buffett, Cisco, Lumentum Due",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-08-08T03:03:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbUk1TGt3SGVRbFVCa2R3cFBJVFFBdHZfTXBiSDE0SlgxS01CX2tWWV9iTUlmOWF4OWd1NzRKLTRYTHgxSUVEUGl1Vmw0OVROUTgwNjhSVVcybmJoVkc5b1IwUDN5Nm5TUEh0RHQyb2RwbjFLcHZTZlU3cGpCUFdwWEgyWXFlNWFaRUtac1hQWWFuTlZVZFdteTY2eHpsOG5IUkFkQk05SFNUajFFakpQVTJKekZ5dw?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Inflation data to test record-setting US stocks, Fed rate views",
+      "source": "whbl.com",
+      "publishedAt": "2026-08-07T19:34:12+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSy1wSHdjSFZ0REpVZFZhU21QZmQ4REk0bXZvdEJhdE8tbmJNSkxUU3V2VFdfazF2cW1ObEstX1hiRlBtNWpmYjdDa2l2WXNrTm95NkZWazBMVVNBcVJoQy05RzNpaEw2aVFSWHlpNWtPc2RJOVREeWpnV1JFbkh2NFVuQmlYYmsxUG1mSGFlQUtJNHVtR3c?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "US Stocks Rally to Records as Inflation Data Test Federal Reserve Rate Outlook",
+      "source": "Межа. Новини України.",
+      "publishedAt": "2026-08-08T03:24:32+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1CeFdkQlY5b1lmeHB1MWN6WHU5OTFsV3JrMjBCM2NUUnl5d09uZEM3TWJkeHgwX0xqZUNMYnYySDZveXZpVjd4WkhfSDZBdDZyR1VLSVh2anRkTWVqY0xhcW9LNA?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -6131,7 +6166,7 @@
     },
     {
       "title": "US stocks edge lower as oil prices rise and more earnings reports roll in",
-      "source": "ABC News - Breaking News, Latest News and Videos",
+      "source": "abcnews.com",
       "publishedAt": "2026-08-07T20:24:59+00:00",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUkhlVWg3LWk2QVVRZTdrbjVlcTd4R3VlWjJYdGhVSDU2WWdIRGJwaVlfSkJseE1hZ1E4eERYWk8tZFBRc25Xb1ZjWHdQdWdDY1gzeHpaS2I3NkJyNDFfaVA0MThGR0RnN29ubnp2YzJmZ3FoRWk1Wk94THNWa2JFN1p5cENnMDdPZ3BqTERQckp0YVI2WG5padIBngFBVV95cUxOOU1MZUN4cGdScVdkTW1IaDJrSVRvYmNJSTlTZkJrYkN5UWlVVzZEdVhZMEpKOGppbndvZXdzVU56XzVZZWhKQmY4enJBam5PeFJmcUhGMXpjeXlTVnZfUzIxSV8wcERTMGRWaVBUeUpSdFpkM1U4dHA3d2Y4dGRHb1JxakpWb1YwbXhsZV9aSGJnNlZKVFEydXVuY1VpUQ?oc=5",
       "bucket": "Energie / Inflation",
@@ -6149,7 +6184,7 @@
     },
     {
       "title": "The Stock Market Is Finally Rising Again—and It’s Getting Cheaper, Too",
-      "source": "barrons.com",
+      "source": "Barron's",
       "publishedAt": "2026-08-07T18:50:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQcUNNamhMcXZaTVNfSXVUeW1hTTJxU0E2bm9ueWQ2c3M0SGN2Qk5tMEhyNXA1ejEwN0gwaHVmZWZQMTM4TVdUQktic0NORUdVMDNTSEE1QXYxMUFSaUhURVhhSTUxNTQyYjB2YnFWc2ZDVVR6czBrZ3B6WTRRUGp2X2RR?oc=5",
       "bucket": "Marktkontext",
@@ -6179,42 +6214,6 @@
         "Aktien",
         "Sektoren",
         "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "The Bond Market Is Signaling Rising Risks. Investors Should Listen.",
-      "source": "The New York Times",
-      "publishedAt": "2026-08-07T16:58:58+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZlhBejhhZWNUdDRiX05LWHFRaGJhX0ltazRRWTFPZWdvazNWX0U1WDg4NmpIb0swb1dsR21KTzg2MUc5Z21ORnJXdWFxX2xybjdsOG1lUnV4aWs3TWw3QmR5TUFfMDZ5Qkc5WVhxSWVXT2dUZDVneUxqRms3V1dBeDJvUzJtT1R4Z01NYlZNbXBBNnVBWWdF?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "Catalyst Watch: Inflation reads, AMAT earnings, Google Pixel event, and MLB on Netflix",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-08-07T19:00:38+00:00",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVHJzZS1pWl94eE1pZWFQZzR5VTF5cU85WTZjTnVMX2xYOENzR2IxbHFZWjAtSnFoS2lrbG1wVjloZ0w3OWJFcWVWLWpqbDlfQ0NHWEhDMlU2QXRncS05OEhJY29JWkdKQlJhcmc5Q3k1eTRsU3ZrN2JVS0ZhVVRZemRGdmFkc2hHdDRPMFpucWU1TFN6VEtGTXR1cnpaN2tVZGlfeHQtUW5ZbUNEaUJ5OHJNRm5kdzMzZFZVeQ?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
       ]
     }
   ]
