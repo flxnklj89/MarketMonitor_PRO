@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-09T02:07:03.054617+00:00",
+  "fetchedAt": "2026-08-09T05:10:08.922458+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20630,7 +20630,7 @@
     {
       "title": "Futures: Big Earnings Ahead; What To Do Now As Bulls Rule",
       "source": "Investor's Business Daily",
-      "publishedAt": "2026-08-08T22:01:00+00:00",
+      "publishedAt": "2026-08-09T02:32:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbUk1TGt3SGVRbFVCa2R3cFBJVFFBdHZfTXBiSDE0SlgxS01CX2tWWV9iTUlmOWF4OWd1NzRKLTRYTHgxSUVEUGl1Vmw0OVROUTgwNjhSVVcybmJoVkc5b1IwUDN5Nm5TUEh0RHQyb2RwbjFLcHZTZlU3cGpCUFdwWEgyWXFlNWFaRUtac1hQWWFuTlZVZFdteTY2eHpsOG5IUkFkQk05SFNUajFFakpQVTJKekZ5dw?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
@@ -20645,27 +20645,27 @@
       ]
     },
     {
+      "title": "President Donald Trump Expected the Iran War to Drive the Stock Market \"Down 20% to 25%\" -- His Prophecy May Still Come True",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-08-08T13:26:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWEpHc25ObHpXMEQ4WjE1QW1YajNnWFJ0VThnaUlpTFdfYlhWcjZ4MERNUkpNX0M2a09HS1FLRnkwVXl2ZUtrNjJaYkRzSTBjcS10ZGRzTHN3dXBIUVlmUFJJTk42WU1vSDlUOWF3Skl5UWhOSm1PVTJwaWtrTmQxSDE2akFPSzJHckJqUFE0aElCZVpKRHZMeFhTek9kWmZwUXpZ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "Smart Investor: Stocks With Dividend Increases, Warsh’s New Approach, and Earnings Where Great Wasn’t Good Enough",
       "source": "Morningstar",
       "publishedAt": "2026-08-08T12:03:53+00:00",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZmNrb19UUU4xUk1sRFk5ZzdqWFFfRUx0Z3hyanBwS2hqZm9xeFdLMTRoa0NaeVExc2RfRmduRVJJQnVVM0ZiSUI3dmhqQkl3WW9oQ0pxRmM3VjhjRm9RVzk1X3lDZjN2MDhiMjBMcVhuRXQyci1jZXUwM0dyNlBRV3oxYjBtbFB6bVJKUU5HWFRQTkkxVGlHTmhCY3QzZ0RKUFFsTG1mMGNZR3h1Qzl3OUx0YWcxai1ibUt6NExIa09GaklBUTlrMzdBUHpMSmlGYzdTSTVtSQ?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Berkshire earnings rose last quarter and CEO Greg Abel is starting to deploy Buffett's massive cash hoard",
-      "source": "CNBC",
-      "publishedAt": "2026-08-08T13:20:12+00:00",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBHbnpLdVRpazZRcmRWLXY2OEZSUHlIbldHLVhNWENqc2tvWmZoUFUtYmxSZFRkTjBlb2hRLVM2ZHdPMUpFcFFfVmFJd3VNcjUwdXZZQnJkMERLakFsSEYzdlZtdTVXZzloMlkzT3pGeUlqMXI3NUZZRDEyMFnSAYIBQVVfeXFMTm9vV2RzSWRXVHg5ZG9QazVCTnZPWTRuX2JZekppM0J3aFNyM1B1WGZOek4telh1d0Y4MFN1TjJsWENsOURNaDE2TGgzTklOeHhaeUx0OExZM0JYSTYtRWtUUkJmc00tR1pYSlVTT1RuNG9aVEl4Z1poVEU1LXcwclpTQQ?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -20696,6 +20696,23 @@
       ]
     },
     {
+      "title": "The Stock Market Is Finally Rising Again—and It’s Getting Cheaper, Too",
+      "source": "barrons.com",
+      "publishedAt": "2026-08-07T18:50:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQcUNNamhMcXZaTVNfSXVUeW1hTTJxU0E2bm9ueWQ2c3M0SGN2Qk5tMEhyNXA1ejEwN0gwaHVmZWZQMTM4TVdUQktic0NORUdVMDNTSEE1QXYxMUFSaUhURVhhSTUxNTQyYjB2YnFWc2ZDVVR6czBrZ3B6WTRRUGp2X2RR?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "CoreWeave Stock Stuck in a Bear Market as Short Interest Rises Ahead of Earnings",
       "source": "Benzinga",
       "publishedAt": "2026-08-08T19:45:48+00:00",
@@ -20710,23 +20727,6 @@
         "Aktien",
         "Sektoren",
         "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "The Stock Market Is Finally Rising Again—and It’s Getting Cheaper, Too",
-      "source": "Barron's",
-      "publishedAt": "2026-08-07T18:50:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQcUNNamhMcXZaTVNfSXVUeW1hTTJxU0E2bm9ueWQ2c3M0SGN2Qk5tMEhyNXA1ejEwN0gwaHVmZWZQMTM4TVdUQktic0NORUdVMDNTSEE1QXYxMUFSaUhURVhhSTUxNTQyYjB2YnFWc2ZDVVR6czBrZ3B6WTRRUGp2X2RR?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     }
   ],
@@ -20833,7 +20833,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-08-09T02:07:03.054617+00:00",
+      "dataAsOf": "2026-08-09T05:10:08.922458+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
