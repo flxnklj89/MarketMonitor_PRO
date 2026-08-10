@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T05:37:22.443817+00:00",
+  "generatedAt": "2026-08-10T09:38:25.444697+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,7 +6112,7 @@
   },
   "news": [
     {
-      "title": "Asia stocks gain, oil up amid Gulf confusion",
+      "title": "Asia stocks firm; oil edges up on Gulf morass",
       "source": "Reuters",
       "publishedAt": "2026-08-10T00:25:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0JfVHdob1VJM3o3c2RjRHBySGdOb0h0OFVfVTNUdGo5ems0NjhoaGhMaVhpWG9iR3J4dlJkZVBlYVgwS0w2SUd6ZGZiLUtMUndydTZycjNJQ1l0MENqTmdpOTFycEZBRkJ3ZUEyWlM3RERCOGhoYk5ISEdLZnNIUm9HYw?oc=5",
@@ -6132,7 +6132,7 @@
     {
       "title": "Dow Futures Fall With Big Earnings Ahead; What To Do Now",
       "source": "Investor's Business Daily",
-      "publishedAt": "2026-08-10T03:08:00+00:00",
+      "publishedAt": "2026-08-10T04:24:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbUk1TGt3SGVRbFVCa2R3cFBJVFFBdHZfTXBiSDE0SlgxS01CX2tWWV9iTUlmOWF4OWd1NzRKLTRYTHgxSUVEUGl1Vmw0OVROUTgwNjhSVVcybmJoVkc5b1IwUDN5Nm5TUEh0RHQyb2RwbjFLcHZTZlU3cGpCUFdwWEgyWXFlNWFaRUtac1hQWWFuTlZVZFdteTY2eHpsOG5IUkFkQk05SFNUajFFakpQVTJKekZ5dw?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
@@ -6165,10 +6165,27 @@
       ]
     },
     {
-      "title": "U.S. stock futures flat as investors await inflation data, grapple with more Iran uncertainty",
-      "source": "MarketWatch",
-      "publishedAt": "2026-08-10T03:02:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTTNSWGlTV2tXZGhYQVV2SUItWWtlRUZmNWF4S2ItaEhvSUJMbEl0a3JrRGVnTmE2YmU2Zi1QLXBXcHp0MVRkTnRTZnJac3VhbUJSbE4xWVZYNHN3Y0pGNUhxOU9Ra2pCdjFpZG9uZVp3bTFTM2tibENrXzJxYklmS19wbFhuaGRkVUNhRERoM2RSVGRJYVVSc3U1aGFiSWl5aFpCZjAyZ3F3b0MyUFlKVHVOWk9qWUx3OGp3a25jYnMwcUNFQ3l5OUZvZXVBcVk?oc=5",
+      "title": "If a Stock Market Crash Is Coming, History Says Investors Who Do This Will Turn a Big Profit",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-08-10T09:09:48+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVl8xa2lheC1mMHB1Y2xEaTk2MHRjNFMzOFZuUzBrRWVsWURXTWVHeHpPQVBTVW54XzExSk0xRmE3NDMybFZXc1h2ZU94NHNNc0c2VFo0SEgzSHZaYnVSYUl0eEdhb1lSTlFWWHZ6T2dUS25mNUlCYVJmbmoxTjFGaXhMLUhqdlF2Tl9OY3ZwY1dQWnRn?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "The Federal Reserve Just Released Its August Inflation Forecast, and It Could Put the FOMC on a Collision Course for Its September Meeting",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-08-09T23:28:24+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQU0FfOGZQTThHdmNEWF82S1JlMHZ1VGdnQTZ0S1lSaHZneWMzNEM5Nzl5V1Y2VEZUd3hSTHBveUtWaGlMNm9IMDFnQWtxWUFIX1dUbXZhVUFMaF9yS3Z1ZWtFSV9aZ01PZ2htZmN0YnZZSFRyRlc1b2NKbGpJbzZMNzJvNmZPSGcyWHFUdGZydTZjMjdlSTkzTGtmc0QzOWxpSWZjRFBB?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -6183,28 +6200,10 @@
       ]
     },
     {
-      "title": "Oil Extends Gains as Hormuz Deal Remains Elusive: Markets Wrap",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-08-10T05:18:34+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcE9CeWQ3UUhJR3ZMYjlnV1JmT0ZYV3NLWUc2UG82SnNwS0ZtelczaFNDa25xaDB1cG5FTWdfdl8yVEFLOUc0RnBCbjBkTURvcEs3SUloSHRaemE0c0gxbTdtZlNvT2lnY1dQSTctWVY2V1E1RHZZZEhTUDNIRUs4bFFIUWNtWTdkRklJdWZvcWJiS1pN?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stock Market Investors Just Got Bad News From the Federal Reserve",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-08-09T09:12:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQU0x1Uml3U2JwWVNjbDZjSUNkWVBTUkE3Vk5FS09sWFp3VE5kRDBYckZkUDU2c05uaVBsRTI0RXZXQmw5ZndNSk5BdUVUY01jNGNoOXhCRUtyc1dkTll0ZFJvOFhDbGtiT3l1NmpOdk5Lc3JHdktBU29XMjR2YXNaZHVQYmotMlItZVNPVkVabGhSMDJ2?oc=5",
+      "title": "China Consumer Stocks Gaining Interest As Inflation Stays Soft",
+      "source": "simplywall.st",
+      "publishedAt": "2026-08-10T05:45:44+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNSkpTOWRfdXgtUkdmUjEzaDZCZ3VrS0M3R1FfYzhOU1dfSWpyb18xa2tQY0l3aGozUlB1cm1tcm9iTjlweEZRYWw3MU0tLW9fdGZScjZvOXJzd1paSldSRVgzNFBDV0QyOFl6SXFSZ2ZOVmdhMHhTc1A5dlZIVkNxSVJhVlozZjhYam5jUFZtSHhEWGJWYzBoTkdfZnhONFpLa1FSdzF1enNLUlRWYnNIcGR4aDBWa09wQXA2ZjlHUUU4bUtLNXlwdldrejIwSU9yVGhkYWpDclZibTgzNDVTetIB5gFBVV95cUxQNGJtT01zLVA3ekRuLV9JU25BejBENWItUHhEZHZhMmNPR2FlcF9IN0VZQll1d01XdXdJcWt2UGdNaEhyVTZLZU90bE9RTldpUzNmc0J4UllvODRET3Q5MjhwcXp5TzBfUV9OYnRMUm1XMXVvdnRrOF9wSjFKcHpMMFFnbGprWlRnWnkyTm41WE5pQ2dIdHdiblVRZUQ2MjRHeWhISnEzNm10dlBWZl9tcmxKSWxNQjlYVy1SSDBiWkZjUTV6SzVkdTVFU2dtclNULVVoZ0MwZm1hQ0JWcVA1X0xSZ0p4UQ?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
