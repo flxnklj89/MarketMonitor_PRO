@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-11T02:05:55.763359+00:00",
+  "fetchedAt": "2026-08-11T05:14:04.185056+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20616,6 +20616,24 @@
   },
   "news": [
     {
+      "title": "Oil prices rise, Asia stocks drift amid US-Iran stalemate",
+      "source": "Reuters",
+      "publishedAt": "2026-08-11T01:41:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRnpVTlc5WDU3ZUFOMTJjSFRLNGFCWUItblV4clc0UnVXUi05VVBaRkFleHpsdWtmcl9YZDRtN3BkaDhqUy1PTWx1aDhjalNDc09RNGh5eDFYN2FnTGxraUlhRWtFUnl0UTJrbV82Yi1CaFEyNmNwaHlvQVdobElUNEZVaw?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
       "title": "US stocks edge down from their record after oil prices climb 5%",
       "source": "AP News",
       "publishedAt": "2026-08-10T21:09:00+00:00",
@@ -20634,28 +20652,10 @@
       ]
     },
     {
-      "title": "Dow Jones Futures: Surging Oil Prices Spark Stock Market Losses; SpaceX Rival Rocket Lab Dives On Earnings",
+      "title": "Dow Jones Futures: Trump Claims 'Control' Of Strait Of Hormuz; SpaceX Rival Rocket Lab Dives On Earnings",
       "source": "Investor's Business Daily",
-      "publishedAt": "2026-08-10T23:06:00+00:00",
+      "publishedAt": "2026-08-11T02:44:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORjlPY05OQUx4QlM3bkdmcThpa3RWWFRSb3loWE1ieXBETkZ4VmZuY0QwZ1hWUm1sa3ZaclF3UWM2MXE3MHE5X2JvS2VhcFJMTHFIbFRiQTBESk1aSzhoOGN2WGktRkJ3SXNJbEJHeng3aVRyVE9GWnNTRy13dlNEWGpBWGZya3dibHRRUjRXQjhMeWkxYlZySFUxS0U5eEhKSk0wS3BWUVREWmlaTDJxcXVhUTZuVmJJQld4ZHhpV185QQ?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stock Market Today, Aug. 10: Markets Slip as Oil Gains Fuel Inflation Fears",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-08-10T22:17:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNcnFnMEFGcVJwQ3pJeXF0LWU5djRVTmRZQTF6TV9KRFBxSS10cVdlaFAzSjh4TnV1WUFGX2g3X0E5RTRsUjFZNXZaQlhMejhhTHZlR0tHRndGVTRGY0luYnVPMUg4XzgwX0ppVWNYQi1Ua0libkJQVkZzRVU3bTdNVUZzRjdFWFBmUmN4M016RXZjYktMRTdWYTRwdGUyZWloTWIzQlY5OHpkeHEtMWJnNTI0ZjZZcGdhWDNtSkhhZVpQU29yd2VidnRfb282dw?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20688,6 +20688,24 @@
       ]
     },
     {
+      "title": "Stock Market Today, Aug. 10: Markets Slip as Oil Gains Fuel Inflation Fears",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-08-10T22:17:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNcnFnMEFGcVJwQ3pJeXF0LWU5djRVTmRZQTF6TV9KRFBxSS10cVdlaFAzSjh4TnV1WUFGX2g3X0E5RTRsUjFZNXZaQlhMejhhTHZlR0tHRndGVTRGY0luYnVPMUg4XzgwX0ppVWNYQi1Ua0libkJQVkZzRVU3bTdNVUZzRjdFWFBmUmN4M016RXZjYktMRTdWYTRwdGUyZWloTWIzQlY5OHpkeHEtMWJnNTI0ZjZZcGdhWDNtSkhhZVpQU29yd2VidnRfb282dw?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
       "title": "Good news for stock-market bulls: Corporate earnings growth is no longer being driven just by tech",
       "source": "MarketWatch",
       "publishedAt": "2026-08-10T20:00:00+00:00",
@@ -20703,23 +20721,6 @@
         "Aktien",
         "US-Dollar",
         "Gold"
-      ]
-    },
-    {
-      "title": "What happens when two companies become half the market?",
-      "source": "Atlantic Council",
-      "publishedAt": "2026-08-10T15:40:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPT0YwalV5dXNjbjJMdmJ0X1JsTEVxcTlMZHdYZmRROVhOSXJ4R0xZd0xMeWh2bTFFNGQxdDY1Q1NFMUYzejVMUVpIWVZneXpQYzE4VTg5ckFDUzBlMWwwOTFKZXMtc1Z6Wm5iSWs3RFBidVZZY2g5d1p2b1ZDQm1rX1lBajE3Zw?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     }
   ],
@@ -20826,7 +20827,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-08-11T02:05:55.763359+00:00",
+      "dataAsOf": "2026-08-11T05:14:04.185056+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
