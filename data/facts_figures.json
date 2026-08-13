@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T17:02:42.614495+00:00",
+  "generatedAt": "2026-08-13T20:49:39.059840+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6113,26 +6113,8 @@
   "news": [
     {
       "title": "US stocks tick toward records as oil prices drop and inflation gets less bad",
-      "source": "Los Angeles Daily News",
-      "publishedAt": "2026-08-13T13:20:07+00:00",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA2UzFOZnBObFh3RWM3SWEteTFDc3VOUk4tRkxIMHJtQ012QTRmTUVrVU9rY2xuVjhHNmNMRUJMOVZIQUQxb21uem5HTkwxUG1XZXBNZm8yZmxNTHNpdG1JZ2VpNW5TNlI5N1gyRUxGSGY2RjQ?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "US stocks rise toward records as oil prices drop and inflation gets less bad",
       "source": "AP News",
-      "publishedAt": "2026-08-13T15:05:00+00:00",
+      "publishedAt": "2026-08-13T18:16:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWVotZ0lJOWNnZjE3MXRvdkM2MXJuY2dScktoRFRXSnk0UWg3M3B4ck5UWWM1NHFmcDRXaldfeVFSbDN4QU04bkkwNlBZaXNQN0s1c3pCZDlUT041R2lfUlROU2Q1bzF3V08tbXRrYXVURzJaeXpwNG1URkdPWnRHeW5Dd2t4ZXVUaHpmUDlVZU5RekxSNVU3ckxySk1WOE1QdWV1Sg?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
@@ -6148,10 +6130,10 @@
       ]
     },
     {
-      "title": "US stocks tick toward records as oil prices drop and inflation gets less bad | National News | 2news.com",
-      "source": "KTVN",
-      "publishedAt": "2026-08-13T13:33:34+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPRTdKQkZDYW1YZWdNQVFqOHNCT0RhRnpDajVUVGFqY1Bkbm1Rem5OVUlPWmQ1Z0xfUXJtUXZJLUtSZTVRRVFwNDFGZGtRN1lWRzhmeEFSaUVfU0ZBODdfdS1BbHMxQzBxaTdjSjg4eG1IZ29vSVpyYXVCaDdhbXZKTmgwdElMYVNvUVVPRFZ4S1BKX0laOG9uUU9wc1Fhdl9kQ1BsaW1fLVhIWnQxQ1BnRXpCX3dIVF8wOS1DcVEzVmFsYnk3VW5GWTN6QWZQRTdCOGpBaS0yZktoc0w3bUtZX05XRkVxLTFPcERCX0U0dHBJQQ?oc=5",
+      "title": "U.S. stocks tick toward records as oil prices drop and inflation eases up",
+      "source": "Pittsburgh Post-Gazette",
+      "publishedAt": "2026-08-13T16:47:43+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNclpmbkp2MjNLLTFqa1F3ejBsR1FTWlFPdDdkYy1fVGtLM1k1MWFuRE9hb21HenZSMGxRWFM2aEdCVDNNZGNKSzdKeFVxbjI1Zlh5b3Z6a05nZTB4US1pd1VPTGxYSl8yVzBoOEFzU0V2WVdTc2JYcGYxTFdYMnpZRml6bEtEdUNBOFFMNVptNjdQT1FPQlMwdW1EazJMd19FU3BIcDRwaHdCUVJ2YkE?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -6166,10 +6148,46 @@
       ]
     },
     {
-      "title": "Easing inflation pressures, Cerebras earnings, falling Hormuz traffic and more in Morning Squawk",
-      "source": "CNBC",
-      "publishedAt": "2026-08-13T12:09:47+00:00",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQnJkWmJHSE1PNWNnbDJIRzNSZlYzeDRlNmFCekJ3b2xEcWxMd3RWVGI0dmtsS1dMcUw3SmpzLUxEVU9WVnJKNVI3TTc5T1FHTmk0VF8yeDRJdXFOY1ZRX2xSSElRMC1sc1dnamYtVHFPZ1hlQlNEWG9TbDFfQnpYakNiNXh1d9IBiwFBVV95cUxNLVVLTFBUTUNxRjlxME0wemhiZmdNQ0lWV19XT1Jfc1hGZVBKSnpyVE54V2d5dWk4OUwwLVJRSlVpYnhSRjROZnhWTllDbUFUMTlTcl9QQ01rSDZhblo1YmUyQUJDdXpNQnZmSWNWQUhqN0tfb2JhdXFjZ1lLNXpubi1nOVZsbEhlX2Yw?oc=5",
+      "title": "US stocks rise to a record as oil prices drop and inflation gets less bad | National News | 2news.com",
+      "source": "KTVN",
+      "publishedAt": "2026-08-13T20:04:11+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOUGE0NGhHRkt1Q0NzeWp3Yl9QNGJGclQ2amlhdFBUdE93M1BkWldRQzJrWWZNRlh6SEhBUGhXTUc1SkJSVVRCRThxa2xrSzZVdGZfYlhjZEliRHgxLW9JVWJUQXNFTV9kM2t2dm5JVl9IbnZfQzJyQUs0SE44TFBjMkNlUE9mSlF6RHZ4Y2JxVF9vYUdhRG9uRGZ4NjZPOWUyUi0xYUdYQml1OXBDcm1jZnBIbTA3MkxZT2dYNUE3ZjRJWW5fa1JfZkxLN1MxcjRUY0FKUnhDeHFoM3ExOUdvRFYzR0ltcmZ4T3phQkF3?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "US stocks rise to a record as oil prices drop and inflation gets less bad",
+      "source": "Ottumwa Courier",
+      "publishedAt": "2026-08-13T20:04:11+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOSWRXTTZZbGhhUi0wempFYk1Wdk5oWi04VG5PVEZEV1RmY2k0UDN6cnEtWTRKSHdnNG13dWlOUmxjazNNV0JXbHJadmJIMUpncWJkWjg3ZnFXTnlnZ2E1czdJb3Z5RDYycHYzZVZLVE43a0JWT0tnSE1VX3hCYVFGcDNqS3dscjAwelVZQTQ0SU5FZW1sWXlsUmFraXRObkdkRU1XZmFDTzFaMy1jaDZtRDhBc1g1OUhEZ1BWeGJZVGJ5V2ZEbDI1YzRzOWxkajE5QlEycVlReS1ucFFTVUtGaER5T3JrNjdlaHN3MmFjMXVwVWc1SGp6dVNubUtaUkdhdDlz?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Stocks steady as US inflation worries ease, oil slips",
+      "source": "citynewsokc.com",
+      "publishedAt": "2026-08-13T17:40:17+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQV09URV9IQXV1RUluSkVFTXd3MU1jaWxTY1l0VjNSejc4NER5UVEyQlI2WEtaX29wdFlRaEV0Tkk3cThGQVlwOHdJU2F6N25xa2FiTWh2UEdNMnAyQTJLNnF2WU56SGdzOEdoTjdUWWVsNUY1QnU5UFkyTDEtQXpUdXJFaUhJMms0VkNrdFdZVl9oc1E2bjBUMW5iLWtpUG90YkhTNDlqTUdkY20yMGNtTU93U05hUS1kZkVwY0Z0bjQ1ellibmpXZExUTGd5dkNa?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -6188,23 +6206,6 @@
       "source": "CNBC",
       "publishedAt": "2026-08-13T13:10:07+00:00",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZm5NYmlkRkVCT0FfRWRsQndWRmJTT1V0Uk54a2h2dC0yakhhaE5IU2dXb3ByQWR2bU1fZHBwYV9zTnZmazFNeUpsXzdfdG16SUo4WGh4NFA1YjB0bkI2dmxVSzMweVZnVHAyMGx1ZTh3TWhrem5mZmVPT3U1cV9sNUR1Mjd3a0tNMTlHdkRoTFJBNFoyTndkZEpWTUNLekhBX0E?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "5 Things to Know Before the Stock Market Opens on Thursday",
-      "source": "Investopedia",
-      "publishedAt": "2026-08-13T12:07:47+00:00",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPem00czZKWW9EdnhnX3gybC03TTRZc2lMOFdOTnFzUEhLTi1qZkZZSzRaTWR0SUpGd1k4ektSUmFnRVZLaXBlSTRsYzV4a0xFQUJYQi16S3VsYUc3U3RCUUxPNm5Tbm5DWTZsamRET0tyc055UXNHd1l1OGh0Vk9uMlBpWTkzRGFwOU9ZREhDVWpoM09nUUpPUXZGdTM0MnZLYWxUMDBseUVvNC1fc083Zg?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
