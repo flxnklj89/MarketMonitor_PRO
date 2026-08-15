@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-15T01:35:06.509410+00:00",
+  "fetchedAt": "2026-08-15T04:36:13.129584+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20632,20 +20632,21 @@
   },
   "news": [
     {
-      "title": "Wall Street slips from its record following the latest weak update on the US economy",
+      "title": "US stocks rise to a record as oil prices drop and inflation gets less bad",
       "source": "AP News",
-      "publishedAt": "2026-08-14T21:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaHZRYUU0eWZPOG1WOUx5U1BpNXRlenFUWnhSdEJvbExTQXl6amlVS2w2YV9wY1JENXkyOG45VUVsaENIb1FUUms1RFBoN2djemxuLVBPMG1GVHlMWTY3aVJuT3BHUEVwVzQ1YnVsYndPUnRyRzhEYzBXbmdMX1NPSW5GUHlLNm0tZHJKYWs5TmllTElIV3l6ZDRrOG1IVE05OUc4QQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "publishedAt": "2026-08-13T21:23:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWVotZ0lJOWNnZjE3MXRvdkM2MXJuY2dScktoRFRXSnk0UWg3M3B4ck5UWWM1NHFmcDRXaldfeVFSbDN4QU04bkkwNlBZaXNQN0s1c3pCZDlUT041R2lfUlROU2Q1bzF3V08tbXRrYXVURzJaeXpwNG1URkdPWnRHeW5Dd2t4ZXVUaHpmUDlVZU5RekxSNVU3ckxySk1WOE1QdWV1Sg?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
@@ -20663,6 +20664,24 @@
         "Aktien",
         "Sektoren",
         "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "S&P 500 Hits Record High August 2026: Inflation & AI Earnings Drive Rally",
+      "source": "Intellectia AI",
+      "publishedAt": "2026-08-15T04:08:32+00:00",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPN0FvSXk1RzN2TDBzbVlMRkNLRzM1RmVlN001S1FOWWRSQ2R2MUNpZXBSRWdUSWhBRFotQnNtQjh4amtFZEpxd29rTTRmamN6V3RkMEdEaUg5VDk4RDFfUkZ5SktUczlpV3dyUWo5WHZfalQxajY4cjI3TjRtdHFfMk54d0k2QQ?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
       ]
     },
     {
@@ -20684,26 +20703,8 @@
       ]
     },
     {
-      "title": "Easing inflation, oil prices lift stocks to a new high",
-      "source": "PressReader",
-      "publishedAt": "2026-08-15T00:36:23+00:00",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQZC1VaDVMODJCS0tOczZRVEZWR0x5ZTBndHJ0NDduMnhFM0lWaDNVa2dNU2dPMFBKbE9Senl5bXR6MjZDY01JeUt2ek9zZ2NGYlIyakVmSVRJWVBpQ0NMaUQ3S0l3VEtUNGV1MmszcFp6dFZBWWFHSGZWTmFZNDA?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
       "title": "Strategist explains why stock market is not in an earnings bubble",
-      "source": "Fox Business",
+      "source": "foxbusiness.com",
       "publishedAt": "2026-08-14T18:53:25+00:00",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jSzlTcnNRNkRCNEJBSE8zRURlRmpwYnAwT0tWTTBVX3VONEVRUUhsMzVDbVRNVjB0bmZRSnNMUUhKU2Z1YnJTZDZDRWstY0JER1UxQjdTNV85T0k?oc=5",
       "bucket": "Zinsen / Inflation",
@@ -20720,21 +20721,20 @@
       ]
     },
     {
-      "title": "TACO No More: How Trump Won on Tariffs",
-      "source": "Politico",
-      "publishedAt": "2026-08-14T09:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSUxxZXAxZFZ5ZEIxTV83eDZEdmlYM0hOYUZBcU9lNHdvWUFQU3dkMW96a1lBLWVUa2RXRjFSc1AzcUtxOXRnVWp2c0VhbmJXSGlCNDJhNGpjNm9TbWMzUU9zZ3RwVDRyd1V1U0ZSTFhseW1vbHJ4UzBzTlNKU1Q1ejNiN0JITXhRVExhdm1NeHYzQlk?oc=5",
-      "bucket": "Handel / Lieferketten",
-      "summary": "Die Meldung betrifft Zölle, Sanktionen oder Logistik. Das ist wichtig, weil solche Themen Preise, Margen und Verfügbarkeit von Vorprodukten beeinflussen.",
-      "impact": "Mittel bis hoch, wenn die Störung mehrere Branchen oder Länder betrifft.",
-      "probability": "Mittel, weil politische Schlagzeilen oft erst bestätigt werden müssen.",
-      "horizon": "Sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders empfindlich reagieren Industrie, Transport, Rohstoffe, Inflationspreise und konjunktursensitive Aktien.",
+      "title": "Wall Street slips from its record following the latest weak update on the US economy",
+      "source": "WDEF",
+      "publishedAt": "2026-08-14T20:06:27+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVklqcFk2OV94LWJ4X1VOMWZKc1ZudXpnUFIxRGp2Vk1FOU1oUTFQYUZOQkhXUzU5d0R5anlzX1pkc0xsU18zUzhUeXh3UHhaQmQ4LXRGdEw0SndVN1o3YXdWamhkMUJLSWtuR21KZkdpZTFJNUFNWVg0YTlBUW02ZkdTaEZmX0FaVWwwdjA5VUhKeXdIWndmV3Azdjg1eUlhNXVVZURuTVh2QQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Industrieaktien",
-        "Rohstoffe",
-        "Inflation",
-        "Transport"
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     }
   ],
@@ -20841,7 +20841,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-08-15T01:35:06.509410+00:00",
+      "dataAsOf": "2026-08-15T04:36:13.129584+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
