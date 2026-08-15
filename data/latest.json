@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-15T12:47:10.160092+00:00",
+  "fetchedAt": "2026-08-15T16:30:32.385219+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20668,8 +20668,25 @@
       ]
     },
     {
+      "title": "Smart Investor: Undervalued Stocks that Crushed Earnings, Slumping Pre-IPO Funds, and a Top Growth Stock Manager’s Picks",
+      "source": "Morningstar",
+      "publishedAt": "2026-08-15T13:11:47+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPd0o5WjZLY2hVRGdHOFJ4dW5ubWhmaVF2am1Na05GX05tTVVaNlhfX1dvMjdqS3Z2MDlWUXdUSmJlOHNMMEprWDlBZWx4YXpIa0VYYUNqNUQydTdhZFNUVkZrTTMzTUo3UXVxdTZfaWh1c0RSUmV4U1ZLZFlrTlJ2WnE1MXBHeXNjVHg2U3p1UkdPZEJ5b2VUVWxlcm01STdLbGpXUmlrVEJUSHJHYlFVWjA3cWRrR1RvLWVoUzRhMGFGTTBpcFlpLU5saGlUWDVYWmpkZWpDWlpFb3ZHQ3hv?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
       "title": "President Donald Trump Claims the Stock Market Will Double by the End of His Term, but History Says Otherwise",
-      "source": "finance.yahoo.com",
+      "source": "Yahoo Finance",
       "publishedAt": "2026-08-15T08:26:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNU1NhMFBUcjFWNGpUSUE4dzJNUHFKZ0IzQ2ZyRWtGc0oxelp0SkphZVg3dllIcmhCanBmTVdoVXktUnRZXzZza1U3WW9SUWNPZmZNOXNnRGtOVG1CRzVOeXd0aUxoWUszTDRoa0RWaDF6dXNQVk5YYVVodGgxRW0yc1FvLVdFRHhzTzRoaFJueFJ0Zlcya2cwdmZDVklPWjFpNUE?oc=5",
       "bucket": "Marktkontext",
@@ -20685,37 +20702,20 @@
       ]
     },
     {
-      "title": "US Stock Futures Up as Strong Earnings, Benign Data Drive Gains",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-08-14T21:01:15+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQc3NvLVdKNkhmYkU0X05WRHpWOHlIdHI2MTlrOW43TEdHM0phb2ZDRm52M29ZZG13R3U1WW5NSVRPaUhBdHpBR2NILVY5WE9HTzEwU0MxRV8xako2TGV5eG9HWGRMQ1VUS3Bib09QTktMNm0wNFlWTmw0NFMzVDdwOTBQVmlOVG9qWV9hSUNZXy1aelhfQnNDNGJzMW43Ti1oaWlMN2htempHb3YwNVJFMG5vSQ?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "S&P 500 Hits Record High August 2026: What is Driving the Rally?",
+      "source": "Intellectia AI",
+      "publishedAt": "2026-08-15T16:11:34+00:00",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5pS245cDFhWDJOcEgyaFRNWnZUMjFVZTc5TURLaTFjSlF0X0syN3JvUkNvc2k2MV9wRGtQTjdFMVZtZVZPQWNIYUpMNHI2aXdlRXBOaWhNMFpDdkhCYWc4QWJjQzRGUTNtUmRvVXFkY1lRMWdnbnJORg?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "The stock market may already be adjusting to a future with slower earnings growth 🤔",
-      "source": "TKer by Sam Ro",
-      "publishedAt": "2026-08-14T15:28:12+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxON18waTcxQzJ0dlh0RzRJaTFkeU80UTJHbmV5dEVrZWF6bDJDZkgyUGdWRFhUVFgybGFjWDlKYnVPRFhvb3hPbC0telR4OUk3ZHJTN2wwdXV6WEdNYnBYOHFVdjdmWW1kelVsZ014cjBOQnpVVXdTMXlVMm5DNmpTNTAweGY4Zi1ZdGE4ME1QVGVJNWpBSFE?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
@@ -20840,7 +20840,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-08-15T12:47:10.160092+00:00",
+      "dataAsOf": "2026-08-15T16:30:32.385219+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
