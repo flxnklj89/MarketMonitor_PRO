@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-18T04:40:23.839382+00:00",
+  "fetchedAt": "2026-08-18T08:42:28.194391+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20638,10 +20638,10 @@
       ]
     },
     {
-      "title": "U.S. stocks edge further from their record after oil prices rise",
-      "source": "Pittsburgh Post-Gazette",
-      "publishedAt": "2026-08-18T01:45:10+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZ1VzSFk2NHJueHhwUGM5NGtuMXFXU2NXbDAyYXNKUmQ4T05FT2pJQ3FQSC1FZlBNdFR1czFUZnAtVTZiT1o2SG1vWEdrY2lnMk9JOU93WGVQNnZqOXpBcnJQR292RF9XbE90a19uWURicWE5LWgtakpYR3pNMi1ySXhaemdRRHFERWY3SU9QaFphajZPUWxxUjNJVW9TNF9MYXpFQktzRHJ5NHppU1E?oc=5",
+      "title": "Asia shares decline as worries about rising oil prices outweigh perks from strong earnings",
+      "source": "Bozeman Daily Chronicle",
+      "publishedAt": "2026-08-18T03:19:53+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOMUxRa2lhbEs5VVpUQzBKT0tBMlNkeDU1ZVZaN09XMWJsT2pGM0ZaVmhJQWtfZkdtOE1MdGpaNWxkWXR3MGw4MnlBY3BkVEhyYXJSZGZFdy1vV20tSnctT09TYjMwM2VTYzFDUVBJdFhlb19yRjVMdHFDX3pSNllEbEJBQmp4RkhCV0Nyd0JxZUxQcjNYNTRhbFN4RjZSVlVDYlA4Vzh4LTFVRkVhM1B0clRMWmw4bDlpSlBqZmVHbklUMGZBQnAxamtyQkFkX3BpdlFXUnNEWFNia3lGSHBCVEdZRXd0M0JzcGwzdVlMQnRyWnpRNF8wLW55Y2VFekljRXVHLWVJTU1tU3Y1WTFXMkNjMFhOcUVHdFVSWg?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20656,10 +20656,10 @@
       ]
     },
     {
-      "title": "Asia shares decline as worries about rising oil prices outweigh perks from strong earnings",
-      "source": "bozemandailychronicle.com",
-      "publishedAt": "2026-08-18T03:19:53+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOMUxRa2lhbEs5VVpUQzBKT0tBMlNkeDU1ZVZaN09XMWJsT2pGM0ZaVmhJQWtfZkdtOE1MdGpaNWxkWXR3MGw4MnlBY3BkVEhyYXJSZGZFdy1vV20tSnctT09TYjMwM2VTYzFDUVBJdFhlb19yRjVMdHFDX3pSNllEbEJBQmp4RkhCV0Nyd0JxZUxQcjNYNTRhbFN4RjZSVlVDYlA4Vzh4LTFVRkVhM1B0clRMWmw4bDlpSlBqZmVHbklUMGZBQnAxamtyQkFkX3BpdlFXUnNEWFNia3lGSHBCVEdZRXd0M0JzcGwzdVlMQnRyWnpRNF8wLW55Y2VFekljRXVHLWVJTU1tU3Y1WTFXMkNjMFhOcUVHdFVSWg?oc=5",
+      "title": "Asia shares decline as worries about rising oil prices outweigh boost from strong earnings",
+      "source": "AP News",
+      "publishedAt": "2026-08-18T03:46:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQajRMMnNScjR5Tk1jNTZNZ1loMVctaUFVWWtjNHZhRGZzTWNvQWkzalRDZ1pNVjFjRGd5RVZyRTJ5dkVVOVpmVEVlczg0d2NWOTQtYTlyTnBLTlJTZ2FFVnNhTm1BNll2bGRWTGF2c3JCZHNpRlBudFFrNEJlUTVJVVI5b1d6T29pRDNhNEpMYVd6RVRVX3VZ?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20692,26 +20692,9 @@
       ]
     },
     {
-      "title": "Stock Market Pulls Back On Risk Of Widening War; Big Box Earnings Ahead",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-08-17T22:05:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOemljNC12Y2JyeDdxakVVSV9XVEpDYWRPZG9HSjNER1NwcDF0X29Hc1FQSTFSNzFxM3hmM2hDSFpjZjNFZVNVTEJTR2YxVEVIOXdXQmQ3a0lzVGdHTm5WcGlfeHFnQVYyOFJUdUExUTBGSnZucFRSX1JGRVN5ZTlEUi12a1JQellRUnRMbXBjVG0xaDVseG1oLUlHU2VkTy1TMlBHeXhJM3VabkJlZ3BSZmpXZ1VlZTJ5OVhpbWd3Ymd5UWpuY1E?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
       "title": "US stocks edge further from their record after oil prices rise",
       "source": "WDEF",
-      "publishedAt": "2026-08-17T20:53:24+00:00",
+      "publishedAt": "2026-08-17T20:35:37+00:00",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaS1uR3ZOczlWMDJlNE1CNDBFQU93Q3ZFa3BWT2NoeDRpSEYzbVRvU1FQSkppY1RoVGdoandwY2RjWVd6Q1FWZHFOeG4zOHV2OEg5b3BCVGI5bW9vVW9iVk1qNlJtRFRfZTA2ZEdueDY1TXhSSnAxSnFVZGpSS251aldVaEJKOTE4eFhQYQ?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
@@ -20724,6 +20707,23 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "source": "Benzinga",
+      "publishedAt": "2026-08-18T06:23:49+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcjBaeC1yQVlKOHl3ZWtTWXBlbnZQY1JwSmNjY3hqRGlvU0FMMEQ1azFfdE5USG9DVlJyZHlIVUJQQkNBTTNzUVhyTERnTmdpU3o2WDZiOG11WWt6bUxQaEI3N1plVU8yR3JqZ2N5WG5SN0pBNHpyT0Z5UFNaNHBkb3RYRklpQlFwTEZORWNvUmtSUUVXb1JfZHRYb2FhbHV4ZFZxc3ZvWUxKWkxkaTBPQzVMREJkbEU?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     }
   ],
@@ -20830,7 +20830,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-08-18T04:40:23.839382+00:00",
+      "dataAsOf": "2026-08-18T08:42:28.194391+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
