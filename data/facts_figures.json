@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T01:35:29.830839+00:00",
+  "generatedAt": "2026-08-18T04:40:30.271329+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -46,7 +46,7 @@
       "value": 7.1,
       "unit": "%",
       "tone": "l",
-      "status": "50T liegt bei +7.1 % gegenüber dem 200T. Schlusskurs 26729, 50T 25907, 200T 24179. NASDAQ Composite (Fallback) über 50T (25907) und 200T (24179). Trendstruktur intakt.",
+      "status": "50T liegt bei +7.1 % gegenüber dem 200T. Schlusskurs 26645, 50T 25903, 200T 24193. NASDAQ Composite (Fallback) über 50T (25903) und 200T (24193). Trendstruktur intakt.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -56,10 +56,10 @@
     },
     {
       "label": "RSI (14)",
-      "value": 60.3,
+      "value": 58.8,
       "unit": "",
       "tone": "m",
-      "status": "RSI (14) bei 60.3. Kein Extremniveau in beide Richtungen.",
+      "status": "RSI (14) bei 58.8. Kein Extremniveau in beide Richtungen.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -69,10 +69,10 @@
     },
     {
       "label": "Drawdown vom Hoch",
-      "value": -1.3,
+      "value": -1.7,
       "unit": "%",
       "tone": "l",
-      "status": "-1.3 % vom Hoch. Kaum struktureller Druck.",
+      "status": "-1.7 % vom Hoch. Kaum struktureller Druck.",
       "history": []
     }
   ],
@@ -702,12 +702,6 @@
   "charts": {
     "chartLabel": "NASDAQ Composite",
     "qqq": [
-      {
-        "date": "2025-06-05",
-        "close": 19298.45,
-        "ma50": 17789.26,
-        "ma200": 18502.56
-      },
       {
         "date": "2025-06-06",
         "close": 19529.95,
@@ -2501,13 +2495,15 @@
         "close": 26729.16,
         "ma50": 25906.62,
         "ma200": 24178.91
+      },
+      {
+        "date": "2026-08-17",
+        "close": 26644.91,
+        "ma50": 25902.9,
+        "ma200": 24193.0
       }
     ],
     "rsi": [
-      {
-        "date": "2025-06-05",
-        "value": 63.2
-      },
       {
         "date": "2025-06-06",
         "value": 66.6
@@ -3703,6 +3699,10 @@
       {
         "date": "2026-08-14",
         "value": 60.3
+      },
+      {
+        "date": "2026-08-17",
+        "value": 58.8
       }
     ],
     "vix": [
@@ -6132,8 +6132,26 @@
     {
       "title": "U.S. stocks edge further from their record after oil prices rise",
       "source": "Pittsburgh Post-Gazette",
-      "publishedAt": "2026-08-17T23:09:37+00:00",
+      "publishedAt": "2026-08-18T01:45:10+00:00",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZ1VzSFk2NHJueHhwUGM5NGtuMXFXU2NXbDAyYXNKUmQ4T05FT2pJQ3FQSC1FZlBNdFR1czFUZnAtVTZiT1o2SG1vWEdrY2lnMk9JOU93WGVQNnZqOXpBcnJQR292RF9XbE90a19uWURicWE5LWgtakpYR3pNMi1ySXhaemdRRHFERWY3SU9QaFphajZPUWxxUjNJVW9TNF9MYXpFQktzRHJ5NHppU1E?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Asia shares decline as worries about rising oil prices outweigh perks from strong earnings",
+      "source": "bozemandailychronicle.com",
+      "publishedAt": "2026-08-18T03:19:53+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOMUxRa2lhbEs5VVpUQzBKT0tBMlNkeDU1ZVZaN09XMWJsT2pGM0ZaVmhJQWtfZkdtOE1MdGpaNWxkWXR3MGw4MnlBY3BkVEhyYXJSZGZFdy1vV20tSnctT09TYjMwM2VTYzFDUVBJdFhlb19yRjVMdHFDX3pSNllEbEJBQmp4RkhCV0Nyd0JxZUxQcjNYNTRhbFN4RjZSVlVDYlA4Vzh4LTFVRkVhM1B0clRMWmw4bDlpSlBqZmVHbklUMGZBQnAxamtyQkFkX3BpdlFXUnNEWFNia3lGSHBCVEdZRXd0M0JzcGwzdVlMQnRyWnpRNF8wLW55Y2VFekljRXVHLWVJTU1tU3Y1WTFXMkNjMFhOcUVHdFVSWg?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -6185,7 +6203,7 @@
     {
       "title": "US stocks edge further from their record after oil prices rise",
       "source": "WDEF",
-      "publishedAt": "2026-08-17T20:26:23+00:00",
+      "publishedAt": "2026-08-17T20:53:24+00:00",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaS1uR3ZOczlWMDJlNE1CNDBFQU93Q3ZFa3BWT2NoeDRpSEYzbVRvU1FQSkppY1RoVGdoandwY2RjWVd6Q1FWZHFOeG4zOHV2OEg5b3BCVGI5bW9vVW9iVk1qNlJtRFRfZTA2ZEdueDY1TXhSSnAxSnFVZGpSS251aldVaEJKOTE4eFhQYQ?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
@@ -6198,24 +6216,6 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stock Market Today, Aug. 17: Markets Inch Lower and Treasury Yields Rise as Investors Wait for Retail Earnings",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-08-17T21:19:03+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPb09EVHBJYmdSSFV5OHppWEp4a1p6T3FpcmEtTk1Ia0U0OUJjTW9zRERMMllpcDVPRXJvWFdVLVhKVklMTDQxeDBocXg5NXlJMVdxbjRHNTV4RXZFdmt6YWh3ZkpkWXMzQ0VwV1QyRndhUkRXdXhJVGNiNG54dENXSDMtdU1USmRnR0R0REF1bkxZN05nLWg1WjlqYm1JdC1yNkJOQW1kdWVlanI3NkMyU01tQlpZUERza05aMTUxblVtTjZvVFlHdDVzN09OeFdtX3ZudmFqZWJlUFZBT24zX1pVTUVSRFpJekd4NkZGcTlvZ0pFelFEZk5DMWU?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
       ]
     }
   ]
