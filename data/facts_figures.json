@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T20:29:49.876825+00:00",
+  "generatedAt": "2026-08-19T01:37:30.540395+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,24 +6112,6 @@
   },
   "news": [
     {
-      "title": "Tech selloff pulls Wall Street to two-week lows as bond yields climb",
-      "source": "Reuters",
-      "publishedAt": "2026-08-18T18:58:42+00:00",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUzFvaDFSek1CYmFoSHEzTG9feVA2blNkZE9LMy00ZnpQbnFmVXYwSDJkeDR5OEFNSExNcGdrWWNjdTNLQzlia0V4b0hvV2VaTTcyaXRFdldtaDJUcm9KcDAxQ3NNWV9MaDd2Q2NaVWtHVUEwS0YyU21ia3lJQVpMTjNBMGtlaXp0M0JWaTIxeExpYlpHOEN0b05NN00xRmhHSHc0bERMOG1COGVNYTEzSw?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
       "title": "What Does The S&P 500 Earnings Boom Say About The Stock Market?",
       "source": "Investor's Business Daily",
       "publishedAt": "2026-08-18T17:53:00+00:00",
@@ -6164,46 +6146,10 @@
       ]
     },
     {
-      "title": "Bond markets are getting hammered. Here’s what’s driving the sell-off",
-      "source": "CNN",
-      "publishedAt": "2026-08-18T14:10:37+00:00",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9tWk1tNURqWV91QXE2Tk1DeU43Uk1PWWFGdWpXbWNJWWdqbkpQTW9lalo5YUV2X09HdDY5RzNjNS1ZeEwtaFJMdGlDajNWZk1obmgzYVhqN0dGM3YyVVYyVDh1T2FyQzdFenhF?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "Kospi fails to hold above 7,000 as US, Japan Treasury yields, Iran tensions weigh on sentiment",
-      "source": "KED Global",
-      "publishedAt": "2026-08-18T09:35:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBkMXlzeDltdTViZTZfMG5hclhXRW94SzJFU0lUNEhOUFJhdXdVYnEzelZTVjZSMDMydGZ6U0E4RVpNczh5RjE2c3Z0MGc5VjZyUVJzbGFrUUZwV0lvUkNrb3EteklYVUtKanUzMWFCLTVXdkxjOVZRU05B?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "Stock market today: Dow, S&P 500, Nasdaq fall, Oil price above $88",
-      "source": "Eurasia Business News",
-      "publishedAt": "2026-08-17T23:14:26+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTTlhVGhKYXpXUzZtS2lJUHV1LVVwVVpTVnFVMmpjenRrMVVpbVJnRGVXRDFydmRNQ3hXQXRnODBJVUI0Wk1Zbl9iUkFMUENBaUx4OU1pQVBRMmRZM1NLRlA0cVJFQXVlZ1A1SEpjdGNZZWp0VHk1NVhqYURsUnl6YUpONEtZcEZRZjFycG1kcWhsd044Q1h5LS1zT0Z6X0k0SUdxM1J5UQ?oc=5",
+      "title": "Rising Oil Prices and Stock Market Impact: August 2026 Investor Guide",
+      "source": "Intellectia AI",
+      "publishedAt": "2026-08-18T21:43:05+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNb0JWMGptbGstci1FU2JMNFA2SjFrZzlHWkNjTzdocTBZczV6OWxCSkNha3A5aGxOV1FDZTFvNk1tbFRFRTNHNi1vOWhYVm1NTVl4dnFiZWtmRkxjSDVqcTRLVjRONk5pcEtsSVlwNEx0eEk3d3NRUzQxeGlwWV9RUmtQNA?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -6215,6 +6161,60 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "U.S. stock futures steady after Wall St hit by higher yields, oil",
+      "source": "Investing.com",
+      "publishedAt": "2026-08-19T01:14:26+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRUU2ZTVaRnhwVjZKM2JoMno1dnpRTGZsQjVqSTNrVGpjY1gyem00UjNNbXowQTRUal93NmFEVEUxWlI0S3c1SC1HVXBZMVVoRnZ4OUktZXk1MFNMYUNNZmk2dGpfR0xEN3IxQnZDSnBuZFRQTEY1U19PMVpHdlF2d3cyU2tjWWZrLUJHOHZ4NjhBendXOWZLMHk1U3EzWmZreEx3dERtS0FKRnBBT0NaZE40VXYzbXNJZ1VV?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Bond Sell-Off Sends Borrowing Costs to Highest Level Since 2007",
+      "source": "The New York Times",
+      "publishedAt": "2026-08-18T21:44:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9vSUxrUno5VVNWbTdFZ0hMRkxUeVYxY2s4NnIyUkV4WFJMYnFDNXIzVGdYMm92NzFoemRxRUZyRlA3d3VrYXFjTUtFMGhscE90NmRRNjZKYTc2OUhpYVBEdUVSWXBQUmN4bkpZaGxPQnNQTTQ?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "ECB warns: AI stock rally likely to trigger a stock market correction",
+      "source": "AMWatch",
+      "publishedAt": "2026-08-18T11:14:09+00:00",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB6bmhKZTl1SGFhQmY2dzBwaFZ6V3o5dzdpMHlrR3F1T29EbUlNYTJPLTdneTRfQ09QX0xHU3VxdDZTTGpKaTBYeFRRdm1sb3pET0VHdDA2UVBoNF83c0x3NVdEMEhhc2E3UGdWcWo3VQ?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
       ]
     }
   ]
