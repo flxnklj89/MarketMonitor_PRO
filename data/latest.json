@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-19T08:43:17.244168+00:00",
+  "fetchedAt": "2026-08-19T12:56:29.161669+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -127,12 +127,12 @@
       "name": "Europa",
       "score": 22.0,
       "label": "Stabil",
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "summary": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "driverText": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "inflation": {
-        "value": 2.73,
-        "date": "2026-06-01",
+        "value": 2.93,
+        "date": "2026-07-01",
         "unit": "%",
         "cadence": "monthly",
         "series": "CP0000EZ19M086NEST"
@@ -140,7 +140,7 @@
       "growthOrRate": {
         "label": "ECB Einlagezins",
         "value": 2.25,
-        "date": "2026-08-18",
+        "date": "2026-08-19",
         "unit": "%",
         "cadence": "daily",
         "series": "ECBDFR"
@@ -20620,28 +20620,10 @@
   },
   "news": [
     {
-      "title": "Bond selloff slows but stocks sink",
-      "source": "Reuters",
-      "publishedAt": "2026-08-19T02:51:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPLUxPRTdYWG12TUVQNkRoeDUwU2hDUmJld2RxZUo5ckdlcHgwWFgwajJrdkYzcGlzV0ZWckNkT3RaOFU3VXprWWJIX01rOERxQTVhcExiWWEwSi1DTzN1dWZtdDgxOEcxQ3FyTTJORDNIc3M4VkdlTVdkSG1jd1NYbkdOSQ?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "Watch Humanoids Make Stock Market Debut in China’s AI Push",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-08-19T02:28:43+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOXRYRUZDWmJqaVQyQUE1VGR6cHpSMUJ3WGQ1Smp4RXJ6TTZWbUZZVkNTSy1ScW5xZmY3TXZ4RVY1QVpHTW84VzZSU1ZUOC1GQlI1Smk5Vnk1dHZsaG5JOVFjak5Wc2dLLVA0WnRPTW5QdDYwc1FaMF9lTzg0VllnYXVHZ0NYWkxBTmplOHNRcTVlT3BOemlzWDJSeUE0YVJHa3R1WXFJSjhNdnM?oc=5",
+      "title": "China’s backflipping robots leap to blockbuster stock market debut in latest sign of AI boom",
+      "source": "NBC News",
+      "publishedAt": "2026-08-19T09:54:09+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQc01mMTVZOGREN1lkSVh5cmI0X2FYY0dXeXFzNnV5SnpSV3M2VFM1OExocG1JQld3U0FxcXB3djl3amFrMHBQTWlPeVVldV9DZjVFVnZ6c1RBOTkyRW1wYjJNVmZCWlZRYVhnWkF3eUFObHhSNDVkWjAxNXpVMmxqTExSekk4QlhTc1g2X3RBRElQTWdINE5ndXJtUHRwWVlNdHB2dl8waWItYllG?oc=5",
       "bucket": "Globales Wachstum",
       "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
       "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
@@ -20655,10 +20637,10 @@
       ]
     },
     {
-      "title": "Chinese robotics giant Unitree soars in stock market debut",
-      "source": "BBC",
-      "publishedAt": "2026-08-19T07:19:30+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1LYTVEOXBXWHBjaDFwT01UNVhCTk41WkxqUXFfeVhFcEd6NUJKaWN3dE5jM3pnbThJTDRzTTR3ekotSGlmQmFWb2xORVBtejRHZXBHNHpLc09YUQ?oc=5",
+      "title": "Stock market calm hides the churn underneath",
+      "source": "Axios",
+      "publishedAt": "2026-08-19T11:21:15+00:00",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0wSTd6Vm95Y0RBOGxfLUhlT01QRWx2bktpS2h2eFF4WFY5ZmNCU1JXeWtJcFB4aGtCMXlucVJSQVVlQlF4M0x5RjMwazdpSC1BYm9xTDdULUJOenRmd1lpNHVMY0FFUEFib3E0Zndqbw?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20672,10 +20654,10 @@
       ]
     },
     {
-      "title": "China Stock Market May Run Out Of Steam On Wednesday",
-      "source": "RTTNews",
-      "publishedAt": "2026-08-19T01:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNR25NbUc4YUI2Ty16ZDQzQ0xjTWhBcG8yb3hZV2JWTHVVYzlqYm9XUFM0bDg1VGItcDNjWG5JUmhFM2NGVnBjREpRR0o2UTV0MnZwVHhQcHBsMy16cnJPZTB4aGd6OTFXazhaOExXV2FpQVVFR0RXSV9PdGNaLXlOczNWby1jOHBjUkFWQlZ2MDJuODA?oc=5",
+      "title": "Musk Robot Rival Soars 460% in China Stock Market Debut",
+      "source": "Barron's",
+      "publishedAt": "2026-08-19T11:35:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFByM1d2TTdUUGRsTnVROUpQd3ZpeTRYcUdIcUpnWEVrVFYtemxZdGxGR1JISjg0c2c0TjFBc3JoNmJzTGY4dDNLbThhS2Z5Rjd4U0NXM196TUQxamxEcUpsMENWNGJkZW5pa1V1TklvcVNCX28yOUhzWjAyVG4?oc=5",
       "bucket": "Globales Wachstum",
       "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
       "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
@@ -20689,10 +20671,28 @@
       ]
     },
     {
-      "title": "What Does The S&P 500 Earnings Boom Say About The Stock Market?",
+      "title": "Bonds selloff pressures Europe, oil climbs further",
+      "source": "Reuters",
+      "publishedAt": "2026-08-19T02:51:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPLUxPRTdYWG12TUVQNkRoeDUwU2hDUmJld2RxZUo5ckdlcHgwWFgwajJrdkYzcGlzV0ZWckNkT3RaOFU3VXprWWJIX01rOERxQTVhcExiWWEwSi1DTzN1dWZtdDgxOEcxQ3FyTTJORDNIc3M4VkdlTVdkSG1jd1NYbkdOSQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Dow Jones Futures Waver After Sandisk, Micron, Credo Lead AI Losses; Target Earnings Beat",
       "source": "Investor's Business Daily",
-      "publishedAt": "2026-08-18T17:53:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5BSl9iVF93SlRGN1BTTlBiVGFoZ3R0dFJvdTZCQTE3bkhSMUhVWTFtWW9DRk9yWENKZnI1emN5SUdIQjNLdWVzMFd0VExUdG9rcDZMLXdyRjdwVzc1WU14dFdEWHdYR2xkX1VodVVOay1fdw?oc=5",
+      "publishedAt": "2026-08-19T12:06:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNLXVjWEdwME10Uld4SHBLMnFiRTlDN3QwSUo5MDYxRzQtTDdaT1g1RzRVazFSdklkMFpmd2huWGhvMGw0RWdObk1tZWVoNDNfaHlmdVpkU2QwMzBJV0laemhJUnJvZVR2dnJkeFZhV1BvOGFENWlzUFdRTDBNUFl5cGNMRVBpOWM3ZlplZzZ6by1ZMjl2ekgycXl3bktmX20yNlVzZ1pEaGFGeVFNaGoxN3RuVGdtVldpWHRMMWNSX3A?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -20706,10 +20706,10 @@
       ]
     },
     {
-      "title": "China’s uneven economic recovery to drive investors back to AI stocks: analysts",
-      "source": "South China Morning Post",
-      "publishedAt": "2026-08-19T02:00:07+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNc0xNenUtbjEwR2YwelNwcHc3NFBqdnU0RllCaURER2pnUWFkdzBmRjVzQlZBRXljQlpSZ3dtMlpGWTFIdDF3Z2oyREhPTlpvcUFHMUR1azhFMG56SVNSNjFTeHh6WGtVOHNkLUNrT0J0S3pTTXhjX1VzQnJvdzlmQUktYWhWY1V3SGVSUGFkMlNoemFfbk85aHZkQzJlNUlIdEZEREdTc3U2UGRDOTNhUTVESzh5NWVVbDc2YnFVZ3RHTzdaRHNiYjFQb3hkSlFiYVpURHl2T3BUa3hxd25z?oc=5",
+      "title": "Watch Humanoids Make Stock Market Debut in China’s AI Push",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-08-19T02:28:43+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOXRYRUZDWmJqaVQyQUE1VGR6cHpSMUJ3WGQ1Smp4RXJ6TTZWbUZZVkNTSy1ScW5xZmY3TXZ4RVY1QVpHTW84VzZSU1ZUOC1GQlI1Smk5Vnk1dHZsaG5JOVFjak5Wc2dLLVA0WnRPTW5QdDYwc1FaMF9lTzg0VllnYXVHZ0NYWkxBTmplOHNRcTVlT3BOemlzWDJSeUE0YVJHa3R1WXFJSjhNdnM?oc=5",
       "bucket": "Globales Wachstum",
       "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
       "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
@@ -20826,7 +20826,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-08-19T08:43:17.244168+00:00",
+      "dataAsOf": "2026-08-19T12:56:29.161669+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
