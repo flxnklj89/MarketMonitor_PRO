@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-20T16:39:44.508364+00:00",
+  "fetchedAt": "2026-08-20T20:34:03.379821+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -105,7 +105,7 @@
         "vix": 14.89,
         "brent": 95.29,
         "eurusd": 1.1581,
-        "us10y": 4.71
+        "us10y": 4.65
       },
       "uiLabel": "Marktstress",
       "shortText": "Verdichteter Stressmesser aus Markt- und Preisvariablen.",
@@ -248,9 +248,9 @@
     {
       "label": "US 10Y",
       "icon": "📉",
-      "val": 4.71,
-      "chg": -0.01,
-      "chgPct": -0.21,
+      "val": 4.65,
+      "chg": -0.06,
+      "chgPct": -1.27,
       "unit": "%",
       "dec": 2
     },
@@ -20624,10 +20624,46 @@
   },
   "news": [
     {
-      "title": "Dow Jones Futures Fall As Oil Prices, Bitcoin Jump; Walmart Skids On Earnings",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-08-20T12:16:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOa0syUWR1dVM4V1cxSjJMZVBBQkRQcXhKWjhvTkp3eHdDV3ZtT3hiTEJFOV9MZU5Ud2RBOUNrSkxuQmxldmpzOVg3S2EzcjQtRjVNeFVOM3dNUk9pbGl4V29rNGJTenI3eTF0LXdWekJaMjdjWUtsYVNzY0RadmZNenBTMHVIMGVmY0lQUTByT2VydWh2VGVHS1ZBakR3azNlTWFRc0Vsb24zQ3oyNmRYWjZfOVhOa2tY?oc=5",
+      "title": "Pressure builds anew in the bond market as Walmart drags the US stock market lower",
+      "source": "AP News",
+      "publishedAt": "2026-08-20T17:11:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU0ZaR0FPdTIwcWpTRElWLTNTNTdqZEpYY3RPVnlQR21Cb2lZV056TkpGR0ctbUdzMnFwS0VydHdkdWZhSmhObElQY0dNcUN0SmpyRTBZX2U2U2dCUjF3NjRMNWI3TWtFWVJiWXNqbFFsWkNlRklBbzA3N3Iyb2gyUWUyUXl2U0VXeFVWeWd3WTlBTjZ1amJrQjlyX2xYR3c?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Bond yields jump, erasing impact of Treasury Department’s intervention",
+      "source": "NBC News",
+      "publishedAt": "2026-08-20T18:59:39+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYk5HaF9CbFJDaHhhY2JrOVlfeC1nRXVRS3NqYm5UU2Q2YmFQdmhXeVBHYWlLSHV2bF80Nl80eWU1MHhSOUloUU1FSDBXN1ItYXRZa0dnM25keVVkWE0ySlVpcWZtWnBTZkV3bkZkNWc0S0NUZWs0WkFWVFo1QzVqZzgxdHVMOFlm?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Stock Market Today: Dow, Nasdaq, SP&500 Slide Sharply, Oil price above $93, Gold price at $4,527",
+      "source": "Eurasia Business News",
+      "publishedAt": "2026-08-20T20:24:47+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZmI2bW5kb0tUUDNBOEZHc2xqdTZVVS1BQ1ZwanI3OTlQWUhoUWppYmJkTVlPYXhDaGx0Z1VZSjZkWDRnZVV1X25IU21GMXN4TkJ2d0xwTzNiZ2drRFV5NDZLT2lzcWxxdk0xVHgtcUJ5ZHphbXlCVk93ZFAzVjlxMzVaYkhCcFF0SlNqVkNZM05PREdQNkJBUkI0bnNZOW9PVzRoSF9NN1JyWG00TUl1YXAyQVd0QjNfOFluczQtNkw4ZS1xUWk1ZzQxWQ?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20639,42 +20675,6 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Pressure builds anew in the bond market as Walmart drags the US stock market lower | National News | 2news.com",
-      "source": "KTVN",
-      "publishedAt": "2026-08-20T13:51:16+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOcTBUR0ZpRnJYY3c5WkllZkFEMXhuTC1kMEl6NmZhdXNQbWRNYkhESlhxQnNoMXlGOERlNTNNTlJEZnVLVFRGQ2FfbTZPY3lLM1ozd3AyVTNYMUNZanB3bEpQSDJ3Ymg0TzJQTm02bnpEdEl6ekFISnpWX083ZkljRHFSSFdfSWxLY1dMQVh4WUw2RVhhWmRQaXNwcUFtVzNZYjh5Wjd6WkVkbEFtQkswSmNLSjB3Nk5TbUZyLVVlN3kxTGphU2k1bkx4WDE5aDJfRzJWeHhqeG5SLWVodXE2alJETzBibXAweWhwbGY5N0lfdndqWThucFJB?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "Pressure builds anew in the bond market as Walmart drags the US stock market lower",
-      "source": "New York Daily News",
-      "publishedAt": "2026-08-20T13:15:56+00:00",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBBNGw5TTlNV3dVczB2V08wQzdwUXJ5UXVUanlDYXoteUZVam8yZHdLa240dmc1cm00RmFBNnM4QlBKOWpMUkt3UUpZaUtQNzZac0w3SHJMa2ZIendFZldMdU5SZWQ0UHF4ZkJNSWVhVDVrQ05U?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
       ]
     },
     {
@@ -20695,38 +20695,39 @@
       ]
     },
     {
-      "title": "Bessent acts to break bond market fever, head off rising borrowing costs",
-      "source": "The Washington Post",
-      "publishedAt": "2026-08-20T02:59:28+00:00",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWEp5ODBDWGVqYUZ1eEdFS1BxODduekpEZFB0Vm9YcmFCeW9IYnV1eUNFeHpJZ3lLT0NMSk9OazBVZE1xZmJvMnlBZjNjSWpodkEtd09CdmpOT0VSQVJvZDNHRWNFQWxMU1ZxR05UOE92SXd6WTllbEhBQUotZjhVVUdZckw5UloxS1JqamtJcGNzVFVwS3hjNXdXR2VjcFJuMnlReWFIN1dLbHBldzhKWndMTTY?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "title": "Dow Jones Futures Fall As Oil Prices, Bitcoin Jump; Walmart Skids On Earnings",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-08-20T12:16:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOa0syUWR1dVM4V1cxSjJMZVBBQkRQcXhKWjhvTkp3eHdDV3ZtT3hiTEJFOV9MZU5Ud2RBOUNrSkxuQmxldmpzOVg3S2EzcjQtRjVNeFVOM3dNUk9pbGl4V29rNGJTenI3eTF0LXdWekJaMjdjWUtsYVNzY0RadmZNenBTMHVIMGVmY0lQUTByT2VydWh2VGVHS1ZBakR3azNlTWFRc0Vsb24zQ3oyNmRYWjZfOVhOa2tY?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
-      "title": "China’s backflipping robots leap to blockbuster stock market debut in latest sign of AI boom",
-      "source": "NBC News",
-      "publishedAt": "2026-08-19T09:54:09+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQc01mMTVZOGREN1lkSVh5cmI0X2FYY0dXeXFzNnV5SnpSV3M2VFM1OExocG1JQld3U0FxcXB3djl3amFrMHBQTWlPeVVldV9DZjVFVnZ6c1RBOTkyRW1wYjJNVmZCWlZRYVhnWkF3eUFObHhSNDVkWjAxNXpVMmxqTExSekk4QlhTc1g2X3RBRElQTWdINE5ndXJtUHRwWVlNdHB2dl8waWItYllG?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "title": "Stock Market Today: Futures Little Changed After Major Indexes Snap 3-Day Skids; Oil Prices, Treasury Yields, Bitcoin Rise; Walmart Stock Drops",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-08-20T10:42:36+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOd3NROVpzWGhkMFlqcHJWV1M3bGJxSURJZ1I5QXFqY2N4SWF0c2Jfa09NMUJCcVdWTGpFQnZZXzY4cHZjcS1zc3hyUnpDWXFCWkt5d3VkYkYyR3UzbnYzdWlOY2w3TkU5enlCRGFZNzBtSkFDeWtkbTQ0b3d4SklDb0FwZW1XQ1JrT1I0cmJXajdIQjEzZ0xrSktyZ3NiMzg?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     }
   ],
@@ -20833,7 +20834,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-08-20T16:39:44.508364+00:00",
+      "dataAsOf": "2026-08-20T20:34:03.379821+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
