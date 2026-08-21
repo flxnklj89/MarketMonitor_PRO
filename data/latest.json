@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-21T16:39:47.534105+00:00",
+  "fetchedAt": "2026-08-21T20:30:47.773990+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -105,7 +105,7 @@
         "vix": 16.01,
         "brent": 95.29,
         "eurusd": 1.1581,
-        "us10y": 4.65
+        "us10y": 4.69
       },
       "uiLabel": "Marktstress",
       "shortText": "Verdichteter Stressmesser aus Markt- und Preisvariablen.",
@@ -248,9 +248,9 @@
     {
       "label": "US 10Y",
       "icon": "📉",
-      "val": 4.65,
-      "chg": -0.06,
-      "chgPct": -1.27,
+      "val": 4.69,
+      "chg": 0.04,
+      "chgPct": 0.86,
       "unit": "%",
       "dec": 2
     },
@@ -20624,10 +20624,61 @@
   },
   "news": [
     {
+      "title": "Dow Adds 517 Points Ahead of Nvidia Earnings Week: Stock Market Today",
+      "source": "Kiplinger",
+      "publishedAt": "2026-08-21T20:13:11+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZG8wSTQ0ZTgwSU9yd1FXV0djVVVwRUp6eEpDcHp5aDVzTGZEWkU5eVI1SHNnUXBrQ0ZoM3ZHTDN1MVB5SUJldmFGMnc3V3JhUWxQblItTVZubkhETEdRUkdfckJ3UWNLYThKc3AtLVJNdkdYMmJyWkFFZGxFR2tJNVhQY2Nkc3poQ0xEX0RSb0lUSWU3UVZDNVZfNkZ3aUVJS04wcmZLdEh5eWJkd0hRNw?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Watch The Stock Market’s Boom Will Likely Bust",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-08-21T17:20:15+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQVVaUnNsaFo4ZjVldlhTR041UVlHcjlBLUpCVFJZRnFJQmh4ZEt1UXF4TV9QSDI3ZU5SdzRuWXA3UlRxOVJVMnpub2FWYVcyTUpOUEk5LTFKVlQtTlZFUVRLT3J5M085RXJuSGNENGNuTllRaEp3RFh2OVVJekdkTHRkcmNpZmNkbnp5NUd4TjFYWEU5b1Z0WGltQ3dWWVJLRDhpVTJn?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "US stock market plunges to worst day in 3 weeks",
       "source": "The Arkansas Democrat-Gazette",
       "publishedAt": "2026-08-21T06:47:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbmJCMmdJdEN2cjlvZkQwSVN2UHdVV05sNlFDRlNyWUFueXFndmFGUE11Zk5VUC04U0wwbWdOUzVMYU9lN0NWOGcwYUJtUVp1X2QxcFROeWswdVhDMjhIREJlcWxrOTdRcWcwTVRyZFhybzZDMk9idHptaUdIOUFwZGhNLXZLOWh1a0V2Vmpld01YazhtZEIyMmtNR1Y?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Stock Market Today (Aug. 21, 2026): Dow futures rise following sharp sell-off",
+      "source": "Yahoo Finance Singapore",
+      "publishedAt": "2026-08-21T13:17:38+00:00",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1fLWk2WkxnUlowdF9DN1RJUDN6YUxHSWpBRmZxenVQZEs5dXRkb3UyTHQ1cVUzTHF0WVItTHg5am9YclFnY2pyU1N6Q0htejE1T3VFNEhrVE9YZWl3c1hackhYQzYzelBRTVEzR1dYSHdKRTVuMmlMY3Z0amczVjA?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20672,57 +20723,6 @@
         "Aktien",
         "Sektoren",
         "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Stock Market Today (Aug. 21, 2026): Dow futures rise following sharp sell-off",
-      "source": "Yahoo Finance Singapore",
-      "publishedAt": "2026-08-21T13:17:38+00:00",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1fLWk2WkxnUlowdF9DN1RJUDN6YUxHSWpBRmZxenVQZEs5dXRkb3UyTHQ1cVUzTHF0WVItTHg5am9YclFnY2pyU1N6Q0htejE1T3VFNEhrVE9YZWl3c1hackhYQzYzelBRTVEzR1dYSHdKRTVuMmlMY3Z0amczVjA?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "China Materials Stocks Emerge From Slump as New Market Leaders",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-08-21T02:15:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVVU2ZHZvWDc0eHVUQTgtaG5sTkZHT0RQelVLd1ZwU1AtbUpZbnFDbVUzcXJ4V0I5bC1WU09aYWdncGM4QTVuLXBnMHVSMEk5azFBaGNQZDVvUVZac0ZObHNOeGF3Q3U3R3U5T1gtU0tyWmdTR3F3TUNJSWtRUENjcmZsMDZLVlY1aVNQT2tYb3N6LWFzV01sV2pTcjk0cUYzWGVkM1ByRHdlT2lHX3h4b1d3QQ?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
-      ]
-    },
-    {
-      "title": "Stock Market Rally Buckles; Moderna, Gold, Bitcoin Surge While Walmart Tumbles: Weekly Review",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-08-21T14:31:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTmtXNWpIXzIyRk12a2hNUGZjTXlMVlJsSUtWMkZzNFFTTUZ3dDd2TUlTN3ktLXREbXpIamN4b3g1Qm9Vb0Zpa2UyMHhmR3Fjc05CbEhNTW5HUE5vWkZRUVctQzllRXFzYktTd0VRTTcxZk5SY2lmSUg2UWhDdlI4d0tZb3pxZVFpY012bmk4LUJKY1dEejRiaHZnMjk3QmVaVUVF?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     }
   ],
@@ -20830,7 +20830,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-08-21T16:39:47.534105+00:00",
+      "dataAsOf": "2026-08-21T20:30:47.773990+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
