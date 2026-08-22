@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-22T12:49:14.424242+00:00",
+  "fetchedAt": "2026-08-22T16:30:14.450457+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20632,20 +20632,21 @@
   },
   "news": [
     {
-      "title": "After Market Losses, Nvidia Earnings Key; New Canada Tariffs",
+      "title": "Dow Jones Futures: Market Rally Repairs Some Damage As Nvidia Looms; New Trump Tariffs On Canada",
       "source": "Investor's Business Daily",
-      "publishedAt": "2026-08-22T12:08:00+00:00",
+      "publishedAt": "2026-08-22T15:25:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUkR0Mk1hdnJPQVZHWEJYWXQ2UENlazJ1OG1EWTVtNFVYLTdMVHpfbVRIQ09zMmtMRnlLT1dnd0VyVzh1cTQzVm1jMS1keHR1TUNXOXBPSXEwWE10bFNoTi1Sd1ptX1lDcHhzaG5OaTFwTzE0UlBvTzgzTHpGVkVQeUoyY2szcks3RkFENTdPbmRVUVFWMjZaWF93cFpXcnZEUEM3d21BTGpKcWZJblEtcEhJVjA?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "bucket": "Handel / Lieferketten",
+      "summary": "Die Meldung betrifft Zölle, Sanktionen oder Logistik. Das ist wichtig, weil solche Themen Preise, Margen und Verfügbarkeit von Vorprodukten beeinflussen.",
+      "impact": "Mittel bis hoch, wenn die Störung mehrere Branchen oder Länder betrifft.",
+      "probability": "Mittel, weil politische Schlagzeilen oft erst bestätigt werden müssen.",
+      "horizon": "Sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders empfindlich reagieren Industrie, Transport, Rohstoffe, Inflationspreise und konjunktursensitive Aktien.",
       "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Industrieaktien",
+        "Rohstoffe",
+        "Inflation",
+        "Transport"
       ]
     },
     {
@@ -20663,24 +20664,6 @@
         "Aktien",
         "Sektoren",
         "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Stock Market Today: Bitcoin Surges Above $77,000, S&P 500 Posts Weekly Loss, Oil price at $94",
-      "source": "Eurasia Business News",
-      "publishedAt": "2026-08-21T22:05:38+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPLWNGczZfcDNQdS1fZ2x1ekRTbnZTR1JqUDVqWjFvUnhqSUxPSy11MTRsaFc4a0R4a19rRHg4S1RPYVlGMWZRQ1c0QVVHX1Nhc25IMmxaeEZMbWFPVUFXeXEya0cyUmc1SmY5SDlpN2Y3WDQyVjJROXZrdndlY2hla3NwdElzam5XeGlrMTVGbUtyTDRqMk9keFRuOUNUZHUwQzV3bDFWck9mZEJGVHBNVmF2Wi1rNjNKWHBDVVlacnVSZTNkdEpRbHNB?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
       ]
     },
     {
@@ -20716,6 +20699,23 @@
         "Aktien",
         "Anleihen",
         "Währungen"
+      ]
+    },
+    {
+      "title": "Wall St Week Ahead Nvidia earnings, Jackson Hole to test pillars of stock rally",
+      "source": "Reuters",
+      "publishedAt": "2026-08-21T10:15:25+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeTRXSGR0N2FUbGhlTWN5NFFQWkc0OS1TX1dhS0RtQkNySkxWWDBWQVktajFIWWJwTzBoR2pOczFKdjYwWlRsWVBmODR6M2IzSWM4VzlMblk3cHNwQ21pdXVlbERIZDhlanhFT19UT214OWxBUFJHMk81cjlOajRRTm9pamlEb05VeHVVZEtpQmNLMC1rSnhmbmZCWWY1WEQtZDkxUWV4MDFHR1dqWmhSVmQ2Y3R0dW1U?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     },
     {
@@ -20841,7 +20841,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-08-22T12:49:14.424242+00:00",
+      "dataAsOf": "2026-08-22T16:30:14.450457+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
