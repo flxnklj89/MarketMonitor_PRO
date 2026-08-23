@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-23T12:50:15.752073+00:00",
+  "fetchedAt": "2026-08-23T16:31:30.129979+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20632,9 +20632,9 @@
   },
   "news": [
     {
-      "title": "Nvidia Key After Market Losses; New Canada Tariffs",
+      "title": "Dow Jones Futures Due After Market Damage; Nvidia, Canada Tariffs In Focus",
       "source": "Investor's Business Daily",
-      "publishedAt": "2026-08-23T03:01:00+00:00",
+      "publishedAt": "2026-08-23T15:39:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUkR0Mk1hdnJPQVZHWEJYWXQ2UENlazJ1OG1EWTVtNFVYLTdMVHpfbVRIQ09zMmtMRnlLT1dnd0VyVzh1cTQzVm1jMS1keHR1TUNXOXBPSXEwWE10bFNoTi1Sd1ptX1lDcHhzaG5OaTFwTzE0UlBvTzgzTHpGVkVQeUoyY2szcks3RkFENTdPbmRVUVFWMjZaWF93cFpXcnZEUEM3d21BTGpKcWZJblEtcEhJVjA?oc=5",
       "bucket": "Handel / Lieferketten",
       "summary": "Die Meldung betrifft Zölle, Sanktionen oder Logistik. Das ist wichtig, weil solche Themen Preise, Margen und Verfügbarkeit von Vorprodukten beeinflussen.",
@@ -20667,27 +20667,27 @@
       ]
     },
     {
-      "title": "Dow Adds 517 Points Ahead of Nvidia Earnings Week: Stock Market Today",
-      "source": "Kiplinger",
-      "publishedAt": "2026-08-21T20:13:11+00:00",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZG8wSTQ0ZTgwSU9yd1FXV0djVVVwRUp6eEpDcHp5aDVzTGZEWkU5eVI1SHNnUXBrQ0ZoM3ZHTDN1MVB5SUJldmFGMnc3V3JhUWxQblItTVZubkhETEdRUkdfckJ3UWNLYThKc3AtLVJNdkdYMmJyWkFFZGxFR2tJNVhQY2Nkc3poQ0xEX0RSb0lUSWU3UVZDNVZfNkZ3aUVJS04wcmZLdEh5eWJkd0hRNw?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "Why Unitree’s 460% IPO Stock Pop Wasn’t Unusual in China",
+      "source": "The Information",
+      "publishedAt": "2026-08-23T15:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQzVZZlVyVXJMMXEzbDIyeVNXTGl4a2RzT0kxeld5YUVmNjZSM0NDNDJ1cUotYUNEVXFSZS0xbDJKMEpVblFISGdCT0lQcG1ySDRPR1V4Qm9fVzktMzgtVzZ0dGthUFE0cHhneFpKb1F6R1d1Y1RGTHg0cTdrcjBWbWJpZ0wzZGc?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
       "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
       ]
     },
     {
-      "title": "What Would Alan Greenspan Say About This Stock Market?",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-08-22T22:15:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYXUwcGxhaGd4TEZYZ0I1MVV0T3diNTFCNTVHd3RZWjB3aDNTN2U4TFhyWkNicnE3Y1RjVDlHbDZfb2FJN0hab1JBbFVJMWhhNG8zeU9qbXRka05lZ2k0eW10RUhjdldicE1ZeFg5VmdzTXFCNHZKVU1zSXVEUG5ycjlSLTFtMDFSZmRwUzBkUkQydE42T2dWdw?oc=5",
+      "title": "Nvidia is the beating heart of the AI boom and the stock market — which sets up a big test",
+      "source": "MarketWatch",
+      "publishedAt": "2026-08-23T13:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSDYwYVZIWmxmM2c5QUZsQlU1cXRIdWMtRUg1Y0ZMcEc0WWkwWF9RVEJ2RzY1MnFNak9NTjM3d0NiMFVIOUR2VzYtcUg1OFZBeXdrQUxseTBhTm1pbTB2N0cwSmlBaEJvU3RFSUdROUN6TUFJMjIzNkRYSnNtems5MHBZUDU2b1VJRWFRYUZUUHRQT2toSTZRYVZCb2h0RlBKdEJCQlQyeDhxSGVXMXgxeXBEU0lmWEIwNkpac2tQc0FLTlplRTNwaTlEUQ?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20701,10 +20701,10 @@
       ]
     },
     {
-      "title": "Nvidia Earnings & Jackson Hole: Will AI Stocks Survive Rising Rates?",
-      "source": "Intellectia AI",
-      "publishedAt": "2026-08-23T01:32:03+00:00",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA0WHNsYk5VcXNCRXhpRnVYLWJraHR1TlRpalp3dmFkMTI2b01VQ1gxRC01ZG5CZ1ZZa0xSUHd6am5XaGlXanlNTjMteE9zZk1EZ2hmR1dWTXlZZEdSOTNEeTEwSGVMaWpWRnVMRjU4VVZtSUxQeGV4Q3cwQm8?oc=5",
+      "title": "Big week coming up with PCE, Nvidia earnings and then Jackson Hole. Here's what to expect",
+      "source": "CNBC",
+      "publishedAt": "2026-08-21T18:45:13+00:00",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWUF5cVVGcVhtWlpsRFlabG52NFZDcDdZdUFfX3ZyemttcVdZN1lxUGMyeG93TkI1bk1CVkhZaTZ1OHQyb2k2RWtwcDhuaElvUE55Q3M2X2RfbldHSXdHSzhQVjJMVmFmMnZtb2paTWRjUFgzUzR1aF9IbzlZMF95MUhXVW55MVhGdnZ4MENzZw?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -20719,10 +20719,10 @@
       ]
     },
     {
-      "title": "Stock Market Week Ahead: A Choppy Market Heads For Nvidia Earnings, Jackson Hole",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-08-22T17:05:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcW5QRE12ZEV3TUE2ZnFjdGljdFJhV3JGay1NRHBUa0pCSWhuNy00bkh1NDVScGVuazFZVFZwWnAzcDhMc0luWkRNeG90MWM1LUc4SXFwMmlPT2t3dVQ4a2pLbUc4NzJaS19LT1Brd01oYXUxcFNBTGVKaHJTNkRPcnRjbll3UzNNN0hOU3lub0FhU2hBeU9fSWF0NXpIRDRJb2dyN1IySVVKbTV6cm9tNzZqdlZqeTVkZnBrbFA0cFkzQ29qMmVhOFJ0V05jMGtXUnc?oc=5",
+      "title": "Dow Adds 517 Points Ahead of Nvidia Earnings Week: Stock Market Today",
+      "source": "Kiplinger",
+      "publishedAt": "2026-08-21T20:13:11+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZG8wSTQ0ZTgwSU9yd1FXV0djVVVwRUp6eEpDcHp5aDVzTGZEWkU5eVI1SHNnUXBrQ0ZoM3ZHTDN1MVB5SUJldmFGMnc3V3JhUWxQblItTVZubkhETEdRUkdfckJ3UWNLYThKc3AtLVJNdkdYMmJyWkFFZGxFR2tJNVhQY2Nkc3poQ0xEX0RSb0lUSWU3UVZDNVZfNkZ3aUVJS04wcmZLdEh5eWJkd0hRNw?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -20840,7 +20840,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-08-23T12:50:15.752073+00:00",
+      "dataAsOf": "2026-08-23T16:31:30.129979+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
