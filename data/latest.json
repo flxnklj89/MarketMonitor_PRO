@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-23T20:28:53.990313+00:00",
+  "fetchedAt": "2026-08-24T01:41:51.789473+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -120,7 +120,7 @@
   "globalComposite": {
     "value": 35.7,
     "label": "Stabil",
-    "date": "2026-08-23"
+    "date": "2026-08-24"
   },
   "regions": {
     "europe": {
@@ -936,10 +936,6 @@
       }
     ],
     "fedRate": [
-      {
-        "date": "2020-08-24",
-        "value": 0.09
-      },
       {
         "date": "2020-08-25",
         "value": 0.09
@@ -7668,10 +7664,6 @@
       }
     ],
     "sp500": [
-      {
-        "date": "2020-08-24",
-        "value": 3431.28
-      },
       {
         "date": "2020-08-25",
         "value": 3443.62
@@ -14413,10 +14405,6 @@
     ],
     "tradeStress": [
       {
-        "date": "2020-08-24",
-        "value": 15
-      },
-      {
         "date": "2020-08-25",
         "value": 15
       },
@@ -14602,7 +14590,7 @@
       },
       {
         "date": "2020-10-28",
-        "value": 28
+        "value": 34
       },
       {
         "date": "2020-10-29",
@@ -14610,7 +14598,7 @@
       },
       {
         "date": "2020-10-30",
-        "value": 28
+        "value": 34
       },
       {
         "date": "2020-11-02",
@@ -20632,44 +20620,46 @@
   },
   "news": [
     {
-      "title": "Dow Jones Futures Due; Nvidia Earnings, Canada Tariffs, Warsh In Focus",
+      "title": "US stocks rise to a record as oil prices drop and inflation gets less bad",
+      "source": "Scripps News",
+      "publishedAt": "2026-08-23T20:23:47+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTHMySTJ6WkpRcmNDdkNPcnVsa2dfc3ZTaWg5d1Myc0p5eWVURjYzZUMyRU10eHRIWjgzdzU3S0NTY0RFT3dMNXY5T3V1YmVZZXVvY0ZHRDBXS2tObDFaLWh1bl9fdDRmSUJNTEZ3SHlVclVsNjBDVTdseUxQWVp0Z0lKaGVRR2xsdlgzajJialhoRTNtb1RWQl9HSUVCQjh0LTFLOTdweExxZWxZeHBHYUdMZnk5VjVuZXc?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Futures Waver; Nvidia, Canada Tariffs In Focus",
       "source": "Investor's Business Daily",
-      "publishedAt": "2026-08-23T18:36:00+00:00",
+      "publishedAt": "2026-08-24T00:48:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUkR0Mk1hdnJPQVZHWEJYWXQ2UENlazJ1OG1EWTVtNFVYLTdMVHpfbVRIQ09zMmtMRnlLT1dnd0VyVzh1cTQzVm1jMS1keHR1TUNXOXBPSXEwWE10bFNoTi1Sd1ptX1lDcHhzaG5OaTFwTzE0UlBvTzgzTHpGVkVQeUoyY2szcks3RkFENTdPbmRVUVFWMjZaWF93cFpXcnZEUEM3d21BTGpKcWZJblEtcEhJVjA?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "bucket": "Handel / Lieferketten",
+      "summary": "Die Meldung betrifft Zölle, Sanktionen oder Logistik. Das ist wichtig, weil solche Themen Preise, Margen und Verfügbarkeit von Vorprodukten beeinflussen.",
+      "impact": "Mittel bis hoch, wenn die Störung mehrere Branchen oder Länder betrifft.",
+      "probability": "Mittel, weil politische Schlagzeilen oft erst bestätigt werden müssen.",
+      "horizon": "Sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders empfindlich reagieren Industrie, Transport, Rohstoffe, Inflationspreise und konjunktursensitive Aktien.",
       "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Industrieaktien",
+        "Rohstoffe",
+        "Inflation",
+        "Transport"
       ]
     },
     {
-      "title": "US MARKET CALL: Stocks Getting Cheaper As Earnings Outpace Prices",
-      "source": "Yardeni QuickTakes",
-      "publishedAt": "2026-08-23T04:01:27+00:00",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVFBxamVsNExEM1k4aE8xZzFKTW5UTi1TT1RhcWNWWi1hdjQtMXRLQzVtQzZZNkVqdkFlb3hsX1ZuRFVEV2xKOWszbXo5SkpUWFR0TF80V1dKY0ZzbEVGYzZHSVlwSThhVEZSVU9sZm9MNHBROXhMeWRSVFltMGY3Y3lYMS1ZVUQ4TGxscVhfa2ZTNFIya2dWbnBmR2MwS0dp?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Why Unitree’s 460% IPO Stock Pop Wasn’t Unusual in China",
-      "source": "The Information",
-      "publishedAt": "2026-08-23T15:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQzVZZlVyVXJMMXEzbDIyeVNXTGl4a2RzT0kxeld5YUVmNjZSM0NDNDJ1cUotYUNEVXFSZS0xbDJKMEpVblFISGdCT0lQcG1ySDRPR1V4Qm9fVzktMzgtVzZ0dGthUFE0cHhneFpKb1F6R1d1Y1RGTHg0cTdrcjBWbWJpZ0wzZGc?oc=5",
+      "title": "Japan’s stock market setup looks similar to late 2023. Here’s what it means",
+      "source": "Investing.com",
+      "publishedAt": "2026-08-23T20:37:05+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSEp0SlZCb25jdXB5RnJSa3RlSU9icVc2bXg3MVQ3bFNVYTZpZ1JzT25lQk9weTZrNDVuTXdQb05OejFEVkp5YzgxLVZGR0d1UkdZSlJsREZUdzUxU0ltT1doVE1VQ0JtZmpRUWN5bE1qZmVoQXl4alA2Z1JPVThXUnNtcWZvcUhpOE1IYjIxVlhlWU9HakdEZEJpd0w3eGdKMHJDYVZCQ3FnNzluR3JiVmNyQTk3bVM2MUg3U1B6aHFXQm5jU0g2Vw?oc=5",
       "bucket": "Globales Wachstum",
       "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
       "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
@@ -20683,10 +20673,44 @@
       ]
     },
     {
-      "title": "Big week coming up with PCE, Nvidia earnings and then Jackson Hole. Here's what to expect",
-      "source": "CNBC",
-      "publishedAt": "2026-08-21T18:45:13+00:00",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWUF5cVVGcVhtWlpsRFlabG52NFZDcDdZdUFfX3ZyemttcVdZN1lxUGMyeG93TkI1bk1CVkhZaTZ1OHQyb2k2RWtwcDhuaElvUE55Q3M2X2RfbldHSXdHSzhQVjJMVmFmMnZtb2paTWRjUFgzUzR1aF9IbzlZMF95MUhXVW55MVhGdnZ4MENzZw?oc=5",
+      "title": "US Futures Edge Lower With AI Spending in Focus: Markets Wrap",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-08-23T22:10:35+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVjVLTTFEZzVNaE9RQmNUNEd4Q0k5ZXF6UDJZYVdLTGdZWU1PR3FTZXBUWlRmdXptZkc4dXE5SEZoLS1ZLXVBbHA0T2x6VTc3X1U5MFlORXJOdzRNT3ZZNU9BTVNUN19teWRkLTZlYXl2UG5xNXMwOGxpWU1nQk9iTkFOd3NvdURpbFZJNmw0cS02RVgw?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Why One Company's Earnings Can Move the Entire Stock Market for NASDAQ:NVDA by VertexQore",
+      "source": "TradingView",
+      "publishedAt": "2026-08-23T21:22:50+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRTBTYTctMjV0Vno0V2ZRWGdHVFRDV0stQ2dMQXNOSDY2cGcxWVFNUFg2aWxDMzQ4cmVialI2aVNscTNMNWtfQnNsRG9yYTVKRll2M1Rtdi1OeWhYXzE0VXFhZy02R3VMN3A0RGpFc1ZLRXhjTl9ocEQxdWliUHBYNG9jZFNXR1Z5WThLS21QMjR0c0V0TGczWXZNMW1HRzVoRzgtU2pHa3Y5a3E1?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Nvidia Reportedly Raising Prices 15%; This Week's Earnings and Fed Speech Key to US Stock Market Direction",
+      "source": "finance.biggo.com",
+      "publishedAt": "2026-08-24T00:00:53+00:00",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Lb2ZFNTVaZDNEQU1aZFdDV1o0Ukxrc1IzT1REYm1XUExfaTRoNW84Ulp5X09pQi03eVYwNm1pLWhHTElwU0p5cGJtSnN3YmhEejRNdkNCc1F1cVREbHVxQ3BVZVhfcGJGb1dTZktLNUFVNDlwbEE?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -20698,40 +20722,6 @@
         "Aktien",
         "US-Dollar",
         "Gold"
-      ]
-    },
-    {
-      "title": "Dow Adds 517 Points Ahead of Nvidia Earnings Week: Stock Market Today",
-      "source": "Kiplinger",
-      "publishedAt": "2026-08-21T20:13:11+00:00",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZG8wSTQ0ZTgwSU9yd1FXV0djVVVwRUp6eEpDcHp5aDVzTGZEWkU5eVI1SHNnUXBrQ0ZoM3ZHTDN1MVB5SUJldmFGMnc3V3JhUWxQblItTVZubkhETEdRUkdfckJ3UWNLYThKc3AtLVJNdkdYMmJyWkFFZGxFR2tJNVhQY2Nkc3poQ0xEX0RSb0lUSWU3UVZDNVZfNkZ3aUVJS04wcmZLdEh5eWJkd0hRNw?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Nvidia Stock May Plunge After Earnings, Even If It Beats (NASDAQ:NVDA)",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-08-23T11:25:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdDhDY0doSElNSFZmMFBMVnduNXhVN295UWp6VFMyVWpQOGhDenQ5OXlkTUx1X0xPSDBVOTlVT3prcFBLMEljMHRjcFpsR09yQVNPOEV3bGlyNDd0andzaVRFRjNreE96TmY2SzE1SElYeWxrOER4T1hlS3RhWjlhVzFDeUV6VFNIMDllUURhekZ6T2NkcTM0TnVNbW4?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
       ]
     }
   ],
@@ -20839,7 +20829,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-08-23T20:28:53.990313+00:00",
+      "dataAsOf": "2026-08-24T01:41:51.789473+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
