@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-24T01:41:51.789473+00:00",
+  "fetchedAt": "2026-08-24T04:51:06.262476+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20620,27 +20620,9 @@
   },
   "news": [
     {
-      "title": "US stocks rise to a record as oil prices drop and inflation gets less bad",
-      "source": "Scripps News",
-      "publishedAt": "2026-08-23T20:23:47+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTHMySTJ6WkpRcmNDdkNPcnVsa2dfc3ZTaWg5d1Myc0p5eWVURjYzZUMyRU10eHRIWjgzdzU3S0NTY0RFT3dMNXY5T3V1YmVZZXVvY0ZHRDBXS2tObDFaLWh1bl9fdDRmSUJNTEZ3SHlVclVsNjBDVTdseUxQWVp0Z0lKaGVRR2xsdlgzajJialhoRTNtb1RWQl9HSUVCQjh0LTFLOTdweExxZWxZeHBHYUdMZnk5VjVuZXc?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
       "title": "Futures Waver; Nvidia, Canada Tariffs In Focus",
       "source": "Investor's Business Daily",
-      "publishedAt": "2026-08-24T00:48:00+00:00",
+      "publishedAt": "2026-08-24T03:09:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUkR0Mk1hdnJPQVZHWEJYWXQ2UENlazJ1OG1EWTVtNFVYLTdMVHpfbVRIQ09zMmtMRnlLT1dnd0VyVzh1cTQzVm1jMS1keHR1TUNXOXBPSXEwWE10bFNoTi1Sd1ptX1lDcHhzaG5OaTFwTzE0UlBvTzgzTHpGVkVQeUoyY2szcks3RkFENTdPbmRVUVFWMjZaWF93cFpXcnZEUEM3d21BTGpKcWZJblEtcEhJVjA?oc=5",
       "bucket": "Handel / Lieferketten",
       "summary": "Die Meldung betrifft Zölle, Sanktionen oder Logistik. Das ist wichtig, weil solche Themen Preise, Margen und Verfügbarkeit von Vorprodukten beeinflussen.",
@@ -20673,8 +20655,25 @@
       ]
     },
     {
+      "title": "Why One Company's Earnings Can Move the Entire Stock Market for NASDAQ:NVDA by VertexQore",
+      "source": "TradingView",
+      "publishedAt": "2026-08-23T21:22:50+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRTBTYTctMjV0Vno0V2ZRWGdHVFRDV0stQ2dMQXNOSDY2cGcxWVFNUFg2aWxDMzQ4cmVialI2aVNscTNMNWtfQnNsRG9yYTVKRll2M1Rtdi1OeWhYXzE0VXFhZy02R3VMN3A0RGpFc1ZLRXhjTl9ocEQxdWliUHBYNG9jZFNXR1Z5WThLS21QMjR0c0V0TGczWXZNMW1HRzVoRzgtU2pHa3Y5a3E1?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
       "title": "US Futures Edge Lower With AI Spending in Focus: Markets Wrap",
-      "source": "Bloomberg.com",
+      "source": "Bloomberg",
       "publishedAt": "2026-08-23T22:10:35+00:00",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVjVLTTFEZzVNaE9RQmNUNEd4Q0k5ZXF6UDJZYVdLTGdZWU1PR3FTZXBUWlRmdXptZkc4dXE5SEZoLS1ZLXVBbHA0T2x6VTc3X1U5MFlORXJOdzRNT3ZZNU9BTVNUN19teWRkLTZlYXl2UG5xNXMwOGxpWU1nQk9iTkFOd3NvdURpbFZJNmw0cS02RVgw?oc=5",
       "bucket": "Marktkontext",
@@ -20690,20 +20689,20 @@
       ]
     },
     {
-      "title": "Why One Company's Earnings Can Move the Entire Stock Market for NASDAQ:NVDA by VertexQore",
-      "source": "TradingView",
-      "publishedAt": "2026-08-23T21:22:50+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRTBTYTctMjV0Vno0V2ZRWGdHVFRDV0stQ2dMQXNOSDY2cGcxWVFNUFg2aWxDMzQ4cmVialI2aVNscTNMNWtfQnNsRG9yYTVKRll2M1Rtdi1OeWhYXzE0VXFhZy02R3VMN3A0RGpFc1ZLRXhjTl9ocEQxdWliUHBYNG9jZFNXR1Z5WThLS21QMjR0c0V0TGczWXZNMW1HRzVoRzgtU2pHa3Y5a3E1?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "Nvidia is the beating heart of the AI boom and the stock market — which sets up a big test",
+      "source": "MarketWatch",
+      "publishedAt": "2026-08-23T13:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSDYwYVZIWmxmM2c5QUZsQlU1cXRIdWMtRUg1Y0ZMcEc0WWkwWF9RVEJ2RzY1MnFNak9NTjM3d0NiMFVIOUR2VzYtcUg1OFZBeXdrQUxseTBhTm1pbTB2N0cwSmlBaEJvU3RFSUdROUN6TUFJMjIzNkRYSnNtems5MHBZUDU2b1VJRWFRYUZUUHRQT2toSTZRYVZCb2h0RlBKdEJCQlQyeDhxSGVXMXgxeXBEU0lmWEIwNkpac2tQc0FLTlplRTNwaTlEUQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
@@ -20829,7 +20828,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-08-24T01:41:51.789473+00:00",
+      "dataAsOf": "2026-08-24T04:51:06.262476+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
