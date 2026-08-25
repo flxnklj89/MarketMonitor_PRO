@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T20:36:05.152552+00:00",
+  "generatedAt": "2026-08-25T01:36:41.433879+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,6 +6112,40 @@
   },
   "news": [
     {
+      "title": "Dow Jones Futures: Trump, Bessent Comments Spark Tech Losses; Nvidia Sells Off Before Earnings",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-08-25T00:04:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRFZIaFY5UkpfTGhqVzNUZS00enZhN2pKRlFWcGJrVkI3dzZnZ0hQY3FEMlotRTJEOHE5OTNiVnREbjdZOUpla09mbEdKaVNVb2FQaXlkSlFWTFF2MlhZcjNlN1ZHb28zMnZRUFN5WERyX2RQV2FVWHRYZ2lRRUJlNXN0eWN2Q3BtNVhhOWhQM20yTC1OYkRxZVBCSEJhYThMWUtOd3JyS3hnVkJWdkRvSDZxRnl0N1NrNUE4eWJPUUE1OXlCanBuekJB?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Stocks Pause for Nvidia Earnings, Warsh Remarks: Stock Market Today",
+      "source": "Kiplinger",
+      "publishedAt": "2026-08-24T20:11:59+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVkllX1cxamQ2VS1sdkFQc0Jkd3VSSkdTcm1EQXc0MjBNSHFrb3pZaUtnRXZELUt2N1d6MmFhdjNsZXpYSjBBM1Buc3J4SnVXeEhjV2k1Y1h2V0Fuby1NRThDcC1JNTV5d0VRWVkxRWc2bVVFZVJOMXVncE9qazJSVlA1RHdvTDN6M05wcFRUWXdnTWpwRUp0eHZic1hONEtGeFM4X09tb18tQ0ZZ?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
       "title": "Why Strong Earnings Are Lifting Stocks Despite Rates",
       "source": "LPL Financial",
       "publishedAt": "2026-08-24T20:13:29+00:00",
@@ -6130,20 +6164,20 @@
       ]
     },
     {
-      "title": "Tech drags S&P 500, Nasdaq lower as more Iran sanctions, Nvidia earnings loom",
+      "title": "S&P 500, Nasdaq end down on tech stocks, investors weigh Iran moves",
       "source": "Reuters",
-      "publishedAt": "2026-08-24T18:27:38+00:00",
+      "publishedAt": "2026-08-24T22:26:01+00:00",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZmVCQWYzaWpzTVpmVFJPV0xRdEtUcXg0N2JKZHB5Z2JFZWpWRHFwS0Q3R2NtVHp1c29rem5scXhwa0FZMFZJNGtqM3ZCRlVOa1doNGNtWEcxVVZCYXFDSXlEbmJwODhKbG5Kdk15RDJpbDFleUFpWkdmbWEtMkhGWnF0U1FWWVpmSnp4aXp4UzlPc2hzaFNTWllwSm5UVWlpNWtWQlkzX1dqOHJNbkg5ag?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
@@ -6165,44 +6199,10 @@
       ]
     },
     {
-      "title": "Stocks Pause for Nvidia Earnings, Warsh Remarks: Stock Market Today",
-      "source": "Kiplinger",
-      "publishedAt": "2026-08-24T20:11:59+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVkllX1cxamQ2VS1sdkFQc0Jkd3VSSkdTcm1EQXc0MjBNSHFrb3pZaUtnRXZELUt2N1d6MmFhdjNsZXpYSjBBM1Buc3J4SnVXeEhjV2k1Y1h2V0Fuby1NRThDcC1JNTV5d0VRWVkxRWc2bVVFZVJOMXVncE9qazJSVlA1RHdvTDN6M05wcFRUWXdnTWpwRUp0eHZic1hONEtGeFM4X09tb18tQ0ZZ?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
       "title": "5 Undervalued Stocks to Rent, Not Buy",
       "source": "Morningstar",
       "publishedAt": "2026-08-24T20:13:59+00:00",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSmJ6bGtlVktYaXR0SVF6djlYZS10R0ZzQVN1NWNrcHdrTE1KWFc1bHlnbV9PWmlPcHpFaThXQ2FUWTJBYUlDX2RSUzdHSndpTE5jOGJIaDhHSmRTdjhxQnJ1UjViSUhacWlMRFBpMllIQVlUY0kweHNlcUNsRmlMV2VuUzdUdS1tRWlaNW0yWjVfbDQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Stock Market Midday, Aug. 24: Dow Edges Higher as Chip Weakness Pressures Nasdaq",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-08-24T19:52:30+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQS0xtMXpOeGh1OGZ4SjVZbl9kTzFkY1FobUhkT2VPVFpEMlc2YU53enIzWGFOZGFmbmJFbW01R05wRXhWeGxrWURMbTRDVlFfdFpwaHNCNjEyOXE2V1NLbzJrOHZtVFFYS2FMbGtlSDQ4ZHFfVXN2WFd1dnBpZU1oQXQwdzFWaDd2MTFyZ1h6YWNnbGhwbVFDR2IyVy1XUUhBYXpselFKYWh2OEVNSXh5ZEZNb0RmbkR5MnZraTlOeng3S3NmVnM0ajNJMFNZVHR3b0hUNg?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
