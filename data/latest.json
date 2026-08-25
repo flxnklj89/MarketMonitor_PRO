@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-25T16:42:22.648762+00:00",
+  "fetchedAt": "2026-08-25T20:34:24.665257+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -105,7 +105,7 @@
         "vix": 15.85,
         "brent": 95.29,
         "eurusd": 1.1684,
-        "us10y": 4.74
+        "us10y": 4.7
       },
       "uiLabel": "Marktstress",
       "shortText": "Verdichteter Stressmesser aus Markt- und Preisvariablen.",
@@ -248,9 +248,9 @@
     {
       "label": "US 10Y",
       "icon": "📉",
-      "val": 4.74,
-      "chg": 0.05,
-      "chgPct": 1.07,
+      "val": 4.7,
+      "chg": -0.04,
+      "chgPct": -0.84,
       "unit": "%",
       "dec": 2
     },
@@ -20626,7 +20626,7 @@
     {
       "title": "Morgan Stanley sends clear signal on stock market, oil prices",
       "source": "thestreet.com",
-      "publishedAt": "2026-08-25T12:33:00+00:00",
+      "publishedAt": "2026-08-25T18:25:52+00:00",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMGJYRU8xNHVsY1FYMUtKalhBeVY3Nl9iSW5VQUs3bk5vWDVfMGtSQXpxZUxXdlVyel84UDJkM2YxWWw3UXpfWFhaRkRnRVY4N1gtNG5YclJMV3pMMlZCbDVmS19hR3QzM0tZQk1zaGg0QzZkZHNoRGVlcmtra2FTV2FhVWg3R0ZjYkI2R1JEWjA4dTlTazNSUlJRYTJ6YXNhUGFBWTR2TDNpNkFwUmVYZVYyX0VmWFhidjh5M3dtcEZzRjhx?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
@@ -20642,27 +20642,28 @@
       ]
     },
     {
-      "title": "VIX Curve ‘Bump’ Shows Stock-Market Anxiety Growing by Midterms",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-08-25T14:04:34+00:00",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUjUtRHVQUTBBQ2p0cVIxMkt4YU1OejJ2bWFweW05cDVpejRqMzNmRGJnYWQ1cU1HWnIxY3g1YTVWaEJDRXFkUllyZ0VRZWZ4b2dKS0lRRlg5NDJVdkNvSXVnRkxnMU1yUlMyNDdGUDJOZjRkMTYwMDZ2TzN4dFBSQ0lEbmFpM0w5N0NMRmhNQjNWaUZ0TF8wb0JnYjh1X1J5UGlYQVpObTVYT2VmTkhxcHVB?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Stock Markets Face Double Blow if Nvidia and the Fed Fail to Deliver",
+      "source": "Barron's",
+      "publishedAt": "2026-08-25T17:47:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaXhFd0ZSTmZmNUZwTHVYYXZ4b0tDOVg3VGFDcXBua1NPRVBpN2MxNk5GVzg1RnVVdUJOamczMUIzY2dhS09Bd1d6RUdRT0w0UTM5M05hQVdZel9ZVjFLUUh2SGwyYXhxcEUxNi1DWkM5UG9JNmQtWUUzdmhBak1SR2FJZG9FQWowMHlZTktPWQ?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
       "assets": [
+        "Staatsanleihen",
         "Aktien",
-        "Anleihen",
-        "Währungen"
+        "US-Dollar",
+        "Gold"
       ]
     },
     {
       "title": "Falling oil prices help calm the stock and bond markets",
-      "source": "Pittsburgh Post-Gazette",
-      "publishedAt": "2026-08-25T15:34:18+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcEgzZVNaSDhCaUNKWFc2RUhxb3FLYml2UEJJMGUyYk5TZ1d4cHNwSEJfQ2RDQzlIX0RVMXRja0ZtREptVGVadVg5cHNJUEJPN3NocWJBZDV5blNsSGVBVWtpc1F6UTlnWFMzMmRNRFNob1oxbFVRbXc4enhVTUxnMi16WFZReGc5eFEzelFDNDU4Y3hhNXByb1B2ZzJZQ25KX2ViS2x4VmFJY0swOFE?oc=5",
+      "source": "The Washington Post",
+      "publishedAt": "2026-08-25T20:31:55+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNRDNzdG5Obkg0X01TZy1UNUtQYXhoVWJsSDVSRDRFVDZnQmhFbnZ2eE4wZE9QckdaZy1rQ191OHhvY2YwYVZoXzMwTFhpOEhkMmgydGFxV0I0bVZGckhldVNuM1pXMEljcGRHY1J2VDJjaV9YbG03Mks2MVpMZ3BaZjQ3TjNGaWlRaW5nUGh4Y1ZqeWtZd0JtU0U3TGNWWU5UV0JibnZRS2xkSTBtT2NpNV94Nk1FRkNCNG01bmhaWFZnWHg4TUYzcjNEUTg1UWxJb3hHTQ?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20677,9 +20678,27 @@
       ]
     },
     {
+      "title": "Stock Market Today: Stocks Advance ahead of Nvidia’s results, Inflation data and Bessent Measures",
+      "source": "Eurasia Business News",
+      "publishedAt": "2026-08-25T15:41:56+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaURfSlZwSzROSHJyU2dRQzEzWUU0MjRwWXV1NUNSaDJtZ1dXNE82eFJDRkgwMEZXNFEzUTZsQnlrWGpjT1pDLVdGajEzaTZabUlqNC15TlQzMl9TQktYdjg0NFppXzQwakprUjVKSWZPazFDMGZ1cTZzOFlVVHlpRTBzcktYbmVXMW83UWpRSE9jandVM0FwdEc4SGhjY0lYYkpDUnFXVHFZSTl4SVJnRHlJTFVQZHFGTHlWazBFOHgyaTh1U2c1NGgyWTl4anM2bzc2bQ?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
       "title": "Wall Street climbs ahead of Nvidia earnings and key inflation data",
       "source": "Seeking Alpha",
-      "publishedAt": "2026-08-25T14:16:06+00:00",
+      "publishedAt": "2026-08-25T16:58:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQT0dlb2tNSktfRHNfbi02SXd3R09oRm1RYVV3Z3h3aFVsaG9EazNGWEdudS1lVm4zWGJtUXhBNTlWa1RSRlpsVElySWJEei1FTHlYeHNDajNxT2JYdHlwMHdxMkREWVVQc2Rla210STJYWjNKTXhucWRwUUkzem1mUUswZ0t4M2pCRjU3MTYxVHdWdGJKemlqWnBrc1AxU0RyOGNkSUc5dw?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
@@ -20695,10 +20714,10 @@
       ]
     },
     {
-      "title": "Equities rise with tech boost and yields fall with oil prices",
-      "source": "Reuters",
-      "publishedAt": "2026-08-25T01:26:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPREVmalQ3MXdwbVJUT3l4bktkT2xBLTVycVpRVkdzSUxPZ3lYdGZjTXpVWU5OckdENlF0R05kSm1CMUdPUDJwcXVxLWJaZ2VESzE1QTloUzdhTzZtMF9NM0FERmp3NWRJR3JudVN5UUttekdhTnV0UUExUFR2U0ZaS0J5TQ?oc=5",
+      "title": "NVIDIA, JPM & 2 More Stocks to Buy as Oil, Rates & AI Reshape Market",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-08-25T19:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWUw0bm5NYjZoQ3RIcWt4SE5McDhwbjJDdHRwMjhHX0l4OFVoc004eFJPMDZIQkVITlNxQUx5eXRjZkREM0loNlZhUlFFN25EcG9VUUY1d3hDNzAyOWQ5U2dXMW1UT2cybzRabUJqUFJXMGl1X0daMFYyRWs2TzlmN2pSYlVFcnNaU21wWjE0WVRsNXc?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20710,23 +20729,6 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stocks Pause for Nvidia Earnings, Warsh Remarks: Stock Market Today",
-      "source": "Kiplinger",
-      "publishedAt": "2026-08-24T20:11:59+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVkllX1cxamQ2VS1sdkFQc0Jkd3VSSkdTcm1EQXc0MjBNSHFrb3pZaUtnRXZELUt2N1d6MmFhdjNsZXpYSjBBM1Buc3J4SnVXeEhjV2k1Y1h2V0Fuby1NRThDcC1JNTV5d0VRWVkxRWc2bVVFZVJOMXVncE9qazJSVlA1RHdvTDN6M05wcFRUWXdnTWpwRUp0eHZic1hONEtGeFM4X09tb18tQ0ZZ?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
       ]
     }
   ],
@@ -20833,7 +20835,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-08-25T16:42:22.648762+00:00",
+      "dataAsOf": "2026-08-25T20:34:24.665257+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
