@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T08:50:45.205013+00:00",
+  "generatedAt": "2026-08-26T13:03:16.511968+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -290,14 +290,11 @@
     },
     {
       "label": "Gewinnwachstum",
-      "value": 18.4,
+      "value": 28.2,
       "unit": "%",
       "tone": "l",
-      "status": "S&P-500-Gewinnwachstum YoY: +18.4 %. Starkes Wachstum stützt aktuelle Bewertungen.",
+      "status": "S&P-500-Gewinnwachstum YoY: +28.2 %. Starkes Wachstum stützt aktuelle Bewertungen.",
       "history": [
-        {
-          "value": 60.6
-        },
         {
           "value": 16.29
         },
@@ -354,6 +351,9 @@
         },
         {
           "value": 18.43
+        },
+        {
+          "value": 28.2
         }
       ]
     }
@@ -394,9 +394,6 @@
           "value": 3.62
         },
         {
-          "value": 3.62
-        },
-        {
           "value": 3.63
         },
         {
@@ -455,6 +452,9 @@
         },
         {
           "value": 3.62
+        },
+        {
+          "value": 3.63
         },
         {
           "value": 3.63
@@ -6112,10 +6112,28 @@
   },
   "news": [
     {
-      "title": "Nvidia Earnings and Jackson Hole Are the Stock Market’s Next Big Tests",
+      "title": "MoneyWatch: Tariffs and The U.S. Stock Market",
+      "source": "WKMG",
+      "publishedAt": "2026-08-26T10:19:52+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcGxDa2s2Sy1objJrMTFVb25yRkZVQUFodjQzRWJZOW9NV2JQNkUxSEhoU2FGbFpIdDBLc21FUkVTVktwVHRGaVV4ek40YlBZQm9uN3dYVGY3ekhQN0EyUG9pZ0gyTHB2QUx3UzQ3UzZTWjJwQkFVSXFEcEpRekQ3SllfaU92MXlla0wzYl9ENXhFVEdXRmhWeXBsYw?oc=5",
+      "bucket": "Handel / Lieferketten",
+      "summary": "Die Meldung betrifft Zölle, Sanktionen oder Logistik. Das ist wichtig, weil solche Themen Preise, Margen und Verfügbarkeit von Vorprodukten beeinflussen.",
+      "impact": "Mittel bis hoch, wenn die Störung mehrere Branchen oder Länder betrifft.",
+      "probability": "Mittel, weil politische Schlagzeilen oft erst bestätigt werden müssen.",
+      "horizon": "Sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders empfindlich reagieren Industrie, Transport, Rohstoffe, Inflationspreise und konjunktursensitive Aktien.",
+      "assets": [
+        "Industrieaktien",
+        "Rohstoffe",
+        "Inflation",
+        "Transport"
+      ]
+    },
+    {
+      "title": "Nvidia Q2 Earnings & Jackson Hole Set to Test Stocks: What Investors Need to Know",
       "source": "Barron's",
-      "publishedAt": "2026-08-26T05:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNd2s2UXZEbWM3Q2tqUE5ONzc1bXJvSG1PUVZFMDBFSEZwTnVRTW9kdWNHa1lYSE53R2h1cm81WjRsS0VvVUNCLTRvajhlaGZHRUNoMkRYMXVxYWRPc2N4dEM1aEk2Y3k3eHZVZEFrd3gwR21vYnpPdUtZckxpdGpKRDJ1SE5qODlqWVNtcjI2bHdOYkE5a3pQNmNSNW5DdHhGN0NTbXBIYXF3YlVGM2ZHZA?oc=5",
+      "publishedAt": "2026-08-26T12:16:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcnBpUlVETk51VjU0V0FEdk1sLW1odWtlQURNRUZFWEkzSnFIZlhHVzQtc0lWRlNaNURCN2wweHpDbHdoaG95eW1EWUxNNll5ZUh3aV9GTXduM0V6Z0t5YXdmaVc1Um1MSEN0dXNZUlVzMUkwN3Z4VW50X2p4cE9xN0pZSFJRdUI2S1pJbFFiWG5pTmZ1?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -6129,10 +6147,10 @@
       ]
     },
     {
-      "title": "Dow Jones Futures: Inflation Data, Nvidia Earnings Due; Robinhood In Buy Area",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-08-26T08:14:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPQ1g0Zi1LVEZtRElWZlduNnhGaEltUXdNSWxHR1VaOWVxNzZ6MjA3eTNLU0hQdUxMUldYNHNiY0QyWk1uaHJmUWcwN09mZFBGOTRvcDR0VWpWTzlTZkVfWno5MUtuVHRzMlYxTGg5MkRuQ2E3eUNVb3RBMkpBNUx1VnlYQzFYY1hpb19hQkhIanVDQUo1OUhGLWV2Q2NpSjNrWVlNYVFNYjY1SS1ZNndWOUdyRXVncm1EMGxZMVk5dHVMVlBKcE95S0xuZG0zaXd3ZDhjamZ3?oc=5",
+      "title": "The Stock Market Faces a Critical Test on Wednesday -- Nvidia Earnings, Inflation, and GDP on the Same Day. Here’s What Investors Need to Know.",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-08-26T10:17:45+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNSDlodXNIeXg5QlVtd2tPMTBYTHBoaDJyQkk5eUE0dUJoWjZjSXh4YkhBTU5qWGp5b0lDemVCeTdubGZXRWFiYUk1ZlhrTzVyOFE3em5aVFJTNmdFdHEyLUNCWGVVM2dwRFdZaFhDZkVnVmZzbmlvUm1jc05LYmhzbTJieVQwQUItaEpEY01hdnZROEczNXBIc2NDMXpNcXg5LXd2MTJfcENnTnBIQ2dQRDl3OW5PYzhyWFdiSFVQaU5Yekd4Zml1M0J1WVRJLW9Qa2NRZ2RnMjdQU2RVS18yd0RxTGJMempfaTdxalFVU2tjUGttSy0xMDhCOHZ6eVIxSjU5LXJzaUFEUQ?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -6147,46 +6165,10 @@
       ]
     },
     {
-      "title": "Asian stocks rebound as oil slide eases inflation fears ahead of Nvidia results",
-      "source": "Investing.com",
-      "publishedAt": "2026-08-26T08:15:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNVdkTnEwMWFUX1d0eDRPaVM5Y2ZIbGgwU3Q2MEYzWi1MMlR1YlVFVGFNbUNLVC1zQlJVa21YUTNGbXU4dnJzMHN6TGtyMzk1NnRKdXhVT1VIR1JaMHljSmlrWnNOS0l4OGtkcnRnQ1hXX01TRWFvVFJJX2l4YXBFeExSaHF4ZkxyaUpZYUJ4RkpUZlJDTkVCeWVzQlZsZ3dzc1c1SE84REExR0k0ck8wOEZrWjlvZHotN0dLVUZvaUloWGRLTjN3MDh3cHJ2WXp6?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "World stocks gain as oil slips on Hormuz hopes ahead of Nvidia results",
-      "source": "Reuters",
-      "publishedAt": "2026-08-26T02:17:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE91T2JHeEdCeW1LQUVJbHFFd0lzWkxUXzZjUWZodDZET0tTdWZYbEtpWnpPNGRsNzRZSjF1dUs5ZWNDV0t0a3F6YlBCdWJWTlRKc2F6NVV3T3ltWWl6Um9tbFlvVWRIZDk1dHFpNU5aUFo0UGVibk10NFE5dw?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Investors learn to live with inflation",
-      "source": "The Economist",
-      "publishedAt": "2026-08-26T00:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNXlnUmxqeXBpMlBCY1RPRDR5UkxOUjdFTXp4b05GSlhSUWRRR0NrX2lsMzN6Qk5sUXhSQkR2dDBoZ2JfUV9HZWtfX0EyUGltNndmUER2UnhtNkg0aHU4bHlBcEktT2xjLWw2UkZ6WUJvWHNYd1RqQi1hSHFrclVXaUpRSkxnMmdOSDlRSFIxS3k0QUVSNHVR?oc=5",
+      "title": "Stock Market Today: Dow Jones Futures Rise, S&P 500 Slips Ahead of NVDA Q2 Earnings and Fed's Preferred Inflation Data— Zoom, Intuit, Datavault AI in Focus",
+      "source": "TradingView",
+      "publishedAt": "2026-08-26T09:30:49+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxONWdIV3VQTm5mZGNBb1pOSl8xem9rR2Vza0dublJOdkE5NHR1MjJvd0p0cHYyUzlCVEpuWlAtcWM1Vk94bm9TNmFaRlNqWm9NOEpqVVQxSU5FeVQ4eWZNbTZ6OTFmRm9ZZkVLRXpKemtXQkxlTUozQWRLbmVzVGFEUFZuTHc3N210SXhPc0lsdTVXNTlVVW5neGJsVEkxWkltYkp5VTgxb2FWVXNXQ2RaSV9uMUN0eWwzeDF2WVU4am44MDhiNlVSaGNKbzdaVWhldXhvSHdpdTUzRFJNVFpLT3dVRDMxVkRnNDVpeUNQZVpxY0NZV2FPQ2szS1F4R1JmM3gzYzBKejlWekNhcElteDl2dEltX2pXYTZIb2tRVHJ5SGU5a2ZINTQxNGdYU0VRSy1Z?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -6215,6 +6197,24 @@
         "Aktien",
         "Sektoren",
         "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Dow Jones Futures Await Inflation Data, Nvidia Earnings; Robinhood In Buy Area",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-08-26T12:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPQ1g0Zi1LVEZtRElWZlduNnhGaEltUXdNSWxHR1VaOWVxNzZ6MjA3eTNLU0hQdUxMUldYNHNiY0QyWk1uaHJmUWcwN09mZFBGOTRvcDR0VWpWTzlTZkVfWno5MUtuVHRzMlYxTGg5MkRuQ2E3eUNVb3RBMkpBNUx1VnlYQzFYY1hpb19hQkhIanVDQUo1OUhGLWV2Q2NpSjNrWVlNYVFNYjY1SS1ZNndWOUdyRXVncm1EMGxZMVk5dHVMVlBKcE95S0xuZG0zaXd3ZDhjamZ3?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
       ]
     }
   ]
