@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-28T10:50:23.646761+00:00",
+  "fetchedAt": "2026-08-28T22:03:00.478419+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -28,7 +28,7 @@
     },
     "fedRate": {
       "value": 3.63,
-      "date": "2026-08-26",
+      "date": "2026-08-27",
       "cadence": "daily",
       "series": "EFFR",
       "displayName": "Effective Federal Funds Rate",
@@ -82,8 +82,8 @@
       "confidence": "medium"
     },
     "sentiment": {
-      "value": 49.5,
-      "date": "2026-06-01",
+      "value": 55.2,
+      "date": "2026-07-01",
       "cadence": "monthly",
       "series": "UMCSENT",
       "uiLabel": "Verbraucherstimmung",
@@ -102,10 +102,10 @@
       "cadence": "daily",
       "method": "proxy",
       "components": {
-        "vix": 15.21,
+        "vix": 14.51,
         "brent": 88.24,
         "eurusd": 1.1684,
-        "us10y": 4.66
+        "us10y": 4.67
       },
       "uiLabel": "Marktstress",
       "shortText": "Verdichteter Stressmesser aus Markt- und Preisvariablen.",
@@ -127,7 +127,7 @@
       "name": "Europa",
       "score": 22.0,
       "label": "Stabil",
-      "date": "2026-08-27",
+      "date": "2026-08-28",
       "summary": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "driverText": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "inflation": {
@@ -140,7 +140,7 @@
       "growthOrRate": {
         "label": "ECB Einlagezins",
         "value": 2.25,
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "unit": "%",
         "cadence": "daily",
         "series": "ECBDFR"
@@ -230,9 +230,9 @@
     {
       "label": "VIX",
       "icon": "⚡",
-      "val": 15.21,
-      "chg": -0.24,
-      "chgPct": -1.55,
+      "val": 14.51,
+      "chg": -0.7,
+      "chgPct": -4.6,
       "unit": "",
       "dec": 2
     },
@@ -248,9 +248,9 @@
     {
       "label": "US 10Y",
       "icon": "📉",
-      "val": 4.66,
-      "chg": 0.02,
-      "chgPct": 0.43,
+      "val": 4.67,
+      "chg": 0.01,
+      "chgPct": 0.21,
       "unit": "%",
       "dec": 2
     },
@@ -6938,6 +6938,10 @@
       },
       {
         "date": "2026-08-26",
+        "value": 3.63
+      },
+      {
+        "date": "2026-08-27",
         "value": 3.63
       }
     ],
@@ -14389,6 +14393,10 @@
       {
         "date": "2026-06-01",
         "value": 49.5
+      },
+      {
+        "date": "2026-07-01",
+        "value": 55.2
       }
     ],
     "tradeStress": [
@@ -20604,10 +20612,10 @@
   },
   "news": [
     {
-      "title": "How will stocks perform when the Fed chair speaks at Jackson Hole? Here’s what history tells us.",
-      "source": "MarketWatch",
-      "publishedAt": "2026-08-27T18:31:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQTBpclBJREdMVGktakVobW1UbXVES2tSclNoaTlDeHpfUjQtdFhRVFhWLVZDQW5YaEtSYTE5U0tBSmFkdnJVUGM2Y1F3ekF0d2JYTVAxWFY5bTl0M0VISk1tNHVYeE5SU0UtWlRZQmdsN3dNMm1kRVNyV1JUanR2M0F3UVMzaTZNai1HS09zVV80RVZYYV91d0FGak41OUs4ZDBVMnpQMFhuaDlzU1V5TlJ0aVFSTzNSU2pob05MNGlDU1RxdE52bGF3N1AxRjB3ZFE?oc=5",
+      "title": "WATCH: Fed Chair Warsh signals stubborn inflation may require rate hikes in Jackson Hole speech",
+      "source": "PBS",
+      "publishedAt": "2026-08-28T14:00:04+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeTZYd1JtU2tpSmRvbTJqT2J5VHpCQzJMVFR5WWJlZ3ppLTNjU3prR01jeUtWSXVEbWZScmw5S2RfdmVES3dEOThSeGwwMGVvOWs5NWpjNjU3M3JFdmpsVlRyaFJ6cEU4SWptdUM2MWotckR3dDYzSkxzUUJyOEtWbDFkMzJWZG1sSWd3d3Q3d3BndjlIb2ZfaGthSDlWdFZESEpkdERKbEJ4VnVGRmJGZFRR?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -20622,10 +20630,10 @@
       ]
     },
     {
-      "title": "US Federal Reserve’s Kevin Warsh gears up for key Jackson Hole conference as inflation fears mount – business live",
-      "source": "The Guardian",
-      "publishedAt": "2026-08-28T06:25:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNZmRTZXRPRlZQR3RlQXZJUUpObjFaNTQ2OWtadllPUV9nTkZyUEE1U2c5MV9wTlQwSnUzU1VzMDkxcTFMbTBLS1k2OU0tSkVfbEk3MWVpU2NXWm9tWWNFSFc5Y1dMVzhHVWEtYXBpS3Jibk1LV0pPRW55bzFIMlUxUy1pdFBYWmNYOWdsd1pIM0oyRy1aUDFKMVNNUC1KN1ZmRGNRdzlhVzJ3WGFKSG0xbTRuSVVaaG5HdTRLalhxNlVnM0lpbDlHd0hmYjFmc3RrWUx5V2MwOUZRbFBhcU1VWlo3SldRc3BHVl9wNU1IanZzQQ?oc=5",
+      "title": "Investors Expect Higher Rates After Fed Chairman’s Inflation Pledge",
+      "source": "The New York Times",
+      "publishedAt": "2026-08-28T18:49:59+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZVVNSWJVV19KbXhlZEVYaEU2eUlsUUVaeGV0QjBlYUtKU0ZZOEg0MExlOFBobmk5YkFPUVoyRlJjMnh5WmxQWWNCTHo4NTZBdVdYSVBLeVVDS0czcGVKNWRGM1RNT1NMTUtQOEk1WHVHTHlvQ0p2Zjg3SUoyQ1lqSVpVUDRGdmdaek5zSjVpTnc4dw?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -20640,27 +20648,10 @@
       ]
     },
     {
-      "title": "The Stock Market Is Flashing a Warning Seen Just Once Before. History Says This Will Happen Next.",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-08-28T08:48:57+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNd1lMTnk2OVJOTlJhNWloZjJVQlBrWUcxRGprbUstRUxjRnJROXA4VFRZQkpZSXduTEcwNDByTVpkS2NKUU1iNExaa1FYTVRFSFdTdWw1MzI3QVgwWjZOanFyc1lQaEF2Z2Y5UURudVBQQnRPYzlNT05LXzl2bEdwYVB5ZTJpVHVVVGVkY3JGVEdhR0xTT1hv?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "US Stock Futures Slip Before Warsh, Bonds Steady: Markets Wrap",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-08-28T07:23:58+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcXF1NHQ0LWhMdzBlazhSMUtBNFVrd1ExVGZwVFpoLUxSMnpaaXpYTGpaOEhXNEVxZjRXM2ZNVm5TNm9LdmZRaFlMbWphMW1pcnJrWHRPbGRmaHpmUVNLQXFVWVJVZ0xDMkZITnZFc1BhdTlQU3oxclc2UXdIbVV5RUVCUTZUZzNHWFl6R2JfaDVOWmJW?oc=5",
+      "title": "US stocks hold steady after expectations rise for the Federal Reserve to raise interest rates | National News | 2news.com",
+      "source": "KTVN",
+      "publishedAt": "2026-08-28T14:58:38+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOWlkybW1sRktIOVNFYTdlVW1FZElTUEhONFcyaTFDOHc5WG5QaDIyYlpXdDIyR0Q4N2hYaFRqbTV2SmoxX3NjdUxyb2RYYVlzZmN0MFdLSVNmQ2FtRWU5M0pNOWlnd1JLMno1Z2NmVk51a2dKb0FiaGZXSnRzVG1rVHdfLU5xOG1CMkNNc3B6emFsUENiczJ2WFpFQjNhWnpLdUk1NUZFY0JKOUoxSlVjemtfbGFETFUySVZuQ3RvTUdqemdnRE4zTzZGaHNRWEFQeHBseEJoNWxjRFlhWjl2R2JQdlJETXZhYkdwRXJUU00ybnhqdVZFWmlrV3JJR1dDWTc0ZURsOGQ?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -20675,37 +20666,56 @@
       ]
     },
     {
-      "title": "Nasdaq Jumps 411 Points as Nvidia Stock Soars on Big Earnings Beat: Stock Market Today",
+      "title": "Wall St Week Ahead Jobs report, Broadcom results pose next hurdles for stock market rally",
+      "source": "Reuters",
+      "publishedAt": "2026-08-28T20:22:36+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTjVfaWU5QkF5T0paRm0xSHdteDJHZjB1YTVMcmNZcjVWNHQzcWV2Rm1FaVd3RFN5OHFndERRRUljQ2dYMjhJQXdER21XMEJjQThvN0JONTRJNlpNUEt2V2xCWGtFdmJQcVMydi1MSEtDd1lsQVR4Q2ZYZDlldFI0VE5odDc3LVU1NDB5SlRQVlh3NWg4Tjl1Y2J0blJxczFyVUNmYlZ2b0hCZ1o1SzdiMFdEUHRfWlBWUTlCLVRtN3g?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "The bond market prepares for a hike to interest rates, while US stocks drift lower",
+      "source": "Boston Herald",
+      "publishedAt": "2026-08-28T18:52:40+00:00",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZzIxdGhkemdDdDYyNVZYWHU0X2ZPRVlOaDlfTmgzVFhvbi00ekQ4VG1ocFJ0Y0NlVzFVTWhyTEo1dlZEenZwMVU3STh6c0VLbF9raUZCenNpOFM0emZxa3JZQmFlaFd3NExvbkJmLWI5YU5ncGNBMS1UTkotMi1OVFVSQ0w0SXc?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Stocks Turn Down as Warsh Talks Up Rates: Stock Market Today",
       "source": "Kiplinger",
-      "publishedAt": "2026-08-27T20:10:26+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSGpOLWl2YjU3MlBXdkxjb0lIdHFjZUhZbUI5cTFPRkE4aEM1dGxFUXBFTmk4Wm1yQS1xZEVmcURPTVVQcWZ0R0lzenZYcjVvU3AxMUNoQ2hoTHh0RzFXdS1NLUtiUUIzUXN1WUNXVGh5WHRTSlJDaDZXdVlQdkRQVG9jMThSNXBmNkJ5c1VuSFNidmZ1NGV2WVNQV2NFZ0lHT1N2N2F5aHV2VjQ?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "publishedAt": "2026-08-28T20:11:11+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOHBJYVNLdGlXY3VrUm9jNFVaa0lYbThpV2pEckdPb3M4bmZYUENqNVZYUGowUW91bXRQd3dBeGFqUmpBemhHUEIyTTZOdG1UbTZWSHo2djNBRDZ4aDRKUmZpZ1JpQmt2NEF2WGVmejFQQmIyV0ZrbXdrZEE0NjIwM1BTTEtxcHliZkU0VmpOUFBzdldrWXczVGdVUGtia2cySFdrNg?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
       "assets": [
+        "Staatsanleihen",
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Stock Market Today, Aug. 27: Salesforce Surges 23% on Anthropic Partnership and Q2 Earnings Beat",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-08-27T22:27:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOU0FwN1h6YWI3MW1WZElRdEdjaVFQVnpPUHZqT1RYZ1Q0SlJ4eGU2MFJMWjl5ejVpTHdYM2I3b3JYVHlDTmpDeFNHNVZHT25IeDVOOHZCcnJ3bHhDTUFsRTFOamxjNWdUeHNtZ0IweWVPUDFzcmxQdFZVVDFxR1Rja3lPZ3Y2TFJDU1hCRTMxYi1hYV81TzE3al8zZHZBZXIwalhvZG1SeDVLRjZYVXE1ak9JRmxzTFFBQ3RyUXFlVDBQUFg0TE5MX2NfQVNETnlFdkRDUXl0SzdNVGJ0OFo5ZE5WcGtaUE5G?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "US-Dollar",
+        "Gold"
       ]
     }
   ],
@@ -20759,7 +20769,7 @@
     {
       "id": "A",
       "title": "Basisszenario: stabile Marktphase",
-      "probability": 59,
+      "probability": 60,
       "summary": "Wachstum bleibt grundsätzlich intakt, während Belastungsfaktoren überschaubar bleiben.",
       "supportedBy": [
         "Marktstress bleibt begrenzt",
@@ -20792,7 +20802,7 @@
     {
       "id": "C",
       "title": "Stressszenario: defensivere Marktphase",
-      "probability": 16,
+      "probability": 15,
       "summary": "Mehrere belastende Signale greifen gleichzeitig ineinander und erhöhen die Wahrscheinlichkeit einer klaren Risk-off-Phase.",
       "supportedBy": [],
       "probabilityChange": {
@@ -20812,7 +20822,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-08-28T10:50:23.646761+00:00",
+      "dataAsOf": "2026-08-28T22:03:00.478419+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
