@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-31T23:40:30.816396+00:00",
+  "fetchedAt": "2026-09-01T04:33:18.575197+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -66,10 +66,10 @@
       }
     },
     "sp500": {
-      "ytd": 12.44,
+      "ytd": 12.07,
       "first": 6858.47,
-      "latest": 7711.76,
-      "date": "2026-08-28",
+      "latest": 7686.14,
+      "date": "2026-08-31",
       "cadence": "daily",
       "series": "SP500",
       "uiLabel": "S&P 500 seit Jahresbeginn",
@@ -98,7 +98,7 @@
     "tradeStress": {
       "value": 16,
       "label": "Entspannt",
-      "date": "2026-08-28",
+      "date": "2026-08-31",
       "cadence": "daily",
       "method": "proxy",
       "components": {
@@ -120,7 +120,7 @@
   "globalComposite": {
     "value": 35.7,
     "label": "Stabil",
-    "date": "2026-08-31"
+    "date": "2026-09-01"
   },
   "regions": {
     "europe": {
@@ -221,9 +221,9 @@
     {
       "label": "SPX",
       "icon": "📊",
-      "val": 7711.76,
-      "chg": -19.23,
-      "chgPct": -0.25,
+      "val": 7686.14,
+      "chg": -25.62,
+      "chgPct": -0.33,
       "unit": "",
       "dec": 2
     },
@@ -932,10 +932,6 @@
       }
     ],
     "fedRate": [
-      {
-        "date": "2020-09-01",
-        "value": 0.09
-      },
       {
         "date": "2020-09-02",
         "value": 0.09
@@ -7661,10 +7657,6 @@
     ],
     "sp500": [
       {
-        "date": "2020-09-01",
-        "value": 3526.65
-      },
-      {
         "date": "2020-09-02",
         "value": 3580.84
       },
@@ -13679,6 +13671,10 @@
       {
         "date": "2026-08-28",
         "value": 7711.76
+      },
+      {
+        "date": "2026-08-31",
+        "value": 7686.14
       }
     ],
     "sentiment": [
@@ -14401,10 +14397,6 @@
     ],
     "tradeStress": [
       {
-        "date": "2020-09-01",
-        "value": 22
-      },
-      {
         "date": "2020-09-02",
         "value": 22
       },
@@ -14426,7 +14418,7 @@
       },
       {
         "date": "2020-09-09",
-        "value": 22
+        "value": 28
       },
       {
         "date": "2020-09-10",
@@ -14438,19 +14430,19 @@
       },
       {
         "date": "2020-09-14",
-        "value": 22
+        "value": 28
       },
       {
         "date": "2020-09-15",
-        "value": 22
+        "value": 28
       },
       {
         "date": "2020-09-16",
-        "value": 22
+        "value": 28
       },
       {
         "date": "2020-09-17",
-        "value": 22
+        "value": 28
       },
       {
         "date": "2020-09-18",
@@ -14478,7 +14470,7 @@
       },
       {
         "date": "2020-09-28",
-        "value": 22
+        "value": 28
       },
       {
         "date": "2020-09-29",
@@ -14486,11 +14478,11 @@
       },
       {
         "date": "2020-09-30",
-        "value": 22
+        "value": 28
       },
       {
         "date": "2020-10-01",
-        "value": 22
+        "value": 28
       },
       {
         "date": "2020-10-02",
@@ -14502,7 +14494,7 @@
       },
       {
         "date": "2020-10-06",
-        "value": 22
+        "value": 28
       },
       {
         "date": "2020-10-07",
@@ -14558,11 +14550,11 @@
       },
       {
         "date": "2020-10-26",
-        "value": 28
+        "value": 34
       },
       {
         "date": "2020-10-27",
-        "value": 28
+        "value": 34
       },
       {
         "date": "2020-10-28",
@@ -14582,7 +14574,7 @@
       },
       {
         "date": "2020-11-03",
-        "value": 28
+        "value": 34
       },
       {
         "date": "2020-11-04",
@@ -20611,15 +20603,73 @@
       {
         "date": "2026-08-28",
         "value": 16
+      },
+      {
+        "date": "2026-08-31",
+        "value": 16
       }
     ]
   },
   "news": [
     {
+      "title": "Yields rise, oil jumps; US and Iran resume military attacks",
+      "source": "Reuters",
+      "publishedAt": "2026-08-31T22:56:48+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0dYVnlvTDVQRkF4YmQxMW9FUElDRmNweFlHclBUa1R5MmZsSHk5WEtnV3B5bFVFeFJhMGMtSWxsV0FqR0Jsc1ltUENJUEs4RWR0QlVnTFBBc2hIbzJmdl9hZVpOS2dGM2Q2ZFF1MmtLallPblc1ZGtJTFhzNTQzRGNhaw?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Stock Market Today, Aug. 31: Stocks Edge Lower as Oil Prices Surge Again",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-08-31T22:07:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQdlFKbVJYcmhHUG9pTk9XdWNjczkwQllkSE1BTFpmaDN5emMtTVROdDJmQWYtWFkxcEpJdzJEb3FxLXJBREFJX3Aycm9TV2lzSzdyZ29RcUdkSVJIeVpfcGZqWlVWSi1sUlRmQmUwLTFnZm1zbEJ0ZzlsV0ozcndYWFBELVdhaVBTdXpYLVo5OTZUNlc3OWZKZ2c4OEoyUHVwaW5NZlBMX0lXSERBVFFtQXJWRVJ3NGdMT0ZqUUk3ckVTOXlldXVvTDdn?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Oil prices rise and stocks fall after U.S. hits Iranian sites in the Strait of Hormuz",
+      "source": "Spectrum News",
+      "publishedAt": "2026-08-31T20:36:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaXlMd0NZcGxGRnpTVDBiOXdzekJZMWh1NnJjQmJCTlQwdzY2ZGlJMzlnaTVuS1BIbnBKTFgxcm5zRWVtR1A5S0FRWkFndG0tZFpEanZ5N1hoSG14ZVhkVENQU0h3ZjNqU2ZLamlzc0ZDeFlVaHR5YVNCVUNLbzF6NGdvS2tRLXNFOFMxaVZEOTU0RFROaEpBcWhMZ1RMTU1Hc0dCQ3dZZFdYZkY2cEdidnlDZnE?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
       "title": "Oil prices rise and stocks fall after US hits Iranian sites in the Strait of Hormuz",
-      "source": "LancasterOnline",
-      "publishedAt": "2026-08-31T19:38:39+00:00",
-      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQNkV6QkxUaGdtcmV4NDRmTTA1NnJ1dTNoSWF2RkdoRU5lcVpIVUJ3YlpYdWxkMVAzZlBTNWViclZHelEyM3lrdjlPdlVWOWxKZzJBTGJmX1JuV2N6QWJMS1lxUE9pR2swdGxuek5TbFY2Ql9VOV9jUXNjaDdUVGJhOURoWFRwVmlDeEVuUEhBamw4N244T1F2VVFuWl9yRWFTS1hqOENsbG1XR1dib05sUWR6ZVAxSENjd3JXcnV6ZW05LVBMdWkyajkwV214NFNnQU05YjVSY0NHMWhNTGUxTWF3c2ZmY1dZS1UtSlJQbDItRVVRdndPTDhacHBGV1pjZGhyM25Kaw?oc=5",
+      "source": "ABC7 Chicago",
+      "publishedAt": "2026-08-31T19:06:52+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONkJQbVVsWDlPdFBGTWNKc2Y2dGtXWXpiSml1NTdFbVprbldwZy0zeTBNTnY5anEweGFlbWRndmVwdWNzNlVZNEg5SWg0R0ZKZU43LWdCNXVXWEY1YWZWZTBPWFUwRG5jOF9TLTNoMnp1Q0dKNEdmUFdyQmxpZTJNTmo5U0gxS1V5cmdvZzE5anhxeEZVZVphZWExbXd4eF9GVDR1eG51bnBYb0FpbHhkdXduONIBuAFBVV95cUxQcGkzRklON3dUZl9femVLSkN6WVozZzcxRXhyVExscDMtaFFwc05hU3g3d0ZGTHNxQWg0ejBOanYtU1NhWUJQSU85SVZ2bm03ZWlRd1RrUEtkVnVsUHYtOEhDZ3huZkhwRVpFTnItRFJsaGt0Vlp3YkFlZUliWW0xd2c0bm5JeU9Wa0VEYkdUdG52NDI1ci1YdEJOTHR2Nm95ZktnaktpME1uUVN5d05Wc0hRakh4akVX?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20651,63 +20701,9 @@
       ]
     },
     {
-      "title": "Stock Market Today, Aug. 31: Stocks Edge Lower as Oil Prices Surge Again",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-08-31T21:34:34+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQdlFKbVJYcmhHUG9pTk9XdWNjczkwQllkSE1BTFpmaDN5emMtTVROdDJmQWYtWFkxcEpJdzJEb3FxLXJBREFJX3Aycm9TV2lzSzdyZ29RcUdkSVJIeVpfcGZqWlVWSi1sUlRmQmUwLTFnZm1zbEJ0ZzlsV0ozcndYWFBELVdhaVBTdXpYLVo5OTZUNlc3OWZKZ2c4OEoyUHVwaW5NZlBMX0lXSERBVFFtQXJWRVJ3NGdMT0ZqUUk3ckVTOXlldXVvTDdn?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stock Market Today: Oil Climbs on Fresh Middle East Flare-Up as Dow and Nasdaq Fall",
-      "source": "Eurasia Business News",
-      "publishedAt": "2026-08-31T19:03:47+00:00",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMnhLdEVxRWltWHpMcGxaSE5fY2pjVUtoa1daS2xmRENGakc0UHA1djdFckZIUVNEeE5aZ2Z6UHdFSlZMUFFPZmszbkJ6UnlrVDc3RGo2cjV2Q0V6NjVLc2hpSTV2OEJDYkxNQTlONEZvOXRJZDAzY2U0YXNyZThvS1R5UGVWUWw4cVRGOWRoRzZpUHVFS0VLYnA5ZF9LU3R2dkFWbjF3aVpnOTZUQzN2Ry1ZeWkydU9jZHFpaWVEblBGb1RG?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Yields rise, stocks ease, with oil gaining as US and Iran resume military attacks",
-      "source": "reuters.com",
-      "publishedAt": "2026-08-31T17:21:20+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0dYVnlvTDVQRkF4YmQxMW9FUElDRmNweFlHclBUa1R5MmZsSHk5WEtnV3B5bFVFeFJhMGMtSWxsV0FqR0Jsc1ltUENJUEs4RWR0QlVnTFBBc2hIbzJmdl9hZVpOS2dGM2Q2ZFF1MmtLallPblc1ZGtJTFhzNTQzRGNhaw?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
       "title": "3 Stocks to Sell and 3 Stocks to Buy for September",
       "source": "Morningstar",
-      "publishedAt": "2026-08-31T20:48:45+00:00",
+      "publishedAt": "2026-08-31T20:51:16+00:00",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQN05wdENLRmRFS2JtWEVQRHRiZmQ4Y1dtaFltX0lvMnRhNUF6NVI0ZTl0SG5UcFN3MnZsMU5mdFZqYTdOWnFZb3ZUN3BqMW1yTi1pNW1mMVhfYXN4cTFQSjVzaEdNa1dYTkdaa3VpTHVtYXJsSjMzclhmR0FETlBuNkVrUXFCb2Z3Z1k5eDJNLUMxWU1wZkNR?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
@@ -20772,7 +20768,7 @@
     {
       "id": "A",
       "title": "Basisszenario: stabile Marktphase",
-      "probability": 60,
+      "probability": 59,
       "summary": "Wachstum bleibt grundsätzlich intakt, während Belastungsfaktoren überschaubar bleiben.",
       "supportedBy": [
         "Marktstress bleibt begrenzt",
@@ -20805,7 +20801,7 @@
     {
       "id": "C",
       "title": "Stressszenario: defensivere Marktphase",
-      "probability": 15,
+      "probability": 16,
       "summary": "Mehrere belastende Signale greifen gleichzeitig ineinander und erhöhen die Wahrscheinlichkeit einer klaren Risk-off-Phase.",
       "supportedBy": [],
       "probabilityChange": {
@@ -20825,7 +20821,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-08-31T23:40:30.816396+00:00",
+      "dataAsOf": "2026-09-01T04:33:18.575197+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
