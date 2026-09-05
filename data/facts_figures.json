@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T22:15:53.458535+00:00",
+  "generatedAt": "2026-09-05T03:54:30.034362+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -46,7 +46,7 @@
       "value": 6.6,
       "unit": "%",
       "tone": "l",
-      "status": "50T liegt bei +6.6 % gegenüber dem 200T. Schlusskurs 26584, 50T 25990, 200T 24379. NASDAQ Composite (Fallback) über 50T (25990) und 200T (24379). Trendstruktur intakt.",
+      "status": "50T liegt bei +6.6 % gegenüber dem 200T. Schlusskurs 26507, 50T 26012, 200T 24398. NASDAQ Composite (Fallback) über 50T (26012) und 200T (24398). Trendstruktur intakt.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -56,10 +56,10 @@
     },
     {
       "label": "RSI (14)",
-      "value": 56.8,
+      "value": 55.2,
       "unit": "",
       "tone": "m",
-      "status": "RSI (14) bei 56.8. Kein Extremniveau in beide Richtungen.",
+      "status": "RSI (14) bei 55.2. Kein Extremniveau in beide Richtungen.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -69,10 +69,10 @@
     },
     {
       "label": "Drawdown vom Hoch",
-      "value": -1.9,
+      "value": -2.2,
       "unit": "%",
       "tone": "l",
-      "status": "-1.9 % vom Hoch. Kaum struktureller Druck.",
+      "status": "-2.2 % vom Hoch. Kaum struktureller Druck.",
       "history": []
     }
   ],
@@ -702,12 +702,6 @@
   "charts": {
     "chartLabel": "NASDAQ Composite",
     "qqq": [
-      {
-        "date": "2025-06-26",
-        "close": 20167.91,
-        "ma50": 18588.63,
-        "ma200": 18652.59
-      },
       {
         "date": "2025-06-27",
         "close": 20273.46,
@@ -2501,13 +2495,15 @@
         "close": 26584.06,
         "ma50": 25989.5,
         "ma200": 24378.83
+      },
+      {
+        "date": "2026-09-04",
+        "close": 26506.99,
+        "ma50": 26012.47,
+        "ma200": 24397.83
       }
     ],
     "rsi": [
-      {
-        "date": "2025-06-26",
-        "value": 69.3
-      },
       {
         "date": "2025-06-27",
         "value": 70.7
@@ -3703,6 +3699,10 @@
       {
         "date": "2026-09-03",
         "value": 56.8
+      },
+      {
+        "date": "2026-09-04",
+        "value": 55.2
       }
     ],
     "vix": [
@@ -6112,10 +6112,10 @@
   },
   "news": [
     {
-      "title": "Stock Market Today, Sept. 4: Planet Labs Dips 1% Despite Earnings Beat, Full-Year Guidance Raise",
-      "source": "fool.com",
-      "publishedAt": "2026-09-04T21:48:26+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOZ25yejVhRXlvM2VOWjVlV2xqcDlLM2t0d3lDSG1OemcxWUY5WHIyYTM2MVZXeGFRZUtyX29Oajk2UEdVSXdibE44YXZsXzF1dTh0ekw4VmZ1MHZyOVJEUWRTV1ljY1M4TEhObkdveGRTSjNfX2FDQnA3VEkwTnR5WFVrZWdXZnJrYkRPQmYyN2QtdU05NGZEVDczREhXMkZNODJONUlXZFNlSzhoZF9VVldOT01vMVZXTDRza0k5ei15OHZRZndJTkNRU1B0RjhJZFQ0SEFwRkFyNTZXcWdsS3l2enFvMjg?oc=5",
+      "title": "China’s 26% Earnings Boom Lands With a Thud in the Stock Market",
+      "source": "bloomberg.com",
+      "publishedAt": "2026-09-05T00:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPY21ITGlDYTdRMVVPRG9vZmVKNzNfb0JCU0haUzNOeU93Ri04NzZ4alB1OEJSWno5d3BUUVRYdTF2WTRKM21TczJXc3hMUjUzOURhd0hRNEkzaHFRejhNcXZyMkxIT3FSQ3M1cUhNSTF2VWlDa0RGOHo3SDBBWUdBU2R1RVhGWExUaWRCdnVrZUlnU0NpckNkU1RlSHlKd1FrVUlfQ21LTmVWeHdwbVdGUnNyVQ?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -6147,6 +6147,23 @@
       ]
     },
     {
+      "title": "Stock Market Today, Sept. 4: Planet Labs Dips 1% Despite Earnings Beat, Full-Year Guidance Raise",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-09-04T22:14:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOZ25yejVhRXlvM2VOWjVlV2xqcDlLM2t0d3lDSG1OemcxWUY5WHIyYTM2MVZXeGFRZUtyX29Oajk2UEdVSXdibE44YXZsXzF1dTh0ekw4VmZ1MHZyOVJEUWRTV1ljY1M4TEhObkdveGRTSjNfX2FDQnA3VEkwTnR5WFVrZWdXZnJrYkRPQmYyN2QtdU05NGZEVDczREhXMkZNODJONUlXZFNlSzhoZF9VVldOT01vMVZXTDRza0k5ei15OHZRZndJTkNRU1B0RjhJZFQ0SEFwRkFyNTZXcWdsS3l2enFvMjg?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
       "title": "This week in charts: China deals, stock flatlines and Lilly’s M&A spree",
       "source": "BioPharma Dive",
       "publishedAt": "2026-09-04T15:58:15+00:00",
@@ -6164,10 +6181,10 @@
       ]
     },
     {
-      "title": "Yields rise, stocks mostly ease after solid U.S. jobs report",
-      "source": "Reuters",
-      "publishedAt": "2026-09-04T02:34:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9rcFlLejhNNm1fZ1hhM3NvLV8zZTJuOTE5QUVSUVR2V0IxQWpuLUZxVHFmRXpWVHd2OWU0cUR3eW9ZMFZKQnhwcFdrOHBZclNEZkF1X01MYmw4dUZTbU9zWGJPMEJ4N3FXNkY1MHAwSFZWenJGVWM4blVzbw?oc=5",
+      "title": "Stock Market Today: Dow Sinks Amid Rate Fears; Sandisk, KLA Lead Nasdaq-100 As Utilities Gain",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-09-04T20:55:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYkUyaVlUWHNXSGZvWXY0ZFVyMk1mZWxWVm8yVmR3MkI0cWNSNE9XV09MZmw2Wk5CNHV5Z0p5bENxU3pmMkc5MjhzMWN3M19SSnVmQVNKNEpQRGE5Uks3cW54a05FaFNUdVVLN3lnMDlyR1RiSXZpX2h6MER0aXBmQWJoLXV6bmxjeldhVV9DSlEtMG1Bc1JDZnJIZkdyQmo1X3c1WEdRLVRtR2JSa0VSdzNJWkFzZw?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -6182,27 +6199,10 @@
       ]
     },
     {
-      "title": "Japan Has Not Done This Since 1990. If It Happens, the Cheap Money Propping Up US Stocks Gets Expensive",
-      "source": "24/7 Wall St.",
-      "publishedAt": "2026-09-04T19:18:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNOXA2WkNFbXdGUHBodG5malNfem1IZGlfWTZveGlqenMtajYyVUtaejdVU0ZIUDZTWTIwemRaT21GaS1qVUFhRTFpbm5vVkt5MWhXaGlZY1VZczdibVBEMlItSUxSTXZmWDVtWXpXNGVxNHNOU1FIWE9JZS1FYkM3WEdXM2dqTWtPTDZwTlFPaF90VjR5YVcyRjVUbndxdkVCVUpWeHM3cEU3Z2diT0ZSZ1I5ZkpOSkhGeHhST0tGcGhiVXprbDJiTkl6S2UwLW1TUGhvcVZMbEFVQVVmY3c?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
-      ]
-    },
-    {
-      "title": "Stocks fall after a surprisingly strong jobs report raises prospects of an interest rate hike",
-      "source": "LancasterOnline",
-      "publishedAt": "2026-09-04T11:44:13+00:00",
-      "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPdlRrMXRHY0twa1NHOWlyUGk3di1Fa0xraWRnajYwNWJOM295blZkcS1kcVItRmRUc1NiMzBFeWZlelRGZVoydktLWndTMmZQcEJZRFI4SVhNM2NkV2U4RWF6Q3MzUmFnZF9jdmk3Ty1KT1BnNlI3WENGUDUxUTJUQzN2YTQwX1cwNHh0cHQ1bTVxd1hhNURHdmw0VndhWEE2cmo0bmx1OHQ3ZEdjR3ZZSXN1eWZ6aXZPVjIxX0dpRldYdDF5M3BaNHlNRTZzZUR2cnRpWVFUM0NfT3NTUDhvbHhBMFhtQzdPYjlBRnFObGgzVy1yWWp5SWtlZkd0bS1BSmNzSTZ6UFJNaGQwNEVuNmpaVQ?oc=5",
+      "title": "Yields, dollar rise, stocks ease after solid US jobs report",
+      "source": "Reuters",
+      "publishedAt": "2026-09-04T02:34:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9rcFlLejhNNm1fZ1hhM3NvLV8zZTJuOTE5QUVSUVR2V0IxQWpuLUZxVHFmRXpWVHd2OWU0cUR3eW9ZMFZKQnhwcFdrOHBZclNEZkF1X01MYmw4dUZTbU9zWGJPMEJ4N3FXNkY1MHAwSFZWenJGVWM4blVzbw?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
