@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-06T03:59:24.111368+00:00",
+  "fetchedAt": "2026-09-06T08:36:31.078823+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20624,20 +20624,20 @@
   },
   "news": [
     {
-      "title": "China’s 26% Earnings Boom Lands With a Thud in the Stock Market",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-09-05T00:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPY21ITGlDYTdRMVVPRG9vZmVKNzNfb0JCU0haUzNOeU93Ri04NzZ4alB1OEJSWno5d3BUUVRYdTF2WTRKM21TczJXc3hMUjUzOURhd0hRNEkzaHFRejhNcXZyMkxIT3FSQ3M1cUhNSTF2VWlDa0RGOHo3SDBBWUdBU2R1RVhGWExUaWRCdnVrZUlnU0NpckNkU1RlSHlKd1FrVUlfQ21LTmVWeHdwbVdGUnNyVQ?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "The Stock Market Has Done This Only 2 Times Since 1871 — and Both Times Ended Badly. Could Trump’s Policies Raise the Risk of Another Market Meltdown?",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-09-06T07:46:14+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOTHN1NFNoajdwZVJzU1J2bHFobWcxbUw3TFlacFFSSzhYc29DclZTM1RtMExaUzVaNWdFWkQ1NjZBeDRWZTFqUUJPNEJWdlVfa1dNcWRJQTJjTzBCSGNISG5PTVBLSEY0a0NlWGhFdmptZ3N3QTEzbFk1enJpOEQyUUJJMkRMWXc4cU1icThmTThPeVZ2S1lqc0xfYUJvRFc2bWlsQXBkcWZZc29uMXJOdlBOcFZ5VVlWRi1WRWZJV1JQLTRMNVVhaFFQdjlIT0lhV2V6am51WG9TMWlTYkgzczNIYjEwRTgyMHprWjdGN3k3dmJ1LU5IWnJibXBlN09fUDZGSFAteWhTTXlZdlVrZks4SE5NOVRH?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
@@ -20659,8 +20659,25 @@
       ]
     },
     {
+      "title": "China’s 26% Earnings Boom Lands With a Thud in the Stock Market",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-09-05T00:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPY21ITGlDYTdRMVVPRG9vZmVKNzNfb0JCU0haUzNOeU93Ri04NzZ4alB1OEJSWno5d3BUUVRYdTF2WTRKM21TczJXc3hMUjUzOURhd0hRNEkzaHFRejhNcXZyMkxIT3FSQ3M1cUhNSTF2VWlDa0RGOHo3SDBBWUdBU2R1RVhGWExUaWRCdnVrZUlnU0NpckNkU1RlSHlKd1FrVUlfQ21LTmVWeHdwbVdGUnNyVQ?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
       "title": "What to Look Out for in Economic Data This Week (September 7-11)",
-      "source": "kiplinger.com",
+      "source": "Kiplinger",
       "publishedAt": "2026-09-04T14:56:02+00:00",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MeVNwMVVnVmhvRWo4b0N4WkhCRXQxTVRtb2ZmTWhCSmd4eERsN3Nfdllwejg0eG5ueFFCRUdPTzVUaXh4dEFZaWJqN3FFZnlFWTBlZ2ZvVkFFRzVScTR3TXRhZGl6MHp2RUF1clppVDRvR1lveC1FaXNCeXQ?oc=5",
       "bucket": "Marktkontext",
@@ -20673,6 +20690,24 @@
         "Aktien",
         "Anleihen",
         "Währungen"
+      ]
+    },
+    {
+      "title": "West Asia conflict, crude oil prices, US inflation to steer stock markets",
+      "source": "Rediff",
+      "publishedAt": "2026-09-06T08:19:38+00:00",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNOEdTV1lwMUVfc3l0YnhIM2ZCT3lpdHFKTWRNN1hHM3B2V3U5NVNwdmw3eWZFeDNkY21YVHNZVnZIOUUyVnBrXzdXajF4dElHdTA4X21WcjhiQWZoQ2xBRGJsWk9md2JpM2NJWENhMTFZQzJpV0g1c2Jldy1rMEJNLWh2YndiNFI4X2ZEZjZDQ2RQYmFSRHJHUTFGdlpranYycmRkS1EyLVR6UTBFQV9xeXRUQW9XVEFwbjkyVnF4czhZMlpfTi1mU3cxQ2RkZ9IB0AFBVV95cUxPMGRkcEttdWptQkpjbHo5YTE2cGZZUjVCd0g5T004OXBfRnpwU0VydjhOMS1SZGVqTm5HaGlvR2NHbDQ0WWJib0wxaTRKU3lGZUR0bXUzVXdibGpYWnVCXy1iOExyLUVRa0pqdUdLcGxkdjd3a0dBMkJwNl93S1RxVkw0T2kwQ3NFR1RfY0Znak5Nb2pLS0JsWnJBOG5HSnJiS0FlZnU5a3QyTUFta3dKcUlROEtVRWZ6VHotUGp2b3JYWXBfMXJhcGRFZlZUb3JX?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
@@ -20691,40 +20726,6 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "The Stock Market Just Did Something for the First Time Ever. History Says Investors Should Be Worried. But Could This Time Be Different?",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-09-05T08:45:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQRGp0OXRpbFItWktaZml3MzhaVkFVTHJ6YVo4NU5HQWdkQTI0ei1iWFNIT1pnd2JOUGM4YjlsSGVWY2oyWUVOamxBUUl5YUlvUGVNQVRyRUo3UlQ4UEVlU21EZkhNbEFRRDdIWVFWcmJqd0dBeFVWVHhEV3pWYUxRekhkRHhWY1ozbFhxTFhrTnozSGs1SFEtaHUxcGtrX3ZMUlhXNVIzaWJUZ3dwcVU3bTlmcHBiUjhIeXVCMmNVQVhpY3dhX09EekNLaHNxTi1VWmpQV3dqN3BPV2d0UktYcFJJUnpydDVVVlIyT0t6b1BRYlJIUXlGQ2IwYzhKY1FMaU9mWndNVQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Equity in earnings of Jones Ventures INTL Acquisition1 Corp – NASDAQ:JONER",
-      "source": "TradingView",
-      "publishedAt": "2026-09-05T23:24:35+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUl92TEZfdmI1eTFBb3FWOFhFY0hVY2lMVEtNUTN0ZG03UmktMEtMcDkwWUhqdE9nOWhxVkJrNXdKRHU2cDVzWHVnMENZVFFZMWJ4R3pDY0FmRE1iNk9NZThCek16R1JoWUJEZ3VVTmE4TGtBQy1oMXkxZ1hYTDdITjFNb19rMHNXTzZNTElaRU8tYXB3WFM1dkRwMU4?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
       ]
     }
   ],
@@ -20831,7 +20832,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-09-06T03:59:24.111368+00:00",
+      "dataAsOf": "2026-09-06T08:36:31.078823+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
