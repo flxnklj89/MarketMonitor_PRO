@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-07T03:58:51.542961+00:00",
+  "fetchedAt": "2026-09-07T09:15:20.116985+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20642,7 +20642,58 @@
       ]
     },
     {
-      "title": "Oil Edges Higher on Renewed Middle East Tensions: Markets Wrap",
+      "title": "China Stock Market May Open In The Red On Monday",
+      "source": "RTTNews",
+      "publishedAt": "2026-09-07T01:03:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQXlGcnFEZ0ZVN29DWUtkSkFxcDN0S1pnbVZ6ZjdSSzkyTlBxN2dRTTk4Tm5yTXZyRE52bmhIbTZjYUctXzRsME1td1lrcGszWXZzMzYzZDZQMUhUMzRXWWh2dllFRGk3UW9mV0trbTFtRWpncElTZTJqbElVVk9TcDJKcHJBNG5JY0RXaWFn?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
+      "title": "Global shares are mixed as chipmaker shares rally in Tokyo and Seoul",
+      "source": "lancasteronline.com",
+      "publishedAt": "2026-09-07T08:48:36+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPbTBmV2ZvbVVtQXYtbDd4THNNOVY1VDFXRDFuM2RGbTVnYktCR0s5MGd2VkRjeXM2Y0NGaEFScmpHb2JrZkNEUWZJajlFUEcyazZuaUEzQWJrc2ZlQi13T3hJMWhCcmsteFJDdFVGeFdrRHVBQk5oNjlZMm5XYkRUd0NYMjg3MnlaekxmLWtvVkpSZjliT3MzRFlZSHBBMVpZRGJRVC1Tb3pETDYtVHJXenk4bk9MTXZIQk9Yejh5R1pkeDNxSU9nY3hjZFpYaS15NHlpaGRNalI3NkxCa0lXSi1PaHB2QldVT0JjYnE0dndvckhXNm1fbjZGcE4?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "China’s brokers expected to continue robust performance with mega IPO offering",
+      "source": "South China Morning Post",
+      "publishedAt": "2026-09-07T08:00:11+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWVl4dTVjQXI5TExSUXl1RUR6cV9JMktCR2xfRVRFZ0NBdjRFNlNUX2F1WVFGbncxNktGSUx2THZMM2lrNEliLWpjSHdFeEg0Yi1kLUlaUTRuQVpjVFY0eVMtM1pacm1wWUZzWmx1UVc3OVJHTU9rZXpPbDVFN0RsNUxGSUlMUGwxbzkyckF6c1NET1hLcExOSVN5aUNPLVFST3lDTi14dDIwQlhneWZueUZ0TUl6UWNNdzR6dWxfUk1aUGJ6VHZhZC1qemdzTm55V1NVSC130gHWAUFVX3lxTE9ZWXh1NWNBcjlMTFJReXVFRHpxX0kyS0JHbF9FVEVnQ0F2NEU2U1RfYXVZUUZudzE2S0ZJTHZMdkwzaWs0SWItamNId0V4SDRiLWQtSVpRNG5BWmNUVjR5Uy0zWlpybXBZRnNabHVRVzc5UkdNT2tlek9sNUU3RGw1TEZJSUxQbDFvOTJyQXpzU0RPWEtwTE5JU3lpQ08tUVJPeUNOLXh0MjBCWGd5Zm55RnRNSXpRY013NHp1bF9STVpQYnpUdmFkLWp6Z3NObnlXU1VILXc?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
+      "title": "European Stocks Dip as Oil Rise Offsets Tech Gains: Markets Wrap",
       "source": "Bloomberg.com",
       "publishedAt": "2026-09-06T22:15:34+00:00",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTG0yNmpRcVhUMEtpTlVEZFoxaE9DVS0yX0hRbTQyamFBQW9JejQyNnhfdEFGRGJhc1Y0dlhsTkt3M2NwN2JSaUN4dTFJUDRCZlNkWTVSdzI4QW1ZRDVhUUVYZzBFZnB0RDFmZFBZR0Vnb3BzcXJzMVYwSU53YUpqS0lDelBpd2JiempVcnNnXzVpVWE2?oc=5",
@@ -20660,28 +20711,10 @@
       ]
     },
     {
-      "title": "Asia shares bounce, others cautious as oil rises",
-      "source": "Reuters",
-      "publishedAt": "2026-09-07T01:06:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0pobHhGSWlxLVNZa2htLURrNldPaHUyOGVyQXVBeGtJOWJDUXpqMXFSTDBCaHNkeFI5Q0Y2NUdFNlJoWUZlVGQwR2pGZk5oc1R5TzFLbUdFMU1aY3NGTXVhOGFTeFZOenRpbUlNc0ZiTjQtMnNaRVUtTVNrWEpLeGprbw?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "China prepares £40bn stimulus for financial sector amid fears over sluggish growth",
-      "source": "The Guardian",
-      "publishedAt": "2026-09-06T15:48:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTHVFSUVRc3dfRFlBN3gxVFdkRnNSYW8xOG4yOWVjcFJYb3djU3R2MjdBYW84Z0dockd4dFI2cS1zVGhVMGRmajRwWEFMRW81T18tUkstRFRaNzM3VWFxcy1IMWU4ZTRDU0NXeWVQeGtYUFhFWnNublBzTFNGZTYyMVlqMmhFNDY0ZUVQWURVeFhGbGx3dmh5TnBvRGkzbzFoSWZYTzNwbFNIcUdYdFRsNnVOeUdnWWNTeE84ZHprRWFnMmp3TXc?oc=5",
+      "title": "Economic Watch: Five Years on, China’s Youngest Stock Exchange Carves out a Niche for Small Innovators",
+      "source": "iChongqing",
+      "publishedAt": "2026-09-07T04:59:36+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPclJNQjQ5ZGJwMG1tVVFIdkJheV9OS3NUeWpCYmdobkJjSmdDeXNqcXl4cmtNcC1rV1BqOVBqTTZRMzBxZ1pMTmlDdzN1Vzl1MUdEMWUzbXU3YkJhRzV3UndmSkUycFU4NFIzREdkWjl0Qm45V1pBQl9YX2hTNlMtMDNZQWJUOUdUMFpoQkpaVzQ2cl9TRGFjbXhKckxDR3RiRTdVMHNENlBXcENiVWVBTW1LSTA4UFZRT3VXWjl0TVRwVkI1OEtQcjF4MHV5TFh0NmRxU3dQOXVDcDTSAdsBQVVfeXFMT3JSTUI0OWRicDBtbVVRSHZCYXlfTktzVHlqQmJnaG5CY0pnQ3lzanF5eHJrTXAta1dQajlQak02UTMwcWdaTE5pQ3czdVc5dTFHRDFlM211N2JCYUc1d1J3ZkpFMnBVODRSM0RHZFo5dEJuOVdaQUJfWF9oUzZTLTAzWUFiVDlHVDBaaEJKWlc0NnJfU0RhY214SnJMQ0d0YkU3VTBzRDZQV3BDYlVlQU1tS0kwOFBWUU91V1o5dE1UcFZCNThLUHIxeDB1eUxYdDZkcVN3UDl1Q3A0?oc=5",
       "bucket": "Globales Wachstum",
       "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
       "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
@@ -20692,40 +20725,6 @@
         "Weltaktien",
         "Währungen",
         "Rohstoffe"
-      ]
-    },
-    {
-      "title": "Possible Stock Market Crash: When to Buy and Which Stocks Could Benefit",
-      "source": "finchannel",
-      "publishedAt": "2026-09-06T18:53:59+00:00",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNd0xTNGE0bExJTEJHb0FFU2UzYXlsektTSVBPSWstbE5Cb2xGUTlrWC1rd2lzZGxCMkxlN3VJRl9ZdTc2S0dmNjNwX1dEaExaQnhqbl9uLTNzQy1QMkVzSnpTLWkwMUdELUFqSmdfZ2RtOVlzamotZTZkS0lsVEZtc0RJRUZ0RS05eEFUbk5iaTh0N2oyMTB0WXU1bjloQjdZZE1ic3VmWmlUWXctcU9FNnhpQm1JMHlRN2xpcGQ0a3lEN2dhMm5na3lSaXZpU1U?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "The Trade Desk Stock (TTD) Opinions on Recent Earnings Guidance and Market Decline",
-      "source": "Quiver Quantitative",
-      "publishedAt": "2026-09-06T17:33:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWW9kbnNfc3UtdFlhMjJpYi1ZNWtHelVmallwbVE1WDBfRlFIU0N5RF9KYjBqOXlsczVIRERHcmFoR1ZMNlBtdlBpTkRxbHpuLXEzdjNpWFBoWThRUUt5RzZwNlZqVnYwbFRJRXM3ejRneC15N2VHN1IzV0llMGdCb0Z2cVpnWHR0QVZnSnVuaUJUX2N3TlpEZnVUVDh3eFlHaFJMLUNBRUtaR3RCbTVFRVhvYnFaTDBSeWxB?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
       ]
     }
   ],
@@ -20832,7 +20831,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-09-07T03:58:51.542961+00:00",
+      "dataAsOf": "2026-09-07T09:15:20.116985+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
