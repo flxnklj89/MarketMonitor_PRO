@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-08T19:21:07.943679+00:00",
+  "fetchedAt": "2026-09-08T22:29:27.978469+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -104,8 +104,8 @@
       "components": {
         "vix": 15.3,
         "brent": 96.02,
-        "eurusd": 1.1598,
-        "us10y": 4.77
+        "eurusd": 1.1618,
+        "us10y": 4.78
       },
       "uiLabel": "Marktstress",
       "shortText": "Verdichteter Stressmesser aus Markt- und Preisvariablen.",
@@ -147,8 +147,8 @@
       },
       "fx": {
         "label": "EUR/USD",
-        "value": 1.1598,
-        "date": "2026-08-28",
+        "value": 1.1618,
+        "date": "2026-09-04",
         "unit": "",
         "cadence": "daily",
         "series": "DEXUSEU"
@@ -158,7 +158,7 @@
       "name": "Japan",
       "score": 52.0,
       "label": "Beobachten",
-      "date": "2026-08-28",
+      "date": "2026-09-04",
       "summary": "Japan wird über Wachstum, Preisbild und Yen-Stärke gelesen. Ein schwacher Yen kann globalen Stress und importierten Preisauftrieb verstärken.",
       "driverText": "Japan wird über Wachstum, Preisbild und Yen-Stärke gelesen. Ein schwacher Yen kann globalen Stress und importierten Preisauftrieb verstärken.",
       "inflation": {
@@ -178,8 +178,8 @@
       },
       "fx": {
         "label": "JPY pro USD",
-        "value": 159.97,
-        "date": "2026-08-28",
+        "value": 156.11,
+        "date": "2026-09-04",
         "unit": "",
         "cadence": "daily",
         "series": "DEXJPUS"
@@ -189,7 +189,7 @@
       "name": "China",
       "score": 33.0,
       "label": "Stabil",
-      "date": "2026-08-28",
+      "date": "2026-09-04",
       "summary": "China wird hier über Wachstum, Preisbild und Yuan-Stärke gelesen. Schwächeres Wachstum oder sehr niedriger Preisauftrieb können globalen Industrie- und Rohstoffdruck verstärken.",
       "driverText": "China wird hier über Wachstum, Preisbild und Yuan-Stärke gelesen. Schwächeres Wachstum oder sehr niedriger Preisauftrieb können globalen Industrie- und Rohstoffdruck verstärken.",
       "inflation": {
@@ -209,8 +209,8 @@
       },
       "fx": {
         "label": "CNY pro USD",
-        "value": 6.726,
-        "date": "2026-08-28",
+        "value": 6.7108,
+        "date": "2026-09-04",
         "unit": "",
         "cadence": "daily",
         "series": "DEXCHUS"
@@ -248,18 +248,18 @@
     {
       "label": "US 10Y",
       "icon": "📉",
-      "val": 4.77,
-      "chg": -0.02,
-      "chgPct": -0.42,
+      "val": 4.78,
+      "chg": 0.01,
+      "chgPct": 0.21,
       "unit": "%",
       "dec": 2
     },
     {
       "label": "EUR/USD",
       "icon": "💱",
-      "val": 1.1598,
-      "chg": -0.0056,
-      "chgPct": -0.48,
+      "val": 1.1618,
+      "chg": -0.0005,
+      "chgPct": -0.04,
       "unit": "",
       "dec": 4
     }
@@ -20620,10 +20620,10 @@
   },
   "news": [
     {
-      "title": "Why Stocks Are Defying Gravity and What Could Bring Them Down",
-      "source": "The New York Times",
-      "publishedAt": "2026-09-08T13:53:50+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPeVhZcEJvZ3BfMlcxazNWZFlTdUdaN0RZUk16aGh4TndmTTRFMnVrejJnbHA3eTRONzRrOXNlZ2ZrRG1sQlB0dFJqMlVPNzRNVG1PT0RvaDF4bGM0WFhrR2U5dS16VWlnNlUtb2tpWXhHdGVmTW1VdGJWR3dGVFlja0ln?oc=5",
+      "title": "Weekly market commentary",
+      "source": "BlackRock",
+      "publishedAt": "2026-09-08T20:10:57+00:00",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20639,7 +20639,7 @@
     {
       "title": "Oil prices keep rising and weigh on Wall Street",
       "source": "LancasterOnline",
-      "publishedAt": "2026-09-08T13:45:03+00:00",
+      "publishedAt": "2026-09-08T19:34:46+00:00",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPZ1p0QzdoZ3JOeGVLTl9qb1VCelVDMG51dS1CMWNSSEhmUU5ubW13a2hiZ0txS2ZzeHd3M2l3bndSZ2JTNGM0MzhFbFFzeWNPdU4zZmQtcG1aX1FrYTFmSU00TGQ3ZGNtRFlVRGY4Q0dMSk5DSnJZblpvbngyQnVKb1ZrMnV6WUlSMmRsM0Zna0doOWEtOXhOd0tDX1A4TWpzdmZFbzNaZzRvTEo3dFZTZlhqZmw3dDJTY3d4eDNHTXNCYnJfM1lWNWhJUV9SZV9pcUZaUDRoVHVDM08zQmdFUA?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
@@ -20655,20 +20655,39 @@
       ]
     },
     {
-      "title": "US stocks drift lower following their return from a 3-day weekend",
-      "source": "Boston Herald",
-      "publishedAt": "2026-09-08T17:58:52+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQblVweWsyMWhiUzh6SDJBQzBmc01MYlh3RjBUcXZyYTVvaENEcFUxakNIS3JUQlVUVFNNcW5jdzFWZlJJcm1NTnJnbDlTVzgzc3duYVBLVHNTSUZXMlVtVGNOU0FwLXhVWFFqSmRUamFDazdsdmFBTzNvLUdLaUZvXw?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Wall Street slides, oil surges amid worries over inflation, Middle East",
+      "source": "Reuters",
+      "publishedAt": "2026-09-08T20:17:40+00:00",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE82VU5LOUdHSU5uLWxoeWs1bi16RTM3dUozczYtZXhPUF9RRFEtUVNTQmphRjloY2k5dkxodEZ1eTZnRjF4NU90clpNZGZJTnk1SEJXME44NDIxT1JNNW5rWW80VGlNbDJXNDdjMHN4YXd4eTRLb3RJLW5Ybw?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Stock Market Today, Sept. 8: Stocks Slide Amid Surging Oil Prices, Persistent Geopolotical Tenisons",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-09-08T21:49:32+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVk1vVkdUWE9UdExfZU9sNDgwUlJjNzlJSGEzMk5hTUV4T3duaUd4Ty1hOURiQkY4T0VlNlBsdUVnWjhSX2Qyd0tqMS1pQ2xaTDF1TkdRUlJUd1RWMGNTV192VnhGTVRrcVgtWkNUS2NrWHM1NDRtajZ3c0NMNUMwVWtUcDk5WjJwUFpQNU1uZWl5enJiS3dXY3lUNjVmQnJfZTI2MmNVRzRoQnktaDRYU014b0UtM3pZd1hEOGVJLUtZY1dlaThQSE92NkthYnZyYktPdHVzUEtQVkdMZU1QSzV3b0dBN09Ldk0yQw?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
@@ -20690,38 +20709,20 @@
       ]
     },
     {
-      "title": "Earnings Are So Strong That Stocks Keep Getting Cheaper Around the World",
-      "source": "inc.com",
-      "publishedAt": "2026-09-08T11:39:10+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVkwwQ0ZBcmVXdnNNM1dwUk9Xd0V4TExUc2ZVQnZlQ2VSS05scWhwZzRlcWN4bEFBRUNxSWhFeFBWREFSWEU4WXI4MjgwNTdacXIwbldsZXB6ZVh2cTVhWElGb3p0NW9jUWluTmxEb01VUV90XzUtSm83MVBVZ1pCeGQ1UXowc0lmaE5wWXdVcGo5aG85MlRMbw?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "S&P 500 falls as AI worries hit software makers",
+      "source": "Reuters",
+      "publishedAt": "2026-09-08T20:18:27+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNjZqc0tNY1VPMHZtRldqOUxwQzJYN0JtWEpoUVNoNGw4U3I5UnVCYXVjd0ZEUUw1SnZhc1JkWnFoTmFoYlVrZ0R3ZlFaQVQ3cmR6ZDVURG1vU1VoR09EcXI4Sl8wemY1RlU2WFJOQ1h6TXpSbUIzdS1WTDhXZnRONzFjRlI0UGIwQTVkeUxWN3YyMkhHeHd6ag?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "S&P 500, Nasdaq Slip as $98 Brent Reignites Inflation Fears: Stock Market Today",
-      "source": "tradingview.com",
-      "publishedAt": "2026-09-08T17:13:16+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNc05nQmJCSUMxRkwxSkZSb0NjSV9HVGNJcVM2SjVJZG00SVVSOEhoMV9HalBLS19semhWRk9kUG9uQ3ZtWkZEZmNZUFlkMUFCeFdlcHN0Qk54T3I2WXV5VkNOU1RGYWwyRGh2WGpjZWx5YnNMVEdGX19pS2VKdmszR0dNSnZ4cWNsci1mWG00OHZlakpyaFVFbWdjVDQyY21iX3Y5YTF0RXJxNThOTDBhWjZXRFcycEd5MTYyS2I3S3dVaVFLTUVZbDQ4UkVkZEJN?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Anleihen",
+        "Währungen"
       ]
     }
   ],
@@ -20828,7 +20829,7 @@
       "actionMatrixKey": "normal"
     },
     "statusLine": {
-      "dataAsOf": "2026-09-08T19:21:07.943679+00:00",
+      "dataAsOf": "2026-09-08T22:29:27.978469+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
