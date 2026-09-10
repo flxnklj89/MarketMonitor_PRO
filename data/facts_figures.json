@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T22:23:34.840511+00:00",
+  "generatedAt": "2026-09-10T04:05:35.750003+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -46,7 +46,7 @@
       "value": 6.6,
       "unit": "%",
       "tone": "l",
-      "status": "50T liegt bei +6.6 % gegenüber dem 200T. Schlusskurs 26421, 50T 26035, 200T 24418. NASDAQ Composite (Fallback) über 50T (26035) und 200T (24418). Trendstruktur intakt.",
+      "status": "50T liegt bei +6.6 % gegenüber dem 200T. Schlusskurs 26253, 50T 26044, 200T 24436. NASDAQ Composite (Fallback) über 50T (26044) und 200T (24436). Trendstruktur intakt.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -56,10 +56,10 @@
     },
     {
       "label": "RSI (14)",
-      "value": 53.5,
+      "value": 50.2,
       "unit": "",
       "tone": "m",
-      "status": "RSI (14) bei 53.5. Kein Extremniveau in beide Richtungen.",
+      "status": "RSI (14) bei 50.2. Kein Extremniveau in beide Richtungen.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -69,10 +69,10 @@
     },
     {
       "label": "Drawdown vom Hoch",
-      "value": -2.5,
+      "value": -3.1,
       "unit": "%",
       "tone": "l",
-      "status": "-2.5 % vom Hoch. Kaum struktureller Druck.",
+      "status": "-3.1 % vom Hoch. Kaum struktureller Druck.",
       "history": []
     }
   ],
@@ -702,12 +702,6 @@
   "charts": {
     "chartLabel": "NASDAQ Composite",
     "qqq": [
-      {
-        "date": "2025-06-30",
-        "close": 20369.73,
-        "ma50": 18738.89,
-        "ma200": 18686.25
-      },
       {
         "date": "2025-07-01",
         "close": 20202.89,
@@ -2501,13 +2495,15 @@
         "close": 26421.41,
         "ma50": 26034.95,
         "ma200": 24417.77
+      },
+      {
+        "date": "2026-09-09",
+        "close": 26253.34,
+        "ma50": 26043.61,
+        "ma200": 24436.22
       }
     ],
     "rsi": [
-      {
-        "date": "2025-06-30",
-        "value": 72.0
-      },
       {
         "date": "2025-07-01",
         "value": 66.5
@@ -3703,6 +3699,10 @@
       {
         "date": "2026-09-08",
         "value": 53.5
+      },
+      {
+        "date": "2026-09-09",
+        "value": 50.2
       }
     ],
     "vix": [
@@ -6110,112 +6110,5 @@
       }
     ]
   },
-  "news": [
-    {
-      "title": "Markets Rocked as Crude Oil Knocks on $100: Stock Market Today",
-      "source": "Kiplinger",
-      "publishedAt": "2026-09-09T20:12:49+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWV90blk2SHZOTEtBUFBnUDZFUUlBNUlRWDFqYVBGZnZCWnJFTHFJdEZnajNsTDNpMlBwRE5Tdy1kazE4M2Z1NlJCYkdJakhRVHZRQUZMS1VGRzRiby1lc2ZwVDhKenhiOVpTU3ZGZmVRc3dhNmR4Q1UwQXJSMF9OX25qRnNzaU16dk10dzdEWEpxdTlTejdRTk5ZbkR5T0FsOGw0Zjh4SEFXQQ?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "S&P 500 ends down as oil tops $100 per barrel",
-      "source": "Reuters",
-      "publishedAt": "2026-09-09T20:15:15+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZExkRWJ1dThFMjNOZWdHdkJuSFd4UENUUko1cUI2aWJNMkQzb3FtYm5kNWUza3hVRVQ2Qlk0WjFGRnlGZWRhbzVMckNacFc4NDRXbzRqTmdyWWxTdVZoQ3pYNjY2Nm9pNHJRTUo0dlhkNkFzN2NSZ3BYR2Rqb1dfYkFjWHI1eW5USFlQd200RzI1cVVYY0VsdEZMbDdNQnZrLThZ?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Investors: Sept. 16 Will Be a Critical Day for the Stock Market. Here's What You Need to Know.",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-09-09T18:03:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbXNYMTlJZ29tT3hkMDI5X3lWVjZ3a000eGpVd2taS0JIQ01sMlFYOUs0a0xGWkVBa1BVeXJRd1pBRmJsME5WelBuTDFqb2tscko5RjZQTWZFT0h2ejk2RXNWWXZwQ1Q3bklueHFDU0k5TEhhZ0IwNHFVcUhITTRYRk5uVmZqelZMUFI2N3puOA?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Stocks fall on Wall Street as oil prices jump back above $100 a barrel after Iran war escalates",
-      "source": "Hartford Courant",
-      "publishedAt": "2026-09-09T20:38:45+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAyU3l1bVVwdmQzOC0yLWhtbUdZV0xBbElkUVZBZDdyYzhXMkxnTU1OQ1hCTExybnZ5WEtLM2xWSUlxQUZNMVZTNHE5T012RjdCSkJ0QzdNNGQyV0dxZExiUzVTbGxfTEk?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Oil tops $100, stocks slide as Middle East tensions escalate",
-      "source": "KSL.com",
-      "publishedAt": "2026-09-09T18:20:04+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWHNTd2hFOENVRmlsczFVQU9SX1pjeDU4TjNfMnJ3OTFmV3lQZDV6UHg3UWhKY0VSVk5PVTlONFpYaEc4X3F3cXVFOU8zMng2bWgxdUgyVFZQQVNKWGZOT3ZHQ1ZyNkxxeWc3c194Y3A1cUxxQ0NKN0Y1WWk2eG4zRWxLbXpsc2J2MkZfMVY0Q2M4NFVGUFh0TksyWQ?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Analysis-Fearless US stock market vulnerable to shocks as midterms loom",
-      "source": "WTVB",
-      "publishedAt": "2026-09-09T11:30:51+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVDl6bkpTd3BKMHFQZjB6VTZpSlJjR0gzbUsxTlR0MkdlVFM5RlhENHpVOEl3di1WVjBGSmNfa0ljNnNkT2dlVHhuM05NcWxDZG9ka0VGNWRMeHc1T1JKU01DRWYycjFKRXZOR3RvaDNPNzVILWk5amV4NWg1ekRaN2tTY0IyUEpseWhZSmZ4b1MtbkM4bEE1NXhsRGx5TTRRQnprUg?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    }
-  ]
+  "news": []
 }
