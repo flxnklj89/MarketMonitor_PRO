@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-10T22:22:38.547165+00:00",
+  "fetchedAt": "2026-09-11T04:02:48.931104+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -66,10 +66,10 @@
       }
     },
     "sp500": {
-      "ytd": 11.34,
+      "ytd": 10.69,
       "first": 6858.47,
-      "latest": 7636.36,
-      "date": "2026-09-09",
+      "latest": 7591.7,
+      "date": "2026-09-10",
       "cadence": "daily",
       "series": "SP500",
       "uiLabel": "S&P 500 seit Jahresbeginn",
@@ -98,7 +98,7 @@
     "tradeStress": {
       "value": 37,
       "label": "Erhöht",
-      "date": "2026-09-09",
+      "date": "2026-09-10",
       "cadence": "daily",
       "method": "proxy",
       "components": {
@@ -120,7 +120,7 @@
   "globalComposite": {
     "value": 35.7,
     "label": "Stabil",
-    "date": "2026-09-10"
+    "date": "2026-09-11"
   },
   "regions": {
     "europe": {
@@ -221,9 +221,9 @@
     {
       "label": "SPX",
       "icon": "📊",
-      "val": 7636.36,
-      "chg": -37.16,
-      "chgPct": -0.48,
+      "val": 7591.7,
+      "chg": -44.66,
+      "chgPct": -0.58,
       "unit": "",
       "dec": 2
     },
@@ -932,10 +932,6 @@
       }
     ],
     "fedRate": [
-      {
-        "date": "2020-09-11",
-        "value": 0.09
-      },
       {
         "date": "2020-09-14",
         "value": 0.09
@@ -7665,10 +7661,6 @@
     ],
     "sp500": [
       {
-        "date": "2020-09-11",
-        "value": 3340.97
-      },
-      {
         "date": "2020-09-14",
         "value": 3383.54
       },
@@ -13683,6 +13675,10 @@
       {
         "date": "2026-09-09",
         "value": 7636.36
+      },
+      {
+        "date": "2026-09-10",
+        "value": 7591.7
       }
     ],
     "sentiment": [
@@ -14404,10 +14400,6 @@
       }
     ],
     "tradeStress": [
-      {
-        "date": "2020-09-11",
-        "value": 22
-      },
       {
         "date": "2020-09-14",
         "value": 22
@@ -20615,15 +20607,37 @@
       {
         "date": "2026-09-09",
         "value": 37
+      },
+      {
+        "date": "2026-09-10",
+        "value": 37
       }
     ]
   },
   "news": [
     {
-      "title": "Oil prices leap to their highest since May and drag Wall Street lower",
-      "source": "LancasterOnline",
-      "publishedAt": "2026-09-10T20:10:36+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOazNHcFB3QXRnN1dNYlZ1eXBZLV9PaU96NF9EY1Jfc3pWX3VoZldJSE9nV092bzNENVU5VHp6Nk41RDE3amhPbDJTZkNNVE9aRnJKdFBfWkxHRHFKcEFGYlQ0QUhWSC1LMkViRWtwSTA0UWh0S0RfV216SnF4ZWc4R2t2enotMlgya3lFU1hQWUVIUWdPSlhwa1Jid3BjcEFqa0NRWTNmZDF5Q3BkanpjZHpiZXhJd3JpVnVtSm5qQzhmZklxTEtnZHVKX1BIZnh4bG9KbWU4elc2aHhEUDdMYUdfQ3NQTGt2MUJlWFJ1MkdsZw?oc=5",
+      "title": "Dow Jones Futures, Oracle Jumps After Oil Prices, Yields Surge; CPI Inflation Due",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-09-11T03:03:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZGdpMlBVbExibHozSndzcGVmRE9SOVdnMnJDbmFSX2NSbjRQamJhd3R6dEkxX2tlaTkwdWRjVlplWkpsQTJoamljRzhQcXZkUmhDTmgtRWY0U1RwRUlEYUdoRmVmVkktM3FDNWpyVXRFNkpEWGl5ZlhHaGNadmVKTUx5NlhlQXE1ejdTUlowM0dGM1lPRkdTb2xRV2pKczR6aWtoLXRMWG11RDlUaXRuZDc3eUh1SDBmQ2NZQ2laTzBXMGtVQ0NpVjNhU2FvZ1ItWDhQWV9n?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Asian Stocks, Bonds to Drop on Oil, Inflation Woes: Markets Wrap",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-09-10T22:15:53+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdWtrNXA0SFF6bzRNNjVfYkFKMXVEMS0yTTVGNXJhMFJqSzlibVZ6MUtDdmVkb014NkRmZEhXSEwyVzZ5S2FoY2hBZHgzMG4tQjYtczBVWWotazYyU3JmamdjWkxyRTlCNGJsX3Rmb3VtZHdUSU1haW1sTkFtY29uQ0pUaXE5VmI4S0M1TGpzTEc3UnhJ?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20656,6 +20670,42 @@
       ]
     },
     {
+      "title": "S&P 500 ends down as Treasury yields rise and traders fret about inflation",
+      "source": "Reuters",
+      "publishedAt": "2026-09-10T22:55:15+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVUNZS2ZwczJmM0x1aEM5ZFJMbUhWckRSOE54a1NyTFZjb1NaNFNCZDFwOFJiMk40b1RJelZsVnhKOVNObGNGenNkZzVhUWtZRlktVzhTWk9Qc1EybkRweDk4RFRRUjh2bk1TU0lJazBncUFnUlcwcTlPVWY3NjBzdWVUd3JGTDlLeF9EMU1aTnEzSDctTVcxZVdzT1RZclZjanRhbkl3?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Oil prices leap to their highest since May and drag Wall Street lower",
+      "source": "LancasterOnline",
+      "publishedAt": "2026-09-10T19:00:53+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOLUM4MXQyN3Vna2ktZERxQUJfSzFuT2FlVUZ6a290MkhvejBzZHhqbURfVlBFdG8zeGh5WTZoZjIydlRERHhPdWxCVVJvd29xc0ZocFpNN2I2a2c0bkFtZjdMb2lwZVhUV1o4ZS0zejR0dzJGNWlqNTF5Z0tqWDNQRV9qRjJReWk1a0ktUkJRbVNwckRYVF9IcU1hQU5QblJfUjBzRjlBWEhwajdfdTg0dXd3cFNnZDUtRDV3d1Jza2pzb0ZLVDJESE9zZjVudXY1ck9aMWR0bEdGMkFZdHU3ZTU2aVdMbWlLOGg2alhMMnhpODFlZy1fM3pUblRLVFluTXFj?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
       "title": "Stock Market Midday, Sept. 10: Surging Oil Prices Pressure Markets Again",
       "source": "The Motley Fool",
       "publishedAt": "2026-09-10T17:31:00+00:00",
@@ -20671,58 +20721,6 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Wall Street dips, oil continues climb ahead of US inflation data",
-      "source": "Reuters",
-      "publishedAt": "2026-09-10T02:06:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ydjJlYXlTVHhNV0k4Z3ZMb19VVFdUR2taM2lOVHhOUTN6enJSZVVhODdiSm04TnhTNGFJMDVOUjN4eVhsdGZtcFQ2RVloaFNFZzh4TkpvaUtfQTRFUXFkRmctMjFiRHFnWFE2VlBvQm4yZk5NMmdUZkNOdw?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Prices Just Jumped Again. That Could Mean Trouble for the Stock Market Next Week",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-09-10T21:17:01+00:00",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbHBlVEJoUVRPSGk0YlVSZnRDTV95VFBaemJIVUNzOUpERnV1V0NDVGU1V0xSM211RGFEZlNUZ09ja1g2QVNnaHhnQ2Z2MVh3NjN1RHMzUXluZHlUY1IyQkNMa1dfQWlPbTA0RmdMalFKdFc0c1V6NVBoQy0ydDFMbFVsZWlhZmZNNHVnaUk5SVpxclJ0bk5iYmptay1GbG9MNFJqOVVKVFFKYmVFbmVuTkNvUkY0QnNIR2FoZ2Z0QQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "5 Things to Know Before the Stock Market Opens on Thursday",
-      "source": "Investopedia",
-      "publishedAt": "2026-09-10T12:18:07+00:00",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTnlJN0k5VXVVV3pDazhIdXJJb1RCUEp2VHlINUZpeTBmY1V3M2VXVlNUTjU3TVdVc01DVnk0RFA3QlNZeXZEWU5wZW5qbkhPb0pvajNnd09zT3Q0dGJscWpjcmw0a0VWTDNRbUYzZFNGNDhVcURwU0Fkd0EyTkwzeXo2NFFIV1MzUFFmdGpIZFU1RGNVbVZLT1Q1d3dmTmZKaktidUZhUDlmVVRNbXQtcHAtSlc?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     }
   ],
@@ -20829,7 +20827,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-09-10T22:22:38.547165+00:00",
+      "dataAsOf": "2026-09-11T04:02:48.931104+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
