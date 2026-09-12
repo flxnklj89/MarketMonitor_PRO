@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T12:03:30.536051+00:00",
+  "generatedAt": "2026-09-12T18:14:47.776375+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,6 +6112,24 @@
   },
   "news": [
     {
+      "title": "Dow Jones Futures: Fed Rate Hike Seen As Oil, Yields Pressure Stocks; Apple, Moderna Are New Buys",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-09-12T13:19:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNOWM1ZTV4d1ZVcjR3YTVEcEpPNlh3WnUwRG15VllLWlg3Ym93WGtCQ1lqRGFTV1BMSU54TUMtamtxZURaU2dtOXp3Sm5KUEpsaURnVURtek1NSkVYNTRlblUycnZraVpZTi0tQ1JISWtCZDRfRXpfSHVjYmw4ZXdrZGdXbjJPNTBWOFN6N19aQ3VYT0tTeEhQc3pVRG5RbEZ2NGZKUFBPS3pwamE5Njk3YkM4bEZROVJLbzVvSDhOalNyRFp4ZmloTm9RaEwxSDZ0bXZ6cVVsX0ZTTThyUmIwYzRFZE40dXViSERVVHAwNUJxdw?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
       "title": "Wall Street week ahead: Federal Reserve decision on interest rates, retail sales update",
       "source": "LancasterOnline",
       "publishedAt": "2026-09-12T08:00:06+00:00",
@@ -6127,24 +6145,6 @@
         "Aktien",
         "US-Dollar",
         "Gold"
-      ]
-    },
-    {
-      "title": "Stocks jump after oil prices ease and inflation update comes in near expectations",
-      "source": "El Dorado News-Times",
-      "publishedAt": "2026-09-12T09:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRHhRZjFNbVdIaGFHZ0tBVkZ1eXc1RzB4Z3JLWXY0WDZJWGhiMnpsa3RhYVRHekFod2hBNUdVNUdyTjFsQ3ZvUGVaSFFhZ2xzb2Jlc1FmbTVyTExjaXF0eEFuSVBLcGdRdWJuSGNzUXhROFlsTnpQbFVSdm5TMm5jSnY1bFV3QVpDeHVhWGhxWVN5RjF2bHVnMXNR?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
       ]
     },
     {
@@ -6167,7 +6167,7 @@
     },
     {
       "title": "S&P 500 ends higher as strong inflation data cements rate-hike bets",
-      "source": "Reuters",
+      "source": "reuters.com",
       "publishedAt": "2026-09-11T23:19:28+00:00",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQOTZpMXRyVmxGMjJTRmVVOV91TnZIWlJsZS1BNlE3bENxRlRlVnh2RFZKQmdwUVNydUJQd1RvZlZLam1KbnR2ZS1Vd2VNaWhrN3lNZ3hETUtvcTVxYTFEOENQQ292eWk0YXJYYjBrekoycE5sU0FqdloxRXNZcTcyd1dnYkFEdGpmMV9Pd0lwemdYWmd0aHZaYmpkWmlLOFgxdnc?oc=5",
       "bucket": "Zinsen / Inflation",
@@ -6202,10 +6202,10 @@
       ]
     },
     {
-      "title": "Stocks Fall For Week As Oil Prices, Yields Soar, But End On High Note",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-09-11T15:16:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbHFocXJwN3lZemt3b2dfRXRUaVBtaUNrcUNjQ2c4QVQ5OVJfUGhqcjNXSjdaXzlheGRjQTF6cnhxTjVCck0tTV8wbkpubTZSeFhpRTRvdHZfU0xBNEVRRXFIRFNvLXQ2Qk1lSUFHTG9sUnVsVFg3X1R6b21TQUNEUFQzX29yclBZLUNLWEp6bW1fRXlIcGltbjRiTUw0NnUzR19ldVJR?oc=5",
+      "title": "Cramer’s week ahead: Falling oil could help stocks but Fed is the next big test",
+      "source": "CNBC",
+      "publishedAt": "2026-09-11T22:35:09+00:00",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4za0Y2VFROODVOT0xTeEY2emNDUVdPcFVOWUhDdXBmMWJlMkZla2pLUWpYc2FXSXd0Z3BsZWVtTXFISG1nOUtMOEQtN2c3c2xIUjY1dlRsN1FfMmNocmxTREQ1RnNaUXoxX1BkTk9XT2cxQ19NLXVIWFNMONIBgAFBVV95cUxNZkxmRzZLM21pYXFILTlOendJRDFYOHFIRE5nRHg0Qi0zS2FBSDl1ZVptWFhKUlJJV2NtVDZPNjVWNnFsVTRORl9sVUZJYWlBTi1KME1KUGFZRnNhV1kwcWdVQlM3V1lYNWRsam9aeHpVdXNoNlNUZU9ETFdHc2NNbA?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
