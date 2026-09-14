@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T04:22:19.643078+00:00",
+  "generatedAt": "2026-09-14T14:54:26.612520+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -12,22 +12,22 @@
   },
   "marketStatus": {
     "phase": {
-      "title": "Erhöhte Vorsicht",
-      "value": 37.0,
+      "title": "Normalphase",
+      "value": 29.0,
       "unit": "",
-      "tone": "m",
-      "status": "Mehr Spannungen als in ruhigeren Phasen."
+      "tone": "l",
+      "status": "Signallage wirkt geordnet."
     },
     "vix": {
       "title": "Relativ ruhig",
-      "value": 17.8,
+      "value": 15.8,
       "unit": "",
       "tone": "l",
-      "status": "VIX bei 17.8. Unter dem langfristigen Durchschnitt von ~17–20."
+      "status": "VIX bei 15.8. Unter dem langfristigen Durchschnitt von ~17–20."
     },
     "breadth": {
-      "title": "60 % über 200T-Ø (Proxy)",
-      "value": 60,
+      "title": "65 % über 200T-Ø (Proxy)",
+      "value": 65,
       "unit": "%",
       "tone": "l",
       "status": "Näherungswert abgeleitet aus VIX-Niveau. Direktdaten nicht via FRED verfügbar."
@@ -406,19 +406,19 @@
           "value": 3.63
         },
         {
+          "value": 3.62
+        },
+        {
+          "value": 3.62
+        },
+        {
+          "value": 3.62
+        },
+        {
+          "value": 3.62
+        },
+        {
           "value": 3.63
-        },
-        {
-          "value": 3.62
-        },
-        {
-          "value": 3.62
-        },
-        {
-          "value": 3.62
-        },
-        {
-          "value": 3.62
         },
         {
           "value": 3.63
@@ -666,16 +666,16 @@
   },
   "crashProbability": {
     "title": "Crash Probability",
-    "score": 8,
-    "scoreLabel": "8 %",
-    "reason": "Stress 37/100, Rezessionsrisiko 0.8 %, VIX 17.8.",
+    "score": 0,
+    "scoreLabel": "0 %",
+    "reason": "Stress 29/100, Rezessionsrisiko 0.8 %, VIX 15.8.",
     "interpretation": "Crash-Risiko derzeit begrenzt."
   },
   "timingQuality": {
     "title": "Timing-Qualität",
     "score": 0,
     "scoreLabel": "Zu früh 16 % · Optimal 8 % · Zu spät 76 %",
-    "reason": "Bottom-Signal 30 %, Crash-Risiko 8 %.",
+    "reason": "Bottom-Signal 30 %, Crash-Risiko 0 %.",
     "interpretation": "Kein klares Timing-Fenster erkennbar."
   },
   "updateTriggers": {
@@ -696,7 +696,7 @@
   },
   "timeVsTiming": {
     "timeInMarket": "Langfristige Anlagepläne profitieren historisch von Korrekturen, wenn sie diszipliniert durchgehalten werden. Wer raus ist, verpasst die meisten Erholungstage.",
-    "marketTiming": "Das aktuelle Umfeld zeigt erhöhte Spannungen. Stress-Score 37/100. Wer neue Positionen aufbaut, profitiert von gestaffeltem Einstieg.",
+    "marketTiming": "Das aktuelle Umfeld zeigt erhöhte Spannungen. Stress-Score 29/100. Wer neue Positionen aufbaut, profitiert von gestaffeltem Einstieg.",
     "summary": "Die Trennung zwischen langfristiger Logik und kurzfristiger Marktlesart bleibt der wichtigste Hebel gegen emotionale Fehlentscheidungen."
   },
   "charts": {
@@ -3707,10 +3707,6 @@
     ],
     "vix": [
       {
-        "date": "2025-07-15",
-        "value": 17.38
-      },
-      {
         "date": "2025-07-16",
         "value": 17.16
       },
@@ -4905,6 +4901,10 @@
       {
         "date": "2026-09-10",
         "value": 17.84
+      },
+      {
+        "date": "2026-09-11",
+        "value": 15.84
       }
     ],
     "brent": [
@@ -6110,5 +6110,113 @@
       }
     ]
   },
-  "news": []
+  "news": [
+    {
+      "title": "Stock Market Today: Equity Futures Retreat as AI Concerns and Rising Oil Pressure Investors",
+      "source": "Eurasia Business News",
+      "publishedAt": "2026-09-14T10:25:06+00:00",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLUZQQ1hVZVN4dGNiVXd5MEJwUjVMcUhjRFdWdjc1RW8zR2dvX0E4eVpZejJ5QU5uTS1nLTdUWTg0dG1EaVJ1WGxDd0poZDdTLTZjSDZUa3FTTm5zNEIzcnlha1QtVW95NnJRNHpCUWViaTBqS2ZiQng4bWNaTUJPNUZsY001NXFCUnpiOERwSC1IdGJYempBdDgta1hoZjBVWTVDSWJ0SFlqaTZWcHJuTnhNcXFpSGdxMlpabmVkcDBFSVdabm1xY0dOdjdKUkE?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Doomsday fears are coming at exactly the wrong time for the AI-led bull market",
+      "source": "Business Insider",
+      "publishedAt": "2026-09-14T14:15:47+00:00",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRi1VRkJXM19TbUcySE9XNG5OM1p2MUFndFJwcXhzeTJjaXE4SXcyTk1yWUlSNW9SUDg3Q1Q4a1VQbkJBdVJBdEk0Y1hQUGxLeklmSU1Pay1GOUdSbDhRZUVrWVlZcldIdE8wbFZ3VklXRkxWZVlVY05ZMF8tb2VWYW1BM2U0bWhFUkhfY1h5VG9Fd0poTWgwWWRsamstRDcy?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Fed Meets Amid Uncertainty Over Oil, AI and Inflation | National News | U.S. News",
+      "source": "U.S. News & World Report",
+      "publishedAt": "2026-09-14T13:15:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUjJMLWotSmo2eUJXV3JZU0RJVHlGMGRhdnoxZGlxVFlRVzRIUzg5UVlLUnJCLXh5bldvMHp1VW15VktBNTZoS2dJYnhxQUdybDNwdDdaeEpvbTNueE9aM3NVS3o3eTJqZzlxV3p1ZzhRWGtDRlBaeGtqbkw5MUFvV29yWVlGcHI2bGVYc0llVTRvbHktT2ExNGpfVHFIV2ZqZURNV0Z0TGlTVFc1MXJDUDNfN2s?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Stocks dented by AI warnings; oil jumps again",
+      "source": "Reuters",
+      "publishedAt": "2026-09-13T23:11:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOXzFkaEptQk9Gc2REWUZ3MHpYU1ZjbFpqSVp2cFV6b21TMU9pSUNnRWlqajdrYnAwN2FZTzRvNzJvUVlSTkYzcWxDMFlVZ1Ftb2V6OVhURC1haHFyS0NLcnRZUHhpSFRCb3VuQUt4SFFGTHJnVEg4eW0wSHgxcVlmR0JoRQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Stocks Slide as AI and Oil Jitters Hit Sentiment: Markets Wrap",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-09-13T22:06:01+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPN2lGQUtDelJmdFZJeERjWWxaVXVFeEcwUUxtQjJ1bG40VVJZZmZyR1dzMDRvVkg4aG4zWFZaOWRtTlVRTW9lY05sZ3JzNGFSbTZwc25DNG9ONlZTUEJGSlkwTDZLSlJ1MmVtMm01SGZhdmxTRTBHWnowWmlrMFhDUmF4WWtHRnRqX1FUTE9Sbk1PMFJEU29fWFZhQTRpS3ZGcGljYWJneXgzb3EtYVE?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "AI safety fears, rising oil prices, a big season for prediction markets and more in Morning Squawk",
+      "source": "CNBC",
+      "publishedAt": "2026-09-14T12:24:33+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOHBaTnBJaHJ4WllWUHROaGMwdEx0TndZeWpXTk1TZ0lMNHdrQXlaNm9jNmRpcWlQNHQ2WDVBM1gteFR0S1BCYjFxdTI4QXo5MTVzaUNPSGFPbExfNE1aemVPR2NFRTJDSDJ4NjQ4clRqdmExZUtYeGd3VlNsU3VWYm1ReHd6YjV5SE5F0gGQAUFVX3lxTFBQU3F1cDN1b1RpZklSeU1SenUxNk9zN0xlQUgxU3JHLWhmVVFIcmhRbnJuWEFzNjZRM1JIMUNJVVcxZEEwSFBzTnk4U193cElZSm1OY0s3cUFMZzhCcXJQWXF1c1dfOTJGTTVEc1VPWVlkWWFCZi1uYnpQSDA0Yy1qRmthc2plR09fd2hHUHZRTw?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    }
+  ]
 }
