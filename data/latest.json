@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-16T19:27:47.412284+00:00",
+  "fetchedAt": "2026-09-16T22:47:43.003070+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -96,7 +96,7 @@
       "confidence": "low"
     },
     "tradeStress": {
-      "value": 43,
+      "value": 47,
       "label": "Erhöht",
       "date": "2026-09-15",
       "cadence": "daily",
@@ -105,7 +105,7 @@
         "vix": 17.2,
         "brent": 130.8,
         "eurusd": 1.1604,
-        "us10y": 4.97
+        "us10y": 5.0
       },
       "uiLabel": "Marktstress",
       "shortText": "Verdichteter Stressmesser aus Markt- und Preisvariablen.",
@@ -248,9 +248,9 @@
     {
       "label": "US 10Y",
       "icon": "📉",
-      "val": 4.97,
-      "chg": 0.01,
-      "chgPct": 0.2,
+      "val": 5.0,
+      "chg": 0.03,
+      "chgPct": 0.6,
       "unit": "%",
       "dec": 2
     },
@@ -20618,34 +20618,34 @@
       },
       {
         "date": "2026-09-15",
-        "value": 43
+        "value": 47
       }
     ]
   },
   "news": [
     {
-      "title": "US stocks slip after oil prices and the bond market crank up the pressure",
-      "source": "AP News",
-      "publishedAt": "2026-09-15T21:03:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOV01GUmI4UWMzUkZyNWJkbnBucjJXZlo1anh0LW1LLUl0X0E1dFBUX3ZjOHJLZk5TcVFLTTRCQjNOYXJYRjhFOTBNdEc3OEIzd0tTLWtfVzY1NUVZWkFlQzNGeFgxbHY1TFBXcjRpNDlKVFZXU0poLTBtTmJWREh0UUttQ1RLYnpXU3hrZ3BIU09SM2tVcnd3d0V2dEo?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "U.S. stocks slip after the Fed raises interest rates, hints more hikes may be on the way",
+      "source": "pbs.org",
+      "publishedAt": "2026-09-16T21:32:36+00:00",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQ0o4SEFnLXVuc0pFakhWQXNrNVdZOFBqTmZsR3dlMlFFZEluX2VWbEJPOGJkRkZ6a2tfaHZySVdpaVhYZk1aeGZFdjM2UExoOGMxc1BDbkcwUVFMaElEXzBUb2ItX1hmRVkxWjhHanJyV3ppMGJFcjhNY3BVYlZMNFVCemRaSW94Z1hBZy0yNmd3R29KMEppZThtNmxWaERxa3hfZzZ4WU5BV3AzN19xSTY0OEZwQmwzdGVSWC1SNNIBxAFBVV95cUxNQ3ZKZVFHbHpRSEo2cGs4RjlfMG1UdURsamh2Y3ExeEVkZzdmaGQ3OElrd0FpclpvUGQ1MFlKSHZ2VGFOc1hVN3ZmSVc4aGhIY3hvVm5UUlY0emc2bFNyU3ZGU0RFckhMekh6WE5FeklHLU9uUGZNOVZCQWJPdnctcTNJTmpTOGp0Q3ZVUjEzSWROc0V6VE1lY2hLLWNJWUlwTkEwQkJ1SVVtRlZrYlg5QUxoZEZFOFFzMXgwbkNPNzgzdlRa?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
       ]
     },
     {
-      "title": "Stocks Edge Higher as the Federal Reserve Raises Key Interest Rate",
-      "source": "WSJ",
-      "publishedAt": "2026-09-16T18:27:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPczAxbFRYYU1qN0lvd0FyaWUyX3BKTVc0OThtOXk2MS0wU1Vwb1hjTEE4WFNyVkpnS216RENLTHh3bXFXeWRTSEd0SWpXbEpmUjBFV09YdHNRZDFiZER6a3J5VW5oaVhqMUF5cFpKZENNZFZ2TUtvSU5ZN0F1WS12NXNTNUV1ejJUOGhxMjNUTExnLXlXaEp5VjNPbmVhWWFUenBYSWxOYmpoWmVfNXNMMDVqaXdFdTJm?oc=5",
+      "title": "VIEW Stocks pull back after Fed raises rates, points to another hike this year",
+      "source": "Reuters",
+      "publishedAt": "2026-09-16T20:10:10+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcHE5d2RsZk5YWi1pLWw0M0tWX0pGZl81OEcwZVJtUlJsbTVoUnpQWUxJYjZGSjhvMmlDd0JrcVVFQjJ0aFRJRkh1cTFteld2Y0lSeXhyMFllMU5vSGthbExhbzc5MVNSRTFHOS1JWVcwZ09jSllmTDJoeHBEUEFJanI2aEZqQm1PbXZJZHpwRHpRU2FoMG9EMmVoVmxiZ0h1YV8xTk12QjRMVm1LQ1Zfcm1qUGhUWkFH?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -20678,46 +20678,46 @@
       ]
     },
     {
-      "title": "Wall Street holds steady after the Fed hikes interest rates as oil prices ease | National News | 2news.com",
-      "source": "ktvn.com",
-      "publishedAt": "2026-09-16T18:36:36+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOM1FWb0dmbkZjRGV4Wm1WVFR6MmRKYVh6Vk5UZi1HdFBOS21tUTNCZ2Z3QXRwZlB3ZlVkM2JNM0lHR0ctV0ZZUzFkZU1XWVJkX3ZLVUMtajkxSVFnSmE0WkRjV05laVhzWlB2ZTRLRHBIVEZldU9KOW5tS3FJWWZHaHJ5TjFSZXVQUXlvQTVBR0dkVGNmeHNWQ0ZJYU95TXZtLTNCbV9lcFNjV0p5WFZhRlJMNjdnS2xHYWhuRkJXUHc3UlI0MmlPVGFXTkFyc195MmQxWVFhY1p1c29kME4xS25uWDJ3dkJsal83TFEtcE5sY29j?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "U.S. Stocks Fall After Fed Rate Increase",
+      "source": "wsj.com",
+      "publishedAt": "2026-09-16T20:46:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONzlDTWMtUEI0WmthSXloUDV3emx6WThIXzg1M2lCMEI0ektFSmZMR0VZNk9FZmIyVUc4MHJDX1o2NDBDbUo0NXBlRVplRUJ0UUVtcndzOWNRaXpLd3RwY3VmM0RXdTRMUDlJbzFUZ1ozWFE2MVVnc21hOHFqc1RXZE4xTUl5V09SSFlV?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
       ]
     },
     {
-      "title": "Wall Street holds steady ahead of the Fed's decision as oil prices and bond yields ease",
-      "source": "WRAL",
-      "publishedAt": "2026-09-16T17:44:38+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOM3hGRm5lY05PaFlPY0JHQmZsR0NXdFdfUU1Va1I4eElWdmlqakxILXNFdDRMOTlXTGU1Z2JoNC1DcDdGSl8zdzRkVmNxN3RIZUVRb2x1WnJXdVlmemVPQXoteV9CY3otZ2ZySTVJUWJ3ME5WSXlpWFN1Y2cxdk1XY0M5cHUxUjFpdFBLZmZFRlhMaC1jeFczODZ4Z0poNk1NV2pDUmwyck1HYWFPQUE?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "With Inflation Elevated, Federal Reserve Hikes Interest Rates",
+      "source": "Morningstar",
+      "publishedAt": "2026-09-16T20:00:19+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNN28zbGswaU1BT3NFT2h6Y2UwcTV3dEYxUE1pazcxckJzakNUc1E5bTdIQnlxMFRnQTVVcm04aER1Zl9WM3dRSVhCX0ZBb1AtTlNLZFh2d1EzSFQ5SUZwX3A2X2l1N3ZxcjBiY2ZJZkx1RkN2SFJnMnE3ZFFZMVIzai1LN2JFdnhSM0JkaF9CVUd5OVR5ZjIwc2ZFNHAtSTRNVzNicXgzVUY?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
       ]
     },
     {
-      "title": "Wall Street gyrates after Fed hikes interest rate to battle inflation",
-      "source": "Reuters",
-      "publishedAt": "2026-09-16T18:45:59+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSUtqeWNnZEJZT0IyaHpTajZTM3hWV0gwZUV1VkhQV21PUzJBQ0kzLWhxTk5iWUtNbTI1eUVWQnN1b2Y4T2RQSnhmc1pDcVVWYldOc19HSzRId2pZMHZFWHZrNHhnMVh3VGd4RkRSdDJGZ2ZJSzd6TWhiWWtUd1lWRkxzcklsRmJhOS1TcEZYMkRTQjhmakMyVDFtQQ?oc=5",
+      "title": "Federal Reserve hikes key rate for 1st time in 3 years, defying Trump demands for a cut",
+      "source": "LancasterOnline",
+      "publishedAt": "2026-09-16T19:31:03+00:00",
+      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxORmVOTmVWRnVPNUpQUm4wekhBY29UWnlVanB0Y0lRNWRRS3Vldlk5U21idzJTWEZQMW9KbDJqeTRrUFdhR3dlVXAyMnpxOEtCbVM3NHJBanZMSjFoU0dSOEl6c3NNbnpJeTl0SUVVdHlWeDFRblduM3ByMnN5N2N2WmVFYjdkNWtJTjdUQ0xkblBHc1ItM19TSHlkMnlpNTdkc2p1ZGVONWlvSlhmSHoxWUE5dzcyOWd5dmExUzBKYUF0cWEyNVB4d19IZXhZRmdaSjI3Wk02WlpqcWNLRE5DRjdNcFIteFpnaVV2MFJCOVZfNG9WdzBGUXVkUVRzX0czMGpkSlBzV3JxY25T?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -20782,7 +20782,7 @@
     {
       "id": "A",
       "title": "Basisszenario: stabile Marktphase",
-      "probability": 49,
+      "probability": 47,
       "summary": "Wachstum bleibt grundsätzlich intakt, während Belastungsfaktoren überschaubar bleiben.",
       "supportedBy": [
         "Rezessionsrisiko wirkt noch nicht dominant",
@@ -20799,7 +20799,7 @@
     {
       "id": "B",
       "title": "Zwischenszenario: erhöhte Vorsicht",
-      "probability": 29,
+      "probability": 30,
       "summary": "Das Umfeld wird anspruchsvoller. Stresssignale nehmen zu, ohne bereits ein klares Eskalationsbild zu erzeugen.",
       "supportedBy": [
         "Marktstress ist sichtbar erhöht",
@@ -20815,9 +20815,11 @@
     {
       "id": "C",
       "title": "Stressszenario: defensivere Marktphase",
-      "probability": 22,
+      "probability": 23,
       "summary": "Mehrere belastende Signale greifen gleichzeitig ineinander und erhöhen die Wahrscheinlichkeit einer klaren Risk-off-Phase.",
-      "supportedBy": [],
+      "supportedBy": [
+        "Stressindikatoren senden ein klareres Warnsignal"
+      ],
       "probabilityChange": {
         "direction": "stable",
         "label": "stabil",
@@ -20828,14 +20830,14 @@
   ],
   "hero": {
     "phase": {
-      "label": "Erhöhte Vorsicht",
-      "score": 43.0,
-      "summary": "Das Gesamtbild bleibt geordnet, zeigt aber mehr Spannungen als in einer ruhigen Normalphase.",
-      "interpretation": "Der Fokus verschiebt sich von Routine hin zu erhöhter Aufmerksamkeit.",
-      "actionMatrixKey": "caution"
+      "label": "Defensivere Haltung sinnvoll",
+      "score": 47.0,
+      "summary": "Die Belastung ist breiter sichtbar. Einzelne Warnsignale greifen spürbar ineinander.",
+      "interpretation": "Der Monitor signalisiert ein zunehmend anspruchsvolles Umfeld.",
+      "actionMatrixKey": "defensive"
     },
     "statusLine": {
-      "dataAsOf": "2026-09-16T19:27:47.412284+00:00",
+      "dataAsOf": "2026-09-16T22:47:43.003070+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
