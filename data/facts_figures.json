@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T22:48:19.975661+00:00",
+  "generatedAt": "2026-09-17T04:25:43.291552+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -43,10 +43,10 @@
   "technicalTriggers": [
     {
       "label": "50T vs. 200T",
-      "value": 6.3,
+      "value": 6.2,
       "unit": "%",
       "tone": "m",
-      "status": "50T liegt bei +6.3 % gegenüber dem 200T. Schlusskurs 25982, 50T 26051, 200T 24508. NASDAQ Composite (Fallback) unter 50T (26051), aber noch über 200T (24508).",
+      "status": "50T liegt bei +6.2 % gegenüber dem 200T. Schlusskurs 25978, 50T 26054, 200T 24522. NASDAQ Composite (Fallback) unter 50T (26054), aber noch über 200T (24522).",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -56,10 +56,10 @@
     },
     {
       "label": "RSI (14)",
-      "value": 45.3,
+      "value": 45.2,
       "unit": "",
       "tone": "m",
-      "status": "RSI (14) bei 45.3. Kein Extremniveau in beide Richtungen.",
+      "status": "RSI (14) bei 45.2. Kein Extremniveau in beide Richtungen.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -702,12 +702,6 @@
   "charts": {
     "chartLabel": "NASDAQ Composite",
     "qqq": [
-      {
-        "date": "2025-07-08",
-        "close": 20418.46,
-        "ma50": 19132.81,
-        "ma200": 18757.05
-      },
       {
         "date": "2025-07-09",
         "close": 20611.34,
@@ -2501,13 +2495,15 @@
         "close": 25981.57,
         "ma50": 26051.11,
         "ma200": 24507.89
+      },
+      {
+        "date": "2026-09-16",
+        "close": 25978.42,
+        "ma50": 26054.31,
+        "ma200": 24521.71
       }
     ],
     "rsi": [
-      {
-        "date": "2025-07-08",
-        "value": 66.4
-      },
       {
         "date": "2025-07-09",
         "value": 69.3
@@ -3703,6 +3699,10 @@
       {
         "date": "2026-09-15",
         "value": 45.3
+      },
+      {
+        "date": "2026-09-16",
+        "value": 45.2
       }
     ],
     "vix": [
@@ -6113,7 +6113,7 @@
   "news": [
     {
       "title": "U.S. stocks slip after the Fed raises interest rates, hints more hikes may be on the way",
-      "source": "pbs.org",
+      "source": "PBS",
       "publishedAt": "2026-09-16T21:32:36+00:00",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQ0o4SEFnLXVuc0pFakhWQXNrNVdZOFBqTmZsR3dlMlFFZEluX2VWbEJPOGJkRkZ6a2tfaHZySVdpaVhYZk1aeGZFdjM2UExoOGMxc1BDbkcwUVFMaElEXzBUb2ItX1hmRVkxWjhHanJyV3ppMGJFcjhNY3BVYlZMNFVCemRaSW94Z1hBZy0yNmd3R29KMEppZThtNmxWaERxa3hfZzZ4WU5BV3AzN19xSTY0OEZwQmwzdGVSWC1SNNIBxAFBVV95cUxNQ3ZKZVFHbHpRSEo2cGs4RjlfMG1UdURsamh2Y3ExeEVkZzdmaGQ3OElrd0FpclpvUGQ1MFlKSHZ2VGFOc1hVN3ZmSVc4aGhIY3hvVm5UUlY0emc2bFNyU3ZGU0RFckhMekh6WE5FeklHLU9uUGZNOVZCQWJPdnctcTNJTmpTOGp0Q3ZVUjEzSWROc0V6VE1lY2hLLWNJWUlwTkEwQkJ1SVVtRlZrYlg5QUxoZEZFOFFzMXgwbkNPNzgzdlRa?oc=5",
       "bucket": "Zinsen / Inflation",
@@ -6130,10 +6130,10 @@
       ]
     },
     {
-      "title": "VIEW Stocks pull back after Fed raises rates, points to another hike this year",
-      "source": "Reuters",
-      "publishedAt": "2026-09-16T20:10:10+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcHE5d2RsZk5YWi1pLWw0M0tWX0pGZl81OEcwZVJtUlJsbTVoUnpQWUxJYjZGSjhvMmlDd0JrcVVFQjJ0aFRJRkh1cTFteld2Y0lSeXhyMFllMU5vSGthbExhbzc5MVNSRTFHOS1JWVcwZ09jSllmTDJoeHBEUEFJanI2aEZqQm1PbXZJZHpwRHpRU2FoMG9EMmVoVmxiZ0h1YV8xTk12QjRMVm1LQ1Zfcm1qUGhUWkFH?oc=5",
+      "title": "Jim Cramer warns that buying stocks now means 'fighting the Federal Reserve'",
+      "source": "CNBC",
+      "publishedAt": "2026-09-16T22:26:57+00:00",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9leGVVdVlTTEJra3hyTVBpY1ZuQ0FyQkh6V0NnaE1KRmVZUHhTbGJuYlZGVldXSjl1djFfTEZ4bXYxd1U1VkRvLTVaTGRPMmlKQUhIbHFXdGxUNFBfWjB6NDExRGF0MThiMEtTQ1VNTy1QRHZmU3hFaUQyb29LQdIBgwFBVV95cUxNXzU1QlcxTTF4ZFF5UVBEbjBnZzl3dHRQV0VIVmhETWFzN24xNDRoc0R1QkM0RlowbmNJdUhwd0NxT1RnUHYzQnU5eFRYWVVWd3g4RDQ1MFpiTjExZEUwNVg1S3BURHJWZS1Tb0JDcTAxT2JpczFHQkRBVjVabWc3TkpfSQ?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -6166,10 +6166,10 @@
       ]
     },
     {
-      "title": "U.S. Stocks Fall After Fed Rate Increase",
-      "source": "wsj.com",
-      "publishedAt": "2026-09-16T20:46:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONzlDTWMtUEI0WmthSXloUDV3emx6WThIXzg1M2lCMEI0ektFSmZMR0VZNk9FZmIyVUc4MHJDX1o2NDBDbUo0NXBlRVplRUJ0UUVtcndzOWNRaXpLd3RwY3VmM0RXdTRMUDlJbzFUZ1ozWFE2MVVnc21hOHFqc1RXZE4xTUl5V09SSFlV?oc=5",
+      "title": "VIEW Stocks pull back after Fed raises rates, points to another hike this year",
+      "source": "Reuters",
+      "publishedAt": "2026-09-16T20:10:10+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcHE5d2RsZk5YWi1pLWw0M0tWX0pGZl81OEcwZVJtUlJsbTVoUnpQWUxJYjZGSjhvMmlDd0JrcVVFQjJ0aFRJRkh1cTFteld2Y0lSeXhyMFllMU5vSGthbExhbzc5MVNSRTFHOS1JWVcwZ09jSllmTDJoeHBEUEFJanI2aEZqQm1PbXZJZHpwRHpRU2FoMG9EMmVoVmxiZ0h1YV8xTk12QjRMVm1LQ1Zfcm1qUGhUWkFH?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -6184,10 +6184,10 @@
       ]
     },
     {
-      "title": "With Inflation Elevated, Federal Reserve Hikes Interest Rates",
-      "source": "Morningstar",
-      "publishedAt": "2026-09-16T20:00:19+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNN28zbGswaU1BT3NFT2h6Y2UwcTV3dEYxUE1pazcxckJzakNUc1E5bTdIQnlxMFRnQTVVcm04aER1Zl9WM3dRSVhCX0ZBb1AtTlNLZFh2d1EzSFQ5SUZwX3A2X2l1N3ZxcjBiY2ZJZkx1RkN2SFJnMnE3ZFFZMVIzai1LN2JFdnhSM0JkaF9CVUd5OVR5ZjIwc2ZFNHAtSTRNVzNicXgzVUY?oc=5",
+      "title": "What it's like to work in the bond market these days",
+      "source": "marketplace.org",
+      "publishedAt": "2026-09-16T22:28:09+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQenAzZEo4MnhRZG40SmNHaWJ4OWJUeDJnNHlTZ0Q0elZjRjhTQUlQa0FLTjRVaW5TQkJVOVdJd2ZxeVNiUndsWTEyc09QNzJ4SVkwNC1MMWY1RERKRHB5V1BtNWppVHRjdHJsdk1oRUVFOG9WX2gtVzhOX0otQzhUWTMzeHpoNzVKYUhNczBhVk1UUQ?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -6204,7 +6204,7 @@
     {
       "title": "Federal Reserve hikes key rate for 1st time in 3 years, defying Trump demands for a cut",
       "source": "LancasterOnline",
-      "publishedAt": "2026-09-16T19:31:03+00:00",
+      "publishedAt": "2026-09-16T23:42:33+00:00",
       "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxORmVOTmVWRnVPNUpQUm4wekhBY29UWnlVanB0Y0lRNWRRS3Vldlk5U21idzJTWEZQMW9KbDJqeTRrUFdhR3dlVXAyMnpxOEtCbVM3NHJBanZMSjFoU0dSOEl6c3NNbnpJeTl0SUVVdHlWeDFRblduM3ByMnN5N2N2WmVFYjdkNWtJTjdUQ0xkblBHc1ItM19TSHlkMnlpNTdkc2p1ZGVONWlvSlhmSHoxWUE5dzcyOWd5dmExUzBKYUF0cWEyNVB4d19IZXhZRmdaSjI3Wk02WlpqcWNLRE5DRjdNcFIteFpnaVV2MFJCOVZfNG9WdzBGUXVkUVRzX0czMGpkSlBzV3JxY25T?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
