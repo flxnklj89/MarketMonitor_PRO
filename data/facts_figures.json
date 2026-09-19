@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T12:23:29.947966+00:00",
+  "generatedAt": "2026-09-19T18:30:57.720826+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,20 +6112,39 @@
   },
   "news": [
     {
-      "title": "S&P 500, Nasdaq advance, turning the page on a tumultuous week",
-      "source": "Reuters",
-      "publishedAt": "2026-09-18T23:10:24+00:00",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ2p6dkpCd0xfbVRBMnhySFRVbm5OSElMZXRXc0NpaGhoRmw2MzNfSUstaC1RVFFnUU1DNUM0MEpHTmxhbHJxOC1Ec2lMWU0xMFVaSVdsZGdVSi1JaWpDX093SHhBdlBkdFdGZnFpd05yYW9LRXk2NkdOMnRWSzJ2dkhuTFpDN01LM1JvNjhyamFZM2dLRFRzM24xSUZwRGVBakhwM3N3em1ycFBuWVg2UVB2OTQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Federal Reserve Inflation Outlook Signals a Critical Warning for Investors",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-09-19T16:10:12+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWjBSa1RGdnVsN19uSjhxdUNWM2pOWGptYjJPdFlxQUpfTVYya3VYdW9OTmF4TDAweHpXOFJDblQtdU4tSS1RLTI5d2s2NDhyMWF4Q1JlbjI2VjJ3ZjBOTV83N0xRamZFcnp6QTQ3aUZQWkJtaThDVDJrNGJkOFkydGQxaHp3OTFjajNKUGUyMm9LNW8?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
       "assets": [
+        "Staatsanleihen",
         "Aktien",
-        "Anleihen",
-        "Währungen"
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "'A huge problem': Trump has traded more stocks than all of Congress combined",
+      "source": "Fortune",
+      "publishedAt": "2026-09-19T10:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ZV1g5YnFHSVZlbVYwTUcyZ01MX0RERElxaG53b2hXakp0QmZZOUJFVHl0bGVKS2YyMjJqMnpaQ0NZSmpDZm1Hci1CRUc1VXQyck1xOW5yVlhJb3NiUWJZaHdwTlhQcFVZbnVEVDd6ZzRBSXdXbWRrSEVUOA?oc=5",
+      "bucket": "Handel / Lieferketten",
+      "summary": "Die Meldung betrifft Zölle, Sanktionen oder Logistik. Das ist wichtig, weil solche Themen Preise, Margen und Verfügbarkeit von Vorprodukten beeinflussen.",
+      "impact": "Mittel bis hoch, wenn die Störung mehrere Branchen oder Länder betrifft.",
+      "probability": "Mittel, weil politische Schlagzeilen oft erst bestätigt werden müssen.",
+      "horizon": "Sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders empfindlich reagieren Industrie, Transport, Rohstoffe, Inflationspreise und konjunktursensitive Aktien.",
+      "assets": [
+        "Industrieaktien",
+        "Rohstoffe",
+        "Inflation",
+        "Transport"
       ]
     },
     {
@@ -6133,6 +6152,24 @@
       "source": "Seeking Alpha",
       "publishedAt": "2026-09-19T08:00:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPMEJPLWxCTHQzUm9MU0Fhc2pyTnIzbGQ4cW03R1NuUHM3RUFTa1IxTzZaZUtEdDRETkNaSm42TmRNOGRiOGJZUUMtQzhtSW9JQWFJQ3hhbHpyNzloWko1SlRGRDMybkRyZl9SbXJJTUJtaHFBYWZMZmFXMjVNUHhYYg?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "World stocks rebound, Treasury yields retreat after Fed, BoE decisions",
+      "source": "Reuters",
+      "publishedAt": "2026-09-17T13:30:25+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUnBManB6Nl9tbnMzaXhPbHh4RmJVX0xWNmdaeENoNW50NGxxanVfMHFMaWVENklmQ09OSzdDVnFtSFhiXzJ0YTE5RVgzSHYtekRVZHU2QXE0LVNWeS1nalgyNldtV3l1X3FUc3NudktmOWZJVVZORXFNbWloZzlOZkdRWQ?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -6164,45 +6201,10 @@
       ]
     },
     {
-      "title": "Wall Street thinks the stock market can handle a few hikes",
-      "source": "Axios",
-      "publishedAt": "2026-09-18T16:21:06+00:00",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4zSkFfeEZ6REdycVozNXB1Vnl6UmZHbkNqZ3BCbVpMU2hyTXM5bVlkT0UxRnVXdm9sM0dhYmNmYTVtb3V5WWxhdi14U29IMUFOSUlGNnRocG0yalJjYkVKdTk2ajRhOGpnWGFzYQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "What’s Next for Stocks After the Fed Rate Hike",
-      "source": "Morningstar",
-      "publishedAt": "2026-09-18T21:03:12+00:00",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKYVV3N0R5TmJSNEg0Vmk2LTVBa0JneFZtUmFkRlJSamtZVnl0dkgwenR3RTRmS2dQYnVnZTFrOHR5Rkc5X205X1dZeXpZdFlGNTRZRjV4NzJ5WHpyNGphaEhnZTRpM0Vrem9vRHc0UXZhY0plcTNUZEFqLTg?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "The Federal Reserve Just Raised Interest Rates for the First Time Since 2023. Here's What History Says Happens in the Stock Market Next.",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-09-18T14:04:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQU92dXRnNjRoWmpsNzc2a2VtVTZpNXY5cEZYMi1VSmVhOWZ1YUNTQnpPMlRiS3pIdlAtejIyLWpoUGNnMUdsZkJ0OXgwZ0Nya3VMN0JnMVEyRlN4cnBtQl9oTlNsd24ydFFNMTFLemNZc1VOR1Nhb2FOTVZWMWY4NUUzNzlwRzFNd1EyUFJ6Ukp6Y3ZwU0JVNA?oc=5",
+      "title": "US stocks slip after the Fed hikes interest rates and hints more increases may be on the way",
+      "source": "AP News",
+      "publishedAt": "2026-09-16T20:55:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTW5lU3JQLXljZW5VaC1SY3Y4Y1IzVk9ncDBrUVFuZHFkZXRQSVQzTVI4Y0x0Z1NwazVzVkR5cmNxWkdPOXE0VGNTd1M1YWVwZVlNclRQOC1JMmdxWXZSVnpiYXpBNFExNlc5RGJfbldXNmlVY0RlTWdlSW1wc25HNHlTQjdfRjloQ3FEMnRMNWZPTGxpZnUzRGVLUWQ?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
