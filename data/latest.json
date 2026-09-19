@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-18T22:25:07.280019+00:00",
+  "fetchedAt": "2026-09-19T04:05:26.600332+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -120,7 +120,7 @@
   "globalComposite": {
     "value": 40.0,
     "label": "Beobachten",
-    "date": "2026-09-18"
+    "date": "2026-09-19"
   },
   "regions": {
     "europe": {
@@ -20624,6 +20624,40 @@
   },
   "news": [
     {
+      "title": "S&P 500, Nasdaq advance, turning the page on a tumultuous week",
+      "source": "Reuters",
+      "publishedAt": "2026-09-18T23:10:24+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ2p6dkpCd0xfbVRBMnhySFRVbm5OSElMZXRXc0NpaGhoRmw2MzNfSUstaC1RVFFnUU1DNUM0MEpHTmxhbHJxOC1Ec2lMWU0xMFVaSVdsZGdVSi1JaWpDX093SHhBdlBkdFdGZnFpd05yYW9LRXk2NkdOMnRWSzJ2dkhuTFpDN01LM1JvNjhyamFZM2dLRFRzM24xSUZwRGVBakhwM3N3em1ycFBuWVg2UVB2OTQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Stock Market Today: Nasdaq, S&P Reverse Slightly Higher; Sandisk, Lumentum Lead This Tech Rally",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-09-18T20:57:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVXdsbXlHdF9Xa0d3UFhXbk9jd1lRYV8xTzZMSUxtQVhWM1RybVpzbjFFclFFdHYzTTlrM1Q3V3pJMmFJNzliRmY0X3dIdXEtaldDNlpia1ppZUk1aC1FU0pHZW9uQm9NY0JWNHFYM2dMWWJLUjNYbWtERTh6LXFjZXQxbXpqc2YzOF9KM1dPMTUzUlVSY0FFc3podnk3MmNQMnBIQTUzMld3T1J2cFBFMFVTNkRvZTFR?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "The Federal Reserve Just Raised Interest Rates for the First Time Since 2023. Here's What History Says Happens in the Stock Market Next.",
       "source": "The Motley Fool",
       "publishedAt": "2026-09-18T14:04:00+00:00",
@@ -20644,7 +20678,7 @@
     {
       "title": "What’s Next for Stocks After the Fed Rate Hike",
       "source": "Morningstar",
-      "publishedAt": "2026-09-18T21:02:02+00:00",
+      "publishedAt": "2026-09-18T21:03:12+00:00",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKYVV3N0R5TmJSNEg0Vmk2LTVBa0JneFZtUmFkRlJSamtZVnl0dkgwenR3RTRmS2dQYnVnZTFrOHR5Rkc5X205X1dZeXpZdFlGNTRZRjV4NzJ5WHpyNGphaEhnZTRpM0Vrem9vRHc0UXZhY0plcTNUZEFqLTg?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
@@ -20691,42 +20725,6 @@
         "Aktien",
         "Anleihen",
         "Währungen"
-      ]
-    },
-    {
-      "title": "Stock Market Today (Sept. 18, 2026): Nasdaq futures rise after Fed rate hike lifts stocks",
-      "source": "Fresno Bee",
-      "publishedAt": "2026-09-18T10:45:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAtcEo1Y0hteUFOTmRNSnlKUU1IY1I5REhrTm5hdUpxMWlQSGctWUhtdklMeGtsbW94X3dsOG5iT0FVX01sS0dQbElRd2F5Uzl5UnJZSjl4SWFzZzV5TzJxQ0hGSTVvVlFpZ2E1enJn?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "Nasdaq futures lead Wall St gains as oil retreat eases inflation worries",
-      "source": "Fresno Bee",
-      "publishedAt": "2026-09-18T09:30:05+00:00",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BSXRoaGtTLTNfeFJnNWpBdGVRUVRPSHo2M19ueW1VNEk3VUFlZUw5MUZNbnZxSEt4UDliU0JLbVgyRVFZZFdNa0huQ0FKRF9UQl9zWGczYk04ZGVNR1NxUHJVcmE2b3ZXMDRpQ0RScThrWmpDUTBEZGxqUkVvc2s?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
       ]
     }
   ],
@@ -20833,7 +20831,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-09-18T22:25:07.280019+00:00",
+      "dataAsOf": "2026-09-19T04:05:26.600332+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
