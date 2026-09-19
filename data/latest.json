@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-19T04:05:26.600332+00:00",
+  "fetchedAt": "2026-09-19T12:23:23.289487+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20641,6 +20641,24 @@
       ]
     },
     {
+      "title": "Federal Reserve Rate Hike: One And Done?",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-09-19T08:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPMEJPLWxCTHQzUm9MU0Fhc2pyTnIzbGQ4cW03R1NuUHM3RUFTa1IxTzZaZUtEdDRETkNaSm42TmRNOGRiOGJZUUMtQzhtSW9JQWFJQ3hhbHpyNzloWko1SlRGRDMybkRyZl9SbXJJTUJtaHFBYWZMZmFXMjVNUHhYYg?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
       "title": "Stock Market Today: Nasdaq, S&P Reverse Slightly Higher; Sandisk, Lumentum Lead This Tech Rally",
       "source": "Investor's Business Daily",
       "publishedAt": "2026-09-18T20:57:00+00:00",
@@ -20658,21 +20676,20 @@
       ]
     },
     {
-      "title": "The Federal Reserve Just Raised Interest Rates for the First Time Since 2023. Here's What History Says Happens in the Stock Market Next.",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-09-18T14:04:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQU92dXRnNjRoWmpsNzc2a2VtVTZpNXY5cEZYMi1VSmVhOWZ1YUNTQnpPMlRiS3pIdlAtejIyLWpoUGNnMUdsZkJ0OXgwZ0Nya3VMN0JnMVEyRlN4cnBtQl9oTlNsd24ydFFNMTFLemNZc1VOR1Nhb2FOTVZWMWY4NUUzNzlwRzFNd1EyUFJ6Ukp6Y3ZwU0JVNA?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "title": "Wall Street thinks the stock market can handle a few hikes",
+      "source": "Axios",
+      "publishedAt": "2026-09-18T16:21:06+00:00",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4zSkFfeEZ6REdycVozNXB1Vnl6UmZHbkNqZ3BCbVpMU2hyTXM5bVlkT0UxRnVXdm9sM0dhYmNmYTVtb3V5WWxhdi14U29IMUFOSUlGNnRocG0yalJjYkVKdTk2ajRhOGpnWGFzYQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Staatsanleihen",
         "Aktien",
-        "US-Dollar",
-        "Gold"
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
@@ -20694,37 +20711,21 @@
       ]
     },
     {
-      "title": "Wall Street thinks the stock market can handle a few hikes",
-      "source": "Axios",
-      "publishedAt": "2026-09-18T11:31:25+00:00",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4zSkFfeEZ6REdycVozNXB1Vnl6UmZHbkNqZ3BCbVpMU2hyTXM5bVlkT0UxRnVXdm9sM0dhYmNmYTVtb3V5WWxhdi14U29IMUFOSUlGNnRocG0yalJjYkVKdTk2ajRhOGpnWGFzYQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "The Federal Reserve Just Raised Interest Rates for the First Time Since 2023. Here's What History Says Happens in the Stock Market Next.",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-09-18T14:04:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQU92dXRnNjRoWmpsNzc2a2VtVTZpNXY5cEZYMi1VSmVhOWZ1YUNTQnpPMlRiS3pIdlAtejIyLWpoUGNnMUdsZkJ0OXgwZ0Nya3VMN0JnMVEyRlN4cnBtQl9oTlNsd24ydFFNMTFLemNZc1VOR1Nhb2FOTVZWMWY4NUUzNzlwRzFNd1EyUFJ6Ukp6Y3ZwU0JVNA?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
       "assets": [
+        "Staatsanleihen",
         "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Jim Cramer sends strong warning to stock market investors",
-      "source": "thestreet.com",
-      "publishedAt": "2026-09-18T21:05:06+00:00",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUWhGMUtjcW5aRUhXUTNINkktTGdtY2ZFVHp4N19JRlV4OGRET3Z3TUdpeVdXV0cxbnBpb21NNmpKZ3FiWlRrQ0wyeHYtb3JfRVUySlRNSnh3MUN2Yy10TENGR25nOS1sVGZTZEl5eF9KWnJnNi1QU2E0WEk4Rm9DQlNHYmVnVGFVWVRzS1p3SDhxVWt6XzktNUtnNnZBTC10?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
+        "US-Dollar",
+        "Gold"
       ]
     }
   ],
@@ -20831,7 +20832,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-09-19T04:05:26.600332+00:00",
+      "dataAsOf": "2026-09-19T12:23:23.289487+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
