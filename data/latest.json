@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-20T18:36:26.818317+00:00",
+  "fetchedAt": "2026-09-20T22:18:29.698409+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20694,10 +20694,10 @@
       ]
     },
     {
-      "title": "Top Wall Street analysts find these 3 stocks attractive as long-term investments",
-      "source": "CNBC",
-      "publishedAt": "2026-09-20T12:01:35+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWm9PalJIVkRaVUF4S0FSQUFnVGlicDZXT2V0bkROTDJFSTE2UVptN3lrRlU0SFBwUG00eWdJbE1rSWhmWEZZTmF6S3N2WXd4c284N2VobWNzLXpsUTVoRVlwTmpUYmJ0U3J6a1Y2NVJIQlZHMDNNVkk2QnQ5QTUzUmZ0VU4tUFBWV2FfdjZFWTZWY09pTjV1WXNhLU5XQTkwSnI1YkVHdVRYRk1MX1hZNldFSC1GVXg00gG-AUFVX3lxTE9ibldieVZKRHh6MjZfaFBNR1pWMTFNYlNteUlqQU02UUVVc09KeE5EVHIwck4zcVRCRXREdnlReWZwd3ZrMXNHVkJOZTRLYnpRYmVoQ1o3ZlQwc2RRUDRZYmk1VkhfMFFiUUVBXzJRTWZVaWFkUEFmMm9GOFQxV0NYTEt1ZGNRSkZzWjdyN0hTT2hMSlpaSS0yUE1iSUNXUXFCTV9KUTNTTXFvMzZKeGFFbTRWWjhheWJybEc2MUE?oc=5",
+      "title": "The New York Stock Exchange | NYSE",
+      "source": "NYSE",
+      "publishedAt": "2026-09-18T22:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE93UWVlU3g1TVNpdTNEcjI2Yk9kSHU2Tnh5Y0stVFBGRWVkLW9wbU1EbHhQaHdIOE56d2V5NXVhSQ?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20711,20 +20711,21 @@
       ]
     },
     {
-      "title": "These 3 factors \"remain significant risks\" to stock market valuations: analyst",
-      "source": "Investing.com",
-      "publishedAt": "2026-09-20T11:20:45+00:00",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOWElJUEtzaDNRbjQ5aFJieXU5QkRybXAzdll5V3VSUENZZlEtRGVSVVZhWGV3TjYxS3dNdHR6V0g1MnVETnNjOGRMeUd0ZUgzTHVha1RfWE5nTDhMaXdEWnh0UWsxay11cWJENUZSSFdaSkE2ZXg1MS1vTFdyd0JWNTdjb3NFZjhVUHpsaHF4allJNFJlbk5hMGwzX3l3T2ExTTlrODA2MTduai04bHBjMWdBS245eURkWEo4RGNZNmtfQ0pmZXRMQnlyTUk?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Federal Reserve raises interest rates for the 1st time since 2023",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "publishedAt": "2026-09-20T10:57:06+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYktxZlJxRVNrdUZFRWViQjVMLUh3OGJwNGhrVFpJY2E5QTAyajNfcnFSb09rZUVkSnVMUHd4WkpsYktvZGczX05nRzVhSTdKNWtfU2hWb09IYnNQQ01tTlMwMV95YzJkbWVDMklwZ19XMC1RNmVsckpGS3FpNUpiRlUxZkVtNXk5NE5YRnpBSTI4eEhVOWxaUlBzZDlxb3p1ZVBFeHFR0gGrAUFVX3lxTFBrZzU3UXhjRlBBblFYNzJZZ3dINVFwMnpIOFQwRlJ1NmRTa3JNUGlkamJyS08wRjM5UlFuMkRJcHAtUEQxYjF3b2Yyc2E2V1hOOEhQRHRPckpidllEOHpLRG9VUTFxSUwyaE95SzNNZ0pkemQwQkNBYkZPbTBpN0ZMYTBWU25nT3FrUVNNal9Eb0lCNnJwZTVFUVVhM0dDRlMzQ1pQTF8xRTV6bw?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
       "assets": [
+        "Staatsanleihen",
         "Aktien",
-        "Anleihen",
-        "Währungen"
+        "US-Dollar",
+        "Gold"
       ]
     }
   ],
@@ -20831,7 +20832,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-09-20T18:36:26.818317+00:00",
+      "dataAsOf": "2026-09-20T22:18:29.698409+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
