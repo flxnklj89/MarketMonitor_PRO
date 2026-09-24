@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T13:26:00.347236+00:00",
+  "generatedAt": "2026-09-24T19:54:20.244469+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,6 +6112,24 @@
   },
   "news": [
     {
+      "title": "US stocks swing as the bond market, oil prices keep up the pressure",
+      "source": "LancasterOnline",
+      "publishedAt": "2026-09-24T18:26:02+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPY1RUVWxDYTh6dEFzOWNiZmlyRHVmeGJ2NlNyei1qV2hIbENuZTE2bklXQ0hqQkx6bVRvM3pLcjIwLVZXcDlEaTNQNTFIamRYTVhfYnN0dzEycjVNVkNiZEc2MFAzM2NZV0l2Qm91bzhvWms4bEtUUVJWVjliUWlXNTVUVWtkVi11YUxnWG9VMmUwN2VqTGxWU2tEbGRqUVJiQTRISnFtcmxmcnBTTlhDMGhLdU5YTWc3a2F4VDhNbmQ3NUJoVXdPbVNLeW5sX0o4elgwSGFKOC1USjc5S3BHbW1hVXBpQl83VXV6bHJEcEVBSkRpNDJXZmt3?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
       "title": "Fed rate hike cycles have a history of denting US stock prices",
       "source": "Reuters",
       "publishedAt": "2026-09-24T05:03:00+00:00",
@@ -6148,10 +6166,28 @@
       ]
     },
     {
-      "title": "5 Things to Know Before the Stock Market Opens on Thursday",
-      "source": "Investopedia",
-      "publishedAt": "2026-09-24T11:23:55+00:00",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPM2FUMUJnXy0yREFIOUtMSjdtQUV1MWlxREJYaGJtOUhSdkxJbHprN3p3SDl6WHdqWHF2T0hFTlktUHRVVGFzZDNlYXlPSTIwSzZVblRRQS12Ul8yenlncVA2cDZmS0lRUnpyQmFkZkVGOWxsM3pPTHd2VmJtZ0MwX19kdU1ocXEwMGZGVGllTmJOZzAyeWJJRFRZc05pRC1Od21IQmx4a2xmY09EbXZwN0dkRlA?oc=5",
+      "title": "Wall Street ends down as oil prices, Treasury yields rise",
+      "source": "Reuters",
+      "publishedAt": "2026-09-23T23:20:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeEU4dTJoZV9XeFR4cENDYXhRMG1Tb3E4aHFNc1RoUEpHeVJNYmtnS1RHb0lVdzg5S1BKelZiUkR4eER2bkFZc0tjcWxlRFEyODRlVlRoNlNmblFabUhsZnJwTllqbmd2RUQ5NmI0M0JVc3B3aVkwcmt0SE9vTERyLVhFRzIybV9OMU94QlF6UGdORGhJZldzTUJ6X1F2TjhTRVpLNDZWeVN6WU1hR0ZLRw?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Stock Market News for Sep 24, 2026",
+      "source": "Yahoo Finance UK",
+      "publishedAt": "2026-09-24T12:33:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9tVmphUm5zajBfNGxpZ3Y3b0VwMXRMR0E4YllETjFudENEUWROaGxkSDlhWkxLcVY3TnZrX0tVbmRGSFdUWFVRVDAtSzdUaVZhRXFWcmRSMExvcWQ4ekxVT1JnRUNRVEkzS09VUU9CbkNxUjFKUmxTY0Z2cmdJQQ?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -6167,7 +6203,7 @@
     {
       "title": "With the stock market ‘priced for perfection,’ the S&P 500 is in danger of a 20% slump next year",
       "source": "MarketWatch",
-      "publishedAt": "2026-09-24T12:48:00+00:00",
+      "publishedAt": "2026-09-24T13:40:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQZ0ZfQWxNUm10enNXX3N4UzIwUW9BekV3X0hpeV9HT1BuZGhZY0VkUGtlNkE1c2FfSWZVTEY0M1VqNm4xQXp5VWpOUW95YXl1MUpJbkcxM29xTGgyZVF4aEdWMWNHMlFUZDd0Vm00YVBZdUt3MHB4bmFwcExmVWUwcHRBWEg0blpMNVRONnAtSEhKUE1lNmpkN3N1ZThibUp0cThxOEo3UGF3el83cjB3andKclh0M3kyNHdWN1FCRWtkQU93enVINmdiRUIzRlpPNFBPSmdZRlhoS1BiTndrQ0hLZWRzdw?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
@@ -6179,41 +6215,6 @@
         "Aktien",
         "Anleihen",
         "Währungen"
-      ]
-    },
-    {
-      "title": "Asian shares trade mixed as investors weigh oil swings and US bond yields",
-      "source": "LancasterOnline",
-      "publishedAt": "2026-09-24T07:27:08+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNb2hoZTNacUdOMGJTMjVhMXdIUFNMMTFPWUpxdFR3TGxvcnZLRm5JUFZhN2dhdlRrVmdhQmp4MWpGODV0LXZkUDc3bWhPU0QyYzUzWkhyOTA4aWV3cF9QNFhIQkNfRjh2c09yLXdRNEppYlBPUllURFlvTUY5MVBXSTAwQVNuQWMtOEdsaWJQQzVTLU5DRVY3YkU4RzhGNy13OEFoaGloWDFFQkd2ZEVKQ3QxUFlwVWQ5X0N2SjJ2MVJkR254ZkxJLURkN0hUZ0tpZFRtT1NkV0poMVF4Q3hXZGFLQjhsR3J6bmJLbkRrWWhtQ1VDVkpMVHA0UG84cDIwQ2dv?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Can AI Investment Drive S&P 500 Earnings Even Higher?",
-      "source": "Goldman Sachs",
-      "publishedAt": "2026-09-23T19:01:05+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPemRqUVUwRkM4NkE3ajl3bVRncjNRY2s0b0dDWkhTLV9XcDhZQ1ljNXNNTV9OaVZjcS1Cek5rWUgybTlBYThmS015WmpyTHBWQnp5OE5JT0Fmd2RiR0FWTmlNRXQ2LUtjb0dnOHVFM2FwRkpJbS0xSmFzZHRwNjFLdko5OWl4TmlqSXRaaGNSeU5lQXd6aDBDT2Y0eEZFUUloZzN0NVVn?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
       ]
     }
   ]
