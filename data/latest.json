@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-25T13:29:48.196628+00:00",
+  "fetchedAt": "2026-09-25T19:56:04.114634+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -82,8 +82,8 @@
       "confidence": "medium"
     },
     "sentiment": {
-      "value": 55.2,
-      "date": "2026-07-01",
+      "value": 51.7,
+      "date": "2026-08-01",
       "cadence": "monthly",
       "series": "UMCSENT",
       "uiLabel": "Verbraucherstimmung",
@@ -14405,6 +14405,10 @@
       {
         "date": "2026-07-01",
         "value": 55.2
+      },
+      {
+        "date": "2026-08-01",
+        "value": 51.7
       }
     ],
     "tradeStress": [
@@ -20624,6 +20628,24 @@
   },
   "news": [
     {
+      "title": "The bond market is having a wild month. Oil is making things even worse",
+      "source": "CNN",
+      "publishedAt": "2026-09-25T19:07:01+00:00",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9NcmhlQnQ2OUlOUUlsY0JDUjdIdEpiRTBEZ00wU3pfUkY5TUpHaHB5b1VBLXExMTdTcnRpc05IZTBRR1lIdzQ4cFZfMmhpZzVYYmdQT19YdXFxY2FYSy12MERpeE1mN3BMWUVqcnpvczI?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
       "title": "Wall St Week Ahead Jobs report, inflation data to test US rate path, economic strength",
       "source": "Reuters",
       "publishedAt": "2026-09-25T13:05:44+00:00",
@@ -20642,20 +20664,21 @@
       ]
     },
     {
-      "title": "5 Things to Know Before the Stock Market Opens on Friday",
-      "source": "Investopedia",
-      "publishedAt": "2026-09-25T11:37:48+00:00",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRkM0UUdxQ3lyLURoREpSN1ljS0hhTDIwalF0SEdiX3pmSFFkRFBxUkZ6TGhQNHA4dlhhZEViUW93eWdyeWlhb2gzS21qQTBmU25sT05objZqTHI2OTl4ZXN4VGt5WVo4dmh2SU9lbkUzd3pmUGFFWlRWRXFObWltSmtpXzZSajFZc2NUVk82TFNsWENzMGI1X1pBNzhEdHlwUWZ2THB5X1huZXEtTjRJVWln?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "A reprieve from rising oil prices helps US stocks rise toward the finish of a winning week",
+      "source": "WHEC.com",
+      "publishedAt": "2026-09-25T19:39:52+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRzlPbnBOdWxjS0VkUFlRMlF1Q3Z0YmRKNnRtYmZmY2xYQlZhekdHVm5jWHFvbTJxLUlaTUMtY0t4U2luSDR0Yk1tUGM4S0dFSzc0RzJQUkdSbkI3VngxVE9mZngyTndWdV9WSzVTbFFMSVZzTVNUb25PZjFzMU1VUTVzYUE0UmR1NUYyV3VtZDZTT05FVXU5NTRrUHJXdUs4NEptZDVKalFqakljSlJ5aVcwTlVaNWIzdFhmYUhPVG1IQQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
@@ -20676,57 +20699,37 @@
       ]
     },
     {
-      "title": "Rising Rates No Problem for US Stock Market’s Shadiest Nook",
-      "source": "bloomberg.com",
-      "publishedAt": "2026-09-25T12:22:04+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdzEwcVI1WnRibUR3UWVLdGNnN3dZMlZtNlRmLUNNZ3hUb0hmbzdqQjdZYmFWcDExNEo4VFQtZnlnckFXbXNUMGdlc0FSVFExMjZUT0o1WGtQSEZwcUZwd2hnUnlESGM3cmF3MWlJOWdadnRMU0ZxNFA5ZjhXWk9rb0lSVHlNb1FGZjBCV3MtQ24zNkRMYjVseG9zd2FuRWtDTWJjVFE5MVVKcEg4Y24w?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "title": "Prediction: A Stock Market Crash Is Coming. Here's What Investors Should Do Based on Warren Buffett's Time-Tested Advice.",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-09-25T16:02:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdnpRdGR3M1NVYVF1MFA0RjE4RzRMZDFza1psbWFFejcwWHRmTm90V2UxR3BXRjdVZUNCN3UyRVlRV0hPN2pIUW8taTExdWtmR0kwczBzVkhmUFVFaHVabW91bWNmVk9OdXBBNVNfcTczMFVheHlidk9jdWNXSjViallvNUktdjdZQlh3YXlCRnZpVXZOU1Bodg?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Staatsanleihen",
         "Aktien",
-        "US-Dollar",
-        "Gold"
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
-      "title": "Stock Market Today Ends Mixed as Oil, Yields Rise",
-      "source": "stl.news",
-      "publishedAt": "2026-09-25T02:18:16+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB5UUVPTkY5Mm8wU3JZRTdKbkh1RGppYUttZU50cmt0R2gtazhkYUcwZ0pGLXZVSngzeE5zYVRDMERSSXFsS05FVlJOWjNjd2puR1pPS1FfRWRZQmtmdWZSLU4xTXp4bW9OQjlYdTZvdVAydEg0Tll6OTVR?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "Wall Street climbs as investors buy AI stocks; Microsoft rallies",
+      "source": "Reuters",
+      "publishedAt": "2026-09-25T18:27:47+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOazZwSUsxTDltUG1palRCRG1iQnVRWFQxSGRoVFNKbnVoWExJYk13bVFFMEtkSndpTlh5eVNGYVJlTXpWSmtJZXpTVXRDazdBaUw1eFlUcjdob21NWF9hT2NNWDllOW1fc0lHdjBrQVBmeXY0ZWJLS25xdEJZMFJMUkVsa3NwRS0xSG1LUGVJVkVuSEVOVDlQR2pwWnZjRzliZXNQSTdyREhFVlBuQ185VEYxUWRab01zcThMWUtvOFI?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Why the bond market is freaking out, and what it means for your money",
-      "source": "CBS News",
-      "publishedAt": "2026-09-24T19:08:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9TdmlpTmlrZWppS2ZjMHJSMll0aXF5Q2tYc1FRcmdrbldENHRiTW9RVE5QWVZJOEtRTTEzMmFfdjIxMnpGd1FCTmxyUnF6dUZDY2ZDTUpTc3N4cWlZRWo4RmFuVUdKbWRTYkg3blRvbjdrOVJwTXpkUkFaSQ?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
         "Aktien",
-        "US-Dollar",
-        "Gold"
+        "Anleihen",
+        "Währungen"
       ]
     }
   ],
@@ -20833,7 +20836,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-09-25T13:29:48.196628+00:00",
+      "dataAsOf": "2026-09-25T19:56:04.114634+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
