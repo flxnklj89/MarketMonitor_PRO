@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-26T04:28:10.260072+00:00",
+  "fetchedAt": "2026-09-26T12:52:37.669479+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20637,7 +20637,7 @@
   "news": [
     {
       "title": "The bond market is having a wild month. Oil is making things even worse",
-      "source": "CNN",
+      "source": "cnn.com",
       "publishedAt": "2026-09-25T19:07:01+00:00",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9NcmhlQnQ2OUlOUUlsY0JDUjdIdEpiRTBEZ00wU3pfUkY5TUpHaHB5b1VBLXExMTdTcnRpc05IZTBRR1lIdzQ4cFZfMmhpZzVYYmdQT19YdXFxY2FYSy12MERpeE1mN3BMWUVqcnpvczI?oc=5",
       "bucket": "Energie / Inflation",
@@ -20672,38 +20672,38 @@
       ]
     },
     {
-      "title": "A reprieve from rising oil prices helps stocks finish the week higher",
-      "source": "Los Angeles Times",
-      "publishedAt": "2026-09-25T20:34:12+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNXBxNUxFOTFlUE9pWHFqOHlxazFkZnh2TFdNWjdXQ2JkX242d2R0UkRRSkE3Y2J0U3RGT0gtUHd3MU4wNC1wdDVTS0dSa2hjWXNuUURVWG15eHdkZzk3cjhYTFNULWNNWFFhYUozT3plY2R2cndKZW9KMFZDVUpOWmVQZXNrWTdLc2dreFBXc1dTUEhQMWpJZTcwN3hjUWkxdmRWTmh2TldJQ2ZTN1J3TmxCUQ?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "Most of Berkshire Hathaway's Earnings Don't Come From Its Stock Portfolio. Here's Where They Do Come From.",
+      "source": "fool.com",
+      "publishedAt": "2026-09-26T08:36:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNR29rQTF5MVpZWmF2LVVBSmJpUHB2blBTcm0xTDdhZmpOZlV0cEM5bnU1YmFfc1VCQ0lRWkoxVFFsSk5ydkdRcUFTdHBEX09UV3lXdHRjWlA5allYWnBJdE1EcXEwOEZJVkxEbTNiUFQ3TmNpejJKeXQ0VWxXQkhPMUtSeXF2SHlDZDlOazJnLUNEblVuTWJDQkNwZ0VfR3VFTkpoanlLcjNHT2RsS3B3bjM2Z3BYaWlMVEhPRDF4bmczZS1jSEZBUUFpcHplR2R6RWRLYkNZelZJbmJXSzBkeQ?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     },
     {
-      "title": "Foreign investors are loving the U.S. stock market",
-      "source": "Axios",
-      "publishedAt": "2026-09-25T11:02:59+00:00",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ZbXZRZVN0bDNXRVkzRlNQa21IMXFWUGJ4dUxPYnJHaTNlNm12LVVnY2YyWU9JSzRxUGszS2FZTmd4UzNVX3JMcWppWmpjSDluR0pOcFlFLWxoa0FTV2Y2QXFTNUt2Z0JRWWg1bUx3Z1lURHM?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Pressure from the bond market hits a new level, and US stocks slide on worries about inflation",
+      "source": "apnews.com",
+      "publishedAt": "2026-09-23T21:11:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOU0pyZ1RfQnM4UlAxVHEwS0NWbEpsOXh5akFKNUF6ZVJ1T3B3bjJsNmtSUEhzcFRqZzlldHlEU1Q2TUs4eFdNNVFtM1JlNDBUTFkzaGtQeGxEWVN6Mko2VnhFd2xaYU1fcXNnYUNaNFRyU1VVd19jWWJkWDhhUEZRdHlELUpKQ1NmMjRmSDlnVlpHQQ?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
       "assets": [
+        "Staatsanleihen",
         "Aktien",
-        "Anleihen",
-        "Währungen"
+        "US-Dollar",
+        "Gold"
       ]
     },
     {
@@ -20845,7 +20845,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-09-26T04:28:10.260072+00:00",
+      "dataAsOf": "2026-09-26T12:52:37.669479+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
