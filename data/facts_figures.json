@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T19:40:04.624295+00:00",
+  "generatedAt": "2026-09-27T22:54:33.887631+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,6 +6112,24 @@
   },
   "news": [
     {
+      "title": "Oil Up, Stock Futures Slip as Iran Offer Rejected: Markets Wrap",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-27T22:15:52+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVGEzeTM5UEZjTzRrYWs4T0hyTTAtRVpvWkJ3UFhUVUNxNF9fQTZBM0JHcHh2WFk4MlFQemNVM1RWMW9RQUh0ZUlEZlYwZ21obEJnRXVjOE5QM2ZFYVEtbHNVNmZ4bUdCRU9FaDRUa3Y3VGpsVHk2MzU1LVU2TmJSY3dGR05mdUhsQ2lnZGQzVndvR1dr?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
       "title": "Citi tells clients to buy the next stock market dip as AI trade gathers momentum ahead of midterms",
       "source": "Yahoo Finance",
       "publishedAt": "2026-09-27T12:30:00+00:00",
@@ -6127,41 +6145,6 @@
         "Rohstoffe",
         "Inflation",
         "Transport"
-      ]
-    },
-    {
-      "title": "What to Expect in Markets This Week: Latest US Inflation, Jobs Data; Micron, CarMax Report",
-      "source": "Investopedia",
-      "publishedAt": "2026-09-27T09:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUFFrR2lJSXVYME5xcS15M2wzWl9UZUxHSzFSRGc5OXFXSUc0cENNOTUyc0x4NzJhMzJOSzBaMkhFYjh2X2lkNzdtZmNfSHh5Y203SmNhdEt5bnNFUGVNRy1KM0tPbTZFWEdXZElxOVJSbTBMN1FiVG54V2h6eGhWQjAwWlVMRkphRmNxWGRDYmZsYjVtUFp2dG1pM0RZSDBWNFhIX1FKZnZNY1ZIck1NUHhQbjAyb0YyX19OZzgzY1ZaUQ?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "2 Big Trump Breakthroughs Can Power Stock Markets Higher",
-      "source": "Barron's",
-      "publishedAt": "2026-09-27T14:07:13+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSVFRNkpzNEE0V3YtWEduOVk3ZktPRUs1Y250RzQ2XzZFRmc4WEhEQklONTJEZEFPS1prYWpnTXlNeU91Wlo3LTZTVGdweExFdTFRTFZmRlFkQWR4ODE2ekxLblBsaTFQMDRLMUx4cXVtR2JhdHU4WE9pOEM4M0pTeDFLaFlYbTZqTHBsbnl0ajVWWjBH?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     },
     {
@@ -6183,6 +6166,23 @@
       ]
     },
     {
+      "title": "2 Big Trump Breakthroughs Can Power Stock Markets Higher",
+      "source": "Barron's",
+      "publishedAt": "2026-09-27T14:07:13+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSVFRNkpzNEE0V3YtWEduOVk3ZktPRUs1Y250RzQ2XzZFRmc4WEhEQklONTJEZEFPS1prYWpnTXlNeU91Wlo3LTZTVGdweExFdTFRTFZmRlFkQWR4ODE2ekxLblBsaTFQMDRLMUx4cXVtR2JhdHU4WE9pOEM4M0pTeDFLaFlYbTZqTHBsbnl0ajVWWjBH?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "The New York Stock Exchange | NYSE",
       "source": "NYSE",
       "publishedAt": "2026-09-25T22:00:00+00:00",
@@ -6200,21 +6200,20 @@
       ]
     },
     {
-      "title": "The Next Phase of Trumpflation Has Arrived, and It's Terrible News for the Federal Reserve and Wall Street",
-      "source": "The Globe and Mail",
-      "publishedAt": "2026-09-27T08:26:49+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNNFFmWXA5dlNPZk9KWEJKcjVJOUN4T3N0TkkwRENEUUZKYVBiVmw4UXZ2b0dtWW1KUXpkanZfRGdCTmkyc29pcnlvV19aaFZ0TF93UlJUVXJNQ2JabF95eWJQRWlhY0J3YmkwOGhRTWltU0tQVHZ3dU5zLUV1VEFWMWx3SUs0UkdEZHA2czdyeXRUYjVyMENhRTVWWElUd3F5SUVVYnFOYWkwcjN3RFpGTzdIa0dLdGdBdXdTay1pMFRXWFQ2WkJ4ZndrMVdFeEN1bElBclk0T3lpNy1LSXN2bXhvemgycWxES0tjZ2ktREdiWExFV3c0d1dDeWJlMzEtWWdicXBNbTdINndLVk83amJPaWNyczhDb0R0eQ?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "title": "Here are the 4 big things we're watching in the stock market in the week ahead",
+      "source": "CNBC",
+      "publishedAt": "2026-09-27T16:13:03+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPX0p2MmpQNG1lWktLTzV3eDhjN21jN2pjV0VEM3V6SDhZVlE5N0JvVFJvbHJVaE9iOVN1ZzhDSkgwNFYyTWp2aGh3VlBsNjZieDVwc2pta1pRem1xYVdDY1ZlR2JXOGxhVHowQTlzTEstTHJlbUZoeFVxRlZ3eVIwRDRZWG5wRmJHWHIzQlZMeHdqODdqd2J0Q1lwVFJZbXVKWVA2cC1DOHlzSUZrQllsM2ZreFA?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Staatsanleihen",
         "Aktien",
-        "US-Dollar",
-        "Gold"
+        "Anleihen",
+        "Währungen"
       ]
     }
   ]
