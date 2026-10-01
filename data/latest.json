@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-30T20:40:32.542769+00:00",
+  "fetchedAt": "2026-10-01T05:15:18.488524+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -66,10 +66,10 @@
       }
     },
     "sp500": {
-      "ytd": 11.84,
+      "ytd": 11.56,
       "first": 6858.47,
-      "latest": 7670.84,
-      "date": "2026-09-29",
+      "latest": 7651.54,
+      "date": "2026-09-30",
       "cadence": "daily",
       "series": "SP500",
       "uiLabel": "S&P 500 seit Jahresbeginn",
@@ -98,7 +98,7 @@
     "tradeStress": {
       "value": 47,
       "label": "Erhöht",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "cadence": "daily",
       "method": "proxy",
       "components": {
@@ -120,7 +120,7 @@
   "globalComposite": {
     "value": 42.0,
     "label": "Beobachten",
-    "date": "2026-09-30"
+    "date": "2026-10-01"
   },
   "regions": {
     "europe": {
@@ -221,9 +221,9 @@
     {
       "label": "SPX",
       "icon": "📊",
-      "val": 7670.84,
-      "chg": -12.85,
-      "chgPct": -0.17,
+      "val": 7651.54,
+      "chg": -19.3,
+      "chgPct": -0.25,
       "unit": "",
       "dec": 2
     },
@@ -932,10 +932,6 @@
       }
     ],
     "fedRate": [
-      {
-        "date": "2020-10-01",
-        "value": 0.09
-      },
       {
         "date": "2020-10-02",
         "value": 0.09
@@ -7661,10 +7657,6 @@
     ],
     "sp500": [
       {
-        "date": "2020-10-01",
-        "value": 3380.8
-      },
-      {
         "date": "2020-10-02",
         "value": 3348.44
       },
@@ -13679,6 +13671,10 @@
       {
         "date": "2026-09-29",
         "value": 7670.84
+      },
+      {
+        "date": "2026-09-30",
+        "value": 7651.54
       }
     ],
     "sentiment": [
@@ -14400,10 +14396,6 @@
       }
     ],
     "tradeStress": [
-      {
-        "date": "2020-10-01",
-        "value": 22
-      },
       {
         "date": "2020-10-02",
         "value": 22
@@ -20611,15 +20603,54 @@
       {
         "date": "2026-09-29",
         "value": 47
+      },
+      {
+        "date": "2026-09-30",
+        "value": 47
       }
     ]
   },
   "news": [
     {
-      "title": "Federal Reserve Monetary Policy Impact on Markets",
-      "source": "Funds Society",
-      "publishedAt": "2026-09-30T14:42:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMnRXZktOdkVBVHlBbTNPLXlXaGtiLTZiOUNoRWRsN1JGTzZRSnFwZ0U5YXRnb01wUHlBQVpUWmd3V3JfY3RNYUdFdmJzbXdHREE3WG1JMkRsWXhNQjBnbEtBd2t4ZGlPYWdtVjJnc2FWX1k1cjNfLTU3NjRQYjdGTmJYQ09yNkNPQlV6XzRRc0piV1ZXNTRtQVFoTXhDem1MY2U0eXh5WVYxejJPTU9mT1FDaUxuZmczcUQ5SW9SbWxZN2s?oc=5",
+      "title": "Dow Jones Futures: Micron Earnings Crush Views, S&P 500 At Critical Level As Treasury Yields Rise",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-10-01T03:04:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWVoyZktSa2ZJN09IQ3NzVV9jbXduR01hWXR5SUl0V2FDMllQdjFfQ0h0Z2s5ZGFWSEtQMjktT0N0eVNqbzJYODRVVXJRZFI0M04zWUF5RGxya1FzR3VJN3Q1ZXhMLWlEVzQ2cE94Zm4tSnVaNjlnb1hzM2YwRTA5ZEFMOVVSZmhnYmc1bmx2VklsaGkwVXA5ZXpTSVJkck5YLUFkZHJ6TlFmYnNIeDNoZWpTVXM?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Asian shares mostly rise amid market optimism about AI, despite Iran worries",
+      "source": "Audacy",
+      "publishedAt": "2026-10-01T03:19:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPLXVBTG1XV3RnUHJpYjVjVnU2eFpELXctNkl1eW5zajJTR29RREZyN2dwOHh1dV9PTVgyZ3ktY1FZV0FHR3lQa054a3pqc3BkNFFKVWxqSkFrNFpUYWNIWW1rUUFHVnNxS1E4aXFmUGJSU1RLUkYwSkxuLVNKZzl0T1M0SnFIM1Uya1RmeGY1Z0E5NUNlRVlzRTRTTFFSeGc4ZzBFYWVIYTdsWERMVHFlXw?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Asian stocks dip, bonds in focus after torrid September",
+      "source": "Reuters",
+      "publishedAt": "2026-10-01T01:56:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOM0FxZzFRTU1MWEFLa2QydlpyQ01TTDJoTjZKTmxxekpnam9PZUswZEtEN1RiSkVMYThjZ0Y1SE42VkZETGdIVm1Nd3J3YVlndnJTTGtWamozS1otaVlPaWwyZE92c21mN0lkbnhURWY5OWxzSXBiWlVvOGRMM21KM1Y2MA?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -20653,9 +20684,9 @@
     },
     {
       "title": "Wall Street closes in on a winning September following an encouraging update on inflation",
-      "source": "Boston Herald",
-      "publishedAt": "2026-09-30T16:10:56+00:00",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOEFMMUNDSFM0YXptNkctQnRJQmNBR3hzN0xOZ05vMjNlZUtYWTRoMEZ1TmlkR3M4VnIySklxcDJjYXhScTJsNTJUZ2dVaFdzQ1pjbkNFejAtVG05blc4bkdTVlE5MGg5bWRjTGMtZ0hXM1k4ZnpZTmQ5M0hjWlJUWlZubW0?oc=5",
+      "source": "The Morning Call",
+      "publishedAt": "2026-09-30T17:18:11+00:00",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9NUVAtU0s1X2pLY1NwcjRZdmphNThtS19fZEE4YVNKaFpoUDYyNnFNVGNVaWFLOVZybUQwXzUtNWw0dW95dHVNX0g4RlRPcXJGek01Wk1xTFIwaGdjWlE0aEhEdVMyUFZnbkh2MU9wVngtcE1BOFdGWUNDcw?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -20670,46 +20701,10 @@
       ]
     },
     {
-      "title": "Stock Market Today (Sept. 30, 2026): S&P 500 futures rise as PCE inflation comes in below expectations",
-      "source": "finance.yahoo.com",
-      "publishedAt": "2026-09-30T13:42:09+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUzhFSFVib0Ziam12eERMSU9lWWkxWTRMNWR4WlZlakNEWUNzbWlNTEQtaGUwREZoMVNVUTMweWhJN0wxbkdXZlNKY3dWNDRqbkVQNkNRcmpDaU5sNkc5UWNwbFdHTDQzTEZ3cUdEYXBzQ3pHTS10X3ZCUHBoX29LeHJXMVVDWEVScldMS1NNN2N3d3czZGc?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "Wall Street holds steadier following a potentially encouraging update on inflation",
-      "source": "Orlando Sentinel",
-      "publishedAt": "2026-09-30T14:25:17+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY0x6VW93NHpBa0o5Vm44YXpQRk5MYThwbzYydzV3bmZkSExjQnR2ZnpuR0hRX2lsTzhib1pqWUw3UF9tSUFZRHBZZUFhSUhWdVMxX0pvekRydzZaUURqZjNrTHI3UVJmQzZSa0E0T2lvSXVzZDE1a2VJWXRybnNxUk5uVy1TbWot?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "Global stocks weather third-quarter AI, bond and crude maelstrom",
-      "source": "Reuters",
-      "publishedAt": "2026-09-30T17:07:46+00:00",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNEZjWFpDMnhINXNrdUFFQm50Rjhwc1dLMTRFMTJnU0VSNzgtbDdkS18wTWNGUklqNHAtWnNEM0R0VzYySlR1a3RqZGFMd0pRSnVUd0NzeWREUDFhQVFsVTY4ZVRSNWVuNklsUjJzYTRObHl0NUo0WkRwNFBvUGNNdTBZUlo?oc=5",
+      "title": "Nasdaq 100 Climbs as Cooler PCE Cuts Rate Hike Bets, Micron Earnings Loom: Stock Market Today",
+      "source": "Benzinga",
+      "publishedAt": "2026-09-30T16:47:40+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNYUtlS2dqUDE5NzYxZmhWRUdYSW83UWR4bVdpNzJycVdlb3Bkb0ZERUlBRkJtdkNFVTRJazZucmh0U1BSZEN1VU9BTkFQVnlTRVppWmdCdjNQeWpxOUxYZFVxQUYtWVl0dGppRW5YTF80V2RtN0p5anp5aXN6aHpWLXBSYjlqc1puQVZVcWdtNXFUZlV3MUEwTUpieWctSHVULVh5UjFYbmNFbVpwZG5NUExvSHMxcmFrOHkzbGhsOWNCRlV4akRsdno1cGNadHB6UlRxRlUtMjVldUtJalE?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -20829,7 +20824,7 @@
       "actionMatrixKey": "defensive"
     },
     "statusLine": {
-      "dataAsOf": "2026-09-30T20:40:32.542769+00:00",
+      "dataAsOf": "2026-10-01T05:15:18.488524+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
