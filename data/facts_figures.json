@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T18:10:18.313365+00:00",
+  "generatedAt": "2026-10-06T23:41:16.493538+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,10 +6112,27 @@
   },
   "news": [
     {
-      "title": "S&P 500, Nasdaq hit record highs as Treasury yields stall, oil slips",
+      "title": "S&P 500, Nasdaq reach record closing highs as focus pivots to earnings",
       "source": "Reuters",
-      "publishedAt": "2026-10-06T16:02:59+00:00",
+      "publishedAt": "2026-10-06T20:47:55+00:00",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ0p5VWxQQ0ZmUUI0Vk5wRUVjTUJhZjZGUlZjU2tWU1AtOEdqYjZ0OFRtRXNrUVdrTFlNZjVWdzluRjUyaWhHTlYxMG5Yc21pMHFubTdiX1RIRTRUSnB4UTZPckRMZTlzTHBEbkZKU1ROMTZpWE9lMXhPQkhyQmhBV3JNdkFrQVk?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Stock Market Today (Oct. 6, 2026): S&P rises as oil prices, Treasury yields retreat",
+      "source": "Yahoo Finance Australia",
+      "publishedAt": "2026-10-06T13:44:18+00:00",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82ZWloOFFaaVItZFR5ZVRybmtPV3lYLTdaRVAwdVhPcU14eGlsblBoSlBuQVlaLTFXcEpWZUstWW1COTk1M0o5dFJzY0lkdjJWYlNxTU40UERfWjY3SXZURENoUlFtZzZOWTd5QV9LLXM0VV82RWp3MEJ3Z3JWUQ?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -6130,10 +6147,10 @@
       ]
     },
     {
-      "title": "US stocks flirt with a record after oil prices ease",
-      "source": "LancasterOnline",
-      "publishedAt": "2026-10-06T13:33:42+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOVkdFZmhDZ0NWcXVNWUVjZmdOVXg1VUJOc0R5dFBEWF9IWVd6Wl9nc0dUTnZiTVI2ZUgweTgzd0ltRXl0YTNReUZVQTY0eE9QQnJWV05TNGlScHJ6bzhZZHNLRDhyczVOZGJYbmFhMDl4V0hscFA5a2ZIY3RxdlFuYmwyekN1RTZ1NjQyeWlLSDl0ZXdvOTl6OTByTUdsMFdtWEdRQS1TYzVQX19vLUI3THlIcG43TzdZWGZaVkZ3Y01ZLVRrUHliV0J2bGRUcEVEeXF2eTJPZTV6bmsyMHlTLXR1R0JiZw?oc=5",
+      "title": "US stocks hit record high, shrugging off bond market turmoil",
+      "source": "CNN",
+      "publishedAt": "2026-10-06T14:25:46+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1CVkNXNkYyc2ZNcGxWSXlXMkFqZnA1ZGlQRTJHUXhZXzhnb0NrVEJ3eXBYQS1wS2xEcExvd2pVUFpndFBLUnd2SFIwY01uOGdzbWc5aURKLWIzVEZWQkJRQ2tGQUNzb1E?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -6148,46 +6165,10 @@
       ]
     },
     {
-      "title": "Wall Street points toward gains, oil prices fall as markets await next week’s earnings ramp-up",
-      "source": "The Citizens' Voice",
-      "publishedAt": "2026-10-06T12:53:38+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5iQk95azB5Y3M3c19xeEcyd0d1cW53NXFVOV8telhQOW9nYi0tQmItUjBtUm9IUFBEbktXcW95TlNLdG5lYXNHVzVJNjdtbnBQQ0tuLVYtX09JOTVmbHp4TEplOA?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stock Market Today: S&P 500, Nasdaq Hit Fresh All-Time Highs as Treasury Yields, Oil Prices Fall",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-10-06T10:44:56+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSHRjajZoY2Q3ZG5Yc0lJTFNYSXRzNDVsMi1UMkFFd1FGM19vWG9GUk95ck16WjV5XzhtV1VuYlBBckk1MFloMGgyS3ItbDdSX1lfQmh6QnBpMzhvUWlWT2wyOXZoZkdMUDU5eUdPMl9rM2djaEFjTGFab0tzZVlodERwZmcyc2JYanp3RGZUS3h3TVhOQjZCb3FVeXY?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "US futures edge higher, oil prices dip and bond yields hover near record highs",
+      "title": "Wall Street points toward gains, oil prices fall as markets await next week's earnings ramp up",
       "source": "ABC News - Breaking News, Latest News and Videos",
-      "publishedAt": "2026-10-06T03:09:12+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSU5kRXVKWEtIaUJrdmRuV1BtdEJRTTgwUnhENkpQVkw4Zkw5VlFGdjdBdk9yVm1yeUFUUE9JaVZNNnhYMFI2SThlY1lDTkVwSlJwTFJPYkJZVmp6b1BUVWNjeS1UMzNoMkpaQlhkQlFJakJZTDl5eDlaTmJoTURVOEhNVERZYnJWUGFYRnExLUZIRkpETXdmRXBSY9IBoAFBVV95cUxQcXUzbVY3czlOQjJ5OUpTVkp0T1ZjUWN1cl85UFBIVnNQYUVqZEtzVW5aWE9JWkRKaFVxZ1RqbGlGLW5NV0t2MEQzMFFZdXJoWUZKUEhPV3NjUVhQTklPUFVrZDRzVk9MNnRHd0RtM0Rlb1B3R3JOVVpGaTVRN2hsZGtSOXgxZFFIQkNBRmtWTXNRRXF4S2MyTENEWmYzS1B1?oc=5",
+      "publishedAt": "2026-10-06T10:52:05+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSndpUzJlMW5YLWZzbDNTdUJxRkpKc21aUTNscHNpU3hiVjk0TTU2dlpSN2lTck9JeEU0a2lucExQejdXeTJULVdVMy1CbUlEVElOYVpSS0pMdlRjWWQ3V3RVV1NkUXhSNDN6LVBGb3hfd2hOajR4dXMxT2taeHpkaTRidWpvZHN4d0s2clJnWUdOQTh1cjFvWXAwbWEyWTjSAaQBQVVfeXFMT1BldHF2VGl1ck83YThVSFRsQkxjakZKRXhRZkVOOG9hbWlSZkh1aDEtazlGZ1k1LUtGakhCc1lPMW5yS3FOM1lmSGppZzNpZ19OVmg0czFlQ3RnLUF3REo2NlNINFdLTThhckI5WEk1WHJmQzBHNWNaSWdVSGpuMFZHdEx2Vjk2N3FnT0l3ZGVJZnFvNGJQNFpMY0tDdXNlX1E2S2E?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -6202,10 +6183,27 @@
       ]
     },
     {
-      "title": "Stock Market Today (Oct. 6, 2026): S&P 500 rises as oil prices, Treasury yields settle after recent jumps",
-      "source": "AOL.com",
-      "publishedAt": "2026-10-06T10:44:18+00:00",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE16NXJDdTNZLV83UVhCcWRGcnUtRUNNZjhrZE9Oc0FIMHowMDhqaTZiNmVyZXZVLV9Pd0hGbFpwSF83RkhNZHNJS2dVS3NjY2dKSVRycHVWNDJXTVRaZFZ4bS0yREtsNkpGREdxZGI5SUNrVXJUc000?oc=5",
+      "title": "PepsiCo's Next Earnings Report on Oct. 8 2026 Could Send the Stock Plunging. Here's Why.",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-10-06T18:19:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNc0tTN3NoelFCV1BDLVlCaWk4dTlUY0Nka3FsTGxVY043VjdwSmZXNnVvVWVibTAzOVBfVmhLclRrWnV6UFlGQXU0RWIxZUVkQWNsZ1pDZmNZUEttVmJXaHNUak5xXzhSTHFkMHEtMGUwRzdDWHgxY2xlYVhoczU3ZTVxSVVQcTVpdFp2OURlWlhQeWJ0QVhCLWtjX2d3ekNNaFRfdi01b1Z6UDBkZzJJVHJ3TFRHZFlGOE5la3BfT3FQcnlCNVJtSHRCOXM1Zw?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Wall Street shares notch records as oil prices stabilize, bond yields retreat",
+      "source": "Reuters",
+      "publishedAt": "2026-10-06T20:42:27+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZlMwQU1nbHRaZ2dnOUVOM1c1LXBxNXhWUTNzS1ROWDZyODk1NldRTHB2ODNKbnI0am5tUUcwMU9YekUxMWtLOFVGMFczTU12cHpCclQ1cnhDRzBMVGRBWTYwRjZPVUZidVFlT1FMZGdUcnR6MENjNXVMUXRzTlVzdVJkSQ?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
