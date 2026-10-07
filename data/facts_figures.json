@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T23:41:16.493538+00:00",
+  "generatedAt": "2026-10-07T05:22:05.217702+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -43,10 +43,10 @@
   "technicalTriggers": [
     {
       "label": "50T vs. 200T",
-      "value": 6.5,
+      "value": 6.6,
       "unit": "%",
       "tone": "l",
-      "status": "50T liegt bei +6.5 % gegenüber dem 200T. Schlusskurs 27477, 50T 26356, 200T 24751. NASDAQ Composite (Fallback) über 50T (26356) und 200T (24751). Trendstruktur intakt.",
+      "status": "50T liegt bei +6.6 % gegenüber dem 200T. Schlusskurs 27600, 50T 26410, 200T 24776. NASDAQ Composite (Fallback) über 50T (26410) und 200T (24776). Trendstruktur intakt.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -56,10 +56,10 @@
     },
     {
       "label": "RSI (14)",
-      "value": 66.3,
+      "value": 67.9,
       "unit": "",
       "tone": "m",
-      "status": "RSI (14) bei 66.3. Kein Extremniveau in beide Richtungen.",
+      "status": "RSI (14) bei 67.9. Kein Extremniveau in beide Richtungen.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -702,12 +702,6 @@
   "charts": {
     "chartLabel": "NASDAQ Composite",
     "qqq": [
-      {
-        "date": "2025-07-28",
-        "close": 21178.58,
-        "ma50": 19943.8,
-        "ma200": 18956.59
-      },
       {
         "date": "2025-07-29",
         "close": 21098.29,
@@ -2501,13 +2495,15 @@
         "close": 27477.31,
         "ma50": 26356.5,
         "ma200": 24751.42
+      },
+      {
+        "date": "2026-10-06",
+        "close": 27599.89,
+        "ma50": 26409.86,
+        "ma200": 24775.95
       }
     ],
     "rsi": [
-      {
-        "date": "2025-07-28",
-        "value": 76.0
-      },
       {
         "date": "2025-07-29",
         "value": 71.6
@@ -3703,6 +3699,10 @@
       {
         "date": "2026-10-05",
         "value": 66.3
+      },
+      {
+        "date": "2026-10-06",
+        "value": 67.9
       }
     ],
     "vix": [
@@ -6112,9 +6112,26 @@
   },
   "news": [
     {
+      "title": "Robust AI spending sets investors up for another bumper US earnings season",
+      "source": "Financial Times",
+      "publishedAt": "2026-10-07T04:00:22+00:00",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZk1oQnFmYjdtRWFEeFNTZlEtZU9IVGV1Y24wcGJVa2pJY2JURGJORXpGTHRnUVRucUxRYmpMNndGaEdLaU9PZDIybFpXeXlVUURrSUttWG5WUmZzUjZJSk5EYlRDYzF6c3hvMXI4d2ExT3ItVjFMVEdveGpwUkF0dVBHdXI?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
       "title": "S&P 500, Nasdaq reach record closing highs as focus pivots to earnings",
       "source": "Reuters",
-      "publishedAt": "2026-10-06T20:47:55+00:00",
+      "publishedAt": "2026-10-06T10:27:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ0p5VWxQQ0ZmUUI0Vk5wRUVjTUJhZjZGUlZjU2tWU1AtOEdqYjZ0OFRtRXNrUVdrTFlNZjVWdzluRjUyaWhHTlYxMG5Yc21pMHFubTdiX1RIRTRUSnB4UTZPckRMZTlzTHBEbkZKU1ROMTZpWE9lMXhPQkhyQmhBV3JNdkFrQVk?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
@@ -6129,21 +6146,20 @@
       ]
     },
     {
-      "title": "Stock Market Today (Oct. 6, 2026): S&P rises as oil prices, Treasury yields retreat",
-      "source": "Yahoo Finance Australia",
-      "publishedAt": "2026-10-06T13:44:18+00:00",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82ZWloOFFaaVItZFR5ZVRybmtPV3lYLTdaRVAwdVhPcU14eGlsblBoSlBuQVlaLTFXcEpWZUstWW1COTk1M0o5dFJzY0lkdjJWYlNxTU40UERfWjY3SXZURENoUlFtZzZOWTd5QV9LLXM0VV82RWp3MEJ3Z3JWUQ?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "Asian stocks mostly fall back despite latest earnings-driven rally on Wall Street",
+      "source": "The Washington Post",
+      "publishedAt": "2026-10-07T04:19:31+00:00",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNmJBaF9tSGhlcGVTdkZrS1JZUGFpSTdFaXB4OGV0bHFiR3B4bS0xR1V3cjluajNsRDdESXNXNDRnaXBGMXhFLU9PNXdmQk1SUkJ3ZVhoZXdhS25CMEx4WEtjWi1LWnpNZl9VYWJFMmY5Qk5oX1kwQmNqWGh5aWNTS3dDQWpqRUVWdV8xM1JHZzFIOXJGczEyU2RrSDFGVFYwR1V5TS1teDNRemN6RVY0aXpzcE5WZ1RMS1p1cXFvZFd3YXdSeE5TLV84NjM?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     },
     {
@@ -6165,45 +6181,28 @@
       ]
     },
     {
-      "title": "Wall Street points toward gains, oil prices fall as markets await next week's earnings ramp up",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "publishedAt": "2026-10-06T10:52:05+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSndpUzJlMW5YLWZzbDNTdUJxRkpKc21aUTNscHNpU3hiVjk0TTU2dlpSN2lTck9JeEU0a2lucExQejdXeTJULVdVMy1CbUlEVElOYVpSS0pMdlRjWWQ3V3RVV1NkUXhSNDN6LVBGb3hfd2hOajR4dXMxT2taeHpkaTRidWpvZHN4d0s2clJnWUdOQTh1cjFvWXAwbWEyWTjSAaQBQVVfeXFMT1BldHF2VGl1ck83YThVSFRsQkxjakZKRXhRZkVOOG9hbWlSZkh1aDEtazlGZ1k1LUtGakhCc1lPMW5yS3FOM1lmSGppZzNpZ19OVmg0czFlQ3RnLUF3REo2NlNINFdLTThhckI5WEk1WHJmQzBHNWNaSWdVSGpuMFZHdEx2Vjk2N3FnT0l3ZGVJZnFvNGJQNFpMY0tDdXNlX1E2S2E?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "Stock Market Today: S&P 500 Hits New Record High as Treasury Yields Ease",
+      "source": "Eurasia Business News",
+      "publishedAt": "2026-10-06T21:50:26+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMzlRTGFoS3lqcDhhOXF1eXRYQkIweVJucC1PeGZqY2JpRXZtZUZlME1SMUJJT0RISjNKR3dKYXNPYzh6UTNBV2ZFbXM1d1NFRkk5X2lTWEtpTUhEbTlJUHFreU56V2k3RnNIeHgtU3U0N1pHZjUwVVc4QXMwUFRXbDMzOXB3UXNFMUNxMGh3VW5TWXlTczVjcVo4M1JudTRnWWVGaHNZSHBsY1lEV09mNGgycVE?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "PepsiCo's Next Earnings Report on Oct. 8 2026 Could Send the Stock Plunging. Here's Why.",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-10-06T18:19:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNc0tTN3NoelFCV1BDLVlCaWk4dTlUY0Nka3FsTGxVY043VjdwSmZXNnVvVWVibTAzOVBfVmhLclRrWnV6UFlGQXU0RWIxZUVkQWNsZ1pDZmNZUEttVmJXaHNUak5xXzhSTHFkMHEtMGUwRzdDWHgxY2xlYVhoczU3ZTVxSVVQcTVpdFp2OURlWlhQeWJ0QVhCLWtjX2d3ekNNaFRfdi01b1Z6UDBkZzJJVHJ3TFRHZFlGOE5la3BfT3FQcnlCNVJtSHRCOXM1Zw?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
+        "Staatsanleihen",
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "US-Dollar",
+        "Gold"
       ]
     },
     {
-      "title": "Wall Street shares notch records as oil prices stabilize, bond yields retreat",
-      "source": "Reuters",
-      "publishedAt": "2026-10-06T20:42:27+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZlMwQU1nbHRaZ2dnOUVOM1c1LXBxNXhWUTNzS1ROWDZyODk1NldRTHB2ODNKbnI0am5tUUcwMU9YekUxMWtLOFVGMFczTU12cHpCclQ1cnhDRzBMVGRBWTYwRjZPVUZidVFlT1FMZGdUcnR6MENjNXVMUXRzTlVzdVJkSQ?oc=5",
+      "title": "Asia stocks fall despite Wall Street records as rising oil, yields weigh",
+      "source": "Investing.com",
+      "publishedAt": "2026-10-07T03:14:46+00:00",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZ2ZoV3daa3FMeEZIcDIwdHREQTh0cW5GZnVhcnFueDYyUWRUaVVaV1Zva2hlTl95Ymd4LXppbnUyTEZfQVpnVWVmZW50ZnB0WnYtNkhRazRldGZLcXVMbERiODRpWVZxM0lCN05tMXRaMjc2a3MyTGtwVFNaelVoZm9sRWt6NU9ic3U0XzJuN3ZUTUxlcFBWVFZZYkowc0ljSTVuVElfVzNZU05sVlhNM1gyMnNRbS1DQWlBZ3VuV0hYazl1VHBr?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
