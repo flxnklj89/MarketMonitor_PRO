@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T21:11:59.445325+00:00",
+  "generatedAt": "2026-10-09T05:35:05.534998+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -43,10 +43,10 @@
   "technicalTriggers": [
     {
       "label": "50T vs. 200T",
-      "value": 6.7,
+      "value": 6.9,
       "unit": "%",
       "tone": "l",
-      "status": "50T liegt bei +6.7 % gegenüber dem 200T. Schlusskurs 27539, 50T 26463, 200T 24799. NASDAQ Composite (Fallback) über 50T (26463) und 200T (24799). Trendstruktur intakt.",
+      "status": "50T liegt bei +6.9 % gegenüber dem 200T. Schlusskurs 27193, 50T 26518, 200T 24818. NASDAQ Composite (Fallback) über 50T (26518) und 200T (24818). Trendstruktur intakt.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -56,10 +56,10 @@
     },
     {
       "label": "RSI (14)",
-      "value": 66.2,
+      "value": 57.4,
       "unit": "",
       "tone": "m",
-      "status": "RSI (14) bei 66.2. Kein Extremniveau in beide Richtungen.",
+      "status": "RSI (14) bei 57.4. Kein Extremniveau in beide Richtungen.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -69,10 +69,10 @@
     },
     {
       "label": "Drawdown vom Hoch",
-      "value": -0.2,
+      "value": -1.5,
       "unit": "%",
       "tone": "l",
-      "status": "-0.2 % vom Hoch. Kaum struktureller Druck.",
+      "status": "-1.5 % vom Hoch. Kaum struktureller Druck.",
       "history": []
     }
   ],
@@ -702,12 +702,6 @@
   "charts": {
     "chartLabel": "NASDAQ Composite",
     "qqq": [
-      {
-        "date": "2025-07-30",
-        "close": 21129.67,
-        "ma50": 20021.9,
-        "ma200": 18985.35
-      },
       {
         "date": "2025-07-31",
         "close": 21122.45,
@@ -2501,13 +2495,15 @@
         "close": 27538.69,
         "ma50": 26463.09,
         "ma200": 24798.62
+      },
+      {
+        "date": "2026-10-08",
+        "close": 27193.34,
+        "ma50": 26518.1,
+        "ma200": 24818.04
       }
     ],
     "rsi": [
-      {
-        "date": "2025-07-30",
-        "value": 72.3
-      },
       {
         "date": "2025-07-31",
         "value": 71.9
@@ -3703,6 +3699,10 @@
       {
         "date": "2026-10-07",
         "value": 66.2
+      },
+      {
+        "date": "2026-10-08",
+        "value": 57.4
       }
     ],
     "vix": [
@@ -6112,6 +6112,23 @@
   },
   "news": [
     {
+      "title": "S&P 500, Nasdaq end lower as crude prices jump, chip stocks weigh",
+      "source": "Reuters",
+      "publishedAt": "2026-10-08T23:09:38+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPLTluWFV5cWFfM2xBV243NUduZW80Q3dmYnFLa1Y4Nmhha2RNNHVGTS1sM2NYZ0ZCeWJlazZpSndKOWM0OVUxTmx2M3luSDdpbVgzNnYtanQtb2VkWV9tU2NQaU03ejAxZy1NU1JhWkMwLXRNbmJUY2pWaTBrVE9XbGRXa2VFekh1LTVZbVNGUVRKTVhIU0NnSUZqdXI?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "U.S. stock market drops: S&P 500 and Nasdaq fall as oil surges past $104 and inflation fears return",
       "source": "Clarin.com",
       "publishedAt": "2026-10-08T15:04:08+00:00",
@@ -6130,10 +6147,27 @@
       ]
     },
     {
-      "title": "S&P 500, Nasdaq end lower as crude prices jump, chip stocks weigh",
-      "source": "Reuters",
-      "publishedAt": "2026-10-08T20:32:47+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPLTluWFV5cWFfM2xBV243NUduZW80Q3dmYnFLa1Y4Nmhha2RNNHVGTS1sM2NYZ0ZCeWJlazZpSndKOWM0OVUxTmx2M3luSDdpbVgzNnYtanQtb2VkWV9tU2NQaU03ejAxZy1NU1JhWkMwLXRNbmJUY2pWaTBrVE9XbGRXa2VFekh1LTVZbVNGUVRKTVhIU0NnSUZqdXI?oc=5",
+      "title": "Ray Dalio says the stock market's margin for error is shrinking",
+      "source": "Business Insider",
+      "publishedAt": "2026-10-09T05:29:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZ1k3M0NkQTg3aFpSUUFHZVN4NUQzdHRseXAwLXk3cDZ2V2Q1X2UyR2xwVWVZd09wb09DRFlVMjBhNXN0OFBSN3FBQi1EdjhCOWd4T1FxZGRBQTRBUDN5YUNXd0FKV1djSVctbloyS2FmVXBVRlV1OTA5RHdPcHRxVUY2SWI1N1M4WVRhNWE5M3hGcWJOYVFyVUptMWlqZHIw?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Tech Stocks to Fall as OpenAI Sinks US Chipmakers: Markets Wrap",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-10-08T22:05:53+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNLVdSbk1NMk9oczQxR1FzUXBRcVJuVlRWZExIbS1LQmh1am1NQ1J4ZzZEbXpaVHhVWU5FcHAtODFZYUQ1UkpZSTM0XzI2amdDa0dyTXlQVXNZbXdjcTRZd1pVSzhyRV9FbjM3cXpVeGwzY1I4WGFoZUN4VjQ2Rml2NzZfOGc2QmlPUUY0bGYtd3ZoUk53?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -6165,46 +6199,10 @@
       ]
     },
     {
-      "title": "Stock Market Today: S&P 500 Slips as Oil Spikes 5%, Yields Rise",
-      "source": "Benzinga",
-      "publishedAt": "2026-10-08T17:19:59+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaUZvVGJUTU5CR3FVbGxrVFNseExzN2VZcFBBNU1yc21KN2VrRHFMNWpxWFQydVJYaDZDbmhXTXRGRG1rbE1xTlpoU1dWeERSbWJfZmJSZllhN0JsTlBDTmJzdDM5eVJ1S2pjWGVHc3JYcUJObXJ2Z1poLVZvN0xTa3RqYWw1YWJSOHd4VnE0YlFjQ0J6TEpkOFM2QzZ4eTROYnJPZGtZV0NyZDA?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Rising oil prices, falling technology stocks and reversing bond yields keep Wall Street unsettled",
-      "source": "Baltimore Sun",
-      "publishedAt": "2026-10-08T20:32:05+00:00",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4xZEFMU25vTXdBemdBZHVYRGx4UkpKVmtHWGp1d2xZY1dKU0R5Nlc1R3VRQy1YcTVqTlpLR2tXWVZvMG42emtDbHgwWlVYbmp6S1p6TWUxdDFISzAtOWZ5YktmZ19nQmpXUDg1X2VtbEFGdWR6RTFlVGdwaw?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Sharp rise in crude oil prices weighs on Wall Street",
-      "source": "Scranton Times-Tribune",
-      "publishedAt": "2026-10-08T13:52:17+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOejVkTTR6YXRtRUxHekZ3cUFwSE1PMHB3eUdVLU1iMzVRb0dDb0VObnVCOXFpVUFNOUJ2OHdndVhzbVplWVktMEFkX3g4aExCeUhMbzdRMXh1dVpWNWRpRVlYMmJ3c2toSzBlYWprVk5UTXNpeVFNVHB5T0JNZkl1Yw?oc=5",
+      "title": "Stock Market Today, Oct. 8: Tech Stocks Slide as Treasury Yields and Oil Prices Surge",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-10-08T21:09:43+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNb0RIN3pLUFAtdHFCOVJyWGtfQUlZV3JYbnVXc1FDaWlOUk81SHZWTmkwU3pqVE1qVlpUY0RaY0ZydGFqQWhrLTR2cllDZVFqYW5tZDZKYmtJNXc1eDVXVWMxOXhfRlN0aUUtZG9mTHdIWEsxN1plOF9sWHNMMTVQQmtwRmU5a1VSaVdfVV9oREx1ZEtpM1Fmc0E1Mi1YNldobldCclRfX3JrU19qaFRCbVhlSnFDUnctVFhKbWkxSDh4dDM3VmtKaUdEV1dKNHY4TFozb0tNOVRoQXc?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
