@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T19:54:58.278119+00:00",
+  "generatedAt": "2026-10-10T23:21:59.657050+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6163,6 +6163,24 @@
       ]
     },
     {
+      "title": "Stocks advance ahead of earnings, navigating still-high Treasury yields and oil prices",
+      "source": "Reuters",
+      "publishedAt": "2026-10-09T01:56:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBmemlrTzkxS0ZGNW4xVC1Bb0FYNmR0MWNHMnFtYXl6Wmg2UHFSVWwwUEQ0MEI5dmY0VGVtR1RURVc2aHlZRjBnVS0yQzdJaDVqNWVnSGFOZkh6SHdTSTJVUDBjd0tFdFhrbjFHa3ExVzFNN0FvOXFpOTZ2QQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
       "title": "Stock Market Today: Stocks Rise as Tech Recovers, Oil Stays Above $100",
       "source": "Eurasia Business News",
       "publishedAt": "2026-10-09T23:10:41+00:00",
@@ -6196,24 +6214,6 @@
         "Aktien",
         "US-Dollar",
         "Gold"
-      ]
-    },
-    {
-      "title": "Stocks advance ahead of earnings, navigating still-high Treasury yields and oil prices",
-      "source": "Reuters",
-      "publishedAt": "2026-10-09T01:56:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBmemlrTzkxS0ZGNW4xVC1Bb0FYNmR0MWNHMnFtYXl6Wmg2UHFSVWwwUEQ0MEI5dmY0VGVtR1RURVc2aHlZRjBnVS0yQzdJaDVqNWVnSGFOZkh6SHdTSTJVUDBjd0tFdFhrbjFHa3ExVzFNN0FvOXFpOTZ2QQ?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
       ]
     }
   ]
