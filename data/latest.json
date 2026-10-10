@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-10T05:19:12.308271+00:00",
+  "fetchedAt": "2026-10-10T14:22:19.329020+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20659,7 +20659,24 @@
       ]
     },
     {
-      "title": "Stocks Climb a Wall of Worry Ahead of Earnings Season: Stock Market Today",
+      "title": "Adobe's Earnings Are on Track to Grow About Eightfold in a Decade. Why Has Its Stock Lagged the Market So Badly?",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-10-10T12:38:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQcUxfQ3RKeHcxb1BoYnVSUmZwd1p5U0JvNVVpLUR1NHFJeExyZ290eWFXNkxtaGVZTjcyOU9tc1hGc3EzR1ZUSjMzRk5XR1JxZ1EtVDlTb3MtS0hIRWEyUEZHU2xmeDhscGRua3lHOHo3M3RmNzhQeW5mQ0Z5WFRKcTBpbnFYbHJ1SlE5RzZYNEltUzlyNmI4Tk1tenVjdW5uRHFTLTdYN0gwUUd1RXVLdGl2TnJuM0laUTNremJEMXBwajdTRHpTQ2p5RGx6Y0lXODFqSndYUHFmTzljNnJDU0dUcDgyTGly?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Stocks Climb a Wall of Worry Ahead of Earnings: Stock Market Today",
       "source": "Kiplinger",
       "publishedAt": "2026-10-09T20:11:11+00:00",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVHF1MjVuYW9mNkRFUlFGQzV6Q3A0VEstR0tMN1pqNVhNa1dQMk51MWwxb0QzbjRrTGMwZzJJc0dzQ1VJb0pDT1ZpVDVYUzZrQnA4U0tfMnFPcnA3Q3E4b1RvZXNLVzVWRFdYTXBlWUp2Um9pZ1NOZlhsdTlPaVd2REs4VERpVDh2WGV0YkZKS1U4WnUyOWQ2RlFZZlM3UTA2X2JWaHl0Z0dTSmRO?oc=5",
@@ -20676,20 +20693,21 @@
       ]
     },
     {
-      "title": "Stock Market Today, Oct. 9: PG&E Gains on Earnings Call Anticipation Before October 22 Update",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-10-09T22:12:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOOG9pTjl4N1NrTVlGNUZmYTVsVG00Qml4cWNNNERidi1ESGdiN3RaTGcxMGRMcEVCMGphM2tMMmdlemxBYXczWHV6Zk9UbTFaRXZwR1N6UmROcUJrcHJUaWRna3hzTmRRWlhXelhQQy1vT2ctTWJMSy1KQVJGa3BTSGVnNExBOG54aXpFY0UtX2hyYUhxdDZtbzRjb194Sl9qeUpCMDFGUUplVmRLeTk1bHUxVWR6UHlKSWhtOWVUQmlFRkRkOHZXdm0xdXg2UEY0c1F2bHRRV1JfX0ZUTjZtd3NwRjc?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "Stocks advance ahead of earnings, navigating still-high Treasury yields and oil prices",
+      "source": "Reuters",
+      "publishedAt": "2026-10-09T01:56:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBmemlrTzkxS0ZGNW4xVC1Bb0FYNmR0MWNHMnFtYXl6Wmg2UHFSVWwwUEQ0MEI5dmY0VGVtR1RURVc2aHlZRjBnVS0yQzdJaDVqNWVnSGFOZkh6SHdTSTJVUDBjd0tFdFhrbjFHa3ExVzFNN0FvOXFpOTZ2QQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
@@ -20708,23 +20726,6 @@
         "Aktien",
         "US-Dollar",
         "Gold"
-      ]
-    },
-    {
-      "title": "Wall Street finishes its record-setting week with gains",
-      "source": "Boston Herald",
-      "publishedAt": "2026-10-09T18:34:46+00:00",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9JYUdKeW1BazRyRmYxWnlWTVNPd0p2eno2M1Z1OG56UlNuaVpBNHpvTzcyVnlfcENzT2x5WFRsY3Y3V3hsV1NfZ0w5VmtXbGhaQk83S1RDbVY5VDFmSlRtVUtDWUZCUTYwM0xJTWMzUkwxUQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     }
   ],
@@ -20831,7 +20832,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-10-10T05:19:12.308271+00:00",
+      "dataAsOf": "2026-10-10T14:22:19.329020+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
