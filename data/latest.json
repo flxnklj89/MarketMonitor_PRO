@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-10T23:21:53.254319+00:00",
+  "fetchedAt": "2026-10-11T05:10:13.392019+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -120,7 +120,7 @@
   "globalComposite": {
     "value": 42.0,
     "label": "Beobachten",
-    "date": "2026-10-10"
+    "date": "2026-10-11"
   },
   "regions": {
     "europe": {
@@ -20641,6 +20641,42 @@
       ]
     },
     {
+      "title": "Stocks advance ahead of earnings, navigating still-high Treasury yields and oil prices",
+      "source": "Reuters",
+      "publishedAt": "2026-10-09T01:56:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBmemlrTzkxS0ZGNW4xVC1Bb0FYNmR0MWNHMnFtYXl6Wmg2UHFSVWwwUEQ0MEI5dmY0VGVtR1RURVc2aHlZRjBnVS0yQzdJaDVqNWVnSGFOZkh6SHdTSTJVUDBjd0tFdFhrbjFHa3ExVzFNN0FvOXFpOTZ2QQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Fed minutes, Pepsi earnings, midterm megadonors and more in Morning Squawk",
+      "source": "CNBC",
+      "publishedAt": "2026-10-08T12:39:08+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOUEtVYzFNNC1IVlIxSS1kWURaNU0xYzhZYTM1R2FFQ3BnSm5KYm5WQmpNOVNBLW1GTXJycjdGSFcxYmRJbU5ZREpnc29FamhkNTUyM2JhbERVaHhvUVNsNmdhaE9hbHFRWE1uOHA1a0dIcEltSE9qMERtMUdkNjNTazQ0bjdlTXJkY3Fz0gGQAUFVX3lxTE5SaVo5ZTRoV1cyVE1uRldCbXhwaVl6ZnBQaUFyMzNDX1JfYjZuQkxQc0p6U2hhdU1Rd0JSNlFUZmp0U2ljMTQ2OUhlV1FiMWh0VmZTY1JyVmNsU0pqRlBxdnZWWmdibGxNWEU2LXo1RzBTQ19NNTBtUWk2NDdEYTFvdlUzVW5obGpPaXVXVkdnLQ?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
       "title": "European Stocks: Brace for a Turbulent Earnings Season",
       "source": "Morningstar",
       "publishedAt": "2026-10-10T05:01:57+00:00",
@@ -20672,42 +20708,6 @@
         "Aktien",
         "Sektoren",
         "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Stocks advance ahead of earnings, navigating still-high Treasury yields and oil prices",
-      "source": "Reuters",
-      "publishedAt": "2026-10-09T01:56:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBmemlrTzkxS0ZGNW4xVC1Bb0FYNmR0MWNHMnFtYXl6Wmg2UHFSVWwwUEQ0MEI5dmY0VGVtR1RURVc2aHlZRjBnVS0yQzdJaDVqNWVnSGFOZkh6SHdTSTJVUDBjd0tFdFhrbjFHa3ExVzFNN0FvOXFpOTZ2QQ?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stock Market Today: Stocks Rise as Tech Recovers, Oil Stays Above $100",
-      "source": "Eurasia Business News",
-      "publishedAt": "2026-10-09T23:10:41+00:00",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQN3N1QVlQbmZCTEtINnNwckY5aGRKSTJ4N0J2dUw3RXg4UWN4d252cHRqVXhxcTBYS3ZrZ2FQUFhfaVVsZ2hVek1GNnY2dFE5VVpOVTVSUXRaUUZ1REF1WXc2M2NFSFduaG5RMngzYjZjaUtQUUppREdqbU9zcHVXX3ZaMVlwaVlTUENYdDRudTVWMGhUeENJbmZRb1BEbFdyWmdURTV4bjUxeXdaMTZjSA?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
       ]
     },
     {
@@ -20832,7 +20832,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-10-10T23:21:53.254319+00:00",
+      "dataAsOf": "2026-10-11T05:10:13.392019+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
