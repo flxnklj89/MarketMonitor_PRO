@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-13T19:06:36.226561+00:00",
+  "fetchedAt": "2026-10-13T23:39:56.316737+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -96,7 +96,7 @@
       "confidence": "low"
     },
     "tradeStress": {
-      "value": 39,
+      "value": 42,
       "label": "Erhöht",
       "date": "2026-10-12",
       "cadence": "daily",
@@ -104,8 +104,8 @@
       "components": {
         "vix": 15.21,
         "brent": 125.44,
-        "eurusd": 1.1259,
-        "us10y": 5.22
+        "eurusd": 1.1193,
+        "us10y": 5.24
       },
       "uiLabel": "Marktstress",
       "shortText": "Verdichteter Stressmesser aus Markt- und Preisvariablen.",
@@ -147,8 +147,8 @@
       },
       "fx": {
         "label": "EUR/USD",
-        "value": 1.1259,
-        "date": "2026-10-02",
+        "value": 1.1193,
+        "date": "2026-10-09",
         "unit": "",
         "cadence": "daily",
         "series": "DEXUSEU"
@@ -158,7 +158,7 @@
       "name": "Japan",
       "score": 52.0,
       "label": "Beobachten",
-      "date": "2026-10-02",
+      "date": "2026-10-09",
       "summary": "Japan wird über Wachstum, Preisbild und Yen-Stärke gelesen. Ein schwacher Yen kann globalen Stress und importierten Preisauftrieb verstärken.",
       "driverText": "Japan wird über Wachstum, Preisbild und Yen-Stärke gelesen. Ein schwacher Yen kann globalen Stress und importierten Preisauftrieb verstärken.",
       "inflation": {
@@ -178,8 +178,8 @@
       },
       "fx": {
         "label": "JPY pro USD",
-        "value": 157.81,
-        "date": "2026-10-02",
+        "value": 158.34,
+        "date": "2026-10-09",
         "unit": "",
         "cadence": "daily",
         "series": "DEXJPUS"
@@ -189,7 +189,7 @@
       "name": "China",
       "score": 33.0,
       "label": "Stabil",
-      "date": "2026-10-02",
+      "date": "2026-10-09",
       "summary": "China wird hier über Wachstum, Preisbild und Yuan-Stärke gelesen. Schwächeres Wachstum oder sehr niedriger Preisauftrieb können globalen Industrie- und Rohstoffdruck verstärken.",
       "driverText": "China wird hier über Wachstum, Preisbild und Yuan-Stärke gelesen. Schwächeres Wachstum oder sehr niedriger Preisauftrieb können globalen Industrie- und Rohstoffdruck verstärken.",
       "inflation": {
@@ -209,8 +209,8 @@
       },
       "fx": {
         "label": "CNY pro USD",
-        "value": 6.7038,
-        "date": "2026-10-02",
+        "value": 6.692,
+        "date": "2026-10-09",
         "unit": "",
         "cadence": "daily",
         "series": "DEXCHUS"
@@ -248,18 +248,18 @@
     {
       "label": "US 10Y",
       "icon": "📉",
-      "val": 5.22,
-      "chg": -0.06,
-      "chgPct": -1.14,
+      "val": 5.24,
+      "chg": 0.02,
+      "chgPct": 0.38,
       "unit": "%",
       "dec": 2
     },
     {
       "label": "EUR/USD",
       "icon": "💱",
-      "val": 1.1259,
-      "chg": 0.0027,
-      "chgPct": 0.24,
+      "val": 1.1193,
+      "chg": 0.0001,
+      "chgPct": 0.01,
       "unit": "",
       "dec": 4
     }
@@ -20602,38 +20602,110 @@
       },
       {
         "date": "2026-10-07",
-        "value": 39
+        "value": 42
       },
       {
         "date": "2026-10-08",
-        "value": 39
+        "value": 42
       },
       {
         "date": "2026-10-09",
-        "value": 39
+        "value": 42
       },
       {
         "date": "2026-10-12",
-        "value": 39
+        "value": 42
       }
     ]
   },
   "news": [
     {
-      "title": "Elon Musk explains why chip stocks are getting drilled on news out of China",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-10-13T09:04:47+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSTQ2UDBROFFCdFl4YWRlOGFPbWs2LTZXb1FybFpXTU1DZTBneUZPOUd1a0x5Skt0SlA0THJuUFd3RUpfckVjMUhXWTFxRGhxV3dpNEJzS1NZQUpJUHdEZmRzV19fNHNTbjVkZnYydDViazQ0OEthWTBOSHlpdklLaE5YZVpnRWJjYlVsazNSQVJNeDF6cWFxOW9pdDVMSTl0aVN5NzNtUEhlSGZzYkVWN2NqX2FiRkxucTdjbEt3WVZBRmNoR0FuYnh1aUJ1RmZNQ0RyOExn?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "title": "Nasdaq ends down as chipmakers fall and bank earnings roll in",
+      "source": "Reuters",
+      "publishedAt": "2026-10-13T20:59:09+00:00",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdkNncVkwQU9JeFhSRFFWQ1FhcW5SUk5hY1hQMkpocmdCRlZ5b04zOGJnZ184T1lONDh1cUQwZFY3RVJxUmJzZDhpUWZ0RlhsUGluV3hoVG1TV2JWNEZtUS12R1Z0VURRQmt3SjkyUU44UkZTcmF1RnFaTm9POE9LYW5TWjY3el9jNzQwV1lOVkhaOGFDTE9Wc1NrM0RYTzJ5UFM4eF92UWV3LW03SHJ1U1I5cHF4eDNFS1liNw?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Stock Market Falls As Q3 Earnings Season Heats Up; Checkup On Consumer Inflation Due",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-10-13T22:10:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1weW1tVThaUk0zb0ZRQldaa041VzN6cUhFX1FSMjBRb21IT2ExTzZyb0FobFhSZlRqMjk1aHlscHdvb2YwYXE3N08yYkNMbzYzcVFtUlNpQllTOFFBM2U1cUgyYmtXbHJHUVBHeUJYMUktRW5Ga0xuYVMwVy0?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Stocks Struggle Ahead of September CPI Report: Stock Market Today",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-10-13T20:08:50+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPLXUtamxXVzBQa2ZqdEtqbWpkdWxFTkdQb0lZN1I2Vlc5UWdNakcwQUFBVWVzRnBjeFI3R2huWURjcGxUeVJVODZqUnlsRVctUlZac0JkaEFNZmV4WG42ajFaaUlmaFVxNFNId2xqYWN5c0E2dUE3dW9pSTFsd25PNFRWQnlKYThyNHF0OUxjQnh4Y2hLMnJWY0RseDBwLVFRX0E?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Asia Stocks to Gain on Signal for Fewer Fed Hikes: Markets Wrap",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-10-13T22:03:38+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQkdpWnlfNjZqMGFBMUtMU1JNdFhzem9kbFhSR3Z0Qnl0ZkVacmR6TzRSQXBvMU5SNElCUkEtWFpueWhuWWNGdUR2dkVPcVdtQmRuT1VuRVVldlhDaW1lRHhYdHF6cTQxNUJNb3F1V0ZrNWszNGlsbllLTkR0SGs1ZXo0NHY3eW9aYmxuSnZkNy1MSS1k?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Stock Market Today: Stocks Slip Despite Solid Wall Street Results, Oil price Above $105",
+      "source": "Eurasia Business News",
+      "publishedAt": "2026-10-13T20:35:16+00:00",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcG5zNTZfUkZKYlotcVVybUYzT25sajlSNGdBYU1jOC1KRXY1OHNhRGhMRlU3RUxSSUtMeS13SXpQUDlmbkVoSGgxb2pYekwzRzhubEh1NEptaXU1YkRFWWpISFUzRXFqaW5xVDhKbl8tRmE0ZmMwaVZUc182Rmpuc0pKS1RMNlNJOUVJeFBSa2FzVmFvM1A1Z1FxUlM5OHk5Ykx2Wmw2SGRxQU10MFExWXp6OUEtczV6eWU3bVc1YlNKNm5PSTZB?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
@@ -20651,74 +20723,6 @@
         "Weltaktien",
         "Währungen",
         "Rohstoffe"
-      ]
-    },
-    {
-      "title": "Markets Brief: Is the US Stock Market Starting to Broaden, or Will Big Tech Stay on Top?",
-      "source": "Morningstar",
-      "publishedAt": "2026-10-13T08:28:13+00:00",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNal9kQnNDcDVjSDdTcV90MlRSdkVaWHpleC1yV1FablNVSTNqZExndndJYjl5czZ6dGxud0ZYc1JRbDJBZHNjd3RaYVBPaFlSOTFYaUMyZGdMQTM2aUExLTV2RXNoNHNFYTYxdGtGY1ltOHFuMkUyM3JucU9Ec2JmOVp4NDdONnM4LWhNM3pMWHJwZWJhNG54Q0VIN2xuUQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "World stocks slip as AI spending worries hit chipmakers",
-      "source": "Reuters",
-      "publishedAt": "2026-10-13T01:41:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZDZBM1pYcUNfelRkWE5NNC1Ja0laMUZPTm5Yei0wWGVpV3BVR3RVNDh0cHQ5ZXRDTFJpdm1wNU8wRTlkN3A2aE1LeEt2dEctUmREeXBRajEzUG1tNXc1YUxqV2ttOUFRS1pPRWhiZnJNd184SDJRV1QyVWJlMGJ4NndIZnU?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "History Says a Stock Market Correction Is Coming Eventually. Here's the Good News for Investors.",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-10-13T13:45:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRDVXNDM2ZmVQN0JNOE9KdWRvQ29uNElCV2p6ZUJ3ZlJZLW1DeEk2V1EzTnItTEd4RGhTeGlhX0g5am9kb1FVNy1aRmRVMUFhZ3FXVGIxTXZiUGdCc1B4dV9ZTW5sT0dXRng5MUd2VWFiM2NmVXAzbVNvMXE2RE9adU5CTkZBVjFqVVMzbTVNR2ZaR0NXalI4bw?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Stock market mixed as investors assess big bank earnings (SP500:)",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-10-13T13:32:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZHpiR0FYNkpMRUlkY05QWC1xeEZXOXpBNENvMERVMmxJXzhWV0kxaVFRN0t3YUtLOVpJWC1PLUt2UjlXUmNSWlU1My1ZY092V1JHdUhOTHA4anBqSnFRbmltYmNKRFFNREowZzRvX0M1UHJwMmUtZHA3aDMtcGE3T0g2SE9HdVRiVS1aOUNubEhZUENraHpOVVAzY0Q?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
       ]
     }
   ],
@@ -20772,7 +20776,7 @@
     {
       "id": "A",
       "title": "Basisszenario: stabile Marktphase",
-      "probability": 50,
+      "probability": 49,
       "summary": "Wachstum bleibt grundsätzlich intakt, während Belastungsfaktoren überschaubar bleiben.",
       "supportedBy": [
         "Rezessionsrisiko wirkt noch nicht dominant",
@@ -20789,7 +20793,7 @@
     {
       "id": "B",
       "title": "Zwischenszenario: erhöhte Vorsicht",
-      "probability": 28,
+      "probability": 29,
       "summary": "Das Umfeld wird anspruchsvoller. Stresssignale nehmen zu, ohne bereits ein klares Eskalationsbild zu erzeugen.",
       "supportedBy": [
         "Marktstress ist sichtbar erhöht",
@@ -20809,9 +20813,9 @@
       "summary": "Mehrere belastende Signale greifen gleichzeitig ineinander und erhöhen die Wahrscheinlichkeit einer klaren Risk-off-Phase.",
       "supportedBy": [],
       "probabilityChange": {
-        "direction": "down",
-        "label": "fällt",
-        "reason": "Die Wahrscheinlichkeit fällt, weil die Belastung nachlässt oder keine breite Bestätigung findet."
+        "direction": "stable",
+        "label": "stabil",
+        "reason": "Die Wahrscheinlichkeit bleibt stabil, weil die Belastung zwar sichtbar ist, aber nicht klar weiter eskaliert."
       },
       "investorMeaning": "Für Anleger wäre dieses Bild ein Hinweis auf erhöhte emotionale Disziplin und vorsichtigere Interpretation von Risiken."
     }
@@ -20819,13 +20823,13 @@
   "hero": {
     "phase": {
       "label": "Erhöhte Vorsicht",
-      "score": 39.0,
+      "score": 42.0,
       "summary": "Das Gesamtbild bleibt geordnet, zeigt aber mehr Spannungen als in einer ruhigen Normalphase.",
       "interpretation": "Der Fokus verschiebt sich von Routine hin zu erhöhter Aufmerksamkeit.",
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-10-13T19:06:36.226561+00:00",
+      "dataAsOf": "2026-10-13T23:39:56.316737+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
