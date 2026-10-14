@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T13:30:34.374717+00:00",
+  "generatedAt": "2026-10-14T20:04:50.426209+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -20,10 +20,10 @@
     },
     "vix": {
       "title": "Relativ ruhig",
-      "value": 15.2,
+      "value": 15.3,
       "unit": "",
       "tone": "l",
-      "status": "VIX bei 15.2. Unter dem langfristigen Durchschnitt von ~17–20."
+      "status": "VIX bei 15.3. Unter dem langfristigen Durchschnitt von ~17–20."
     },
     "breadth": {
       "title": "66 % über 200T-Ø (Proxy)",
@@ -668,7 +668,7 @@
     "title": "Crash Probability",
     "score": 8,
     "scoreLabel": "8 %",
-    "reason": "Stress 42/100, Rezessionsrisiko 0.6 %, VIX 15.2.",
+    "reason": "Stress 42/100, Rezessionsrisiko 0.6 %, VIX 15.3.",
     "interpretation": "Crash-Risiko derzeit begrenzt."
   },
   "timingQuality": {
@@ -3707,10 +3707,6 @@
     ],
     "vix": [
       {
-        "date": "2025-08-14",
-        "value": 14.83
-      },
-      {
         "date": "2025-08-15",
         "value": 15.09
       },
@@ -4905,6 +4901,10 @@
       {
         "date": "2026-10-12",
         "value": 15.21
+      },
+      {
+        "date": "2026-10-13",
+        "value": 15.27
       }
     ],
     "brent": [
@@ -6112,6 +6112,96 @@
   },
   "news": [
     {
+      "title": "Wall Street tumbles as hot inflation data feeds worries about Fed rate hikes",
+      "source": "Reuters",
+      "publishedAt": "2026-10-14T18:19:18+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMDkzb0Zhb0ExSzhlSnR6c25HbzdpY2g1djVFZ1R4eVktaWtCZ2gya1lEdHpzcHlEM1VITE1Pdlc1MmlDclhQQmxOWC13NXdXZjhPOEYtUnc3bm80eThIZ0lEam8tN0hXV3kxNnhob3g5OHFxNHd5VzJsTks4SzlJR0JRVE5LZ2JMbXhYNFhvOC1yTUJ5bWFEN0JWTFdpaFkxN2c?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "US stocks sink as inflation gets worse",
+      "source": "AP News",
+      "publishedAt": "2026-10-14T17:22:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOa0pMamlGY0kzT3haV2dhdGc2UlQwNVo5dS11TzZNNFJlcEZhb0dmNWJRZE95aXY0N3FUc3I4SlNqVC1tVjlOcWswTHJqREI4OHFNWnpScU94UGk5ajJUMkZyRVlNLWZsWFhad2ptaHlrcnBEckN5ekxIZ21PLXhKbmg0aFY2b0UzZm5xTG95ZnhMVUE1WTVEQU1yWWdOaVlfZzlFUkJMSi1pbTl3UFR1Qk9B?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Stock Market Today: Stocks Head Lower as Hot Inflation Puts Another Fed Rate Hike Back in Play",
+      "source": "24/7 Wall St.",
+      "publishedAt": "2026-10-14T13:27:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRmpNMXhBd3IzV2lBX21jMFhkRXpUcXlvUXdaTGhveHZZRFdhRk9XNTBxMnlBcVU0dUxnM01lYnFldm4ydzQyTUhVa3pRUzdoY3haSU5SVnBYSzc4MjRxNFdvSVQwM2E5dXBjLTRnZGJCbTUwbVlWbTZCS1RzZ0c4dnVFS1BxRWpzNXd1Tl8tNXZHQ0YzcldWR2FWSjQ5alVaVTlYMnFnQ2ZKN29RMVItS0lfcEI1X2NaZElfVTViMElwLUJwV25EMVZ4LVpOYWI2MU00?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Stock Market Midday, Oct. 14: Hot Inflation Weighs on Markets, CoreWeave Plummets 15%",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-10-14T16:47:53+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQ2JycGpGSm9BWTBISnMtNTJKLWdsQkZPZU02bmYwWE9EZFRQenpzc1E1VDVHQ2M2X2pxLUdRRWhxNnlxdk5aU1NZSEFQckFYaGplaEtXRE85OVZhV0EzYmtNOVIxbGNJZTk2eHRHTUIzSkNmeDV1MGw0SkszRzZ6N0JxekIwcXhrZzhMZVdzaDR2Y0VfQ0E?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "US stocks fall further from their record as inflation gets worse",
+      "source": "KTVN",
+      "publishedAt": "2026-10-14T14:46:48+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSjdNVFJGOFZYUUhMLXVKVXFGT0hQZ253V19BejhGRkJMQ2hPdjBMbnpzNk5DSjdPR3hwSmJYZW9DY3FkTUdDYUlPblY5WWJFUU1Nb1VqYmtWbUdlWnpHdGdDSXU5dUJCSWRuTTA1NEo5azVUckZmWk5mRER5a21VaG52M2tBM0syQlNvMTNhb1NSNm95QWZDUGpBV0NOUVN0dVBBTFV0dnBVYjdPQW51TURSdzBLbFZ3ODc2dU8wUEJHdw?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
       "title": "5 Things to Know Before the Stock Market Opens on Wednesday",
       "source": "Investopedia",
       "publishedAt": "2026-10-14T12:07:09+00:00",
@@ -6126,94 +6216,6 @@
         "Aktien",
         "Anleihen",
         "Währungen"
-      ]
-    },
-    {
-      "title": "USU Study Finds Why Some Companies Face Greater Stock Market Penalties for Missing Earnings Forecasts",
-      "source": "Utah State University",
-      "publishedAt": "2026-10-14T03:02:04+00:00",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOLVJjUzI5YjRfaEdxVTZQalQ0RFVwNVJTQjJQS3lhOEtzUmVuUTktMmd1N1JSTkY0c0RVajBzbFVHaXlQOEhXRGxiRDQyQVQwVHJOZjZQNXh3QUZFenl2SFJiYnFJZzY1Y3AtR2VsNEp1WllIU3JYT1FINUdZWlBqRFhvWXF4UHJrV0plcTB5ODZCS3laWHFYZkxXaGgwbUFGemtwNFhHbmJXZmZUTHhPVmZicVFNbTQ0ZDJOc0JPT1cwdGhsOVNUaWpjdUNVQQ?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Indian shares end lower as higher oil prices, foreign outflows dent appetite",
-      "source": "Reuters",
-      "publishedAt": "2026-10-14T02:25:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUDFseEc5cVpDQ2FOSndESDFUc3N6VnVMY0c0bS14N2taUmU3cU9CY09HeEVvX014STdGY1pwY05aWXVTemoycUFEbzFLeFdVa2JIZ1Nwc1BUZGxkSXEyeXJvVW5VdFBtM0E3MXVpWll5R3pKU3FMajQzODBYZjhuM1V5cDdOQmlwRmxwWUhkZ2R5a0RKM2YtaU91UkVMYUJsYVJmQVBOU1lra2R6YkZ0bXdn?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stock Market Today: Big Banks Earn Billions, Bumble Soars on Buyout",
-      "source": "ChartMill",
-      "publishedAt": "2026-10-14T10:56:49+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOanlZNjI0ZjdTUG02eVNraGRfMzVRYUduYTdyRXlRdTFtUWRIb0RGa2YtQWtRRFM4bVd2NnkxQmkweUprNTJta3E0bm9QcjV6OVdxS0RIQU0tSVV6OHFFNkozQ1dKOHE5V2JjTURCTHNVZUN6M0hNdlg3Y3c5VWVGMnRwUTVTNU1YYlNkb2pZNE5lTTFRRW55eUNvRjZrTHg1bTdsSTczZVJ2WGs?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Stocks Mostly Up Pre-Bell Ahead of Consumer Inflation Report, More Bank Earnings",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-10-14T10:48:19+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQb2FweTJXQzNySkZQUlJYMnpaYWNwUmpvX0dTSWF2VmZQWTZDWEkwZmRhY2VGSlZpZWowSFpfRnJVZEFPeGh1Rk45ckRlT1dldkExRW9qcFJGbkFJT0lVRnducDNXZVZSaUh5MmxUYkttZEVYVzc3Zi1TVERvYmppYVVScTh4S2wySWRJYTg1b0lFV01qS251MA?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "Morning Call Sheet: Chip stocks, inflation and bank earnings in focus",
-      "source": "CNBC",
-      "publishedAt": "2026-10-14T10:58:39+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxON3lqdFZVZ3NrY3FTblJlb1FvRW5qeHBNT3hDRHpSQmh4NXJ3RXVZVVVNbW5XeEZ4WWVQNHF4RXhtSnBSbnJaUDZvSWI0YnFqdVY0RWlKU1JVNEZKYmJIeGFOMVJSRVc1djZaVjdkMUtlZzdQQnJNWTRiMWRyMWFoRE82ZVY2enFuclRmNHhGMVlpcmZqZkdLbGNnN2ZHRjdxZHJHN0RBXzBtanF4b2RZ?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
       ]
     }
   ]
