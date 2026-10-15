@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-15T13:13:44.877733+00:00",
+  "fetchedAt": "2026-10-15T19:46:51.449559+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -96,13 +96,13 @@
       "confidence": "low"
     },
     "tradeStress": {
-      "value": 42,
+      "value": 50,
       "label": "Erhöht",
       "date": "2026-10-14",
       "cadence": "daily",
       "method": "proxy",
       "components": {
-        "vix": 15.27,
+        "vix": 16.87,
         "brent": 125.44,
         "eurusd": 1.1193,
         "us10y": 5.21
@@ -230,9 +230,9 @@
     {
       "label": "VIX",
       "icon": "⚡",
-      "val": 15.27,
-      "chg": 0.06,
-      "chgPct": 0.39,
+      "val": 16.87,
+      "chg": 1.6,
+      "chgPct": 10.48,
       "unit": "",
       "dec": 2
     },
@@ -20618,16 +20618,67 @@
       },
       {
         "date": "2026-10-14",
-        "value": 42
+        "value": 50
       }
     ]
   },
   "news": [
     {
-      "title": "Mainland China, Hong Kong stocks fall as US inflation spurs Fed tightening fears",
-      "source": "South China Morning Post",
-      "publishedAt": "2026-10-15T02:04:32+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNY2Yxc1RtaGFzOWpwbTQxU3ZkLUFha0xucllIYmFRZ19CdV9CRl9ENmdRd1JZZXRvaWJOcm1oYlRzTTN3NjNLbUNNbEc4UHlZUy1JMlgxWjNLQ3F4aU9zcWFOU3VHMGZVc1BhWE1vXzB2MFpyUWlOY3lXdFI2djMwa2RWZ3F3dC1SOVNNaTBubUNpUXgwVndxMzMtY3NCN01DaTVyTTg5dmJDUHRKd1dwSmRfcWJjYUVpYUhCeXlQb28wM3Btc0pnemxLdklYM2VQWTVfd1dqSdIB1wFBVV95cUxQeDAxbjVwOWlDSklGOU1yMnQwclN2NjlqTmtDVXExLUFVcHZXekNpaFJkU3B3dHF5aWRhbS1aRUd4RFcyQlgwYmJsLXl0dllVYWZ1OGctbHNrWHlzWGRVSk0xZGU1b2tQdVh3VDRUNFMzUFJnZzFMeFZ0YUh3aWVBNGlRaDRiSDJVREhDTW9MdFZjUm8wX1hYN2tiYzJPajlSVF9Dd19SVERzV1d1eGNVazVVZnplVU81T0lWbGVPbXhaTnkxZnFhTU9CNjYwaTVfa0JWU1V1RQ?oc=5",
+      "title": "Cracks are beginning to show in the stock market, as doubts grow about AI investments",
+      "source": "NBC News",
+      "publishedAt": "2026-10-15T15:38:19+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTEpUNXhwc2JkVzhOd282UndZbzRHYnRvY0I5MWlRZEhveFZYZGVLYVFUUy1iR21XVE5XQ05KUlk5Rm54RmFHdUEtWnMtcENhNTBaM2xvTTZfQW5CZ3VITTQ2aHFIVU1rOUVRSXl3cjM5NUgxU3RMYkJpd0dHWjZJUWVZWVZhTWhKWkpqNVo4Slg?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Investors Just Parked Nearly $8 Trillion in Cash. Is a Stock Market Crash Next?",
+      "source": "24/7 Wall St.",
+      "publishedAt": "2026-10-15T16:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcjlqRlY4SGNLZEhoblRLU3c5dEw5a1dTVEpPMTFNTmR6S3pGOXJBanFldVp3ekpqTUoyWVo2NnBwcElMNV81Zl9vcVRsX1o3V0oxTFpQY09wZGF0bjE1TFl3QUM4VjZLb09KSlQ2QnM1eGJiV3M1YkdKZmVwS1ZLUV9BamlvcUdWbzVMWmhMd2RFM3VuMm8xTnB2TmktNnZiaGlsTnlHOFNzMkt5OEZpdUlZQ1VNOWhxUF9XYg?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "5 Things to Know Before the Stock Market Opens on Thursday",
+      "source": "Investopedia",
+      "publishedAt": "2026-10-15T12:12:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd0RmeGlsQjA2QVNwSTliaC1BZTJMa0ZFT2pyV2F4OGFoRFBVOGhBTjlGT1JYRVgwbzVzbkg5U01rTDNCSER6bjBjMDdUUy12c0M2eHlvMV83cUcxdVRUVU5PRGoyVHFINjRTR3c0SzlKVUl3Sk9rUkhSb1lPM3p2MFJEWVRmVVBRbzdmVXlKSG1KMHI5RzdwNmZvY3ZQNEl0U3VMcmJrR29NY3VrWlEtcEJB?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Inflation anxiety drags on AI stocks for a second day as markets point to a mixed open",
+      "source": "Scranton Times-Tribune",
+      "publishedAt": "2026-10-15T13:02:33+00:00",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA2Ujc2SHNxT3RnRHNveWdoWldIZEE3STVNUGVjb2xuNmtCV2xkbFVvVmhzMWo1UGtRdjlZdU03VC0tb0NpZm5WX2xIZkpuUERPNV9rOWRvTU5idGt6dE5HU2tyRzV6Nlc3bklWR09JMXcxa0pobEZYU3pEYzU0UjQ?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -20660,10 +20711,10 @@
       ]
     },
     {
-      "title": "US stocks drop to their worst day since July as inflation worsens",
-      "source": "AP News",
-      "publishedAt": "2026-10-14T20:45:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOa0pMamlGY0kzT3haV2dhdGc2UlQwNVo5dS11TzZNNFJlcEZhb0dmNWJRZE95aXY0N3FUc3I4SlNqVC1tVjlOcWswTHJqREI4OHFNWnpScU94UGk5ajJUMkZyRVlNLWZsWFhad2ptaHlrcnBEckN5ekxIZ21PLXhKbmg0aFY2b0UzZm5xTG95ZnhMVUE1WTVEQU1yWWdOaVlfZzlFUkJMSi1pbTl3UFR1Qk9B?oc=5",
+      "title": "Mainland China, Hong Kong stocks fall as US inflation spurs Fed tightening fears",
+      "source": "South China Morning Post",
+      "publishedAt": "2026-10-15T02:04:32+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNY2Yxc1RtaGFzOWpwbTQxU3ZkLUFha0xucllIYmFRZ19CdV9CRl9ENmdRd1JZZXRvaWJOcm1oYlRzTTN3NjNLbUNNbEc4UHlZUy1JMlgxWjNLQ3F4aU9zcWFOU3VHMGZVc1BhWE1vXzB2MFpyUWlOY3lXdFI2djMwa2RWZ3F3dC1SOVNNaTBubUNpUXgwVndxMzMtY3NCN01DaTVyTTg5dmJDUHRKd1dwSmRfcWJjYUVpYUhCeXlQb28wM3Btc0pnemxLdklYM2VQWTVfd1dqSdIB1wFBVV95cUxQeDAxbjVwOWlDSklGOU1yMnQwclN2NjlqTmtDVXExLUFVcHZXekNpaFJkU3B3dHF5aWRhbS1aRUd4RFcyQlgwYmJsLXl0dllVYWZ1OGctbHNrWHlzWGRVSk0xZGU1b2tQdVh3VDRUNFMzUFJnZzFMeFZ0YUh3aWVBNGlRaDRiSDJVREhDTW9MdFZjUm8wX1hYN2tiYzJPajlSVF9Dd19SVERzV1d1eGNVazVVZnplVU81T0lWbGVPbXhaTnkxZnFhTU9CNjYwaTVfa0JWU1V1RQ?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -20675,57 +20726,6 @@
         "Aktien",
         "US-Dollar",
         "Gold"
-      ]
-    },
-    {
-      "title": "5 Things to Know Before the Stock Market Opens on Thursday",
-      "source": "Investopedia",
-      "publishedAt": "2026-10-15T12:12:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd0RmeGlsQjA2QVNwSTliaC1BZTJMa0ZFT2pyV2F4OGFoRFBVOGhBTjlGT1JYRVgwbzVzbkg5U01rTDNCSER6bjBjMDdUUy12c0M2eHlvMV83cUcxdVRUVU5PRGoyVHFINjRTR3c0SzlKVUl3Sk9rUkhSb1lPM3p2MFJEWVRmVVBRbzdmVXlKSG1KMHI5RzdwNmZvY3ZQNEl0U3VMcmJrR29NY3VrWlEtcEJB?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Dow Jones Futures Rise, But AI Sell-Off Continues On Anthropic News; Taiwan Semiconductor Earnings Strong",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-10-15T12:10:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxObkt6ekRhM01GYllSNng3cnhNQjJHZlBSVjZ0d2d3aElqTFpSd2hWOWxOdG54ZHhSa0wtSUFtX2JLSXcxRnF6TVNtcUV1ZXhlb2ZqdHZ6YzFlb3BVV0pmaEVlZzgyU1RXZDB5c3RFNEpmT3ZsZXI1NjBKcDVCQjRmUExrakhTWDFJODI2bHlfV29nZXlJYTdMcFlpLVhXbEFta0xMSlQyM2FiYlNDOXNWM2s4NVdCUWp0eUlJQkpoUVFEQ0FpM2JnUjlCTFVDMDVxLUtsUUZ3?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "A tech sell-off drags Asian stocks lower as markets in South Korea and Japan sink",
-      "source": "LancasterOnline",
-      "publishedAt": "2026-10-15T09:17:50+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOcHN4WGIxSTc2ZElaTnhiOUtWQjhJdi0yZEFBWmZzRGU4X0lGaHdXbzNuVjBQVEhYdmNCWnA0dmo3bkRQVUJaQXc5ZkRBN28xWm11YmtHZngzYkVENUprclg2NEI0a0QyVlJ4V2I1czBCcEtxa0J5ckswVUY2bFVUYnFZbUQwRnR5d2NHRjZXcHZNX1h1TVV2NFJyWFB6b1lKNjRleEk0c2s3SU9KZjl6M0VqZkFMaTlvY1NKSHJZOVBIOHZHTVJwa2JQYmx3XzlDWmhoczdFdlJGV19LaGZwX25HakJMNDhOOTFuQXRoMEo0ZDNvbnpNVmZaWHZXcU05cGpHYWVDT0d4NWc?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
       ]
     }
   ],
@@ -20779,7 +20779,7 @@
     {
       "id": "A",
       "title": "Basisszenario: stabile Marktphase",
-      "probability": 49,
+      "probability": 46,
       "summary": "Wachstum bleibt grundsätzlich intakt, während Belastungsfaktoren überschaubar bleiben.",
       "supportedBy": [
         "Rezessionsrisiko wirkt noch nicht dominant",
@@ -20795,7 +20795,7 @@
     {
       "id": "B",
       "title": "Zwischenszenario: erhöhte Vorsicht",
-      "probability": 29,
+      "probability": 30,
       "summary": "Das Umfeld wird anspruchsvoller. Stresssignale nehmen zu, ohne bereits ein klares Eskalationsbild zu erzeugen.",
       "supportedBy": [
         "Marktstress ist sichtbar erhöht",
@@ -20811,27 +20811,29 @@
     {
       "id": "C",
       "title": "Stressszenario: defensivere Marktphase",
-      "probability": 22,
+      "probability": 24,
       "summary": "Mehrere belastende Signale greifen gleichzeitig ineinander und erhöhen die Wahrscheinlichkeit einer klaren Risk-off-Phase.",
-      "supportedBy": [],
+      "supportedBy": [
+        "Stressindikatoren senden ein klareres Warnsignal"
+      ],
       "probabilityChange": {
-        "direction": "stable",
-        "label": "stabil",
-        "reason": "Die Wahrscheinlichkeit bleibt stabil, weil die Belastung zwar sichtbar ist, aber nicht klar weiter eskaliert."
+        "direction": "up",
+        "label": "steigt",
+        "reason": "Die Wahrscheinlichkeit steigt, weil Stress, Konjunkturrisiko und Marktverhalten gleichzeitig schlechter werden."
       },
       "investorMeaning": "Für Anleger wäre dieses Bild ein Hinweis auf erhöhte emotionale Disziplin und vorsichtigere Interpretation von Risiken."
     }
   ],
   "hero": {
     "phase": {
-      "label": "Erhöhte Vorsicht",
-      "score": 42.0,
-      "summary": "Das Gesamtbild bleibt geordnet, zeigt aber mehr Spannungen als in einer ruhigen Normalphase.",
-      "interpretation": "Der Fokus verschiebt sich von Routine hin zu erhöhter Aufmerksamkeit.",
-      "actionMatrixKey": "caution"
+      "label": "Defensivere Haltung sinnvoll",
+      "score": 50.0,
+      "summary": "Die Belastung ist breiter sichtbar. Einzelne Warnsignale greifen spürbar ineinander.",
+      "interpretation": "Der Monitor signalisiert ein zunehmend anspruchsvolles Umfeld.",
+      "actionMatrixKey": "defensive"
     },
     "statusLine": {
-      "dataAsOf": "2026-10-15T13:13:44.877733+00:00",
+      "dataAsOf": "2026-10-15T19:46:51.449559+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
