@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T19:46:57.911095+00:00",
+  "generatedAt": "2026-10-15T22:58:18.767587+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -4909,30 +4909,6 @@
     ],
     "brent": [
       {
-        "date": "2025-07-31",
-        "value": 73.43
-      },
-      {
-        "date": "2025-08-01",
-        "value": 70.55
-      },
-      {
-        "date": "2025-08-04",
-        "value": 69.56
-      },
-      {
-        "date": "2025-08-05",
-        "value": 69.14
-      },
-      {
-        "date": "2025-08-06",
-        "value": 67.97
-      },
-      {
-        "date": "2025-08-07",
-        "value": 66.99
-      },
-      {
         "date": "2025-08-08",
         "value": 67.17
       },
@@ -6107,27 +6083,34 @@
       {
         "date": "2026-10-06",
         "value": 125.44
+      },
+      {
+        "date": "2026-10-07",
+        "value": 126.0
+      },
+      {
+        "date": "2026-10-08",
+        "value": 130.18
+      },
+      {
+        "date": "2026-10-09",
+        "value": 130.03
+      },
+      {
+        "date": "2026-10-12",
+        "value": 129.95
+      },
+      {
+        "date": "2026-10-13",
+        "value": 125.78
+      },
+      {
+        "date": "2026-10-14",
+        "value": 126.55
       }
     ]
   },
   "news": [
-    {
-      "title": "Cracks are beginning to show in the stock market, as doubts grow about AI investments",
-      "source": "NBC News",
-      "publishedAt": "2026-10-15T15:38:19+00:00",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTEpUNXhwc2JkVzhOd282UndZbzRHYnRvY0I5MWlRZEhveFZYZGVLYVFUUy1iR21XVE5XQ05KUlk5Rm54RmFHdUEtWnMtcENhNTBaM2xvTTZfQW5CZ3VITTQ2aHFIVU1rOUVRSXl3cjM5NUgxU3RMYkJpd0dHWjZJUWVZWVZhTWhKWkpqNVo4Slg?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
     {
       "title": "Investors Just Parked Nearly $8 Trillion in Cash. Is a Stock Market Crash Next?",
       "source": "24/7 Wall St.",
@@ -6146,10 +6129,10 @@
       ]
     },
     {
-      "title": "5 Things to Know Before the Stock Market Opens on Thursday",
-      "source": "Investopedia",
-      "publishedAt": "2026-10-15T12:12:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd0RmeGlsQjA2QVNwSTliaC1BZTJMa0ZFT2pyV2F4OGFoRFBVOGhBTjlGT1JYRVgwbzVzbkg5U01rTDNCSER6bjBjMDdUUy12c0M2eHlvMV83cUcxdVRUVU5PRGoyVHFINjRTR3c0SzlKVUl3Sk9rUkhSb1lPM3p2MFJEWVRmVVBRbzdmVXlKSG1KMHI5RzdwNmZvY3ZQNEl0U3VMcmJrR29NY3VrWlEtcEJB?oc=5",
+      "title": "Suddenly, Wall Street is worried that the U.S. economy is more ‘vulnerable’ than it looks",
+      "source": "Fortune",
+      "publishedAt": "2026-10-15T10:19:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbjBoMGROS1lUT0Zfc3Y1YVRzcVJyUmVPaDZ2dHd5U25ZZUtfNzNHOXVTaUN0UVNEcEpLNm5neGowdTJjNE5YVEplaTVPT3lBTlpSUG1CdGs5WHduU2ZpdkQ3aWxWeUFvUTVoZHFjeS1nRC1HVDJyTUIwSm9pYWdEU3RiMGVWbTk2ZURXZWFCbkJKeHREQko0dE5ZQUVPcElvTjhyZlRUdmlhM0xDTHU0QklrNHBUemZX?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -6160,24 +6143,6 @@
         "Aktien",
         "Anleihen",
         "Währungen"
-      ]
-    },
-    {
-      "title": "Inflation anxiety drags on AI stocks for a second day as markets point to a mixed open",
-      "source": "Scranton Times-Tribune",
-      "publishedAt": "2026-10-15T13:02:33+00:00",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA2Ujc2SHNxT3RnRHNveWdoWldIZEE3STVNUGVjb2xuNmtCV2xkbFVvVmhzMWo1UGtRdjlZdU03VC0tb0NpZm5WX2xIZkpuUERPNV9rOWRvTU5idGt6dE5HU2tyRzV6Nlc3bklWR09JMXcxa0pobEZYU3pEYzU0UjQ?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
       ]
     },
     {
@@ -6214,6 +6179,40 @@
         "Aktien",
         "US-Dollar",
         "Gold"
+      ]
+    },
+    {
+      "title": "Dow Jones Futures Rise, But AI Sell-Off Continues On Anthropic News; Taiwan Semiconductor Earnings Strong",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-10-15T12:10:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxObkt6ekRhM01GYllSNng3cnhNQjJHZlBSVjZ0d2d3aElqTFpSd2hWOWxOdG54ZHhSa0wtSUFtX2JLSXcxRnF6TVNtcUV1ZXhlb2ZqdHZ6YzFlb3BVV0pmaEVlZzgyU1RXZDB5c3RFNEpmT3ZsZXI1NjBKcDVCQjRmUExrakhTWDFJODI2bHlfV29nZXlJYTdMcFlpLVhXbEFta0xMSlQyM2FiYlNDOXNWM2s4NVdCUWp0eUlJQkpoUVFEQ0FpM2JnUjlCTFVDMDVxLUtsUUZ3?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Wall Street steadies following jarring drops for AI stocks worldwide",
+      "source": "LancasterOnline",
+      "publishedAt": "2026-10-15T12:20:11+00:00",
+      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNTjBuTTdWZUtaSldvRG1oVF82Z0w1TVFoM2MyVW5ha1VkWTZYMHMzSVlwNTRHX2lzeF93T3g1LWNLZE55bWNHNFlXeUxhQVVsR1ctYkNucjByT2RpR3FMeUg4ZVk5NlIzT1ZzQkNLdHhIM2ZRbW96bDFIRUZLcno5Y3NuV016QVVzakswMEZBZDJiTHpKaG5FM2YwWUdBZ1AwQnZ2dk9ncXBXNjFiY0xBbWhPMU54Vzk4R0xwYmpCWURMM3NWS09QclkzMV9Cc09sSm9RRkZUTnNYc3Rqa0tkbVN3Qy1sTHJxdGJnemlsLTQtZjFNM19MMjlMcHBFeUppUFRFdmdR?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     }
   ]
