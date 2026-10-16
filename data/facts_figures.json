@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T13:07:22.771659+00:00",
+  "generatedAt": "2026-10-16T19:28:45.151579+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -20,14 +20,14 @@
     },
     "vix": {
       "title": "Relativ ruhig",
-      "value": 16.9,
+      "value": 16.5,
       "unit": "",
       "tone": "l",
-      "status": "VIX bei 16.9. Unter dem langfristigen Durchschnitt von ~17–20."
+      "status": "VIX bei 16.5. Unter dem langfristigen Durchschnitt von ~17–20."
     },
     "breadth": {
-      "title": "62 % über 200T-Ø (Proxy)",
-      "value": 62,
+      "title": "63 % über 200T-Ø (Proxy)",
+      "value": 63,
       "unit": "%",
       "tone": "l",
       "status": "Näherungswert abgeleitet aus VIX-Niveau. Direktdaten nicht via FRED verfügbar."
@@ -668,7 +668,7 @@
     "title": "Crash Probability",
     "score": 18,
     "scoreLabel": "18 %",
-    "reason": "Stress 50/100, Rezessionsrisiko 0.6 %, VIX 16.9.",
+    "reason": "Stress 50/100, Rezessionsrisiko 0.6 %, VIX 16.5.",
     "interpretation": "Crash-Risiko derzeit begrenzt."
   },
   "timingQuality": {
@@ -3707,10 +3707,6 @@
     ],
     "vix": [
       {
-        "date": "2025-08-18",
-        "value": 14.99
-      },
-      {
         "date": "2025-08-19",
         "value": 15.57
       },
@@ -4905,6 +4901,10 @@
       {
         "date": "2026-10-14",
         "value": 16.87
+      },
+      {
+        "date": "2026-10-15",
+        "value": 16.46
       }
     ],
     "brent": [
@@ -6146,10 +6146,27 @@
       ]
     },
     {
-      "title": "IPO fraud, China exports, US inflation: 5 figures investors are watching",
-      "source": "South China Morning Post",
-      "publishedAt": "2026-10-16T07:04:10+00:00",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbEtKUDM0TE1Odkw0aTNtRHhianVWZVdkNlpncVBPSV9TbGpNRXRLaG1pd25kZ1JkVXM3VEcwN1BZdmthbmowVW5qWmVrQzdmamRISDlyQTdadHJZamJHd09hT21aM3dvdUlzXzVBdlFkNnVybjVWdXNjdUJCTHdvdEx5U0xvMkMtemYzaWtMQ1ptUWJsal91eUJlZnhuV0pOanVqY04wVE5PYWRHZktnRUJ0a3g3QkpZTmpsZG5lVWdWMnNobmJ30gHHAUFVX3lxTE81cUh4R3N6OTNNN2JKMG1tb2IzZF9xdWQ4Ui1oQmFSUndqS0xmVEFITWowaER3NEZrVHBIUF9nNEl3RlZZNFJuWXhuWUhsZHowZ3NQcm13dWdMMlNSa2pfOTVlbGs3VlJaNW5mc1J5YWJ2a1VUeXZHdC1BUjhQbF9UUTJERFpSYUt0S3hBdGNJbXd2RHNaOV91LWwwa0xycXgxRmxvV1p1M1E0MjFadWo3eW4tTGdsZ1pRYXlYaWpXbkI4MDFLYTQ?oc=5",
+      "title": "Stock Market Midday, Oct. 16: Tech Stocks Slide as Investors Rotate Into Defensive Sectors",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-10-16T16:35:43+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSlQ2aFVEMVA4QnI0Zl9HU0xkU25xa3FaTDlkWnVIaTUzLXFGUV9sV3lMWXlVM19zVmdEcXJoQW1kZVYwUzNVdUt0TDluRHY4OGpDcWl5Y25la3pRazVaSXRIM1o1cjhyY1dDM09zT2diYnI4S2lycXlIS2hnN1cyYXppc1JfYXQ1YVNIc0U1b2kxaEtKWnc?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Stock Market Swings On AI Fears, Tumbling Yields; Taiwan Semi, ASML, JPMorgan In Focus: Weekly Review",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-10-16T14:43:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZFpKMWlFdzRBckJRN1R4SGMyUnVJdFhIQ19KLVc3NmtDZW0td29rVzgyUFM1ZWU2OUlhMy00TXlWQk1KQXpzUnlTOVNVVDJpU1Bwc0F6b0RHNWtpRzhMUWJqX2doNWxHZ1E4YzVoX1B3VmJPVG56N2NROU5MMVppb3BhbzNCSHpUVklrUW1jY3dMUUFyazFVQlJERE02SF9FaGJTdmQyUndvdEc1d2tj?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -6164,27 +6181,10 @@
       ]
     },
     {
-      "title": "+105%, +77%, +31%: ’Real-economy’ stocks jump as Q3 earnings broadens market rally",
-      "source": "Investing.com",
-      "publishedAt": "2026-10-16T09:12:57+00:00",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNR19TejB6enRyX0U0SmVMTC1hV2NuTUVJOGNpeFZuU1hwNTVyM1NKbzM4emFIWm1yb0x3cHhLV3Q3bloxSlN2RnZhcDNINUdYVEktUk1NZkpwMmVmclpncXpwNkNCdkhjcUVuSFgtMkY0ajFFOGRoWlZVY1lHQktia2hYU3BweDkyXzZVU3Y5NVBNZDY5RjEzMFFNblVYUWdfODhCQ1BWMHBPSWRVNFR1Z0xvODF1X2Jxc3l0cHZUSk9SMkQyVUE?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-      "source": "Benzinga",
-      "publishedAt": "2026-10-16T06:24:14+00:00",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVC1FeGNXdWV0MTctM1h6RUw0dkJUQ2NHYV9sSlVkOVZHdGFBYjYwM2dDMFRvZlpaSHJBeGVUVlMtZDhBanc2dGc0TFd5UVVFd256emNZUnVXOU1xUzZ1ZV9NdWhpNGUxWXpWaF9fSnlmbVg2R215NHlhb0pCcUhnSjE5VHkwSmpaczBXZVVuTExTUXZRM0k5N1ZTa2phRFV1RGdrTGtpS1FfR0JKOEc5WGhqS2ZLd1E?oc=5",
+      "title": "US stock indexes are mixed as tech sector weighs on market",
+      "source": "Boston Herald",
+      "publishedAt": "2026-10-16T14:11:06+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1xc1BSb3RmT1loY1ZhZXlzc1hmQUo2R3EyUzVycENnTGtpTUNpRHVoUWpCSGpLd1NLOEhuS1pLMHozZnpnU3NOMG5QWG9pZlhFV3pGbVgwS19mWmpqYmduX252MA?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -6198,10 +6198,10 @@
       ]
     },
     {
-      "title": "U.S. Stock Market Preview | The Federal Reserve's special task force will hold a hearing on AI in November, while Warsh has bolstered market expectations that the Fed will hold steady in October; the three major index futures are mixed. The Roadster is slated",
-      "source": "富途牛牛",
-      "publishedAt": "2026-10-16T12:22:03+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNGVoeVZBaWhBQTFyWWZ5Ry13ZHIxYk10MGVMWW9SQzd3c056LVNIRXUxWEpkZDh5OWZmRnRXdV9PWERRNWhwSzA3VjNJZmptWkJMX3hxZFB1N0V5bFl3VGxadWg5YzhwRzNjcDVBRXVUWHhqNndHZ01jWTNYZkN0X0J3MWtMcnRXcEowQS12WDl6NnVGVG14LUtjMXdTY0ljWklZ?oc=5",
+      "title": "IPO fraud, China exports, US inflation: 5 figures investors are watching",
+      "source": "South China Morning Post",
+      "publishedAt": "2026-10-16T07:04:10+00:00",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbEtKUDM0TE1Odkw0aTNtRHhianVWZVdkNlpncVBPSV9TbGpNRXRLaG1pd25kZ1JkVXM3VEcwN1BZdmthbmowVW5qWmVrQzdmamRISDlyQTdadHJZamJHd09hT21aM3dvdUlzXzVBdlFkNnVybjVWdXNjdUJCTHdvdEx5U0xvMkMtemYzaWtMQ1ptUWJsal91eUJlZnhuV0pOanVqY04wVE5PYWRHZktnRUJ0a3g3QkpZTmpsZG5lVWdWMnNobmJ30gHHAUFVX3lxTE81cUh4R3N6OTNNN2JKMG1tb2IzZF9xdWQ4Ui1oQmFSUndqS0xmVEFITWowaER3NEZrVHBIUF9nNEl3RlZZNFJuWXhuWUhsZHowZ3NQcm13dWdMMlNSa2pfOTVlbGs3VlJaNW5mc1J5YWJ2a1VUeXZHdC1BUjhQbF9UUTJERFpSYUt0S3hBdGNJbXd2RHNaOV91LWwwa0xycXgxRmxvV1p1M1E0MjFadWo3eW4tTGdsZ1pRYXlYaWpXbkI4MDFLYTQ?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
