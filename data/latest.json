@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-15T22:57:56.046949+00:00",
+  "fetchedAt": "2026-10-16T04:01:26.812538+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -66,10 +66,10 @@
       }
     },
     "sp500": {
-      "ytd": 12.55,
+      "ytd": 12.91,
       "first": 6858.47,
-      "latest": 7718.94,
-      "date": "2026-10-14",
+      "latest": 7744.06,
+      "date": "2026-10-15",
       "cadence": "daily",
       "series": "SP500",
       "uiLabel": "S&P 500 seit Jahresbeginn",
@@ -98,7 +98,7 @@
     "tradeStress": {
       "value": 50,
       "label": "Erhöht",
-      "date": "2026-10-14",
+      "date": "2026-10-15",
       "cadence": "daily",
       "method": "proxy",
       "components": {
@@ -120,7 +120,7 @@
   "globalComposite": {
     "value": 42.0,
     "label": "Beobachten",
-    "date": "2026-10-15"
+    "date": "2026-10-16"
   },
   "regions": {
     "europe": {
@@ -221,9 +221,9 @@
     {
       "label": "SPX",
       "icon": "📊",
-      "val": 7718.94,
-      "chg": -86.51,
-      "chgPct": -1.11,
+      "val": 7744.06,
+      "chg": 25.12,
+      "chgPct": 0.33,
       "unit": "",
       "dec": 2
     },
@@ -936,10 +936,6 @@
       }
     ],
     "fedRate": [
-      {
-        "date": "2020-10-16",
-        "value": 0.09
-      },
       {
         "date": "2020-10-19",
         "value": 0.09
@@ -7669,10 +7665,6 @@
     ],
     "sp500": [
       {
-        "date": "2020-10-16",
-        "value": 3483.81
-      },
-      {
         "date": "2020-10-19",
         "value": 3426.92
       },
@@ -13687,6 +13679,10 @@
       {
         "date": "2026-10-14",
         "value": 7718.94
+      },
+      {
+        "date": "2026-10-15",
+        "value": 7744.06
       }
     ],
     "sentiment": [
@@ -14409,10 +14405,6 @@
     ],
     "tradeStress": [
       {
-        "date": "2020-10-16",
-        "value": 22
-      },
-      {
         "date": "2020-10-19",
         "value": 22
       },
@@ -14442,7 +14434,7 @@
       },
       {
         "date": "2020-10-28",
-        "value": 34
+        "value": 28
       },
       {
         "date": "2020-10-29",
@@ -14450,7 +14442,7 @@
       },
       {
         "date": "2020-10-30",
-        "value": 34
+        "value": 28
       },
       {
         "date": "2020-11-02",
@@ -20619,10 +20611,31 @@
       {
         "date": "2026-10-14",
         "value": 50
+      },
+      {
+        "date": "2026-10-15",
+        "value": 50
       }
     ]
   },
   "news": [
+    {
+      "title": "Most Asian stocks rise as calm returns after CoreWeave shock; Indonesia faces market downgrade",
+      "source": "Reuters",
+      "publishedAt": "2026-10-16T02:52:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMUpLRUNwWEpRNVpNVWJPOWQyQXdKRjkzdTU5RjFiOUxpUFZGU1ZBa1VaS3ctN0xlc0lSMkptbUVMRlprcFFtZ3B6Z2ZFTG5XX2FBUHBoSk4xRTdiQm1ucERORXE4ZzNFZ09ySlpvUDlzb0tGUjFQZ3c0UmotdEstMEZCUQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
     {
       "title": "Investors Just Parked Nearly $8 Trillion in Cash. Is a Stock Market Crash Next?",
       "source": "24/7 Wall St.",
@@ -20641,10 +20654,10 @@
       ]
     },
     {
-      "title": "Suddenly, Wall Street is worried that the U.S. economy is more ‘vulnerable’ than it looks",
-      "source": "Fortune",
-      "publishedAt": "2026-10-15T10:19:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbjBoMGROS1lUT0Zfc3Y1YVRzcVJyUmVPaDZ2dHd5U25ZZUtfNzNHOXVTaUN0UVNEcEpLNm5neGowdTJjNE5YVEplaTVPT3lBTlpSUG1CdGs5WHduU2ZpdkQ3aWxWeUFvUTVoZHFjeS1nRC1HVDJyTUIwSm9pYWdEU3RiMGVWbTk2ZURXZWFCbkJKeHREQko0dE5ZQUVPcElvTjhyZlRUdmlhM0xDTHU0QklrNHBUemZX?oc=5",
+      "title": "5 Things to Know Before the Stock Market Opens on Thursday",
+      "source": "Investopedia",
+      "publishedAt": "2026-10-15T12:12:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd0RmeGlsQjA2QVNwSTliaC1BZTJMa0ZFT2pyV2F4OGFoRFBVOGhBTjlGT1JYRVgwbzVzbkg5U01rTDNCSER6bjBjMDdUUy12c0M2eHlvMV83cUcxdVRUVU5PRGoyVHFINjRTR3c0SzlKVUl3Sk9rUkhSb1lPM3p2MFJEWVRmVVBRbzdmVXlKSG1KMHI5RzdwNmZvY3ZQNEl0U3VMcmJrR29NY3VrWlEtcEJB?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20655,24 +20668,6 @@
         "Aktien",
         "Anleihen",
         "Währungen"
-      ]
-    },
-    {
-      "title": "Stock Market Today: Hot Inflation and a Neocloud Shakeout Sink the Nasdaq",
-      "source": "ChartMill",
-      "publishedAt": "2026-10-15T08:17:54+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOV25UWEkwSThEQ3hmdkdCYWJzd2tjVS13aEFLRnJYSGRZcnd3U1pZVWN3UFR5MkRRR1NmblYzVWluZ01pRWJGZ0tGNVZkLWY1Sldmd2pfYVRTNlUyY1ZGMFAzby1TdU9DV0xtYWNFZkVWWGtTNnJsSXJ2TWlpc205d2tDYXF3VTRGTHg1cUFYaXRwbDFBRFlWeU9fODVoemZ4YVpPR0RsVQ?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
       ]
     },
     {
@@ -20694,10 +20689,10 @@
       ]
     },
     {
-      "title": "Dow Jones Futures Rise, But AI Sell-Off Continues On Anthropic News; Taiwan Semiconductor Earnings Strong",
+      "title": "Schwab Stock Falls Despite Beating Estimates. This Rival Meets Profit Views.",
       "source": "Investor's Business Daily",
-      "publishedAt": "2026-10-15T12:10:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxObkt6ekRhM01GYllSNng3cnhNQjJHZlBSVjZ0d2d3aElqTFpSd2hWOWxOdG54ZHhSa0wtSUFtX2JLSXcxRnF6TVNtcUV1ZXhlb2ZqdHZ6YzFlb3BVV0pmaEVlZzgyU1RXZDB5c3RFNEpmT3ZsZXI1NjBKcDVCQjRmUExrakhTWDFJODI2bHlfV29nZXlJYTdMcFlpLVhXbEFta0xMSlQyM2FiYlNDOXNWM2s4NVdCUWp0eUlJQkpoUVFEQ0FpM2JnUjlCTFVDMDVxLUtsUUZ3?oc=5",
+      "publishedAt": "2026-10-15T20:43:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNGJpNnZWcjN3SEM4cTlKRWFGMlBzby1jTlVWeGNycHdnakVFeEdLNV90bDRmellZNksxMlZvRGg2eTI0QXZES1JrdldoYTFLdlp3dzhBYnBwVnNKVVQtS2ktSWFtbmltUkgtS0FmREJJUlRucEwtcXJtR294VzdfUFdudktFVlJiaTljQ21zaw?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -20711,20 +20706,21 @@
       ]
     },
     {
-      "title": "Wall Street steadies following jarring drops for AI stocks worldwide",
-      "source": "LancasterOnline",
-      "publishedAt": "2026-10-15T12:20:11+00:00",
-      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNTjBuTTdWZUtaSldvRG1oVF82Z0w1TVFoM2MyVW5ha1VkWTZYMHMzSVlwNTRHX2lzeF93T3g1LWNLZE55bWNHNFlXeUxhQVVsR1ctYkNucjByT2RpR3FMeUg4ZVk5NlIzT1ZzQkNLdHhIM2ZRbW96bDFIRUZLcno5Y3NuV016QVVzakswMEZBZDJiTHpKaG5FM2YwWUdBZ1AwQnZ2dk9ncXBXNjFiY0xBbWhPMU54Vzk4R0xwYmpCWURMM3NWS09QclkzMV9Cc09sSm9RRkZUTnNYc3Rqa0tkbVN3Qy1sTHJxdGJnemlsLTQtZjFNM19MMjlMcHBFeUppUFRFdmdR?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Stock Market Today: Hot Inflation and a Neocloud Shakeout Sink the Nasdaq",
+      "source": "ChartMill",
+      "publishedAt": "2026-10-15T08:17:54+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOV25UWEkwSThEQ3hmdkdCYWJzd2tjVS13aEFLRnJYSGRZcnd3U1pZVWN3UFR5MkRRR1NmblYzVWluZ01pRWJGZ0tGNVZkLWY1Sldmd2pfYVRTNlUyY1ZGMFAzby1TdU9DV0xtYWNFZkVWWGtTNnJsSXJ2TWlpc205d2tDYXF3VTRGTHg1cUFYaXRwbDFBRFlWeU9fODVoemZ4YVpPR0RsVQ?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
       "assets": [
+        "Staatsanleihen",
         "Aktien",
-        "Anleihen",
-        "Währungen"
+        "US-Dollar",
+        "Gold"
       ]
     }
   ],
@@ -20832,7 +20828,7 @@
       "actionMatrixKey": "defensive"
     },
     "statusLine": {
-      "dataAsOf": "2026-10-15T22:57:56.046949+00:00",
+      "dataAsOf": "2026-10-16T04:01:26.812538+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
