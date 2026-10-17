@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-17T08:26:01.069048+00:00",
+  "fetchedAt": "2026-10-17T15:19:02.971674+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20649,27 +20649,10 @@
       ]
     },
     {
-      "title": "China Moves to Prop Up Stocks With Selling Curbs, Buybacks",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-10-16T07:22:02+00:00",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPLXFjTzZJR2E1cXptcmdTVkNvblRnZ0U1Q1pHdUpSMzBVWGtIbGszeHVjMGJBYWZ1MldIM0RHY3g4VUVRREIwV01qR0lvWER4bVh0OTR1QlRrb09aUjhEcF9xRllwal8zcWtjWkFIbVJMXzNSTkZjam13ZVNBeGZDOENLdWgwREhjTlRVVUQ1YzBURThCeXJzLWVIZHJEb0NydktJcldJRlZvN2xCSmRPMlF2YUE?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
-      ]
-    },
-    {
-      "title": "Tech stocks erase $1 trillion of wealth as oil surges to $110 for the first time since May",
-      "source": "NBC News",
-      "publishedAt": "2026-10-16T21:16:52+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcWwtaE0zalpGS3dlQkJuT2lJSHdXdEVjbkItLUVDMlYzWHNjYnpQWGF3TlpnNDV5ME9DWG5YU0ZtbVVGdnZNRndsSkdOZHRzUU5iQjVhd20yY1h6WF9VUjMwVXdLQktSX0o3amgyZVpmeXJiY1gtRHVCbTNfV3VsQ2ZLcHU2ek9a?oc=5",
+      "title": "Oil Prices Are Back Above $100. History Says the Biggest Stock Market Loser May Now Offer the Biggest Upside.",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-10-17T11:05:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaFBpdmRRZC1CTXNVMkR1aFREOEFtblQ2eXE1QnRmMktjU3VpTERKb2tpWnh3b0NlX1BiMlpKb0lDVnZzcGt1ak5JQV9iMERHUlhvell3TXF6d1RVNmktOEZhd0NNNHV0YTlOSTBSSHc4QWZYZTU1NzR4d1ZnMi1zVk92R3Z5RG9qLTlSOGh0bnRxaTMwalE?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20684,27 +20667,10 @@
       ]
     },
     {
-      "title": "Stock Market Today, Oct. 16: Tesla Slips 2% as Roadster Reveal Fades Before Earnings",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-10-16T21:26:17+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVXVRTjRlRE1TMHFCbWZhUFZWb1FBTWJKb01zOTVBRnZQNUh3aE1uX3VBTkVmcml0Ykk5QlVseVQySU9XZGJGOTFZenA2c0hHaU9EdHhsYkpyNkV5YW54QjdpZnVqdXBrZkw3MWRzWEZ3NnF5U0UtcWZ0dmh5LThXSzk0M2xtY1ZEVjNhS2pXaFVPWnVHSE80ZFo2TGt0Z3RJWU1LVnFrN2dCZGQzU3JPYkVaYlYtT1ppU2lia2xQZ09Cbko1cUgwcjZxYVJvVkV4TjVJbmFn?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Jim Cramer doubles down on his stock market stand",
-      "source": "TheStreet",
-      "publishedAt": "2026-10-16T21:43:36+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdU9pMEgtOW96QWJJOEFHeGhGM1dPa01fdHlKQ2ZzUlFBRFBad1ZUZ09GZjlVeHJHOHRtZElybEctbURRTXNxZnZPeXNvaUVIZTVwblRsRl9FVlBjUHA5MmpYVXNtSXhEVjJVTlc2d2g5WWJmMVhJSTFscExGTng5My05TjlvLUwybE1vNzN6dlh4Yl94YmtR?oc=5",
+      "title": "Stock market week ahead: Meta, Tesla lead 6 major tech reports",
+      "source": "Opening Bell Daily",
+      "publishedAt": "2026-10-17T13:43:40+00:00",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5tY200bmdpSG1Qa2c2TGxrUnlZNlY0cmdoVjZzVVdjTENZRjFvNmhrRjB3SzVOTTliMnppVURVWEhnOVQ2SmR2MXFSOGN4U3IyNjl4QW1aeldZaW81bkdLOTgzcEItaDd0U3k4RDUwMkMyMjJFY01sR0FYeHdrR2M?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20718,21 +20684,54 @@
       ]
     },
     {
-      "title": "Stock Market Swings On AI Fears, Tumbling Yields; Taiwan Semi, ASML, JPMorgan In Focus: Weekly Review",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-10-16T14:43:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZFpKMWlFdzRBckJRN1R4SGMyUnVJdFhIQ19KLVc3NmtDZW0td29rVzgyUFM1ZWU2OUlhMy00TXlWQk1KQXpzUnlTOVNVVDJpU1Bwc0F6b0RHNWtpRzhMUWJqX2doNWxHZ1E4YzVoX1B3VmJPVG56N2NROU5MMVppb3BhbzNCSHpUVklrUW1jY3dMUUFyazFVQlJERE02SF9FaGJTdmQyUndvdEc1d2tj?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "title": "China Moves to Prop Up Stocks With Selling Curbs, Buybacks",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-10-16T07:57:37+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPLXFjTzZJR2E1cXptcmdTVkNvblRnZ0U1Q1pHdUpSMzBVWGtIbGszeHVjMGJBYWZ1MldIM0RHY3g4VUVRREIwV01qR0lvWER4bVh0OTR1QlRrb09aUjhEcF9xRllwal8zcWtjWkFIbVJMXzNSTkZjam13ZVNBeGZDOENLdWgwREhjTlRVVUQ1YzBURThCeXJzLWVIZHJEb0NydktJcldJRlZvN2xCSmRPMlF2YUE?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
       "assets": [
-        "Staatsanleihen",
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
+      "title": "In 2008, The “Walmart Recession Signal” Neared A Record As The Market Collapsed. One Economist Says It Is Starting To Rise Again",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-10-17T08:26:11+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZkNESUV6ZmtsVVl3QVJkaURjenpQcjhFV05ZWlN1T2RsWXdUcjdNSEVlRWxYUFZ1MmY4c3loSHhmQnp3RmZIT2RSRVBveFZsdDI1Rl95czVQeEVTX2VFb2FqSzl6eGhnaFRzOG92cld0OFltUG9YeTVMbk5EdnNWTmRSOVlERDhlTmtaQldwT1N6b2hjbUlrY1VR?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
         "Aktien",
-        "US-Dollar",
-        "Gold"
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "In 2008, The \"Walmart Recession Signal\" Neared A Record As The Market Collapsed. One Economist Says It Is Starting To Rise Again",
+      "source": "24/7 Wall St.",
+      "publishedAt": "2026-10-17T08:26:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOR3ZlR3NrdzNabmMyZWJtQmJDM1ZQdkllVUFxS29Kc2Y3VE5HS21leHBsOWFtMzJTZk5LdkxxZEFWTnRzbkxWcG4xZzVBYjNHZ2RUZ1UxUGlUT0VIY2ZNUVNIZDF4bGY4aGRFV282azhBRFZzcS1McThncjNsSWJfQUVpczdZeXEwcW56ZXV1Y0pfMk0zOWI1RUo2SXpudnJZbTE5bGNTeXp5SHBGb1FOdW1UYjBOeTBTVU1PVS12RWN3R0wyLXg2NU5HRFBNWktEOFRtUk41UGo3VTVNb0dZcTd6V19uQVZaakp1TEQ3OWp2Yy1MczJEcWp0QmM?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     }
   ],
@@ -20840,7 +20839,7 @@
       "actionMatrixKey": "defensive"
     },
     "statusLine": {
-      "dataAsOf": "2026-10-17T08:26:01.069048+00:00",
+      "dataAsOf": "2026-10-17T15:19:02.971674+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
