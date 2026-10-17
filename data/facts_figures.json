@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T03:52:43.094187+00:00",
+  "generatedAt": "2026-10-17T08:26:10.605541+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6181,21 +6181,20 @@
       ]
     },
     {
-      "title": "Wall Street ends down sharply, worries about AI trade and high oil prices weigh",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-10-16T20:32:36+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQc0xJZDhoTHdCbXFuWjRsZGlQVHlDbUgwNWNQbTNXamJDWmlqaEkxc2pRV1FjVzRWU2lwbGl0elNTY2YzcGNCTUtTTFhuOWl5ZngydHpNTHlpSDNaSzZ3ellNUDVELUd1Wkp5QkxLZHV5LVItMTR1bGlVdU9ZN0ZhalZ0VFRJeTRpMTVmNk9HMXpqT29tQ1E?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "Jim Cramer doubles down on his stock market stand",
+      "source": "TheStreet",
+      "publishedAt": "2026-10-16T21:43:36+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdU9pMEgtOW96QWJJOEFHeGhGM1dPa01fdHlKQ2ZzUlFBRFBad1ZUZ09GZjlVeHJHOHRtZElybEctbURRTXNxZnZPeXNvaUVIZTVwblRsRl9FVlBjUHA5MmpYVXNtSXhEVjJVTlc2d2g5WWJmMVhJSTFscExGTng5My05TjlvLUwybE1vNzN6dlh4Yl94YmtR?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
