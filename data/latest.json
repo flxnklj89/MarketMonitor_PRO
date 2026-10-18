@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-18T18:31:48.286706+00:00",
+  "fetchedAt": "2026-10-18T22:18:55.498572+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20666,10 +20666,44 @@
       ]
     },
     {
-      "title": "Dow Jones Futures Loom After S&P 500, Nasdaq Sell-Off; Will Meta Save AI?",
+      "title": "US Stock Futures Rise Ahead of Busy Earnings Week: Markets Wrap",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-10-18T22:07:25+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR0MwWG9IMlN3MDVva0xabG5QbzNhX09jY3JnaVVTSHJvYXFMSmtHaDhFZ2RTSHVFLUVKYU9za2MxTXA4UGZDN0E3YVk4dEF6QmtIc2Z5YnR5TXB4V2h1QWR6MllZYXRUcGsyOExYMEloYll2RDhHVklKRno4TGhCaGV3RC1OMFJ3c04wWUVCblVFUkdB?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Dow Jones Futures Rise Amid AI Fears; Can Meta, SpaceX, Tesla Earnings Save The Day?",
       "source": "Investor's Business Daily",
-      "publishedAt": "2026-10-18T15:50:00+00:00",
+      "publishedAt": "2026-10-18T22:10:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUnZSNzJZS2NlWi1Hckg0djB1aGQ3bEkzVTB4ejBTQWRoQ0JTOWJBa1U4Z1EyWFZSa0ZmSDlIcmx5MFEwQmhCeFE2MEs4ZEdMSThwczNORG03QTY4MU9xR3pXWmRtNmdMc3BRZ0F4U1FudlhIdXpwVHVQUXUxMU44NHhhRVZyTmNDVk1MLXBsOHBIV2Q3VU9oTE1sa2JET0c5b3p5ZUJHeTBrQlJKaTRnS284ZGVhUUlwekJKalp5dmsyRmdzU25QRQ?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Is Citigroup Stock a Buy 13% Below Its 52-Week High?",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-10-18T20:42:37+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVTdldXh2ekVuRkx6R2hIT0tMS2x0a1g0VFk0V0JLd3o3cm5meW1mUkpJdlQ0S1ZQQXZsUWYtV2g1U3IyMDFab3pKMmRZYUlyVUlyci1XYXpfX0dWSC1HWnJqYTVpWjZOaElReUFwcmRiX2JqS2lkTmZyMkVKdTVMS3F4Vm9DN05qcUxtd094Vk9fakpEX293?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20680,23 +20714,6 @@
         "Aktien",
         "Anleihen",
         "Währungen"
-      ]
-    },
-    {
-      "title": "China Moves to Prop Up Stocks With Selling Curbs, Buybacks",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-10-16T07:57:37+00:00",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPLXFjTzZJR2E1cXptcmdTVkNvblRnZ0U1Q1pHdUpSMzBVWGtIbGszeHVjMGJBYWZ1MldIM0RHY3g4VUVRREIwV01qR0lvWER4bVh0OTR1QlRrb09aUjhEcF9xRllwal8zcWtjWkFIbVJMXzNSTkZjam13ZVNBeGZDOENLdWgwREhjTlRVVUQ1YzBURThCeXJzLWVIZHJEb0NydktJcldJRlZvN2xCSmRPMlF2YUE?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
       ]
     },
     {
@@ -20714,23 +20731,6 @@
         "Weltaktien",
         "Währungen",
         "Rohstoffe"
-      ]
-    },
-    {
-      "title": "As AI rally wobbles, stock market's spotlight turns to earnings",
-      "source": "TradingView",
-      "publishedAt": "2026-10-18T13:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPdU9xVjUwUUdlc2RxX19MU3FjaFFsWmxnay0wUUVWemlrS0NxNWNTanFzRWZ2QTJGazAxbV96Tklkd3FpaExRRl9Pem8zb1BONU9CcVdUMENiYzdfMjFISGFlSk1TM3U3S3RaV2luVmcxUklyRFluYU96Mk1GQy1pWWE4NjEySmJtNy1GZF9PR05QbHMyU3F4el9uenlKU2J2X2pjWGlEeFVCTUJzYUg5Si02TXRsNFhaekx6Yk41d2FCMmg4eURpcjh4Tmg?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
       ]
     }
   ],
@@ -20838,7 +20838,7 @@
       "actionMatrixKey": "defensive"
     },
     "statusLine": {
-      "dataAsOf": "2026-10-18T18:31:48.286706+00:00",
+      "dataAsOf": "2026-10-18T22:18:55.498572+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
