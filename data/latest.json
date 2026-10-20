@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-19T20:56:03.224214+00:00",
+  "fetchedAt": "2026-10-20T04:20:16.406594+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -66,10 +66,10 @@
       }
     },
     "sp500": {
-      "ytd": 11.68,
+      "ytd": 12.13,
       "first": 6858.47,
-      "latest": 7659.44,
-      "date": "2026-10-16",
+      "latest": 7690.73,
+      "date": "2026-10-19",
       "cadence": "daily",
       "series": "SP500",
       "uiLabel": "S&P 500 seit Jahresbeginn",
@@ -98,7 +98,7 @@
     "tradeStress": {
       "value": 47,
       "label": "Erhöht",
-      "date": "2026-10-16",
+      "date": "2026-10-19",
       "cadence": "daily",
       "method": "proxy",
       "components": {
@@ -120,7 +120,7 @@
   "globalComposite": {
     "value": 42.0,
     "label": "Beobachten",
-    "date": "2026-10-19"
+    "date": "2026-10-20"
   },
   "regions": {
     "europe": {
@@ -221,9 +221,9 @@
     {
       "label": "SPX",
       "icon": "📊",
-      "val": 7659.44,
-      "chg": -84.62,
-      "chgPct": -1.09,
+      "val": 7690.73,
+      "chg": 31.29,
+      "chgPct": 0.41,
       "unit": "",
       "dec": 2
     },
@@ -936,10 +936,6 @@
       }
     ],
     "fedRate": [
-      {
-        "date": "2020-10-20",
-        "value": 0.09
-      },
       {
         "date": "2020-10-21",
         "value": 0.09
@@ -7669,10 +7665,6 @@
     ],
     "sp500": [
       {
-        "date": "2020-10-20",
-        "value": 3443.12
-      },
-      {
         "date": "2020-10-21",
         "value": 3435.56
       },
@@ -13687,6 +13679,10 @@
       {
         "date": "2026-10-16",
         "value": 7659.44
+      },
+      {
+        "date": "2026-10-19",
+        "value": 7690.73
       }
     ],
     "sentiment": [
@@ -14409,10 +14405,6 @@
     ],
     "tradeStress": [
       {
-        "date": "2020-10-20",
-        "value": 22
-      },
-      {
         "date": "2020-10-21",
         "value": 22
       },
@@ -14442,7 +14434,7 @@
       },
       {
         "date": "2020-10-30",
-        "value": 34
+        "value": 28
       },
       {
         "date": "2020-11-02",
@@ -20619,10 +20611,117 @@
       {
         "date": "2026-10-16",
         "value": 47
+      },
+      {
+        "date": "2026-10-19",
+        "value": 47
       }
     ]
   },
-  "news": [],
+  "news": [
+    {
+      "title": "The stock market is becoming America's primary source of wealth",
+      "source": "Origin Financial",
+      "publishedAt": "2026-10-19T19:43:22+00:00",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeWwxTS01OVp6QmxGV3lNLTdnVzVfUzlwUXRtWk1TeVd3cDR3R1U0NHBZand2cHhQNG1QOVdaVVZMeXFZTmxNcmZaa0NWLW53eXI3dTU2NXBDLU5ja1hYYVZDd3pGSFh4SjNOOXJyT0NjNFVZZ2N2QU15bVR5MXVabnRXbUpNZ2xnREZYWEIyUUhOVG5pS0JmLW95Vm9NSXMz?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "4 Stocks to Buy for the Long-Term While They’re Still Undervalued",
+      "source": "Morningstar",
+      "publishedAt": "2026-10-19T20:59:03+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVEduUGwycUx2dFJjaHJRQUJJZXpfS2IwNGduNjA1S2YzQnNBQlpIZmtjcjFJNm9hS0J1dmZxUWRSVUlCbl9iUVhYY1ZKVTFXcTRvTFk0YlhKbTRqTmZ1VGdRUzliMHVBUlotLW1FdHFSMUVZYkxabURjRGpKT0dYWXVTbXNuS08tOFhmNkNoRFJ1aTZGLXJvWGZpSERDQnd6cnRJSHNaQTh6QzU4MFE?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Stock market shows an interesting hidden hint about investor confidence coming into earnings",
+      "source": "investingLive",
+      "publishedAt": "2026-10-19T15:00:26+00:00",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUW8ySXhaQWFjeHRWZjRhb2pRVEp4WjVJU2hRbXdtME5oNndBNDgyNEdQMkJCODBFZmJFYjBqZmNLc01aMGxNQUdJNTZvV0RzdWE5ZzV1c0MxbnNOQlNfU09wUDVIeTVuRkVLcFZ3QTJqblVzemwxcV9FbjFWc1ptemFlWG5xSlA0cExMZnh5YmdoT0JaODBabWsydHN1YmRDLUtUNEFtLUJqaU45aUdtLWVET09LZ3pEdlJnVEVwa2hGNHN0?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Alphabet Stock Slipped After Q2 Earnings. Here's What Investors Need to See in Q3.",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-10-19T23:23:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQc3AyLXI0OXAycVprUGs5TkU5eHVBaVR5Z3NtdUhFbDVvWEdpU19iOFY2M2pXTUxzWTFsNVYxd2xiVXh6NTgwSEN2a3hhRzlxa1dwZ0M2UlVwTGc2ZUl0X2pYa0M4d0ZSeERCbzFBLXBJUmZhdURKRmVYSlpqaFRBbU53?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Tech Looks to Rebound, But Earnings Will Determine If it Sticks: 8 Key Items Shaping the Stock Market Monday",
+      "source": "RealMoney Pro",
+      "publishedAt": "2026-10-19T12:51:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNmNiRmwwNXI0eTRpZzV5U2JIclRYTFBCaklkU09Wc1FQd1IxVTVMWmJ0WTJNLV91M0VSS1ktcmpQTVUtcEJ4cUkwYzVCV3FJanRCM1RmT0NJQm5NaVgzQURhWjY3SHlxMi1FcnVFckI0N0h2OGpkRFNrVGhWMi02M3NmMl93a0VuRl9INVZCcjczOVdJT2R1WDJyZEFWX1oxUFpNbTNVWHZ3VlZ6ajVBaGVjV2xtUWpGdS1RcUVURFNFdjJBckhnMnF2cmIyVHZicTYxMzd1Mm9oQQ?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Asia stocks slump as AI jitters hammer Korean chipmakers ahead of tech earnings",
+      "source": "Investing.com",
+      "publishedAt": "2026-10-20T03:45:29+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVzNISmxCVWJJZUVoV19YcUFXU1NjeG5RRlVsbVJOOTI4T0pPWHhGc01UVHNZbmRGZUFfUHZEbXNQZjJjQ1cwRHd1NFFkaGJQSEpXTUtnWFp2STNDVzBOa1pSRUluazMwQkdHQkFfNFNKMHdaNjJyc3JtUHkxUnB6NDBSejUxTlVQandFLUtUcWFNd1pZd1ptQkNGVHNGT1VPc3BWbkJ4ajRveGduYjl3eV9VSFF1cmdCbFFyWTZtODN0UDJUU2wzYlNHckZVbTA4WVE?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    }
+  ],
   "product": {
     "name": "Marktrisiko-Kompass",
     "version": "PRO",
@@ -20727,7 +20826,7 @@
       "actionMatrixKey": "defensive"
     },
     "statusLine": {
-      "dataAsOf": "2026-10-19T20:56:03.224214+00:00",
+      "dataAsOf": "2026-10-20T04:20:16.406594+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }

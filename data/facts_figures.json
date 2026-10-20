@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T20:56:23.831694+00:00",
+  "generatedAt": "2026-10-20T04:20:28.340200+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -43,10 +43,10 @@
   "technicalTriggers": [
     {
       "label": "50T vs. 200T",
-      "value": 6.9,
+      "value": 6.8,
       "unit": "%",
-      "tone": "l",
-      "status": "50T liegt bei +6.9 % gegenüber dem 200T. Schlusskurs 26713, 50T 26635, 200T 24906. NASDAQ Composite (Fallback) über 50T (26635) und 200T (24906). Trendstruktur intakt.",
+      "tone": "m",
+      "status": "50T liegt bei +6.8 % gegenüber dem 200T. Schlusskurs 26431, 50T 26626, 200T 24935. NASDAQ Composite (Fallback) unter 50T (26626), aber noch über 200T (24935).",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -56,10 +56,10 @@
     },
     {
       "label": "RSI (14)",
-      "value": 46.2,
+      "value": 43.3,
       "unit": "",
       "tone": "m",
-      "status": "RSI (14) bei 46.2. Kein Extremniveau in beide Richtungen.",
+      "status": "RSI (14) bei 43.3. Kein Extremniveau in beide Richtungen.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -69,10 +69,10 @@
     },
     {
       "label": "Drawdown vom Hoch",
-      "value": -3.2,
+      "value": -4.2,
       "unit": "%",
       "tone": "l",
-      "status": "-3.2 % vom Hoch. Kaum struktureller Druck.",
+      "status": "-4.2 % vom Hoch. Kaum struktureller Druck.",
       "history": []
     }
   ],
@@ -702,18 +702,6 @@
   "charts": {
     "chartLabel": "NASDAQ Composite",
     "qqq": [
-      {
-        "date": "2025-08-07",
-        "close": 21242.7,
-        "ma50": 20263.13,
-        "ma200": 19065.21
-      },
-      {
-        "date": "2025-08-08",
-        "close": 21450.02,
-        "ma50": 20310.12,
-        "ma200": 19080.01
-      },
       {
         "date": "2025-08-11",
         "close": 21385.4,
@@ -2501,17 +2489,21 @@
         "close": 26713.03,
         "ma50": 26635.38,
         "ma200": 24905.8
+      },
+      {
+        "date": "2026-10-16",
+        "close": 26140.03,
+        "ma50": 26631.22,
+        "ma200": 24919.4
+      },
+      {
+        "date": "2026-10-19",
+        "close": 26430.89,
+        "ma50": 26626.02,
+        "ma200": 24935.35
       }
     ],
     "rsi": [
-      {
-        "date": "2025-08-07",
-        "value": 63.6
-      },
-      {
-        "date": "2025-08-08",
-        "value": 67.4
-      },
       {
         "date": "2025-08-11",
         "value": 65.1
@@ -3703,6 +3695,14 @@
       {
         "date": "2026-10-15",
         "value": 46.2
+      },
+      {
+        "date": "2026-10-16",
+        "value": 37.2
+      },
+      {
+        "date": "2026-10-19",
+        "value": 43.3
       }
     ],
     "vix": [
@@ -6110,5 +6110,108 @@
       }
     ]
   },
-  "news": []
+  "news": [
+    {
+      "title": "The stock market is becoming America's primary source of wealth",
+      "source": "Origin Financial",
+      "publishedAt": "2026-10-19T19:43:22+00:00",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeWwxTS01OVp6QmxGV3lNLTdnVzVfUzlwUXRtWk1TeVd3cDR3R1U0NHBZand2cHhQNG1QOVdaVVZMeXFZTmxNcmZaa0NWLW53eXI3dTU2NXBDLU5ja1hYYVZDd3pGSFh4SjNOOXJyT0NjNFVZZ2N2QU15bVR5MXVabnRXbUpNZ2xnREZYWEIyUUhOVG5pS0JmLW95Vm9NSXMz?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "4 Stocks to Buy for the Long-Term While They’re Still Undervalued",
+      "source": "Morningstar",
+      "publishedAt": "2026-10-19T20:59:03+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVEduUGwycUx2dFJjaHJRQUJJZXpfS2IwNGduNjA1S2YzQnNBQlpIZmtjcjFJNm9hS0J1dmZxUWRSVUlCbl9iUVhYY1ZKVTFXcTRvTFk0YlhKbTRqTmZ1VGdRUzliMHVBUlotLW1FdHFSMUVZYkxabURjRGpKT0dYWXVTbXNuS08tOFhmNkNoRFJ1aTZGLXJvWGZpSERDQnd6cnRJSHNaQTh6QzU4MFE?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Stock market shows an interesting hidden hint about investor confidence coming into earnings",
+      "source": "investingLive",
+      "publishedAt": "2026-10-19T15:00:26+00:00",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUW8ySXhaQWFjeHRWZjRhb2pRVEp4WjVJU2hRbXdtME5oNndBNDgyNEdQMkJCODBFZmJFYjBqZmNLc01aMGxNQUdJNTZvV0RzdWE5ZzV1c0MxbnNOQlNfU09wUDVIeTVuRkVLcFZ3QTJqblVzemwxcV9FbjFWc1ptemFlWG5xSlA0cExMZnh5YmdoT0JaODBabWsydHN1YmRDLUtUNEFtLUJqaU45aUdtLWVET09LZ3pEdlJnVEVwa2hGNHN0?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Alphabet Stock Slipped After Q2 Earnings. Here's What Investors Need to See in Q3.",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-10-19T23:23:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQc3AyLXI0OXAycVprUGs5TkU5eHVBaVR5Z3NtdUhFbDVvWEdpU19iOFY2M2pXTUxzWTFsNVYxd2xiVXh6NTgwSEN2a3hhRzlxa1dwZ0M2UlVwTGc2ZUl0X2pYa0M4d0ZSeERCbzFBLXBJUmZhdURKRmVYSlpqaFRBbU53?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Tech Looks to Rebound, But Earnings Will Determine If it Sticks: 8 Key Items Shaping the Stock Market Monday",
+      "source": "RealMoney Pro",
+      "publishedAt": "2026-10-19T12:51:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNmNiRmwwNXI0eTRpZzV5U2JIclRYTFBCaklkU09Wc1FQd1IxVTVMWmJ0WTJNLV91M0VSS1ktcmpQTVUtcEJ4cUkwYzVCV3FJanRCM1RmT0NJQm5NaVgzQURhWjY3SHlxMi1FcnVFckI0N0h2OGpkRFNrVGhWMi02M3NmMl93a0VuRl9INVZCcjczOVdJT2R1WDJyZEFWX1oxUFpNbTNVWHZ3VlZ6ajVBaGVjV2xtUWpGdS1RcUVURFNFdjJBckhnMnF2cmIyVHZicTYxMzd1Mm9oQQ?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Asia stocks slump as AI jitters hammer Korean chipmakers ahead of tech earnings",
+      "source": "Investing.com",
+      "publishedAt": "2026-10-20T03:45:29+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVzNISmxCVWJJZUVoV19YcUFXU1NjeG5RRlVsbVJOOTI4T0pPWHhGc01UVHNZbmRGZUFfUHZEbXNQZjJjQ1cwRHd1NFFkaGJQSEpXTUtnWFp2STNDVzBOa1pSRUluazMwQkdHQkFfNFNKMHdaNjJyc3JtUHkxUnB6NDBSejUxTlVQandFLUtUcWFNd1pZd1ptQkNGVHNGT1VPc3BWbkJ4ajRveGduYjl3eV9VSFF1cmdCbFFyWTZtODN0UDJUU2wzYlNHckZVbTA4WVE?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    }
+  ]
 }
