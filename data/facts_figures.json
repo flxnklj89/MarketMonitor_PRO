@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T19:55:57.182199+00:00",
+  "generatedAt": "2026-10-20T23:05:26.968287+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,9 +6112,27 @@
   },
   "news": [
     {
+      "title": "ZEW Survey Shows a Sharp Reduction in Inflation Concerns",
+      "source": "Haver Analytics",
+      "publishedAt": "2026-10-20T22:30:09+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPM292eE9yUW5yT2U4MTMwRGtsRzVCVk1mNGIyc1g2cnVZOWxfTkUwRVpuSDFzMG04UTBmUXJEdXhzX1piOG1IcHQ4eno2MlhNbGNobFQyTkRNcDZWbDZSaU02Ri1kSWpwaTFKUUhPdGdYSXY3U3E3OUdrMkN3dm5CcTRyRzVYMnN5YXMzX2xTYVo?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
       "title": "US stocks rise after companies deliver strong profits and oil prices retreat",
       "source": "AP News",
-      "publishedAt": "2026-10-20T16:57:00+00:00",
+      "publishedAt": "2026-10-20T20:05:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTUxwUkw1R0I4c0hwa0lfVGdUQ3ZoMlVlZzZBa1RBTU9hMEZtSTFQY3d3NzVYRlFiN1hubTFWX3JXVnZBbnUxSmFsM05CZ1lyVVVOamlWOXlxUzdaMTcxdFBzY3gzZVdmNjZaTXNPNWtBeTNvMTVETWtwcGxaaE5CQWFUOS0tM1NpS2FkT1pocUlYWGZkX2wyd0d3OTg?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
@@ -6148,6 +6166,23 @@
       ]
     },
     {
+      "title": "Stock Market Today, Oct. 20: SpaceX Stock Gains After Market Close on Q3 Earnings Report",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-10-20T21:24:50+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPNXIydTVqa3FFd2doV1RHYkJ4UUVDNDhYYm1mMERZVnJHQ21aNmxYazd6ZUhiWm1CZzlYVXRreXpOTUZGRzRudjB4S00yZXhZVEtKS2NSZUFhYk4zUjQ3QlNrX2J2N1V5bk5BUnJaN1JXMnczZFlMQ1hfY3Brd2lRbmMxTkxma1BVelhQX0dDMHBwRk9Ia0NVaFZjUEZmZ193VHBKTmwyY1VaT0JlLUJpdE1QUXlJSGdHOWc5YTlWV3F5b0NGRS1UZkwwaThPTkswYzg2VnFBNkp2enJQX0tN?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
       "title": "Trump announces 100% tariff on Chinese imports, after stock market sell-off",
       "source": "ABC7 Chicago",
       "publishedAt": "2026-10-20T10:13:48+00:00",
@@ -6166,57 +6201,20 @@
       ]
     },
     {
-      "title": "Stocks mostly rise as oil, US yields ease; euro edges up",
-      "source": "Reuters",
-      "publishedAt": "2026-10-20T02:09:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaHdteV9meHVjc2dvbmd1WjNPa1FHR2lwTFlEcmJPWE5zZnhHSFNjQndCeHptVW1NaEpsbms3QS1oSHRiTmZyUVp2ZVR0SlMwT1kxVnM2UFdyenVSblJHVW4ySjA3aTFUcGxvbV9iaHZZMzJVZTRQV1ZtM3BZMVd4RHFsaw?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "5 Things to Know Before the Stock Market Opens on Tuesday",
+      "source": "Investopedia",
+      "publishedAt": "2026-10-20T12:28:03+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOGFSMkhZRXF6QnhIbjFabFJFRVlDZnh3YkZYWVJEZkJUNHYxQzBnNm05VHQ1Z3JrZzN2QTM1M1E5V3RrR0pheEJrV25xYTg5VzhwYmYyVk0xQ0liVTcwOE1mcVpIN1lKUW4zWktxMlFFOEVPeW9tSTVVQk1nVDZIMFRPQUdaczNvX0QtRTFBNW9LcWJUNWU2bFk3Zi1iQTVIcmFOdW5Wc25fYUIxS1I4Yg?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Wall Street gains ground on healthcare stocks rally, oil retreat By Reuters",
-      "source": "Investing.com",
-      "publishedAt": "2026-10-20T17:55:51+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd2RDZTZ6bV9tdDR5Mzh2T0dJTlo1M0xzRENfWERjT000TXlmVnRZdmNBSGRfaDk5dUNjdkxZUHZpZVFoSjkxbFZpTlJLVkdLM0NmNmVNVjA1aVVtalk5LWpBZ0ZscTRjNG9MdmpPaURmOU5EWjlRM0RXMkRqbHI5M29sNzVxUjVjUDV4cXNteElodGg2azljTE50UmVLS01tZ0ZNdXJjcmc2X0JPbVE?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "U.S. stocks rise after oil prices retreat and companies deliver strong profits",
-      "source": "Washington Times",
-      "publishedAt": "2026-10-20T16:19:08+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUHdCZ2ZqOHYzNDRVYmlRNWV2ZEVPVUgtYmxwT1d1THhvcUlfaDBSellaQ05DTXdfQldzODBGdmU1S2tBVVZWb3VVdW83a2dLWncwZ01xUnpPWktOVHhXZ2swUWRZNERsNVo2U0lGR2t4SzJaMklqOWlTbmpqRmx5SzJwd3ozOGRIdVFhZTl2Qks2M2YyMTBWV2NfYkwtbER6VkstVU5WVFZ1Q19OY212MS16RjhhbGh6ckE?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     }
   ]
