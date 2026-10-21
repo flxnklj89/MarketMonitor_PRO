@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T23:05:26.968287+00:00",
+  "generatedAt": "2026-10-21T04:10:08.830270+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -43,10 +43,10 @@
   "technicalTriggers": [
     {
       "label": "50T vs. 200T",
-      "value": 6.8,
+      "value": 6.7,
       "unit": "%",
       "tone": "m",
-      "status": "50T liegt bei +6.8 % gegenüber dem 200T. Schlusskurs 26431, 50T 26626, 200T 24935. NASDAQ Composite (Fallback) unter 50T (26626), aber noch über 200T (24935).",
+      "status": "50T liegt bei +6.7 % gegenüber dem 200T. Schlusskurs 26425, 50T 26622, 200T 24951. NASDAQ Composite (Fallback) unter 50T (26622), aber noch über 200T (24951).",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -56,10 +56,10 @@
     },
     {
       "label": "RSI (14)",
-      "value": 43.3,
+      "value": 43.2,
       "unit": "",
       "tone": "m",
-      "status": "RSI (14) bei 43.3. Kein Extremniveau in beide Richtungen.",
+      "status": "RSI (14) bei 43.2. Kein Extremniveau in beide Richtungen.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -69,10 +69,10 @@
     },
     {
       "label": "Drawdown vom Hoch",
-      "value": -4.2,
+      "value": -4.3,
       "unit": "%",
       "tone": "l",
-      "status": "-4.2 % vom Hoch. Kaum struktureller Druck.",
+      "status": "-4.3 % vom Hoch. Kaum struktureller Druck.",
       "history": []
     }
   ],
@@ -702,12 +702,6 @@
   "charts": {
     "chartLabel": "NASDAQ Composite",
     "qqq": [
-      {
-        "date": "2025-08-11",
-        "close": 21385.4,
-        "ma50": 20354.31,
-        "ma200": 19094.24
-      },
       {
         "date": "2025-08-12",
         "close": 21681.9,
@@ -2501,13 +2495,15 @@
         "close": 26430.89,
         "ma50": 26626.02,
         "ma200": 24935.35
+      },
+      {
+        "date": "2026-10-20",
+        "close": 26424.82,
+        "ma50": 26622.41,
+        "ma200": 24951.29
       }
     ],
     "rsi": [
-      {
-        "date": "2025-08-11",
-        "value": 65.1
-      },
       {
         "date": "2025-08-12",
         "value": 70.1
@@ -3703,6 +3699,10 @@
       {
         "date": "2026-10-19",
         "value": 43.3
+      },
+      {
+        "date": "2026-10-20",
+        "value": 43.2
       }
     ],
     "vix": [
@@ -6130,10 +6130,10 @@
       ]
     },
     {
-      "title": "US stocks rise after companies deliver strong profits and oil prices retreat",
-      "source": "AP News",
-      "publishedAt": "2026-10-20T20:05:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTUxwUkw1R0I4c0hwa0lfVGdUQ3ZoMlVlZzZBa1RBTU9hMEZtSTFQY3d3NzVYRlFiN1hubTFWX3JXVnZBbnUxSmFsM05CZ1lyVVVOamlWOXlxUzdaMTcxdFBzY3gzZVdmNjZaTXNPNWtBeTNvMTVETWtwcGxaaE5CQWFUOS0tM1NpS2FkT1pocUlYWGZkX2wyd0d3OTg?oc=5",
+      "title": "U.S. stocks rise after companies deliver strong profits and oil prices retreat",
+      "source": "Pittsburgh Post-Gazette",
+      "publishedAt": "2026-10-21T01:52:34+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNLU5JUHpCVE5nNDBhbEctTDUxbHBoSzNkY3o3US1mNFhIeW9kajVOYUNmVWFCQURFZldKMnJsVFRJNXhONkc0a1Z5NDcwYmdzVGIwZGZnTHZJWGZEMktIeVdkYkQwMXBVd0hfTVFqd05UTmVIM1Z3ZHhvcUhoaUg2TVJWT2I3cXBGM0xINmw3cDZSSHl4MVpua0F6dVpHenBQeDEzNngzamFPUWR2bXhn?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -6145,6 +6145,23 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Most US stocks rise following strong profit reports from Equifax, Hasbro and other big companies",
+      "source": "AP News",
+      "publishedAt": "2026-10-20T20:50:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTUxwUkw1R0I4c0hwa0lfVGdUQ3ZoMlVlZzZBa1RBTU9hMEZtSTFQY3d3NzVYRlFiN1hubTFWX3JXVnZBbnUxSmFsM05CZ1lyVVVOamlWOXlxUzdaMTcxdFBzY3gzZVdmNjZaTXNPNWtBeTNvMTVETWtwcGxaaE5CQWFUOS0tM1NpS2FkT1pocUlYWGZkX2wyd0d3OTg?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     },
     {
@@ -6168,7 +6185,7 @@
     {
       "title": "Stock Market Today, Oct. 20: SpaceX Stock Gains After Market Close on Q3 Earnings Report",
       "source": "The Motley Fool",
-      "publishedAt": "2026-10-20T21:24:50+00:00",
+      "publishedAt": "2026-10-20T22:18:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPNXIydTVqa3FFd2doV1RHYkJ4UUVDNDhYYm1mMERZVnJHQ21aNmxYazd6ZUhiWm1CZzlYVXRreXpOTUZGRzRudjB4S00yZXhZVEtKS2NSZUFhYk4zUjQ3QlNrX2J2N1V5bk5BUnJaN1JXMnczZFlMQ1hfY3Brd2lRbmMxTkxma1BVelhQX0dDMHBwRk9Ia0NVaFZjUEZmZ193VHBKTmwyY1VaT0JlLUJpdE1QUXlJSGdHOWc5YTlWV3F5b0NGRS1UZkwwaThPTkswYzg2VnFBNkp2enJQX0tN?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
@@ -6183,38 +6200,20 @@
       ]
     },
     {
-      "title": "Trump announces 100% tariff on Chinese imports, after stock market sell-off",
-      "source": "ABC7 Chicago",
-      "publishedAt": "2026-10-20T10:13:48+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiuhVBVV95cUxPd3VrUWdheEpLUldIY0JjSEhBVE5iZWxFdGRmUnBENjZRQnZjdHcydWNKamJ0aVUzRW1pblRNbm05b3Nrdzh5WW94bEhiOHNJeHZCTjFhMDdYeXIyZFRTZzhPSlJHY2N4ZERvWXd6eExPMmFEUzhSb0FlZ19UOVF5M3EtNGJxQy1KT21MM3B4ZkNKSzJJSjRHYTluNzFFMU5DR19mV0xJbzQ0Wmw4V1U1NFd4UjJHWXFnRjFWLU1rV0dZWmVuZHFPbWtMYkpGbEtiSkJvZFVOdGRCR2hsM2V5MDQ1eldSRkthdl82THVtYzI3WmRmR05VVFNJTWxBaG1qbjRzMnZtQS1HRzBDd0loWGxud0lUZXhVQ2h0d3ktWWhrNE1YZTY3SlliNUxCZk9qNE8xMGM1cHlvb3J1M2szenZEZWlKaV9hMElLUEhKVl9IWFRxUFNCVC1aWGUydEFlb2RBSjNNM05MRElsZjZLc2RENEJYRnNHRWFfQ3pVNFZDcUF5bC1wUjJrSDQzSGtVaG1fNlRUYzlZSmU4RUtNcEg2SWwyMXZCZG84WUZuX3hseEVuRU1tWGgwaEdWQlNLejRFRDZnZHlMcEEwZkU1clA0ZHdRYS1scU0xZE5iSUw5UmtRNUttalpMc1BwbnlNMERrSlhuNGVuUE9KZWNpVmduS3JnWE1rQ2NLdG1iV1VtLTBtR0trOE1DRXdBNjBfRzIwTkh6Y2lNTUdvc09qbmVhU0VrWjF4N2pLMnhfWDJPTi1IalVfaWVoYzdoN2VqRkItRG81UXp6NlNjNFFBUGZaN21WY2ZZOERpR2FVSXZQNzVVSDFoTXNoVzR2VHhxZGJ6YTBDT1cyaWNEYWZvTXZBV2Z4eElIc0JuTkdvWUVxeERmcFdHbS1XVHFUdDk2WXg4Q3F0MkN2MVFvSFFzVl9TTTk1TU5GRmVHeGhCUU5aMnBEbGZ4ZWhMamFjbEcyb2ZaVzRPQ1ZZVjJ4SU53bXhxUWhPY0w2ZFQwRFdtOTZfQ05lUWRqZ1RRTmg4U1RqR3lJRGhVelQwSU9ySWFlSFhTX3pfempNZDM5WnlRd3NzTlBibkI4eEpfblpqM05uTmJQdE5mcFIwYUxoamRQem5RY1NWYzhzbUZDM3ZHN3lXR3dKa0lZMnRNM0hsbkw2RWlLRmRsYnJoUmRJTzZwbnJzTURTVkJnZVd1SkRnU1hrV041MUY3bEw0b2ZSMDZLbnpLV2ljTF9vM0tQdXpFQVJIUWd4aUlxRTVHSTI2ZWhya3Aybllpb3l1S3JJVENzd3hvTEtwb0ZIVmtOUWdaMEVwb0lOLU9raXB4QXFDNmVJZzZaeFdGNWpWUzRSVGVqNk4zSTM4Q2hUUkJncVJvUkdUZWpFMTFkeHBtTFZKellHWDNqZEQxSXNPSHVnV3VRZERfS3ZmWUprRGNOSlFScjVlVzdrdEFqLW9SaDlYbldjenE1X1FVTGI4X2pZOWY5ejVpRnVwQXZ5ZFlBY0NOM0hzQXFhaDRrOTdyeWVFMDdhVFJSaDFYQ1Y1YVN0TWlvUXBtX1B2ZmMtU21RZEZWbUJpQUhuZnFwTFlQRFRqb2MzOTlCdDRvVWpBNG9SeGxyMXdIdmxNNFZMSTc0aVJQdjc2SUczaWR2R2kxMWxkZWpGaFRZaTJoemRWb3d4NXpicXUzWE16N3NRVURXLUhXQ25LRzMxWDh6RGpCclpZY3lzWmtreU14akkyQ3pXQmVleUdDU00xME9FOWZKLXpSN2dxWDRaLWdoTnBTWFBKMHRQZGJza3FZTGZWY0t0a0M1Q1B1N1lzWkEtQW9nZGYyY0lzWlVQckhEMlRiSU9vZkp1ZTBETFk5NEU2Z0ZaUTJYOV9lTFdHSlo3aDFDVW81QXhxN2cyZ0JTbHZDTVZPY1RNVk9ERmNyTWVZZkJFSTZsQW1iQ2ZJSXpXUU1xalZ1TWVmY3JUX3VkclIzZVRYSTE5dEltNS1TOVNvNHpiTm4xREhnZi1ZRzR0a0ZHMGVZcnNleFBKTTBxUGpTM0xsU0FKeUxBRHVZb3hJajY1ZW9sbTY1VmlKV3ViZi1RWF9CWEJhMzJMUHNaU041MWZhaE05UjhrSzBxNHZfU29BMmxzWkxUWGRXLU1qSWR1aE9ma2dhT0E4NFptUU50ZENSVnYtdkFWNU54YWc0dExvb1JQcXlweFdWZXNjdEt5bW4tZzBMSnVoWHctbFdQbUZ4MHZ6aXFwSEJMNGpGdlJLcTNJb1Q4aExpamFWSlB2QWZSOC1LV0NhTzNySVB2RUwyR1FiamR3ZlZLMnVsNWFUZHVzWUUtMS1NNGt3a0tsbG9MZkNuRGxxSFV3NEU1bG5RcGhhOEZzVzdranB1NzA2VGhabjlscjhzMC1WSWhXTGlSNkRhLXJCSUpaR1o3anREZkdSQUt6SDVxazhNQ09pVTFyOVpiRTRxd1RRMXlrV29mR3NNTlVGYnQ3NjdZZlJIaE53aWZNSkJuYkFLZTlZSGVFYURwQjZaZ2Qzb0NVMjlJVEt3TjRWQm9pd1duWXlwbW1KM0sxbGV5RnBkTU92V0YxeVhWRmJpVVlNamZ6WHZiekczS2hUbmVpbTN5YmdlUU8wVXgtVVRjNTlDMm5GOUhUeVdxdy1vUEtYWnd4M1liU1lOTVplcXZVT0FQTjEwNGN0SkR1aGZVdVJjeE1FMnVNcEJxeGxKTnFsSVRwdmNnY0p6eS1kek9rVjJaaTFoRHM3RkgwM3hZZUd0YWhVcktfeXZsYzZnQlpRWDMtenV1eFJZUHhoUUxsMnAwMkYxRU54QXMxYmhpeGNUUGdkbU80ZDRMSzlnQ2tJWjhVMnlISWZhSkhTRkc4dk5zdjEteXVuaEtFN19ORHZTdHk5ak1mOE4tVDVyWG9wZ3JSc1JPM09wVEZ5THRPN1hxeTlNVmJmdHM2Q0QtTlpCZV85VkJCelZvbE5mb2xoUU5ZMUxSOVVYckFMcFJTZE44U2ZVY0s0ekpxemxLUjNJczJNMU5UTWNORVpWV1BieVZHSTBTWUdfLVNoWmhfZTJhX0dSczJsZDlINEd5WHI5RklZbjV3MnBGR2RpV242Q2tKQ0w1VkJmZ1pfY2NEeGFrVDJPZ2VITkMyT21kSGZ0QllXSFlJczc2eGNRdVdpX19iU2lzYjRpVVZkcTI0NXFkOVg4UEVMbXR5aVlrY2VfT1QweUl1TXBHNFlNQUR6OGM1MzFfMmFlamxhV2thRlc3MWRsbElMbG9ZRXlVV0l6ZnBXMktUcHVmNXhlRHVTekI3eFUxaXZlVEVIRWt4SjdFRE10dmVSbFNKYTlsa3gyQXlHT1l2clJmMVUtT2M4WkRUYW5aUUtKV1ZOb2dyaEs0TTZnSHhxdEpiVTA4cG1HZWF3aEE2YVRnUS1hYzNma0dieW1YMjgzamRDRV80ZUdMWTJDcDRBOGxZQlUtUmQxSjc4ZmR1eVIweU5TWmVnQmVZUHB2ZGJCOEF5VUhXYy1Sd0N5S0Z4d3I4UEFVS05zZU5yLV9QVW5XRG80akh1Yk9ncy1QN1NuNVZEMHBvN2hvTUtZV2pNMERDaUhCbmNqVjhKYm5pLTJuQ2VBVGp2TWxVS1lQYXZWYTRYVDVWeWd6Qm9SU0J3Qnk0b0RwSS1n?oc=5",
-      "bucket": "Handel / Lieferketten",
-      "summary": "Die Meldung betrifft Zölle, Sanktionen oder Logistik. Das ist wichtig, weil solche Themen Preise, Margen und Verfügbarkeit von Vorprodukten beeinflussen.",
-      "impact": "Mittel bis hoch, wenn die Störung mehrere Branchen oder Länder betrifft.",
-      "probability": "Mittel, weil politische Schlagzeilen oft erst bestätigt werden müssen.",
-      "horizon": "Sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders empfindlich reagieren Industrie, Transport, Rohstoffe, Inflationspreise und konjunktursensitive Aktien.",
-      "assets": [
-        "Industrieaktien",
-        "Rohstoffe",
-        "Inflation",
-        "Transport"
-      ]
-    },
-    {
-      "title": "5 Things to Know Before the Stock Market Opens on Tuesday",
-      "source": "Investopedia",
-      "publishedAt": "2026-10-20T12:28:03+00:00",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOGFSMkhZRXF6QnhIbjFabFJFRVlDZnh3YkZYWVJEZkJUNHYxQzBnNm05VHQ1Z3JrZzN2QTM1M1E5V3RrR0pheEJrV25xYTg5VzhwYmYyVk0xQ0liVTcwOE1mcVpIN1lKUW4zWktxMlFFOEVPeW9tSTVVQk1nVDZIMFRPQUdaczNvX0QtRTFBNW9LcWJUNWU2bFk3Zi1iQTVIcmFOdW5Wc25fYUIxS1I4Yg?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Dow Gains 529 Points on 3M Data Center Deal, Earnings Beat: Stock Market Today",
+      "source": "Kiplinger",
+      "publishedAt": "2026-10-20T20:12:09+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUFFuc05xX2pvSjd1ZUV1REN0YW0yeUFkQ2NlY001T1QyNlBBNGN2SXNweENYLWxLb0hHN1FwNmliV1I1dWRYNjc0TDc0M3l3NlJkeXdPeE9RZnBiRTRnMy1LamFwVkxiVnVFR1FxNHIxanFlbjJSeTY0QkFMTjVoWU42UzVPQ05fYUN3d1RvQk9xZERFc29CcmtIc1hOZzNoaHV3Zm9veUI?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
         "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     }
   ]
