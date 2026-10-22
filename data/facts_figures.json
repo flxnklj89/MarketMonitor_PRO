@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T13:37:02.278049+00:00",
+  "generatedAt": "2026-10-22T13:38:57.192184+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -20,16 +20,16 @@
     },
     "vix": {
       "title": "Relativ ruhig",
-      "value": 18.4,
+      "value": 16.7,
       "unit": "",
       "tone": "l",
-      "status": "VIX bei 18.4. Unter dem langfristigen Durchschnitt von ~17–20."
+      "status": "VIX bei 16.7. Unter dem langfristigen Durchschnitt von ~17–20."
     },
     "breadth": {
-      "title": "59 % über 200T-Ø (Proxy)",
-      "value": 59,
+      "title": "63 % über 200T-Ø (Proxy)",
+      "value": 63,
       "unit": "%",
-      "tone": "m",
+      "tone": "l",
       "status": "Näherungswert abgeleitet aus VIX-Niveau. Direktdaten nicht via FRED verfügbar."
     }
   },
@@ -43,10 +43,10 @@
   "technicalTriggers": [
     {
       "label": "50T vs. 200T",
-      "value": 6.7,
+      "value": 6.6,
       "unit": "%",
-      "tone": "m",
-      "status": "50T liegt bei +6.7 % gegenüber dem 200T. Schlusskurs 26425, 50T 26622, 200T 24951. NASDAQ Composite (Fallback) unter 50T (26622), aber noch über 200T (24951).",
+      "tone": "l",
+      "status": "50T liegt bei +6.6 % gegenüber dem 200T. Schlusskurs 26703, 50T 26628, 200T 24968. NASDAQ Composite (Fallback) über 50T (26628) und 200T (24968). Trendstruktur intakt.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -56,10 +56,10 @@
     },
     {
       "label": "RSI (14)",
-      "value": 43.2,
+      "value": 48.6,
       "unit": "",
       "tone": "m",
-      "status": "RSI (14) bei 43.2. Kein Extremniveau in beide Richtungen.",
+      "status": "RSI (14) bei 48.6. Kein Extremniveau in beide Richtungen.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -69,10 +69,10 @@
     },
     {
       "label": "Drawdown vom Hoch",
-      "value": -4.3,
+      "value": -3.3,
       "unit": "%",
       "tone": "l",
-      "status": "-4.3 % vom Hoch. Kaum struktureller Druck.",
+      "status": "-3.3 % vom Hoch. Kaum struktureller Druck.",
       "history": []
     }
   ],
@@ -475,7 +475,7 @@
           "value": 3.63
         },
         {
-          "value": 3.63
+          "value": 3.88
         },
         {
           "value": 3.88
@@ -668,7 +668,7 @@
     "title": "Crash Probability",
     "score": 18,
     "scoreLabel": "18 %",
-    "reason": "Stress 47/100, Rezessionsrisiko 0.6 %, VIX 18.4.",
+    "reason": "Stress 47/100, Rezessionsrisiko 0.6 %, VIX 16.7.",
     "interpretation": "Crash-Risiko derzeit begrenzt."
   },
   "timingQuality": {
@@ -702,12 +702,6 @@
   "charts": {
     "chartLabel": "NASDAQ Composite",
     "qqq": [
-      {
-        "date": "2025-08-12",
-        "close": 21681.9,
-        "ma50": 20405.67,
-        "ma200": 19109.78
-      },
       {
         "date": "2025-08-13",
         "close": 21713.14,
@@ -2501,13 +2495,15 @@
         "close": 26424.82,
         "ma50": 26622.41,
         "ma200": 24951.29
+      },
+      {
+        "date": "2026-10-21",
+        "close": 26702.86,
+        "ma50": 26627.56,
+        "ma200": 24967.83
       }
     ],
     "rsi": [
-      {
-        "date": "2025-08-12",
-        "value": 70.1
-      },
       {
         "date": "2025-08-13",
         "value": 70.6
@@ -3703,17 +3699,13 @@
       {
         "date": "2026-10-20",
         "value": 43.2
+      },
+      {
+        "date": "2026-10-21",
+        "value": 48.6
       }
     ],
     "vix": [
-      {
-        "date": "2025-08-21",
-        "value": 16.6
-      },
-      {
-        "date": "2025-08-22",
-        "value": 14.22
-      },
       {
         "date": "2025-08-25",
         "value": 14.79
@@ -4905,25 +4897,17 @@
       {
         "date": "2026-10-19",
         "value": 18.44
+      },
+      {
+        "date": "2026-10-20",
+        "value": 17.31
+      },
+      {
+        "date": "2026-10-21",
+        "value": 16.68
       }
     ],
     "brent": [
-      {
-        "date": "2025-08-08",
-        "value": 67.17
-      },
-      {
-        "date": "2025-08-11",
-        "value": 67.36
-      },
-      {
-        "date": "2025-08-12",
-        "value": 66.8
-      },
-      {
-        "date": "2025-08-13",
-        "value": 66.25
-      },
       {
         "date": "2025-08-14",
         "value": 68.12
@@ -6107,32 +6091,118 @@
       {
         "date": "2026-10-14",
         "value": 126.55
+      },
+      {
+        "date": "2026-10-15",
+        "value": 126.35
+      },
+      {
+        "date": "2026-10-16",
+        "value": 119.33
+      },
+      {
+        "date": "2026-10-19",
+        "value": 118.82
+      },
+      {
+        "date": "2026-10-20",
+        "value": 115.22
       }
     ]
   },
   "news": [
     {
-      "title": "Stocks Rise Pre-Bell as Traders Await Meta, Tesla Earnings",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-10-21T11:12:52+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRzlIUG1OZUZGSG94UFU3czN6V1JraVJTT051bmZuX0hqSWtMTmZvWmxWV1lIaXphYmNQdjN3XzluU2Y2RGpRdnpRZkxQaE5ybHdsZXRmTV9MNVRqT0FXaDY4dlJuUGw0S0VmbzZSQjRhUkpOaFFsRHdFMW9Ea29WdmZ0UkJha1NWUUdvcXRucXVnanJaVk9IZQ?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "China's stock market sinks into bear territory as CSI 300 extends 10-week rout",
+      "source": "CNBC",
+      "publishedAt": "2026-10-22T03:30:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWmt2MnVkcmdCNXBPMzNIaHJwWlFIV2J2SU5pNk52MENwNi10dW56Q2duNHZBc181R1BQeXBQNlQwSzY0V2RSWlR1U3k4OFdRMDJyR25tTEVveUVCNWl4d08tVXhZY3BKTmFVNXA2V3BNMGpjSmxUZ09SOGtFc29MS1Fn0gGHAUFVX3lxTE9JbzZ4T01zVW93dG8xM0Q1TUtoU1hCYWVULTVQX285THphbnRNYWdvVVp5Wml4VDBGSlBHUFdEZFlHOU1TSWZFR1ZXUFVJVl9xbDRGeTBjUUkzY21fTVp4ZXpTSW9rdDBNNUZlY2QzMll0VGtyM1lVYnNFM0JoVFlhZ3NvX3pjRQ?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
       "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
       ]
     },
     {
-      "title": "US Stocks Edge Higher as SpaceX Soothes AI Worries: Markets Wrap",
+      "title": "China Stocks Set for Bear Market as AI Trade, Policy Hopes Fade",
       "source": "Bloomberg.com",
-      "publishedAt": "2026-10-20T22:05:51+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRDhCbnUwbzFqRTZQb2ZQWmtIWGtBam9ENEc4ak5nNEktMm16NlA0TXJQalJpb1I0X1BDVG9rbVh1d0k1TGU0ZjRabE1IVVNCTmhRM19QQlYtdk9JYkVaQ0xRNXJXSldPenRydmpsczhmX3V6elA2Tmo4MWJrTXphQ0wyNnlDRVM2eGUzeF94MlZBN1NN?oc=5",
+      "publishedAt": "2026-10-22T09:37:13+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMkp5bjg3WHRYdlFYTFc2b1VRRmVpd09Oa0Y1SkxUR2xnUTFyTXAyMG9zcUFnN2pIbU1WQVJBdmVqNG0xZDk1UWM0N1M3djhNaWVwbXVBamhRS3dMMWtPRlhQbGFXWk9BTXVXcnppTVB6ZWl3eTRzM3BqclJ0MlE3MEJVSXhWTUlnYm1aVGVGa01kcmljSXFBX1NTWC1Hd1k5X3hwcGtyRjdtblFhVG9RdmlmVQ?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
+      "title": "China's Stock Market Crashes 20%: 3 Reasons Why The Dragon Is Losing Its Fire",
+      "source": "NDTV",
+      "publishedAt": "2026-10-22T08:19:06+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPczRyQ2FCR3VXakdKSnd1VlpWcFlrS293TTBrZnNwc0I4RHNMOGY3elVkNVprbG5oMlI1VUJieTlmakFYN3pqS3cwcDN5WXlhc0U3QkdwU3hBbVNCeE5uYk56WGtyenYtODFqZkNvNzlKNW1hcWxJaTNtdzlJTjJOTlVfc3p2c0VuRmxzOGtSc2dUcE0xWmM5NlcybF9oY2hEdEE4bDNCcGlxTGxoREhtaUxB0gG6AUFVX3lxTFB2ZUg0ZkIzaWJfXzlNQl9LREVHS3pZVVJZcjFGUGVycU02VGlWRW52LVhrcnp3RFU4dEs2WlpkeHpjdHRuQVQzY3NvM2VXSEJYVlVucWZSQU9Ydy1rQjBSUG9PRS0tUU90VGFkcldUbk5uLU8yaXRLZVRmd3haR042OXJ2SWdINDJqOV9FRGs0UHlGa0g5OGFiekxldEc5VERXZFg2N1I1dEltRDZoc2FPVjVFYXI2MjlxZw?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
+      "title": "Global stocks tumble as oil prices rise",
+      "source": "Financial Times",
+      "publishedAt": "2026-10-22T06:36:23+00:00",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcjc2Qnc1OUdYaTRkWFNLc1N4MGhZUEk0QWg5UXdkaDdyMF9qcjV2WUFPaW1JeU5oT3VZaTdPdHBpQUYxTy1fb3ctS3NUaWRuS0F3VlJaME9ZVXp2cFJIVEtIaXZUN01PaS1fRi0wQUtaN0VnMzdxMEh0cldyTHRFSVY2czE?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Market Braces for Even Higher Oil Prices: 8 Key Items Shaping the Stock Market Thursday",
+      "source": "TheStreet Pro",
+      "publishedAt": "2026-10-22T13:22:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdFJxS1hodldQQlBzNGhkQjMxMFRtQVQ4STJsZGV2Uk81QTFQM1hKYV96eXNjM1lTdHBHV2RUZHp0TkUxRWoxQjVEdlUyV3psZmltRDdDMzNucmJMakFTVnBvUU9tRWZuNFlJMm9TVTNuQ19YeE1SV0VLTllla083MnlUV05mNWRPMW9GU1ppUE5GOEZkdG1jUjdUbV93Q1FYLWlWTDJYQnpxUHJjMkt6M0kxeHA5cWdvcXFMTU1pMA?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Hong Kong stocks fall most in 7 months as chance of strong stimulus shrinks",
+      "source": "South China Morning Post",
+      "publishedAt": "2026-10-22T03:16:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSjd4bzZJdTNZb3FyaENKbERoTjl4X1pkbWJha2dyZWpnYmdYNDIwTUZTYTcycWlMeTBTcXVIbHZud3paZnF2LTdoS0tHRHVRblN6N0tLTGtFZWV4UGEtamVTNXlHN1V1cTByZlExdHRRNnZkOV9UTmlZUlV2TUhYcndhdU1KeWVOVlp5Q01CMlRDcFhMb29fLXFPQTBKZThHcUwtT3luTWMySjhsZGFVX1VfcnJkbGFNaDQzVGQtNWFvUm5xVVBXM25GWDRld9IBzgFBVV95cUxQdlZRVWNGLVZZdGFZUURFdktjTlZNY1ZieVNIS0VDSU5FSDYyOFE1d1B4dVZjbUh1OC1QT2ZjbUMteFhid1gxeTc5QXpiajFsYkU5ZlFFNjdnQmRON3N5Q3JEOERrODJNNHo4b1dmOFc3bmRXTWo2NDlZdUMzd0tfemlwWldBSW5EUnpoYnY2U2FySm1GZE9NNjZqUXR1ZTlfWUZNMldPMlJxQW8xNHE3d1JuNE8yRE9NVXhTT2plVzRSX005eFN4SzlEU0tsUQ?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -6143,75 +6213,6 @@
         "Aktien",
         "Anleihen",
         "Währungen"
-      ]
-    },
-    {
-      "title": "ZEW Survey Shows a Sharp Reduction in Inflation Concerns",
-      "source": "Haver Analytics",
-      "publishedAt": "2026-10-20T23:47:35+00:00",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPM292eE9yUW5yT2U4MTMwRGtsRzVCVk1mNGIyc1g2cnVZOWxfTkUwRVpuSDFzMG04UTBmUXJEdXhzX1piOG1IcHQ4eno2MlhNbGNobFQyTkRNcDZWbDZSaU02Ri1kSWpwaTFKUUhPdGdYSXY3U3E3OUdrMkN3dm5CcTRyRzVYMnN5YXMzX2xTYVo?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "Most US stocks rise following strong profit reports from Equifax, Hasbro and other big companies",
-      "source": "AP News",
-      "publishedAt": "2026-10-20T20:50:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTUxwUkw1R0I4c0hwa0lfVGdUQ3ZoMlVlZzZBa1RBTU9hMEZtSTFQY3d3NzVYRlFiN1hubTFWX3JXVnZBbnUxSmFsM05CZ1lyVVVOamlWOXlxUzdaMTcxdFBzY3gzZVdmNjZaTXNPNWtBeTNvMTVETWtwcGxaaE5CQWFUOS0tM1NpS2FkT1pocUlYWGZkX2wyd0d3OTg?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "US futures mostly higher as Wall Street digests earnings from SpaceX, Netflix",
-      "source": "Orlando Sentinel",
-      "publishedAt": "2026-10-21T12:31:38+00:00",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBpNk9rTEs1VnJ0eGdQX2lWUkUyN0dmZTJxNE9uQ0RIYWVzbTd5RDhXZG40eWNuNEZNb0dob3lGMDRhY1RzQkVrQ1d4NVFmbDJpdWdZRGJWMkozRi1rcWhBOHR3Tm1rY05ReVlWLXVPVmZYNVpocU1KbjdERlg?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Oppenheimer Lists Top Industrial Efficiency Stocks Into Q3 Earnings",
-      "source": "Investing.com",
-      "publishedAt": "2026-10-21T13:26:02+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUkFYRzNBb2xtTWdHX0UxTkFJN2dvei1uUUY2LWw1cks5Unl6aGZadnh2ZDhWbXdsSG01ZElwVDVFN2ZIdjlXNXh3R0lLb2NBSjRfYUN4blFEOEowbHBPUWhxaTRYUzVKc0RscjEzQWdiaTBwc282eHg4aVBULVM4SGJIVHN5RWVGTW9hakJIdzd3cFhYNUkwNEx3bHl3ZXJJZHBjVlR6TV80eTBJbEdqaGUtRzg0d1h5eU1xcE8yenNLZw?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
       ]
     }
   ]
