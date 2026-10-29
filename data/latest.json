@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-29T15:04:57.957825+00:00",
+  "fetchedAt": "2026-10-29T20:57:50.790037+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -96,7 +96,7 @@
       "confidence": "low"
     },
     "tradeStress": {
-      "value": 46,
+      "value": 50,
       "label": "Erhöht",
       "date": "2026-10-28",
       "cadence": "daily",
@@ -105,7 +105,7 @@
         "vix": 16.91,
         "brent": 123.1,
         "eurusd": 1.1199,
-        "us10y": 4.99
+        "us10y": 5.05
       },
       "uiLabel": "Marktstress",
       "shortText": "Verdichteter Stressmesser aus Markt- und Preisvariablen.",
@@ -248,9 +248,9 @@
     {
       "label": "US 10Y",
       "icon": "📉",
-      "val": 4.99,
-      "chg": -0.01,
-      "chgPct": -0.2,
+      "val": 5.05,
+      "chg": 0.06,
+      "chgPct": 1.2,
       "unit": "%",
       "dec": 2
     },
@@ -20610,11 +20610,81 @@
       },
       {
         "date": "2026-10-28",
-        "value": 46
+        "value": 50
       }
     ]
   },
   "news": [
+    {
+      "title": "Nasdaq 100 Falls 1.5% as AI Trade Shows New Cracks: Markets Wrap",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-10-29T20:12:43+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQd1B6V3JFX19tOWhyZHVKZzFGZ1k0aXcyNERXb0JrMFNjQVpEaFZMeVMxU1FUVnJpWmFrM3JQbjJ5cXRsU0NBekRsOUM2WEQ2Zlh3MWluWUU2c0poWTk1ZDBGMC13SUtxX1lVdjEtQW1PbWdXRE95ZFJqZ2JmZEwxeW5VbVVORWlzMlJTVHdnZ2NkaWR3?oc=5",
+      "bucket": "Handel / Lieferketten",
+      "summary": "Die Meldung betrifft Zölle, Sanktionen oder Logistik. Das ist wichtig, weil solche Themen Preise, Margen und Verfügbarkeit von Vorprodukten beeinflussen.",
+      "impact": "Mittel bis hoch, wenn die Störung mehrere Branchen oder Länder betrifft.",
+      "probability": "Mittel, weil politische Schlagzeilen oft erst bestätigt werden müssen.",
+      "horizon": "Sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders empfindlich reagieren Industrie, Transport, Rohstoffe, Inflationspreise und konjunktursensitive Aktien.",
+      "assets": [
+        "Industrieaktien",
+        "Rohstoffe",
+        "Inflation",
+        "Transport"
+      ]
+    },
+    {
+      "title": "A potentially historic drop for Alphabet's stock drags the US market lower",
+      "source": "LancasterOnline",
+      "publishedAt": "2026-10-29T14:41:51+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQeWYzd0xHSERQMlZld0ZSX0dEdU5pOEZsMzF4NW1vbWJmY2FBMEJWcmE3ZXdsOTB6V2hrWE9mNm1oRDZyeGM2aTU5djJoWDFzVF9DX3gwVkFHRjlGT18yZWhfZEJyTzh1cWJRa3VSSUxIbkJsUVlHUlB3OGxmdFNra3h0TVVEMWhSMFV5Z0YtYTlJTlBCOGNTZ3FIRWtVYkxyY3VnaVZFZGZ6TmNJV3Y4Yng5MXRSam9PenZOWkV6bmhYOGQ4YkJuNTE1cTh0QWxLVFZOVWk1NktFT3FyUmFIQVl4aVBlMU5vMUhzNDkyZTE1VGd4NlZaa055SmpVUUlnZWVMWVZsSDZaRklyMzhsZlVDQ18ydTQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Stocks Struggling as Inflation, Earnings Weigh",
+      "source": "Schaeffer's Investment Research",
+      "publishedAt": "2026-10-29T16:05:19+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMzhOMW9MSFNDaVJDalNqZEtyd081YXhwalA2VDZxZ01xNmJKN3RkdTJGdkNFNXlZNUFXeHU3djdZTld6N0pCanhkSWdBUTY2MkswbkpFR25RRWlVWG9qLWRUWHBUSWgxSW1FN1pDZTRRZy1jbGoyQUZ0ejBSa2MtMUdnLTRSUUxVN0JkUUFUVUo0RmhNSU91X04wbEpxbHlRV1MtMm9aZUlVUQ?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Quarterly Highlights for the Invesco QQQ ETF",
+      "source": "Invesco",
+      "publishedAt": "2026-10-29T14:41:25+00:00",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5EcUVSNEpyMlNMNlZUWVVuOGRQa0l2Z0dTSGVpWE1uXy1PS051T1E2VGZBbXVGVDRIU19OM3haZUZUMWxpV01GOWdyMlRsckk0QXFydTBkZWxkdEtZaDRjMmxybVY4QTdOR2NVS0U0UXRrTk0?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
     {
       "title": "China’s stock markets are the great global exception",
       "source": "The Economist",
@@ -20633,44 +20703,10 @@
       ]
     },
     {
-      "title": "Tech Rally Stalls as Alphabet, Samsung Disappoint: Markets Wrap",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-10-29T11:59:23+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQd1B6V3JFX19tOWhyZHVKZzFGZ1k0aXcyNERXb0JrMFNjQVpEaFZMeVMxU1FUVnJpWmFrM3JQbjJ5cXRsU0NBekRsOUM2WEQ2Zlh3MWluWUU2c0poWTk1ZDBGMC13SUtxX1lVdjEtQW1PbWdXRE95ZFJqZ2JmZEwxeW5VbVVORWlzMlJTVHdnZ2NkaWR3?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "A potentially historic drop for Alphabet's stock drags the US market lower",
-      "source": "LancasterOnline",
-      "publishedAt": "2026-10-29T13:49:14+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxONW02STBid3NSQmE1NXdsZ0VOdGNRd3V4Y281S21LMjJhc2JnQzFqblFHZVVfUVNPUW5IMVJ1cWRZaEZTcG5zejV4c29CWmY5VWhlNUhSbTJyTVFwUzFjbTlSOUxBaEgxSVFVTjFrSFVqNnpVRjNrc0NZWXFJbkRiTEptVVNZRklOVUMxMmlMNXZ6aTNrM2dIS0hWbTVueS1YTUtpZUJHTXplV3V2LS1PcUxzeVhzYjdzcWZ6N2lFXzMyLTM1Vmt5WGZvRWVFeldTZk5NVnN3VmdhRlMta01ILWxhZ2JOZU9kbV9ZR18tb2djQ0lXVjBXSDhKM3JUenVMaE9Z?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Stock Market Today (Oct. 29, 2026): Nasdaq futures fall on Alphabet earnings miss",
-      "source": "TheStreet",
-      "publishedAt": "2026-10-29T10:46:23+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNV05BYXh3WTVTbHVxZXJ0aTJSZTR2V1ZFdUFibm01UTY1RkRhZnJLaHZ4eS0xaUlWMG9oY2l1NUNqNFlsalNuOXptN3daUUlFUk5mM0xpZldBdUNnVFVPVUZmX1liNUtzVFMyMjVDT3R0YlhyRzZfZ2xyVzdtUEtYajROM2hQcmRFR0NsbkNMMkFlS0dGWWdsMHF1YjhHSWZvNlVDU2tCSDFGUEE?oc=5",
+      "title": "Amazon Shares Fall On Q3 Earnings Miss As Big Tech Market Rout Continues",
+      "source": "Deadline",
+      "publishedAt": "2026-10-29T20:27:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQU1MyUlV4SEhEdldTemFhM0NkaVBZWi1fMm9uS0QwdDNraHBiUjdMLVhKZkFkT3BwZzVMQVZOMW8waWU2THk5QnV5UGxsMDBuclhWTHBqUEdBQmp2WmlYNC1ZQjBqTmhwN1lORXprTzlJMVBSWS0tUjBXSmNnTWtBZGJmY1lsWjRHR0JzSmwwTk9ucDhETFo4TA?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -20681,41 +20717,6 @@
         "Aktien",
         "Sektoren",
         "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "ECB keeps Europe steady as 13% Google plunge fans AI jitters",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-10-29T14:23:12+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWjBPTkdNTS1MdFEwWlB0TjhJbHN6ZEw4VFZjd2FpMmd2YTA5alR0aDhZdzE1Qy03eUZWVU5ScWxEeE9EbmdsNXFka2pZZE0tU21BS2NZd0pIdlpiOWtUbUM5V1Nvak11TlRNZ3dvWXBnOTdPWTdTZU40UExKWHkxdWc3VWU1ZUk2S3owbF9lYjJEbThvSkEwM0pfYWZQYVYxb2c?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "China’s tech darlings are losing their shine. Here’s what’s behind the sell-off",
-      "source": "CNBC",
-      "publishedAt": "2026-10-29T02:14:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBTWVd1YTFDSWZoT2hydUtkZnVnTUt3UmFRNjBJTVVwank4NGRtOUZPRTJxOVpXNWdnY0U4Tk9ZU2xTcWFOVjdFRHdEYS1CTjdZSzdfUHgtUm11MHFqT2dLSzVZNlQ2RGdWdl90b2ViY9IBdEFVX3lxTE9KN0k3M2QtTmxuN2g2dWlScW5BR1ZWSGZTNE11cEoxaXVUNUZSLWg3T2dHT0RPc1p3aFBvQVJQR090NXNzTHo4TXNveWllRllsb2l2OHowenZ0U3hLN2VSMHdrOTFJdFE4dDI1T09GT2FIOXo5?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
       ]
     }
   ],
@@ -20769,7 +20770,7 @@
     {
       "id": "A",
       "title": "Basisszenario: stabile Marktphase",
-      "probability": 47,
+      "probability": 46,
       "summary": "Wachstum bleibt grundsätzlich intakt, während Belastungsfaktoren überschaubar bleiben.",
       "supportedBy": [
         "Rezessionsrisiko wirkt noch nicht dominant",
@@ -20785,7 +20786,7 @@
     {
       "id": "B",
       "title": "Zwischenszenario: erhöhte Vorsicht",
-      "probability": 29,
+      "probability": 30,
       "summary": "Das Umfeld wird anspruchsvoller. Stresssignale nehmen zu, ohne bereits ein klares Eskalationsbild zu erzeugen.",
       "supportedBy": [
         "Marktstress ist sichtbar erhöht",
@@ -20817,13 +20818,13 @@
   "hero": {
     "phase": {
       "label": "Defensivere Haltung sinnvoll",
-      "score": 46.0,
+      "score": 50.0,
       "summary": "Die Belastung ist breiter sichtbar. Einzelne Warnsignale greifen spürbar ineinander.",
       "interpretation": "Der Monitor signalisiert ein zunehmend anspruchsvolles Umfeld.",
       "actionMatrixKey": "defensive"
     },
     "statusLine": {
-      "dataAsOf": "2026-10-29T15:04:57.957825+00:00",
+      "dataAsOf": "2026-10-29T20:57:50.790037+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
