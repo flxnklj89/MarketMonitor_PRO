@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T14:56:56.400860+00:00",
+  "generatedAt": "2026-10-30T20:36:40.470390+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -13,7 +13,7 @@
   "marketStatus": {
     "phase": {
       "title": "Defensivere Haltung sinnvoll",
-      "value": 50.0,
+      "value": 46.0,
       "unit": "",
       "tone": "m",
       "status": "Belastungssignale sind breiter sichtbar."
@@ -668,7 +668,7 @@
     "title": "Crash Probability",
     "score": 18,
     "scoreLabel": "18 %",
-    "reason": "Stress 50/100, Rezessionsrisiko 0.6 %, VIX 17.2.",
+    "reason": "Stress 46/100, Rezessionsrisiko 0.6 %, VIX 17.2.",
     "interpretation": "Crash-Risiko derzeit begrenzt."
   },
   "timingQuality": {
@@ -696,7 +696,7 @@
   },
   "timeVsTiming": {
     "timeInMarket": "Langfristige Anlagepläne profitieren historisch von Korrekturen, wenn sie diszipliniert durchgehalten werden. Wer raus ist, verpasst die meisten Erholungstage.",
-    "marketTiming": "Das aktuelle Umfeld zeigt erhöhte Spannungen. Stress-Score 50/100. Wer neue Positionen aufbaut, profitiert von gestaffeltem Einstieg.",
+    "marketTiming": "Das aktuelle Umfeld zeigt erhöhte Spannungen. Stress-Score 46/100. Wer neue Positionen aufbaut, profitiert von gestaffeltem Einstieg.",
     "summary": "Die Trennung zwischen langfristiger Logik und kurzfristiger Marktlesart bleibt der wichtigste Hebel gegen emotionale Fehlentscheidungen."
   },
   "charts": {
@@ -6112,28 +6112,44 @@
   },
   "news": [
     {
-      "title": "Tech Stock Selloff Deepens on Earnings, Oil Rises: Markets Wrap",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-30T12:36:26+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNLWZRMVRrOG1xQ1NBUE55MXNIWTFyTFBfUDBwVnUwbDRHOHNibGNUazhpRVVJamItaGc5UndhUngwMTFOLUE1M3dscmdtSDBvWUJrNmoyWnFGZ2tBcm9VZjZ5MXcyQXFuSDZmWmE4WVlheXZBeTVTci1CXzFQMUxnMkpFRXBVTjh0SlI0N0hobUZzOHh3?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "Tech sell-off drives US markets down by nearly $1tn after subpar earnings reports",
+      "source": "The Guardian",
+      "publishedAt": "2026-10-30T18:28:46+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNV0lZbXhSZjlKZXRPOHVOUjcxUmctdlM2ZDc4V1FLTG1uNzlJNV9QMnpBYXZPSGt3QXlJSWs3d1hrb3BZWVI0ZEpnekhBX3NSWGxYd1ljdm5EcmdkMldET19ITWJPcC1zQ3lFLVhHT2hPeGU2VmlYYlVFd2FNT0xpNlFxdnNtRzNXamxB?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     },
     {
-      "title": "Amazon, Intel Earnings Drag Down US Equity Futures Pre-Bell",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-10-30T12:08:29+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcVZSRXJGNHF4RV9yOWdsSkpndFZTeWMySGhtbURYX0FfRDhXSG9KYVRBc29fSl9IY2VGQmpFOEJmLTNoUloyQ3hfclQ2bjdwM1pZZ28zZHl5bmlWQ0M5UDVKODVVTnpKOHZwdlVpeEdJcUNjbTBReFdOY1hBT2ZGdFhEUDZfZzBxREZNVF9mdUw0M1dGYjB2NkZWNUc?oc=5",
+      "title": "Tech stocks crushed as Nasdaq tumbles nearly 1,000 points",
+      "source": "CBS News",
+      "publishedAt": "2026-10-30T13:25:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBfRVpGbTZuZHdXLTY3cDdfcWtIaEx1cUxiZTVqU3B5NTV1QU8zOVd2Nl9aVlZWUlpPenlfRThzSm5nMGJBZzJnazVzazBYQzNRcEFkWWFOXzVZbmc3aEVUandqYUJRTnlIV195QjZUbWtqZlRNVmo0?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Tech Stocks Sell Off as Intel, Amazon Earnings Spook Investors",
+      "source": "Morningstar",
+      "publishedAt": "2026-10-30T16:11:41+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNUtOUzlBVExJN1Y3RDZTaWF3ZFVacGt1Wnc4UEJHZnJUZzNLZk1nQ3dzNVNfbS1RZWRUSFFqeF8xM09RRm52dFlwNzMwa2w4VUl4VXc2T212akJ3bDNfNGRxOExVTFlnVFhhWGRhRDduXzRzcTNYTmVxX19LTENXMllIVjhPUktURHV4RG5DSWNYSXlhTHJMMXdB?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -6164,23 +6180,6 @@
       ]
     },
     {
-      "title": "Tech Stocks Sell Off as Amazon and Intel Earnings Spook Investors",
-      "source": "Morningstar",
-      "publishedAt": "2026-10-30T13:08:43+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQazI1ZU9PZUJ4OFVSLWgxcGUwaWwwSGdqWHUwVzB4cTdUcXR2X0s2SWlEb0V4Sk5EV2R3LVJZVkFkLVZKUVpQaUF3X1BsSTdsQXlteHpTVVNQZDRtNUc1akNqS1ZoOGVxeGQ2SnlRbHAtRHRIbGpBZU5aNmRtUHBINFR3NENhT2VSYjZVQkdPYXlQT0VSUW9QbmJsTGJZdEFROGJNZDl3?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
       "title": "China’s stock markets are the great global exception",
       "source": "The Economist",
       "publishedAt": "2026-10-28T19:48:19+00:00",
@@ -6198,10 +6197,10 @@
       ]
     },
     {
-      "title": "Midterm elections, earnings, jobs data loom for AI-wary market",
-      "source": "The Mighty 790 KFGO",
-      "publishedAt": "2026-10-30T10:50:17+00:00",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUVJyZHdTWjk1a2c4R1dKcGhITkN3c0VsOTNFRmdRR21mTGdBQnJXR1gwbTAtemcxRVN5aEhrZk9mOGY0LUx2ekdOZGlPczFLZV9vcDF0UzFXNnJEOG42Q2tUb2FWZ0lkcFFMUmR6VHd3dk8xSl9DMnRCYTZDZmxqeU1YdUY0NjZOOFdjY3NiNm1fMVE?oc=5",
+      "title": "Intel Suffers Worst Stock Thrashing in Decades on Weak Forecast",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-10-30T16:50:48+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaURpSDFJSVlDdjY1d0wtcmQxOVpjYmowVTBSaEZCelVCWGNoVGI2VVR2UWNVcVZDVHVyUjFIMWdvQ0FfQ1dDdkpXWmdKUXRuNG9wVnlJRjNPTzFvcTB1TFV0QjdIVHhUZEZhOHFrdGJfSGNHbF9La09hYVhrempMWm5mTHZWMlJKUElqXzNYbjJKa3ZpZ0dZTE5Kb3JHb212eEtyNUQzNkltOUhnTlVNNWlR?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
