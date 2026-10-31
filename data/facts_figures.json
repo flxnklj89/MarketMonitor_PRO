@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T04:58:12.453484+00:00",
+  "generatedAt": "2026-10-31T14:25:50.415069+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,10 +6112,44 @@
   },
   "news": [
     {
+      "title": "The Giant Asian Market Where Stock Trading Doubled in Three Years",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-31T10:45:01+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPd1QxWC1NYkxrYThrYUZ5VHNkMkJGcDZaWl90WnRfM1ZDTlNxMGdoNGpKOU9odWhLSHc1VGdMVlNfVU1nNEZINDVTM0l1UVpwRFpjSmlQcXpaV2gzalBLYUFYU2xocURwSng4eFUydUU1eUpvNHBFalgzQXlnMUZyRWhqX3lJVHBLSW5MYmk2NXFnUEZDYURQQzZHWXRVSHFVVlpJd1h0cF9taWR0dXFfVnpDa045Q0Y4SUVfVG9uRHk?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "Stock Market Today, Oct. 30: Amazon Misses Revenue and Earnings Expectations",
       "source": "The Motley Fool",
       "publishedAt": "2026-10-30T22:15:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNmhYNjZBOVV2ZW1RcTNRZndKOGdMZ1RZcVBkVTlZcmE2SzdrTkxyUWw0MG9QcDN2UjdTNm52RGxxejFKTUR0Qm40dkFZXy1NckdVS1ZZR0d5bHc4V3BDWFI0RE5MSGhibTRVaDFGQUtHQlRaMXlRdS1RUTM2ckZ5blVaNzdQVkxSM0JiYjBQWF9WM3pXMV9GbUo0T3c1MmZDeGVSQi03cE5ZYkcyUWdHaUVSZU5PRVp0ejBJdEIzX2VkMTRfZkRDNXNZcmo0QjQ?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Investor Focus: Autumn Budget Unwrapped, Central Bank Drama, and UK Earnings Season",
+      "source": "Morningstar",
+      "publishedAt": "2026-10-31T10:30:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQlYyRG5YbTBCZFBzanppdDUxMzg2Z3g2Tk5mYXdub0FWbnAzQVJoM05Ld0dpVVBvT2pPbzJ1bVFVdEJKU0xaSmU3bVZZbFE3bERlc0tMOVRhcnFqSENjdW9pQkljNHBzSnZoMWJTX0ZXb2FqQ1lyblUzTmFqNWtZLVh2TlNIRTRqdFBYakhLbTllS1BrYUpFQ01CZm1IY2pjbi1nZEtHMDJEenpKTHJkYXRnZlJyd194RENwbU1B?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -6146,44 +6180,10 @@
       ]
     },
     {
-      "title": "Tech Stocks Sell Off as Intel, Amazon Earnings Spook Investors",
-      "source": "Morningstar",
-      "publishedAt": "2026-10-30T20:30:59+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNUtOUzlBVExJN1Y3RDZTaWF3ZFVacGt1Wnc4UEJHZnJUZzNLZk1nQ3dzNVNfbS1RZWRUSFFqeF8xM09RRm52dFlwNzMwa2w4VUl4VXc2T212akJ3bDNfNGRxOExVTFlnVFhhWGRhRDduXzRzcTNYTmVxX19LTENXMllIVjhPUktURHV4RG5DSWNYSXlhTHJMMXdB?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Midterm US elections, earnings, jobs data loom for AI-wary stock market",
-      "source": "Central Oregon Daily",
-      "publishedAt": "2026-10-30T21:31:02+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOQnRBeDdCOXpSenhobFVjdUhNdHdmUXBod2lycHFzdmZXeW5kUVZuYzdibWJPQzNWT3gwcEdfQ3pMcUFpSXU2T1FoNFIxWlBvZkNYOFdzX1g2MTBmRUN0am1iV0JfU2x4dFVaOGItcWJVYmNDY29DN0JKN2hQNDdyVkU2bGxZd1ZjVFpiMndBQWhFX3BIemstU0FETTd5RGZSMERCTnJkaVdOMlJ0bmZUNDk2OUFOa0RHdGRmeGJNR3ExQy1fcWRuUUZxQ2x0cm9kSVZkQUZjTzBjc3N3TUk1NGhlUzVDeGxINjZpZGNKM3RQWmVfS0lyZ0lzc2k?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Nasdaq sheds more than 700 points as jittery investors pull back from tech stocks",
-      "source": "CBS News",
-      "publishedAt": "2026-10-30T13:25:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBfRVpGbTZuZHdXLTY3cDdfcWtIaEx1cUxiZTVqU3B5NTV1QU8zOVd2Nl9aVlZWUlpPenlfRThzSm5nMGJBZzJnazVzazBYQzNRcEFkWWFOXzVZbmc3aEVUandqYUJRTnlIV195QjZUbWtqZlRNVmo0?oc=5",
+      "title": "The sell-off for tech stocks deepens and drags Wall Street toward its worst day since June",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "publishedAt": "2026-10-30T20:24:24+00:00",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOblE0Q2ZWOGR2OHQ1RndzcGxzUGN0SGFZUmJKVUJYbng3bHNNeWpnNWFIbDZQRkZuQ3RTNzF2b3pIRVJhejNoRzN6c0s0WUpGT1MteU5IT3RiQ1R3SXlhMUdlNnRTT0F4MnR1ZkxGODhscTB3N3Z2Unl3OFY4alZCTXdpdzBMWUUyZ3hDYUNCZWhIdVJkWnhLdnNfOVo1MlF00gGmAUFVX3lxTFBWNDE0d1pQX3J2cHVrelRZMnYtandfVmpMRVVEYXUwY3dWY0lBa2VtN0lSZEd4SklkakNDY291NmJIQWFKZ2g4am5UZ0d3ZUlwemRDX3NqZG5NdjJfSlBMVktZbk5aN0pCNWd6QTF6UzBMdFVLNTY4Z3pmUUZIQU5JeUU4YTAwN2xmNFVwU3BIcHRuRWM1NFdySDV5aVQ2blc1dmtKVnc?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -6197,20 +6197,20 @@
       ]
     },
     {
-      "title": "Tech sell-off drives US markets down by nearly $1tn after subpar earnings reports",
-      "source": "The Guardian",
-      "publishedAt": "2026-10-30T18:28:46+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNV0lZbXhSZjlKZXRPOHVOUjcxUmctdlM2ZDc4V1FLTG1uNzlJNV9QMnpBYXZPSGt3QXlJSWs3d1hrb3BZWVI0ZEpnekhBX3NSWGxYd1ljdm5EcmdkMldET19ITWJPcC1zQ3lFLVhHT2hPeGU2VmlYYlVFd2FNT0xpNlFxdnNtRzNXamxB?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "China’s stock markets are the great global exception",
+      "source": "The Economist",
+      "publishedAt": "2026-10-28T19:48:19+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUHp6ajdhVDZUMl85TS1mb2FwRThEUTBZOUVmc3dhdUJid1NyaGlHNXI2TDQwcWliOW0zWXFBS0NlM1BIYmpCZlNHeFBlNnBaaGZIWjBpNkt5WU5ndmhvWkxBUzd3SWFpUnFBVkJwemlvUWptT3VVS2IwakFrWVA1dDMyaWgyMWUwbEdqWGM4bndMcWlaeElkZFFqTzRiUG5qUGpibjhRN0RhYnh0ZWFV?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
       "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
       ]
     }
   ]
