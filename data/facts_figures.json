@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T23:14:34.142458+00:00",
+  "generatedAt": "2026-11-01T05:28:11.483964+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,6 +6112,23 @@
   },
   "news": [
     {
+      "title": "Stock market week ahead: Apple and AMD lead 8 big reports",
+      "source": "Opening Bell Daily",
+      "publishedAt": "2026-11-01T04:18:41+00:00",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE41S3gwNERIV0cxWmpuUGh3NnRFTkhmaGpqRldGNVM3eWxGWGpENzRPN2E0MkNIY05IX2NuTUlfbDFiM0lkQjNORDRIVzNfTEVIOXJ0N2ZrOW15dThxR2FkZGoyMXdDOEY3S25UWVN0c05ENU93bGNRb25HdEFldw?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "The Giant Asian Market Where Stock Trading Doubled in Three Years",
       "source": "Bloomberg.com",
       "publishedAt": "2026-10-31T10:45:01+00:00",
@@ -6129,37 +6146,20 @@
       ]
     },
     {
-      "title": "If a Recession Is Coming, History Says Utilities Aren't Safe, Just \"Less Bad.\" Here's the Data.",
+      "title": "After Eli Lilly’s Explosive Earnings Report, Is It Too Late to Buy the Stock?",
       "source": "The Motley Fool",
-      "publishedAt": "2026-10-31T18:34:19+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVlJWYTdaUTFhSkwxWGdvazhqQWlCWjduUzBMbkNkTzllblNOME9UVGlsTXY0eGdRN1hKeURjSUNUTDh2WF95UFE3STZzV1YyY3BraFlYMXNPZV84VTNFT2FxTmNNSE9XX1JLWkU5SWNBZWlTTVNydTJUZjNSTGhSb0htYkcyWUFNekV2bVhMbnpSSlB2?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "publishedAt": "2026-10-31T23:10:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNV0w2T3BjamFpT05pRWdsZDZ1MzBuczBQR0lrTzFhLXpMV05seHZ4akdzd2dvYjF2TXEwSVlodFBGV2t5enN3aW0tTlFvcGxtZWNHZDdIQkZQeVlaTlMwQ2FUb2ZYWnVNcnFDcDllcC1obHp4TFQybHBtVFdrZzVtZHFUYlhGSHFXbjhNc192NlZVUzZtdnFVekRhZUZCWHJMTW43dlUyTnZaWDZPa3ZROEdXRzFBMkZFRFE?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
         "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Stock market week ahead: Apple and AMD lead 8 big reports",
-      "source": "Opening Bell Daily",
-      "publishedAt": "2026-10-31T17:49:06+00:00",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE41S3gwNERIV0cxWmpuUGh3NnRFTkhmaGpqRldGNVM3eWxGWGpENzRPN2E0MkNIY05IX2NuTUlfbDFiM0lkQjNORDRIVzNfTEVIOXJ0N2ZrOW15dThxR2FkZGoyMXdDOEY3S25UWVN0c05ENU93bGNRb25HdEFldw?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     },
     {
@@ -6197,20 +6197,20 @@
       ]
     },
     {
-      "title": "A potentially historic drop for Alphabet's stock drags the US market lower",
-      "source": "LancasterOnline",
-      "publishedAt": "2026-10-29T14:41:51+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQeWYzd0xHSERQMlZld0ZSX0dEdU5pOEZsMzF4NW1vbWJmY2FBMEJWcmE3ZXdsOTB6V2hrWE9mNm1oRDZyeGM2aTU5djJoWDFzVF9DX3gwVkFHRjlGT18yZWhfZEJyTzh1cWJRa3VSSUxIbkJsUVlHUlB3OGxmdFNra3h0TVVEMWhSMFV5Z0YtYTlJTlBCOGNTZ3FIRWtVYkxyY3VnaVZFZGZ6TmNJV3Y4Yng5MXRSam9PenZOWkV6bmhYOGQ4YkJuNTE1cTh0QWxLVFZOVWk1NktFT3FyUmFIQVl4aVBlMU5vMUhzNDkyZTE1VGd4NlZaa055SmpVUUlnZWVMWVZsSDZaRklyMzhsZlVDQ18ydTQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Japan's Nikkei slumps up to 3% as tech stocks tumble on AI worries",
+      "source": "Reuters",
+      "publishedAt": "2026-10-30T02:20:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQU9uNjhpN1dHMHNxdDR0SlBWa1VGV0Q5MkxrVWxKYWk0YWhtd2ZBZFM4dkYwaFNocVBfYmR2czM3VU9aUlV5SVMwRGtOWUJicTV4VFlZODRZRC1IMUw2aFZyYzcxUWpjWFNJbWY0YWFyaHJaRloxM1BWTlZzc1NzRkoyUm45aVNBM1hNODNWbkY4ZmpreWVmMXc4b2FGbkc5NzdWQkwwaWVCYm8?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
       "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
       ]
     }
   ]
