@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T11:45:35.533255+00:00",
+  "generatedAt": "2026-11-03T19:19:25.585529+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -13,21 +13,21 @@
   "marketStatus": {
     "phase": {
       "title": "Defensivere Haltung sinnvoll",
-      "value": 46.0,
+      "value": 53.0,
       "unit": "",
       "tone": "m",
       "status": "Belastungssignale sind breiter sichtbar."
     },
     "vix": {
-      "title": "Relativ ruhig",
-      "value": 19.4,
+      "title": "Erhöhte Nervosität",
+      "value": 21.1,
       "unit": "",
-      "tone": "l",
-      "status": "VIX bei 19.4. Unter dem langfristigen Durchschnitt von ~17–20."
+      "tone": "m",
+      "status": "VIX bei 21.1. Merklich über dem langjährigen Durchschnitt."
     },
     "breadth": {
-      "title": "57 % über 200T-Ø (Proxy)",
-      "value": 57,
+      "title": "53 % über 200T-Ø (Proxy)",
+      "value": 53,
       "unit": "%",
       "tone": "m",
       "status": "Näherungswert abgeleitet aus VIX-Niveau. Direktdaten nicht via FRED verfügbar."
@@ -451,7 +451,7 @@
           "value": 3.63
         },
         {
-          "value": 3.63
+          "value": 3.88
         },
         {
           "value": 3.88
@@ -627,9 +627,9 @@
     }
   ],
   "sentiment": {
-    "marketMood": "Verhalten konstruktiv, aber mit erhöhter Sensitivität gegenüber negativen Datenpunkten.",
+    "marketMood": "Nervöses Bild: Einzelne Stresssignale sichtbar, aber keine vollständige Eskalation.",
     "tags": [
-      "Relativ ruhig"
+      "Erhöhte Nervosität"
     ],
     "risks": [
       "Kein übergreifendes Hochrisikosignal aktiv."
@@ -668,7 +668,7 @@
     "title": "Crash Probability",
     "score": 18,
     "scoreLabel": "18 %",
-    "reason": "Stress 46/100, Rezessionsrisiko 0.4 %, VIX 19.4.",
+    "reason": "Stress 53/100, Rezessionsrisiko 0.4 %, VIX 21.1.",
     "interpretation": "Crash-Risiko derzeit begrenzt."
   },
   "timingQuality": {
@@ -696,7 +696,7 @@
   },
   "timeVsTiming": {
     "timeInMarket": "Langfristige Anlagepläne profitieren historisch von Korrekturen, wenn sie diszipliniert durchgehalten werden. Wer raus ist, verpasst die meisten Erholungstage.",
-    "marketTiming": "Das aktuelle Umfeld zeigt erhöhte Spannungen. Stress-Score 46/100. Wer neue Positionen aufbaut, profitiert von gestaffeltem Einstieg.",
+    "marketTiming": "Das aktuelle Umfeld zeigt erhöhte Spannungen. Stress-Score 53/100. Wer neue Positionen aufbaut, profitiert von gestaffeltem Einstieg.",
     "summary": "Die Trennung zwischen langfristiger Logik und kurzfristiger Marktlesart bleibt der wichtigste Hebel gegen emotionale Fehlentscheidungen."
   },
   "charts": {
@@ -3707,10 +3707,6 @@
     ],
     "vix": [
       {
-        "date": "2025-09-03",
-        "value": 16.35
-      },
-      {
         "date": "2025-09-04",
         "value": 15.3
       },
@@ -4905,6 +4901,10 @@
       {
         "date": "2026-10-30",
         "value": 19.42
+      },
+      {
+        "date": "2026-11-02",
+        "value": 21.15
       }
     ],
     "brent": [
@@ -6113,7 +6113,7 @@
   "news": [
     {
       "title": "China’s Revival of 2024 Stock Rescue Tools Faces Skepticism",
-      "source": "Bloomberg",
+      "source": "Bloomberg.com",
       "publishedAt": "2026-11-03T07:21:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQenZrelR1TmRUa08wT2REcVBvTEpNNWdOTXo0OXowMTRrVVB5a05MRm1Pb2lOSEdQSTlLTVdEUm9JLS1NU1JOSUM3VDNJOXBCUGhSY0p4enJtOTFvR0RobFlHNTFtWl9pTFgtTkhzOU1meEVKZThNcDBwQ1MwUjhWR1dsTTNJOE1SVHFtbTVUT3RxRWc5ODFZVV8tOHZ0MXdJSXlYNG9tMnB0c003WUUzTUVn?oc=5",
       "bucket": "Globales Wachstum",
@@ -6146,10 +6146,10 @@
       ]
     },
     {
-      "title": "Global markets were already fragile. Big AI bets could break them",
-      "source": "Reuters",
-      "publishedAt": "2026-11-03T05:08:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcE4zc2x5OEJZU0pFUTJXWlF6V2c5TmZ2MmFxLW9QcHhMdFpUZ0tsNWtSTXYtUG5pckRUVTZBQnNGZkE4T1FhRHdESDRmejMzc2VOTjI3UGhjUEJiLUM1bUNHZU1qTWtMOEthVnp5QklOMDdkOWdVSk5DR0g1UFZ0ekJ5TTROejhJaXpRd1FTRVMyZlNIbG4zcA?oc=5",
+      "title": "Stock market after midterm elections: 10 things to know",
+      "source": "qz.com",
+      "publishedAt": "2026-11-03T15:34:15+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1nMzZVMEVELS11Szd5a3ZLeS11LXhQbTFsZ01yUWxDbGNEcUpJTHZkQmZwZDZfWXFuQ0txdW5LOFhqWHh4OS16Njlaam45TzV0NHFBS2FqX2w0X1V6QW5UbA?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -6163,10 +6163,27 @@
       ]
     },
     {
-      "title": "China's stock rout prompts new contortions",
-      "source": "Breakingviews",
-      "publishedAt": "2026-11-03T10:30:47+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaWhNNXRKNVNka1hOWjJkYlBCNVVUb0xrRlZkdVpJSmJ6MElpa0hLbUczMlhUeUQ0a2tOQ3JXZ1Z5TlVXWVlfTmpkZTZORFpNQkdEcE5SNW1RVnlvU055QkdWX1VPRnVzZ1NaNUl3cHJ0ajAwTTdJdC1HS09CYXczYkNvby1nbWQ1WHV4QkNxWUMtVE5ycnFjQ1BMYkQyclFRMVB6eGxlZ3o?oc=5",
+      "title": "Shopify’s stock slides after earnings. This is what’s worrying Wall Street.",
+      "source": "MarketWatch",
+      "publishedAt": "2026-11-03T16:31:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYnpsaVNUOHllTG5Gb0U4U0ZsQ0dxckhadVA0ZkhzYjhLRkZfQWh0eEpkNlhQSERQX3dqRXo1ZjBVWDlqclozWFVUaWMxZTIxS2lVLXA4YXlGRGoyVkpvTGtaZDZBZ3hhZUZyVm5HS0ZsSE0zTzZRLWh6WnQ0UUI0WGlqMTNvS3FoVU15VDhUS05UM04yVjlIQXVzR3h4bGkwMHlEbkQxaHVtX1RfNG96VEhaSkE?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "PBOC pledges support for stocks as China’s market slide defies rescue efforts",
+      "source": "South China Morning Post",
+      "publishedAt": "2026-11-03T12:50:16+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPcGZ6QUtnMXVxQ19BUjQ3cUltYkpIcVUzUGdOZjh6Y3dKc1BROVFuZFd3S3U0Ri1Kb05Td3RQV0VkMHJ2ZHYzVGh1UWFYMHdlU1BHdnVPaWcwLV9vclpuWGQ4RDlpNzkya0NubVdrNmR1cDdPYVNRZUswWF9TQV9kc2t4SFdxZDVYeEJYMHgyTHQweVJjVzNnSVNjSzFwc3ZscGNiMlk2RTBJcEhId3B6dEcyQ3ZYeWNGYW5nNk1ZRlJjOVBCR2ZtZkNR?oc=5",
       "bucket": "Globales Wachstum",
       "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
       "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
@@ -6180,37 +6197,20 @@
       ]
     },
     {
-      "title": "NVDA Shares Inch Higher Overnight After 4-Day Rout: Chipmaker Reportedly Tells Cloud Clients To Limit China Exposure",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-11-03T08:55:57+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeThaYzJPQ3BBeXF3WF9WMGZZSFhGdGZWLVpMSzE4NWJzRE5GSnVmcU8zVE5Zc2NyVVZfNFBPbXJsb3g3Wjc1R1lERGdXZmxlU0F3SWt2T0xLZFc1Rk03UE1LYlpyR2FpakowbWdiN19wVy1QQTNZdnp3a21rUVhkU3hQWXZtOTB2TlBoNDNKekVXTGFlUEliWmZPS29Tckk?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "title": "Apple Set to Lose Stock-Market Crown After Earnings -- WSJ",
+      "source": "Moomoo",
+      "publishedAt": "2026-11-03T13:57:16+00:00",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNEdSQ3RhZ0FtdVlvRFY0bnpvdUNKUmZDLWRHaE54ek5rLW9tb1RPVDNnUU4wSUNseEZIZmhvclNvTEYzUlZibEs2TTF3UnZNZW5MbU94N1FyV2VoeEVfaDFaRVdJbXR4MHdHVHpheFhLcWFJb19tSi1UVnVaRVhzcFRSNkpGRzM2Vncxd0V1WXhFaUlpMTB1TUxxT0k0UnZR?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
-      ]
-    },
-    {
-      "title": "China Talks Up Market Openness While Steering Stocks and Yuan",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-03T04:32:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMTVDWmowaVJ1b0JmR2x6VGJKcFpETFB6NXA0cl9DM3cxTGlMb2dwUi1UenJlRUFNcWpXbXRJNEtEdlBVaFlNRlQtZzUyZmVpME53bmM2SXN1V1ZqLWw2V2YzR0JkLWd1V20waFFoTEd3azJfVkVzQ0VQY21USjVDeGk2WGRxczBwUHBDdXVMcTlfMm03SVRvbHNxQ3lkb2RGd2YwWm5Jdl85NDVZZmdzN1BR?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     }
   ]
