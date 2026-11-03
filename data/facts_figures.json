@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T18:03:47.046675+00:00",
+  "generatedAt": "2026-11-03T02:06:12.184812+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,10 +6112,10 @@
   },
   "news": [
     {
-      "title": "China Stocks Rise on Report of Regulator Market Support Meeting",
+      "title": "China’s Revival of 2024 Stock Rescue Tools Faces Skepticism",
       "source": "Bloomberg.com",
-      "publishedAt": "2026-11-02T10:05:20+00:00",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOendaOF9OYUpHU1R3Q25VVXptSDk0dU1FQkJkcXN2Q0ctRjBzdlNIdHNlcmxIMHFKdlZmM25SZ0pTdUlyMXlGaXBvUFBvZlhFV3VxNks1RGtIQ3FmeXBBNEFDekVYdkFtVC1VR2k2Nl93a0owS0dkaHRaWEpqcFhpdlRIM1MwOVBvNmd4dFJtb0JaeXpjX2otZnZlU0ZBRjh5MllKbzZIc2RnSVJlR2dJWDRDOHA?oc=5",
+      "publishedAt": "2026-11-03T01:39:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQenZrelR1TmRUa08wT2REcVBvTEpNNWdOTXo0OXowMTRrVVB5a05MRm1Pb2lOSEdQSTlLTVdEUm9JLS1NU1JOSUM3VDNJOXBCUGhSY0p4enJtOTFvR0RobFlHNTFtWl9pTFgtTkhzOU1meEVKZThNcDBwQ1MwUjhWR1dsTTNJOE1SVHFtbTVUT3RxRWc5ODFZVV8tOHZ0MXdJSXlYNG9tMnB0c003WUUzTUVn?oc=5",
       "bucket": "Globales Wachstum",
       "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
       "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
@@ -6146,10 +6146,27 @@
       ]
     },
     {
-      "title": "China Tries to Put a Floor Under Its Stock Market",
-      "source": "Barron's",
-      "publishedAt": "2026-11-02T15:06:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSlJudjlCeU9PMnJ5MjIzUzN3by1DanJCamsxZFc2UGZRZjVjX19lQm1LYjIzYkhvN2Qtci1kaHVwbF9KT3c3QTFvWHJzTzdmTndNMlFsUXRTTzZWTGhoVUotekNvWFVsTXdPSnZjQjdMbk9IYnlnd0ptTkNhZ1NwRGJuRVlBXzg?oc=5",
+      "title": "Beijing launches barrage of measures to stabilise stock market after sell-off",
+      "source": "South China Morning Post",
+      "publishedAt": "2026-11-02T09:15:28+00:00",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQ1RrbE5DT25fLTlSNEdyTTQ2ZkYyWlVqS2JVWnF3X1JPLU9xOXpNekQ2WHhaSDFxRlkzQ21BUE0xSXFQeU5zRXZBdjJtdUFmMVhXdlM4eEIwbml0U2dCbnlZVE9NSno5VjBhazZXY1F4U1lYR3o0dTlHMThLY0VRTDl3YjRCRU5qZExyajlTSDU5M3o4ZVJMdXppajM2bWhObzdhbW1ldUQwWWdadTBzQk9vcklDQ1kxVTJJd0lB?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "China steps up monetary policy support to bolster stock market",
+      "source": "chinadailyhk",
+      "publishedAt": "2026-11-03T01:56:35+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9yN2Z4RFlWLUpYbVNMUnJpYndySFNGQ2RpVlJGUnZCLWtXYXcyMDQzbGV4NEtDUjlHVmdzRjBPRlVKTXJvRFpDWnM2VFJ1ckY5bkNZRVZnQno?oc=5",
       "bucket": "Globales Wachstum",
       "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
       "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
@@ -6163,45 +6180,27 @@
       ]
     },
     {
-      "title": "Stock Market Today (Nov. 2, 2026): Dow rises ahead of Apple’s earnings report",
-      "source": "Yahoo Finance Singapore",
-      "publishedAt": "2026-11-02T14:44:46+00:00",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5TYi14eGp0bW1zcUZ1OFFjUVlFWlAxWExfSEgxcjNBemVwaWE3TnJSOS12QzMwbkJSb2hFZGtSVXpNc2xYSlVVQjNKTG55eXJxTWVXZlU4VXJUZTFpZVNac2tLUHg2QnVKMWlOU0c1Q0diNTJrc3VvWjFXRUZvUQ?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "The stock market has gone nowhere for the past 5 months. It’s now looking like a bargain.",
+      "source": "MarketWatch",
+      "publishedAt": "2026-11-02T21:29:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcXAyQ1pQUXI5M0F4Y3FWNFpLaWVKbkpDWXVYeFFkUWdhcHpIaFh5TVJmeVNvNThvQl84YTJ3RU1DNzJIMXl0SkNneXhjUThmSHUzMGd6U0dCR2ZhSlk3SVFsT2R5dl83VEVpS1RRMk4wbU1IOHNfRk5BRVlmTldIcEpWYWRoX3FiZURIbmtjVzR6N0RjQWFHdDVQU2dXOEJUWjd5VnAtWTV3WUs0UGFabTZhUkZ3M0VGaS13b1ExbG5hMXYyb3BSLQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
-      "title": "Oil Drops While Other Inflation Pressures Look to Accelerate: 8 Key Items Shaping the Stock Market Monday",
-      "source": "RealMoney Pro",
-      "publishedAt": "2026-11-02T13:39:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVmNJMTFzQkxvOFFuelJlN3lSWWh6TTBYWk1oT3UxR1dYdWlpZEIzTTBYYmM3cFNPUE5KZU5tamplcHl4bEJPcU5YVnAtcDV4SDZRWUJvaHl0SHN3cTltS213bl9yTlJsN1lKUVpZTVVpT0dvcDFncHlJdERfOUFHZjRJcGt4TGMzVThqMEpkU3M1cVZOQXBLTzB0M0dsdkpRQUdGX2x5WExuTWUwU1VtUFhUVmdZa04yMjdfYmNRQWVCcFgzejRqb2hLWW1LaEE2ZWhrcTg4QQ?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Beijing launches barrage of measures to stabilise stock market after sell-off",
-      "source": "South China Morning Post",
-      "publishedAt": "2026-11-02T09:15:28+00:00",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQ1RrbE5DT25fLTlSNEdyTTQ2ZkYyWlVqS2JVWnF3X1JPLU9xOXpNekQ2WHhaSDFxRlkzQ21BUE0xSXFQeU5zRXZBdjJtdUFmMVhXdlM4eEIwbml0U2dCbnlZVE9NSno5VjBhazZXY1F4U1lYR3o0dTlHMThLY0VRTDl3YjRCRU5qZExyajlTSDU5M3o4ZVJMdXppajM2bWhObzdhbW1ldUQwWWdadTBzQk9vcklDQ1kxVTJJd0lB?oc=5",
+      "title": "3 Stocks to Sell and 3 Stocks to Buy for November",
+      "source": "Morningstar",
+      "publishedAt": "2026-11-02T20:21:37+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPLUI0SVVSVm1xZlF6MmRmZnF6dGpiMUo3R3BBc1dqRUg0bFR5SnIyUlhTSER5MXdrTFd4ajVHV0Z0cXEtRnIyUWJUcml0UGNISklDTGtoaWwxdk5jTnlqU1BQN1RhcU55UW9wNzNIQ3d2TW1UZkxZU1h6WDJXTHlGdXRrMWRMRUpZejBBTlhBLWV0N0k1dDVQLQ?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
