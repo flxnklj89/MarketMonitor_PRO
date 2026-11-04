@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-04T00:30:01.800475+00:00",
+  "fetchedAt": "2026-11-04T11:57:18.421056+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -20625,44 +20625,10 @@
       ]
     },
     {
-      "title": "China’s Revival of 2024 Stock Rescue Tools Faces Skepticism",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-11-03T07:21:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQenZrelR1TmRUa08wT2REcVBvTEpNNWdOTXo0OXowMTRrVVB5a05MRm1Pb2lOSEdQSTlLTVdEUm9JLS1NU1JOSUM3VDNJOXBCUGhSY0p4enJtOTFvR0RobFlHNTFtWl9pTFgtTkhzOU1meEVKZThNcDBwQ1MwUjhWR1dsTTNJOE1SVHFtbTVUT3RxRWc5ODFZVV8tOHZ0MXdJSXlYNG9tMnB0c003WUUzTUVn?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
-      ]
-    },
-    {
-      "title": "Shopify’s stock slides after earnings. This is what’s worrying Wall Street.",
-      "source": "MarketWatch",
-      "publishedAt": "2026-11-03T22:45:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYnpsaVNUOHllTG5Gb0U4U0ZsQ0dxckhadVA0ZkhzYjhLRkZfQWh0eEpkNlhQSERQX3dqRXo1ZjBVWDlqclozWFVUaWMxZTIxS2lVLXA4YXlGRGoyVkpvTGtaZDZBZ3hhZUZyVm5HS0ZsSE0zTzZRLWh6WnQ0UUI0WGlqMTNvS3FoVU15VDhUS05UM04yVjlIQXVzR3h4bGkwMHlEbkQxaHVtX1RfNG96VEhaSkE?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Stock market after midterm elections: 10 things to know",
-      "source": "qz.com",
-      "publishedAt": "2026-11-03T15:34:15+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1nMzZVMEVELS11Szd5a3ZLeS11LXhQbTFsZ01yUWxDbGNEcUpJTHZkQmZwZDZfWXFuQ0txdW5LOFhqWHh4OS16Njlaam45TzV0NHFBS2FqX2w0X1V6QW5UbA?oc=5",
+      "title": "How the Stock Market Is Reacting to the Midterm Elections",
+      "source": "The New York Times",
+      "publishedAt": "2026-11-04T09:45:31+00:00",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQ0ktb3JQam9saVhrUDhjbXZWTDVQaV9tVGFyX0VWdnh1Y3lTd3BDYlBlTFN3WS1tN0szdm4zb184WkZEcnhDZWVaS3h1RHp3azFaUEFfTWNtSjY4UXhXTG5ESjBvRmRHTzluZks0VlBrS1RzR1ZuNVJSa0s3eFNVU3J2WmZpQQ?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20676,28 +20642,61 @@
       ]
     },
     {
-      "title": "Stock Market Today: Dow Futures Plunge 323 Points, Apple Sinks, and Iran Strikes Send Oil Soaring",
-      "source": "24/7 Wall St.",
-      "publishedAt": "2026-11-03T14:17:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxObWh3bllKRDFaQU4tbnRhVFpNUGVKUjB0WjEwTTh0cnNfbnFYdjZYWDFKRXI3dHhIWGVDQVNxSkoxemg4NGxYM0hvbl9DZVpialRXLXcwRXd4NmVnOXlIQk51Z1lNRjJ5dTh1OTd4WVZpZ21neXdXNmlIYTBKNFZmS1VlUGhZU05RbGJxNlpIMkZ4dEQ5cmNNR3YzTjRVbTdRNXNMV1ROdjlycTI2cl9VRXp4bkp4b0Q0ZTVTdkhyZlpaOHU1LTFFMVJuVWdyYnVheVA5UQ?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "China Boosts Market Defense With National Team Buying, Buybacks",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-11-04T08:29:57+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQUtvb3lwUzJuQjFxNlFVeExIN0tHeUhtVjdldlV5aUUzc3R5R1A0QzFjTzBYdmh2RzF1VGZ2cVJrRnM0ZUpNM0hnNFgtLXBBSnFucm9SakY3LVhkMHBLb0R3dUFwZ2o3d1Q5empFNHVMbmNDNzBlQzIyNGJlY2dZTm9PcUVPcGdMdjdQUjdFNWFwbXZBVHN1Z0xzYjd5V2NLbndUWXd2MHY4Y0JXRHJyaUh2TQ?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
       ]
     },
     {
-      "title": "Is Palantir Stock a Buy After its Latest Earnings Report?",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-11-03T22:30:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORXJMeEtvSDZkU2ZnWTktSlJjRnVJd0dKRHBKNnlpeVoyWUFEclE4ZFJWbG5SYWY3WE1lR2xvTDNmeFdYU1RXV2RJNWxKZUxaRVVPNzBVdlN2bjVlblY5M0xzNGU3RmlxZnBwc0xLU0Z1eG9oR3hwamxTSmhjcEY1bi1NMHZpWERkcE5hYTRaMGtFUDZCcWJaVDI2c3hzaWRo?oc=5",
+      "title": "Third-Quarter Earnings Are Going Well—Unless You’re Big Tech",
+      "source": "Morningstar",
+      "publishedAt": "2026-11-04T11:03:45+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdnFscXFIdXlJbVlHbUgwREZ0OWY3c0MwQjBrZ0RIUF9HaVJnVUdiNFdhMFczNnhqbkFjNWYwTVd6QjEwZ0hxRE5ZaG5qMGp2VEVTZWFySkpNd1hhRkV0RGRhMGZ3Wi0tQ3A5OG0ybVlqNzNkN19DRGtfV09obU9xRVVDbXZhMzF3bTBHbHhXNXM4TEMxT3ZKSA?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Chinese investors stay on sidelines despite Beijing’s latest rescue push",
+      "source": "South China Morning Post",
+      "publishedAt": "2026-11-04T04:27:37+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOXzNnR3M1T24zT0h6eHItMGhxYTNYeTJZMjlyQnJCcllHUXpTQ0phSTFWOVpaYUVpUkVRbG5xQzFMQ2tnaklVNkZ3aWpEVW5WYVdvTTBQdFVqblc0Vk90MjVDZTltWklNTDFSRjUwb2RUbHlWWEd3RWZuRnlzTUZjTUo5OWJ5UF9ydlR2TFkxNVVha3loRmxXWkp5QVRoT291UDAtZnpZNWEwS0tQcGRIZ21WbG9QaXpoUDVueGltSTNURDlMNFlCRmxleURzTHpvalE?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "AMD stock jumps 8% on earnings as data center revenue nearly doubles",
+      "source": "CNBC",
+      "publishedAt": "2026-11-03T21:17:55+00:00",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBfVXVMaFFzOXpSSmhDS2xlZWZLZDk0V2w5MHpTSnZ3d2c5bkMzRDhwbzhURWpMMVcwX3ZiME8ybmU4UHR1ekdtVlUwRTYxcTI0T1dadVhheUQ0LVVpWnRqYjdmeDkxMGJKQXBkNUtpaEVKZVlXNEhYRdIBfkFVX3lxTFAwT0pLTUtFX3FhLU4tWFFuU3JjMXF4NWxpWFNVZEoxeTdqMVc2d201ZHRMdXV4cEg4VGNnd0RDRmhKbnNYZndMa1hhMzZ3Y0lUdk82SUprYVVibVZQT19vR05WaGZKZlBzcDFLZWNzczZkb0pDN180UTZ5MTRuUQ?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -20815,7 +20814,7 @@
       "actionMatrixKey": "defensive"
     },
     "statusLine": {
-      "dataAsOf": "2026-11-04T00:30:01.800475+00:00",
+      "dataAsOf": "2026-11-04T11:57:18.421056+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
