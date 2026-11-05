@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-05T12:01:13.140945+00:00",
+  "fetchedAt": "2026-11-05T21:51:10.191246+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -28,7 +28,7 @@
     },
     "fedRate": {
       "value": 3.88,
-      "date": "2026-11-03",
+      "date": "2026-11-04",
       "cadence": "daily",
       "series": "EFFR",
       "displayName": "Effective Federal Funds Rate",
@@ -66,10 +66,10 @@
       }
     },
     "sp500": {
-      "ytd": 10.36,
+      "ytd": 12.1,
       "first": 6858.47,
-      "latest": 7568.92,
-      "date": "2026-11-03",
+      "latest": 7688.62,
+      "date": "2026-11-04",
       "cadence": "daily",
       "series": "SP500",
       "uiLabel": "S&P 500 seit Jahresbeginn",
@@ -96,16 +96,16 @@
       "confidence": "low"
     },
     "tradeStress": {
-      "value": 47,
+      "value": 40,
       "label": "Erhöht",
-      "date": "2026-11-03",
+      "date": "2026-11-04",
       "cadence": "daily",
       "method": "proxy",
       "components": {
-        "vix": 20.83,
+        "vix": 16.61,
         "brent": 107.03,
         "eurusd": 1.1163,
-        "us10y": 4.95
+        "us10y": 4.9
       },
       "uiLabel": "Marktstress",
       "shortText": "Verdichteter Stressmesser aus Markt- und Preisvariablen.",
@@ -127,7 +127,7 @@
       "name": "Europa",
       "score": 41.0,
       "label": "Beobachten",
-      "date": "2026-11-04",
+      "date": "2026-11-05",
       "summary": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "driverText": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "inflation": {
@@ -140,7 +140,7 @@
       "growthOrRate": {
         "label": "ECB Einlagezins",
         "value": 2.5,
-        "date": "2026-11-04",
+        "date": "2026-11-05",
         "unit": "%",
         "cadence": "daily",
         "series": "ECBDFR"
@@ -221,18 +221,18 @@
     {
       "label": "SPX",
       "icon": "📊",
-      "val": 7568.92,
-      "chg": 27.52,
-      "chgPct": 0.36,
+      "val": 7688.62,
+      "chg": 119.7,
+      "chgPct": 1.58,
       "unit": "",
       "dec": 2
     },
     {
       "label": "VIX",
       "icon": "⚡",
-      "val": 20.83,
-      "chg": -0.32,
-      "chgPct": -1.51,
+      "val": 16.61,
+      "chg": -4.22,
+      "chgPct": -20.26,
       "unit": "",
       "dec": 2
     },
@@ -248,9 +248,9 @@
     {
       "label": "US 10Y",
       "icon": "📉",
-      "val": 4.95,
-      "chg": 0.04,
-      "chgPct": 0.81,
+      "val": 4.9,
+      "chg": -0.05,
+      "chgPct": -1.01,
       "unit": "%",
       "dec": 2
     },
@@ -6938,6 +6938,10 @@
       },
       {
         "date": "2026-11-03",
+        "value": 3.88
+      },
+      {
+        "date": "2026-11-04",
         "value": 3.88
       }
     ],
@@ -13675,6 +13679,10 @@
       {
         "date": "2026-11-03",
         "value": 7568.92
+      },
+      {
+        "date": "2026-11-04",
+        "value": 7688.62
       }
     ],
     "sentiment": [
@@ -20603,15 +20611,19 @@
       {
         "date": "2026-11-03",
         "value": 47
+      },
+      {
+        "date": "2026-11-04",
+        "value": 40
       }
     ]
   },
   "news": [
     {
-      "title": "Stock Rotation Rolls On as Chipmakers Retreat: Markets Wrap",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-11-05T11:35:17+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaHBnOEludEdwalhTMXRiLWFQbk9RRVVIVGYzY3cwZUk4TmxLY1hnZExZQTZBTExfR2l2TmpJNXUwRWUwc21Jd0EzZklqc2hCbnRta19OU1lQV2NTdjhuNUZxaGQwaHlBZG51eG44WXFxNTNuX1FRYVluOGdaTFptSWRFY3J1ZTdMTlFzY3VmYVhkbDJH?oc=5",
+      "title": "Chip selloff drags global stocks lower on AI spending concerns",
+      "source": "Reuters",
+      "publishedAt": "2026-11-05T02:35:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUG9ENFo3M0RHNWI0VEdfTlZhWmpjVGR0UjViV3dBQllRVkNha0YzU1FhX2lDaWVUT1U1Ym5DbWRlOFpJZ3JPU3AwZ1Nia3NNWjdKc3Jvd0VXU3otQU83ZjFlQmZwbHcyZmJKZFk4dVJWaXhWQnV6MTF6TUpmaDcxNmdhbFFNaU1N?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20625,57 +20637,20 @@
       ]
     },
     {
-      "title": "AI stocks, oil fall as investors bet on change after US election 'blue wave'",
-      "source": "Reuters",
-      "publishedAt": "2026-11-05T02:35:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUG9ENFo3M0RHNWI0VEdfTlZhWmpjVGR0UjViV3dBQllRVkNha0YzU1FhX2lDaWVUT1U1Ym5DbWRlOFpJZ3JPU3AwZ1Nia3NNWjdKc3Jvd0VXU3otQU83ZjFlQmZwbHcyZmJKZFk4dVJWaXhWQnV6MTF6TUpmaDcxNmdhbFFNaU1N?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "China’s Renewed Stock Market Support",
+      "source": "KraneShares",
+      "publishedAt": "2026-11-05T16:00:41+00:00",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1oSTBmVk9xbVktd1VhNHY1T2cwaHM3dTRoU3VmaXBxVTYtX0V4T1RDRDlsUlRkNDQxUzJ2b3B3bWw4RTBweEl0OVJIV1VWX1hya0w4el9tVTlFOUZTU3c0Rm9ld0x6cnVyQzFfRA?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Financial advisor links stock market jump to election results, drop in oil prices",
-      "source": "KOLD",
-      "publishedAt": "2026-11-05T02:03:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxON196VHpvRHRURlF0S3ZyYmdQczFWZGd1dkF4b2NsYkFqdm9kVEtBV3MtS0RDeDd3WWlKOHNJTE5fU3VpbmdUcGFtRnpOUDd0R212VWw1NkN5S3Jpd3BYMDBNVHI0anJ3azlHaXdwTHRtV1NzaVpGeHhFQUdjRDRJaXpMaU1VNE9MeW56STZSYUd2VzY0Zm1obkFrdkE1cDNFLU5ERDhpNXFJVHPSAb8BQVVfeXFMT291ZWVEQU90MXZmNDEwV0VlU2VLdEhaTm9LVkxJM0RoenFOWktqQkhUV1hqemktX3ctLTZLMk1kNkVZWXF4RVk1Q29hRzkzN2J2Y2tFeUdMc3RqRG5Sb2ZjdDJMUWFRRmozUzRLUlZFa25lOWI3TUpfV2E3THZFaE1qM1c1d1VMUWJBbDFlczNvalhDYmFqd3ZDVFpqWGw5SW9yOTNteUJvY1NmQUpsSlJIeEluNVdfWmhlRWstLVE?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "The Federal Reserve's Initial November Inflation Forecast Has Arrived, and Things Are Getting Downright Ugly for Wall Street",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-11-05T09:26:01+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVFVfQVktUmNubUdnTm5YYWNwa2s4ZzRLSWxpYnZDRDJIaklIQmdFUnNnX2tOQ2plOXlXeG9BcTVpQkw5dXJrdEQ5VEJWMy0wT0h1dF9HTkdmcUdOY1RsbEd5b19waDdacG13RnRWTmtNYk9pdWFOOGZTWGhmUzJ0Y1RVWUlucE5od2xRcDB0dWFBeVN0dV9ucHlrMmh4Y1ZwV3RwUy04RHBpdmda?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
       ]
     },
     {
@@ -20696,10 +20671,28 @@
       ]
     },
     {
-      "title": "Novo Nordisk: What We Think of the Stock After Earnings",
-      "source": "Morningstar",
-      "publishedAt": "2026-11-05T09:14:33+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYlJ4TUpucHZlcE1VNDJHeDJTT3dIYjlzLVRMOEliYXdwbEZsX0ptdnpLam5faHM0WjZRTXhzdnhKdlRzdEdVdG5DT2dtejFYak9yZjRxc3daSzZDNERQR0xhTlJiU0FrUTNrMXVQRmFhRldkZE9ubk01OVdwV2FOODhsZzdBQzMwRDhFUHBOek40QTB5dTlMRg?oc=5",
+      "title": "The Federal Reserve's Initial November Inflation Forecast Has Arrived, and Things Are Getting Downright Ugly for Wall Street",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-11-05T09:06:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNERhRGl3WEg0VVdfNTJiRG5fS0RJRmVWOS1zVm4yYWJFb3RlaFlqSW5LN2xfV0cwdVZkbGI2d2gxcWJGV1JKdTZkY2hxTTJDOFhpZVZvRGM2Q3hFSEpCR2hvRFZudG1vMlNrMDVpUDF0Y0FqMms0R0hCeFFpNjltQ1ctRXBDTnJ6NFVjXzU0dEhyZ203bjA4ZUlvWDNTODRRVWRFT0NWdzhwRGR1NlljNnhRQUkwNDVsQXMtcUM5dHgwMFVMLXlLNlZ2b2dmVm05elJIeA?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Is IREN stock setup strong enough to trigger a post earnings rally?",
+      "source": "Investing.com",
+      "publishedAt": "2026-11-05T15:34:05+00:00",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQc3N5MzZrcktsbmZwbmRHNDhVWEdDYi1SOGcxVnJTZnZHZUlJbVA5NG84ZWs1YzVHekpXSzBvOHpPT1dGQVdjcTNVanA3b3JLTlBlRXRndUdSM3NTcXp0NElVYTI5aUJ0SUNtU1NLNVNUZGJ0VGl3ZmNXUGlYZWFXZ1U1WnhjUGtRRWU3dWk4MTdyRXBlZWkyMHhtZktxWGVuUlB6a2xJMDFwbXM2ZHFHMWYzMWtocHlGUXJIY0dNdnpIWXFVQmFF?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -20710,6 +20703,23 @@
         "Aktien",
         "Sektoren",
         "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Is this ‘the big one’ for the stock market? Wall Street sounds off as tech plunges.",
+      "source": "MarketWatch",
+      "publishedAt": "2026-11-05T21:37:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTlF2dlIwUlh6aW5SSWhrdV9aNFpoZDJTcFhLZHA0NTBZVU5hQUg5b2FyR2VPQUdoWTJzS2p0ZFRacjVldEMtQk9lREFHMlA2M0Q3WGwtOGpqT1VraHpqVEYyQVBwQVNHeF9ZZDJRcmVrSkhoN2pvTUhhMXBDcHRPME5BYjFtLTJHZUZ1RGNpODUwaklHTzhLd1pJd0hha0FBUTRSV3ZJYjE3S1VteEtMZnNRaFMtbklISjF3RW5Bbw?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     }
   ],
@@ -20763,7 +20773,7 @@
     {
       "id": "A",
       "title": "Basisszenario: stabile Marktphase",
-      "probability": 47,
+      "probability": 50,
       "summary": "Wachstum bleibt grundsätzlich intakt, während Belastungsfaktoren überschaubar bleiben.",
       "supportedBy": [
         "Rezessionsrisiko wirkt noch nicht dominant",
@@ -20779,7 +20789,7 @@
     {
       "id": "B",
       "title": "Zwischenszenario: erhöhte Vorsicht",
-      "probability": 30,
+      "probability": 29,
       "summary": "Das Umfeld wird anspruchsvoller. Stresssignale nehmen zu, ohne bereits ein klares Eskalationsbild zu erzeugen.",
       "supportedBy": [
         "Marktstress ist sichtbar erhöht",
@@ -20795,29 +20805,27 @@
     {
       "id": "C",
       "title": "Stressszenario: defensivere Marktphase",
-      "probability": 23,
+      "probability": 21,
       "summary": "Mehrere belastende Signale greifen gleichzeitig ineinander und erhöhen die Wahrscheinlichkeit einer klaren Risk-off-Phase.",
-      "supportedBy": [
-        "Stressindikatoren senden ein klareres Warnsignal"
-      ],
+      "supportedBy": [],
       "probabilityChange": {
-        "direction": "up",
-        "label": "steigt",
-        "reason": "Die Wahrscheinlichkeit steigt, weil Stress, Konjunkturrisiko und Marktverhalten gleichzeitig schlechter werden."
+        "direction": "stable",
+        "label": "stabil",
+        "reason": "Die Wahrscheinlichkeit bleibt stabil, weil die Belastung zwar sichtbar ist, aber nicht klar weiter eskaliert."
       },
       "investorMeaning": "Für Anleger wäre dieses Bild ein Hinweis auf erhöhte emotionale Disziplin und vorsichtigere Interpretation von Risiken."
     }
   ],
   "hero": {
     "phase": {
-      "label": "Defensivere Haltung sinnvoll",
-      "score": 47.0,
-      "summary": "Die Belastung ist breiter sichtbar. Einzelne Warnsignale greifen spürbar ineinander.",
-      "interpretation": "Der Monitor signalisiert ein zunehmend anspruchsvolles Umfeld.",
-      "actionMatrixKey": "defensive"
+      "label": "Erhöhte Vorsicht",
+      "score": 40.0,
+      "summary": "Das Gesamtbild bleibt geordnet, zeigt aber mehr Spannungen als in einer ruhigen Normalphase.",
+      "interpretation": "Der Fokus verschiebt sich von Routine hin zu erhöhter Aufmerksamkeit.",
+      "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-11-05T12:01:13.140945+00:00",
+      "dataAsOf": "2026-11-05T21:51:10.191246+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
