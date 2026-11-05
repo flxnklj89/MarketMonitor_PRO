@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T19:40:06.700120+00:00",
+  "generatedAt": "2026-11-05T00:48:30.032486+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6146,10 +6146,10 @@
       ]
     },
     {
-      "title": "Stocks Rise as Democrats Flip Control of Congress",
-      "source": "The New York Times",
-      "publishedAt": "2026-11-04T18:22:48+00:00",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQ0ktb3JQam9saVhrUDhjbXZWTDVQaV9tVGFyX0VWdnh1Y3lTd3BDYlBlTFN3WS1tN0szdm4zb184WkZEcnhDZWVaS3h1RHp3azFaUEFfTWNtSjY4UXhXTG5ESjBvRmRHTzluZks0VlBrS1RzR1ZuNVJSa0s3eFNVU3J2WmZpQQ?oc=5",
+      "title": "Stock Market Today, Nov. 4: Dow Surges 3% in Biggest Post-Midterm Rally in 44 Years",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-11-04T22:10:01+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZmpTTnRER1ZfU01zcWNFU2xFVjVMRjNUWHpmQ1FhbU5mc1JRc01JbnRBbW1uYmc2WmVNRDFMUTVmaHFES3VVMmpqcEVYYUd4Xzh0VEJ4UXRxMmZsZ3hCZFpOdnlBSXdaMVVqMTc0RWd6TUg1RUJVNGNVeWZBdTRDZzd3aHEtUzJxdkRVcVZfbVNPeE0?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -6163,37 +6163,39 @@
       ]
     },
     {
-      "title": "China steps up defence of stock market in bid to revive AI boom",
-      "source": "Financial Times",
-      "publishedAt": "2026-11-04T13:14:01+00:00",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMlNsXzl0WENfdF9YOGdmb1BtbW9yRm9QQ3NOVWRXQmNVTjEwcHFscXRHS2ZOYmVCSHdKeDk4cWJ4OHprVFNNQlNKaGFJTEl0bEpHMVFHdGtua3ktVFlBV0JpSmRJajVwVEhaSUtieVltTDYzVG1uZGo3ZG1UWUhIZkFXRHA?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "title": "Stocks surged and oil prices fell as markets responded to the midterm rout",
+      "source": "The Washington Post",
+      "publishedAt": "2026-11-04T23:12:08+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUnRkLUd3SEJnVkQzeHdYM1E1VUVfcGhHblh1bVp1dTIyTEprN3FQMFZ2b0dFUkVGMzliWmMzUU1VZDVISlNIRG9CMmxuNG1xS2ZjdnF6V2FNcUc1V1B6SG1ZU1B5QUFBQThBY0tPbjBKXzRoSHhNX2hDOGJpQlJ4YjZXWW1FSkVYZUxpcm95aklvSFBiLWxYMk1xYW9vM2kybG5FbmFfVjBfNDdLYXF5NW5R?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
-      "title": "Stock Market Today: Dow Eyes 2% Jump as AMD Earnings Ease AI Spending Fears",
+      "title": "Joe Terranova Says \"Inflation Lost\" on Election Night. What That Means for Energy Stocks",
       "source": "24/7 Wall St.",
-      "publishedAt": "2026-11-04T14:20:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORzEtM2c1ODNtNlVwVDRrR19qWDlPTUFXa1paa1ZJMVhFMGEyVk1ReUpYV2pPUVN2YjM0MWx5X2NiaDkwUExmN1RxZHV5cVJSd2k3Vm9ha1h5eEh2LTlzNUZPVW0wNXRsSnhpWHExekJaWEpjR3NPcDA0ZDIxU05UQjZWVmxQel9CUkxydFBOZTFsd2tKVl9yeTUtWXh1SmZ4WUltMWlGVlh3MS1jM0dHbm40LWVWSlpq?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "publishedAt": "2026-11-04T22:07:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNV2ptclpqTW9EWkszTk90QU85Nzd2blE5U3UxYWxaR0dLZFNGbDZtalZxS2t2d0tfeTlBd25tMDVWZ1ltb1pxeEF3MUtmY05uelBxSlQyOV83OUs1OXFHRGxDQ0I5XzhWbE01XzliWG5sS0xhNG1iVHhodS1hSFBnZnNZcFdsc2RjQ2xvLUF1ZWc2QzlKREd4bDd5bElWaHRlSzl3T2dPaW5qVWczUUk4QTBITmtYVUF1bTNNQjZEcWJXb09mZzZRQQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
