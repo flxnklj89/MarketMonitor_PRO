@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T21:51:18.203853+00:00",
+  "generatedAt": "2026-11-06T05:57:58.518593+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -43,10 +43,10 @@
   "technicalTriggers": [
     {
       "label": "50T vs. 200T",
-      "value": 5.8,
+      "value": 5.6,
       "unit": "%",
-      "tone": "m",
-      "status": "50T liegt bei +5.8 % gegenüber dem 200T. Schlusskurs 25737, 50T 26533, 200T 25087. NASDAQ Composite (Fallback) unter 50T (26533), aber noch über 200T (25087).",
+      "tone": "h",
+      "status": "50T liegt bei +5.6 % gegenüber dem 200T. Schlusskurs 24315, 50T 26497, 200T 25093. NASDAQ Composite (Fallback) unter 200T-Durchschnitt (25093). Längerfristiger Trendbruch.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -56,10 +56,10 @@
     },
     {
       "label": "RSI (14)",
-      "value": 42.2,
+      "value": 30.1,
       "unit": "",
-      "tone": "m",
-      "status": "RSI (14) bei 42.2. Kein Extremniveau in beide Richtungen.",
+      "tone": "l",
+      "status": "RSI (14) bei 30.1. Überverkauftes Niveau – Gegenbewegung möglich.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -69,10 +69,10 @@
     },
     {
       "label": "Drawdown vom Hoch",
-      "value": -6.8,
+      "value": -11.9,
       "unit": "%",
-      "tone": "m",
-      "status": "-6.8 % vom Hoch. Normales Korrekturterritory.",
+      "tone": "h",
+      "status": "-11.9 % vom Hoch. Spürbare Korrektur.",
       "history": []
     }
   ],
@@ -659,10 +659,10 @@
   ],
   "marketBottomProbability": {
     "title": "Market Bottom Probability",
-    "score": 30,
-    "scoreLabel": "30 %",
+    "score": 40,
+    "scoreLabel": "40 %",
     "reason": "Rezessionsrisiko begrenzt; Sahm Rule unter Warnschwelle",
-    "interpretation": "Noch keine klare Bodenbildungskonstellation erkennbar."
+    "interpretation": "Signalkonstellation weist auf mögliche Erholungsphase hin."
   },
   "crashProbability": {
     "title": "Crash Probability",
@@ -674,9 +674,9 @@
   "timingQuality": {
     "title": "Timing-Qualität",
     "score": 0,
-    "scoreLabel": "Zu früh 16 % · Optimal 8 % · Zu spät 76 %",
-    "reason": "Bottom-Signal 30 %, Crash-Risiko 8 %.",
-    "interpretation": "Kein klares Timing-Fenster erkennbar."
+    "scoreLabel": "Zu früh 22 % · Optimal 11 % · Zu spät 67 %",
+    "reason": "Bottom-Signal 40 %, Crash-Risiko 8 %.",
+    "interpretation": "Leichtes Timing-Signal – noch nicht breit bestätigt."
   },
   "updateTriggers": {
     "positive": [
@@ -702,12 +702,6 @@
   "charts": {
     "chartLabel": "NASDAQ Composite",
     "qqq": [
-      {
-        "date": "2025-08-27",
-        "close": 21590.14,
-        "ma50": 20840.1,
-        "ma200": 19276.32
-      },
       {
         "date": "2025-08-28",
         "close": 21705.16,
@@ -2501,13 +2495,15 @@
         "close": 25736.51,
         "ma50": 26533.36,
         "ma200": 25087.12
+      },
+      {
+        "date": "2026-11-05",
+        "close": 24315.0,
+        "ma50": 26497.06,
+        "ma200": 25092.57
       }
     ],
     "rsi": [
-      {
-        "date": "2025-08-27",
-        "value": 60.8
-      },
       {
         "date": "2025-08-28",
         "value": 63.3
@@ -3703,6 +3699,10 @@
       {
         "date": "2026-11-04",
         "value": 42.2
+      },
+      {
+        "date": "2026-11-05",
+        "value": 30.1
       }
     ],
     "vix": [
@@ -6112,10 +6112,27 @@
   },
   "news": [
     {
-      "title": "Chip selloff drags global stocks lower on AI spending concerns",
+      "title": "Japan’s Nikkei Breaks Below Key 60,000 Level on AI Selloff",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-11-06T03:02:14+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVW5hQzNwU0VSZVBHUnhVeTZ3RjVZUk1Xd0JsUnN2aG5FVlY3UkZ0emEtT0p5dkVYUXlmUmpOYXZ5YkRpdGhfdGJ0MjVNdmVYYUx4S3JPQ0tIUU1WUjlmdUNFVTdBVXMzT0R5ekY4TlRCdDFKZkpXS2lvYXozZ0lKeEZMMnVoU0dMTEZkN1VqLUhLYWtLeGJNeDJmZkl3ZFQxVm04MllrMW5UbENIMkE?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
+      "title": "Trading Day: A November 5 market bonfire",
       "source": "Reuters",
-      "publishedAt": "2026-11-05T02:35:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUG9ENFo3M0RHNWI0VEdfTlZhWmpjVGR0UjViV3dBQllRVkNha0YzU1FhX2lDaWVUT1U1Ym5DbWRlOFpJZ3JPU3AwZ1Nia3NNWjdKc3Jvd0VXU3otQU83ZjFlQmZwbHcyZmJKZFk4dVJWaXhWQnV6MTF6TUpmaDcxNmdhbFFNaU1N?oc=5",
+      "publishedAt": "2026-11-05T22:13:07+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNd2taRTJROWFDVVJsMWtWOTA4WUZfVTRscFJ2SS1fMzl6VGdONlktdmY2WC1EY3JVaURYZmlVelZMS1YtbmRsLW93XzJ6V0lEOGFiZVA1ZUdGdEtNYlhpdjZobVQ0OURENWRjM2tha29SU0lORmpWNXlIQlhoT0RQc3ZsRWRaLWxOdXBqM0tLZUlFOXYzYldzZTJncldHbDAxMGpaS21R?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -6146,62 +6163,10 @@
       ]
     },
     {
-      "title": "China’s AI stock-market struggles are a warning",
-      "source": "The Economist",
-      "publishedAt": "2026-11-03T20:48:59+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUk5SYzV2RVRZQkdoM0syTWN4M010ZjVBWXJrVjBWdkNoNGE1ajd4Q2Y0eTdEMkJhbC1JVnNzdkJJSkNkSHhTbDNoNmw4Z1pZQk5EbGxkNUxJbTBQOTRJRGRrUzlKcTRGTWZxVVZxM2Rmb3FCVnJFQ2oyUTQ5UzhrODR4V29jM2toZFIyYVRXTVpRTVI1QXNBYk96a00weFk3T3NGZkQ3cXo?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
-      ]
-    },
-    {
-      "title": "The Federal Reserve's Initial November Inflation Forecast Has Arrived, and Things Are Getting Downright Ugly for Wall Street",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-11-05T09:06:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNERhRGl3WEg0VVdfNTJiRG5fS0RJRmVWOS1zVm4yYWJFb3RlaFlqSW5LN2xfV0cwdVZkbGI2d2gxcWJGV1JKdTZkY2hxTTJDOFhpZVZvRGM2Q3hFSEpCR2hvRFZudG1vMlNrMDVpUDF0Y0FqMms0R0hCeFFpNjltQ1ctRXBDTnJ6NFVjXzU0dEhyZ203bjA4ZUlvWDNTODRRVWRFT0NWdzhwRGR1NlljNnhRQUkwNDVsQXMtcUM5dHgwMFVMLXlLNlZ2b2dmVm05elJIeA?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "Is IREN stock setup strong enough to trigger a post earnings rally?",
-      "source": "Investing.com",
-      "publishedAt": "2026-11-05T15:34:05+00:00",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQc3N5MzZrcktsbmZwbmRHNDhVWEdDYi1SOGcxVnJTZnZHZUlJbVA5NG84ZWs1YzVHekpXSzBvOHpPT1dGQVdjcTNVanA3b3JLTlBlRXRndUdSM3NTcXp0NElVYTI5aUJ0SUNtU1NLNVNUZGJ0VGl3ZmNXUGlYZWFXZ1U1WnhjUGtRRWU3dWk4MTdyRXBlZWkyMHhtZktxWGVuUlB6a2xJMDFwbXM2ZHFHMWYzMWtocHlGUXJIY0dNdnpIWXFVQmFF?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Is this ‘the big one’ for the stock market? Wall Street sounds off as tech plunges.",
-      "source": "MarketWatch",
-      "publishedAt": "2026-11-05T21:37:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTlF2dlIwUlh6aW5SSWhrdV9aNFpoZDJTcFhLZHA0NTBZVU5hQUg5b2FyR2VPQUdoWTJzS2p0ZFRacjVldEMtQk9lREFHMlA2M0Q3WGwtOGpqT1VraHpqVEYyQVBwQVNHeF9ZZDJRcmVrSkhoN2pvTUhhMXBDcHRPME5BYjFtLTJHZUZ1RGNpODUwaklHTzhLd1pJd0hha0FBUTRSV3ZJYjE3S1VteEtMZnNRaFMtbklISjF3RW5Bbw?oc=5",
+      "title": "Stock Market Today: Nasdaq Slammed By Big Tech Sell-Off; Nvidia Hits Bear Territory",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-11-05T21:34:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbWxmSXZZZ3ZDSUdqS21kaTIzNmhjeW5qSjVSSFdHOE5kdW1uaFVMbXBSTFN4czlYOWFGSmx2UjZ0ZVpLbmZ5LUtUU3NkZWpQX04zOXZWZ2E3SG4tdVowenp6ZUhMTTZNZUhfS3VCQ2xiUmU5cWRfbTZyOU9DbWRIdVJBOVBSZV9CN0ZwS1dKVGtaQzhFamVmZDBBWXNOcEFaVXlnUlI0RlZYMG9ObWd4dUp3?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -6212,6 +6177,40 @@
         "Aktien",
         "Anleihen",
         "Währungen"
+      ]
+    },
+    {
+      "title": "Are Investors Expecting Too Much from the Stock Market?",
+      "source": "Morningstar",
+      "publishedAt": "2026-11-05T11:14:27+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTTVqbUgyWFNLOGRlc1VnRjh5d0diSVpqS1dSUE4zZTkwUFRQQjFWT29RZzVOU2txMWFhZzYyc2dudjBzVTRNS3BDZEpNd3FWMkV4dVowRFU1OHN1TGZVX2hmWXk1WkV3Y184aklpaUM3bTZMblEtZFlrMDVwR0dxN2VNY3I3YTRB?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Tech stocks lead declines in Hong Kong, mainland China on US$2.3tr plunge in US",
+      "source": "South China Morning Post",
+      "publishedAt": "2026-11-06T01:59:06+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPbHJBbEI4d0hrMENKUWlYYmRpYkFtNjI5a2V0ZFVMY2VLTng1SkxqeWFjdFBrbEFpVjV2MGJBRXAtRjJKYWVpSUFwTEZzcjRINUI4ek5ReW83YThBQldibGNZdzFBNUJwU3ZjZ3RxRzY2Snk5S19qbFBoejBZTmxqaG1PZWFBZHhyVUV0N1k4dkdnMkNZd2FXYm8teWxRYW9fMmNVWXZ0RzVyY1V5MlBqaHdCYkRFV1lHYjdITll6QXpqN1FIQlBXVXZfQlhJZmVOVXc?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
       ]
     }
   ]
