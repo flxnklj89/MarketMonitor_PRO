@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T14:54:42.879819+00:00",
+  "generatedAt": "2026-11-08T20:18:40.177204+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6130,6 +6130,24 @@
       ]
     },
     {
+      "title": "The Week Ahead: CPI and Tech Earnings Test a Fragile Stock Market",
+      "source": "FXEmpire",
+      "publishedAt": "2026-11-08T20:01:38+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQa0RlU0FZTXB3blFUZGozNmdUdUxFUG5iRmZncjF5TUVHTndqU0UtdkM0dkQtcHBKSUFTdE81cURMUEVJdUdKRUxodktmZlJDUVIyaVQzdEFXTzZnLW1rMXlMYTBWUUZneEhCUUR2QlZWX0JXdlNRVUtTRWJMTVY1a1pDSWNaTVdhQzVITVdoOG5RNnhTY3RONjFzREs2TksyZUltdGktRThZdzVRX2pITG80VkFkQQ?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
       "title": "Stock market week ahead: Cisco leads 9 big earnings reports",
       "source": "Opening Bell Daily",
       "publishedAt": "2026-11-08T12:56:52+00:00",
@@ -6147,28 +6165,10 @@
       ]
     },
     {
-      "title": "The Week Ahead: CPI and Tech Earnings Test a Fragile Stock Market",
-      "source": "FXEmpire",
-      "publishedAt": "2026-11-08T14:04:17+00:00",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQa0RlU0FZTXB3blFUZGozNmdUdUxFUG5iRmZncjF5TUVHTndqU0UtdkM0dkQtcHBKSUFTdE81cURMUEVJdUdKRUxodktmZlJDUVIyaVQzdEFXTzZnLW1rMXlMYTBWUUZneEhCUUR2QlZWX0JXdlNRVUtTRWJMTVY1a1pDSWNaTVdhQzVITVdoOG5RNnhTY3RONjFzREs2TksyZUltdGktRThZdzVRX2pITG80VkFkQQ?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "US MARKETS CALL: S&P 500 Valuation Dives As Earnings Soar",
-      "source": "Yardeni QuickTakes",
-      "publishedAt": "2026-11-08T05:03:38+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPME5WNUlORDdUS1ZYX0o3Wm04VHkzVEJsZDFJZ18tV2lvZm9sdlZRR3BMMjZsR2JqTjlfRnlXY2x0YXgyeUJUYkpYOFdPNDJ0MkNBWm9vMGhBTGNoTUR2Zm5OVnkzNlBycktVZjNXTzk2MjBEZlFPOHhLSlBORFUwczcxR1VGMEpVS2tXdElxWXptNk02M1E?oc=5",
+      "title": "Nvidia Stock Loses Key Support, Enters Bear Market as Earnings Loom",
+      "source": "Benzinga",
+      "publishedAt": "2026-11-08T17:45:05+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQek1PQXZzR2VoMExaNmRkc0p6WTZCaXJBOTl5SUlzcnotZVBLTnRHdFdoZjhwdC14a3owc0lNeGlLeElma1N3dHhQdWk2SlF5Z1d1djNpQUlBRWozSC1vWnltd2dRaFZISThLRU4xVDFTTHFYLWJzcW1FczRwcnNSb0J3VUdqaGRXdlhzeDNyRGpueXJ6VUVKcFNwd3VsZDRCd0VoV1ZKU1ZEc085amppYUFOcWRIbWdHREJiVk0yZUI?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -6183,7 +6183,7 @@
     },
     {
       "title": "US Stock Rout Pauses as Dip Buyers Offer Support: Markets Wrap",
-      "source": "Bloomberg",
+      "source": "Bloomberg.com",
       "publishedAt": "2026-11-05T22:17:59+00:00",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOX2RxUlFvNmxoUFFUd2pmeUk3MTJoSkNvTkxwOS1TUlNFd1hDZkNZZ0huMHIxQXhDeWtpWVdVcmJGcDQwdVcwMFJTaHg2Q040OTBCZm5Ja2doTnpQcTh1OFFSdDNucHFXVzFRR2EyTEJfa3BRWDFUY19lcFNNXzRmR2F2UEw4dlVOUW1xSnFqNmI1Wmtr?oc=5",
       "bucket": "Marktkontext",
@@ -6199,21 +6199,20 @@
       ]
     },
     {
-      "title": "AI Bubble Fears Rattle US Stocks; China Braces for Inflation and Export Data",
-      "source": "bloomingbit",
-      "publishedAt": "2026-11-08T05:29:03+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8xWDJISmdCQkZmc2twS0Vva2gtNXQtMDN1RzQ2WDZWNVMyNFN3QW9sdkM1bDVneVU5YldEUnlaLURTWVhxbEF6T3lCUXl5S0V0cG9OaQ?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "title": "Why Qualcomm Stock Fell 9% Despite Beating Earnings Estimates",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-11-08T15:14:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOEdfU3lVVFNnUG10eUlCZHZOOGlEVm5HNVJYUTNDa19nUGt0N0lscjJmYmhCN2FuLUFMUmlTRzA0LVd1NzlzdXVqSjBpazVKWFJSQ0Z5VlZudjd4U2loT2lObWlGWnFldkVlRkl6WUFwXzltSkRhWFpvU1pkdFUtdmhrZkc3ZVVpS2pta1ByWGJsaDZfZUVGdg?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
-        "Staatsanleihen",
         "Aktien",
-        "US-Dollar",
-        "Gold"
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     }
   ]
