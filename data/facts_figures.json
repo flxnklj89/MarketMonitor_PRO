@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T02:37:16.849506+00:00",
+  "generatedAt": "2026-11-10T12:21:36.336744+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -43,10 +43,10 @@
   "technicalTriggers": [
     {
       "label": "50T vs. 200T",
-      "value": 5.4,
+      "value": 5.3,
       "unit": "%",
-      "tone": "h",
-      "status": "50T liegt bei +5.4 % gegenüber dem 200T. Schlusskurs 24579, 50T 26458, 200T 25098. NASDAQ Composite (Fallback) unter 200T-Durchschnitt (25098). Längerfristiger Trendbruch.",
+      "tone": "m",
+      "status": "50T liegt bei +5.3 % gegenüber dem 200T. Schlusskurs 25253, 50T 26435, 200T 25107. NASDAQ Composite (Fallback) unter 50T (26435), aber noch über 200T (25107).",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -56,10 +56,10 @@
     },
     {
       "label": "RSI (14)",
-      "value": 33.9,
+      "value": 42.4,
       "unit": "",
-      "tone": "l",
-      "status": "RSI (14) bei 33.9. Überverkauftes Niveau – Gegenbewegung möglich.",
+      "tone": "m",
+      "status": "RSI (14) bei 42.4. Kein Extremniveau in beide Richtungen.",
       "history": [],
       "fallback": {
         "label": "Fallback: NASDAQ Composite",
@@ -69,10 +69,10 @@
     },
     {
       "label": "Drawdown vom Hoch",
-      "value": -10.9,
+      "value": -8.5,
       "unit": "%",
-      "tone": "h",
-      "status": "-10.9 % vom Hoch. Spürbare Korrektur.",
+      "tone": "m",
+      "status": "-8.5 % vom Hoch. Normales Korrekturterritory.",
       "history": []
     }
   ],
@@ -659,8 +659,8 @@
   ],
   "marketBottomProbability": {
     "title": "Market Bottom Probability",
-    "score": 52,
-    "scoreLabel": "52 %",
+    "score": 42,
+    "scoreLabel": "42 %",
     "reason": "Rezessionsrisiko begrenzt; Sahm Rule unter Warnschwelle",
     "interpretation": "Signalkonstellation weist auf mögliche Erholungsphase hin."
   },
@@ -674,8 +674,8 @@
   "timingQuality": {
     "title": "Timing-Qualität",
     "score": 0,
-    "scoreLabel": "Zu früh 29 % · Optimal 15 % · Zu spät 56 %",
-    "reason": "Bottom-Signal 52 %, Crash-Risiko 27 %.",
+    "scoreLabel": "Zu früh 23 % · Optimal 12 % · Zu spät 65 %",
+    "reason": "Bottom-Signal 42 %, Crash-Risiko 27 %.",
     "interpretation": "Leichtes Timing-Signal – noch nicht breit bestätigt."
   },
   "updateTriggers": {
@@ -702,12 +702,6 @@
   "charts": {
     "chartLabel": "NASDAQ Composite",
     "qqq": [
-      {
-        "date": "2025-08-29",
-        "close": 21455.55,
-        "ma50": 20921.97,
-        "ma200": 19299.35
-      },
       {
         "date": "2025-09-02",
         "close": 21279.63,
@@ -2501,13 +2495,15 @@
         "close": 24579.42,
         "ma50": 26457.82,
         "ma200": 25098.29
+      },
+      {
+        "date": "2026-11-09",
+        "close": 25253.14,
+        "ma50": 26434.84,
+        "ma200": 25107.04
       }
     ],
     "rsi": [
-      {
-        "date": "2025-08-29",
-        "value": 55.2
-      },
       {
         "date": "2025-09-02",
         "value": 50.3
@@ -3703,6 +3699,10 @@
       {
         "date": "2026-11-06",
         "value": 33.9
+      },
+      {
+        "date": "2026-11-09",
+        "value": 42.4
       }
     ],
     "vix": [
@@ -6112,27 +6112,9 @@
   },
   "news": [
     {
-      "title": "Asian stocks climb as sliding oil prices buoy sentiment",
-      "source": "Reuters",
-      "publishedAt": "2026-11-10T02:23:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9CVDNSVXJpWURQMkF1dUt1amw1WkxILXhVSjZyZkQxdGlBdWZvT0tqclhabXRKZC1xNlRIRmJSdkhINDVsYXlRdk9paVRCa085WWVKRTJFcm9CZWo2VzNaYU5lQ2RXbDdqb3QxdkY4SDFRb2JMVE8yemVJMA?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
       "title": "Weekly market commentary",
       "source": "BlackRock",
-      "publishedAt": "2026-11-09T19:29:30+00:00",
+      "publishedAt": "2026-11-10T07:37:05+00:00",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
@@ -6147,21 +6129,21 @@
       ]
     },
     {
-      "title": "Asian Stocks to Rally on US Tech Surge, Oil Slump: Markets Wrap",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-11-10T01:23:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNXVKNll2bkFUUU5EVDg4eTF6a3YwZ0pIS0d4bGFTdkItMkl3SkFCbGRiZFdzSmlidHZZN3I1YzF1VkVXYlM0dDJrRlRPeDRGYXp6cVBuRGVjbl9vNWxrdlRYLTl4NTRxMnRFcGtuOUROekFvUUsxdTE1R3IwWmRKRVlUVFpFTlY0WXNlWTZTa1hIdmV1?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "Fed's Waller plans to support at least a quarter-point rate hike in December",
+      "source": "Reuters",
+      "publishedAt": "2026-11-10T11:37:57+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNR3RjbDlfcXFBbHp0SVRSeHIzZHFTTnY5bjBuWGszTTMzUmxLUXNzRTFid29sbXV1emJSZWMwTEo4V2dWYjJ3TGlESmRlRzdFcDdQU3RxWi1QVEZrRlNBU0N3NG50WUNBWVdXbnZFS0RuVDNyRVdGWm1aRjFjWGRlRFRoTFhlbFMwQ1NjbTZMd2x0cnlHR0F4d2JNV3dKcHFOOE5TRFVsSlc5ekxoQ0E?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
       ]
     },
     {
@@ -6182,24 +6164,6 @@
       ]
     },
     {
-      "title": "Wall St jumps as oil slide cools inflation worries; Nvidia slumps",
-      "source": "Virginia Business",
-      "publishedAt": "2026-11-09T21:31:21+00:00",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWlJJUExTNmVJUFZVM3dfWVBCdnN5OGZVRnp4S3IyTVVVT25oOFJuamh2MF9aVXh0UzRnUGdfN1NzOExUa0Q1M05GenAzSDU2R1BHNVRfOFBTdHQxM2RoQnZuRC03WHY1WVU0b01BbndaRWpaX0ljVkxfa0RpdGFkUWJuSFdOd0VRdDlUOA?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
       "title": "Nvidia shares sink while stock market surges",
       "source": "NBC News",
       "publishedAt": "2026-11-09T21:19:50+00:00",
@@ -6214,6 +6178,41 @@
         "Aktien",
         "Anleihen",
         "Währungen"
+      ]
+    },
+    {
+      "title": "3 Consumer Stocks Trading Under 17 Times Earnings",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-11-10T10:05:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcUw2bTl1UFd3VUZOWGNKekxwX2JHSTE4enpSM2lYazFQdkdmMnA1LVhUdXB0MUt1VnpOTVRkNE9BUndtbDNrQWpQQnlhOTdfM2ZLOU8xVzE5bU1TLUsyNWRKVVVpZGVfUlhjaWRLcXQ0dl9PYWllLUp2OGdUQTNuVVp4cTZ1eXMyS0hBRGxBdjhwbDN6bXlR?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "US Stock Futures Mixed Ahead of Inflation Data as Oil Falls and Nvidia Faces Scrutiny Over CEO Investigation: Dow Jones, S&P, Nasdaq, Wall Street",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-11-10T10:08:56+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSWVDV1U1NGJSVHVBVktkNmxiSFQwZjVTN19PVnI0REF2R3REMjFzd2lmMjlKVlBOdjVvakh3SXBkZWxoS2VUb1VnaTcyWUFYOXFWUTBLVDNmVTU4cElvOEZnZnNRNGo1cjlhVUd4MGpFOFpLZ2VHb0dST1ZUSGxES3RCd2QwamsyOHV3U1FEU1N3Y3pjWi1rQQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     }
   ]
