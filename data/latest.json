@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-13T00:57:46.519019+00:00",
+  "fetchedAt": "2026-11-13T11:59:36.254526+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -96,14 +96,14 @@
       "confidence": "low"
     },
     "tradeStress": {
-      "value": 40,
-      "label": "Erhöht",
+      "value": 33,
+      "label": "Entspannt",
       "date": "2026-11-11",
       "cadence": "daily",
       "method": "proxy",
       "components": {
         "vix": 17.49,
-        "brent": 107.03,
+        "brent": 92.14,
         "eurusd": 1.1154,
         "us10y": 4.98
       },
@@ -239,9 +239,9 @@
     {
       "label": "BRENT",
       "icon": "🛢️",
-      "val": 107.03,
-      "chg": -0.36,
-      "chgPct": -0.34,
+      "val": 92.14,
+      "chg": 1.98,
+      "chgPct": 2.2,
       "unit": "USD",
       "dec": 2
     },
@@ -20586,72 +20586,90 @@
       },
       {
         "date": "2026-11-04",
-        "value": 37
+        "value": 30
       },
       {
         "date": "2026-11-05",
-        "value": 51
+        "value": 44
       },
       {
         "date": "2026-11-06",
-        "value": 54
+        "value": 47
       },
       {
         "date": "2026-11-09",
-        "value": 40
+        "value": 33
       },
       {
         "date": "2026-11-10",
-        "value": 40
+        "value": 33
       },
       {
         "date": "2026-11-11",
-        "value": 40
+        "value": 33
       }
     ]
   },
   "news": [
     {
-      "title": "Wall Street shakes with swings for Nvidia, oil prices but recovers most of its early losses",
-      "source": "Anchorage Daily News",
-      "publishedAt": "2026-11-12T20:10:35+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaUZvOVVRUkZUa0lYLXJYc2ppd1gyaWlXbkRWN2ZKajVpVVlUWjE3WmlkY01VUGVFQ3VxZnlPTVVEVTE1el85TkdXWlpWbFZVRGRSUDRYMnpnY1dDQW9hNzl6LXJWVlhwa0dIV3N1UlRsYXlFaVNVdGpaRC11c3Y2Z3djX3VvWEMwMV8zV3dGWi1iUnJnMW5rSkd1UHh1S3BiRHZHVU5SU0xza2pWUGYtbVppRQ?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "Fed's Warsh to take stock of AI revolution as US public grows wary",
+      "source": "Reuters",
+      "publishedAt": "2026-11-13T11:28:54+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWkQ4OXhSU2NkMHBKdUJoR3UxSHZZdDcwX2lwRldpTVlTdWstUGdDMExnaDVjb1ItV2kyUlNGRnlNbS04ZDVWX1hrczMxOXRnTG9MWUxFRXBMNFc5UkYwMnpFOGZsTG1KcTB5dGdlckdHRmFrdERaT1VZWkJKU0JhMER4czlvUEJXQ0JxalhaWUxyQ0pfaHh6WHZlUW1GYVBpb3RxQXVUMVpzMGc4c0E?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
       ]
     },
     {
-      "title": "Wall Street shakes following swings for Nvidia and oil prices but recovers most of its early losses",
-      "source": "WCAX",
-      "publishedAt": "2026-11-12T20:36:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSEtGamVyd010N2ZIOU44U0ZDRDU4anA3ZmFaQzU1LUhvZ1g1U3VuOVdlSkRJLU5mWVVCOEJBb2xodmhXVkRJZ1RieXI4cmEtdGNzWTBROExQVWR1dUwyYXQ0VkhEZTYwcUdOcEQxVVl4bldNUkxZM2hsNnlEb2tCNm8xelQycVJUSWVsWF85WFEyOFY0LUZPSWphVWoxWVpsUmUzZWJQaWtsNjJZLV8zU1U2U3hBcU5u?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stocks Slide on Nvidia Troubles, Oil Edges Lower: Markets Wrap",
+      "title": "US Stocks Drift Before Inflation Test of Fed Bets: Markets Wrap",
       "source": "Bloomberg.com",
-      "publishedAt": "2026-11-12T21:45:23+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYmF2Z05ObnRwSVdvWGJrWC1XZlIzVXlYMTV3eVRwQWlScGY3TGpuamVOTEpremJZQnhJU3hkOWl2ck4xNFdzQWM1VTh2OEVBQ3FCTzNiYThfOTlzSHpqX0hHeWQ3dzZTcnRsVzYtMzFWeElmZVdVWUdQcnhIbEp1SS1lejVoM2Y1OGdScGpLbzJPVWhk?oc=5",
+      "publishedAt": "2026-11-13T10:19:25+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTmVnUHB5bWw0Y052NTU5ZkNsOGdwUXVCWnIwczVnQWJKWmJiaUZta09PNGhNYVZWSENvOFVReWJIVldFcDJNcmlOQ3RyMWhHQThNcmtnU0FIZldHWHJ4NldqbkVrYUlseVNBN0xycmRrUjdFVWRQQll6MzhBUHNOS2NidGtDc01LeWlNd01WNGJxcm5E?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Trump’s tariffs face a new threat: Republicans",
+      "source": "CNN",
+      "publishedAt": "2026-11-13T10:00:15+00:00",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBNbmJUVFdDTUN5ZXd6cm9BYnAwV0dyMzVVSTJucUQ2dW0wd3RBR1ExY3ZTSlVFaFlpaHdkeTlzaXp4ajFZNlBqMURSdWczZENmcFhva2ZoR0dxazRtbllOMFluOEtyRjlTeTViRG5jYlRmdw?oc=5",
+      "bucket": "Handel / Lieferketten",
+      "summary": "Die Meldung betrifft Zölle, Sanktionen oder Logistik. Das ist wichtig, weil solche Themen Preise, Margen und Verfügbarkeit von Vorprodukten beeinflussen.",
+      "impact": "Mittel bis hoch, wenn die Störung mehrere Branchen oder Länder betrifft.",
+      "probability": "Mittel, weil politische Schlagzeilen oft erst bestätigt werden müssen.",
+      "horizon": "Sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders empfindlich reagieren Industrie, Transport, Rohstoffe, Inflationspreise und konjunktursensitive Aktien.",
+      "assets": [
+        "Industrieaktien",
+        "Rohstoffe",
+        "Inflation",
+        "Transport"
+      ]
+    },
+    {
+      "title": "Wall Street shakes with tech, oil swings but recovers",
+      "source": "The Arkansas Democrat-Gazette",
+      "publishedAt": "2026-11-13T07:44:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQVFGaHE3OXdVaEUwcVdsQTZKdWdYenVpUk9aQzJpZ3JheldfbzNleUh0WHJGbHYxVllscnAxWmdSdGxEcmtUTlFaSHRzeXFrT0x5eWcydG1vU2NtNWNLZnduaU9fMmoyakVEQXlyWU1XXzVfME1CMml3RHVXV2JVU3lmeFhySGVZUURzTm5Ia0xIS3F5S1ow?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20666,28 +20684,10 @@
       ]
     },
     {
-      "title": "Wall Street erases its early loss after absorbing big swings for Nvidia's stock and oil prices",
-      "source": "localmemphis.com",
-      "publishedAt": "2026-11-12T16:02:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPclUtWTVNLTc1QzhxR3dpT25IRzg0aktCbFgwZk1RSlhUWVgxSWFMNjV0QXF0OU9lT1lPLUZjVWZ5dDhUTnRNR290YmRjZGZqd1BILVdMdnJITnVmRXNxSmFRWmduSUlFUVo2eXBESHFwNkpBQnRKbDE4VjRDM2szSUdEUkNBcEJfOF9YNzU0TFRjTnVGM0RZQ0RuODFCMFlhVFlCQ0ROSHg1aE41aXAxblFmekg5bWJtcVlLdnhWZWhQUHFZanUzM2RrdVEzRXl2RGQzcXFuY3k?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "China steps up legal action against stock market fraud and misconduct",
-      "source": "South China Morning Post",
-      "publishedAt": "2026-11-12T07:00:08+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORXpUWldrcFVIeGZSa2dRWGZmNEdoSFY5aDhSQ0M4cDU5YjVZazlWZHN2alVrQ2lLeWJQYnN6aVFyUlZoRldXWGFSWjgyM1VNY011YnBIeW1VNkR2UWNjbUs0VEQ2d2Q2ODlFQnpGYWZSYkg2NzJsOXJadk5QMmp3MWhHTGt0cjF2QnBtOVB4bDlsNldYUGZVZlJQZG5ZeWFwWUJ3aXRkX0tnaU5nNXVVUWFQTHItUlFZbjFNVG94QkpCazdyN1Fud3Q5R0gzczc3d3Zj?oc=5",
+      "title": "China's stock backstop risks market misfire",
+      "source": "Breakingviews",
+      "publishedAt": "2026-11-13T10:36:36+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOR3NydlYxZzZZNWR6emhLbmpiZ0xBWnBUYWFWalp3OHFvTG1DenpRQ3NPcW05OTBJU09SYWhycVdOMkZZVEFZeTRxYWlZa1RmS2ZqbG9wQXY3QkhZSHJ2c0ZwOWRaYkxCeHUxT0VPRVNEUHdLRnZMYzhKYlhLVnVlN0lXRkIxckcyZnlMY3Z1SXdQdDFYSndTU2FWUmpESmtwWHE5QThlUEpoNlRu?oc=5",
       "bucket": "Globales Wachstum",
       "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
       "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
@@ -20701,20 +20701,20 @@
       ]
     },
     {
-      "title": "ERock Stock Drops After Mixed Q3 Earnings",
-      "source": "Benzinga",
-      "publishedAt": "2026-11-12T19:15:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYnJlWndaRFZyUGJoSmtHZDJfVkNGdUdMTExLb3MxRTlSNmJ6RXY3UW5hN2IwMTVFRlNwbGNqX0R5amtnRm9BVHlEVkJYdlNvWExqQlJqdkk5UUJ3aHl0RHlvWWFmS1NlTVhXcFVaUVFjWTZ6VXg4YVN6dzdQcHpwUWVvMl8yOU5BQnNzSzdlRGdVN2JuQ0kyaGEyUDVyZ09ZbHNpXw?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "Mainland China stock sentiment turns bearish again despite state-backed buying",
+      "source": "South China Morning Post",
+      "publishedAt": "2026-11-13T05:00:06+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUy1fMlZ6T2ZuaGZlRXBvZGFrR0xjVzhhQVJIU0ltZGRhQmF5WGw1Vk4tVlVWakM0TDE5T3RxZlhKX2JUUHZoYVdlWE8yVW5NNjdRVnJvQWlmZS1FaS1FZXNObjVfSWlZRUo4UjNHRnZGQXRxMGs1QmhLUUlVM2tUeEFfSkZ3S2E3Z0ZoSVRIaEtwMFE5YlZXSlBnLUZJVTJfV211RjJBYnZpY2JZQkdORUduUjJpcW1ZOXR1czFqa3E4RnB1Sy1qX3VxZHRrMmFG?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
       "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
       ]
     }
   ],
@@ -20768,9 +20768,10 @@
     {
       "id": "A",
       "title": "Basisszenario: stabile Marktphase",
-      "probability": 49,
+      "probability": 52,
       "summary": "Wachstum bleibt grundsätzlich intakt, während Belastungsfaktoren überschaubar bleiben.",
       "supportedBy": [
+        "Marktstress bleibt begrenzt",
         "Rezessionsrisiko wirkt noch nicht dominant",
         "Aktienmarkt zeigt bisher keine klare Eskalation"
       ],
@@ -20784,7 +20785,7 @@
     {
       "id": "B",
       "title": "Zwischenszenario: erhöhte Vorsicht",
-      "probability": 29,
+      "probability": 28,
       "summary": "Das Umfeld wird anspruchsvoller. Stresssignale nehmen zu, ohne bereits ein klares Eskalationsbild zu erzeugen.",
       "supportedBy": [
         "Marktstress ist sichtbar erhöht",
@@ -20800,13 +20801,13 @@
     {
       "id": "C",
       "title": "Stressszenario: defensivere Marktphase",
-      "probability": 22,
+      "probability": 20,
       "summary": "Mehrere belastende Signale greifen gleichzeitig ineinander und erhöhen die Wahrscheinlichkeit einer klaren Risk-off-Phase.",
       "supportedBy": [],
       "probabilityChange": {
-        "direction": "stable",
-        "label": "stabil",
-        "reason": "Die Wahrscheinlichkeit bleibt stabil, weil die Belastung zwar sichtbar ist, aber nicht klar weiter eskaliert."
+        "direction": "down",
+        "label": "fällt",
+        "reason": "Die Wahrscheinlichkeit fällt, weil die Belastung nachlässt oder keine breite Bestätigung findet."
       },
       "investorMeaning": "Für Anleger wäre dieses Bild ein Hinweis auf erhöhte emotionale Disziplin und vorsichtigere Interpretation von Risiken."
     }
@@ -20814,13 +20815,13 @@
   "hero": {
     "phase": {
       "label": "Erhöhte Vorsicht",
-      "score": 40.0,
+      "score": 33.0,
       "summary": "Das Gesamtbild bleibt geordnet, zeigt aber mehr Spannungen als in einer ruhigen Normalphase.",
       "interpretation": "Der Fokus verschiebt sich von Routine hin zu erhöhter Aufmerksamkeit.",
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-11-13T00:57:46.519019+00:00",
+      "dataAsOf": "2026-11-13T11:59:36.254526+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
