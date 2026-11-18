@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-17T23:25:01.516808+00:00",
+  "fetchedAt": "2026-11-18T06:51:12.461640+00:00",
   "meta": {
     "schemaVersion": "4.0-pro",
     "source": "FRED + Google News RSS",
@@ -120,7 +120,7 @@
   "globalComposite": {
     "value": 39.3,
     "label": "Stabil",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
   },
   "regions": {
     "europe": {
@@ -936,10 +936,6 @@
       }
     ],
     "fedRate": [
-      {
-        "date": "2020-11-18",
-        "value": 0.09
-      },
       {
         "date": "2020-11-19",
         "value": 0.08
@@ -10432,10 +10428,10 @@
   },
   "news": [
     {
-      "title": "Stocks Fall in Countdown to Nvidia’s Earnings Test: Markets Wrap",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-11-17T20:15:59+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSHFoREFNUWJRYTJxR0pTRnpHM2Q1NlhjQ1pjN0w3U1FWM09sclNuMlVNLWx4YXF0TURpOEdtSk9sc3BXTEpBakhLd21neWhod2pvZ1hRNVAtZWxNTlZmUXl4TXNJQ0MyTTFqa0tpRGVmOVpQZlRidlZzYkFLYnlNSXduLUtPSXo3QUJ0aVhlM0xWVFNh?oc=5",
+      "title": "Asia stocks choppy after Nvidia earnings as Anthropic pricing looms",
+      "source": "Reuters",
+      "publishedAt": "2026-11-18T01:46:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB6allzaTc1SU8zUmVIeXRZRkU2dE9reVo1MXBLSllnX0lsb1FmemdwR2RnNzZvQ0tqSzR6cTgzVHI2bGlYWWxxLTJWY3V4OXBrczR5OXF5ZkdNQnBfak1tYUs1NlVOQVVSLTdacXdnaEt0Y2VHVmM4NEN2WQ?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -10449,45 +10445,10 @@
       ]
     },
     {
-      "title": "Fed's Warsh sees risk of stock bust if AI boom disappoints",
-      "source": "Axios",
-      "publishedAt": "2026-11-17T14:35:13+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IWXhxT19LOGhnTFRsRDZXVGRrR0dDWEctMkhndGtmMEpLMEdDTWhVVzFxRkRSX0ZqbnNVSXJnNm1tWmxkdjQ5Z1BXQmZtVlVNamdjWW02dWV4Q1hwX3ZZak8tRjE5N0tM?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "Stock Market Today, November 17, 2026 : Nvidia Earnings Loom as Wall Street Awaits First Report Without Jensen Huan, Dow and Nasdaq Slide",
-      "source": "Eurasia Business News",
-      "publishedAt": "2026-11-17T21:09:01+00:00",
-      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQTkRNRnNwb2otWVg5VFNDVm5Xd29iNUdHeEE3M2hFbF9PbUpBU01yY3JvVGlXallxTTVhZXhiSFdLNHlBbGgtMUZXVVRTM3JMZHM0cW1nY3RIS3VmUUtWYTMxUDd3ZVBsWEtpaE12dWVtVzZjc0l5Y0c2MnJGUGp0NnctSDhCVE0zbDRZc1NXb0lOUjVtRTRSQkQ0SThZYzFYdDByYmN2a2RMOElkSWtfdzVNWDIxRlRSYW16X2p5MkswYWNTdUNNX0tpUWpyOURsR3ZYa2oyREM2aHc5NUNSUUQyazRRRVZ2ZFVLeVhoMHdTY0JUR2NwQjVOUzdpcGJoY0FSRDRYYw?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Prediction: The Stock Market Will Make a Big Move on Nov. 18 (Hint: Nvidia Will Be the Catalyst)",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-11-17T10:08:02+00:00",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSE9NWUhoUFFKcm0wbzBUNi1MMmlkNmNFVU80UmFkYVFOOHVuRlByem91azAxZW1LTUJtWU55czVCQjZHd2JzcnlvQ0E4S0dXSFREbE1fY01YS3RETW45YzNwSV9xSTlLNTVzbzVFSmxxX19sWFd5aTltQUVLMTh4WVcxVV9URC1oS1VrMk9HdXVkRXRJWVVDclRCVDd5dw?oc=5",
+      "title": "Asian Stocks to Fall, Nvidia Sales Outlook Beats: Markets Wrap",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-18T04:58:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUHhZZG5FcFhON3BCMkRyY201M2FVdVRTaUF2a29ScWc3ZTd4TkI1Zm44SXNOcmZoOE9tN29nalFxMllaQV9ZQVp5SFNKbFlmVWtxVmtjdGl4WVVRRnpFeVZaVjVCVGozeFVWYzF6NnM1dERENnQ5SWpLTlNsejBDS21mS2k2aUhQeHZHNU80V2dvbG9h?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -10501,10 +10462,62 @@
       ]
     },
     {
-      "title": "Fed's Williams still favors tighter monetary policy, but says now is not the time for 'dramatic action'",
+      "title": "Who keeps crashing China’s stock market?",
+      "source": "The Japan Times",
+      "publishedAt": "2026-11-18T01:46:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQ01KNUZPc2JqYVlER2xYY20yLW9VUHB2SGNwUTFZaGd1ZHBHTjNIT2lRMTkzNUg3aEVwcHk2QU1WcFQzY2t4VDh1TGExTnFoeHZyNzFaeURlUVZ1VU04ZWJOZ1ltVGx5S0MwN1RKcXNCNzZRNWdHNVNnbTU3Tm05YmtVTm82SzBEQVNGbWtYVzVYa3I5blE?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
+      "title": "Oil prices fall as higher US crude stocks temper supply risks",
       "source": "Yahoo Finance",
-      "publishedAt": "2026-11-17T20:16:43+00:00",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTHhPSkd5QlM5OFgyRzN5cXROaWxqZTVlVFBSSTg4UTQ2WkZvaHlKMVpETV9HQ1VROW42RTVYQ3Nva00tQVQ0UWRGaXdnalktbjdCblE3cnhGQzQtNGVyMWd6bHd2V0FkVlhxTmZLNWhvendPeDNKMjB5Mk1EcWhFNmdYSUxyYW9iTVF6MFdxMnBEekstTGgwTkY1anBBOHd3?oc=5",
+      "publishedAt": "2026-11-18T02:16:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdmhIQzJhN1JEQzNsSUx1a2FSRUZfUmtiVnp5el9ycjVxNkc3d3JxRTdQbVlaN2xmX045dGF0ZTF4RjlqNWIwU3h5bV9aVGY0NVZEMUpqa29GZ1RaN1VKWmF0ODJOaGFZbW9WTUJJSVF3empfNV92RFhXUlhITWg5WWVUT1YwQ0EtWHc?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Morgan Stanley sends strong signal on where stocks are headed",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-11-17T20:47:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQWJkWDh4b3lBc3lXdHJRUWV5bjNqUC1fd19OckNLYXRPZXp4S1RXWUd5bzN4REt0aGtHR1ktLWhWX19WMzh1NVhCSV82Zzk0VUR2ZHd0OVplRmdoM3hTc28weUwta3hQLTNoZzhwLU5fdzlKLWNydF9XNXNWTTRIUUF1aHJwV1FxSFl5MmE5S0hIcWY4bEtkTmQxS0JhT1pq?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Dollar holds near 19-month high as data supports case for US rate hikes",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-11-18T01:34:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRS1EYUhITWsxV1EyUmc5V21qQzNLaVoyTmN2Mm9ieGRFVTEzQ05XdzB1TVdxdFF4YS0zdUVnTFN2SE8xVlRlRUplUnVDUGZQRFIxSnJTNFFZbXgtWF92MTRTc1dpS0w4ejVtMUNia3NmREJBTDZNajZxRVp2eTZSbUdEbERxdTZDRklQWGlWM1lHN1dSVmNXVmlDZw?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -10516,23 +10529,6 @@
         "Aktien",
         "US-Dollar",
         "Gold"
-      ]
-    },
-    {
-      "title": "Prediction: Dec. 9 Will Mark a Turning Point for the S&P 500",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-11-17T14:47:02+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPN1VBUmFDZ3dGMmNXM244dThkRmVueXg1a1pHZEJMeVQ1a1otbWtVVXlSNDgxMDFWdmVqbmFjeGQ1OWIwLVdEZzBnbWtjb0R6WUNDbGxaWHRFQWJ4aFFqSGkwSzkyaDlNQ3VFWmk0Y3BQdXZsUWVtR0lIZEI4WDJpbTJWVlZxMUhuZlhCaHJDN1JMaUVCR09HZVZB?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     }
   ],
@@ -10638,7 +10634,7 @@
       "actionMatrixKey": "caution"
     },
     "statusLine": {
-      "dataAsOf": "2026-11-17T23:25:01.516808+00:00",
+      "dataAsOf": "2026-11-18T06:51:12.461640+00:00",
       "updateCadence": "Gemischt: täglich bis jährlich",
       "systemNote": "Technische Meta-Informationen werden bewusst dezent gehalten."
     }
