@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T16:05:41.643013+00:00",
+  "generatedAt": "2026-11-23T00:40:17.056672+00:00",
   "meta": {
     "schemaVersion": "1.0",
     "sourceSummary": [
@@ -6112,6 +6112,23 @@
   },
   "news": [
     {
+      "title": "Stock market: China eases rules on stock purchases on credit",
+      "source": "Table.Briefings",
+      "publishedAt": "2026-11-22T22:05:27+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaXJmNC16ZV9zYVZJbHBoTURtUDZOdFlkcWtReDBPQkNqMU9pUllacUdLUHZXOXFYbDZ6UDFvWnFtUVRCSWNDVktGbElZSDAzcDk1UGxIY0d6ZVZYc2JxUXZmZ2syMk9ZSnNUZmlQYkZLbGhZMkk5cURTVEFBenhNNWlFY29oc19ENmVZbDNDWnEyOFpqSnpreA?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
       "title": "A battered stock market looks for the bottom: What to watch this week",
       "source": "Yahoo Finance",
       "publishedAt": "2026-11-22T10:00:00+00:00",
@@ -6129,10 +6146,10 @@
       ]
     },
     {
-      "title": "GLOBAL MARKET CALL: Stocks Are Cheaper Everywhere",
-      "source": "Yardeni QuickTakes",
-      "publishedAt": "2026-11-22T13:04:30+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUWNBdUxFWGJWVjBXbE1NeExCdXlJc0tKSm9oalo4Q3VPSk5yNFFwVGdsYnRKWk51c183VVBSTFBvOWttTWlIQzZtV1BNOTdIUFViRVJSVVlIRHp5cUpjZW9zd0ZZV0FDQWVMREZaMUg4WlN1MFVzWkJTb1JoYkdDTkNwZnR3VXNjaXR3?oc=5",
+      "title": "Everyday Economics: The stock selloff could hit spending",
+      "source": "The Center Square",
+      "publishedAt": "2026-11-22T17:07:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaDhWVVJjQy1QV1RmRGM3UzQ3Ny13LTZoTm1PM01rQmlDR1d4eW5RaG1KVmJyQUdWNE8yZGFYb0RYWTVYMDExMzByTGd4UDUydWhzdENtQWdEUFNseTI1VmhFcDFLaVZkNm43a1haa0JMazRtbXB5ekl6UDcxZDRiUGpLcjczak9yNDhaWmo3TEJQdGFB0gGaAUFVX3lxTE5kbkZGa1lTUUNHbDJFMFY5cDhGYkFUMzcyTmR1OG1TODlicEtFV1J6VzBIek12OTNKVS1sVzBsa3lyTWtfMGVLbU42X0ZRcTBzTEJRXzdpYi16czZ4SzFhcGJtMXlVMnk3d28zZTY1SUVJTU9vak11SUlEWElobWJ3MXhiUEJRU1VuOThqcWtLX0pLX3NCSnhjSHc?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -6146,71 +6163,56 @@
       ]
     },
     {
-      "title": "The AI bust is a growing threat to China's economy and a 'moment of real danger' for President Xi Jinping, analyst warns",
-      "source": "Fortune",
-      "publishedAt": "2026-11-21T21:45:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZG5tbmx0N1dqVUw3NEtYNF9DU21hdXZNMlIzX21VV1ZrTG5wNWNlT0V2VVhhOFBsUjdHMFFaZW1sQVg1b2xZeWlodm1tREVoWTluTHhZWnMzVUl6a2JqcE5nblpZS1hlSjZRS2ZqNV95OFBTa05wUlpWMWJrUmlnTDhHazRXWEpHZW5yV1hPWGx4a21XYnZV?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "title": "Can Gold and Bitcoin Tell Us When the Stock Market Has Bottomed?",
+      "source": "Substack",
+      "publishedAt": "2026-11-22T23:18:09+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOOUNqR3VHX3p0Y2NxNElFRnppM3FTWDZUTGFrenkyaDdVd0l0TWsyazdXUVVyOEphV3k2dks1SG1zenlYRTFzRmxtUHcxSnB3b3htU04tSndidGw2ZHByc0F3QXZvRTh4SnFsUW9RU01fdWN4STZycEdsUzhIV2pzZy1R?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
-      "title": "China Lowers Margin Requirement to 80% to Boost Stock Liquidity",
+      "title": "Wall Street Strategists See Silver Lining for Stock Market",
+      "source": "Barron's",
+      "publishedAt": "2026-11-22T19:46:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVGVBc1ZvVkN3NHA2dnQzbEFQeEtsanRGYWluMXRLamVkZHNRYlZyWnZXMnRHQzk2SWhuSjh6Xy1ySGE5blRiZXA1ck1RM3pyMEZiX1RickFIVzBxa3NGejJNN1RGcFQ3cURNd05pVGNFZjFHM3dHV2RxTVZhWWU3eUhKb1JqM3RUcEQtc3ItN1lHVUh1Smc1dmNvZjJ4QQ?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Bond Market’s Go-To Trade for Fed Hikes Roiled by Stocks Retreat",
       "source": "Bloomberg.com",
-      "publishedAt": "2026-11-22T12:25:17+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQ0lsWGMtQzFaN3pHeFA3ZFVNLWdHN0lDcVZESDA4UFZUVlVpXzhTdllpOHhTZDBzX2pvT3dEdDNZS1laUnh0bzVWZS16WXZyYlVvTW5qU3VVOXVzSzFVTlRWbzB2eFhoS0VVVk14WGU0aGQxLUxaOG1Gb01lTURmMERJaDhEVkVoNXdxdFNLTVZLdXFGWjZ4WWJWajV4NmZaTEhuUmFLY1BzVHQxQTRoZ1l4WQ?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "publishedAt": "2026-11-22T20:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWmRPX29ITVVwcjVDVWpENEUyaFJ5alFtbVBxTzc0OWZoNkozOW9GZ3UwT3NBOGM5aUtxdm5SbjdYYmNxR3NIWVY1LWFaRUhINmRmdmxYaHlKRzY5dlBnQ3JaYkdlZU1XbVFRcnBDTkcyb1hPNG5pblZkUV9MdEd2S25aSE1TWWFzLXVrQzc0YkxQVTY1MnJYbV82TzgteDJKN2YyWmNneXY1aTg5NURYNFJzcDRxQQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
-      ]
-    },
-    {
-      "title": "China to cut minimum margin requirement to bolster stock market",
-      "source": "China Daily Global Edition",
-      "publishedAt": "2026-11-22T12:46:17+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObzNMNHJZR21kNmNBNlhVVVJxa2RPLTg4MU50T0hNcjVsaVVxRUhSOW1SLVhTRjhMdl9fak5yQ3lseTlrdzhLOUNocG1QSl8ybU1nVGlsMV9Ha3FlZDFkZWFYT2FrLUQzWkI5VURQRUFsMy1VaG1DMEFOZDA2MDFJUWVB?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
-      ]
-    },
-    {
-      "title": "The Stock Market Sounds an Alarm as Investors Get Bad News About President Donald Trump's Economy",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-11-22T09:21:02+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORHRRWGxWaHJPRXdvQktCSmhHM0lDVHg2SmdBZktmNVVKQ01CS0E4LWdfZVM5bDN5eWgzaXh0bXBrQmd4OFRkOTF5YUZUU2FCcUdoamxudVFCaDlTc3NhN0I5aHlsR1UxRmhpVGE5eFNZSDNXakdyaFdrMHdQVmFLSjAzV1JvYkxzdEhBOWU0N2szb3RFY2E0UVRMek94bHhJX3lr?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     }
   ]
